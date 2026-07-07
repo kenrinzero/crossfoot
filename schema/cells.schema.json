@@ -1,0 +1,117 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "crossfoot/cells.schema.json",
+  "title": "Crossfoot cell file",
+  "type": "object",
+  "required": ["table_id", "source", "columns", "rows", "cells", "relations"],
+  "additionalProperties": false,
+  "properties": {
+    "table_id": { "type": "string", "minLength": 1 },
+    "source": {
+      "type": "object",
+      "required": ["path", "table"],
+      "additionalProperties": false,
+      "properties": {
+        "path": { "type": "string", "description": "repo-relative vendored source" },
+        "table": { "type": "string", "description": "table number/title in the source" },
+        "page": { "type": "integer", "minimum": 1 },
+        "title": { "type": "string" },
+        "period": { "type": "string" }
+      }
+    },
+    "unit_note": { "type": "string", "description": "table-level scale, e.g. 'USD millions'" },
+    "columns": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["index", "label"],
+        "additionalProperties": false,
+        "properties": {
+          "index": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["index", "label"],
+        "additionalProperties": false,
+        "properties": {
+          "index": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string" }
+        }
+      }
+    },
+    "cells": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "row", "col", "value", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string", "pattern": "^r[0-9]+c[0-9]+$" },
+          "row": { "type": "integer", "minimum": 1 },
+          "col": { "type": "integer", "minimum": 1 },
+          "value": {
+            "type": "string",
+            "pattern": "^-?[0-9]+(\\.[0-9]+)?$",
+            "description": "decimal STRING — floats are forbidden by design"
+          },
+          "role": { "enum": ["leaf", "total", "standalone"] },
+          "unit": { "type": "string" },
+          "why": { "type": "string", "minLength": 8 }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "role": { "const": "standalone" } } },
+            "then": { "required": ["why"] }
+          }
+        ]
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "required": ["type", "sources", "target"],
+            "additionalProperties": false,
+            "properties": {
+              "type": { "const": "sum" },
+              "sources": {
+                "type": "array", "minItems": 2,
+                "items": { "type": "string", "pattern": "^r[0-9]+c[0-9]+$" }
+              },
+              "target": { "type": "string", "pattern": "^r[0-9]+c[0-9]+$" },
+              "tol": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$" },
+              "why": { "type": "string", "minLength": 8 },
+              "note": { "type": "string" }
+            }
+          },
+          {
+            "type": "object",
+            "required": ["type", "sources"],
+            "additionalProperties": false,
+            "properties": {
+              "type": { "const": "percent-closure" },
+              "sources": {
+                "type": "array", "minItems": 2,
+                "items": { "type": "string", "pattern": "^r[0-9]+c[0-9]+$" }
+              },
+              "total": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$" },
+              "tol": { "type": "string", "pattern": "^[0-9]+(\\.[0-9]+)?$" },
+              "why": { "type": "string", "minLength": 8 },
+              "note": { "type": "string" }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

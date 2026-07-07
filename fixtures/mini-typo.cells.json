@@ -1,0 +1,27 @@
+{
+  "table_id": "fixtures/mini-typo",
+  "source": { "path": "fixtures/", "table": "synthetic harness fixture", "title": "Mini typo (must go RED)" },
+  "unit_note": "synthetic — single-cell typo: r2c1 transcribed 4 instead of 3",
+  "columns": [
+    { "index": 1, "label": "Count" },
+    { "index": 2, "label": "Share (%)" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Alpha" },
+    { "index": 2, "label": "Beta" },
+    { "index": 3, "label": "Total" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "2", "role": "leaf" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "4", "role": "leaf" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "5", "role": "total" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "40.00", "role": "leaf" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "60.00", "role": "leaf" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "100.00", "role": "total" }
+  ],
+  "relations": [
+    { "type": "sum", "sources": ["r1c1", "r2c1"], "target": "r3c1" },
+    { "type": "sum", "sources": ["r1c2", "r2c2"], "target": "r3c2" },
+    { "type": "percent-closure", "sources": ["r1c2", "r2c2"] }
+  ]
+}

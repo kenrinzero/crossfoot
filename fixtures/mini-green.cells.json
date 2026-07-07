@@ -1,0 +1,33 @@
+{
+  "table_id": "fixtures/mini-green",
+  "source": { "path": "fixtures/", "table": "synthetic harness fixture", "title": "Mini green" },
+  "unit_note": "synthetic — harness self-test, not corpus data",
+  "columns": [
+    { "index": 1, "label": "Count" },
+    { "index": 2, "label": "Share (%)" },
+    { "index": 3, "label": "Decimal trap" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Alpha" },
+    { "index": 2, "label": "Beta" },
+    { "index": 3, "label": "Total" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "2", "role": "leaf" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "3", "role": "leaf" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "5", "role": "total" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "40.00", "role": "leaf" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "60.00", "role": "leaf" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "100.00", "role": "total" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "0.1", "role": "leaf" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "0.2", "role": "leaf" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "0.3", "role": "total" }
+  ],
+  "relations": [
+    { "type": "sum", "sources": ["r1c1", "r2c1"], "target": "r3c1" },
+    { "type": "sum", "sources": ["r1c2", "r2c2"], "target": "r3c2" },
+    { "type": "percent-closure", "sources": ["r1c2", "r2c2"] },
+    { "type": "sum", "sources": ["r1c3", "r2c3"], "target": "r3c3",
+      "note": "0.1 + 0.2 == 0.3 exactly — passes only under Decimal; binary floats would fail this (regression lock for DESIGN.md par.2)" }
+  ]
+}

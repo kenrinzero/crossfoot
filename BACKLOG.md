@@ -1,0 +1,35 @@
+# Crossfoot — Unit Manifest
+
+One unit = ONE vendored source table → one `tables/<family>/<table-id>.cells.json`
+that makes `python reconcile.py <file>` exit 0 **with zero coverage
+warnings** and ≥ `expected_relations_min` declared relations. Transcription
+units never edit `reconcile.py`, the schema, or vendored sources; new
+relation types are separate harness units (DESIGN.md). Every 10th shipped
+unit triggers a non-arithmetic spot-audit by a different agent (AUDITS.md).
+
+Source vendoring is its own T1/web unit — a transcription unit only ever
+reads `sources/` locally.
+
+## Starter units (READY — sources vendored 2026-07-07)
+
+| unit | source | table | min relations | types | size cap | status |
+|---|---|---|---|---|---|---|
+| treasury-mts/2026-05-receipts | `sources/treasury-mts/mts-202605.pdf` | Table 4 — Receipts of the U.S. Government (May FY2026) | 10 | sum | ≤ 120 cells | READY |
+| sec-10k/aapl-fy2023-balance-sheet | `sources/sec-10k/aapl-fy2023-balance-sheet-R5.htm` | Consolidated Balance Sheets (two fiscal-year columns; flagship: per-column roll-ups + assets = liabilities + equity) | 12 | sum | ≤ 140 cells | READY |
+| census-p60/2023-income-a1 | `sources/census/p60-282.pdf` | Table A-1 — Households by Total Money Income (income brackets sum to total; percent distribution closes to 100) | 8 | sum, percent-closure | ≤ 150 cells | READY |
+
+## Queued (need vendoring or sizing first)
+
+| unit | note |
+|---|---|
+| bls-cpi/relative-importance-2024 | **Vendoring browser-gated** (bls.gov Akamai 403s curl AND Windows TLS — verified 2026-07-07). Needs Kenrin or a browser-capable session to save `https://www.bls.gov/cpi/tables/relative-importance/2024.htm` into `sources/bls-cpi/`. Superb crossfoot density (weights sum hierarchically to 100.000). |
+| treasury-mts/2026-05-outlays | Same vendored PDF, Table 5 (outlays by agency) — size/split decision needed (may exceed cell cap → sub-table units). |
+| fec/2024-presidential-general | Election returns family; vendor the official FEC results PDF first (T1/web unit). |
+| omb/budget-appendix-slice | Budget appendix family; pick one agency chapter, vendor, size-cap check. |
+
+## Harness units (explicitly scoped; dispatch when needed)
+
+| unit | note |
+|---|---|
+| tier1/strict-coverage-default | Flip `--strict-coverage` to the default; add a manifest column for granted `standalone` waivers. Do after the three starters are green. |
+| tier4/weighted-average-relation | New relation type — only when a queued source actually needs it. |
