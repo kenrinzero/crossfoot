@@ -25,7 +25,7 @@ crossfoot text, read it as D2.
   text layer emits `(cid:NN)` tokens — decode `chr(NN+29)`, then verify
   against the render (footnote markers glue onto values: see BACKLOG).
 - PDF units therefore want a **vision-capable** agent (the render check is
-  mandatory discipline, not decoration). The HTML unit (Apple) does not.
+  mandatory discipline, not decoration). HTML units (Apple, BLS) do not.
 - The gate for every transcription: `uv run python reconcile.py <file>`
   GREEN with 0 warnings (strict coverage is now default), relations ≥ manifest
   minimum, `uv run pytest` still green, one new file only.
@@ -34,33 +34,60 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. treasury-mts/2026-05-receipts-detail — **D2** · local-only · vision needed (PDF)
-Slice the remainder of Table 4 (~160 cells) into ≤120-cell units and ship
-the first. Suggested cut (verify before trusting): the Employment &
-General Retirement subtree is ~105 cells and self-contained (OASI/DI/HI
-pyramids — dense sum structure). Add the slice rows to BACKLOG first.
-**Why D2:** the slicing decision + footnote-marker hazards (BACKLOG)
-demand judgment; pure transcription of a decided slice would be D3.
-
-### 2. bls-cpi/relative-importance-2024-housing — **D2** · local-only · HTML
+### 1. bls-cpi/relative-importance-2024-housing — **D2** · local-only · HTML
 Transcribe the Housing slice from the vendored BLS relative importance
 table (`sources/bls-cpi/relative-importance-2024.htm`). 54 rows × 2 columns
 = 108 cells; dense sum structure (shelter + fuels/utilities + furnishings
 subtotals all rolling up to Housing). Already sized and added to BACKLOG
 starter units. **Why D2:** HTML transcription is well-specified; the
-slicing decision was already made in the vendoring unit.
+slicing decision was already made in the vendoring unit. First BLS unit —
+whoever takes it settles the extraction pattern the remaining ~6 BLS
+slices will reuse (those then drop to D3).
+
+### 2. treasury-mts/2026-05-receipts-si-remainder — **D3** · local-only · vision needed (PDF)
+Decided slice (3 of 4) of Table 4: Unemployment Insurance + Other
+Retirement blocks + re-anchored E&GR/SI&R total rows (~66 cells, ~33
+relations — expect ~8 tol-1 with the page's quoted rounding note; spec
+and expected structure in BACKLOG). **Why D3:** slicing judgment already
+spent; deterministic against the oracle. **Hazard (why vision is
+non-negotiable):** footnote marker ¹ glues onto Fed Employees' Retirement
+FYTD gross in the text layer ("15,514" — printed value is 5,514).
+
+### 3. treasury-mts/2026-05-receipts-tax-detail — **D3** · local-only · vision needed (PDF)
+Decided slice (4 of 4) of Table 4: IIT sub-rows (gross columns only) +
+Excise + Miscellaneous sub-rows + re-anchored parent totals (~83 cells,
+~34 relations, ~10 tol-1). **Why D3:** same as slice 3. **Hazard:**
+footnote marker ² glues onto All Other FYTD gross ("210,155" — printed
+value is 10,155). Note: single-source decompositions (e.g. Misc refunds
+columns where only All Other prints a value) cannot be declared (schema
+minItems 2) — role such printed totals as leaves feeding row identities,
+per the pattern set in the majors slice.
 
 ## Not yet sequenced
 
-- treasury-mts/2026-05-outlays — Table 5 size/split decision, then units.
+- Remaining BLS slices (~6 units after housing: Food×2-3, Apparel+Transport,
+  Medical+Recreation, Education+Other, aggregates) — **D3 once housing
+  settles the pattern**; split proposal in BACKLOG's queued row.
+- treasury-mts/2026-05-outlays — Table 5 size/split decision (D2), then units.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
-- Spot-audit at unit 10 — **D3**, MUST be a different agent than the
-  transcribers (DESIGN § 6), non-arithmetic checks → AUDITS.md.
+- **Spot-audit at unit 10 is approaching** — 4 units shipped; after the
+  three queue items above it's 7. The audit is **D3**, MUST be a different
+  agent than the transcribers it samples (DESIGN § 6), non-arithmetic
+  checks (labels/units/periods + 10 sampled cells vs source) → AUDITS.md.
 
 ---
 
 ## Shipped
+
+- 2026-07-13 · treasury-mts/2026-05-receipts-employment-retirement (D2,
+  went to Claude Fable 5) — E&GR subtree slice; 105 cells, 36 relations
+  (18 fund roll-ups, 9 subtree roll-ups, 9 row identities), 6 tol-1 with
+  quoted rounding note; strict-default GREEN. Commit `3cd6da7`. Hindsight:
+  D2 was right for the *slicing* (the queued "likely 2 units" became 3 —
+  105/66/83 once re-anchor rows were counted); the two remaining slices
+  are decided → queued as D3. Source's "Attrbutable" typo landed here,
+  transcribed as printed.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024 vendoring (D1, Kimi Work) —
   Vendored `https://www.bls.gov/cpi/tables/relative-importance/2024.htm`
@@ -73,7 +100,7 @@ slicing decision was already made in the vendoring unit.
   (Food/Apparel/Transportation/Medical/Recreation/Education/Other/
   Aggregates) stay queued with proposed split sizes.
 
-- 2026-07-13 · tier1/strict-coverage-default (D2, harness) —
+- 2026-07-13 · tier1/strict-coverage-default (D2, harness, Zed) —
   Flipped `--strict-coverage` to default in `reconcile.py`; added
   `standalone waivers` column to BACKLOG.md manifest; all three shipped
   tables + fixtures pass strict coverage (mini-uncovered still RED under
