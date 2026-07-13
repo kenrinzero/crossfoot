@@ -1,0 +1,1240 @@
+{
+  "table_id": "treasury-mts/2026-05-receipts-employment-retirement",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 4. Receipts of the U.S. Government, May 2026 and Other Periods",
+    "page": 9,
+    "title": "Employment and General Retirement subtree (slice 2 of 4 of Table 4): OASI/DI/HI trust-fund pyramids + Railroad Retirement rows + subtree total. Self-contained: no cell overlaps another unit's table. Sibling slices: 2026-05-receipts (majors), -si-remainder and -tax-detail (queued).",
+    "period": "May FY2026 (This Month = May 2026; FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells (legend: '... No Transactions') are omitted, not transcribed as 0. Values as printed, thousands separators stripped. Row 4's label reproduces the source's own typo 'Attrbutable' (OASI block, verified against the page render); the DI/HI blocks print 'Attributable' correctly.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Receipts"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Refunds (Deduct)"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Receipts"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Receipts"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Refunds (Deduct)"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Receipts"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Receipts"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Refunds (Deduct)"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Receipts"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Federal Old-Age and Survivors Insurance Trust Fund / Federal Insurance Contributions Act Taxes"
+    },
+    {
+      "index": 2,
+      "label": "Federal Old-Age and Survivors Insurance Trust Fund / Self-Employment Contributions Act Taxes"
+    },
+    {
+      "index": 3,
+      "label": "Federal Old-Age and Survivors Insurance Trust Fund / Adjustments Attributable to Prior Years-FICA"
+    },
+    {
+      "index": 4,
+      "label": "Federal Old-Age and Survivors Insurance Trust Fund / Adjustments Attrbutable to Prior Years-SECA"
+    },
+    {
+      "index": 5,
+      "label": "Total -- Federal Old-Age and Survivors Insurance Trust Fund"
+    },
+    {
+      "index": 6,
+      "label": "Federal Disability Insurance Trust Fund / Federal Insurance Contributions Act Taxes"
+    },
+    {
+      "index": 7,
+      "label": "Federal Disability Insurance Trust Fund / Self-Employment Contributions Act Taxes"
+    },
+    {
+      "index": 8,
+      "label": "Federal Disability Insurance Trust Fund / Adjustments Attributable to Prior Years-FICA"
+    },
+    {
+      "index": 9,
+      "label": "Federal Disability Insurance Trust Fund / Adjustments Attributable to Prior Years-SECA"
+    },
+    {
+      "index": 10,
+      "label": "Total -- Federal Disability Insurance Trust Fund"
+    },
+    {
+      "index": 11,
+      "label": "Federal Hospital Insurance Trust Fund / Federal Insurance Contributions Act Taxes"
+    },
+    {
+      "index": 12,
+      "label": "Federal Hospital Insurance Trust Fund / Self-Employment Contributions Act Taxes"
+    },
+    {
+      "index": 13,
+      "label": "Federal Hospital Insurance Trust Fund / Adjustments Attributable to Prior Years-FICA"
+    },
+    {
+      "index": 14,
+      "label": "Federal Hospital Insurance Trust Fund / Adjustments Attributable to Prior Years-SECA"
+    },
+    {
+      "index": 15,
+      "label": "Total -- Federal Hospital Insurance Trust Fund"
+    },
+    {
+      "index": 16,
+      "label": "Railroad Retirement / Rail Pension and Supplemental Annuity"
+    },
+    {
+      "index": 17,
+      "label": "Railroad Retirement / Social Security Equivalent Account"
+    },
+    {
+      "index": 18,
+      "label": "Total -- Employment and General Retirement"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "92927",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "92927",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "734105",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "734105",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "694550",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "694550",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1167",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "1167",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "38518",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "38518",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "36283",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "36283",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "-921",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "-921",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "-5339",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "-5339",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "-282",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-282",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "3059",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "3059",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "94094",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "94094",
+      "role": "total"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "771421",
+      "role": "total"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "771421",
+      "role": "total"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "728553",
+      "role": "total"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "728553",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "15780",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "15780",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "124659",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "124659",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "117943",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "117943",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "198",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "198",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "6542",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "6542",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "6161",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "6161",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-284",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-284",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "-905",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-905",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-45",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-45",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "522",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "522",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "15978",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "15978",
+      "role": "total"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "130872",
+      "role": "total"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "130872",
+      "role": "total"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "123721",
+      "role": "total"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "123721",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "30885",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "30885",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "259451",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "259451",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "247225",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "247225",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "547",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "547",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "18129",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "18129",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "16361",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "16361",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "-653",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-653",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "-677",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-677",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "-363",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "-363",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "2006",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "2006",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "31432",
+      "role": "total"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "31432",
+      "role": "total"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "276564",
+      "role": "total"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "276564",
+      "role": "total"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "264915",
+      "role": "total"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "264915",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "334",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "327",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "2556",
+      "role": "total"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "2554",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "2632",
+      "role": "total"
+    },
+    {
+      "id": "r16c8",
+      "row": 16,
+      "col": 8,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "2619",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "269",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "263",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "2326",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "2324",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "2220",
+      "role": "total"
+    },
+    {
+      "id": "r17c8",
+      "row": 17,
+      "col": 8,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "2208",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "142107",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "142094",
+      "role": "total"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "1183739",
+      "role": "total"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "4",
+      "role": "total"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "1183735",
+      "role": "total"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "1122040",
+      "role": "total"
+    },
+    {
+      "id": "r18c8",
+      "row": 18,
+      "col": 8,
+      "value": "24",
+      "role": "total"
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "1122016",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1"
+      ],
+      "target": "r5c1",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "target": "r5c3",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4"
+      ],
+      "target": "r5c4",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6"
+      ],
+      "target": "r5c6",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7"
+      ],
+      "target": "r5c7",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9"
+      ],
+      "target": "r5c9",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r10c1",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r10c3",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4"
+      ],
+      "target": "r10c4",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6"
+      ],
+      "target": "r10c6",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c7",
+        "r7c7",
+        "r8c7",
+        "r9c7"
+      ],
+      "target": "r10c7",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9"
+      ],
+      "target": "r10c9",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r12c1"
+      ],
+      "target": "r15c1",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r15c3",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4"
+      ],
+      "target": "r15c4",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6"
+      ],
+      "target": "r15c6",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c7",
+        "r12c7",
+        "r13c7",
+        "r14c7"
+      ],
+      "target": "r15c7",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c9",
+        "r12c9",
+        "r13c9",
+        "r14c9"
+      ],
+      "target": "r15c9",
+      "note": "fund roll-up: FICA + SECA (+ prior-year adjustments where printed) = trust-fund total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r10c1",
+        "r15c1",
+        "r16c1",
+        "r17c1"
+      ],
+      "target": "r18c1",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c2",
+        "r17c2"
+      ],
+      "target": "r18c2",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r10c3",
+        "r15c3",
+        "r16c3",
+        "r17c3"
+      ],
+      "target": "r18c3",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r10c4",
+        "r15c4",
+        "r16c4",
+        "r17c4"
+      ],
+      "target": "r18c4",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r17c5"
+      ],
+      "target": "r18c5",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r10c6",
+        "r15c6",
+        "r16c6",
+        "r17c6"
+      ],
+      "target": "r18c6",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c7",
+        "r10c7",
+        "r15c7",
+        "r16c7",
+        "r17c7"
+      ],
+      "target": "r18c7",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c8",
+        "r17c8"
+      ],
+      "target": "r18c8",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r10c9",
+        "r15c9",
+        "r16c9",
+        "r17c9"
+      ],
+      "target": "r18c9",
+      "note": "subtree roll-up: OASI + DI + HI totals + Railroad Retirement rows = Total -- Employment and General Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c3",
+        "r16c2"
+      ],
+      "target": "r16c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c6",
+        "r16c5"
+      ],
+      "target": "r16c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c9",
+        "r16c8"
+      ],
+      "target": "r16c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c3",
+        "r17c2"
+      ],
+      "target": "r17c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c6",
+        "r17c5"
+      ],
+      "target": "r17c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c9",
+        "r17c8"
+      ],
+      "target": "r17c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c3",
+        "r18c2"
+      ],
+      "target": "r18c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c6",
+        "r18c5"
+      ],
+      "target": "r18c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c9",
+        "r18c8"
+      ],
+      "target": "r18c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    }
+  ]
+}
