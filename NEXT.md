@@ -34,17 +34,42 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-No queued units at the moment.
+### 1. treasury-mts/2026-05-outlays-legislative — **D2** · local-only (PDF, **vision agent**)
+Flagship first Table-5 (Outlays) unit: **Legislative Branch** (page 10),
+self-contained, full 9-column model. ≈**96 cells**, ≈**18 relations**
+(floor **14**), **0 standalone waivers**. Sets the extraction pattern for
+the whole Table-5 family — column model, the `(**)`-omission convention,
+the per-line net identity + per-column roll-ups, and MTS-rounding-note
+tolerances are all fixed in
+[`plans/treasury-mts-2026-05-outlays-table5.md`](plans/treasury-mts-2026-05-outlays-table5.md).
+**Vision-capable agent required** (render page 10, verify against the
+cid-decoded text layer — negatives and `(**)` markers present). Re-read
+values from the PDF, never copy. Corpus unit #14.
 
 ## Not yet sequenced
 
-- treasury-mts/2026-05-outlays — Table 5 size/split decision (D2), then units.
+- treasury-mts/2026-05-outlays — **Table 5 sized 2026-07-14** (~4,247 cells /
+  29 sections / ~35–45 units at full-9; see the plan doc). Flagship queued
+  above; the remaining 28 sections + capstone grand-total unit are deferred
+  pending a post-flagship reassess (cap-fit sections are cheap single units,
+  16 giants sub-split by bureau).
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
 
 ---
 
 ## Shipped
+
+- 2026-07-14 · treasury-mts/2026-05-outlays — Table 5 sizing + pattern (D2, Claude Opus 4.8) —
+  Sized MTS Table 5 (Outlays, pages 10–23): **~4,247 cells / 662 rows / 29 sections**, 9-column model
+  (3 periods × Gross/Applicable/Net) → **~35–45 units** at full fidelity, an order of magnitude past
+  Table 4. Fixed the whole-family extraction pattern in
+  `plans/treasury-mts-2026-05-outlays-table5.md`: column model, relation families (per-line
+  `Net+Applicable=Gross`, per-column roll-ups, department totals, capstone `Total Outlays` +
+  On/Off-Budget), and conventions — **`(**)` omitted like `......`**, negatives as printed, tolerances
+  quote the MTS "Details may not add to totals due to rounding" note. Per Kenrin: **flagship first**
+  (Legislative Branch, queued item 1), full-9 columns; remaining 28 sections + capstone deferred to a
+  post-flagship reassess. No table file written.
 
 - 2026-07-14 · bls-cpi/relative-importance-2024-special-aggregates (D3, local-only HTML) —
   Added `tables/bls-cpi/relative-importance-2024-special-aggregates.cells.json` for the special-aggregates
