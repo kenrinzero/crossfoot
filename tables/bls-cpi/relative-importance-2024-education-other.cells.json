@@ -1,0 +1,1056 @@
+{
+  "table_id": "bls-cpi/relative-importance-2024-education-other",
+  "source": {
+    "path": "sources/bls-cpi/relative-importance-2024.htm",
+    "table": "Table 1 (2023 Weights). Relative importance of components in the Consumer Price Indexes: U.S. city average, December 2024",
+    "title": "Education and communication + Other goods and services hierarchies",
+    "period": "December 2024"
+  },
+  "unit_note": "Relative importance as percent of All items. Rounding rationale: BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Two hierarchies in this slice exhibit larger than typical rounding gaps: the Information technology, hardware and services (r18) children's sum deviates by up to 0.009 from the declared parent in CPI-W, and the Information and information processing parent (r14) deviates by 0.009 in both columns; both absorbed under tol-0.01 per the same rationale. Haircuts and other personal care services (r35) is declared standalone: identical to its one-child parent Personal care services (r34), which becomes a leaf feeding the Personal care (r29) roll-up.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "U.S. City Average, CPI-U"
+    },
+    {
+      "index": 2,
+      "label": "U.S. City Average, CPI-W"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Education and communication"
+    },
+    {
+      "index": 2,
+      "label": "Education"
+    },
+    {
+      "index": 3,
+      "label": "Educational books and supplies"
+    },
+    {
+      "index": 4,
+      "label": "Tuition, other school fees, and childcare"
+    },
+    {
+      "index": 5,
+      "label": "College tuition and fees"
+    },
+    {
+      "index": 6,
+      "label": "Elementary and high school tuition and fees"
+    },
+    {
+      "index": 7,
+      "label": "Day care and preschool"
+    },
+    {
+      "index": 8,
+      "label": "Technical and business school tuition and fees"
+    },
+    {
+      "index": 9,
+      "label": "Unsampled tuition, other school fees, and childcare"
+    },
+    {
+      "index": 10,
+      "label": "Communication"
+    },
+    {
+      "index": 11,
+      "label": "Postage and delivery services"
+    },
+    {
+      "index": 12,
+      "label": "Postage"
+    },
+    {
+      "index": 13,
+      "label": "Delivery services"
+    },
+    {
+      "index": 14,
+      "label": "Information and information processing"
+    },
+    {
+      "index": 15,
+      "label": "Telephone services"
+    },
+    {
+      "index": 16,
+      "label": "Wireless telephone services"
+    },
+    {
+      "index": 17,
+      "label": "Residential telephone services"
+    },
+    {
+      "index": 18,
+      "label": "Information technology, hardware and services"
+    },
+    {
+      "index": 19,
+      "label": "Computers, peripherals, and smart home assistants"
+    },
+    {
+      "index": 20,
+      "label": "Computer software and accessories"
+    },
+    {
+      "index": 21,
+      "label": "Internet services and electronic information providers"
+    },
+    {
+      "index": 22,
+      "label": "Telephone hardware, calculators, and other consumer information items"
+    },
+    {
+      "index": 23,
+      "label": "Unsampled information and information processing"
+    },
+    {
+      "index": 24,
+      "label": "Other goods and services"
+    },
+    {
+      "index": 25,
+      "label": "Tobacco and smoking products"
+    },
+    {
+      "index": 26,
+      "label": "Cigarettes"
+    },
+    {
+      "index": 27,
+      "label": "Tobacco products other than cigarettes"
+    },
+    {
+      "index": 28,
+      "label": "Unsampled tobacco and smoking products"
+    },
+    {
+      "index": 29,
+      "label": "Personal care"
+    },
+    {
+      "index": 30,
+      "label": "Personal care products"
+    },
+    {
+      "index": 31,
+      "label": "Hair, dental, shaving, and miscellaneous personal care products"
+    },
+    {
+      "index": 32,
+      "label": "Cosmetics, perfume, bath, nail preparations and implements"
+    },
+    {
+      "index": 33,
+      "label": "Unsampled personal care products"
+    },
+    {
+      "index": 34,
+      "label": "Personal care services"
+    },
+    {
+      "index": 35,
+      "label": "Haircuts and other personal care services"
+    },
+    {
+      "index": 36,
+      "label": "Miscellaneous personal services"
+    },
+    {
+      "index": 37,
+      "label": "Legal services"
+    },
+    {
+      "index": 38,
+      "label": "Funeral expenses"
+    },
+    {
+      "index": 39,
+      "label": "Laundry and dry cleaning services"
+    },
+    {
+      "index": 40,
+      "label": "Apparel services other than laundry and dry cleaning"
+    },
+    {
+      "index": 41,
+      "label": "Financial services"
+    },
+    {
+      "index": 42,
+      "label": "Unsampled items"
+    },
+    {
+      "index": 43,
+      "label": "Miscellaneous personal goods"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "5.732",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "5.534",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "2.583",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "1.824",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "0.042",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "0.041",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "2.541",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "1.783",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1.324",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "0.981",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "0.388",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "0.162",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "0.724",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "0.556",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "0.039",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "0.034",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "0.066",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "0.050",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "3.149",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "3.711",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "0.054",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "0.037",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "0.052",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "0.034",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "0.002",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "0.002",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "3.094",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "3.674",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "1.450",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "1.845",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "1.281",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "1.702",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "0.169",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "0.143",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "1.644",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "1.829",
+      "role": "total"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "0.262",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "0.221",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "0.027",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "0.023",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "0.926",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "1.050",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "0.421",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "0.526",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "0.009",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "0.009",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "2.925",
+      "role": "total"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "3.089",
+      "role": "total"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "0.482",
+      "role": "total"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "0.800",
+      "role": "total"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "0.361",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "0.615",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "0.116",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "0.172",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "0.006",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "0.013",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "2.443",
+      "role": "total"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "2.289",
+      "role": "total"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "0.649",
+      "role": "total"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "0.623",
+      "role": "total"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "0.290",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "0.280",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "0.350",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "0.329",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "0.009",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "0.014",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "0.659",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "0.611",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "0.659",
+      "role": "standalone",
+      "why": "Haircuts and other personal care services is the only sub-component of Personal care services (r34); their values are identical (0.659 / 0.611). Declared standalone because the only-child sum is disallowed by schema minItems 2; r34 remains a leaf feeding the Personal care (r29) roll-up."
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "0.611",
+      "role": "standalone",
+      "why": "Haircuts and other personal care services is the only sub-component of Personal care services (r34); their values are identical (0.659 / 0.611). Declared standalone because the only-child sum is disallowed by schema minItems 2; r34 remains a leaf feeding the Personal care (r29) roll-up."
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "0.977",
+      "role": "total"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "0.911",
+      "role": "total"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "0.343",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "0.241",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c1",
+      "row": 38,
+      "col": 1,
+      "value": "0.140",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c2",
+      "row": 38,
+      "col": 2,
+      "value": "0.200",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c1",
+      "row": 39,
+      "col": 1,
+      "value": "0.164",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c2",
+      "row": 39,
+      "col": 2,
+      "value": "0.202",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c1",
+      "row": 40,
+      "col": 1,
+      "value": "0.027",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c2",
+      "row": 40,
+      "col": 2,
+      "value": "0.023",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c1",
+      "row": 41,
+      "col": 1,
+      "value": "0.244",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c2",
+      "row": 41,
+      "col": 2,
+      "value": "0.141",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "0.059",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "0.104",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c1",
+      "row": 43,
+      "col": 1,
+      "value": "0.158",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c2",
+      "row": 43,
+      "col": 2,
+      "value": "0.143",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r10c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r10c2"
+      ],
+      "target": "r1c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r4c1"
+      ],
+      "target": "r2c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r4c2"
+      ],
+      "target": "r2c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r4c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "target": "r10c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "target": "r10c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r13c1"
+      ],
+      "target": "r11c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r13c2"
+      ],
+      "target": "r11c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c1",
+        "r18c1",
+        "r23c1"
+      ],
+      "target": "r14c1",
+      "tol": "0.01",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information and information processing (r14) children's sum deviates by 0.009 from the declared parent in both columns; absorbed under tol-0.01."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c2",
+        "r18c2",
+        "r23c2"
+      ],
+      "target": "r14c2",
+      "tol": "0.01",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information and information processing (r14) children's sum deviates by 0.009 from the declared parent in both columns; absorbed under tol-0.01."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r17c1"
+      ],
+      "target": "r15c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c2",
+        "r17c2"
+      ],
+      "target": "r15c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r20c1",
+        "r21c1",
+        "r22c1"
+      ],
+      "target": "r18c1",
+      "tol": "0.01",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information technology, hardware and services (r18) children's sum deviates by up to 0.009 from the declared parent; absorbed under tol-0.01."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r20c2",
+        "r21c2",
+        "r22c2"
+      ],
+      "target": "r18c2",
+      "tol": "0.01",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information technology, hardware and services (r18) children's sum deviates by up to 0.009 from the declared parent; absorbed under tol-0.01."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c1",
+        "r29c1"
+      ],
+      "target": "r24c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c2",
+        "r29c2"
+      ],
+      "target": "r24c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c1",
+        "r27c1",
+        "r28c1"
+      ],
+      "target": "r25c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c2",
+        "r27c2",
+        "r28c2"
+      ],
+      "target": "r25c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c1",
+        "r34c1",
+        "r36c1",
+        "r43c1"
+      ],
+      "target": "r29c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c2",
+        "r34c2",
+        "r36c2",
+        "r43c2"
+      ],
+      "target": "r29c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c1",
+        "r32c1",
+        "r33c1"
+      ],
+      "target": "r30c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c2",
+        "r32c2",
+        "r33c2"
+      ],
+      "target": "r30c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r37c1",
+        "r38c1",
+        "r39c1",
+        "r40c1",
+        "r41c1",
+        "r42c1"
+      ],
+      "target": "r36c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r37c2",
+        "r38c2",
+        "r39c2",
+        "r40c2",
+        "r41c2",
+        "r42c2"
+      ],
+      "target": "r36c2"
+    }
+  ]
+}
