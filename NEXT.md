@@ -34,18 +34,14 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML)
-Complete Medical care + Recreation hierarchies: numeric rows 201–251,
-51 rows × 2 columns = **102 cells**, min 20 sum relations, 0 waivers.
-
-### 2. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
+### 1. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
 Education and communication + Other goods and services: numeric rows
 252–294, 43 rows × 2 columns = **86 cells**, min 18 sum relations.
 Expected waivers: 2 cells for Haircuts and other personal care services,
 whose identical one-child parent cannot be declared under sum minItems 2;
 the parent remains a leaf feeding the wider Personal care roll-up.
 
-### 3. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
+### 2. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
 Plan the relation topology for numeric rows 295–322: **28 rows / 56
 cells** before re-anchors (correcting the earlier 27/54 estimate). These
 are cross-cutting “less X” indexes rather than one hierarchy; decide the
@@ -63,6 +59,12 @@ in the planning session.
 ---
 
 ## Shipped
+
+- 2026-07-13 · bls-cpi/relative-importance-2024-medical-recreation (D3, Ring) —
+  Medical care + Recreation hierarchies: rows 201–251, 51 rows × 2 columns =
+  **102 cells**, **28 sum relations** (14 per column; 8 with tol-0.001–0.002
+  per BLS cost-weights rounding note), 0 waivers, strict-default GREEN
+  (0 warnings), 10/10 pytest pass. Commit `d10dceb`.
 
 - 2026-07-13 · spot-audit/unit-10 (D3, Antigravity) — Non-arithmetic spot audit of BLS Apparel + Transportation unit #10 against source relative-importance-2024.htm: verified period, table title, column/row labels, and 10 sampled cells (100% match); logged results in AUDITS.md.
 
