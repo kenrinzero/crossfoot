@@ -1,0 +1,1339 @@
+{
+  "table_id": "bls-cpi/relative-importance-2024-housing",
+  "source": {
+    "path": "sources/bls-cpi/relative-importance-2024.htm",
+    "table": "Table 1 (2023 Weights). Relative importance of components in the Consumer Price Indexes: U.S. city average, December 2024",
+    "title": "Housing slice: Shelter + Fuels and utilities + Household furnishings and operations",
+    "period": "December 2024"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "U.S. City Average, CPI-U"
+    },
+    {
+      "index": 2,
+      "label": "U.S. City Average, CPI-W"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Housing"
+    },
+    {
+      "index": 2,
+      "label": "Shelter"
+    },
+    {
+      "index": 3,
+      "label": "Rent of primary residence"
+    },
+    {
+      "index": 4,
+      "label": "Lodging away from home"
+    },
+    {
+      "index": 5,
+      "label": "Housing at school, excluding board"
+    },
+    {
+      "index": 6,
+      "label": "Other lodging away from home including hotels and motels"
+    },
+    {
+      "index": 7,
+      "label": "Owners' equivalent rent of residences"
+    },
+    {
+      "index": 8,
+      "label": "Owners' equivalent rent of primary residence"
+    },
+    {
+      "index": 9,
+      "label": "Unsampled owners' equivalent rent of secondary residences"
+    },
+    {
+      "index": 10,
+      "label": "Tenants' and household insurance"
+    },
+    {
+      "index": 11,
+      "label": "Fuels and utilities"
+    },
+    {
+      "index": 12,
+      "label": "Household energy"
+    },
+    {
+      "index": 13,
+      "label": "Fuel oil and other fuels"
+    },
+    {
+      "index": 14,
+      "label": "Fuel oil"
+    },
+    {
+      "index": 15,
+      "label": "Propane, kerosene, and firewood"
+    },
+    {
+      "index": 16,
+      "label": "Energy services"
+    },
+    {
+      "index": 17,
+      "label": "Electricity"
+    },
+    {
+      "index": 18,
+      "label": "Utility (piped) gas service"
+    },
+    {
+      "index": 19,
+      "label": "Water and sewer and trash collection services"
+    },
+    {
+      "index": 20,
+      "label": "Water and sewerage maintenance"
+    },
+    {
+      "index": 21,
+      "label": "Garbage and trash collection"
+    },
+    {
+      "index": 22,
+      "label": "Household furnishings and operations"
+    },
+    {
+      "index": 23,
+      "label": "Window and floor coverings and other linens"
+    },
+    {
+      "index": 24,
+      "label": "Floor coverings"
+    },
+    {
+      "index": 25,
+      "label": "Window coverings"
+    },
+    {
+      "index": 26,
+      "label": "Other linens"
+    },
+    {
+      "index": 27,
+      "label": "Furniture and bedding"
+    },
+    {
+      "index": 28,
+      "label": "Bedroom furniture"
+    },
+    {
+      "index": 29,
+      "label": "Living room, kitchen, and dining room furniture"
+    },
+    {
+      "index": 30,
+      "label": "Other furniture"
+    },
+    {
+      "index": 31,
+      "label": "Unsampled furniture"
+    },
+    {
+      "index": 32,
+      "label": "Appliances"
+    },
+    {
+      "index": 33,
+      "label": "Major appliances"
+    },
+    {
+      "index": 34,
+      "label": "Other appliances"
+    },
+    {
+      "index": 35,
+      "label": "Unsampled appliances"
+    },
+    {
+      "index": 36,
+      "label": "Other household equipment and furnishings"
+    },
+    {
+      "index": 37,
+      "label": "Clocks, lamps, and decorator items"
+    },
+    {
+      "index": 38,
+      "label": "Indoor plants and flowers"
+    },
+    {
+      "index": 39,
+      "label": "Dishes and flatware"
+    },
+    {
+      "index": 40,
+      "label": "Nonelectric cookware and tableware"
+    },
+    {
+      "index": 41,
+      "label": "Tools, hardware, outdoor equipment and supplies"
+    },
+    {
+      "index": 42,
+      "label": "Tools, hardware and supplies"
+    },
+    {
+      "index": 43,
+      "label": "Outdoor equipment and supplies"
+    },
+    {
+      "index": 44,
+      "label": "Unsampled tools, hardware, outdoor equipment and supplies"
+    },
+    {
+      "index": 45,
+      "label": "Housekeeping supplies"
+    },
+    {
+      "index": 46,
+      "label": "Household cleaning products"
+    },
+    {
+      "index": 47,
+      "label": "Household paper products"
+    },
+    {
+      "index": 48,
+      "label": "Miscellaneous household products"
+    },
+    {
+      "index": 49,
+      "label": "Household operations"
+    },
+    {
+      "index": 50,
+      "label": "Domestic services"
+    },
+    {
+      "index": 51,
+      "label": "Gardening and lawncare services"
+    },
+    {
+      "index": 52,
+      "label": "Moving, storage, freight expense"
+    },
+    {
+      "index": 53,
+      "label": "Repair of household items"
+    },
+    {
+      "index": 54,
+      "label": "Unsampled household operations"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "44.201",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "41.932",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "35.483",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "33.186",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "7.499",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "10.438",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1.292",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "0.766",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "0.243",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "0.105",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1.049",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "0.661",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "26.282",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "21.579",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "25.083",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "21.114",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1.198",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "0.465",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "0.410",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "0.403",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "4.312",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "4.921",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3.233",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "3.740",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "0.139",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "0.123",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "0.074",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "0.064",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "0.065",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "0.059",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "3.094",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "3.617",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "2.343",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "2.833",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "0.750",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "0.784",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1.079",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "1.181",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "0.738",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "0.847",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "0.341",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "0.334",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "4.406",
+      "role": "total"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "3.824",
+      "role": "total"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "0.240",
+      "role": "total"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "0.234",
+      "role": "total"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "0.059",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "0.057",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "0.055",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "0.040",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "0.127",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "0.138",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "0.788",
+      "role": "total"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "0.735",
+      "role": "total"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "0.254",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "0.243",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "0.381",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "0.374",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "0.144",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "0.105",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "0.009",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "0.013",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "0.214",
+      "role": "total"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "0.279",
+      "role": "total"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "0.068",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "0.108",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "0.143",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "0.164",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "0.003",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "0.008",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "0.491",
+      "role": "total"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "0.458",
+      "role": "total"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "0.286",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "0.268",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c1",
+      "row": 38,
+      "col": 1,
+      "value": "0.113",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c2",
+      "row": 38,
+      "col": 2,
+      "value": "0.091",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c1",
+      "row": 39,
+      "col": 1,
+      "value": "0.037",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c2",
+      "row": 39,
+      "col": 2,
+      "value": "0.037",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c1",
+      "row": 40,
+      "col": 1,
+      "value": "0.055",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c2",
+      "row": 40,
+      "col": 2,
+      "value": "0.062",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c1",
+      "row": 41,
+      "col": 1,
+      "value": "0.837",
+      "role": "total"
+    },
+    {
+      "id": "r41c2",
+      "row": 41,
+      "col": 2,
+      "value": "0.706",
+      "role": "total"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "0.240",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "0.205",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c1",
+      "row": 43,
+      "col": 1,
+      "value": "0.362",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c2",
+      "row": 43,
+      "col": 2,
+      "value": "0.245",
+      "role": "leaf"
+    },
+    {
+      "id": "r44c1",
+      "row": 44,
+      "col": 1,
+      "value": "0.235",
+      "role": "leaf"
+    },
+    {
+      "id": "r44c2",
+      "row": 44,
+      "col": 2,
+      "value": "0.256",
+      "role": "leaf"
+    },
+    {
+      "id": "r45c1",
+      "row": 45,
+      "col": 1,
+      "value": "0.806",
+      "role": "total"
+    },
+    {
+      "id": "r45c2",
+      "row": 45,
+      "col": 2,
+      "value": "0.942",
+      "role": "total"
+    },
+    {
+      "id": "r46c1",
+      "row": 46,
+      "col": 1,
+      "value": "0.300",
+      "role": "leaf"
+    },
+    {
+      "id": "r46c2",
+      "row": 46,
+      "col": 2,
+      "value": "0.380",
+      "role": "leaf"
+    },
+    {
+      "id": "r47c1",
+      "row": 47,
+      "col": 1,
+      "value": "0.178",
+      "role": "leaf"
+    },
+    {
+      "id": "r47c2",
+      "row": 47,
+      "col": 2,
+      "value": "0.229",
+      "role": "leaf"
+    },
+    {
+      "id": "r48c1",
+      "row": 48,
+      "col": 1,
+      "value": "0.329",
+      "role": "leaf"
+    },
+    {
+      "id": "r48c2",
+      "row": 48,
+      "col": 2,
+      "value": "0.334",
+      "role": "leaf"
+    },
+    {
+      "id": "r49c1",
+      "row": 49,
+      "col": 1,
+      "value": "1.030",
+      "role": "total"
+    },
+    {
+      "id": "r49c2",
+      "row": 49,
+      "col": 2,
+      "value": "0.469",
+      "role": "total"
+    },
+    {
+      "id": "r50c1",
+      "row": 50,
+      "col": 1,
+      "value": "0.312",
+      "role": "leaf"
+    },
+    {
+      "id": "r50c2",
+      "row": 50,
+      "col": 2,
+      "value": "0.106",
+      "role": "leaf"
+    },
+    {
+      "id": "r51c1",
+      "row": 51,
+      "col": 1,
+      "value": "0.336",
+      "role": "leaf"
+    },
+    {
+      "id": "r51c2",
+      "row": 51,
+      "col": 2,
+      "value": "0.153",
+      "role": "leaf"
+    },
+    {
+      "id": "r52c1",
+      "row": 52,
+      "col": 1,
+      "value": "0.127",
+      "role": "leaf"
+    },
+    {
+      "id": "r52c2",
+      "row": 52,
+      "col": 2,
+      "value": "0.091",
+      "role": "leaf"
+    },
+    {
+      "id": "r53c1",
+      "row": 53,
+      "col": 1,
+      "value": "0.172",
+      "role": "leaf"
+    },
+    {
+      "id": "r53c2",
+      "row": 53,
+      "col": 2,
+      "value": "0.076",
+      "role": "leaf"
+    },
+    {
+      "id": "r54c1",
+      "row": 54,
+      "col": 1,
+      "value": "0.083",
+      "role": "leaf"
+    },
+    {
+      "id": "r54c2",
+      "row": 54,
+      "col": 2,
+      "value": "0.042",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r11c1",
+        "r22c1"
+      ],
+      "target": "r1c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r11c2",
+        "r22c2"
+      ],
+      "target": "r1c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r4c1",
+        "r7c1",
+        "r10c1"
+      ],
+      "target": "r2c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r4c2",
+        "r7c2",
+        "r10c2"
+      ],
+      "target": "r2c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r6c1"
+      ],
+      "target": "r4c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r6c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r7c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r7c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r19c1"
+      ],
+      "target": "r11c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r19c2"
+      ],
+      "target": "r11c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r16c1"
+      ],
+      "target": "r12c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r16c2"
+      ],
+      "target": "r12c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1"
+      ],
+      "target": "r13c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2"
+      ],
+      "target": "r13c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r18c1"
+      ],
+      "target": "r16c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r18c2"
+      ],
+      "target": "r16c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c1",
+        "r21c1"
+      ],
+      "target": "r19c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c2",
+        "r21c2"
+      ],
+      "target": "r19c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c1",
+        "r27c1",
+        "r32c1",
+        "r36c1",
+        "r41c1",
+        "r45c1",
+        "r49c1"
+      ],
+      "target": "r22c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c2",
+        "r27c2",
+        "r32c2",
+        "r36c2",
+        "r41c2",
+        "r45c2",
+        "r49c2"
+      ],
+      "target": "r22c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c1",
+        "r25c1",
+        "r26c1"
+      ],
+      "target": "r23c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c2",
+        "r25c2",
+        "r26c2"
+      ],
+      "target": "r23c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c1",
+        "r29c1",
+        "r30c1",
+        "r31c1"
+      ],
+      "target": "r27c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c2",
+        "r29c2",
+        "r30c2",
+        "r31c2"
+      ],
+      "target": "r27c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r33c1",
+        "r34c1",
+        "r35c1"
+      ],
+      "target": "r32c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r33c2",
+        "r34c2",
+        "r35c2"
+      ],
+      "target": "r32c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r37c1",
+        "r38c1",
+        "r39c1",
+        "r40c1"
+      ],
+      "target": "r36c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r37c2",
+        "r38c2",
+        "r39c2",
+        "r40c2"
+      ],
+      "target": "r36c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c1",
+        "r43c1",
+        "r44c1"
+      ],
+      "target": "r41c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c2",
+        "r43c2",
+        "r44c2"
+      ],
+      "target": "r41c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r46c1",
+        "r47c1",
+        "r48c1"
+      ],
+      "target": "r45c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r46c2",
+        "r47c2",
+        "r48c2"
+      ],
+      "target": "r45c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r50c1",
+        "r51c1",
+        "r52c1",
+        "r53c1",
+        "r54c1"
+      ],
+      "target": "r49c1",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r50c2",
+        "r51c2",
+        "r52c2",
+        "r53c2",
+        "r54c2"
+      ],
+      "target": "r49c2",
+      "tol": "0.001",
+      "why": "Components independently rounded to 3 d.p.; parent total as published by BLS."
+    }
+  ]
+}
