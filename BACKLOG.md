@@ -18,7 +18,7 @@ NEXT.md.)
 |---|---|---|---|---|---|---|
 | treasury-mts/2026-05-receipts | `sources/treasury-mts/mts-202605.pdf` | Table 4 — Receipts of the U.S. Government (May FY2026) — major-classification slice (the full table is ~250 numeric cells, over the cap; see queued remainder) | 10 | sum | ≤ 120 cells | SHIPPED 2026-07-13 (87 cells, 42 relations, 11 tol-1 w/ quoted rounding note) |
 | sec-10k/aapl-fy2023-balance-sheet | `sources/sec-10k/aapl-fy2023-balance-sheet-R5.htm` | Consolidated Balance Sheets (two fiscal-year columns; flagship: per-column roll-ups + assets = liabilities + equity) | 12 | sum | ≤ 140 cells | SHIPPED 2026-07-13 (58 cells, 18 exact relations, 4 share-count standalones) |
-| census-p60/2023-income-a1 | `sources/census/p60-282.pdf` | Table A-1 — Households by Total Money Income (income brackets sum to total; percent distribution closes to 100) | 8 | sum, percent-closure | ≤ 150 cells | READY |
+| census-p60/2023-income-a1 | `sources/census/p60-282.pdf` | Table A-1 — Households by Total Money Income (income brackets sum to total; percent distribution closes to 100) | 8 | sum, percent-closure | ≤ 150 cells | SHIPPED 2026-07-13 (88 cells, 8 sum relations (6 with non-default tol 0.1), 8 percent-closure relations (6 with non-default tol 0.1)) |
 
 ## Queued (need vendoring or sizing first)
 
