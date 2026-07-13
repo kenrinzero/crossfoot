@@ -34,14 +34,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
-Education and communication + Other goods and services: numeric rows
-252–294, 43 rows × 2 columns = **86 cells**, min 18 sum relations.
-Expected waivers: 2 cells for Haircuts and other personal care services,
-whose identical one-child parent cannot be declared under sum minItems 2;
-the parent remains a leaf feeding the wider Personal care roll-up.
-
-### 2. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
+### 1. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
 Plan the relation topology for numeric rows 295–322: **28 rows / 56
 cells** before re-anchors (correcting the earlier 27/54 estimate). These
 are cross-cutting “less X” indexes rather than one hierarchy; decide the
@@ -59,6 +52,8 @@ in the planning session.
 ---
 
 ## Shipped
+
+- 2026-07-14 · bls-cpi/relative-importance-2024-education-other (D3, Mavis) — Education and communication + Other goods and services hierarchies: rows 252–294, 43 rows × 2 columns = **86 cells**, **26 sum relations** (13 per column; 9 with non-default tol-0.001–0.01 per BLS cost-weights rounding note — the r14 (Info & info processing) and r18 (IT) hierarchies carry tol-0.01 to absorb 0.009 rounding gaps beyond the typical 0.001), 2 standalone waivers (Haircuts one-child alias of Personal care services, which becomes a leaf feeding the Personal care roll-up), strict-default GREEN (0 warnings), 10/10 pytest pass. Commit `0a7244f`.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024-medical-recreation (D3, Ring) —
   Medical care + Recreation hierarchies: rows 201–251, 51 rows × 2 columns =
