@@ -1,0 +1,988 @@
+{
+  "table_id": "bls-cpi/relative-importance-2024-special-aggregates",
+  "source": {
+    "path": "sources/bls-cpi/relative-importance-2024.htm",
+    "table": "Table 1 (2023 Weights). Relative importance of components in the Consumer Price Indexes: U.S. city average, December 2024",
+    "title": "Special aggregates \u2014 cross-cutting 'less X' reclassifications",
+    "period": "December 2024"
+  },
+  "unit_note": "Relative importance as percent of All items. Rounding rationale: BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\"",
+  "columns": [
+    {
+      "index": 1,
+      "label": "U.S. City Average, CPI-U"
+    },
+    {
+      "index": 2,
+      "label": "U.S. City Average, CPI-W"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "All items"
+    },
+    {
+      "index": 2,
+      "label": "Commodities"
+    },
+    {
+      "index": 3,
+      "label": "Commodities less food and beverages"
+    },
+    {
+      "index": 4,
+      "label": "Nondurables less food and beverages"
+    },
+    {
+      "index": 5,
+      "label": "Nondurables less food, beverages, and apparel"
+    },
+    {
+      "index": 6,
+      "label": "Durables"
+    },
+    {
+      "index": 7,
+      "label": "Services"
+    },
+    {
+      "index": 8,
+      "label": "Rent of shelter"
+    },
+    {
+      "index": 9,
+      "label": "Transportation services"
+    },
+    {
+      "index": 10,
+      "label": "Other services"
+    },
+    {
+      "index": 11,
+      "label": "All items less food"
+    },
+    {
+      "index": 12,
+      "label": "All items less shelter"
+    },
+    {
+      "index": 13,
+      "label": "All items less medical care"
+    },
+    {
+      "index": 14,
+      "label": "Commodities less food"
+    },
+    {
+      "index": 15,
+      "label": "Nondurables less food"
+    },
+    {
+      "index": 16,
+      "label": "Nondurables less food and apparel"
+    },
+    {
+      "index": 17,
+      "label": "Nondurables"
+    },
+    {
+      "index": 18,
+      "label": "Apparel less footwear"
+    },
+    {
+      "index": 19,
+      "label": "Services less rent of shelter"
+    },
+    {
+      "index": 20,
+      "label": "Services less medical care services"
+    },
+    {
+      "index": 21,
+      "label": "Energy"
+    },
+    {
+      "index": 22,
+      "label": "All items less energy"
+    },
+    {
+      "index": 23,
+      "label": "All items less food and energy"
+    },
+    {
+      "index": 24,
+      "label": "Commodities less food and energy commodities"
+    },
+    {
+      "index": 25,
+      "label": "Energy commodities"
+    },
+    {
+      "index": 26,
+      "label": "Services less energy services"
+    },
+    {
+      "index": 27,
+      "label": "Domestically produced farm food"
+    },
+    {
+      "index": 28,
+      "label": "Utilities and public transportation"
+    },
+    {
+      "index": 29,
+      "label": "Food"
+    },
+    {
+      "index": 30,
+      "label": "Shelter"
+    },
+    {
+      "index": 31,
+      "label": "Medical care"
+    },
+    {
+      "index": 32,
+      "label": "Alcoholic beverages"
+    },
+    {
+      "index": 33,
+      "label": "Apparel"
+    },
+    {
+      "index": 34,
+      "label": "Footwear"
+    },
+    {
+      "index": 35,
+      "label": "Medical care services"
+    },
+    {
+      "index": 36,
+      "label": "Energy services"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "100.000",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "100.000",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "36.201",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "40.085",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "21.675",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "24.126",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "10.701",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "12.228",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "8.221",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "9.477",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "10.974",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "11.898",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "63.799",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "59.915",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "35.072",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "32.783",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "6.305",
+      "role": "standalone",
+      "why": "Cross-cutting service aggregate; its complement within Services (private motor-vehicle services + public transportation, spread across 4+ main-table rows) is not in this block and would require importing unrelated rows with no clean footing."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "6.848",
+      "role": "standalone",
+      "why": "Cross-cutting service aggregate; its complement within Services (private motor-vehicle services + public transportation, spread across 4+ main-table rows) is not in this block and would require importing unrelated rows with no clean footing."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "10.061",
+      "role": "standalone",
+      "why": "Diffuse residual service grouping (recreation, education & communication, personal-care, and misc services); no in-slice or single-component complement."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "8.986",
+      "role": "standalone",
+      "why": "Diffuse residual service grouping (recreation, education & communication, personal-care, and misc services); no in-slice or single-component complement."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "86.309",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "84.834",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "64.517",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "66.814",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "91.727",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "93.054",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "22.511",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "24.919",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "11.536",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "13.021",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "9.056",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "10.270",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "25.227",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "28.188",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "1.903",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "2.051",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "28.726",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "27.131",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "57.052",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "54.287",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "6.216",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "7.786",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "93.784",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "92.214",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "80.094",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "77.048",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "19.388",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "20.750",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "3.122",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "4.169",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "60.705",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "56.298",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "6.795",
+      "role": "standalone",
+      "why": "A sub-selection of Food (excludes imported/processed); no complementary cell exists in the table."
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "7.632",
+      "role": "standalone",
+      "why": "A sub-selection of Food (excludes imported/processed); no complementary cell exists in the table."
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "7.744",
+      "role": "standalone",
+      "why": "Cross-cut bundle (household energy + water/sewer/trash + telephone + public transportation) that does not foot against any small in-slice or re-anchor set (Fuels and utilities 4.312 + Public transportation 1.468 = 5.780 \u2260 7.744)."
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "8.434",
+      "role": "standalone",
+      "why": "Cross-cut bundle (household energy + water/sewer/trash + telephone + public transportation) that does not foot against any small in-slice or re-anchor set (Fuels and utilities 4.312 + Public transportation 1.468 = 5.780 \u2260 7.744)."
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "13.691",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "15.166",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "35.483",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "33.186",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "8.273",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "6.946",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "0.835",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "0.793",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "2.480",
+      "role": "total"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "2.751",
+      "role": "total"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "0.578",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "0.700",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "6.747",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "5.628",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "3.094",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "3.617",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r7c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r7c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c1",
+        "r22c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c2",
+        "r22c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r29c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r29c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r30c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r30c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r31c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r31c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c1",
+        "r21c1"
+      ],
+      "target": "r11c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c2",
+        "r21c2"
+      ],
+      "target": "r11c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r17c1"
+      ],
+      "target": "r2c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r17c2"
+      ],
+      "target": "r2c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c1",
+        "r25c1"
+      ],
+      "target": "r14c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p.",
+      "note": "Definitional: the 'less food' and 'less food and beverages' aggregates subtract the full published Food and Alcoholic beverages figures, not merely their commodity portions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c2",
+        "r25c2"
+      ],
+      "target": "r14c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r32c1"
+      ],
+      "target": "r14c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p.",
+      "note": "Definitional: the 'less food' and 'less food and beverages' aggregates subtract the full published Food and Alcoholic beverages figures, not merely their commodity portions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r32c2"
+      ],
+      "target": "r14c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r19c1"
+      ],
+      "target": "r7c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r19c2"
+      ],
+      "target": "r7c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c1",
+        "r35c1"
+      ],
+      "target": "r7c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c2",
+        "r35c2"
+      ],
+      "target": "r7c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c1",
+        "r36c1"
+      ],
+      "target": "r7c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c2",
+        "r36c2"
+      ],
+      "target": "r7c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c1",
+        "r36c1"
+      ],
+      "target": "r21c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c2",
+        "r36c2"
+      ],
+      "target": "r21c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c1",
+        "r29c1"
+      ],
+      "target": "r17c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c2",
+        "r29c2"
+      ],
+      "target": "r17c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r33c1"
+      ],
+      "target": "r15c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c2",
+        "r33c2"
+      ],
+      "target": "r15c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r33c1"
+      ],
+      "target": "r4c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r33c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r32c1"
+      ],
+      "target": "r15c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r32c2"
+      ],
+      "target": "r15c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c1",
+        "r34c1"
+      ],
+      "target": "r33c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states 'just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.' Components independently rounded to 3 d.p."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c2",
+        "r34c2"
+      ],
+      "target": "r33c2"
+    }
+  ]
+}

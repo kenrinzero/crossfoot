@@ -34,24 +34,36 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
-Plan the relation topology for numeric rows 295–322: **28 rows / 56
-cells** before re-anchors (correcting the earlier 27/54 estimate). These
-are cross-cutting “less X” indexes rather than one hierarchy; decide the
-main-table re-anchors, waiver count, final cap, and relation floor, then
-append the resulting D3 transcription unit to this queue. No table file
-in the planning session.
+No queued units at the moment.
 
 ## Not yet sequenced
 
 - treasury-mts/2026-05-outlays — Table 5 size/split decision (D2), then units.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
-- Special-aggregates transcription becomes visible after queue item 7.
 
 ---
 
 ## Shipped
+
+- 2026-07-14 · bls-cpi/relative-importance-2024-special-aggregates (D3, local-only HTML) —
+  Added `tables/bls-cpi/relative-importance-2024-special-aggregates.cells.json` for the special-aggregates
+  block plus 8 main-table re-anchors. The unit encodes 72 cells, 36 sum relations, 8 tol-0.001 cases
+  with the BLS rounding rationale, and 8 standalone waivers; reconcile is GREEN and pytest remains 10/10.
+
+- 2026-07-14 · bls-cpi/relative-importance-2024-special-aggregates-plan (D1, Claude Opus 4.8) —
+  Relation-topology plan for the special-aggregates block (source rows 295–322, 28 rows / 56 cells).
+  These are cross-cutting "less X" reclassifications, not a hierarchy; the schema has only `sum`
+  (no subtraction), so each "less X" index is declared as `(index) + X = whole`, re-anchoring the
+  excluded main-table component X as a leaf. Decided: **8 re-anchors** (Food, Shelter, Medical care,
+  Alcoholic beverages, Apparel, Footwear, Medical care services, Energy services) = 16 cells →
+  **72 cells** total; **8 standalone waivers** (Transportation services, Other services, Domestically
+  produced farm food, Utilities and public transportation — no in-slice or single-component
+  complement, decompositions checked and declined); **36 relations** (18 identities × 2 columns),
+  floor **30**, of which **8 at tol-0.001** per the BLS cost-weights rounding note. Full spec frozen
+  in `plans/relative-importance-2024-special-aggregates.md`; arithmetic + coverage machine-verified
+  (all 36 relations foot, every cell covered, counts reconcile). Resulting D3 unit queued as item 1.
+  No table file written.
 
 - 2026-07-14 · bls-cpi/relative-importance-2024-education-other (D3, Mavis) — Education and communication + Other goods and services hierarchies: rows 252–294, 43 rows × 2 columns = **86 cells**, **26 sum relations** (13 per column; 9 with non-default tol-0.001–0.01 per BLS cost-weights rounding note — the r14 (Info & info processing) and r18 (IT) hierarchies carry tol-0.01 to absorb 0.009 rounding gaps beyond the typical 0.001), 2 standalone waivers (Haircuts one-child alias of Personal care services, which becomes a leaf feeding the Personal care roll-up), strict-default GREEN (0 warnings), 10/10 pytest pass. Commit `0a7244f`.
 
