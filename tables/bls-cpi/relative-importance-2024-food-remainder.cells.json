@@ -1,0 +1,1342 @@
+{
+  "table_id": "bls-cpi/relative-importance-2024-food-remainder",
+  "source": {
+    "path": "sources/bls-cpi/relative-importance-2024.htm",
+    "table": "Table 1 (2023 Weights). Relative importance of components in the Consumer Price Indexes: U.S. city average, December 2024",
+    "title": "Food remainder: Fruits and vegetables through Other food at home, plus Food away from home and Alcoholic beverages; re-anchors Food at home, Food, Food and beverages",
+    "period": "December 2024"
+  },
+  "unit_note": "Relative importance as percent of All items. Food-at-home, Food, and Food-and-beverages rows re-anchored from source (re-transcribed, not copied from food-core unit). Rounding rationale: BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\"",
+  "columns": [
+    {
+      "index": 1,
+      "label": "U.S. City Average, CPI-U"
+    },
+    {
+      "index": 2,
+      "label": "U.S. City Average, CPI-W"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Food and beverages"
+    },
+    {
+      "index": 2,
+      "label": "Food"
+    },
+    {
+      "index": 3,
+      "label": "Food at home"
+    },
+    {
+      "index": 4,
+      "label": "Fruits and vegetables"
+    },
+    {
+      "index": 5,
+      "label": "Fresh fruits and vegetables"
+    },
+    {
+      "index": 6,
+      "label": "Fresh fruits"
+    },
+    {
+      "index": 7,
+      "label": "Apples"
+    },
+    {
+      "index": 8,
+      "label": "Bananas"
+    },
+    {
+      "index": 9,
+      "label": "Citrus fruits"
+    },
+    {
+      "index": 10,
+      "label": "Other fresh fruits"
+    },
+    {
+      "index": 11,
+      "label": "Fresh vegetables"
+    },
+    {
+      "index": 12,
+      "label": "Potatoes"
+    },
+    {
+      "index": 13,
+      "label": "Lettuce"
+    },
+    {
+      "index": 14,
+      "label": "Tomatoes"
+    },
+    {
+      "index": 15,
+      "label": "Other fresh vegetables"
+    },
+    {
+      "index": 16,
+      "label": "Processed fruits and vegetables"
+    },
+    {
+      "index": 17,
+      "label": "Canned fruits and vegetables"
+    },
+    {
+      "index": 18,
+      "label": "Frozen fruits and vegetables"
+    },
+    {
+      "index": 19,
+      "label": "Other processed fruits and vegetables including dried"
+    },
+    {
+      "index": 20,
+      "label": "Nonalcoholic beverages and beverage materials"
+    },
+    {
+      "index": 21,
+      "label": "Juices and nonalcoholic drinks"
+    },
+    {
+      "index": 22,
+      "label": "Carbonated drinks"
+    },
+    {
+      "index": 23,
+      "label": "Frozen noncarbonated juices and drinks"
+    },
+    {
+      "index": 24,
+      "label": "Nonfrozen noncarbonated juices and drinks"
+    },
+    {
+      "index": 25,
+      "label": "Beverage materials including coffee and tea"
+    },
+    {
+      "index": 26,
+      "label": "Coffee"
+    },
+    {
+      "index": 27,
+      "label": "Other beverage materials including tea"
+    },
+    {
+      "index": 28,
+      "label": "Other food at home"
+    },
+    {
+      "index": 29,
+      "label": "Sugar and sweets"
+    },
+    {
+      "index": 30,
+      "label": "Sugar and sugar substitutes"
+    },
+    {
+      "index": 31,
+      "label": "Candy and chewing gum"
+    },
+    {
+      "index": 32,
+      "label": "Other sweets"
+    },
+    {
+      "index": 33,
+      "label": "Fats and oils"
+    },
+    {
+      "index": 34,
+      "label": "Butter and margarine"
+    },
+    {
+      "index": 35,
+      "label": "Salad dressing"
+    },
+    {
+      "index": 36,
+      "label": "Other fats and oils including peanut butter"
+    },
+    {
+      "index": 37,
+      "label": "Other foods"
+    },
+    {
+      "index": 38,
+      "label": "Soups"
+    },
+    {
+      "index": 39,
+      "label": "Frozen and freeze dried prepared foods"
+    },
+    {
+      "index": 40,
+      "label": "Snacks"
+    },
+    {
+      "index": 41,
+      "label": "Spices, seasonings, condiments, sauces"
+    },
+    {
+      "index": 42,
+      "label": "Baby food and formula"
+    },
+    {
+      "index": 43,
+      "label": "Other miscellaneous foods"
+    },
+    {
+      "index": 44,
+      "label": "Food away from home"
+    },
+    {
+      "index": 45,
+      "label": "Full service meals and snacks"
+    },
+    {
+      "index": 46,
+      "label": "Limited service meals and snacks"
+    },
+    {
+      "index": 47,
+      "label": "Food at employee sites and schools"
+    },
+    {
+      "index": 48,
+      "label": "Food from vending machines and mobile vendors"
+    },
+    {
+      "index": 49,
+      "label": "Other food away from home"
+    },
+    {
+      "index": 50,
+      "label": "Alcoholic beverages"
+    },
+    {
+      "index": 51,
+      "label": "Alcoholic beverages at home"
+    },
+    {
+      "index": 52,
+      "label": "Beer, ale, and other malt beverages at home"
+    },
+    {
+      "index": 53,
+      "label": "Distilled spirits at home"
+    },
+    {
+      "index": 54,
+      "label": "Wine at home"
+    },
+    {
+      "index": 55,
+      "label": "Alcoholic beverages away from home"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "14.526",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "15.959",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "13.691",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "15.166",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "8.043",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "9.117",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1.336",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "1.484",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1.117",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "1.259",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "0.561",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "0.631",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "0.080",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "0.080",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "0.109",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "0.123",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "0.063",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "0.078",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "0.310",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "0.351",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "0.555",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "0.628",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "0.082",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "0.090",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "0.071",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "0.074",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "0.094",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "0.110",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "0.309",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "0.354",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "0.220",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "0.225",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "0.088",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "0.092",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "0.067",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "0.071",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "0.065",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "0.062",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "0.897",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "1.064",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "0.631",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "0.811",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "0.341",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "0.424",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "0.003",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "0.005",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "0.287",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "0.382",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "0.265",
+      "role": "total"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "0.253",
+      "role": "total"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "0.134",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "0.115",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "0.131",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "0.138",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "2.338",
+      "role": "total"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "2.590",
+      "role": "total"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "0.332",
+      "role": "total"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "0.357",
+      "role": "total"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "0.028",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "0.032",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "0.231",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "0.252",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "0.074",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "0.073",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "0.250",
+      "role": "total"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "0.255",
+      "role": "total"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "0.055",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "0.051",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "0.066",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "0.071",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "0.129",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "0.133",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "1.756",
+      "role": "total"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "1.978",
+      "role": "total"
+    },
+    {
+      "id": "r38c1",
+      "row": 38,
+      "col": 1,
+      "value": "0.105",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c2",
+      "row": 38,
+      "col": 2,
+      "value": "0.111",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c1",
+      "row": 39,
+      "col": 1,
+      "value": "0.279",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c2",
+      "row": 39,
+      "col": 2,
+      "value": "0.308",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c1",
+      "row": 40,
+      "col": 1,
+      "value": "0.365",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c2",
+      "row": 40,
+      "col": 2,
+      "value": "0.430",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c1",
+      "row": 41,
+      "col": 1,
+      "value": "0.383",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c2",
+      "row": 41,
+      "col": 2,
+      "value": "0.430",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "0.060",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "0.094",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c1",
+      "row": 43,
+      "col": 1,
+      "value": "0.564",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c2",
+      "row": 43,
+      "col": 2,
+      "value": "0.605",
+      "role": "leaf"
+    },
+    {
+      "id": "r44c1",
+      "row": 44,
+      "col": 1,
+      "value": "5.648",
+      "role": "total"
+    },
+    {
+      "id": "r44c2",
+      "row": 44,
+      "col": 2,
+      "value": "6.049",
+      "role": "total"
+    },
+    {
+      "id": "r45c1",
+      "row": 45,
+      "col": 1,
+      "value": "2.434",
+      "role": "leaf"
+    },
+    {
+      "id": "r45c2",
+      "row": 45,
+      "col": 2,
+      "value": "2.214",
+      "role": "leaf"
+    },
+    {
+      "id": "r46c1",
+      "row": 46,
+      "col": 1,
+      "value": "2.845",
+      "role": "leaf"
+    },
+    {
+      "id": "r46c2",
+      "row": 46,
+      "col": 2,
+      "value": "3.465",
+      "role": "leaf"
+    },
+    {
+      "id": "r47c1",
+      "row": 47,
+      "col": 1,
+      "value": "0.072",
+      "role": "leaf"
+    },
+    {
+      "id": "r47c2",
+      "row": 47,
+      "col": 2,
+      "value": "0.080",
+      "role": "leaf"
+    },
+    {
+      "id": "r48c1",
+      "row": 48,
+      "col": 1,
+      "value": "0.055",
+      "role": "leaf"
+    },
+    {
+      "id": "r48c2",
+      "row": 48,
+      "col": 2,
+      "value": "0.070",
+      "role": "leaf"
+    },
+    {
+      "id": "r49c1",
+      "row": 49,
+      "col": 1,
+      "value": "0.241",
+      "role": "leaf"
+    },
+    {
+      "id": "r49c2",
+      "row": 49,
+      "col": 2,
+      "value": "0.220",
+      "role": "leaf"
+    },
+    {
+      "id": "r50c1",
+      "row": 50,
+      "col": 1,
+      "value": "0.835",
+      "role": "total"
+    },
+    {
+      "id": "r50c2",
+      "row": 50,
+      "col": 2,
+      "value": "0.793",
+      "role": "total"
+    },
+    {
+      "id": "r51c1",
+      "row": 51,
+      "col": 1,
+      "value": "0.449",
+      "role": "total"
+    },
+    {
+      "id": "r51c2",
+      "row": 51,
+      "col": 2,
+      "value": "0.431",
+      "role": "total"
+    },
+    {
+      "id": "r52c1",
+      "row": 52,
+      "col": 1,
+      "value": "0.154",
+      "role": "leaf"
+    },
+    {
+      "id": "r52c2",
+      "row": 52,
+      "col": 2,
+      "value": "0.192",
+      "role": "leaf"
+    },
+    {
+      "id": "r53c1",
+      "row": 53,
+      "col": 1,
+      "value": "0.103",
+      "role": "leaf"
+    },
+    {
+      "id": "r53c2",
+      "row": 53,
+      "col": 2,
+      "value": "0.122",
+      "role": "leaf"
+    },
+    {
+      "id": "r54c1",
+      "row": 54,
+      "col": 1,
+      "value": "0.192",
+      "role": "leaf"
+    },
+    {
+      "id": "r54c2",
+      "row": 54,
+      "col": 2,
+      "value": "0.117",
+      "role": "leaf"
+    },
+    {
+      "id": "r55c1",
+      "row": 55,
+      "col": 1,
+      "value": "0.387",
+      "role": "leaf"
+    },
+    {
+      "id": "r55c2",
+      "row": 55,
+      "col": 2,
+      "value": "0.361",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r50c1"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r50c2"
+      ],
+      "target": "r1c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r44c1"
+      ],
+      "target": "r2c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r44c2"
+      ],
+      "target": "r2c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r45c1",
+        "r46c1",
+        "r47c1",
+        "r48c1",
+        "r49c1"
+      ],
+      "target": "r44c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r45c2",
+        "r46c2",
+        "r47c2",
+        "r48c2",
+        "r49c2"
+      ],
+      "target": "r44c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r51c1",
+        "r55c1"
+      ],
+      "target": "r50c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r51c2",
+        "r55c2"
+      ],
+      "target": "r50c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r52c1",
+        "r53c1",
+        "r54c1"
+      ],
+      "target": "r51c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r52c2",
+        "r53c2",
+        "r54c2"
+      ],
+      "target": "r51c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r16c1"
+      ],
+      "target": "r4c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r16c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r11c1"
+      ],
+      "target": "r5c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r11c2"
+      ],
+      "target": "r5c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r6c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2"
+      ],
+      "target": "r6c2",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1"
+      ],
+      "target": "r11c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2"
+      ],
+      "target": "r11c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r18c1",
+        "r19c1"
+      ],
+      "target": "r16c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r18c2",
+        "r19c2"
+      ],
+      "target": "r16c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c1",
+        "r25c1"
+      ],
+      "target": "r20c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c2",
+        "r25c2"
+      ],
+      "target": "r20c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c1",
+        "r23c1",
+        "r24c1"
+      ],
+      "target": "r21c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c2",
+        "r23c2",
+        "r24c2"
+      ],
+      "target": "r21c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c1",
+        "r27c1"
+      ],
+      "target": "r25c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c2",
+        "r27c2"
+      ],
+      "target": "r25c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c1",
+        "r33c1",
+        "r37c1"
+      ],
+      "target": "r28c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c2",
+        "r33c2",
+        "r37c2"
+      ],
+      "target": "r28c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c1",
+        "r31c1",
+        "r32c1"
+      ],
+      "target": "r29c1",
+      "tol": "0.001",
+      "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm): \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c2",
+        "r31c2",
+        "r32c2"
+      ],
+      "target": "r29c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r34c1",
+        "r35c1",
+        "r36c1"
+      ],
+      "target": "r33c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r34c2",
+        "r35c2",
+        "r36c2"
+      ],
+      "target": "r33c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r38c1",
+        "r39c1",
+        "r40c1",
+        "r41c1",
+        "r42c1",
+        "r43c1"
+      ],
+      "target": "r37c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r38c2",
+        "r39c2",
+        "r40c2",
+        "r41c2",
+        "r42c2",
+        "r43c2"
+      ],
+      "target": "r37c2"
+    }
+  ]
+}
