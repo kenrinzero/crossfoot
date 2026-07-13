@@ -34,30 +34,23 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. sec-10k/aapl-fy2023-balance-sheet — **D2** · local-only · no vision needed
-The flagship: per-column roll-ups + the assets = liabilities + equity
-identity, two fiscal-year columns. Min 12 relations, ≤140 cells.
-**Why D2 not D3:** the R5 HTML is machine-readable but visually nested
-(indent hierarchy, parenthesized negatives → `-`, section subtotals) —
-mapping the roll-up tree takes care, not just reading cells.
-
-### 2. census-p60/2023-income-a1 — **D2** · local-only · vision needed (PDF)
+### 1. census-p60/2023-income-a1 — **D2** · local-only · vision needed (PDF)
 Income brackets sum to total; percent distribution closes to 100 — the
 corpus's first `percent-closure` relations (default tol ±0.05 needs no
 `why`; only non-default tols do). Min 8 relations, ≤150 cells.
 **Why D2:** PDF extraction + first use of the second relation type; the
 arithmetic itself is simple.
 
-### 3. tier1/strict-coverage-default — **D2 (harness)** · local-only · after 1–2 are green
+### 2. tier1/strict-coverage-default — **D2 (harness)** · local-only · after the Census starter is green
 Crossfoot's "Tier 1" stage: make `--strict-coverage` the default in
 `reconcile.py`, add the manifest column for granted `standalone` waivers,
 keep all shipped tables + fixtures behaving (mini-uncovered must still
 red). **Why D2:** small, fully pre-specified in BACKLOG/DESIGN § 4; it
 just edits the oracle, so it must NOT be folded into any transcription
-session. Note: the shipped Treasury unit already passes strict — the flip
-should be a no-op for the corpus so far.
+session. Note: both shipped units already pass strict — the flip should
+be a no-op for the corpus so far.
 
-### 4. bls-cpi/relative-importance-2024 vendoring — **D1 (web)** · needs browser
+### 3. bls-cpi/relative-importance-2024 vendoring — **D1 (web)** · needs browser
 Save `https://www.bls.gov/cpi/tables/relative-importance/2024.htm` into
 `sources/bls-cpi/` + SOURCES.md ledger row (sha256, retrieval date, URL)
 + content sanity check + a sized manifest row. Akamai 403s curl and
@@ -65,7 +58,7 @@ Windows TLS — needs a browser-capable session (Windows side has them) or
 Kenrin. **Why D1:** provenance judgment + bot-gate navigation + sizing
 the future unit; the transcription that follows is a separate D2/D3.
 
-### 5. treasury-mts/2026-05-receipts-detail — **D2** · local-only · vision needed (PDF)
+### 4. treasury-mts/2026-05-receipts-detail — **D2** · local-only · vision needed (PDF)
 Slice the remainder of Table 4 (~160 cells) into ≤120-cell units and ship
 the first. Suggested cut (verify before trusting): the Employment &
 General Retirement subtree is ~105 cells and self-contained (OASI/DI/HI
@@ -84,6 +77,10 @@ demand judgment; pure transcription of a decided slice would be D3.
 ---
 
 ## Shipped
+
+- 2026-07-13 · sec-10k/aapl-fy2023-balance-sheet (D2, Codex) —
+  Apple FY2023 Consolidated Balance Sheets; 58 cells, 18 exact relations,
+  4 share-count standalones; strict-coverage GREEN. Commit `0d31947`.
 
 - 2026-07-13 · treasury-mts/2026-05-receipts (D2, went to Claude Fable 5) —
   Table 4 major-classification slice; 87 cells, 42 relations, 11 tol-1
