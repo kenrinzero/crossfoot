@@ -26,38 +26,29 @@ crossfoot text, read it as D2.
   against the render (footnote markers glue onto values: see BACKLOG).
 - PDF units therefore want a **vision-capable** agent (the render check is
   mandatory discipline, not decoration). The HTML unit (Apple) does not.
-- The gate for every transcription: `uv run python reconcile.py <file>
-  --strict-coverage` GREEN with 0 warnings, relations ≥ manifest minimum,
-  `uv run pytest` still green, one new file only.
+- The gate for every transcription: `uv run python reconcile.py <file>`
+  GREEN with 0 warnings (strict coverage is now default), relations ≥ manifest
+  minimum, `uv run pytest` still green, one new file only.
 
 ---
 
 ## Queue
 
-### 1. tier1/strict-coverage-default — **D2 (harness)** · local-only · after the Census starter is green
-Crossfoot's "Tier 1" stage: make `--strict-coverage` the default in
-`reconcile.py`, add the manifest column for granted `standalone` waivers,
-keep all shipped tables + fixtures behaving (mini-uncovered must still
-red). **Why D2:** small, fully pre-specified in BACKLOG/DESIGN § 4; it
-just edits the oracle, so it must NOT be folded into any transcription
-session. Note: both shipped units already pass strict — the flip should
-be a no-op for the corpus so far.
-
-### 2. bls-cpi/relative-importance-2024 vendoring — **D1 (web)** · needs browser
-Save `https://www.bls.gov/cpi/tables/relative-importance/2024.htm` into
-`sources/bls-cpi/` + SOURCES.md ledger row (sha256, retrieval date, URL)
-+ content sanity check + a sized manifest row. Akamai 403s curl and
-Windows TLS — needs a browser-capable session (Windows side has them) or
-Kenrin. **Why D1:** provenance judgment + bot-gate navigation + sizing
-the future unit; the transcription that follows is a separate D2/D3.
-
-### 3. treasury-mts/2026-05-receipts-detail — **D2** · local-only · vision needed (PDF)
+### 1. treasury-mts/2026-05-receipts-detail — **D2** · local-only · vision needed (PDF)
 Slice the remainder of Table 4 (~160 cells) into ≤120-cell units and ship
 the first. Suggested cut (verify before trusting): the Employment &
 General Retirement subtree is ~105 cells and self-contained (OASI/DI/HI
 pyramids — dense sum structure). Add the slice rows to BACKLOG first.
 **Why D2:** the slicing decision + footnote-marker hazards (BACKLOG)
 demand judgment; pure transcription of a decided slice would be D3.
+
+### 2. bls-cpi/relative-importance-2024-housing — **D2** · local-only · HTML
+Transcribe the Housing slice from the vendored BLS relative importance
+table (`sources/bls-cpi/relative-importance-2024.htm`). 54 rows × 2 columns
+= 108 cells; dense sum structure (shelter + fuels/utilities + furnishings
+subtotals all rolling up to Housing). Already sized and added to BACKLOG
+starter units. **Why D2:** HTML transcription is well-specified; the
+slicing decision was already made in the vendoring unit.
 
 ## Not yet sequenced
 
@@ -70,6 +61,23 @@ demand judgment; pure transcription of a decided slice would be D3.
 ---
 
 ## Shipped
+
+- 2026-07-13 · bls-cpi/relative-importance-2024 vendoring (D1, Kimi Work) —
+  Vendored `https://www.bls.gov/cpi/tables/relative-importance/2024.htm`
+  via Kimi WebBridge (browser session; Akamai 403s curl and Windows TLS).
+  Source saved to `sources/bls-cpi/relative-importance-2024.htm` (90,118
+  bytes, sha256 `2de17050f2ada5de1eff78c03b3df7fe5550d5490b09be6a89e6aab1d802044d`).
+  Content sanity: 1 table, 322 rows × 2 columns = ~644 numeric cells,
+  "All items" = 100.000/100.000 confirmed. Sized manifest row added:
+  Housing slice (108 cells) moved to starter units; remaining slices
+  (Food/Apparel/Transportation/Medical/Recreation/Education/Other/
+  Aggregates) stay queued with proposed split sizes.
+
+- 2026-07-13 · tier1/strict-coverage-default (D2, harness) —
+  Flipped `--strict-coverage` to default in `reconcile.py`; added
+  `standalone waivers` column to BACKLOG.md manifest; all three shipped
+  tables + fixtures pass strict coverage (mini-uncovered still RED under
+  strict).
 
 - 2026-07-13 · census-p60/2023-income-a1 (D2, Antigravity) —
   Households by Total Money Income (All Races slice); 88 cells, 8 sum

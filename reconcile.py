@@ -3,12 +3,12 @@
 extending relation types or coverage rules is an explicitly-scoped harness
 unit, never part of a transcription unit.
 
-Usage: reconcile.py <file.cells.json> [--strict-coverage]
+Usage: reconcile.py <file.cells.json> [--no-strict-coverage]
 
 Checks, in order: JSON Schema validity; referential integrity (cell ids
 unique + consistent with row/col, relation refs exist); every declared
 relation re-derived from leaf values in exact Decimal arithmetic; coverage
-(DESIGN.md § 4 — warnings by default, errors under --strict-coverage).
+(DESIGN.md § 4 — errors by default, warnings under --no-strict-coverage).
 Exit 0 = green; non-zero = red. Importable: check(path, strict_coverage).
 """
 
@@ -27,7 +27,7 @@ DEFAULT_TOL = {"sum": Decimal("0"), "percent-closure": Decimal("0.05")}
 DEFAULT_CLOSURE_TOTAL = Decimal("100")
 
 
-def check(path: str | Path, strict_coverage: bool = False):
+def check(path: str | Path, strict_coverage: bool = True):
     """Return (violations, warnings) — green iff violations is empty."""
     violations: list[str] = []
     warnings: list[str] = []
@@ -106,7 +106,7 @@ def check(path: str | Path, strict_coverage: bool = False):
 
 def main(argv: list[str]) -> int:
     args = [a for a in argv if not a.startswith("--")]
-    strict = "--strict-coverage" in argv
+    strict = "--no-strict-coverage" not in argv
     if len(args) != 1:
         print(__doc__, file=sys.stderr)
         return 2

@@ -36,13 +36,13 @@ def test_single_cell_typo_goes_red():
     assert any("r3c1" in v for v in violations)
 
 
-def test_coverage_warns_by_default_and_bites_in_strict():
+def test_coverage_bites_by_default_and_warns_in_lenient():
     violations, warnings = check(UNCOVERED)
-    assert violations == []
-    assert len(warnings) == 3  # r1c3 + r2c3 leaves unfed, r3c3 total untargeted
-    strict_violations, strict_warnings = check(UNCOVERED, strict_coverage=True)
-    assert len(strict_violations) == 3
-    assert strict_warnings == []
+    assert len(violations) == 3  # r1c3 + r2c3 leaves unfed, r3c3 total untargeted
+    assert warnings == []
+    lenient_violations, lenient_warnings = check(UNCOVERED, strict_coverage=False)
+    assert lenient_violations == []
+    assert len(lenient_warnings) == 3
 
 
 def _mutate(base: Path, **updates):
@@ -95,5 +95,6 @@ def test_unknown_relation_ref_rejected(tmp_path):
 def test_cli_exit_codes(capsys):
     assert main([str(GREEN)]) == 0
     assert main([str(TYPO)]) == 1
-    assert main([str(UNCOVERED), "--strict-coverage"]) == 1
+    assert main([str(UNCOVERED)]) == 1  # strict by default
+    assert main([str(UNCOVERED), "--no-strict-coverage"]) == 0  # lenient passes
     capsys.readouterr()
