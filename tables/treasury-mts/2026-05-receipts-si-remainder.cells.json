@@ -1,0 +1,874 @@
+{
+  "table_id": "treasury-mts/2026-05-receipts-si-remainder",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 4. Receipts of the U.S. Government, May 2026 and Other Periods",
+    "page": 9,
+    "title": "Social Insurance remainder slice (3 of 4): Unemployment Insurance + Other Retirement, with Total -- Employment and General Retirement and Total -- Social Insurance and Retirement Receipts re-anchored from the same source page.",
+    "period": "May FY2026 (This Month = May 2026; FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells (legend: '... No Transactions') are omitted, not transcribed as 0. Values as printed, thousands separators stripped. The source prints a superscript footnote marker before Federal Employees' Retirement FYTD gross; the numeric value is 5514 (not 15514), confirmed against a 4x page render. The two re-anchor total rows are re-transcribed from this page, never copied from sibling units.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Receipts"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Refunds (Deduct)"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Receipts"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Receipts"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Refunds (Deduct)"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Receipts"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Receipts"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Refunds (Deduct)"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Receipts"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total -- Employment and General Retirement"
+    },
+    {
+      "index": 2,
+      "label": "Unemployment Insurance / Deposits by States"
+    },
+    {
+      "index": 3,
+      "label": "Unemployment Insurance / Federal Unemployment Taxes"
+    },
+    {
+      "index": 4,
+      "label": "Unemployment Insurance / Railroad Unemployment Taxes"
+    },
+    {
+      "index": 5,
+      "label": "Total -- Unemployment Insurance"
+    },
+    {
+      "index": 6,
+      "label": "Other Retirement / Federal Employees' Retirement--Employee Share"
+    },
+    {
+      "index": 7,
+      "label": "Other Retirement / Non-Federal Employees Retirement"
+    },
+    {
+      "index": 8,
+      "label": "Total -- Other Retirement"
+    },
+    {
+      "index": 9,
+      "label": "Total -- Social Insurance and Retirement Receipts"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "142107",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "142094",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "1183739",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "1183735",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "1122040",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "1122016",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "14506",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "14506",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "31299",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "31299",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "30645",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "30645",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "58",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "33",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "7699",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "7586",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "7867",
+      "role": "total"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "7793",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "14565",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "14540",
+      "role": "total"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "39024",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "113",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "38911",
+      "role": "total"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "38537",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "38463",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "645",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "645",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "5514",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "5514",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "5645",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "5645",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "646",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "646",
+      "role": "total"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "5525",
+      "role": "total"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "5525",
+      "role": "total"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "5657",
+      "role": "total"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "5657",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "157319",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "38",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "157280",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "1228287",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "116",
+      "role": "total"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "1228171",
+      "role": "total"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1166235",
+      "role": "total"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "98",
+      "role": "total"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "1166136",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1",
+        "r4c1"
+      ],
+      "target": "r5c1",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r5c3",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4",
+        "r4c4"
+      ],
+      "target": "r5c4",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6",
+        "r4c6"
+      ],
+      "target": "r5c6",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7",
+        "r4c7"
+      ],
+      "target": "r5c7",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9",
+        "r4c9"
+      ],
+      "target": "r5c9",
+      "note": "block roll-up: Deposits by States + Federal Unemployment Taxes + Railroad Unemployment Taxes = Total -- Unemployment Insurance"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r8c1",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r8c3",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r7c4"
+      ],
+      "target": "r8c4",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r7c6"
+      ],
+      "target": "r8c6",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c7",
+        "r7c7"
+      ],
+      "target": "r8c7",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r7c9"
+      ],
+      "target": "r8c9",
+      "note": "block roll-up: Federal Employees' Retirement + Non-Federal Employees Retirement = Total -- Other Retirement"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r5c1",
+        "r8c1"
+      ],
+      "target": "r9c1",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r5c2"
+      ],
+      "target": "r9c2",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r5c3",
+        "r8c3"
+      ],
+      "target": "r9c3",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r5c4",
+        "r8c4"
+      ],
+      "target": "r9c4",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r5c5"
+      ],
+      "target": "r9c5",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r5c6",
+        "r8c6"
+      ],
+      "target": "r9c6",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r5c7",
+        "r8c7"
+      ],
+      "target": "r9c7",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r5c8"
+      ],
+      "target": "r9c8",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r5c9",
+        "r8c9"
+      ],
+      "target": "r9c9",
+      "note": "slice roll-up: Employment and General Retirement + Unemployment Insurance + Other Retirement = Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r1c2"
+      ],
+      "target": "r1c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r1c5"
+      ],
+      "target": "r1c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r1c8"
+      ],
+      "target": "r1c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r3c2"
+      ],
+      "target": "r3c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r3c5"
+      ],
+      "target": "r3c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c9",
+        "r3c8"
+      ],
+      "target": "r3c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r9c2"
+      ],
+      "target": "r9c1",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r9c5"
+      ],
+      "target": "r9c4",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c9",
+        "r9c8"
+      ],
+      "target": "r9c7",
+      "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts",
+      "tol": "1",
+      "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1."
+    }
+  ]
+}
