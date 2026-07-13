@@ -34,21 +34,18 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. spot-audit/unit-10 — **D3** · local-only · different agent required
-Immediately after corpus unit 10 ships (apparel-transportation, shipped 2026-07-13 by Hunyuan/OpenClaw), re-read labels, units, periods, and 10 sampled cells against the vendored sources; append the result to `AUDITS.md`. The auditor must be a **different agent from the transcriber** (Hunyuan/OpenClaw). This is non-arithmetic verification; do not modify the audited table.
-
-### 2. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML)
+### 1. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML)
 Complete Medical care + Recreation hierarchies: numeric rows 201–251,
 51 rows × 2 columns = **102 cells**, min 20 sum relations, 0 waivers.
 
-### 3. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
+### 2. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
 Education and communication + Other goods and services: numeric rows
 252–294, 43 rows × 2 columns = **86 cells**, min 18 sum relations.
 Expected waivers: 2 cells for Haircuts and other personal care services,
 whose identical one-child parent cannot be declared under sum minItems 2;
 the parent remains a leaf feeding the wider Personal care roll-up.
 
-### 4. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
+### 3. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
 Plan the relation topology for numeric rows 295–322: **28 rows / 56
 cells** before re-anchors (correcting the earlier 27/54 estimate). These
 are cross-cutting “less X” indexes rather than one hierarchy; decide the
@@ -67,7 +64,9 @@ in the planning session.
 
 ## Shipped
 
-- 2026-07-13 · bls-cpi/relative-importance-2024-apparel-transportation (D3, Hunyuan/OpenClaw) — Apparel + Transportation hierarchies: full Apparel major group (Men's and boys' → Men's/Women's apparel, Footwear, Infants' and toddlers', Jewelry and watches) and full Transportation major group (Private: New/used motor vehicles, Motor fuel, Motor vehicle parts/equipment, Motor vehicle maintenance/repair, Motor vehicle insurance, Motor vehicle fees; Public: Airline fares, Other intercity, Intracity, Unsampled public). 54 rows × 2 columns = **108 cells**, **30 sum relations** (15 hierarchies × 2 columns; 9 with tol-0.001 quoting the BLS cost-weights page rounding note), 0 waivers, strict-default GREEN (0 warnings), 10/10 pytest pass. Source rows 146–200 (offset +6 from HTML segment positions; manifest labels the slice "147–200"). Corpus unit #10 → triggers the spot-audit below. Commit pending.
+- 2026-07-13 · spot-audit/unit-10 (D3, Antigravity) — Non-arithmetic spot audit of BLS Apparel + Transportation unit #10 against source relative-importance-2024.htm: verified period, table title, column/row labels, and 10 sampled cells (100% match); logged results in AUDITS.md.
+
+- 2026-07-13 · bls-cpi/relative-importance-2024-apparel-transportation (D3, Hunyuan/OpenClaw) — Apparel + Transportation hierarchies: full Apparel major group (Men's and boys' → Men's/Women's apparel, Footwear, Infants' and toddlers', Jewelry and watches) and full Transportation major group (Private: New/used motor vehicles, Motor fuel, Motor vehicle parts/equipment, Motor vehicle maintenance/repair, Motor vehicle insurance, Motor vehicle fees; Public: Airline fares, Other intercity, Intracity, Unsampled public). 54 rows × 2 columns = **108 cells**, **30 sum relations** (15 hierarchies × 2 columns; 9 with tol-0.001 quoting the BLS cost-weights page rounding note), 0 waivers, strict-default GREEN (0 warnings), 10/10 pytest pass. Source rows 146–200 (offset +6 from HTML segment positions; manifest labels the slice "147–200"). Corpus unit #10. Commit `0e42a46`.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024-food-remainder (D3, LongCat-2.0) —
   Food remainder: Fruits and vegetables through Other food at home,
@@ -76,14 +75,14 @@ in the planning session.
   cells**, **34 sum relations** (17 hierarchies × 2 columns; 10 with
   tol-0.001 per BLS rounding note), 0 waivers, strict-default GREEN
   (0 warnings), 10/10 pytest pass. All re-anchors re-read from the HTML,
-  never copied from food-core. Commit pending.
+  never copied from food-core. Commit `0e42a46`.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024-food-core (D3, Mistral Vibe) —
   Food at home, core branches: Cereals and bakery products through Dairy
   and related products (source rows 6-41, 36 rows × 2 columns = 72 cells, 22 sum
   relations, 4 with tol-0.001 per BLS rounding statement). Self-contained branch
   totals; Food-at-home parent not included. reconcile GREEN (0 warnings),
-  pytest 10/10 pass. Commit 400238a.
+  pytest 10/10 pass. Commit `400238a`.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024-housing-rounding-repair (D3, Cline) —
   Replaced the Housing unit's 16 inferred tol-0.001 `why` strings with the
@@ -92,7 +91,7 @@ in the planning session.
   the officially published relative importance, due to rounding error these
   weights do not perfectly sum up to the total." Added `unit_note` field
   referencing the source. reconcile GREEN (0 warnings), pytest 10/10 pass.
-  Commit pending.
+  Commit `0c06898`.
 
 - 2026-07-13 · bls-cpi/relative-importance-rounding-evidence (D2, Claude Opus 4.8) —
   Vendored the official BLS "CPI Cost Weights Homepage"
