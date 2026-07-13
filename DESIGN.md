@@ -3,7 +3,7 @@
 > **Status: FROZEN at seed time (2026-07-07).** This document +
 > `schema/cells.schema.json` + `reconcile.py`'s check semantics are the
 > contract. New relation types, schema changes, and coverage-rule changes
-> are explicitly-scoped harness units (T2) — never folded into a
+> are explicitly-scoped harness units (difficulty D2) — never folded into a
 > transcription unit.
 
 Crossfoot turns messy public tables (PDF/HTML) into typed, self-verifying

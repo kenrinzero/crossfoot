@@ -7,8 +7,10 @@ units never edit `reconcile.py`, the schema, or vendored sources; new
 relation types are separate harness units (DESIGN.md). Every 10th shipped
 unit triggers a non-arithmetic spot-audit by a different agent (AUDITS.md).
 
-Source vendoring is its own T1/web unit — a transcription unit only ever
-reads `sources/` locally.
+Source vendoring is its own D1/web unit — a transcription unit only ever
+reads `sources/` locally. (Difficulty is written D1/D2/D3 in this repo —
+= CHARTER T1/T2/T3 — because "Tier N" here names project stages; see
+NEXT.md.)
 
 ## Starter units (READY — sources vendored 2026-07-07)
 
@@ -25,7 +27,7 @@ reads `sources/` locally.
 | bls-cpi/relative-importance-2024 | **Vendoring browser-gated** (bls.gov Akamai 403s curl AND Windows TLS — verified 2026-07-07). Needs Kenrin or a browser-capable session to save `https://www.bls.gov/cpi/tables/relative-importance/2024.htm` into `sources/bls-cpi/`. Superb crossfoot density (weights sum hierarchically to 100.000). |
 | treasury-mts/2026-05-outlays | Same vendored PDF, Table 5 (outlays by agency) — size/split decision needed (may exceed cell cap → sub-table units). |
 | treasury-mts/2026-05-receipts-detail | Remainder of Table 4 (p. 9): sub-classification rows under IIT / Social Insurance / Excise / Misc (~160 cells) — needs a slicing decision (likely 2 units: social-insurance subtree; everything-else). Sub-row footnote markers ¹² glue onto values in the text layer (¹5,514 / ²10,155) — transcriber must verify against a page render. Genuine source label typo on p. 9: "Adjustments Attrbutable to Prior Years-SECA" (OASI block) — transcribe as printed. |
-| fec/2024-presidential-general | Election returns family; vendor the official FEC results PDF first (T1/web unit). |
+| fec/2024-presidential-general | Election returns family; vendor the official FEC results PDF first (D1/web unit). |
 | omb/budget-appendix-slice | Budget appendix family; pick one agency chapter, vendor, size-cap check. |
 
 ## Harness units (explicitly scoped; dispatch when needed)
