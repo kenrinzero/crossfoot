@@ -34,44 +34,37 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. bls-cpi/relative-importance-2024-food-core — **D3** · local-only (HTML)
-Cereals and bakery products through Dairy and related products: numeric
-rows 5–40 of the source table, 36 rows × 2 columns = **72 cells**, min
-18 sum relations, 0 waivers. Self-contained branch totals; do not add the
-incomplete Food-at-home parent. Use the vendored rounding statement for
-any tol-0.001 relation that needs it.
-
-### 2. bls-cpi/relative-importance-2024-food-remainder — **D3** · local-only (HTML)
+### 1. bls-cpi/relative-importance-2024-food-remainder — **D3** · local-only (HTML)
 Fruits and vegetables through Other food at home, then Food away from
 home + Alcoholic beverages, with Food at home / Food / Food and beverages
 re-anchored: numeric rows 2–4 and 41–92, 55 rows × 2 columns = **110
 cells**, min 26 sum relations, 0 waivers. All re-anchors are re-read from
 the HTML, never copied from another unit.
 
-### 3. bls-cpi/relative-importance-2024-apparel-transportation — **D3** · local-only (HTML)
+### 2. bls-cpi/relative-importance-2024-apparel-transportation — **D3** · local-only (HTML)
 Complete Apparel + Transportation hierarchies: numeric rows 147–200,
 54 rows × 2 columns = **108 cells**, min 24 sum relations, 0 waivers.
-This becomes corpus unit 10 if items 2–4 ship in order.
+This becomes corpus unit 10 if items 2–3 ship in order.
 
-### 4. spot-audit/unit-10 — **D3** · local-only · different agent required
+### 3. spot-audit/unit-10 — **D3** · local-only · different agent required
 Immediately after corpus unit 10 ships, re-read labels, units, periods,
 and 10 sampled cells against the vendored sources; append the result to
 `AUDITS.md`. The auditor must be a **different agent from item 3's
 transcriber**. This is non-arithmetic verification; do not modify the
 audited table.
 
-### 5. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML)
+### 4. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML)
 Complete Medical care + Recreation hierarchies: numeric rows 201–251,
 51 rows × 2 columns = **102 cells**, min 20 sum relations, 0 waivers.
 
-### 6. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
+### 5. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML)
 Education and communication + Other goods and services: numeric rows
 252–294, 43 rows × 2 columns = **86 cells**, min 18 sum relations.
 Expected waivers: 2 cells for Haircuts and other personal care services,
 whose identical one-child parent cannot be declared under sum minItems 2;
 the parent remains a leaf feeding the wider Personal care roll-up.
 
-### 7. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
+### 6. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
 Plan the relation topology for numeric rows 295–322: **28 rows / 56
 cells** before re-anchors (correcting the earlier 27/54 estimate). These
 are cross-cutting “less X” indexes rather than one hierarchy; decide the
@@ -89,6 +82,13 @@ in the planning session.
 ---
 
 ## Shipped
+
+- 2026-07-13 · bls-cpi/relative-importance-2024-food-core (D3, Mistral Vibe) —
+  Food at home, core branches: Cereals and bakery products through Dairy
+  and related products (source rows 6-41, 36 rows × 2 columns = 72 cells, 22 sum
+  relations, 4 with tol-0.001 per BLS rounding statement). Self-contained branch
+  totals; Food-at-home parent not included. reconcile GREEN (0 warnings),
+  pytest 10/10 pass. Commit 400238a.
 
 - 2026-07-13 · bls-cpi/relative-importance-2024-housing-rounding-repair (D3, Cline) —
   Replaced the Housing unit's 16 inferred tol-0.001 `why` strings with the
