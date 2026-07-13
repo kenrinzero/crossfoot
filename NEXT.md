@@ -88,7 +88,7 @@ Expected waivers: 2 cells for Haircuts and other personal care services,
 whose identical one-child parent cannot be declared under sum minItems 2;
 the parent remains a leaf feeding the wider Personal care roll-up.
 
-### 9. bls-cpi/relative-importance-2024-special-aggregates-plan — **D2** · local-only (HTML)
+### 9. bls-cpi/relative-importance-2024-special-aggregates-plan — **D1** · local-only (HTML)
 Plan the relation topology for numeric rows 295–322: **28 rows / 56
 cells** before re-anchors (correcting the earlier 27/54 estimate). These
 are cross-cutting “less X” indexes rather than one hierarchy; decide the
