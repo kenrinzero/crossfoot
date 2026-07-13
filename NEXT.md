@@ -34,26 +34,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. bls-cpi/relative-importance-2024-housing — **D2** · local-only · HTML
-Transcribe the Housing slice from the vendored BLS relative importance
-table (`sources/bls-cpi/relative-importance-2024.htm`). 54 rows × 2 columns
-= 108 cells; dense sum structure (shelter + fuels/utilities + furnishings
-subtotals all rolling up to Housing). Already sized and added to BACKLOG
-starter units. **Why D2:** HTML transcription is well-specified; the
-slicing decision was already made in the vendoring unit. First BLS unit —
-whoever takes it settles the extraction pattern the remaining ~6 BLS
-slices will reuse (those then drop to D3).
-
-### 2. treasury-mts/2026-05-receipts-si-remainder — **D3** · local-only · vision needed (PDF)
-Decided slice (3 of 4) of Table 4: Unemployment Insurance + Other
-Retirement blocks + re-anchored E&GR/SI&R total rows (~66 cells, ~33
-relations — expect ~8 tol-1 with the page's quoted rounding note; spec
-and expected structure in BACKLOG). **Why D3:** slicing judgment already
-spent; deterministic against the oracle. **Hazard (why vision is
-non-negotiable):** footnote marker ¹ glues onto Fed Employees' Retirement
-FYTD gross in the text layer ("15,514" — printed value is 5,514).
-
-### 3. treasury-mts/2026-05-receipts-tax-detail — **D3** · local-only · vision needed (PDF)
+### 1. treasury-mts/2026-05-receipts-tax-detail — **D3** · local-only · vision needed (PDF)
 Decided slice (4 of 4) of Table 4: IIT sub-rows (gross columns only) +
 Excise + Miscellaneous sub-rows + re-anchored parent totals (~83 cells,
 ~34 relations, ~10 tol-1). **Why D3:** same as slice 3. **Hazard:**
@@ -71,14 +52,27 @@ per the pattern set in the majors slice.
 - treasury-mts/2026-05-outlays — Table 5 size/split decision (D2), then units.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
-- **Spot-audit at unit 10 is approaching** — 4 units shipped; after the
-  three queue items above it's 7. The audit is **D3**, MUST be a different
+- **Spot-audit at unit 10 is approaching** — 6 units shipped; after the
+  queue item above it's 7. The audit is **D3**, MUST be a different
   agent than the transcribers it samples (DESIGN § 6), non-arithmetic
   checks (labels/units/periods + 10 sampled cells vs source) → AUDITS.md.
 
 ---
 
 ## Shipped
+
+- 2026-07-13 · treasury-mts/2026-05-receipts-si-remainder (D3, Codex) —
+  Unemployment Insurance + Other Retirement with E&GR/SI&R re-anchors;
+  66 cells, 33 relations, 6 tol-1 with the page's quoted rounding note;
+  strict-default GREEN and 66/66 source cross-check. Footnote marker ¹
+  visually resolved: printed FYTD gross is 5,514, not text-layer 15,514.
+  Commit `087066b`.
+
+- 2026-07-13 · bls-cpi/relative-importance-2024-housing (D2, Ring) —
+  Housing slice: Shelter + Fuels & utilities + Household furnishings;
+  54 rows × 2 columns = 108 cells, 34 sum relations; 0 warnings,
+  strict-default GREEN. First BLS unit — sets the extraction pattern for
+  ~6 remaining slices. Commit `dd99331`.
 
 - 2026-07-13 · treasury-mts/2026-05-receipts-employment-retirement (D2,
   went to Claude Fable 5) — E&GR subtree slice; 105 cells, 36 relations
