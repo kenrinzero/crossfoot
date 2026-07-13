@@ -9,7 +9,8 @@
 # Working on Crossfoot
 
 1. **Read `DESIGN.md`** (frozen), then take a READY unit from
-   `BACKLOG.md`. One session = one table.
+   `BACKLOG.md` — `NEXT.md` holds the suggested order, difficulty tiers,
+   and harness needs. One session = one table.
 2. **A transcription unit touches exactly one new file** —
    `tables/<family>/<table-id>.cells.json`. It never edits `reconcile.py`,
    `schema/`, vendored `sources/`, or another unit's table. New relation
