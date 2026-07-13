@@ -34,32 +34,85 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. treasury-mts/2026-05-receipts-tax-detail — **D3** · local-only · vision needed (PDF)
-Decided slice (4 of 4) of Table 4: IIT sub-rows (gross columns only) +
-Excise + Miscellaneous sub-rows + re-anchored parent totals (~83 cells,
-~34 relations, ~10 tol-1). **Why D3:** same as slice 3. **Hazard:**
-footnote marker ² glues onto All Other FYTD gross ("210,155" — printed
-value is 10,155). Note: single-source decompositions (e.g. Misc refunds
-columns where only All Other prints a value) cannot be declared (schema
-minItems 2) — role such printed totals as leaves feeding row identities,
-per the pattern set in the majors slice.
+### 1. bls-cpi/relative-importance-rounding-evidence — **D2** · browser needed (web)
+Vendor and ledger the official BLS `cost-weights.htm` page. It supplies
+the missing source-authorized tolerance rationale: “just as with the
+officially published relative importance, due to rounding error these
+weights do not perfectly sum up to the total.” The decided URL is
+`https://www.bls.gov/cpi/tables/relative-importance/cost-weights.htm`;
+BLS may require the same browser/network-response capture used for the
+2024 table. **Why D2:** source selection is settled; this is careful
+browser capture + provenance verification. Do not edit a table in the
+same vendoring unit.
+
+### 2. bls-cpi/relative-importance-2024-housing-rounding-repair — **D3** · local-only · depends on item 1
+Replace the Housing unit's 16 inferred tol-0.001 `why` strings with the
+exact rounding statement from the newly vendored BLS page, referencing
+that source in `unit_note`; reconcile + pytest. One existing table file
+only. This closes the provenance gap before the pattern is copied.
+
+### 3. bls-cpi/relative-importance-2024-food-core — **D3** · local-only (HTML) · depends on item 1
+Cereals and bakery products through Dairy and related products: numeric
+rows 5–40 of the source table, 36 rows × 2 columns = **72 cells**, min
+18 sum relations, 0 waivers. Self-contained branch totals; do not add the
+incomplete Food-at-home parent. Use the vendored rounding statement for
+any tol-0.001 relation that needs it.
+
+### 4. bls-cpi/relative-importance-2024-food-remainder — **D3** · local-only (HTML) · depends on item 1
+Fruits and vegetables through Other food at home, then Food away from
+home + Alcoholic beverages, with Food at home / Food / Food and beverages
+re-anchored: numeric rows 2–4 and 41–92, 55 rows × 2 columns = **110
+cells**, min 26 sum relations, 0 waivers. All re-anchors are re-read from
+the HTML, never copied from another unit.
+
+### 5. bls-cpi/relative-importance-2024-apparel-transportation — **D3** · local-only (HTML) · depends on item 1
+Complete Apparel + Transportation hierarchies: numeric rows 147–200,
+54 rows × 2 columns = **108 cells**, min 24 sum relations, 0 waivers.
+This becomes corpus unit 10 if items 3–5 ship in order.
+
+### 6. spot-audit/unit-10 — **D3** · local-only · different agent required
+Immediately after corpus unit 10 ships, re-read labels, units, periods,
+and 10 sampled cells against the vendored sources; append the result to
+`AUDITS.md`. The auditor must be a **different agent from item 5's
+transcriber**. This is non-arithmetic verification; do not modify the
+audited table.
+
+### 7. bls-cpi/relative-importance-2024-medical-recreation — **D3** · local-only (HTML) · depends on item 1
+Complete Medical care + Recreation hierarchies: numeric rows 201–251,
+51 rows × 2 columns = **102 cells**, min 20 sum relations, 0 waivers.
+
+### 8. bls-cpi/relative-importance-2024-education-other — **D3** · local-only (HTML) · depends on item 1
+Education and communication + Other goods and services: numeric rows
+252–294, 43 rows × 2 columns = **86 cells**, min 18 sum relations.
+Expected waivers: 2 cells for Haircuts and other personal care services,
+whose identical one-child parent cannot be declared under sum minItems 2;
+the parent remains a leaf feeding the wider Personal care roll-up.
+
+### 9. bls-cpi/relative-importance-2024-special-aggregates-plan — **D2** · local-only (HTML)
+Plan the relation topology for numeric rows 295–322: **28 rows / 56
+cells** before re-anchors (correcting the earlier 27/54 estimate). These
+are cross-cutting “less X” indexes rather than one hierarchy; decide the
+main-table re-anchors, waiver count, final cap, and relation floor, then
+append the resulting D3 transcription unit to this queue. No table file
+in the planning session.
 
 ## Not yet sequenced
 
-- Remaining BLS slices (~6 units after housing: Food×2-3, Apparel+Transport,
-  Medical+Recreation, Education+Other, aggregates) — **D3 once housing
-  settles the pattern**; split proposal in BACKLOG's queued row.
 - treasury-mts/2026-05-outlays — Table 5 size/split decision (D2), then units.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
-- **Spot-audit at unit 10 is approaching** — 6 units shipped; after the
-  queue item above it's 7. The audit is **D3**, MUST be a different
-  agent than the transcribers it samples (DESIGN § 6), non-arithmetic
-  checks (labels/units/periods + 10 sampled cells vs source) → AUDITS.md.
+- Special-aggregates transcription becomes visible after queue item 9.
 
 ---
 
 ## Shipped
+
+- 2026-07-13 · treasury-mts/2026-05-receipts-tax-detail (D3, Codex) —
+  Final Table 4 slice: IIT gross subrows + complete Excise and Miscellaneous
+  detail; 82 cells, 34 relations, 10 tol-1 with the page's quoted rounding
+  note; strict-default GREEN and 82/82 decoded-source cross-check. Visual
+  render resolved superscript footnote ²: printed All Other current-FYTD
+  gross is 10,155, not text-layer 210,155. Commit `64ffb41`.
 
 - 2026-07-13 · treasury-mts/2026-05-receipts-si-remainder (D3, Codex) —
   Unemployment Insurance + Other Retirement with E&GR/SI&R re-anchors;
