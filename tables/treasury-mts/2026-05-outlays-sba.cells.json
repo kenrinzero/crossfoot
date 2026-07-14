@@ -1,0 +1,573 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-sba",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 20,
+    "title": "Small Business Administration section (Table-5 cap-fit unit, page 20). Full 9-column outlays model. Self-contained: no cell overlaps another unit's table. Family pattern: plans/treasury-mts-2026-05-outlays-table5.md.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' -- omitted (Business Loans This-Month Gross/Applicable/Outlays and Current/Prior Applicable; Disaster Loans all three Applicable cells). Values as printed, thousands separators stripped, negatives as leading '-'. Full visual render and cid-decoded text-layer cross-check completed for page 20. All nine columns roll up; the Other line and section total add six net identities. Seven relations require tol 1 under the printed rounding note, with omitted sub-$0.5 cells contributing to several one-unit printed gaps.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Salaries and Expenses"
+    },
+    {
+      "index": 2,
+      "label": "Business Loans Program"
+    },
+    {
+      "index": 3,
+      "label": "Disaster Loans Program"
+    },
+    {
+      "index": 4,
+      "label": "Other"
+    },
+    {
+      "index": 5,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 6,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 7,
+      "label": "Total--Small Business Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "91",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "91",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "279",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "279",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "83",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "83",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "157",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "156",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "125",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "124",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "364",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "364",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1284",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1283",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "46",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "165",
+      "role": "total"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "143",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "240",
+      "role": "total"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "218",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "69",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-69",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-19",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "168",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-168",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "-26",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-26",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-261",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-261",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "126",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "74",
+      "role": "total"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "53",
+      "role": "total"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "704",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "42",
+      "role": "total"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "662",
+      "role": "total"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "1725",
+      "role": "total"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "190",
+      "role": "total"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "1535",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r3c1",
+        "r4c1",
+        "r6c1"
+      ],
+      "target": "r7c1",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (This Month / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r5c2"
+      ],
+      "target": "r7c2",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (This Month / Applicable Receipts)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3"
+      ],
+      "target": "r7c3",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (This Month / Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r6c4"
+      ],
+      "target": "r7c4",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Current Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r5c5"
+      ],
+      "target": "r7c5",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Current Fiscal Year to Date / Applicable Receipts)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6"
+      ],
+      "target": "r7c6",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Current Fiscal Year to Date / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r6c7"
+      ],
+      "target": "r7c7",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Prior Fiscal Year to Date / Gross Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c8",
+        "r5c8"
+      ],
+      "target": "r7c8",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Prior Fiscal Year to Date / Applicable Receipts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9"
+      ],
+      "target": "r7c9",
+      "note": "section roll-up: sum of Small Business Administration lines = Total--Small Business Administration (Prior Fiscal Year to Date / Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r4c2"
+      ],
+      "target": "r4c1",
+      "note": "per-line net identity (This Month): Outlays(net) + Applicable Receipts = Gross Outlays",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r7c2"
+      ],
+      "target": "r7c1",
+      "note": "total-row net identity (This Month): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c6",
+        "r4c5"
+      ],
+      "target": "r4c4",
+      "note": "per-line net identity (Current FYTD): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ],
+      "target": "r7c4",
+      "note": "total-row net identity (Current FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c9",
+        "r4c8"
+      ],
+      "target": "r4c7",
+      "note": "per-line net identity (Prior FYTD): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c9",
+        "r7c8"
+      ],
+      "target": "r7c7",
+      "note": "total-row net identity (Prior FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    }
+  ]
+}
