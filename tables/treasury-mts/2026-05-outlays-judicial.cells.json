@@ -1,0 +1,451 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-judicial",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 10,
+    "title": "Judicial Branch section (Table-5 cap-fit unit, page 10). Full 9-column outlays model (3 periods x Gross Outlays/Applicable Receipts/Outlays[net]). Self-contained: no cell overlaps another unit's table. Follows the family pattern in plans/treasury-mts-2026-05-outlays-table5.md; sibling worked example: 2026-05-outlays-legislative.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted, never transcribed as 0); '(**)' = 'Less than absolute value of $500,000' -- omitted (none appear in this section). Values as printed, thousands separators stripped, accounting negatives as a leading '-'. Nine-column model: 3 periods (This Month / Current Fiscal Year to Date / Prior Fiscal Year to Date) x (Gross Outlays / Applicable Receipts / Outlays[net]). Every declared sum foots EXACTLY (no rounding tolerances needed here). The Applicable Receipts column has a single contributing line (Proprietary Receipts from the Public), so it has no >=2-source column roll-up: the three section-total Applicable cells are covered by the total-row net identity (Total Outlays + Total Applicable = Total Gross), and the three line-level Proprietary Applicable cells are 'standalone' (relation-free within this unit) with a why. See the plan's Pattern addendum (flagship, 2026-07-14).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Supreme Court of the United States"
+    },
+    {
+      "index": 2,
+      "label": "Courts of Appeals, District Courts, and Other Judicial Services"
+    },
+    {
+      "index": 3,
+      "label": "Other"
+    },
+    {
+      "index": 4,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 6,
+      "label": "Total--Judicial Branch"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "113",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "113",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "99",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "99",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "776",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "776",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "6974",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "6974",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "6787",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "6787",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "629",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "629",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "589",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "589",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-116",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (the Gross column prints '......'): Outlays(net) = -Applicable (e.g. 116 = -(-116)), but the offset has no Gross cell to target, and Proprietary is the only line carrying an Applicable value in this section, so its column has no second source for a sum roll-up. Genuinely relation-free within this unit; the section-total Applicable cell (same value) is instead covered by the total-row net identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "116",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "101",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (the Gross column prints '......'): Outlays(net) = -Applicable (e.g. 116 = -(-116)), but the offset has no Gross cell to target, and Proprietary is the only line carrying an Applicable value in this section, so its column has no second source for a sum roll-up. Genuinely relation-free within this unit; the section-total Applicable cell (same value) is instead covered by the total-row net identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-101",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "98",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (the Gross column prints '......'): Outlays(net) = -Applicable (e.g. 116 = -(-116)), but the offset has no Gross cell to target, and Proprietary is the only line carrying an Applicable value in this section, so its column has no second source for a sum roll-up. Genuinely relation-free within this unit; the section-total Applicable cell (same value) is instead covered by the total-row net identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-98",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-1043",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-1043",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-892",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-892",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "844",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-116",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "960",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "6673",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "6572",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "6583",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "6485",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r5c1"
+      ],
+      "target": "r6c1",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (This Month Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3"
+      ],
+      "target": "r6c3",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (This Month Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r5c4"
+      ],
+      "target": "r6c4",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (Current FYTD Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6"
+      ],
+      "target": "r6c6",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (Current FYTD Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r5c7"
+      ],
+      "target": "r6c7",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (Prior FYTD Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "target": "r6c9",
+      "note": "section roll-up: sum of Judicial Branch lines = Total--Judicial Branch (Prior FYTD Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "total-row net identity (This Month): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "total-row net identity (Current FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "total-row net identity (Prior FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    }
+  ]
+}
