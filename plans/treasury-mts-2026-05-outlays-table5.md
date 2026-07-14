@@ -118,3 +118,33 @@ omission, and a single-level department roll-up.
 Reassess with Kenrin: continue by cap-fit sections (cheap), commit to the full
 ~40-unit program, or stop at a marquee subset. The pattern + conventions above
 carry to every subsequent Table-5 unit.
+
+**Decision (Kenrin, 2026-07-14): proceed by cap-fit sections.** The 12 remaining
+single-unit sections are queued in `NEXT.md` (Judicial p10; Commerce p11; State
+p16; Corps of Engineers p18; Other Defense Civil / EPA / EOP / GSA all p19; NASA
+/ NSF / OPM / SBA all p20). The 16 over-cap sections + capstone stay deferred.
+
+## Pattern addendum (learned from the flagship, 2026-07-14)
+
+The Legislative flagship shipped at **96 cells / 20 relations** (9 per-column
+roll-ups + 11 per-line net identities; 6 rounding tolerances — This-Month
+gross/net roll-ups by 2, the Current-FYTD gross and Prior-FYTD net roll-ups by 1,
+and two net identities — Senate Current-FYTD, Architect Prior-FYTD — by 1). Two
+refinements the flagship surfaced, for every subsequent unit:
+
+1. **Single-source columns can't roll up.** A `sum` relation needs ≥ 2 sources
+   (schema). In small sections the Applicable Receipts column often has only one
+   line carrying a value (e.g. Judicial: only *Proprietary Receipts* prints an
+   applicable), so that column's `Total--` cell has no 2-source roll-up. Cover it
+   instead with the **total-row net identity** (next point); do **not** invent a
+   second source or leave the total cell uncovered. The flagship dodged this —
+   every Legislative column had ≥ 4 line sources — so it is first exercised
+   downstream.
+2. **The total row obeys the net identity too.** `Total Outlays(net) + Total
+   Applicable Receipts = Total Gross Outlays` holds per period (Legislative TM:
+   556 + 16 = 572; FYTD 4644 + 38 = 4682; Prior 4755 + 59 = 4814 — all exact).
+   Declaring it is optional when the three total cells are already covered by
+   their column roll-ups (as in the flagship, which omits it), but it is the
+   clean cover for a single-source Applicable total, and a cheap extra check
+   otherwise. Where the roll-ups carry rounding tol, the total-row identity is
+   usually exact (applicable columns foot exactly), so prefer it as the anchor.

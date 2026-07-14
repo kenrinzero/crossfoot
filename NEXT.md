@@ -34,31 +34,78 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-### 1. treasury-mts/2026-05-outlays-legislative — **D2** · local-only (PDF, **vision agent**)
-Flagship first Table-5 (Outlays) unit: **Legislative Branch** (page 10),
-self-contained, full 9-column model. ≈**96 cells**, ≈**18 relations**
-(floor **14**), **0 standalone waivers**. Sets the extraction pattern for
-the whole Table-5 family — column model, the `(**)`-omission convention,
-the per-line net identity + per-column roll-ups, and MTS-rounding-note
-tolerances are all fixed in
-[`plans/treasury-mts-2026-05-outlays-table5.md`](plans/treasury-mts-2026-05-outlays-table5.md).
-**Vision-capable agent required** (render page 10, verify against the
-cid-decoded text layer — negatives and `(**)` markers present). Re-read
-values from the PDF, never copy. Corpus unit #14.
+The flagship shipped (see *Shipped* below) → the whole Table-5 family pattern is
+proven and worked once end-to-end. Kenrin's post-flagship call (2026-07-14):
+**proceed by cap-fit sections** — the 12 remaining single-unit sections, each
+≤120 cells and self-contained on the page(s) noted. All are **D2 · local-only
+(PDF, vision agent)**: the pattern is frozen, but the render + cid-decode
+cross-check stays mandatory (negatives, `(**)`, footnote-glue), and each still
+needs a little sizing judgment (single-source columns, any one-level bureau
+nesting). Work from
+[`plans/treasury-mts-2026-05-outlays-table5.md`](plans/treasury-mts-2026-05-outlays-table5.md)
+(column model + relation families + **the flagship pattern addendum**) and
+`tables/treasury-mts/2026-05-outlays-legislative.cells.json` as the worked
+example. Re-read every value from the PDF; never copy across units. Take any row
+that fits your harness — they are independent.
+
+### 1. treasury-mts/2026-05-outlays-judicial — **D2** · PDF (vision), **page 10**
+Judicial Branch — same page as the shipped flagship (cleanest render to start
+from). ≈**41 cells**. Smallest remaining section, and the first to exercise the
+**single-source Applicable column** wrinkle (only *Proprietary Receipts* carries
+an applicable value) → cover the section-total Applicable cells with the
+**total-row net identity** per the plan addendum, not a 2-source roll-up. Floor
+**6** relations. Corpus unit #15.
+
+### 2–12. Remaining cap-fit sections — **D2** · PDF (vision), one unit each
+
+| # | unit id (`treasury-mts/2026-05-outlays-…`) | section | page | ≈cells | notes |
+|---|---|---|---|---|---|
+| 2 | `-commerce` | Department of Commerce | 11 | 78 | dept total over bureau totals likely (family 3) |
+| 3 | `-state` | Department of State | 16 | 95 | largest cap-fit; bureau nesting |
+| 4 | `-corps-engineers` | Corps of Engineers | 18 | 53 | |
+| 5 | `-other-defense-civil` | Other Defense Civil Programs | 19 | 58 | |
+| 6 | `-epa` | Environmental Protection Agency | 19 | 62 | |
+| 7 | `-eop` | Executive Office of the President | 19 | 46 | negatives + `(**)` in the total (…-961…) — good pattern coverage |
+| 8 | `-gsa` | General Services Administration | 19 | 39 | net-negative section (Total −227 / −260) |
+| 9 | `-nasa` | Nat'l Aeronautics and Space Admin | 20 | 57 | |
+| 10 | `-nsf` | National Science Foundation | 20 | 33 | smallest overall |
+| 11 | `-opm` | Office of Personnel Management | 20 | 70 | large applicable receipts (retirement) |
+| 12 | `-sba` | Small Business Administration | 20 | 54 | |
+
+Floors: set at sizing time; 9 per-column roll-ups is the backbone where every
+column has ≥2 line sources, fewer for small sections (declare what honestly
+foots — the manifest floor is a floor, not a target). Cell counts are the plan's
+pre-`(**)`-omission estimates; expect a few % lower.
 
 ## Not yet sequenced
 
-- treasury-mts/2026-05-outlays — **Table 5 sized 2026-07-14** (~4,247 cells /
-  29 sections / ~35–45 units at full-9; see the plan doc). Flagship queued
-  above; the remaining 28 sections + capstone grand-total unit are deferred
-  pending a post-flagship reassess (cap-fit sections are cheap single units,
-  16 giants sub-split by bureau).
+- treasury-mts/2026-05-outlays — the **16 over-cap sections** (SSA 443,
+  Agriculture 284, Defense–Military 284, Undistributed Offsetting Receipts 278,
+  HHS 252, Treasury 251, HUD 229, Labor 182, Transportation 181, Interior 177,
+  Int'l Assistance 175, Education 173, VA 163, Energy 139, Homeland Security 126,
+  Justice 123) each sub-split by bureau at transcription time, plus the
+  **capstone** grand-total unit (Total Outlays + On/Off-Budget, re-anchoring the
+  28 section totals). Deferred until the cap-fit tier is worked down; see the
+  plan's full split scheme.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first.
 
 ---
 
 ## Shipped
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-legislative — flagship Table-5 unit (D2, Claude Opus 4.8) —
+  First Table-5 (Outlays) transcription, corpus **unit #14**. Legislative Branch (page 10), full
+  9-column model: **96 cells**, **20 sum relations** (floor 14) = 11 per-line net identities
+  (`Outlays + Applicable = Gross`) + 9 per-column section roll-ups into Total--Legislative Branch.
+  **6 non-default tolerances** quoting the Table-5 rounding note (p. 23, "Note: Details may not add to
+  totals due to rounding."): This-Month gross & net roll-ups by 2, Current-FYTD gross & Prior-FYTD net
+  roll-ups by 1, and two net identities (Senate Current-FYTD, Architect Prior-FYTD) by 1. `(**)`
+  ("Less than absolute value of $500,000") and `......` omitted per the legend; "Offsetting Governmental
+  Receipts" row dropped (only `(**)`/`......`). Every value re-read from the PDF and cross-checked against
+  the cid-decoded text layer (no footnote-glue in this section). reconcile GREEN (0 warnings), pytest
+  10/10. Commit `786cf2b`. Surfaced two pattern refinements (single-source columns, total-row net
+  identity) → recorded in the plan's *Pattern addendum*; 12 cap-fit sections queued for other agents.
 
 - 2026-07-14 · treasury-mts/2026-05-outlays — Table 5 sizing + pattern (D2, Claude Opus 4.8) —
   Sized MTS Table 5 (Outlays, pages 10–23): **~4,247 cells / 662 rows / 29 sections**, 9-column model
