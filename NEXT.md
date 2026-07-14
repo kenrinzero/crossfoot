@@ -34,51 +34,25 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-The flagship + three cap-fit sections have shipped (Judicial, Commerce, State —
-see *Shipped* below) → the Table-5 family pattern now has **three worked
-examples** covering every wrinkle: `-legislative` (per-line net identities +
-rounding tolerances), `-judicial` (single-source Applicable column → total-row
-net identity + standalone waivers), and `-state` (**two-level bureau nesting**,
-family 3, *and* the single-source wrinkle together). **9 cap-fit sections
-remain**, each ≤120 cells and self-contained on the page noted. All are **D2 ·
-local-only (PDF, vision agent)**: the pattern is frozen, but the render +
-cid-decode cross-check stays mandatory (negatives, `(**)`, footnote-glue), and
-each still needs a little sizing judgment. Work from
-[`plans/treasury-mts-2026-05-outlays-table5.md`](plans/treasury-mts-2026-05-outlays-table5.md)
-(column model + relation families + **Pattern addendum**) and the three worked
-`tables/treasury-mts/2026-05-outlays-*.cells.json` files. Re-read every value
-from the PDF; never copy across units.
+**Eight-unit Codex batch shipped (Kenrin, 2026-07-14).** Temporary OpenAI
+capacity made conservation unnecessary, so Codex took the eight originally
+distributed page-19/page-20 units in queue order. Corpus #18–25 add **394
+cells / 91 relations**; every unit is strict-default GREEN with zero warnings,
+pytest stays 10/10, and a positioned-word source comparison across all 394 cells
+found **0 mismatches**. See *Shipped* below.
 
-**Dispatch plan (Kenrin, 2026-07-14).** Vision-capable Windows agents are scarce,
-so the 9 remaining sections are shared: **2 each** to the four named agents, and
-the **last one to Claude Opus 4.8 together with a retroactive quality check** of
-the batch. Pairs are page-contiguous (one page render serves both). The
-section→agent mapping is a suggestion — swap freely, but keep the 2-each shape.
+One cap-fit section remains:
 
 | unit id (`treasury-mts/2026-05-outlays-…`) | section | page | ≈cells | assigned | notes |
 |---|---|---|---|---|---|
-| `-other-defense-civil` | Other Defense Civil Programs | 19 | 58 | **Antigravity** | p19 pair |
-| `-epa` | Environmental Protection Agency | 19 | 62 | **Antigravity** | p19 pair |
-| `-eop` | Executive Office of the President | 19 | 46 | **Codex** | negatives + `(**)` in total (…-961…) |
-| `-gsa` | General Services Administration | 19 | 39 | **Codex** | net-negative section (Total −227 / −260) |
-| `-nasa` | Nat'l Aeronautics and Space Admin | 20 | 57 | **Kimi** | applicable ≈`(**)` → likely single-source wrinkle (see `-judicial`) |
-| `-nsf` | National Science Foundation | 20 | 33 | **Kimi** | smallest overall |
-| `-opm` | Office of Personnel Management | 20 | 70 | **Mavis/MiniMax** | large applicable receipts (retirement) → rich net identities |
-| `-sba` | Small Business Administration | 20 | 54 | **Mavis/MiniMax** | p20 pair |
-| `-corps-engineers` | Corps of Engineers | 18 | 53 | **Claude Opus 4.8 (last + retro QC)** | lone p18; do after the other 8, bundle a QC sweep of the batch |
+| `-corps-engineers` | Corps of Engineers | 18 | 53 | **Claude Opus 4.8 (last + retro QC)** | Ship as corpus #26; then QC Codex batch #18–25 and formally audit EOP #20 |
 
-Floors: set at sizing time; 9 per-column roll-ups is the backbone where every
-column has ≥2 line sources, fewer for small sections (declare what honestly
-foots — the manifest floor is a floor, not a target). Cell counts are the plan's
-pre-`(**)`-omission estimates; expect a few % lower.
-
-**The retro-QC session** (Claude Opus 4.8, with `-corps-engineers`): re-run
-`reconcile.py` on all 8 batch units (must be GREEN, 0 warnings); sanity-check
-each section's labels/period/column headers and spot-sample cell values against
-the PDF; confirm single-source columns and any nesting were handled per the
-addendum. The formal every-10th spot-audit falls at **unit 20** — fold it in if
-it lands in this batch (different-agent rule is satisfied: the QC agent is the
-transcriber only of `-corps-engineers`, not of the audited unit).
+**Claude closeout gate:** transcribe `-corps-engineers` from the page-18
+render + cid-decoded layer; re-run `reconcile.py` on all eight Codex batch
+units; sanity-check labels, periods, column headers, wrinkle handling, and
+sampled values; and log the formal different-agent audit of corpus **unit #20
+(`-eop`)** in `AUDITS.md`. Claude did not transcribe EOP, so the
+different-agent rule is satisfied.
 
 ## Not yet sequenced
 
@@ -96,6 +70,41 @@ transcriber only of `-corps-engineers`, not of the audited unit).
 ---
 
 ## Shipped
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-sba (D2, Codex) — Corpus **#25**,
+  **46 cells / 15 relations**, 7 tol-1, 0 standalone; full page-20 visual/text
+  cross-check, strict GREEN, pytest 10/10. Commit `f98d6a3`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-opm (D2, Codex) — Corpus **#24**,
+  **67 cells / 18 relations**, 4 tol-1, 0 standalone; rich retirement/health
+  Applicable identities, strict GREEN, pytest 10/10. Commit `e025da0`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-nsf (D2, Codex) — Corpus **#23**,
+  **33 cells / 9 relations**, 2 tol-1, 3 single-source Applicable standalones;
+  strict GREEN, pytest 10/10. Commit `84b31c2`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-nasa (D2, Codex) — Corpus **#22**,
+  **54 cells / 8 relations**, 4 tol-1, 2 single-source Applicable standalones.
+  Provisional relation floor corrected 9→8 (no honest ninth relation,
+  `72134de`); strict GREEN, pytest 10/10. Commit `1c6680c`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-gsa (D2, Codex) — Corpus **#21**,
+  **39 cells / 9 relations**, 2 tol-1, 3 standalone; net-negative totals
+  preserved, strict GREEN, pytest 10/10. Commit `ce25080`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-eop (D2, Codex) — Corpus **#20**,
+  **40 cells / 8 relations**, 2 tol-1, 2 standalone; negatives and `(**)`
+  omissions preserved, strict GREEN, pytest 10/10. **Formal different-agent
+  audit due (Claude).** Commit `312e269`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-epa (D2, Codex) — Corpus **#19**,
+  **62 cells / 15 relations**, 4 tol-1, 0 standalone; all nine columns roll up,
+  strict GREEN, pytest 10/10. Commit `e3595bf`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-other-defense-civil (D2, Codex) —
+  Corpus **#18**, **53 cells / 9 exact relations**, 3 standalone. Section spans
+  pages 18–19; render resolved glued footnotes on 300 and 24. Strict GREEN,
+  pytest 10/10. Commit `8a3cd1a`.
 
 - 2026-07-14 · treasury-mts/2026-05-outlays-state — cap-fit Table-5 unit, **nested** (D2, Claude Opus 4.8) —
   Corpus **#17**. Department of State (page 16): **89 cells**, **15 sum relations** (floor 9). First

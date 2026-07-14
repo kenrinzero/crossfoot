@@ -9,11 +9,12 @@ correctness is derived, not trusted.
 
 ## Status
 
-Stage-0 seed (2026-07-07): schema + oracle frozen and live (13 self-tests
-green; the oracle provably bites a single-cell typo and flags
-under-declared coverage), three genuinely-messy sources vendored (Treasury
-MTS May 2026, Apple FY2023 balance sheet from EDGAR, Census P60-282), and
-three starter units named in `BACKLOG.md`. **No transcriptions yet.**
+Active corpus (2026-07-14): schema + oracle frozen and live (**10/10 tests**;
+strict coverage is the default), five public-source families vendored, and
+**25 transcription units shipped**. Treasury MTS Table 4 is complete; the BLS
+2024 relative-importance table is complete; and 12 of 13 cap-fit Treasury
+Table-5 sections are shipped. The remaining cap-fit unit is Corps of Engineers,
+paired with an independent retro-QC and the formal audit of corpus unit #20.
 
 ## How a unit works
 
