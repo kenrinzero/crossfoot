@@ -34,41 +34,51 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-The flagship **and** the first cap-fit section (Judicial) have shipped (see
-*Shipped* below) → the whole Table-5 family pattern is proven, worked twice, and
-the single-source-column wrinkle now has a worked example too. Kenrin's
-post-flagship call (2026-07-14): **proceed by cap-fit sections**. **11 cap-fit
-single-unit sections remain**, each ≤120 cells and self-contained on the page(s)
-noted. All are **D2 · local-only (PDF, vision agent)**: the pattern is frozen,
-but the render + cid-decode cross-check stays mandatory (negatives, `(**)`,
-footnote-glue), and each still needs a little sizing judgment (single-source
-columns, any one-level bureau nesting). Work from
+The flagship + three cap-fit sections have shipped (Judicial, Commerce, State —
+see *Shipped* below) → the Table-5 family pattern now has **three worked
+examples** covering every wrinkle: `-legislative` (per-line net identities +
+rounding tolerances), `-judicial` (single-source Applicable column → total-row
+net identity + standalone waivers), and `-state` (**two-level bureau nesting**,
+family 3, *and* the single-source wrinkle together). **9 cap-fit sections
+remain**, each ≤120 cells and self-contained on the page noted. All are **D2 ·
+local-only (PDF, vision agent)**: the pattern is frozen, but the render +
+cid-decode cross-check stays mandatory (negatives, `(**)`, footnote-glue), and
+each still needs a little sizing judgment. Work from
 [`plans/treasury-mts-2026-05-outlays-table5.md`](plans/treasury-mts-2026-05-outlays-table5.md)
-(column model + relation families + **the flagship pattern addendum**) and the
-two worked examples — `tables/treasury-mts/2026-05-outlays-legislative.cells.json`
-(rounding tolerances, per-line net identities) and
-`…-outlays-judicial.cells.json` (single-source Applicable column → total-row net
-identity + standalone waivers). Re-read every value from the PDF; never copy
-across units. Take any row that fits your harness — they are independent.
+(column model + relation families + **Pattern addendum**) and the three worked
+`tables/treasury-mts/2026-05-outlays-*.cells.json` files. Re-read every value
+from the PDF; never copy across units.
 
-| # | unit id (`treasury-mts/2026-05-outlays-…`) | section | page | ≈cells | notes |
+**Dispatch plan (Kenrin, 2026-07-14).** Vision-capable Windows agents are scarce,
+so the 9 remaining sections are shared: **2 each** to the four named agents, and
+the **last one to Claude Opus 4.8 together with a retroactive quality check** of
+the batch. Pairs are page-contiguous (one page render serves both). The
+section→agent mapping is a suggestion — swap freely, but keep the 2-each shape.
+
+| unit id (`treasury-mts/2026-05-outlays-…`) | section | page | ≈cells | assigned | notes |
 |---|---|---|---|---|---|
-| 1 | `-commerce` | Department of Commerce | 11 | 78 | dept total over bureau totals likely (family 3) |
-| 2 | `-state` | Department of State | 16 | 95 | largest cap-fit; bureau nesting |
-| 3 | `-corps-engineers` | Corps of Engineers | 18 | 53 | |
-| 4 | `-other-defense-civil` | Other Defense Civil Programs | 19 | 58 | |
-| 5 | `-epa` | Environmental Protection Agency | 19 | 62 | |
-| 6 | `-eop` | Executive Office of the President | 19 | 46 | negatives + `(**)` in the total (…-961…) — good pattern coverage |
-| 7 | `-gsa` | General Services Administration | 19 | 39 | net-negative section (Total −227 / −260) |
-| 8 | `-nasa` | Nat'l Aeronautics and Space Admin | 20 | 57 | |
-| 9 | `-nsf` | National Science Foundation | 20 | 33 | smallest overall |
-| 10 | `-opm` | Office of Personnel Management | 20 | 70 | large applicable receipts (retirement) |
-| 11 | `-sba` | Small Business Administration | 20 | 54 | |
+| `-other-defense-civil` | Other Defense Civil Programs | 19 | 58 | **Antigravity** | p19 pair |
+| `-epa` | Environmental Protection Agency | 19 | 62 | **Antigravity** | p19 pair |
+| `-eop` | Executive Office of the President | 19 | 46 | **Codex** | negatives + `(**)` in total (…-961…) |
+| `-gsa` | General Services Administration | 19 | 39 | **Codex** | net-negative section (Total −227 / −260) |
+| `-nasa` | Nat'l Aeronautics and Space Admin | 20 | 57 | **Kimi** | applicable ≈`(**)` → likely single-source wrinkle (see `-judicial`) |
+| `-nsf` | National Science Foundation | 20 | 33 | **Kimi** | smallest overall |
+| `-opm` | Office of Personnel Management | 20 | 70 | **Mavis/MiniMax** | large applicable receipts (retirement) → rich net identities |
+| `-sba` | Small Business Administration | 20 | 54 | **Mavis/MiniMax** | p20 pair |
+| `-corps-engineers` | Corps of Engineers | 18 | 53 | **Claude Opus 4.8 (last + retro QC)** | lone p18; do after the other 8, bundle a QC sweep of the batch |
 
 Floors: set at sizing time; 9 per-column roll-ups is the backbone where every
 column has ≥2 line sources, fewer for small sections (declare what honestly
 foots — the manifest floor is a floor, not a target). Cell counts are the plan's
 pre-`(**)`-omission estimates; expect a few % lower.
+
+**The retro-QC session** (Claude Opus 4.8, with `-corps-engineers`): re-run
+`reconcile.py` on all 8 batch units (must be GREEN, 0 warnings); sanity-check
+each section's labels/period/column headers and spot-sample cell values against
+the PDF; confirm single-source columns and any nesting were handled per the
+addendum. The formal every-10th spot-audit falls at **unit 20** — fold it in if
+it lands in this batch (different-agent rule is satisfied: the QC agent is the
+transcriber only of `-corps-engineers`, not of the audited unit).
 
 ## Not yet sequenced
 
@@ -86,6 +96,21 @@ pre-`(**)`-omission estimates; expect a few % lower.
 ---
 
 ## Shipped
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-state — cap-fit Table-5 unit, **nested** (D2, Claude Opus 4.8) —
+  Corpus **#17**. Department of State (page 16): **89 cells**, **15 sum relations** (floor 9). First
+  **two-level nesting** (family 3): 6 bureau roll-ups (Administration of Foreign Affairs lines →
+  Total--AFA) + 6 department roll-ups (Total--AFA + direct bureaus → Total--Dept) + 3 total-row net
+  identities. Also the single-source Applicable column (only Proprietary) → **3 standalone waivers**, the
+  section-total applicables covered by the total-row identity. 10 rounding tolerances (≤2; the AFA
+  sub-totals each round ±1) quote the p. 23 note. "Andean Counterdrug Programs" dropped (all `(**)`/`......`).
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `167c9c9`.
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-commerce — cap-fit Table-5 unit (D2, Claude Opus 4.8) —
+  Corpus **#16**. Department of Commerce (page 11): **73 cells**, **17 sum relations** (floor 9) = 8
+  per-line net identities (NOAA/NTIA/Other) + 9 per-column roll-ups. Flat section; every Applicable column
+  has ≥2 lines so all nine roll up cleanly (no single-source wrinkle). 4 rounding tolerances (≤2) quote
+  the p. 23 note. reconcile GREEN (0 warnings), pytest 10/10. Commit `9bf0fc8`.
 
 - 2026-07-14 · treasury-mts/2026-05-outlays-judicial — cap-fit Table-5 unit (D2, Claude Opus 4.8) —
   Second Table-5 unit, corpus **#15**. Judicial Branch (page 10): **39 cells**, **9 sum relations**
