@@ -1,0 +1,774 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-opm",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 20,
+    "title": "Office of Personnel Management section (Table-5 cap-fit unit, page 20). Full 9-column outlays model with large retirement and health-benefit applicable receipts. Self-contained: no cell overlaps another unit's table. Family pattern: plans/treasury-mts-2026-05-outlays-table5.md.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' -- omitted (Proprietary This-Month Applicable/Outlays). Values as printed, thousands separators stripped, negatives as leading '-'. Full visual render and cid-decoded text-layer cross-check completed for page 20. Rich Applicable columns support all nine section roll-ups; Employees Life Insurance and Employees/Retired Employees Health Benefits supply six line-level net identities, and the total row supplies three more. Four relations require tol 1 under the printed rounding note.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Government Payment for Annuitants, Employees Health and Life Insurance Benefits"
+    },
+    {
+      "index": 2,
+      "label": "Postal Service Retiree Health Benefits Fund"
+    },
+    {
+      "index": 3,
+      "label": "Civil Service Retirement and Disability Fund"
+    },
+    {
+      "index": 4,
+      "label": "Employees Life Insurance Fund"
+    },
+    {
+      "index": 5,
+      "label": "Employees and Retired Employees Health Benefits Fund"
+    },
+    {
+      "index": 6,
+      "label": "Other"
+    },
+    {
+      "index": 7,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 8,
+      "label": "Intrabudgetary Transactions--Postal Service Contributions"
+    },
+    {
+      "index": 9,
+      "label": "Intrabudgetary Transactions--Civil Service Retirement and Disability Fund: Other"
+    },
+    {
+      "index": 10,
+      "label": "Total--Office of Personnel Management"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1608",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "1608",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "11986",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "11986",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "11632",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "11632",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "423",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "423",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "3300",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "3300",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "3109",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "3109",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "9602",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "9602",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "76777",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "76777",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "73648",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "73648",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "324",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "345",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-21",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "2506",
+      "role": "total"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "3984",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-1478",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "2436",
+      "role": "total"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "4052",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-1616",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "6454",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "6204",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "250",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "50944",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "49810",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "1134",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "48432",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "49146",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-715",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "249",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "249",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-263",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-263",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "-303",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-303",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-25",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-25",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "-31",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "-31",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "18411",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "6549",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "11862",
+      "role": "total"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "145364",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "53794",
+      "role": "total"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "91570",
+      "role": "total"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "139172",
+      "role": "total"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "53199",
+      "role": "total"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "85973",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (This Month / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r5c2"
+      ],
+      "target": "r10c2",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (This Month / Applicable Receipts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (This Month / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r8c4",
+        "r9c4"
+      ],
+      "target": "r10c4",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Current Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r5c5",
+        "r7c5"
+      ],
+      "target": "r10c5",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Current Fiscal Year to Date / Applicable Receipts)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6"
+      ],
+      "target": "r10c6",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Current Fiscal Year to Date / Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r8c7",
+        "r9c7"
+      ],
+      "target": "r10c7",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Prior Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c8",
+        "r5c8",
+        "r7c8"
+      ],
+      "target": "r10c8",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Prior Fiscal Year to Date / Applicable Receipts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9"
+      ],
+      "target": "r10c9",
+      "note": "section roll-up: sum of Office of Personnel Management lines = Total--Office of Personnel Management (Prior Fiscal Year to Date / Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r4c2"
+      ],
+      "target": "r4c1",
+      "note": "per-line net identity (This Month): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c6",
+        "r4c5"
+      ],
+      "target": "r4c4",
+      "note": "per-line net identity (Current FYTD): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c9",
+        "r4c8"
+      ],
+      "target": "r4c7",
+      "note": "per-line net identity (Prior FYTD): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "per-line net identity (This Month): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "per-line net identity (Current FYTD): Outlays(net) + Applicable Receipts = Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "per-line net identity (Prior FYTD): Outlays(net) + Applicable Receipts = Gross Outlays",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance. Omitted (**) cells ('Less than absolute value of $500,000', per the legend) may each contribute less than 0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r10c2"
+      ],
+      "target": "r10c1",
+      "note": "total-row net identity (This Month): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r10c5"
+      ],
+      "target": "r10c4",
+      "note": "total-row net identity (Current FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r10c8"
+      ],
+      "target": "r10c7",
+      "note": "total-row net identity (Prior FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    }
+  ]
+}
