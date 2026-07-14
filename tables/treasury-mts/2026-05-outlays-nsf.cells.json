@@ -1,0 +1,403 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-nsf",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 20,
+    "title": "National Science Foundation section (Table-5 cap-fit unit, page 20). Full 9-column outlays model; smallest cap-fit section. Self-contained: no cell overlaps another unit's table. Family pattern: plans/treasury-mts-2026-05-outlays-table5.md.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); no '(**)' cells occur in this section. Values as printed, thousands separators stripped, negatives as leading '-'. Full visual render and cid-decoded text-layer cross-check completed for page 20. Each Applicable column has exactly one source (Proprietary Receipts), so its line-level cell is standalone and the section-total Applicable cell is covered by the exact total-row net identity. Prior-FYTD Gross and Net column roll-ups require tol 1 under the printed rounding note.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Research and Related Activities"
+    },
+    {
+      "index": 2,
+      "label": "Education and Human Resources"
+    },
+    {
+      "index": 3,
+      "label": "Other"
+    },
+    {
+      "index": 4,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Total--National Science Foundation"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "527",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "527",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "4294",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "4294",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "4776",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "4776",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "90",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "90",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "706",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "706",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "921",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "921",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "72",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "72",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "481",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "481",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "539",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "539",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "2",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "13",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-10",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "689",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "687",
+      "role": "total"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "5481",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "5468",
+      "role": "total"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "6237",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "6227",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r5c1",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (This Month / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r5c3",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (This Month / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r5c4",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (Current Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6"
+      ],
+      "target": "r5c6",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (Current Fiscal Year to Date / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7"
+      ],
+      "target": "r5c7",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (Prior Fiscal Year to Date / Gross Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9"
+      ],
+      "target": "r5c9",
+      "note": "section roll-up: sum of National Science Foundation lines = Total--National Science Foundation (Prior Fiscal Year to Date / Outlays)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; the printed target differs from the exact sum of its printed components by the stated tolerance."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "total-row net identity (This Month): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "total-row net identity (Current FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "total-row net identity (Prior FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    }
+  ]
+}
