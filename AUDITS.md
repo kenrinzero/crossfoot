@@ -51,3 +51,54 @@ We selected a randomized sample of 10 cells across the table's range (using seed
 
 ### 4. Audit Conclusion
 The transcription of `bls-cpi/relative-importance-2024-apparel-transportation` by `Hunyuan/OpenClaw` is clean and byte-faithful. No non-arithmetic errors, transposition mistakes, or label mismatches were found.
+
+---
+
+## Spot-Audit: Unit 20 — Executive Office of the President (Treasury MTS Table 5, Outlays)
+
+- **Audit Date:** 2026-07-14
+- **Auditor:** Claude Opus 4.8
+- **Transcriber:** Codex (commit `312e269`)
+- **Table ID:** [treasury-mts/2026-05-outlays-eop](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-eop.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 19 (Executive Office of the President section)
+- **Method:** pypdfium2 page render (scale 3.0) cross-checked against the `(cid:NN)`→`chr(NN+29)`-decoded text layer.
+- **Status:** **GREEN** (all verification checks passed)
+
+### 1. Metadata Verification
+- **Table Title:** "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods"
+  - *Result:* **PASS** (matches the page header verbatim; page prints "- Continued")
+- **Period:** "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  - *Result:* **PASS** (matches the three period column-group headers)
+- **Units / Scale:** USD millions ("[$ millions]" per table header)
+  - *Result:* **PASS**
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (9):** This Month / Current FYTD / Prior FYTD, each × Gross Outlays · Applicable Receipts · Outlays[net].
+  - *Result:* **PASS** (matches the source's two-tier column header exactly)
+- **Rows (7):** The White House; Office of Management and Budget; Unanticipated Needs; Other; Proprietary Receipts from the Public; Intrabudgetary Transactions; Total--Executive Office of the President.
+  - *Result:* **PASS** (all 7 labels match the render exactly; no dropped or reordered rows)
+- **Omission conventions:** `......` and `(**)` cells correctly omitted (Other Prior-FYTD Applicable `(**)`; Proprietary This-Month Applicable/Outlays `(**)`; Intrabudgetary This-Month Gross/Outlays `(**)`; Total This-Month Applicable `(**)`). Single-source Applicable column (only Proprietary) handled per the plan addendum: `r5c5`/`r5c8` standalone with `why`, section-total applicables (`r7c5`/`r7c8`) covered by the total-row net identity.
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (10 sampled cells, spanning rows/columns, negatives, standalone, and total)
+
+Re-read from the page-19 render and confirmed against the JSON:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c7` | The White House | Prior FYTD / Gross Outlays | leaf | `50` | `50` | **PASS** |
+| `r2c4` | Office of Management and Budget | Current FYTD / Gross Outlays | leaf | `71` | `71` | **PASS** |
+| `r3c1` | Unanticipated Needs | This Month / Gross Outlays | leaf | `-3` | `-3` | **PASS** |
+| `r3c9` | Unanticipated Needs | Prior FYTD / Outlays | leaf | `15` | `15` | **PASS** |
+| `r4c4` | Other | Current FYTD / Gross Outlays | leaf | `-77` | `-77` | **PASS** |
+| `r5c5` | Proprietary Receipts from the Public | Current FYTD / Applicable Receipts | standalone | `1000` | `1,000` | **PASS** |
+| `r5c9` | Proprietary Receipts from the Public | Prior FYTD / Outlays | leaf | `-500` | `-500` | **PASS** |
+| `r6c7` | Intrabudgetary Transactions | Prior FYTD / Gross Outlays | leaf | `2` | `2` | **PASS** |
+| `r7c6` | Total--Executive Office of the President | Current FYTD / Outlays | total | `-961` | `-961` | **PASS** |
+| `r7c8` | Total--Executive Office of the President | Prior FYTD / Applicable Receipts | leaf | `500` | `500` | **PASS** |
+
+### 4. Audit Conclusion
+The transcription of `treasury-mts/2026-05-outlays-eop` by `Codex` is clean and faithful to the source. Metadata, all 7 row labels, the 9-column model, the `......`/`(**)` omission conventions, and all 10 sampled values match the page-19 render with zero discrepancies. No footnote-glue affects this section. **GREEN.**
+
+### 5. Batch note — full Table-5 cap-fit tier cross-check
+Alongside this formal audit, an independent positioned-word source cross-check was run over the entire 13-unit Table-5 cap-fit tier (corpus #14–26): for each unit, the multiset of transcribed cell values was compared to the numeric tokens printed in that section on the source page(s). **12/13 matched exactly.** The one flag, `treasury-mts/2026-05-outlays-other-defense-civil` (Codex, `8a3cd1a`), resolves to two text-layer footnote-glued cells that were **render-verified correct** (Other Current-FYTD Gross/Outlays `¹300`; Proprietary Current-FYTD Applicable `²24` — superscript footnote markers from p. 23 glued in the text layer only), plus a page-18 footer artifact of the checker's page-spanning logic. No transcription defect found in any unit. reconcile is GREEN with 0 warnings across all 13; pytest 10/10.

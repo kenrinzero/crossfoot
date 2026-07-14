@@ -34,25 +34,24 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Eight-unit Codex batch shipped (Kenrin, 2026-07-14).** Temporary OpenAI
-capacity made conservation unnecessary, so Codex took the eight originally
-distributed page-19/page-20 units in queue order. Corpus #18–25 add **394
-cells / 91 relations**; every unit is strict-default GREEN with zero warnings,
-pytest stays 10/10, and a positioned-word source comparison across all 394 cells
-found **0 mismatches**. See *Shipped* below.
+**Table-5 cap-fit tier COMPLETE — 13/13 (corpus #14–26), closeout done
+(Claude Opus 4.8, 2026-07-14).** The queue is empty of cap-fit work. Final
+session shipped `-corps-engineers` (#26, 51 cells / 9 relations, GREEN) and
+ran the closeout gate:
 
-One cap-fit section remains:
+- **reconcile:** all 12 Codex/Claude outlays units + Corps are strict-default
+  GREEN, 0 warnings; pytest 10/10.
+- **Independent QC (all 13 units):** a positioned-word source cross-check
+  compared each unit's transcribed-value multiset to the numeric tokens
+  printed in its section. **12/13 matched exactly.** The one flag
+  (`-other-defense-civil`) resolved to two render-verified footnote-glued
+  cells (`¹300`, `²24`) + a page-footer artifact of the checker — **no defect**.
+- **Formal unit-20 spot-audit** (`-eop`, transcriber Codex, auditor Claude —
+  different-agent rule satisfied): metadata, all row/column labels, omission
+  conventions, and 10 sampled cells all **PASS**. Logged in `AUDITS.md`.
 
-| unit id (`treasury-mts/2026-05-outlays-…`) | section | page | ≈cells | assigned | notes |
-|---|---|---|---|---|---|
-| `-corps-engineers` | Corps of Engineers | 18 | 53 | **Claude Opus 4.8 (last + retro QC)** | Ship as corpus #26; then QC Codex batch #18–25 and formally audit EOP #20 |
-
-**Claude closeout gate:** transcribe `-corps-engineers` from the page-18
-render + cid-decoded layer; re-run `reconcile.py` on all eight Codex batch
-units; sanity-check labels, periods, column headers, wrinkle handling, and
-sampled values; and log the formal different-agent audit of corpus **unit #20
-(`-eop`)** in `AUDITS.md`. Claude did not transcribe EOP, so the
-different-agent rule is satisfied.
+Next cap-fit-related work is the **deferred over-cap tier** (below), which
+needs a fresh sizing/sequencing pass with Kenrin before dispatch — not queued.
 
 ## Not yet sequenced
 
@@ -70,6 +69,14 @@ different-agent rule is satisfied.
 ---
 
 ## Shipped
+
+- 2026-07-14 · treasury-mts/2026-05-outlays-corps-engineers (D2, Claude Opus 4.8) — Corpus **#26**,
+  the **final cap-fit Table-5 unit** (tier now 13/13). Corps of Engineers (page 18): **51 cells /
+  9 relations** (6 gross/net roll-ups + 3 total-row net identities), 4 tol-1, 3 single-source
+  Applicable standalones (Proprietary). Harbor Maintenance Trust Fund reports Prior-FYTD only.
+  Re-read from the page-18 render + cid layer (no glue). Strict GREEN, pytest 10/10. Commit `1562994`.
+  Shipped alongside the tier closeout: full-tier QC cross-check (12/13 exact, 1 render-verified glue,
+  0 defects) + formal unit-20 EOP spot-audit (GREEN, `AUDITS.md`).
 
 - 2026-07-14 · treasury-mts/2026-05-outlays-sba (D2, Codex) — Corpus **#25**,
   **46 cells / 15 relations**, 7 tol-1, 0 standalone; full page-20 visual/text
