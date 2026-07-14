@@ -1,0 +1,575 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-other-defense-civil",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 18,
+    "title": "Other Defense Civil Programs section (Table-5 cap-fit unit, pages 18-19). Full 9-column outlays model; section crosses the printed page break. Self-contained: no cell overlaps another unit's table. Family pattern: plans/treasury-mts-2026-05-outlays-table5.md.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' (omitted; none appear in this section's transcribed cells). Values as printed, thousands separators stripped, negatives as leading '-'. The section crosses pages 18-19. Render verification resolves glued footnote markers on page 19: Other Current-FYTD Gross/Outlays is 300, and Proprietary Receipts Current-FYTD Applicable is 24. The three line-level Proprietary Applicable cells are standalone because each is the only Applicable source in its column; section-total Applicable cells are covered by exact total-row net identities.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Payment to Military Retirement Fund"
+    },
+    {
+      "index": 2,
+      "label": "Military Retirement Fund"
+    },
+    {
+      "index": 3,
+      "label": "Payment to Department of Defense Medicare-Eligible Retiree Health Care Fund"
+    },
+    {
+      "index": 4,
+      "label": "Department of Defense Medicare-Eligible Retiree Health Care Fund"
+    },
+    {
+      "index": 5,
+      "label": "Educational Benefits"
+    },
+    {
+      "index": 6,
+      "label": "Other"
+    },
+    {
+      "index": 7,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 8,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 9,
+      "label": "Total--Other Defense Civil Programs"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "161413",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "161413",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "154387",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "154387",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "6954",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "6954",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "55053",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "55053",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "59645",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "59645",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "18554",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "18554",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "14569",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "14569",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "862",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "862",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "9265",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "9265",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "8924",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "8924",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "126",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "126",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "128",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "128",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "278",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "278",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "5",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-5",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Proprietary Receipts from the Public', a line with no Gross Outlays (Gross column '......'): Outlays(net) = -Applicable, but the offset has no Gross cell to target and Proprietary is the only line carrying an Applicable value in this section (single-source column, no >=2-source roll-up). Relation-free within this unit; the section-total Applicable cell is covered by the total-row net identity."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-4107",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-4107",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-196464",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-196464",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "-180458",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-180458",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "3768",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "3763",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "48247",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "48223",
+      "role": "total"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "57473",
+      "role": "total"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "57449",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r8c1"
+      ],
+      "target": "r9c1",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (This Month / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3"
+      ],
+      "target": "r9c3",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (This Month / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r8c4"
+      ],
+      "target": "r9c4",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (Current Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6"
+      ],
+      "target": "r9c6",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (Current Fiscal Year to Date / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r8c7"
+      ],
+      "target": "r9c7",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (Prior Fiscal Year to Date / Gross Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9"
+      ],
+      "target": "r9c9",
+      "note": "section roll-up: sum of Other Defense Civil Programs lines = Total--Other Defense Civil Programs (Prior Fiscal Year to Date / Outlays)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r9c2"
+      ],
+      "target": "r9c1",
+      "note": "total-row net identity (This Month): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r9c5"
+      ],
+      "target": "r9c4",
+      "note": "total-row net identity (Current FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c9",
+        "r9c8"
+      ],
+      "target": "r9c7",
+      "note": "total-row net identity (Prior FYTD): Total Outlays(net) + Total Applicable Receipts = Total Gross Outlays"
+    }
+  ]
+}
