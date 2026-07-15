@@ -120,7 +120,7 @@ applicable columns handled as usual (standalone + total-row net identity).
   single-source (only Proprietary) → 2 standalone + total-row net-identity cover; CFYTD (c5) rolls up
   (2 sources). **Cross-unit re-anchor consistency verified: 0 mismatches** (the 3 bureau totals are
   byte-identical across the two units). Both render-verified page 12 (both bands), reconcile GREEN
-  (0 warnings), pytest 10/10. Commits `<pending-edu>`.
+  (0 warnings), pytest 10/10. Commit `6f19828`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-grand-total-capstone (D2, Claude Opus 4.8) — Corpus **#32**,
   **Tier B**. Grand-total capstone (page 22): Total Outlays / Total On-Budget / Total Off-Budget.
