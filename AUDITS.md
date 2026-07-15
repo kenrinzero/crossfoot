@@ -105,9 +105,50 @@ Alongside this formal audit, an independent positioned-word source cross-check w
 
 ---
 
-## Spot-Audit: Unit 30 — Department of Energy — **DUE (not yet performed)**
+## Spot-Audit: Unit 30 — Department of Energy (Treasury MTS Table 5, Outlays)
 
-- **Trigger:** every-10th-unit cadence (DESIGN.md § 6); corpus reached 30 units on 2026-07-15.
-- **Target:** [treasury-mts/2026-05-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-energy.cells.json) (page 12–13; 132 cells / 24 relations).
-- **Transcriber:** Claude Opus 4.8 (commit on 2026-07-15).
-- **Status:** **AUDIT DUE — assign a different agent.** Per the different-agent rule, the transcriber (Claude Opus 4.8) cannot audit this unit. Any other agent should verify metadata, the 9-column model, all 20 row labels (note the dropped all-`(**)` "Defense Nuclear Waste Disposal" row and the page-12→13 section split), the single-source Energy Programs applicable handling, and 10 sampled cells against the page 12–13 render, then record the result here.
+- **Audit Date:** 2026-07-15
+- **Auditor:** Grok (xAI / Grok Build)
+- **Transcriber:** Claude Opus 4.8 (commit `46b4afc`)
+- **Table ID:** [treasury-mts/2026-05-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-energy.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), pages 12–13 (Department of Energy section; NNSA + Environmental and Other Defense Activities on p12, Energy Programs onward on p13)
+- **Method:** pypdfium2 page render (scale 3.0) of pages 12–13; full 132-cell multiset re-read from the render, plus 10 formal sampled cells. Different-agent rule satisfied (transcriber Claude Opus 4.8; auditor Grok).
+- **Status:** **GREEN** (all verification checks passed; 132/132 cells match the render)
+
+### 1. Metadata Verification
+- **Table Title:** "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods"
+  - *Result:* **PASS** (matches the page header verbatim on both p12 and p13; pages print "- Continued")
+- **Period:** "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  - *Result:* **PASS** (matches the three period column-group headers)
+- **Units / Scale:** USD millions ("[$ millions]" per table header)
+  - *Result:* **PASS**
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (9):** This Month / Current Fiscal Year to Date / Prior Fiscal Year to Date, each × Gross Outlays · Applicable Receipts · Outlays[net].
+  - *Result:* **PASS** (matches the source's two-tier column header exactly)
+- **Rows (20):** NNSA Naval Reactors / Weapons Activities / Defense Nuclear Nonproliferation / Other; Environmental and Other Defense Activities Defense Environmental Cleanup / Other Defense Activities; Energy Programs Science / Energy Supply / Energy Efficiency and Renewable Energy / Fossil Energy Research and Development / Uranium Enrichment Decontamination and Decommissioning Fund / Advanced Technology Vehicles Manufacturing Loan Program / Title 17 Innovative Technology Loan Guarantee Program / Other; Total--Energy Programs; Power Marketing Administration; Departmental Administration; Proprietary Receipts from the Public; Intrabudgetary Transactions; Total--Department of Energy.
+  - *Result:* **PASS** (all 20 labels match the render; hierarchy prefixes for nested groups are correct)
+- **Omission conventions:** `......` and `(**)` cells correctly omitted throughout. The all-`(**)` "Defense Nuclear Waste Disposal" row (under Environmental and Other Defense Activities on p12) is correctly **dropped entirely**. Page 12→13 section split handled: NNSA + Environmental lines on p12, Energy Programs onward on p13 under "Department of Energy: - Continued".
+  - *Result:* **PASS**
+- **Single-source Applicable (Energy Programs):** only the "Other" line contributes Applicable Receipts inside the bureau. Total--Energy Programs applicable cells (`r15c2`/`r15c5`/`r15c8`) are correctly marked `leaf` (covered by the Energy Programs total-row net identity), while department-level Applicable rolls up with three sources (Total--Energy Programs, Power Marketing Administration, Proprietary).
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (10 sampled cells, spanning p12/p13, negatives, single-source applicable, bureau total, and department total)
+
+Full multiset re-read of all 132 transcribed cells against the page 12–13 render: **132/132 exact match, 0 value mismatches.** Formal sample of 10:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c4` | National Nuclear Security Administration / Naval Reactors | Current Fiscal Year to Date / Gross Outlays | leaf | `1293` | `1,293` | **PASS** |
+| `r2c7` | National Nuclear Security Administration / Weapons Activities | Prior Fiscal Year to Date / Gross Outlays | leaf | `12389` | `12,389` | **PASS** |
+| `r5c1` | Environmental and Other Defense Activities / Defense Environmental Cleanup | This Month / Gross Outlays | leaf | `517` | `517` | **PASS** |
+| `r9c9` | Energy Programs / Energy Efficiency and Renewable Energy | Prior Fiscal Year to Date / Outlays | leaf | `2966` | `2,966` | **PASS** |
+| `r14c5` | Energy Programs / Other | Current Fiscal Year to Date / Applicable Receipts | leaf | `220` | `220` | **PASS** |
+| `r15c6` | Total--Energy Programs | Current Fiscal Year to Date / Outlays | total | `13171` | `13,171` | **PASS** |
+| `r16c8` | Power Marketing Administration | Prior Fiscal Year to Date / Applicable Receipts | leaf | `3249` | `3,249` | **PASS** |
+| `r18c3` | Proprietary Receipts from the Public | This Month / Outlays | leaf | `-375` | `-375` | **PASS** |
+| `r19c4` | Intrabudgetary Transactions | Current Fiscal Year to Date / Gross Outlays | leaf | `-1448` | `-1,448` | **PASS** |
+| `r20c9` | Total--Department of Energy | Prior Fiscal Year to Date / Outlays | total | `34838` | `34,838` | **PASS** |
+
+### 4. Audit Conclusion
+The transcription of `treasury-mts/2026-05-outlays-energy` by Claude Opus 4.8 (`46b4afc`) is clean and faithful to the source. Metadata, the 9-column model, all 20 row labels, the dropped all-`(**)` Defense Nuclear Waste Disposal row, the p12→13 section split, the single-source Energy Programs applicable handling, and all 132 cell values (including the formal 10-cell sample) match the page 12–13 render with zero discrepancies. `reconcile.py` is GREEN with 0 warnings (132 cells / 24 relations). **GREEN.**
