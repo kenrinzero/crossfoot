@@ -97,11 +97,12 @@ applicable columns handled as usual (standalone + total-row net identity).
   bureau → 6 standalone; subtotal-less Military Sales; OPIC dropped entirely).
 - [x] **Interior** (171, 2u) — **DONE 2026-07-16**: `-interior-bureaus` (#37) + `-interior-departmental` (#38).
 - [x] **Transportation** (176, 2u) — **DONE 2026-07-16**: `-transportation-bureaus` (#39) + `-transportation-departmental` (#40). **Unit 40 audit GREEN** (different-agent audit, 10/10 sampled cells; `AUDITS.md`).
-- [ ] **Remaining 8 sections → ~20 sub-units**, ascending size: Labor (180, 2u), HUD (204, 2u), Undistributed
+- [x] **Labor** (180, 2u) — **DONE 2026-07-16**: -labor-bureaus (#41) + -labor-departmental (#42).
+- [ ] **Remaining 7 sections → ~18 sub-units**, ascending size: HUD (204, 2u), Undistributed
   Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
   (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
   printed `Total--` bureau boundaries; boundaries in the plan's over-cap sizing
-  table. Independent sections → fleet-distributable. **Next up: Labor (p15-16).**
+  table. Independent sections → fleet-distributable. **Next up: HUD (p14-15).**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
