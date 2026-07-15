@@ -1,0 +1,1127 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-transportation-bureaus",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5",
+    "page": 17,
+    "title": "Outlays of the U.S. Government",
+    "period": "May 2026 and Other Periods"
+  },
+  "unit_note": "USD millions. (**) omitted.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month Net Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD Net Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD Net Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Operations"
+    },
+    {
+      "index": 2,
+      "label": "Grants-In-Aid for Airports"
+    },
+    {
+      "index": 3,
+      "label": "Facilities and Equipment"
+    },
+    {
+      "index": 4,
+      "label": "Research, Engineering, and Development"
+    },
+    {
+      "index": 5,
+      "label": "Trust Fund Share of FAA Operations"
+    },
+    {
+      "index": 6,
+      "label": "Total--Airport and Airway Trust Fund"
+    },
+    {
+      "index": 7,
+      "label": "Other"
+    },
+    {
+      "index": 8,
+      "label": "Total--Federal Aviation Administration"
+    },
+    {
+      "index": 9,
+      "label": "Federal-Aid Highways"
+    },
+    {
+      "index": 10,
+      "label": "Other"
+    },
+    {
+      "index": 11,
+      "label": "Other Programs"
+    },
+    {
+      "index": 12,
+      "label": "Total--Federal Highway Administration"
+    },
+    {
+      "index": 13,
+      "label": "Formula Grants"
+    },
+    {
+      "index": 14,
+      "label": "Capital Investment Grants"
+    },
+    {
+      "index": 15,
+      "label": "Transit Formula Grants"
+    },
+    {
+      "index": 16,
+      "label": "Other"
+    },
+    {
+      "index": 17,
+      "label": "Total--Federal Transit Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-239",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-239",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "667",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "667",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "-1058",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "-1058",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "211",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "211",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "2252",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "2252",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "2337",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "2337",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "2065",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "2065",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1989",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1989",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "116",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "116",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "147",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "147",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1200",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1200",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "7913",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "7913",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "10009",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "10009",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1694",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "1694",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "12347",
+      "role": "total"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "12347",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "14483",
+      "role": "total"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "14483",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "396",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "395",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "3067",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "3014",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "2496",
+      "role": "total"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "80",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "2416",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "1851",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1850",
+      "role": "total"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "16081",
+      "role": "total"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "16029",
+      "role": "total"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "15921",
+      "role": "total"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "80",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "15841",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "4205",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "4205",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "32958",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "32958",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "32102",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "32102",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "836",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "836",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "5800",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "5800",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "5254",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "5254",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "5041",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "5041",
+      "role": "total"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "38759",
+      "role": "total"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "38759",
+      "role": "total"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "37369",
+      "role": "total"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "37369",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "455",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "455",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "1545",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "1545",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "1721",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "1721",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "1479",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "1479",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "9065",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "9065",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "8901",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "8901",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "193",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "193",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1686",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "1686",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "4039",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "4039",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "2127",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "2127",
+      "role": "total"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "12295",
+      "role": "total"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "12295",
+      "role": "total"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "14662",
+      "role": "total"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "14662",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r7c1",
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r7c2"
+      ]
+    },
+    {
+      "target": "r7c4",
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ]
+    },
+    {
+      "target": "r7c7",
+      "type": "sum",
+      "sources": [
+        "r7c9",
+        "r7c8"
+      ]
+    },
+    {
+      "target": "r8c1",
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r8c2"
+      ]
+    },
+    {
+      "target": "r8c4",
+      "type": "sum",
+      "sources": [
+        "r8c6",
+        "r8c5"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r8c7",
+      "type": "sum",
+      "sources": [
+        "r8c9",
+        "r8c8"
+      ]
+    },
+    {
+      "target": "r6c1",
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r6c3",
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r6c4",
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r6c6",
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r6c7",
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r6c9",
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r8c1",
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r6c1",
+        "r7c1"
+      ]
+    },
+    {
+      "target": "r8c3",
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r6c3",
+        "r7c3"
+      ]
+    },
+    {
+      "target": "r8c4",
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r6c4",
+        "r7c4"
+      ]
+    },
+    {
+      "target": "r8c6",
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r6c6",
+        "r7c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r8c7",
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r6c7",
+        "r7c7"
+      ]
+    },
+    {
+      "target": "r8c9",
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r6c9",
+        "r7c9"
+      ]
+    },
+    {
+      "target": "r12c1",
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r11c1"
+      ]
+    },
+    {
+      "target": "r12c3",
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r11c3"
+      ]
+    },
+    {
+      "target": "r12c4",
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r10c4",
+        "r11c4"
+      ]
+    },
+    {
+      "target": "r12c6",
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r10c6",
+        "r11c6"
+      ]
+    },
+    {
+      "target": "r12c7",
+      "type": "sum",
+      "sources": [
+        "r9c7",
+        "r10c7",
+        "r11c7"
+      ]
+    },
+    {
+      "target": "r12c9",
+      "type": "sum",
+      "sources": [
+        "r9c9",
+        "r10c9",
+        "r11c9"
+      ]
+    },
+    {
+      "target": "r17c1",
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1",
+        "r16c1"
+      ]
+    },
+    {
+      "target": "r17c3",
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ]
+    },
+    {
+      "target": "r17c4",
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r15c4",
+        "r16c4"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r17c6",
+      "type": "sum",
+      "sources": [
+        "r14c6",
+        "r15c6",
+        "r16c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "target": "r17c7",
+      "type": "sum",
+      "sources": [
+        "r13c7",
+        "r14c7",
+        "r15c7",
+        "r16c7"
+      ]
+    },
+    {
+      "target": "r17c9",
+      "type": "sum",
+      "sources": [
+        "r13c9",
+        "r14c9",
+        "r15c9",
+        "r16c9"
+      ]
+    }
+  ]
+}
