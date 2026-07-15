@@ -108,7 +108,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   Programs applicable cells are `leaf` (the FEMA/`-state` pattern); NNSA and Environmental & Other
   Defense Activities have no printed subtotals (direct lines). Dropped the all-`(**)` "Defense
   Nuclear Waste Disposal" row. Render-verified pages 12–13 (both bands); cid cross-check 132/132.
-  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending-energy>`. **Unit-30 spot-audit DUE
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `46b4afc`. **Unit-30 spot-audit DUE
   (different agent) — see `AUDITS.md`.**
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-homeland-security (D2, Claude Opus 4.8) — Corpus **#29**,
