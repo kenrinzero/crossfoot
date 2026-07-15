@@ -107,7 +107,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   figures). No section-total re-anchoring — the full table-wide cross-foot (`Total Outlays = Σ 30
   section totals`) stays deferred as the optional `-grand-sum-*` tier. `Total Surplus (+)/Deficit (-)`
   out of scope (references Table 4 receipts). Render-verified page 22 (27/27). reconcile GREEN (0
-  warnings), pytest 10/10. Commit `<pending-capstone>`.
+  warnings), pytest 10/10. Commit `5dfb41d`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-veterans-affairs (D2, Claude Opus 4.8) — Corpus **#31**,
   over-cap→cap-fit reclassification; **completes Tier A (5/5)**. Department of Veterans Affairs (page
