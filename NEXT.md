@@ -71,12 +71,12 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    pytest 10/10). Two-level nesting; every applicable column rolls up with ≥2
    sources → no standalone. **Tier A complete (5/5).**
 
-**Tier B — grand capstone (small, ship after Tier A).**
+**Tier B — grand capstone.**
 
-6. `treasury-mts/2026-05-outlays-grand-total-capstone` (p22, 27 cells, 18
-   relations) — Total Outlays / On-Budget / Off-Budget; On+Off=Total (9 cols) +
-   total-row net identity (9). `Total Surplus/Deficit` out of scope. No
-   re-anchoring. See plan § *Grand capstone decision*.
+6. ~~`treasury-mts/2026-05-outlays-grand-total-capstone` (p22, 27 cells, 18
+   relations)~~ **SHIPPED 2026-07-16** (27 cells, 18 relations, 6 tol ±1, GREEN,
+   pytest 10/10). On+Off=Total (9 cols) + per-row net identity (9). `Total
+   Surplus/Deficit` out of scope. **Tier A + B complete — corpus at 32.**
 
 ## Not yet sequenced (Tier C — over-cap sub-splits)
 
@@ -99,6 +99,16 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 
 ## Shipped
 
+- 2026-07-16 · treasury-mts/2026-05-outlays-grand-total-capstone (D2, Claude Opus 4.8) — Corpus **#32**,
+  **Tier B**. Grand-total capstone (page 22): Total Outlays / Total On-Budget / Total Off-Budget.
+  **27 cells / 18 sum relations** (floor 12) = 9 On/Off-Budget column splits (`Total On-Budget +
+  Total Off-Budget = Total Outlays`) + 9 per-row net identities (`net + applicable = gross`). **6 tol
+  all ±1** quoting the p. 23 rounding note (these grand totals aggregate hundreds of rounded section
+  figures). No section-total re-anchoring — the full table-wide cross-foot (`Total Outlays = Σ 30
+  section totals`) stays deferred as the optional `-grand-sum-*` tier. `Total Surplus (+)/Deficit (-)`
+  out of scope (references Table 4 receipts). Render-verified page 22 (27/27). reconcile GREEN (0
+  warnings), pytest 10/10. Commit `<pending-capstone>`.
+
 - 2026-07-16 · treasury-mts/2026-05-outlays-veterans-affairs (D2, Claude Opus 4.8) — Corpus **#31**,
   over-cap→cap-fit reclassification; **completes Tier A (5/5)**. Department of Veterans Affairs (page
   18): **139 cells / 29 sum relations** (floor 16) = 9 Benefits Programs roll-ups + 9 department
@@ -110,7 +120,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   applicable column has ≥2 sources at both levels → **no standalone**. Heavy `(**)` omissions handled
   (dropped all-`(**)` Veterans Choice Fund row; Housing Accounts survives only c8/c9; General
   Operating Expenses only c5/c6). Render-verified page 18 (both bands); cid cross-check 139/139.
-  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending-va>`.
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `24362b8`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-energy (D2, Claude Opus 4.8) — Corpus **#30**,
   over-cap→cap-fit reclassification. Department of Energy (pages 12–13, spans the page break):

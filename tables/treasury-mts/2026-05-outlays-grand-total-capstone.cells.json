@@ -1,0 +1,430 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-grand-total-capstone",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 22,
+    "title": "Grand-total capstone for Table 5 (Outlays), page 22. Full 9-column model. The three bottom-of-table grand aggregate rows: Total Outlays, Total On-Budget, Total Off-Budget. Two self-contained identity families, no re-anchoring of section totals (see plan's grand-capstone decision): (1) Total On-Budget + Total Off-Budget = Total Outlays per column; (2) the per-row net identity net + applicable = gross. 'Total Surplus (+) or Deficit (-)' is OUT OF SCOPE (it references Table 4 receipts). Family pattern: plans/treasury-mts-2026-05-outlays-table5.md (section 'Grand capstone decision').",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Nine-column model: 3 periods x (Gross Outlays / Applicable Receipts / Outlays[net]). This unit captures only the three grand aggregate rows at the foot of Table 5 (page 22): Total Outlays, Total On-Budget, Total Off-Budget. It deliberately does NOT re-anchor the 30 section totals (that full table-wide cross-foot is a deferred optional '-grand-sum-*' tier -- see plan). The 'Total Surplus (+) or Deficit (-)' rows below are OUT OF SCOPE (they net Table 5 outlays against Table 4 receipts, which this corpus keeps in a separate family). Relations: On-Budget + Off-Budget = Total Outlays per column (verified net This-Month: 490,896 + 137,265 = 628,161), and the per-row net identity net + applicable = gross. Non-default tolerances quote the Table-5 rounding note (p. 23): 'Note: Details may not add to totals due to rounding.' All observed gaps are +/-1 (these grand totals aggregate hundreds of independently-rounded section figures); all values render-verified against page 22.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total Outlays"
+    },
+    {
+      "index": 2,
+      "label": "Total On-Budget"
+    },
+    {
+      "index": 3,
+      "label": "Total Off-Budget"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "683743",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "55583",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "628161",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "5335286",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "433434",
+      "role": "total"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "4901851",
+      "role": "total"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "5243316",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "397233",
+      "role": "total"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "4846083",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "540197",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "49301",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "490896",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "4260001",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "364419",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "3895582",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "4230190",
+      "role": "total"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "328634",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "3901556",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "143546",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "6282",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "137265",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1075284",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "69015",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1006270",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1013126",
+      "role": "total"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "68599",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "944527",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r3c5"
+      ],
+      "target": "r1c5",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6"
+      ],
+      "target": "r1c6",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 6",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7"
+      ],
+      "target": "r1c7",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r3c8"
+      ],
+      "target": "r1c8",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9"
+      ],
+      "target": "r1c9",
+      "note": "On/Off-Budget split: Total On-Budget + Total Off-Budget = Total Outlays, col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r1c2"
+      ],
+      "target": "r1c1",
+      "note": "total-row net identity: Total Outlays Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r1c5"
+      ],
+      "target": "r1c4",
+      "note": "total-row net identity: Total Outlays Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r1c8"
+      ],
+      "target": "r1c7",
+      "note": "total-row net identity: Total Outlays Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r2c2"
+      ],
+      "target": "r2c1",
+      "note": "total-row net identity: Total On-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r2c5"
+      ],
+      "target": "r2c4",
+      "note": "total-row net identity: Total On-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r2c8"
+      ],
+      "target": "r2c7",
+      "note": "total-row net identity: Total On-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r3c2"
+      ],
+      "target": "r3c1",
+      "note": "total-row net identity: Total Off-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r3c5"
+      ],
+      "target": "r3c4",
+      "note": "total-row net identity: Total Off-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c9",
+        "r3c8"
+      ],
+      "target": "r3c7",
+      "note": "total-row net identity: Total Off-Budget Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    }
+  ]
+}
