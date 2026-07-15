@@ -51,12 +51,12 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    10/10). Correction landed: Proprietary Receipts split On-/Off-Budget gives the
    applicable column two sources, so it rolls up cleanly — **no standalone
    needed** (revising the queue note above).
-2. `treasury-mts/2026-05-outlays-justice` (p15, 120 cells) — corpus #28.
-   **Flat** (no printed bureau subtotals); 9 per-column roll-ups + net identity
-   on Federal Prison System + Proprietary/Offsetting single-source handling.
+2. ~~`treasury-mts/2026-05-outlays-justice` (p15, 120 cells) — corpus #28.~~
+   **SHIPPED 2026-07-15** (120 cells, 12 relations, 6 tol ≤2, GREEN, pytest
+   10/10). Flat section; applicable column rolls up with 3 sources (Federal
+   Prison System + Proprietary + Offsetting) → no standalone.
 3. `treasury-mts/2026-05-outlays-homeland-security` (p14, 126 cells) — corpus
-   #29. Nested FEMA (`Total--Federal Emergency Management Agency`). **Unit 30
-   audit falls on the NEXT one** — see below.
+   #29. Nested FEMA (`Total--Federal Emergency Management Agency`).
 4. `treasury-mts/2026-05-outlays-energy` (p12–13, 132 cells) — corpus #30.
    Nested `Total--Energy Programs`; spans a page break. **← unit-30 spot-audit
    target (DESIGN §6, different agent).**
@@ -90,6 +90,17 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 ---
 
 ## Shipped
+
+- 2026-07-15 · treasury-mts/2026-05-outlays-justice (D2, Claude Opus 4.8) — Corpus **#28**,
+  over-cap→cap-fit reclassification. Department of Justice (page 15): **120 cells / 12 sum
+  relations** (floor 9) = 9 department column roll-ups into Total--Department of Justice (FLAT
+  section — "Legal Activities"/"Office of Justice Programs" are visual groupings with no printed
+  subtotals) + 3 Federal Prison System per-line net identities. **6 tol ≤2** quoting the p. 23
+  rounding note: net columns foot exactly, gross columns miss by 1, PFYTD net by 2, and the FPS
+  PFYTD net identity by 1 (source rounding gap: 5,928 + 276 = 6,204 vs printed gross 6,203 — all
+  three render-verified). Applicable column rolls up with 3 sources → **no standalone**.
+  Render-verified page 15; cid cross-check 120/120. reconcile GREEN (0 warnings), pytest 10/10.
+  Commit `<pending>`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-social-security (D2, Claude Opus 4.8) — Corpus **#27**,
   first over-cap→cap-fit reclassification. Social Security Administration (page 20): **81 cells /
