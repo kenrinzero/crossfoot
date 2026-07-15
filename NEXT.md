@@ -91,13 +91,17 @@ applicable columns handled as usual (standalone + total-row net identity).
 
 - [x] **Education** (161 → 2u) — **DONE 2026-07-16**: `-education-bureaus` (#33) +
   `-education-departmental` (#34).
-- [ ] **Remaining 11 sections → ~26 sub-units**, ascending size: Int'l Assistance
-  (165, 2u), Interior (171, 2u), Transportation (176, 2u), Labor (180, 2u), HUD
-  (204, 2u), Undistributed Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS
-  (252, 3u), Agriculture (271, 3u), Defense–Military (271, 3u), Independent
-  Agencies (305, 3u). Split at printed `Total--` bureau boundaries; boundaries in
-  the plan's over-cap sizing table. Independent sections → fleet-distributable.
-  **Next up: Int'l Assistance.**
+- [x] **International Assistance** (165 → 2u) — **DONE 2026-07-16**:
+  `-international-assistance-bureaus` (#35) + `-international-assistance-departmental`
+  (#36). Gnarliest section (spans p19→20; degenerate single-line Multilateral
+  bureau → 6 standalone; subtotal-less Military Sales; OPIC dropped entirely).
+- [ ] **Remaining 10 sections → ~24 sub-units**, ascending size: Interior (171,
+  2u), Transportation (176, 2u), Labor (180, 2u), HUD (204, 2u), Undistributed
+  Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
+  (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
+  printed `Total--` bureau boundaries; boundaries in the plan's over-cap sizing
+  table. Independent sections → fleet-distributable. **Next up: Interior (p15,
+  single page — cleaner than the last two).**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
@@ -107,6 +111,20 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-16 · treasury-mts/2026-05-outlays-international-assistance-{bureaus,departmental} (D2, Claude Opus 4.8) —
+  Corpus **#35 + #36**, Tier-C over-cap split #2 (International Assistance Programs, pages 19–20, 165
+  cells → 2 units — the **most complex section in the table**). **`-...-bureaus` (#35, 84 cells / 21
+  rel, 4 standalone, 6 tol ±1):** the two multi-line subtotal bureaus (International Security
+  Assistance, Agency for International Development), each self-contained; bureau-level Proprietary is
+  the sole applicable source in most columns → standalone + total-row net identity. **`-...-departmental`
+  (#36, 99 cells / 21 rel, 6 standalone, 8 tol ≤2):** Millennium + the degenerate single-line
+  Multilateral bureau + Peace Corps + Int'l Monetary + subtotal-less Military Sales lines + direct
+  Other + the two bureau totals **re-anchored** + Total--International Assistance Programs. Multilateral
+  has one substantive line → its net cols roll up, gross totals covered by net identity, but its
+  single-source line-level cells are standalone (6). OPIC dropped entirely (all `(**)`). **Cross-unit
+  re-anchor consistency: 0 mismatches.** Both render-verified (p19 two bands + p20 top), reconcile
+  GREEN, pytest 10/10. Commits `<pending-intl>`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-education-{bureaus,departmental} (D2, Claude Opus 4.8) —
   Corpus **#33 + #34**, the **first Tier-C over-cap sub-split** (Department of Education, page 12,

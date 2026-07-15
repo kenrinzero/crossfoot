@@ -1,0 +1,935 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-international-assistance-bureaus",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 19,
+    "title": "International Assistance Programs section (Table-5 OVER-CAP sub-split, page 19), unit 1 of 2: the two clean multi-line subtotal bureaus -- International Security Assistance and Agency for International Development. Each rolls its lines into its own Total--. The sibling unit -international-assistance-departmental holds Multilateral Assistance, the department-direct lines, the re-anchored ISA/AID totals, and Total--International Assistance Programs. Sizing: plans/treasury-mts-2026-05-outlays-table5.md (Int'l Assistance 165 cells -> 2 units, spans p19->20).",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' (omitted). First of two units splitting the over-cap International Assistance Programs section; holds the two subtotal-bearing bureaus with multiple substantive lines. Values as printed, thousands separators stripped, negatives as leading '-'. Nine-column model. In each bureau only the 'Proprietary Receipts from the Public' line carries an Applicable value in most columns (single-source), so those line-level applicable cells are 'standalone' and the bureau-total applicable cells are leaf, covered by the bureau total-row net identity (the -state / -education-departmental pattern). Exception: International Security Assistance CFYTD applicable has two sources (its 'Other' line carries 7, Proprietary 43), so it rolls up; the ISA 'Other' line's own net identity covers its CFYTD/PFYTD applicable. Non-default tolerances quote the Table-5 rounding note (p. 23): 'Note: Details may not add to totals due to rounding.'",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "International Security Assistance / Foreign Military Financing Program"
+    },
+    {
+      "index": 2,
+      "label": "International Security Assistance / Economic Support Fund"
+    },
+    {
+      "index": 3,
+      "label": "International Security Assistance / Other"
+    },
+    {
+      "index": 4,
+      "label": "International Security Assistance / Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Total--International Security Assistance"
+    },
+    {
+      "index": 6,
+      "label": "Agency for International Development / Development Assistance Program"
+    },
+    {
+      "index": 7,
+      "label": "Agency for International Development / Assistance for Europe, Eurasia and Central Asia"
+    },
+    {
+      "index": 8,
+      "label": "Agency for International Development / International Disaster Assistance"
+    },
+    {
+      "index": 9,
+      "label": "Agency for International Development / Operating Expenses"
+    },
+    {
+      "index": 10,
+      "label": "Agency for International Development / Other"
+    },
+    {
+      "index": 11,
+      "label": "Agency for International Development / Proprietary Receipts from the Public"
+    },
+    {
+      "index": 12,
+      "label": "Agency for International Development / Intrabudgetary Transactions"
+    },
+    {
+      "index": 13,
+      "label": "Total--Agency for International Development"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "720",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "720",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "7597",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "7597",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "4994",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "4994",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "65",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "65",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "1576",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1576",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "6771",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "6771",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "598",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "592",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "833",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "821",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'International Security Assistance / Proprietary Receipts from the Public', a line with no Gross Outlays (its Gross column is '......'): it is the only line carrying an Applicable value in this column at the bureau level (single-source), so the column has no >=2-source roll-up. The bureau-total applicable (same value) is instead covered by the bureau total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-43",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-43",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "847",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "804",
+      "role": "total"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "9771",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "50",
+      "role": "total"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "9722",
+      "role": "total"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "12598",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "12586",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "189",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "189",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "1910",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "1910",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "534",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "534",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "536",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "536",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "4045",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "4045",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "3876",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "3876",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "370",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "370",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1112",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "1112",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "1016",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "1016",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "1137",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "1137",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Agency for International Development / Proprietary Receipts from the Public', a line with no Gross Outlays (its Gross column is '......'): it is the only line carrying an Applicable value in this column at the bureau level (single-source), so the column has no >=2-source roll-up. The bureau-total applicable (same value) is instead covered by the bureau total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "6",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Agency for International Development / Proprietary Receipts from the Public', a line with no Gross Outlays (its Gross column is '......'): it is the only line carrying an Applicable value in this column at the bureau level (single-source), so the column has no >=2-source roll-up. The bureau-total applicable (same value) is instead covered by the bureau total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "52",
+      "role": "standalone",
+      "why": "Applicable Receipts on 'Agency for International Development / Proprietary Receipts from the Public', a line with no Gross Outlays (its Gross column is '......'): it is the only line carrying an Applicable value in this column at the bureau level (single-source), so the column has no >=2-source roll-up. The bureau-total applicable (same value) is instead covered by the bureau total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "-52",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "-27",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "-27",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "858",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "857",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "5802",
+      "role": "total"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "5796",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "8584",
+      "role": "total"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "8532",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r5c1",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r5c3",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r5c4",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r4c5"
+      ],
+      "target": "r5c5",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6"
+      ],
+      "target": "r5c6",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7"
+      ],
+      "target": "r5c7",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9"
+      ],
+      "target": "r5c9",
+      "note": "bureau roll-up: sum of International Security Assistance lines = Total--International Security Assistance, col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "total-row net identity: Total--International Security Assistance Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "total-row net identity: Total--International Security Assistance Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "total-row net identity: Total--International Security Assistance Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r12c1"
+      ],
+      "target": "r13c1",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r13c3",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 3",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r12c4"
+      ],
+      "target": "r13c4",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6"
+      ],
+      "target": "r13c6",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 6",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c7",
+        "r7c7",
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r12c7"
+      ],
+      "target": "r13c7",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9"
+      ],
+      "target": "r13c9",
+      "note": "bureau roll-up: sum of Agency for International Development lines = Total--Agency for International Development, col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r13c2"
+      ],
+      "target": "r13c1",
+      "note": "total-row net identity: Total--Agency for International Development Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c6",
+        "r13c5"
+      ],
+      "target": "r13c4",
+      "note": "total-row net identity: Total--Agency for International Development Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c9",
+        "r13c8"
+      ],
+      "target": "r13c7",
+      "note": "total-row net identity: Total--Agency for International Development Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r3c5"
+      ],
+      "target": "r3c4",
+      "note": "per-line net identity: International Security Assistance / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c9",
+        "r3c8"
+      ],
+      "target": "r3c7",
+      "note": "per-line net identity: International Security Assistance / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    }
+  ]
+}

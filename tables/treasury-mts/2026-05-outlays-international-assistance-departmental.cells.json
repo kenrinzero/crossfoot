@@ -1,0 +1,1077 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-international-assistance-departmental",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 20,
+    "title": "International Assistance Programs section (Table-5 OVER-CAP sub-split, spans pages 19-20), unit 2 of 2: the department-level remainder + the grand roll-up to Total--International Assistance Programs. Holds Millennium Challenge Corporation, the Multilateral Assistance bureau (a single substantive line + Proprietary + its Total--), Peace Corps (+ its Proprietary), International Monetary Programs, the subtotal-less Military Sales Program lines (Foreign Military Sales Trust Fund, Other, Proprietary), the department-direct 'Other', and the TWO multi-line bureau Total-- rows (International Security Assistance, Agency for International Development) RE-ANCHORED from the sibling -international-assistance-bureaus. Overseas Private Investment Corporation is dropped entirely (all '(**)'/'......'). Re-anchor pattern: -receipts-si-remainder / -education-departmental.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' (omitted). Second of two units for the over-cap International Assistance Programs section (spans p19->20). The two multi-line bureau Total-- rows (International Security Assistance, Agency for International Development) are RE-ANCHORED as leaves -- re-read from the render, never copied. The Overseas Private Investment Corporation rows are dropped (every cell '(**)'/'......'). Military Sales Program prints no subtotal, so its three lines feed the department total directly. Multilateral Assistance has only one substantive line ('Other') plus Proprietary: its net columns (c3/c6) roll up (2 sources) and its gross totals (c1/c4) are covered by the total-row net identity, but its single-source gross/net cells -- the 'Other' line's c1/c4/c7/c9 and the two Proprietary applicable cells -- participate in no >=2-source relation and are 'standalone' with a why (Total--Multilateral Prior-FYTD is instead re-anchored into the department roll-up). At the department level every Applicable column has many sources and rolls up normally. Non-default tolerances quote the Table-5 rounding note (p. 23): 'Note: Details may not add to totals due to rounding.'",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Millennium Challenge Corporation"
+    },
+    {
+      "index": 2,
+      "label": "Total--International Security Assistance"
+    },
+    {
+      "index": 3,
+      "label": "Multilateral Assistance / Other"
+    },
+    {
+      "index": 4,
+      "label": "Multilateral Assistance / Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Total--Multilateral Assistance"
+    },
+    {
+      "index": 6,
+      "label": "Total--Agency for International Development"
+    },
+    {
+      "index": 7,
+      "label": "Peace Corps"
+    },
+    {
+      "index": 8,
+      "label": "Peace Corps / Proprietary Receipts"
+    },
+    {
+      "index": 9,
+      "label": "International Monetary Programs"
+    },
+    {
+      "index": 10,
+      "label": "Military Sales Program / Foreign Military Sales Trust Fund"
+    },
+    {
+      "index": 11,
+      "label": "Military Sales Program / Other"
+    },
+    {
+      "index": 12,
+      "label": "Military Sales Program / Proprietary Receipts from the Public"
+    },
+    {
+      "index": 13,
+      "label": "Other"
+    },
+    {
+      "index": 14,
+      "label": "Total--International Assistance Programs"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "33",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "33",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "412",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "412",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "491",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "491",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "847",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "804",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "9771",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "50",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "9722",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "12598",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "12586",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "234",
+      "role": "standalone",
+      "why": "Multilateral Assistance has a single substantive line ('Other') plus a Proprietary Receipts line; this Gross/Outlays cell is the sole contributor to its column (single-source), so it feeds no >=2-source roll-up. Total--Multilateral Assistance is verified instead by its net roll-up (Other + Proprietary) and total-row net identity, and its Prior-FYTD cells are re-anchored into the department roll-up. Relation-free within this unit."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "234",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "402",
+      "role": "standalone",
+      "why": "Multilateral Assistance has a single substantive line ('Other') plus a Proprietary Receipts line; this Gross/Outlays cell is the sole contributor to its column (single-source), so it feeds no >=2-source roll-up. Total--Multilateral Assistance is verified instead by its net roll-up (Other + Proprietary) and total-row net identity, and its Prior-FYTD cells are re-anchored into the department roll-up. Relation-free within this unit."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "402",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "747",
+      "role": "standalone",
+      "why": "Multilateral Assistance has a single substantive line ('Other') plus a Proprietary Receipts line; this Gross/Outlays cell is the sole contributor to its column (single-source), so it feeds no >=2-source roll-up. Total--Multilateral Assistance is verified instead by its net roll-up (Other + Proprietary) and total-row net identity, and its Prior-FYTD cells are re-anchored into the department roll-up. Relation-free within this unit."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "747",
+      "role": "standalone",
+      "why": "Multilateral Assistance has a single substantive line ('Other') plus a Proprietary Receipts line; this Gross/Outlays cell is the sole contributor to its column (single-source), so it feeds no >=2-source roll-up. Total--Multilateral Assistance is verified instead by its net roll-up (Other + Proprietary) and total-row net identity, and its Prior-FYTD cells are re-anchored into the department roll-up. Relation-free within this unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "7",
+      "role": "standalone",
+      "why": "Applicable Receipts on Multilateral Assistance 'Proprietary Receipts from the Public', a line with no Gross Outlays: it is the only line carrying an Applicable value in this column at the bureau level (single-source). The bureau-total applicable (same value) is covered by the Multilateral total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-7",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "7",
+      "role": "standalone",
+      "why": "Applicable Receipts on Multilateral Assistance 'Proprietary Receipts from the Public', a line with no Gross Outlays: it is the only line carrying an Applicable value in this column at the bureau level (single-source). The bureau-total applicable (same value) is covered by the Multilateral total-row net identity. Relation-free within this unit."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "234",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "228",
+      "role": "total"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "402",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "395",
+      "role": "total"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "747",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "747",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "858",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "857",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "5802",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "5796",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "8584",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "8532",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "283",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "283",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "284",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "283",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-40",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-14",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4326",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "4326",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "37487",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "37487",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "32940",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "32940",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "99",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "96",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "118",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "60",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "58",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "1649",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-1649",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "37040",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "-37040",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "36653",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-36653",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "96",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-23",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "413",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "310",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "102",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "463",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "278",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "185",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "6438",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "1840",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "4598",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "54695",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "37549",
+      "role": "total"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "17146",
+      "role": "total"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "56237",
+      "role": "total"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "37056",
+      "role": "total"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "19181",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r5c3",
+      "note": "Multilateral Assistance roll-up: Other + Proprietary Receipts = Total--Multilateral Assistance, col 3",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r4c6"
+      ],
+      "target": "r5c6",
+      "note": "Multilateral Assistance roll-up: Other + Proprietary Receipts = Total--Multilateral Assistance, col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "Multilateral total-row net identity: Total--Multilateral Assistance Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "Multilateral total-row net identity: Total--Multilateral Assistance Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r13c1"
+      ],
+      "target": "r14c1",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r5c2",
+        "r6c2",
+        "r9c2",
+        "r11c2",
+        "r12c2",
+        "r13c2"
+      ],
+      "target": "r14c2",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 2",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3"
+      ],
+      "target": "r14c3",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r13c4"
+      ],
+      "target": "r14c4",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r5c5",
+        "r6c5",
+        "r8c5",
+        "r9c5",
+        "r11c5",
+        "r12c5",
+        "r13c5"
+      ],
+      "target": "r14c5",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 5",
+      "tol": "2",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 2."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 6",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r5c7",
+        "r6c7",
+        "r7c7",
+        "r9c7",
+        "r10c7",
+        "r11c7",
+        "r13c7"
+      ],
+      "target": "r14c7",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 7",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r6c8",
+        "r8c8",
+        "r11c8",
+        "r12c8",
+        "r13c8"
+      ],
+      "target": "r14c8",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9",
+        "r13c9"
+      ],
+      "target": "r14c9",
+      "note": "department column roll-up: sum of International Assistance Programs lines (bureau Total-- rows re-anchored + subtotal-less Military Sales lines + direct lines) = Total--International Assistance Programs, col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r9c2"
+      ],
+      "target": "r9c1",
+      "note": "per-line net identity: International Monetary Programs Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r9c5"
+      ],
+      "target": "r9c4",
+      "note": "per-line net identity: International Monetary Programs Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r11c2"
+      ],
+      "target": "r11c1",
+      "note": "per-line net identity: Military Sales Program / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c6",
+        "r11c5"
+      ],
+      "target": "r11c4",
+      "note": "per-line net identity: Military Sales Program / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c9",
+        "r11c8"
+      ],
+      "target": "r11c7",
+      "note": "per-line net identity: Military Sales Program / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r13c2"
+      ],
+      "target": "r13c1",
+      "note": "per-line net identity: Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c6",
+        "r13c5"
+      ],
+      "target": "r13c4",
+      "note": "per-line net identity: Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c9",
+        "r13c8"
+      ],
+      "target": "r13c7",
+      "note": "per-line net identity: Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    }
+  ]
+}
