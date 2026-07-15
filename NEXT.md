@@ -95,13 +95,12 @@ applicable columns handled as usual (standalone + total-row net identity).
   `-international-assistance-bureaus` (#35) + `-international-assistance-departmental`
   (#36). Gnarliest section (spans p19→20; degenerate single-line Multilateral
   bureau → 6 standalone; subtotal-less Military Sales; OPIC dropped entirely).
-- [ ] **Remaining 10 sections → ~24 sub-units**, ascending size: Interior (171,
-  2u), Transportation (176, 2u), Labor (180, 2u), HUD (204, 2u), Undistributed
+- [x] **Interior** (171, 2u) — **DONE 2026-07-16**: `-interior-bureaus` (#37) + `-interior-departmental` (#38).
+- [ ] **Remaining 9 sections → ~22 sub-units**, ascending size: Transportation (176, 2u), Labor (180, 2u), HUD (204, 2u), Undistributed
   Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
   (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
   printed `Total--` bureau boundaries; boundaries in the plan's over-cap sizing
-  table. Independent sections → fleet-distributable. **Next up: Interior (p15,
-  single page — cleaner than the last two).**
+  table. Independent sections → fleet-distributable. **Next up: Transportation (p17).**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
