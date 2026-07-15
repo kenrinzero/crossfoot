@@ -1,0 +1,1329 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-homeland-security",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 14,
+    "title": "Department of Homeland Security section (Table-5 cap-fit unit, page 14). Full 9-column outlays model. Reclassified from over-cap to cap-fit by the 2026-07-15 sizing pass (126 cells). NESTED (family 3): Federal Emergency Management Agency rolls Disaster Relief + National Flood Insurance Fund + Other into Total--FEMA, which then feeds the department roll-up. FEMA's Applicable column is single-source (only National Flood Insurance Fund carries an applicable), so the Total--FEMA applicable subtotal is a leaf covered by the FEMA total-row net identity (-state / plan Pattern addendum). Family pattern: plans/treasury-mts-2026-05-outlays-table5.md; worked examples: -state (nesting + single-source), -commerce (flat).",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' (none in this section). Values as printed, thousands separators stripped, negatives as leading '-'. Nine-column model: 3 periods x (Gross Outlays / Applicable Receipts / Outlays[net]). FEMA nests (family 3); its Applicable column has a single contributing line (National Flood Insurance Fund), so the FEMA gross/net columns roll up but the FEMA Applicable column does not -- the Total--FEMA applicable cells (c2/c5/c8) are marked leaf and covered by the FEMA total-row net identity, while the National Flood Insurance Fund line-level applicable is covered by its own per-line net identity. At the department level the Applicable column has four sources (Customs and Border Protection, Total--FEMA, Proprietary, Offsetting), so it rolls up normally. Non-default tolerances quote the Table-5 rounding note (p. 23): 'Note: Details may not add to totals due to rounding.' The department PFYTD Gross roll-up (col 7) is off by 3 -- the largest gap here -- across 13 independently-rounded sources; within the plan's sanctioned +/-1..3 band, all 13 render-verified.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Departmental Management and Operations"
+    },
+    {
+      "index": 2,
+      "label": "Citizenship and Immigration Services"
+    },
+    {
+      "index": 3,
+      "label": "United States Secret Service"
+    },
+    {
+      "index": 4,
+      "label": "Transportation Security Administration"
+    },
+    {
+      "index": 5,
+      "label": "Immigration and Customs Enforcement"
+    },
+    {
+      "index": 6,
+      "label": "U.S. Customs and Border Protection"
+    },
+    {
+      "index": 7,
+      "label": "United States Coast Guard"
+    },
+    {
+      "index": 8,
+      "label": "National Protection and Programs Directorate"
+    },
+    {
+      "index": 9,
+      "label": "Federal Emergency Management Agency / Disaster Relief"
+    },
+    {
+      "index": 10,
+      "label": "Federal Emergency Management Agency / National Flood Insurance Fund"
+    },
+    {
+      "index": 11,
+      "label": "Federal Emergency Management Agency / Other"
+    },
+    {
+      "index": 12,
+      "label": "Total--Federal Emergency Management Agency"
+    },
+    {
+      "index": 13,
+      "label": "Science and Technology"
+    },
+    {
+      "index": 14,
+      "label": "Domestic Nuclear Detection Office"
+    },
+    {
+      "index": 15,
+      "label": "Other"
+    },
+    {
+      "index": 16,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 17,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 18,
+      "label": "Offsetting Governmental Receipts"
+    },
+    {
+      "index": 19,
+      "label": "Total--Department of Homeland Security"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-4976",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-4976",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "4464",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "4464",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "1702",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "1702",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "460",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "460",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "3748",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "3748",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "3928",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "3928",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "369",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "369",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1673",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1673",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "2357",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "2357",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "2255",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "2255",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "5580",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "5580",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "6076",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "6076",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1451",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1451",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "15123",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "15123",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "6506",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "6506",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "4638",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "4632",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "15522",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "15484",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "14052",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "35",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "14018",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "3782",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "3782",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "10620",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "10620",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "9170",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "9170",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "224",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "224",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "1474",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1474",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "1818",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "1818",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "3024",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "3024",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "15953",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "15953",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "35101",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "35101",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "289",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-218",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "962",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "1663",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "-702",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "8326",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "1163",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "7163",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "173",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "173",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1359",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "1359",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "2178",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "2178",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3268",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "289",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "2979",
+      "role": "total"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "18274",
+      "role": "total"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "1663",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "16610",
+      "role": "total"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "45605",
+      "role": "total"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "1163",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "44443",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "268",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "268",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "454",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "454",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "140",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "140",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "213",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "213",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "502",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "502",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "430",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "430",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "381",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-381",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "1694",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "-1694",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c8",
+      "row": 16,
+      "col": 8,
+      "value": "913",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "-913",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-219",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "-219",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "540",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "540",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "240",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "240",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "10325",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "-10325",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c8",
+      "row": 18,
+      "col": 8,
+      "value": "11613",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "-11613",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "11538",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "2117",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "9421",
+      "role": "total"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "77928",
+      "role": "total"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "13720",
+      "role": "total"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "64208",
+      "role": "total"
+    },
+    {
+      "id": "r19c7",
+      "row": 19,
+      "col": 7,
+      "value": "92554",
+      "role": "total"
+    },
+    {
+      "id": "r19c8",
+      "row": 19,
+      "col": 8,
+      "value": "13724",
+      "role": "total"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "value": "78830",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r12c1",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r12c3",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r12c4",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r10c6",
+        "r11c6"
+      ],
+      "target": "r12c6",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c7",
+        "r10c7",
+        "r11c7"
+      ],
+      "target": "r12c7",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c9",
+        "r10c9",
+        "r11c9"
+      ],
+      "target": "r12c9",
+      "note": "FEMA bureau roll-up: Disaster Relief + National Flood Insurance Fund + Other = Total--Federal Emergency Management Agency, col 9",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c3",
+        "r12c2"
+      ],
+      "target": "r12c1",
+      "note": "FEMA total-row net identity: Total--FEMA Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1 (covers the single-source FEMA applicable subtotal)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c6",
+        "r12c5"
+      ],
+      "target": "r12c4",
+      "note": "FEMA total-row net identity: Total--FEMA Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4 (covers the single-source FEMA applicable subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c9",
+        "r12c8"
+      ],
+      "target": "r12c7",
+      "note": "FEMA total-row net identity: Total--FEMA Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7 (covers the single-source FEMA applicable subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r10c2"
+      ],
+      "target": "r10c1",
+      "note": "per-line net identity: National Flood Insurance Fund Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r10c5"
+      ],
+      "target": "r10c4",
+      "note": "per-line net identity: National Flood Insurance Fund Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r10c8"
+      ],
+      "target": "r10c7",
+      "note": "per-line net identity: National Flood Insurance Fund Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "per-line net identity: U.S. Customs and Border Protection Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "per-line net identity: U.S. Customs and Border Protection Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "per-line net identity: U.S. Customs and Border Protection Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r17c1"
+      ],
+      "target": "r19c1",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r12c2",
+        "r16c2",
+        "r18c2"
+      ],
+      "target": "r19c2",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3"
+      ],
+      "target": "r19c3",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r17c4"
+      ],
+      "target": "r19c4",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r12c5",
+        "r16c5",
+        "r18c5"
+      ],
+      "target": "r19c5",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6"
+      ],
+      "target": "r19c6",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 6",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r7c7",
+        "r8c7",
+        "r12c7",
+        "r13c7",
+        "r14c7",
+        "r15c7",
+        "r17c7"
+      ],
+      "target": "r19c7",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 7",
+      "tol": "3",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 3."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c8",
+        "r12c8",
+        "r16c8",
+        "r18c8"
+      ],
+      "target": "r19c8",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r12c9",
+        "r13c9",
+        "r14c9",
+        "r15c9",
+        "r16c9",
+        "r17c9",
+        "r18c9"
+      ],
+      "target": "r19c9",
+      "note": "department column roll-up: sum of Homeland Security lines (FEMA via its total) = Total--Department of Homeland Security, col 9",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    }
+  ]
+}

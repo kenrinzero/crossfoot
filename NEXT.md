@@ -55,11 +55,16 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    **SHIPPED 2026-07-15** (120 cells, 12 relations, 6 tol ≤2, GREEN, pytest
    10/10). Flat section; applicable column rolls up with 3 sources (Federal
    Prison System + Proprietary + Offsetting) → no standalone.
-3. `treasury-mts/2026-05-outlays-homeland-security` (p14, 126 cells) — corpus
-   #29. Nested FEMA (`Total--Federal Emergency Management Agency`).
+3. ~~`treasury-mts/2026-05-outlays-homeland-security` (p14, 126 cells) — corpus
+   #29.~~ **SHIPPED 2026-07-15** (126 cells, 24 relations, 8 tol ≤3, GREEN, pytest
+   10/10). Nested FEMA; FEMA applicable single-source → Total--FEMA applicable
+   cells are leaf, covered by the FEMA total-row net identity (no standalone).
 4. `treasury-mts/2026-05-outlays-energy` (p12–13, 132 cells) — corpus #30.
    Nested `Total--Energy Programs`; spans a page break. **← unit-30 spot-audit
-   target (DESIGN §6, different agent).**
+   target (DESIGN §6, different agent — auditor must differ from whoever
+   transcribes this).** Note: Power Marketing Administration + Other carry large
+   applicables; check the applicable-column source count before assuming
+   single-source.
 5. `treasury-mts/2026-05-outlays-veterans-affairs` (p18, 139 cells) — corpus
    #31. Nested Benefits Programs (Public Enterprise Funds, Insurance Funds).
 
@@ -90,6 +95,19 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 ---
 
 ## Shipped
+
+- 2026-07-15 · treasury-mts/2026-05-outlays-homeland-security (D2, Claude Opus 4.8) — Corpus **#29**,
+  over-cap→cap-fit reclassification. Department of Homeland Security (page 14): **126 cells / 24 sum
+  relations** (floor 14) = 6 FEMA bureau roll-ups (gross/net) + 3 FEMA total-row net identities + 3
+  National Flood Insurance Fund net identities + 3 Customs and Border Protection net identities + 9
+  department column roll-ups. **8 tol ≤3** quoting the p. 23 rounding note (department PFYTD gross
+  off by 3 across 13 sources; the rest ±1). The FEMA **single-source applicable** wrinkle: only NFIF
+  carries a FEMA applicable, so FEMA gross/net roll up but the applicable does not — Total--FEMA
+  applicable cells (c2/c5/c8) are `leaf` covered by the FEMA total-row net identity, NFIF's applicable
+  by its own net identity (the `-state` pattern). At the department level the applicable column has 4
+  sources (CBP + Total--FEMA + Proprietary + Offsetting), so it rolls up — **no standalone**.
+  Render-verified page 14 (both bands); cid cross-check 126/126. reconcile GREEN (0 warnings), pytest
+  10/10. Commit `<pending>`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-justice (D2, Claude Opus 4.8) — Corpus **#28**,
   over-cap→cap-fit reclassification. Department of Justice (page 15): **120 cells / 12 sum
