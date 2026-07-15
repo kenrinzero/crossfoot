@@ -59,14 +59,16 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    #29.~~ **SHIPPED 2026-07-15** (126 cells, 24 relations, 8 tol ≤3, GREEN, pytest
    10/10). Nested FEMA; FEMA applicable single-source → Total--FEMA applicable
    cells are leaf, covered by the FEMA total-row net identity (no standalone).
-4. `treasury-mts/2026-05-outlays-energy` (p12–13, 132 cells) — corpus #30.
-   Nested `Total--Energy Programs`; spans a page break. **← unit-30 spot-audit
-   target (DESIGN §6, different agent — auditor must differ from whoever
-   transcribes this).** Note: Power Marketing Administration + Other carry large
-   applicables; check the applicable-column source count before assuming
-   single-source.
+4. ~~`treasury-mts/2026-05-outlays-energy` (p12–13, 132 cells) — corpus #30.~~
+   **SHIPPED 2026-07-15** (132 cells, 24 relations, 12 tol — all ±1, GREEN, pytest
+   10/10). Nested Energy Programs (single-source applicable → total-row net
+   identity, like FEMA); Power Marketing + Proprietary give the department
+   applicable column 3 sources. **Unit-30 spot-audit is now DUE — a DIFFERENT
+   agent must audit it (`AUDITS.md` has the placeholder); Claude Opus 4.8 was the
+   transcriber and cannot self-audit.**
 5. `treasury-mts/2026-05-outlays-veterans-affairs` (p18, 139 cells) — corpus
    #31. Nested Benefits Programs (Public Enterprise Funds, Insurance Funds).
+   **Next available Tier-A unit — top of the queue.**
 
 **Tier B — grand capstone (small, ship after Tier A).**
 
@@ -96,6 +98,19 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 
 ## Shipped
 
+- 2026-07-15 · treasury-mts/2026-05-outlays-energy (D2, Claude Opus 4.8) — Corpus **#30**,
+  over-cap→cap-fit reclassification. Department of Energy (pages 12–13, spans the page break):
+  **132 cells / 24 sum relations** (floor 14) = 6 Energy Programs bureau roll-ups + 3 Energy Programs
+  total-row net identities + 3 "Other" net identities + 3 Power Marketing Administration net
+  identities + 9 department column roll-ups. **12 tol, all ±1** quoting the p. 23 rounding note
+  (Energy Programs sums 8 independently-rounded lines). Energy Programs' Applicable column is
+  single-source (only its "Other" line), handled via the total-row net identity → Total--Energy
+  Programs applicable cells are `leaf` (the FEMA/`-state` pattern); NNSA and Environmental & Other
+  Defense Activities have no printed subtotals (direct lines). Dropped the all-`(**)` "Defense
+  Nuclear Waste Disposal" row. Render-verified pages 12–13 (both bands); cid cross-check 132/132.
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending-energy>`. **Unit-30 spot-audit DUE
+  (different agent) — see `AUDITS.md`.**
+
 - 2026-07-15 · treasury-mts/2026-05-outlays-homeland-security (D2, Claude Opus 4.8) — Corpus **#29**,
   over-cap→cap-fit reclassification. Department of Homeland Security (page 14): **126 cells / 24 sum
   relations** (floor 14) = 6 FEMA bureau roll-ups (gross/net) + 3 FEMA total-row net identities + 3
@@ -107,7 +122,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   by its own net identity (the `-state` pattern). At the department level the applicable column has 4
   sources (CBP + Total--FEMA + Proprietary + Offsetting), so it rolls up — **no standalone**.
   Render-verified page 14 (both bands); cid cross-check 126/126. reconcile GREEN (0 warnings), pytest
-  10/10. Commit `<pending>`.
+  10/10. Commit `0877022`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-justice (D2, Claude Opus 4.8) — Corpus **#28**,
   over-cap→cap-fit reclassification. Department of Justice (page 15): **120 cells / 12 sum
@@ -118,7 +133,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   PFYTD net identity by 1 (source rounding gap: 5,928 + 276 = 6,204 vs printed gross 6,203 — all
   three render-verified). Applicable column rolls up with 3 sources → **no standalone**.
   Render-verified page 15; cid cross-check 120/120. reconcile GREEN (0 warnings), pytest 10/10.
-  Commit `<pending>`.
+  Commit `311cc0f`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-social-security (D2, Claude Opus 4.8) — Corpus **#27**,
   first over-cap→cap-fit reclassification. Social Security Administration (page 20): **81 cells /
@@ -128,7 +143,7 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
   Prior-FYTD net off by 1) quoting the p. 23 rounding note; the other 7 columns foot exactly.
   Proprietary Receipts split On-/Off-Budget → applicable column has 2 sources, rolls up, **no
   standalone**. Render-verified page 20 (clean, no glue); cross-checked vs cid text layer 81/81.
-  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending>`.
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `23e9984`.
 
 - 2026-07-14 · treasury-mts/2026-05-outlays-corps-engineers (D2, Claude Opus 4.8) — Corpus **#26**,
   the **final cap-fit Table-5 unit** (tier now 13/13). Corps of Engineers (page 18): **51 cells /

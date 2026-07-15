@@ -102,3 +102,12 @@ The transcription of `treasury-mts/2026-05-outlays-eop` by `Codex` is clean and 
 
 ### 5. Batch note — full Table-5 cap-fit tier cross-check
 Alongside this formal audit, an independent positioned-word source cross-check was run over the entire 13-unit Table-5 cap-fit tier (corpus #14–26): for each unit, the multiset of transcribed cell values was compared to the numeric tokens printed in that section on the source page(s). **12/13 matched exactly.** The one flag, `treasury-mts/2026-05-outlays-other-defense-civil` (Codex, `8a3cd1a`), resolves to two text-layer footnote-glued cells that were **render-verified correct** (Other Current-FYTD Gross/Outlays `¹300`; Proprietary Current-FYTD Applicable `²24` — superscript footnote markers from p. 23 glued in the text layer only), plus a page-18 footer artifact of the checker's page-spanning logic. No transcription defect found in any unit. reconcile is GREEN with 0 warnings across all 13; pytest 10/10.
+
+---
+
+## Spot-Audit: Unit 30 — Department of Energy — **DUE (not yet performed)**
+
+- **Trigger:** every-10th-unit cadence (DESIGN.md § 6); corpus reached 30 units on 2026-07-15.
+- **Target:** [treasury-mts/2026-05-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-energy.cells.json) (page 12–13; 132 cells / 24 relations).
+- **Transcriber:** Claude Opus 4.8 (commit on 2026-07-15).
+- **Status:** **AUDIT DUE — assign a different agent.** Per the different-agent rule, the transcriber (Claude Opus 4.8) cannot audit this unit. Any other agent should verify metadata, the 9-column model, all 20 row labels (note the dropped all-`(**)` "Defense Nuclear Waste Disposal" row and the page-12→13 section split), the single-source Energy Programs applicable handling, and 10 sampled cells against the page 12–13 render, then record the result here.
