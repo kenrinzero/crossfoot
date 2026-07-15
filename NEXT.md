@@ -78,17 +78,26 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    pytest 10/10). On+Off=Total (9 cols) + per-row net identity (9). `Total
    Surplus/Deficit` out of scope. **Tier A + B complete — corpus at 32.**
 
-## Not yet sequenced (Tier C — over-cap sub-splits)
+## Tier C — over-cap sub-splits (IN PROGRESS)
 
-- **12 over-cap sections → ~28 bureau sub-units**, ascending section size:
-  Education (161, 2u), Int'l Assistance (165, 2u), Interior (171, 2u),
-  Transportation (176, 2u), Labor (180, 2u), HUD (204, 2u), Undistributed
-  Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
-  (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
-  printed `Total--` bureau boundaries; a final per-department sub-unit re-anchors
-  bureau totals → department total (family 3). Membership fixed at transcription
-  time; boundaries specified in the plan's over-cap sizing table. Sequence these
-  after Tier A/B.
+**Pattern established 2026-07-16** with Education (see Shipped): a section splits
+into (1) a **bureaus unit** holding the subtotal-bearing bureaus (each
+self-contained, its lines rolling into its own `Total--`), and (2) a
+**departmental unit** holding the flat department lines + the bureau `Total--`
+rows **re-anchored** (re-read from source, never copied) + the department total.
+Verify cross-unit consistency: the re-anchored totals must match the bureaus unit
+byte-for-byte (a quick script comparison — 0 mismatches required). Single-source
+applicable columns handled as usual (standalone + total-row net identity).
+
+- [x] **Education** (161 → 2u) — **DONE 2026-07-16**: `-education-bureaus` (#33) +
+  `-education-departmental` (#34).
+- [ ] **Remaining 11 sections → ~26 sub-units**, ascending size: Int'l Assistance
+  (165, 2u), Interior (171, 2u), Transportation (176, 2u), Labor (180, 2u), HUD
+  (204, 2u), Undistributed Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS
+  (252, 3u), Agriculture (271, 3u), Defense–Military (271, 3u), Independent
+  Agencies (305, 3u). Split at printed `Total--` bureau boundaries; boundaries in
+  the plan's over-cap sizing table. Independent sections → fleet-distributable.
+  **Next up: Int'l Assistance.**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
@@ -98,6 +107,20 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 ---
 
 ## Shipped
+
+- 2026-07-16 · treasury-mts/2026-05-outlays-education-{bureaus,departmental} (D2, Claude Opus 4.8) —
+  Corpus **#33 + #34**, the **first Tier-C over-cap sub-split** (Department of Education, page 12,
+  161 cells → 2 units; establishes the pattern). **`-education-bureaus` (#33, 88 cells / 20 rel,
+  7 tol ±1):** the three subtotal-bearing bureaus (Office of Elementary & Secondary Education, Office
+  of Postsecondary Education, Office of Federal Student Aid), each self-contained with its own bureau
+  roll-up; OFSA's single-source CFYTD applicable → Total--OFSA c5 leaf covered by the OFSA net
+  identity. **`-education-departmental` (#34, 92 cells / 10 rel, 2 standalone, 5 tol ≤2):** the flat
+  department lines + the three bureau `Total--` rows **re-anchored** (re-read from the render, not
+  copied) + Total--Department of Education; This-Month (c2) and Prior-FYTD (c8) applicable are
+  single-source (only Proprietary) → 2 standalone + total-row net-identity cover; CFYTD (c5) rolls up
+  (2 sources). **Cross-unit re-anchor consistency verified: 0 mismatches** (the 3 bureau totals are
+  byte-identical across the two units). Both render-verified page 12 (both bands), reconcile GREEN
+  (0 warnings), pytest 10/10. Commits `<pending-edu>`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-grand-total-capstone (D2, Claude Opus 4.8) — Corpus **#32**,
   **Tier B**. Grand-total capstone (page 22): Total Outlays / Total On-Budget / Total Off-Budget.
