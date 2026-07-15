@@ -148,3 +148,105 @@ refinements the flagship surfaced, for every subsequent unit:
    clean cover for a single-source Applicable total, and a cheap extra check
    otherwise. Where the roll-ups carry rounding tol, the total-row identity is
    usually exact (applicable columns foot exactly), so prefer it as the anchor.
+
+## Over-cap tier sizing — CORRECTED measurement (2026-07-15, Claude Opus 4.8)
+
+The earlier `## Full split scheme` counts (pre-`(**)`-omission estimates) had
+two consequential errors, both from a single measurement-script bug that
+**merged Social Security Administration + Independent Agencies** into one row:
+
+- **SSA is 81 cells, not 443** — a clean **cap-fit single unit**, not the
+  biggest over-cap section. (Hand-verified: 12 value-rows × 6 + 1 total-row × 9
+  = 81. Its only structure is two Off-Budget trust-fund sub-totals.)
+- **Independent Agencies (page 21) is a real ~305-cell section that the split
+  scheme omitted entirely** — it was absorbed into the inflated "SSA 443". It is
+  the **actual largest** Table-5 section.
+
+Re-measured every section by bounding on the exact top-level section name and
+counting **post-omission real numeric cells** (`......`/`(**)` excluded — the
+number that actually gets transcribed). Method: `scratchpad/measure2.py`
+(explicit 30-section boundary list; robust against the nested-`:` sub-header
+trap that broke the first pass). Total across Table 5 pages 10–22: **3,974 real
+cells** (not ~4,247). The corpus's 13 shipped cap-fit units already cover 740 of
+these.
+
+### The 30 top-level sections (measured, post-omission)
+
+**Already shipped (13 cap-fit, corpus #14–26):** Legislative 96, Judicial 39,
+Commerce 73, State 89, Corps 51, Other Defense Civil 51, EPA 62, EOP 40, GSA 39,
+NASA 54, NSF 33, OPM 67, SBA 46.
+
+**Single-unit ceiling raised to ≤ 140 cells** (manifest already has 140/150
+caps; splitting a ~130-cell cohesive section into halves is worse than one unit).
+Under that rule, **five sections reclassify from over-cap to cap-fit single
+units** — ship as-is, no bureau split:
+
+| new unit (proposed) | cells | structure / note |
+|---|---:|---|
+| `-social-security` | 81 | 2 Off-Budget trust-fund sub-totals (family 3); the only Off-Budget rows in the table besides Postal Service. Prop. Receipts split On-/Off-Budget. |
+| `-justice` | 120 | **flat** (no printed bureau subtotals; "Legal Activities"/"Office of Justice Programs" are visual groupings only). At cap. |
+| `-homeland-security` | 126 | nested FEMA (`Total--Federal Emergency Management Agency`). cap ≤130. |
+| `-energy` | 132 | nested `Total--Energy Programs`; spans p12–13. cap ≤135. |
+| `-veterans-affairs` | 139 | nested Benefits Programs (Public Enterprise Funds, Insurance Funds). cap ≤140. |
+
+**Genuinely over-cap (> 140) — sub-split by bureau at printed-subtotal
+boundaries.** Each sub-unit is self-contained (its bureau roll-ups foot
+internally); a final sub-unit re-anchors the bureau `Total--` rows + the direct
+department lines + Proprietary/Intrabudgetary/Offsetting → `Total--Department`
+(family 3 + total-row net identity). Re-anchored rows are **re-read from source,
+never copied** (the SI-remainder discipline). Exact bureau membership is fixed at
+transcription time; target unit counts:
+
+| section | cells | units | natural split boundaries |
+|---|---:|---:|---|
+| Education | 161 | 2 | Office of Elem/Secondary + Special Ed + Postsecondary  ‖  Federal Student Aid (77) + direct + capstone |
+| International Assistance | 165 | 2 | Int'l Security Assistance + Multilateral + AID  ‖  Military Sales + OPIC + Peace Corps + Millennium + IMF + capstone |
+| Interior | 171 | 2 | Land&Minerals + Water&Science + Fish&Wildlife  ‖  Indian Affairs + Departmental Offices (65) + direct + capstone |
+| Transportation | 176 | 2 | FAA (Airport&Airway TF nested) + Office of Secretary  ‖  FHWA + FMCSA + NHTSA + FRA + FTA + Maritime + capstone |
+| Labor | 180 | 2 | Employment&Training (Unemployment TF nested, 95)  ‖  PBGC + Workers' Comp (85) + the small bureaus + capstone |
+| HUD | 204 | 2 | Public&Indian Housing + Community Planning  ‖  Housing Programs (Credit Accounts 71) + GNMA + Mgmt + Prop + capstone |
+| UOR (Undistributed Offsetting Receipts) | 209 | 2 | Employer Share, Employee Retirement (Total—) ‖ Interest Received by Trust Funds (Total—) + Rents/Royalties + Sale of Assets + section total. All negatives; deep agency nesting. |
+| Treasury | 235 | 3 | Departmental Offices + Fiscal Service + ATTTB + BEP + Mint  ‖  IRS (79, nested)  ‖  Interest on Public Debt + Comptroller + FFB + direct + capstone |
+| HHS | 252 | 3 | CMS (96, deeply nested: Hospital & Supplementary Medical Insurance TF totals)  ‖  Admin for Children & Families (96) + smaller agencies  ‖  direct + Prop (17,024!) + Intrabudgetary + capstone |
+| Agriculture | 271 | 3 | Food & Nutrition Service + Forest Service (both `Total--`)  ‖  Farm Service Agency (`Total--`) + NRCS + Rural Dev/Housing/Utilities + Foreign Ag  ‖  Research + NIFA + APHIS + Food Safety + Ag Marketing + Risk Mgmt + "Other"(6245) + Prop + Intra + capstone |
+| Defense–Military | 271 | 3 | splits cleanly by appropriation category, each with a printed `Total--`: Military Personnel + O&M + Procurement  ‖  RDT&E + Military Construction + Family Housing + Revolving  ‖  Trust Funds + Proprietary(by service) + Intrabudgetary(by service) + Offsetting + capstone |
+| Independent Agencies | 305 | 3 | Railroad Retirement Board (heavily nested, `Total--RRB`) + FDIC + FCC + Postal Service(off-budget) + District of Columbia  ‖  TVA + NCUA + SEC + the mid agencies  ‖  the ~15 flat small agencies + "Other" + `Total--Independent Agencies` (capstone). Header row "Independent Agencies" is all `......` (dropped). |
+
+That is **12 over-cap sections → ~28 sub-units** + **5 reclassified cap-fit
+single units** + **1 grand capstone** = **~34 remaining units** (the earlier
+"~35–45" over-estimate reflected the SSA inflation).
+
+### Grand capstone decision
+
+`Total Outlays` / `Total On-Budget` / `Total Off-Budget` (page 22) = **3 rows ×
+9 cols = 27 cells** (`Total Surplus (+)/Deficit (-)` stays **out of scope** — it
+references Table 4 receipts). Two self-contained identity families, **no
+re-anchoring**:
+- **On-/Off-Budget split:** `On-Budget + Off-Budget = Total Outlays` for each of
+  9 columns → 9 relations (verified net TM: 490,896 + 137,265 = 628,161).
+- **Total-row net identity:** `net + applicable = gross` for each of the 3 total
+  rows × 3 periods → 9 relations.
+
+→ **27 cells, 18 relations, self-verifying, cap-fit.** Ship as
+`-grand-total-capstone`.
+
+The *full* grand-sum (`Total Outlays = Σ all 30 section `Total--` rows` per
+column) would re-anchor 30 total rows = 270 cells → a 3-part re-anchor unit, for
+marginal added assurance since every section already self-verifies. **Deferred as
+an optional later tier** (`-grand-sum-*`), not blocking. Flag for Kenrin: worth
+it only if the table-wide cross-foot is wanted as a capstone showcase.
+
+### Sequencing (this tier)
+
+1. **Reclassified cap-fit single units first** (cheapest, highest value — they
+   convert a sizing error into shipped corpus): `-social-security` (81),
+   `-justice` (120), `-homeland-security` (126), `-energy` (132),
+   `-veterans-affairs` (139). Corpus #27–31.
+2. **Grand capstone** `-grand-total-capstone` (27 cells) — small, and it locks
+   the On/Off-Budget structure early.
+3. **Over-cap sub-units**, ascending section size: Education, Int'l Assistance,
+   Interior, Transportation, Labor, HUD, UOR, Treasury, HHS, Agriculture,
+   Defense–Military, Independent Agencies.
+
+Spot-audit falls due at **unit 30** (`-homeland-security` under this sequence) —
+different agent, per DESIGN §6.

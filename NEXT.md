@@ -34,37 +34,57 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Table-5 cap-fit tier COMPLETE — 13/13 (corpus #14–26), closeout done
-(Claude Opus 4.8, 2026-07-14).** The queue is empty of cap-fit work. Final
-session shipped `-corps-engineers` (#26, 51 cells / 9 relations, GREEN) and
-ran the closeout gate:
+**Table-5 over-cap tier SIZED + SEQUENCED (Claude Opus 4.8, 2026-07-15).** The
+cap-fit tier is complete (13/13, corpus #14–26). A corrected sizing pass
+(`scratchpad/measure2.py` → `plans/treasury-mts-2026-05-outlays-table5.md`
+§ *Over-cap tier sizing*) re-measured all 30 sections post-omission and fixed two
+errors in the old estimate: **SSA is 81 cells (cap-fit), not 443**, and
+**Independent Agencies (305) was the real biggest section, previously hidden**
+(the old script merged the two). Single-unit ceiling raised to ≤140. Sequence:
 
-- **reconcile:** all 12 Codex/Claude outlays units + Corps are strict-default
-  GREEN, 0 warnings; pytest 10/10.
-- **Independent QC (all 13 units):** a positioned-word source cross-check
-  compared each unit's transcribed-value multiset to the numeric tokens
-  printed in its section. **12/13 matched exactly.** The one flag
-  (`-other-defense-civil`) resolved to two render-verified footnote-glued
-  cells (`¹300`, `²24`) + a page-footer artifact of the checker — **no defect**.
-- **Formal unit-20 spot-audit** (`-eop`, transcriber Codex, auditor Claude —
-  different-agent rule satisfied): metadata, all row/column labels, omission
-  conventions, and 10 sampled cells all **PASS**. Logged in `AUDITS.md`.
+**Tier A — reclassified cap-fit single units (ship now, no bureau split).** All
+D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
+`-state`. Gate as always: reconcile GREEN 0 warnings, ≥floor, pytest 10/10.
 
-Next cap-fit-related work is the **deferred over-cap tier** (below), which
-needs a fresh sizing/sequencing pass with Kenrin before dispatch — not queued.
+1. `treasury-mts/2026-05-outlays-social-security` (p20, 81 cells) — corpus #27.
+   Nested: 2 Off-Budget trust-fund `Total--` rolls (family 3). Proprietary
+   Receipts split On-/Off-Budget (single-source → total-row net identity +
+   standalone). The only Off-Budget rows besides Postal Service.
+2. `treasury-mts/2026-05-outlays-justice` (p15, 120 cells) — corpus #28.
+   **Flat** (no printed bureau subtotals); 9 per-column roll-ups + net identity
+   on Federal Prison System + Proprietary/Offsetting single-source handling.
+3. `treasury-mts/2026-05-outlays-homeland-security` (p14, 126 cells) — corpus
+   #29. Nested FEMA (`Total--Federal Emergency Management Agency`). **Unit 30
+   audit falls on the NEXT one** — see below.
+4. `treasury-mts/2026-05-outlays-energy` (p12–13, 132 cells) — corpus #30.
+   Nested `Total--Energy Programs`; spans a page break. **← unit-30 spot-audit
+   target (DESIGN §6, different agent).**
+5. `treasury-mts/2026-05-outlays-veterans-affairs` (p18, 139 cells) — corpus
+   #31. Nested Benefits Programs (Public Enterprise Funds, Insurance Funds).
 
-## Not yet sequenced
+**Tier B — grand capstone (small, ship after Tier A).**
 
-- treasury-mts/2026-05-outlays — the **16 over-cap sections** (SSA 443,
-  Agriculture 284, Defense–Military 284, Undistributed Offsetting Receipts 278,
-  HHS 252, Treasury 251, HUD 229, Labor 182, Transportation 181, Interior 177,
-  Int'l Assistance 175, Education 173, VA 163, Energy 139, Homeland Security 126,
-  Justice 123) each sub-split by bureau at transcription time, plus the
-  **capstone** grand-total unit (Total Outlays + On/Off-Budget, re-anchoring the
-  28 section totals). Deferred until the cap-fit tier is worked down; see the
-  plan's full split scheme.
+6. `treasury-mts/2026-05-outlays-grand-total-capstone` (p22, 27 cells, 18
+   relations) — Total Outlays / On-Budget / Off-Budget; On+Off=Total (9 cols) +
+   total-row net identity (9). `Total Surplus/Deficit` out of scope. No
+   re-anchoring. See plan § *Grand capstone decision*.
+
+## Not yet sequenced (Tier C — over-cap sub-splits)
+
+- **12 over-cap sections → ~28 bureau sub-units**, ascending section size:
+  Education (161, 2u), Int'l Assistance (165, 2u), Interior (171, 2u),
+  Transportation (176, 2u), Labor (180, 2u), HUD (204, 2u), Undistributed
+  Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
+  (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
+  printed `Total--` bureau boundaries; a final per-department sub-unit re-anchors
+  bureau totals → department total (family 3). Membership fixed at transcription
+  time; boundaries specified in the plan's over-cap sizing table. Sequence these
+  after Tier A/B.
+- **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
+  Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
+  Kenrin's go (marginal assurance, showcase value). See plan.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
-  vendoring first.
+  vendoring first (alternative new families).
 
 ---
 
