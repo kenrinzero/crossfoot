@@ -46,10 +46,11 @@ errors in the old estimate: **SSA is 81 cells (cap-fit), not 443**, and
 D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 `-state`. Gate as always: reconcile GREEN 0 warnings, ≥floor, pytest 10/10.
 
-1. `treasury-mts/2026-05-outlays-social-security` (p20, 81 cells) — corpus #27.
-   Nested: 2 Off-Budget trust-fund `Total--` rolls (family 3). Proprietary
-   Receipts split On-/Off-Budget (single-source → total-row net identity +
-   standalone). The only Off-Budget rows besides Postal Service.
+1. ~~`treasury-mts/2026-05-outlays-social-security` (p20, 81 cells) — corpus
+   #27.~~ **SHIPPED 2026-07-15** (81 cells, 21 relations, 2 tol-1, GREEN, pytest
+   10/10). Correction landed: Proprietary Receipts split On-/Off-Budget gives the
+   applicable column two sources, so it rolls up cleanly — **no standalone
+   needed** (revising the queue note above).
 2. `treasury-mts/2026-05-outlays-justice` (p15, 120 cells) — corpus #28.
    **Flat** (no printed bureau subtotals); 9 per-column roll-ups + net identity
    on Federal Prison System + Proprietary/Offsetting single-source handling.
@@ -89,6 +90,16 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 ---
 
 ## Shipped
+
+- 2026-07-15 · treasury-mts/2026-05-outlays-social-security (D2, Claude Opus 4.8) — Corpus **#27**,
+  first over-cap→cap-fit reclassification. Social Security Administration (page 20): **81 cells /
+  21 sum relations** (floor 15) = 12 bureau roll-ups (the two Off-Budget trust funds, Benefit +
+  Administrative = Total--, family 3, all exact) + 9 department column roll-ups into
+  Total--Social Security Administration. **2 tol-1** (This-Month applicable 333+27=360 vs 359;
+  Prior-FYTD net off by 1) quoting the p. 23 rounding note; the other 7 columns foot exactly.
+  Proprietary Receipts split On-/Off-Budget → applicable column has 2 sources, rolls up, **no
+  standalone**. Render-verified page 20 (clean, no glue); cross-checked vs cid text layer 81/81.
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending>`.
 
 - 2026-07-14 · treasury-mts/2026-05-outlays-corps-engineers (D2, Claude Opus 4.8) — Corpus **#26**,
   the **final cap-fit Table-5 unit** (tier now 13/13). Corps of Engineers (page 18): **51 cells /

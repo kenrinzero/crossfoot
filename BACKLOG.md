@@ -42,6 +42,7 @@ NEXT.md.)
 | treasury-mts/2026-05-outlays-nsf | `sources/treasury-mts/mts-202605.pdf` | Table 5 — Outlays, National Science Foundation section (page 20; full 9-column model) | 6 | sum | ≤ 120 cells (≈33 sized) | 3 (Proprietary Applicable, single-source columns) | SHIPPED 2026-07-14 (33 cells, 9 relations, 2 tol-1; corpus #23; commit `84b31c2`) |
 | treasury-mts/2026-05-outlays-opm | `sources/treasury-mts/mts-202605.pdf` | Table 5 — Outlays, Office of Personnel Management section (page 20; full 9-column model) | 9 | sum | ≤ 120 cells (≈70 sized) | 0 | SHIPPED 2026-07-14 (67 cells, 18 relations, 4 tol-1; corpus #24; commit `e025da0`) |
 | treasury-mts/2026-05-outlays-sba | `sources/treasury-mts/mts-202605.pdf` | Table 5 — Outlays, Small Business Administration section (page 20; full 9-column model) | 9 | sum | ≤ 120 cells (≈54 sized) | 0 | SHIPPED 2026-07-14 (46 cells, 15 relations, 7 tol-1; corpus #25; commit `f98d6a3`) |
+| treasury-mts/2026-05-outlays-social-security | `sources/treasury-mts/mts-202605.pdf` | Table 5 — Outlays, Social Security Administration section (page 20; full 9-column model). Over-cap→cap-fit reclassification (2026-07-15 sizing: 81 cells, not 443). Nested: 2 Off-Budget trust-fund `Total--` rolls (family 3) | 15 | sum | ≤ 120 cells (81 sized) | 0 | SHIPPED 2026-07-15 (81 cells, 21 relations — 12 bureau + 9 department roll-ups, 2 tol-1; corpus #27; Proprietary On/Off-Budget gives the applicable column 2 sources → no standalone) |
 
 ## Queued (need vendoring or sizing first)
 
