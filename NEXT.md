@@ -124,7 +124,7 @@ applicable columns handled as usual (standalone + total-row net identity).
   has one substantive line → its net cols roll up, gross totals covered by net identity, but its
   single-source line-level cells are standalone (6). OPIC dropped entirely (all `(**)`). **Cross-unit
   re-anchor consistency: 0 mismatches.** Both render-verified (p19 two bands + p20 top), reconcile
-  GREEN, pytest 10/10. Commits `<pending-intl>`.
+  GREEN, pytest 10/10. Commit `9cef57a`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-education-{bureaus,departmental} (D2, Claude Opus 4.8) —
   Corpus **#33 + #34**, the **first Tier-C over-cap sub-split** (Department of Education, page 12,
