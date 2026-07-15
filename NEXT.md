@@ -96,7 +96,7 @@ applicable columns handled as usual (standalone + total-row net identity).
   (#36). Gnarliest section (spans p19→20; degenerate single-line Multilateral
   bureau → 6 standalone; subtotal-less Military Sales; OPIC dropped entirely).
 - [x] **Interior** (171, 2u) — **DONE 2026-07-16**: `-interior-bureaus` (#37) + `-interior-departmental` (#38).
-- [x] **Transportation** (176, 2u) — **DONE 2026-07-16**: `-transportation-bureaus` (#39) + `-transportation-departmental` (#40). **Unit 40 audit triggered.**
+- [x] **Transportation** (176, 2u) — **DONE 2026-07-16**: `-transportation-bureaus` (#39) + `-transportation-departmental` (#40). **Unit 40 audit GREEN** (different-agent audit, 10/10 sampled cells; `AUDITS.md`).
 - [ ] **Remaining 8 sections → ~20 sub-units**, ascending size: Labor (180, 2u), HUD (204, 2u), Undistributed
   Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
   (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at

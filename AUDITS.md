@@ -152,3 +152,66 @@ Full multiset re-read of all 132 transcribed cells against the page 12–13 rend
 
 ### 4. Audit Conclusion
 The transcription of `treasury-mts/2026-05-outlays-energy` by Claude Opus 4.8 (`46b4afc`) is clean and faithful to the source. Metadata, the 9-column model, all 20 row labels, the dropped all-`(**)` Defense Nuclear Waste Disposal row, the p12→13 section split, the single-source Energy Programs applicable handling, and all 132 cell values (including the formal 10-cell sample) match the page 12–13 render with zero discrepancies. `reconcile.py` is GREEN with 0 warnings (132 cells / 24 relations). **GREEN.**
+
+---
+
+## Spot-Audit: Unit 40 — Department of Transportation (Departmental/Re-anchor Unit)
+
+- **Audit Date:** 2026-07-16
+- **Auditor:** Codex independent audit agent
+- **Transcriber:** Antigravity (commit `3c85bbd`)
+- **Table ID:** [treasury-mts/2026-05-outlays-transportation-departmental](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-transportation-departmental.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), printed pages 16–17 (Department of Transportation begins on p16; the continuation and department total are on p17)
+- **Method:** Independent visual re-read of pypdfium2 renders at scale 3.5 (PDF indices 15–16, corresponding to printed pages 16–17) with the local image viewer at original detail. The garbled PDF text layer was used only for navigation, not as evidence; values were read from the render and compared to JSON decimal strings after removing printed thousands separators. Different-agent rule satisfied (transcriber Antigravity; auditor Codex).
+- **Status:** **GREEN** (all verification checks passed; formal sample 10/10)
+
+### 1. Metadata Verification
+
+- **Table Title:** "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods"
+  - *Result:* **PASS** (the JSON's `table`, `title`, and `period` fields reconstruct the printed p16 header exactly; the source prints "- Continued")
+- **Reporting Periods:** This Month (May 2026); Current Fiscal Year to Date; Prior Fiscal Year to Date.
+  - *Result:* **PASS** (all three period groups are present and in the printed order)
+- **Units / Scale:** USD millions (`[$ millions]` in the source; `USD millions` in `unit_note`).
+  - *Result:* **PASS**
+
+### 2. Layout, Row, Column, and Omission Verification
+
+- **Columns (9):** This Month / Current Fiscal Year to Date / Prior Fiscal Year to Date, each × Gross Outlays · Applicable Receipts · Outlays. The JSON uses the unambiguous normalized labels `Net Outlays` for the source's third `Outlays` subcolumn and `FYTD` for `Fiscal Year to Date`; all nine indices and meanings match with no swap or omission.
+  - *Result:* **PASS**
+- **Rows (14, unit order):** Total--Federal Aviation Administration; Total--Federal Highway Administration; Total--Federal Transit Administration; Office of the Secretary; Federal Motor Carrier Safety Administration; National Highway Traffic Safety Administration; Other (under Federal Railroad Administration); Total--Federal Railroad Administration; Maritime Administration; Other (department-direct); Proprietary Receipts from the Public; Other (under Intrabudgetary Transactions); Offsetting Governmental Receipts; Total--Department of Transportation.
+  - *Result:* **PASS** (all 14 labels match the printed leaf/total labels. The departmental/re-anchor topology intentionally groups the three independently re-read bureau totals first; the remaining rows preserve source order and hierarchy. The classification-only `Federal Railroad Administration:` and `Intrabudgetary Transactions:` headers carry no numeric cells, and their child `Other` rows are correctly positioned. The FAA/FHWA/FTA detail blocks belong to the sibling bureaus unit rather than this departmental unit.)
+- **Omission conventions:** The JSON has 95 numeric cells and omits exactly the 31 printed placeholders: `c2/c5/c8` for rows 2–8 (`......`); `r9c2` (`(**)`); `r11c1/c4/c7` (`......`); `r12c2/c5/c8` (`......`); and `r13c1/c4/c7` (`......`). No printed placeholder is represented as zero or as a cell. No substantive all-omitted row occurs within this departmental unit's intended slice, so no all-omitted row is dropped; value-free classification headers are correctly not modeled as numeric rows.
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (exactly 10 cells)
+
+The fixed coverage-stratified sample uses the p16 direct line, one cell from each of the three re-anchored bureau totals, the single-line FRA standalone case, negative and applicable-receipt cases, and the department total. It spans all three period groups and both source pages.
+
+| Cell ID | Source Page | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r4c1` | 16 | Office of the Secretary | This Month / Gross Outlays | leaf | `178` | `178` | **PASS** |
+| `r1c5` | 17 | Total--Federal Aviation Administration | Current FYTD / Applicable Receipts | leaf (re-anchored bureau total) | `53` | `53` | **PASS** |
+| `r2c7` | 17 | Total--Federal Highway Administration | Prior FYTD / Gross Outlays | leaf (re-anchored bureau total) | `37369` | `37,369` | **PASS** |
+| `r3c3` | 17 | Total--Federal Transit Administration | This Month / Net Outlays | leaf (re-anchored bureau total) | `2127` | `2,127` | **PASS** |
+| `r7c4` | 17 | Other (Federal Railroad Administration) | Current FYTD / Gross Outlays | standalone | `3884` | `3,884` | **PASS** |
+| `r9c1` | 17 | Maritime Administration | This Month / Gross Outlays | leaf | `-760` | `-760` | **PASS** |
+| `r10c8` | 17 | Other | Prior FYTD / Applicable Receipts | leaf | `32` | `32` | **PASS** |
+| `r11c6` | 17 | Proprietary Receipts from the Public | Current FYTD / Net Outlays | leaf | `-318` | `-318` | **PASS** |
+| `r13c2` | 17 | Offsetting Governmental Receipts | This Month / Applicable Receipts | leaf | `69` | `69` | **PASS** |
+| `r14c9` | 17 | Total--Department of Transportation | Prior FYTD / Net Outlays | total | `74686` | `74,686` | **PASS** |
+
+### 4. Reconcile Gate
+
+Requested Windows-side command after restoration of the normal project environment:
+
+`uv run python reconcile.py tables\treasury-mts\2026-05-outlays-transportation-departmental.cells.json`
+
+Exact output:
+
+`GREEN: tables\treasury-mts\2026-05-outlays-transportation-departmental.cells.json reconciles (0 warning(s))`
+
+An independent audit-side system-Python run of the same reconciler against the same JSON returned the same GREEN / 0-warning result.
+
+### 5. Audit Conclusion
+
+The transcription of `treasury-mts/2026-05-outlays-transportation-departmental` by Antigravity (`3c85bbd`) is clean and faithful to the rendered source. The title, reporting periods, USD-million scale, 9-column mapping, all 14 unit rows and their re-anchor/hierarchy structure, all printed omission positions, and the exact 10-cell stratified sample match pages 16–17 with zero discrepancies. `reconcile.py` is GREEN with 0 warnings. **GREEN.**
