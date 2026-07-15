@@ -1,0 +1,1493 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-veterans-affairs",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, May 2026 and Other Periods",
+    "page": 18,
+    "title": "Department of Veterans Affairs section (Table-5 cap-fit unit, page 18). Full 9-column outlays model. Reclassified from over-cap to cap-fit by the 2026-07-15 sizing pass (139 cells; the raised <=140 single-unit ceiling). NESTED (family 3): Benefits Programs rolls its member lines (Public Enterprise Funds Housing Accounts/Other, Compensation and Pensions, Readjustment Benefits, Veterans Housing Benefit Program Fund, Insurance Funds National Service Life/Veterans Special Life, Other) into Total--Benefits Programs, which then feeds the department roll-up. Public Enterprise Funds and Insurance Funds are visual sub-groups with NO printed subtotal; Veterans Health Administration and Departmental Administration likewise have no printed subtotal (their lines feed the department total directly). Family pattern: plans/treasury-mts-2026-05-outlays-table5.md; worked examples: -state (nesting), -homeland-security.",
+    "period": "May FY2026 (This Month = May 2026; Current FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Table 5 legend (p. 23): '......' = 'No Transactions' (omitted); '(**)' = 'Less than absolute value of $500,000' (omitted). Many '(**)' omissions in this section: the all-'(**)' 'Veterans Choice Fund, Veterans Health Administration' row is dropped entirely; 'Housing Accounts' survives only at Prior-FYTD Applicable (2) / Outlays (-2); 'General Operating Expenses' only at Current-FYTD Applicable (1) / Outlays (-1); 'Veterans Housing Benefit Program Fund' and 'Veterans Special Life' and 'Proprietary Receipts / National Service Life' each omit specific '(**)' applicable cells. Values as printed, thousands separators stripped, negatives as leading '-'. Nine-column model: 3 periods x (Gross Outlays / Applicable Receipts / Outlays[net]). Every Applicable column has >=2 sources at both the Benefits Programs and department level, so all columns roll up and no standalone is needed. Per-line net identities are declared on the four lines that print gross+applicable+net for a period (VHA Other, Public Enterprise Funds Other, Veterans Special Life, Benefits Programs Other). Non-default tolerances quote the Table-5 rounding note (p. 23): 'Note: Details may not add to totals due to rounding.' All observed gaps are <=2 (department This-Month net roll-up off by 2 across ~11 rounded sources); all values are render-verified against the page-18 render (both bands).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Joint DOD-VA Medical Facility Demonstration Fund"
+    },
+    {
+      "index": 2,
+      "label": "Veterans Health Administration / Medical Services"
+    },
+    {
+      "index": 3,
+      "label": "Veterans Health Administration / Medical Support and Compliance"
+    },
+    {
+      "index": 4,
+      "label": "Veterans Health Administration / Medical Facilities"
+    },
+    {
+      "index": 5,
+      "label": "Veterans Health Administration / Other"
+    },
+    {
+      "index": 6,
+      "label": "Benefits Programs / Public Enterprise Funds / Housing Accounts"
+    },
+    {
+      "index": 7,
+      "label": "Benefits Programs / Public Enterprise Funds / Other"
+    },
+    {
+      "index": 8,
+      "label": "Benefits Programs / Compensation and Pensions"
+    },
+    {
+      "index": 9,
+      "label": "Benefits Programs / Readjustment Benefits"
+    },
+    {
+      "index": 10,
+      "label": "Benefits Programs / Veterans Housing Benefit Program Fund"
+    },
+    {
+      "index": 11,
+      "label": "Benefits Programs / Insurance Funds / National Service Life"
+    },
+    {
+      "index": 12,
+      "label": "Benefits Programs / Insurance Funds / Veterans Special Life"
+    },
+    {
+      "index": 13,
+      "label": "Benefits Programs / Other"
+    },
+    {
+      "index": 14,
+      "label": "Total--Benefits Programs"
+    },
+    {
+      "index": 15,
+      "label": "Departmental Administration / Construction"
+    },
+    {
+      "index": 16,
+      "label": "Departmental Administration / Information Technology Systems"
+    },
+    {
+      "index": 17,
+      "label": "Departmental Administration / General Operating Expenses"
+    },
+    {
+      "index": 18,
+      "label": "Departmental Administration / Other"
+    },
+    {
+      "index": 19,
+      "label": "Proprietary Receipts from the Public / National Service Life"
+    },
+    {
+      "index": 20,
+      "label": "Proprietary Receipts from the Public / Other"
+    },
+    {
+      "index": 21,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 22,
+      "label": "Total--Department of Veterans Affairs"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "484",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "484",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "484",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "484",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "5291",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "5291",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "60415",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "60415",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "63458",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "63458",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "750",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "750",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "6634",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "6634",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "7533",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "7533",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "749",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "749",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "6004",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "6004",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "5923",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "5923",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "108",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "36",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "950",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "295",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "655",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "1160",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "289",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "871",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "70",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "682",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "676",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "242",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "759",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "-517",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "18132",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "18132",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "149284",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "149284",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "144809",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "144809",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1530",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1530",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "13027",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "13027",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "12062",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "12062",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "3449",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "3449",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "3377",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "3377",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "143",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "143",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "84",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "86",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "472",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "454",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "-2475",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "93",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-2568",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "1098",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "1035",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "20269",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "89",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "20181",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "164156",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "780",
+      "role": "total"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "163376",
+      "role": "total"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "161829",
+      "role": "total"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "836",
+      "role": "total"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "160993",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "962",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "962",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "558",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "558",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "439",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "439",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "3507",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "3507",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "3943",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "3943",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "6018",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "6018",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "33397",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "33397",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "23813",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "23813",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c8",
+      "row": 19,
+      "col": 8,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "value": "-5",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "410",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-410",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "5166",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "-5166",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c8",
+      "row": 20,
+      "col": 8,
+      "value": "7923",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "value": "-7923",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "-30",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "-30",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "value": "-19",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "value": "-19",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "33770",
+      "role": "total"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "535",
+      "role": "total"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "33235",
+      "role": "total"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "276479",
+      "role": "total"
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "6246",
+      "role": "total"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "270233",
+      "role": "total"
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "value": "268683",
+      "role": "total"
+    },
+    {
+      "id": "r22c8",
+      "row": 22,
+      "col": 8,
+      "value": "9053",
+      "role": "total"
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "value": "259630",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1"
+      ],
+      "target": "r14c1",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 1 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r13c2"
+      ],
+      "target": "r14c2",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 2 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3"
+      ],
+      "target": "r14c3",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 3 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4"
+      ],
+      "target": "r14c4",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 4 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r12c5",
+        "r13c5"
+      ],
+      "target": "r14c5",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 5 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 6 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c7",
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r11c7",
+        "r12c7",
+        "r13c7"
+      ],
+      "target": "r14c7",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 7 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c8",
+        "r7c8",
+        "r12c8",
+        "r13c8"
+      ],
+      "target": "r14c8",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 8 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9",
+        "r13c9"
+      ],
+      "target": "r14c9",
+      "note": "Benefits Programs roll-up: sum of Benefits Programs member lines = Total--Benefits Programs, col 9 (Public Enterprise Funds + Insurance Funds are visual sub-groups with no printed subtotal)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r18c1",
+        "r21c1"
+      ],
+      "target": "r22c1",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r14c2",
+        "r20c2"
+      ],
+      "target": "r22c2",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r18c3",
+        "r20c3",
+        "r21c3"
+      ],
+      "target": "r22c3",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 3",
+      "tol": "2",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 2."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r18c4",
+        "r21c4"
+      ],
+      "target": "r22c4",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r14c5",
+        "r17c5",
+        "r19c5",
+        "r20c5"
+      ],
+      "target": "r22c5",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6"
+      ],
+      "target": "r22c6",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r14c7",
+        "r15c7",
+        "r16c7",
+        "r18c7",
+        "r21c7"
+      ],
+      "target": "r22c7",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 7",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c8",
+        "r14c8",
+        "r19c8",
+        "r20c8"
+      ],
+      "target": "r22c8",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r14c9",
+        "r15c9",
+        "r16c9",
+        "r18c9",
+        "r19c9",
+        "r20c9",
+        "r21c9"
+      ],
+      "target": "r22c9",
+      "note": "department column roll-up: sum of Department of Veterans Affairs lines (Benefits Programs via its total; VHA + Departmental Administration have no subtotals) = Total--Department of Veterans Affairs, col 9",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r5c2"
+      ],
+      "target": "r5c1",
+      "note": "per-line net identity: Veterans Health Administration / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "per-line net identity: Veterans Health Administration / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "per-line net identity: Veterans Health Administration / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r7c2"
+      ],
+      "target": "r7c1",
+      "note": "per-line net identity: Benefits Programs / Public Enterprise Funds / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ],
+      "target": "r7c4",
+      "note": "per-line net identity: Benefits Programs / Public Enterprise Funds / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c9",
+        "r7c8"
+      ],
+      "target": "r7c7",
+      "note": "per-line net identity: Benefits Programs / Public Enterprise Funds / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c6",
+        "r12c5"
+      ],
+      "target": "r12c4",
+      "note": "per-line net identity: Benefits Programs / Insurance Funds / Veterans Special Life Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c9",
+        "r12c8"
+      ],
+      "target": "r12c7",
+      "note": "per-line net identity: Benefits Programs / Insurance Funds / Veterans Special Life Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7",
+      "tol": "1",
+      "why": "Table 5 footnote (p. 23) prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its printed components by 1."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r13c2"
+      ],
+      "target": "r13c1",
+      "note": "per-line net identity: Benefits Programs / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 3/2/1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c6",
+        "r13c5"
+      ],
+      "target": "r13c4",
+      "note": "per-line net identity: Benefits Programs / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 6/5/4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c9",
+        "r13c8"
+      ],
+      "target": "r13c7",
+      "note": "per-line net identity: Benefits Programs / Other Outlays(net) + Applicable Receipts = Gross Outlays, cols 9/8/7"
+    }
+  ]
+}

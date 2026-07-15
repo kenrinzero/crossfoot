@@ -66,9 +66,10 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
    applicable column 3 sources. **Unit-30 spot-audit is now DUE — a DIFFERENT
    agent must audit it (`AUDITS.md` has the placeholder); Claude Opus 4.8 was the
    transcriber and cannot self-audit.**
-5. `treasury-mts/2026-05-outlays-veterans-affairs` (p18, 139 cells) — corpus
-   #31. Nested Benefits Programs (Public Enterprise Funds, Insurance Funds).
-   **Next available Tier-A unit — top of the queue.**
+5. ~~`treasury-mts/2026-05-outlays-veterans-affairs` (p18, 139 cells) — corpus
+   #31.~~ **SHIPPED 2026-07-16** (139 cells, 29 relations, 11 tol ≤2, GREEN,
+   pytest 10/10). Two-level nesting; every applicable column rolls up with ≥2
+   sources → no standalone. **Tier A complete (5/5).**
 
 **Tier B — grand capstone (small, ship after Tier A).**
 
@@ -97,6 +98,19 @@ D2, PDF → vision. Pattern frozen; worked examples `-legislative`/`-judicial`/
 ---
 
 ## Shipped
+
+- 2026-07-16 · treasury-mts/2026-05-outlays-veterans-affairs (D2, Claude Opus 4.8) — Corpus **#31**,
+  over-cap→cap-fit reclassification; **completes Tier A (5/5)**. Department of Veterans Affairs (page
+  18): **139 cells / 29 sum relations** (floor 16) = 9 Benefits Programs roll-ups + 9 department
+  column roll-ups + 11 per-line net identities. **11 tol ≤2** quoting the p. 23 rounding note
+  (department This-Month net roll-up off by 2 across ~11 rounded sources; rest ±1). The most nested
+  unit so far: Benefits Programs rolls its members (Public Enterprise Funds + Insurance Funds are
+  visual sub-groups with no printed subtotal) into Total--Benefits Programs, which feeds the
+  department roll-up; VHA and Departmental Administration have no subtotals (direct lines). Every
+  applicable column has ≥2 sources at both levels → **no standalone**. Heavy `(**)` omissions handled
+  (dropped all-`(**)` Veterans Choice Fund row; Housing Accounts survives only c8/c9; General
+  Operating Expenses only c5/c6). Render-verified page 18 (both bands); cid cross-check 139/139.
+  reconcile GREEN (0 warnings), pytest 10/10. Commit `<pending-va>`.
 
 - 2026-07-15 · treasury-mts/2026-05-outlays-energy (D2, Claude Opus 4.8) — Corpus **#30**,
   over-cap→cap-fit reclassification. Department of Energy (pages 12–13, spans the page break):
