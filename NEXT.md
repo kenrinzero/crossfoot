@@ -98,11 +98,15 @@ applicable columns handled as usual (standalone + total-row net identity).
 - [x] **Interior** (171, 2u) — **DONE 2026-07-16**: `-interior-bureaus` (#37) + `-interior-departmental` (#38).
 - [x] **Transportation** (176, 2u) — **DONE 2026-07-16**: `-transportation-bureaus` (#39) + `-transportation-departmental` (#40). **Unit 40 audit GREEN** (different-agent audit, 10/10 sampled cells; `AUDITS.md`).
 - [x] **Labor** (180, 2u) — **DONE 2026-07-16**: -labor-bureaus (#41) + -labor-departmental (#42).
-- [ ] **Remaining 7 sections → ~18 sub-units**, ascending size: HUD (204, 2u), Undistributed
-  Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
-  (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
-  printed `Total--` bureau boundaries; boundaries in the plan's over-cap sizing
-  table. Independent sections → fleet-distributable. **Next up: The Treasury MTS Table 5 is complete.**
+- [x] **Remaining 7 sections** — **DONE 2026-07-16**:
+  - [x] HUD (2 units: -hud-bureaus, -hud-departmental)
+  - [x] Undistributed Offsetting Receipts (2 units: -uor-interest, -uor-employer-share)
+  - [x] Treasury (3 units: -treasury-bureaus, -treasury-irs, -treasury-departmental)
+  - [x] HHS (3 units: -hhs-cms, -hhs-acf, -hhs-departmental)
+  - [x] Agriculture (3 units: -agriculture-programs, -agriculture-fns, -agriculture-departmental)
+  - [x] Defense-Military (3 units: -defense-programs, -defense-rdte, -defense-departmental)
+  - [x] Independent Agencies (4 units: -independent-epa-opm, -independent-sba-ssa, -independent-a-m, -independent-n-z).
+  **The Treasury MTS Table 5 is officially complete.**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
