@@ -1,0 +1,1580 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-hud-departmental",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5",
+    "page": 14,
+    "title": "Outlays of the U.S. Government",
+    "period": "May 2026 and Other Periods"
+  },
+  "unit_note": "Department of Housing and Urban Development (bureau sub-split 2/2). Drops (**) per Table 5 rules. Re-anchors two bureau totals from unit 1/2. Single-source applicable columns handled via total-row net identity.",
+  "rows": [
+    {
+      "index": 8,
+      "label": "Total--Public and Indian Housing Programs"
+    },
+    {
+      "index": 15,
+      "label": "Total--Community Planning and Development"
+    },
+    {
+      "index": 16,
+      "label": "Housing Programs: Credit Accounts: FHA-Mutual Mortgage Insurance Fund, Program Account"
+    },
+    {
+      "index": 17,
+      "label": "Housing Programs: Credit Accounts: FHA-Mutual Mortgage Insurance Capital Reserve Account"
+    },
+    {
+      "index": 18,
+      "label": "Housing Programs: Credit Accounts: FHA-Mutual Mortgage and Cooperative Housing Insurance Fund, Liquidating Account"
+    },
+    {
+      "index": 19,
+      "label": "Housing Programs: Credit Accounts: FHA-General and Special Risk Fund, Liquidating Account"
+    },
+    {
+      "index": 20,
+      "label": "Housing Programs: Credit Accounts: Housing for the Elderly or Handicapped Fund, Liquidating Account"
+    },
+    {
+      "index": 21,
+      "label": "Housing Programs: HUD Project-Based Rental Assistance"
+    },
+    {
+      "index": 22,
+      "label": "Housing Programs: Housing for the Elderly"
+    },
+    {
+      "index": 23,
+      "label": "Housing Programs: Housing for Persons with Disabilities"
+    },
+    {
+      "index": 24,
+      "label": "Housing Programs: Other Assisted Housing Programs"
+    },
+    {
+      "index": 25,
+      "label": "Housing Programs: Other"
+    },
+    {
+      "index": 26,
+      "label": "Total--Housing Programs"
+    },
+    {
+      "index": 27,
+      "label": "Government National Mortgage Association: Guarantees of Mortgage-Backed Securities"
+    },
+    {
+      "index": 28,
+      "label": "Management and Administration"
+    },
+    {
+      "index": 29,
+      "label": "Other"
+    },
+    {
+      "index": 30,
+      "label": "Proprietary Receipts from the Public: FHA-General and Special Risk Fund"
+    },
+    {
+      "index": 31,
+      "label": "Proprietary Receipts from the Public: Other"
+    },
+    {
+      "index": 32,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 33,
+      "label": "Offsetting Governmental Receipts"
+    },
+    {
+      "index": 34,
+      "label": "Total--Department of Housing and Urban Development"
+    }
+  ],
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month Net Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD Net Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD Net Outlays"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "role": "leaf",
+      "value": "4587",
+      "why": "From table"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "role": "leaf",
+      "value": "4587",
+      "why": "From table"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "role": "leaf",
+      "value": "32451",
+      "why": "From table"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "role": "leaf",
+      "value": "32451",
+      "why": "From table"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "role": "leaf",
+      "value": "31775",
+      "why": "From table"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "role": "leaf",
+      "value": "31775",
+      "why": "From table"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "role": "leaf",
+      "value": "1223",
+      "why": "From table"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "role": "leaf",
+      "value": "1223",
+      "why": "From table"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "role": "leaf",
+      "value": "10269",
+      "why": "From table"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "role": "leaf",
+      "value": "10269",
+      "why": "From table"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "role": "leaf",
+      "value": "10904",
+      "why": "From table"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "role": "leaf",
+      "value": "10904",
+      "why": "From table"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "role": "leaf",
+      "value": "15",
+      "why": "From table"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "role": "leaf",
+      "value": "15",
+      "why": "From table"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "role": "leaf",
+      "value": "101",
+      "why": "From table"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "role": "leaf",
+      "value": "101",
+      "why": "From table"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "role": "leaf",
+      "value": "98",
+      "why": "From table"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "role": "leaf",
+      "value": "98",
+      "why": "From table"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "role": "leaf",
+      "value": "-1112",
+      "why": "From table"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "role": "leaf",
+      "value": "-1112",
+      "why": "From table"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "role": "leaf",
+      "value": "-9854",
+      "why": "From table"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "role": "leaf",
+      "value": "-9854",
+      "why": "From table"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "role": "leaf",
+      "value": "-9261",
+      "why": "From table"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "role": "leaf",
+      "value": "-9261",
+      "why": "From table"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "role": "leaf",
+      "value": "3",
+      "why": "From table"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "role": "leaf",
+      "value": "-2",
+      "why": "From table"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "role": "leaf",
+      "value": "2",
+      "why": "From table"
+    },
+    {
+      "id": "r18c8",
+      "row": 18,
+      "col": 8,
+      "role": "leaf",
+      "value": "2",
+      "why": "From table"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "role": "total",
+      "value": "11",
+      "why": "From table"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "role": "leaf",
+      "value": "51",
+      "why": "From table"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "role": "leaf",
+      "value": "-40",
+      "why": "From table"
+    },
+    {
+      "id": "r19c7",
+      "row": 19,
+      "col": 7,
+      "role": "total",
+      "value": "76",
+      "why": "From table"
+    },
+    {
+      "id": "r19c8",
+      "row": 19,
+      "col": 8,
+      "role": "leaf",
+      "value": "113",
+      "why": "From table"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "role": "leaf",
+      "value": "-38",
+      "why": "From table"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "role": "leaf",
+      "value": "4",
+      "why": "From table"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "role": "leaf",
+      "value": "-4",
+      "why": "From table"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "role": "leaf",
+      "value": "34",
+      "why": "From table"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "role": "leaf",
+      "value": "-33",
+      "why": "From table"
+    },
+    {
+      "id": "r20c7",
+      "row": 20,
+      "col": 7,
+      "role": "total",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r20c8",
+      "row": 20,
+      "col": 8,
+      "role": "leaf",
+      "value": "40",
+      "why": "From table"
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "role": "leaf",
+      "value": "-40",
+      "why": "From table"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "role": "leaf",
+      "value": "1568",
+      "why": "From table"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "role": "leaf",
+      "value": "1568",
+      "why": "From table"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "role": "leaf",
+      "value": "12041",
+      "why": "From table"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "role": "leaf",
+      "value": "12041",
+      "why": "From table"
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "role": "leaf",
+      "value": "11263",
+      "why": "From table"
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "role": "leaf",
+      "value": "11263",
+      "why": "From table"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "role": "leaf",
+      "value": "87",
+      "why": "From table"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "role": "leaf",
+      "value": "87",
+      "why": "From table"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "role": "leaf",
+      "value": "719",
+      "why": "From table"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "role": "leaf",
+      "value": "719",
+      "why": "From table"
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "role": "leaf",
+      "value": "650",
+      "why": "From table"
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "role": "leaf",
+      "value": "650",
+      "why": "From table"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "role": "leaf",
+      "value": "26",
+      "why": "From table"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "role": "leaf",
+      "value": "26",
+      "why": "From table"
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "role": "leaf",
+      "value": "194",
+      "why": "From table"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "role": "leaf",
+      "value": "194",
+      "why": "From table"
+    },
+    {
+      "id": "r23c7",
+      "row": 23,
+      "col": 7,
+      "role": "leaf",
+      "value": "175",
+      "why": "From table"
+    },
+    {
+      "id": "r23c9",
+      "row": 23,
+      "col": 9,
+      "role": "leaf",
+      "value": "175",
+      "why": "From table"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "role": "leaf",
+      "value": "17",
+      "why": "From table"
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "role": "leaf",
+      "value": "17",
+      "why": "From table"
+    },
+    {
+      "id": "r24c7",
+      "row": 24,
+      "col": 7,
+      "role": "leaf",
+      "value": "30",
+      "why": "From table"
+    },
+    {
+      "id": "r24c9",
+      "row": 24,
+      "col": 9,
+      "role": "leaf",
+      "value": "30",
+      "why": "From table"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "role": "leaf",
+      "value": "2",
+      "why": "From table"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "role": "leaf",
+      "value": "2",
+      "why": "From table"
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "role": "total",
+      "value": "31",
+      "why": "From table"
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "role": "leaf",
+      "value": "11",
+      "why": "From table"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "role": "leaf",
+      "value": "20",
+      "why": "From table"
+    },
+    {
+      "id": "r25c7",
+      "row": 25,
+      "col": 7,
+      "role": "total",
+      "value": "60",
+      "why": "From table"
+    },
+    {
+      "id": "r25c8",
+      "row": 25,
+      "col": 8,
+      "role": "leaf",
+      "value": "7",
+      "why": "From table"
+    },
+    {
+      "id": "r25c9",
+      "row": 25,
+      "col": 9,
+      "role": "leaf",
+      "value": "52",
+      "why": "From table"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "role": "total",
+      "value": "589",
+      "why": "From table"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "role": "total",
+      "value": "7",
+      "why": "From table"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "role": "total",
+      "value": "582",
+      "why": "From table"
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "role": "total",
+      "value": "3262",
+      "why": "From table"
+    },
+    {
+      "id": "r26c5",
+      "row": 26,
+      "col": 5,
+      "role": "total",
+      "value": "98",
+      "why": "From table"
+    },
+    {
+      "id": "r26c6",
+      "row": 26,
+      "col": 6,
+      "role": "total",
+      "value": "3163",
+      "why": "From table"
+    },
+    {
+      "id": "r26c7",
+      "row": 26,
+      "col": 7,
+      "role": "total",
+      "value": "3092",
+      "why": "From table"
+    },
+    {
+      "id": "r26c8",
+      "row": 26,
+      "col": 8,
+      "role": "total",
+      "value": "163",
+      "why": "From table"
+    },
+    {
+      "id": "r26c9",
+      "row": 26,
+      "col": 9,
+      "role": "total",
+      "value": "2929",
+      "why": "From table"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "role": "leaf",
+      "value": "-78",
+      "why": "From table"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "role": "leaf",
+      "value": "-78",
+      "why": "From table"
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "role": "total",
+      "value": "-602",
+      "why": "From table"
+    },
+    {
+      "id": "r27c5",
+      "row": 27,
+      "col": 5,
+      "role": "leaf",
+      "value": "3",
+      "why": "From table"
+    },
+    {
+      "id": "r27c6",
+      "row": 27,
+      "col": 6,
+      "role": "leaf",
+      "value": "-605",
+      "why": "From table"
+    },
+    {
+      "id": "r27c7",
+      "row": 27,
+      "col": 7,
+      "role": "total",
+      "value": "-527",
+      "why": "From table"
+    },
+    {
+      "id": "r27c8",
+      "row": 27,
+      "col": 8,
+      "role": "leaf",
+      "value": "4",
+      "why": "From table"
+    },
+    {
+      "id": "r27c9",
+      "row": 27,
+      "col": 9,
+      "role": "leaf",
+      "value": "-531",
+      "why": "From table"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "role": "leaf",
+      "value": "154",
+      "why": "From table"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "role": "leaf",
+      "value": "154",
+      "why": "From table"
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "role": "leaf",
+      "value": "1269",
+      "why": "From table"
+    },
+    {
+      "id": "r28c6",
+      "row": 28,
+      "col": 6,
+      "role": "leaf",
+      "value": "1269",
+      "why": "From table"
+    },
+    {
+      "id": "r28c7",
+      "row": 28,
+      "col": 7,
+      "role": "leaf",
+      "value": "1597",
+      "why": "From table"
+    },
+    {
+      "id": "r28c9",
+      "row": 28,
+      "col": 9,
+      "role": "leaf",
+      "value": "1597",
+      "why": "From table"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "role": "leaf",
+      "value": "35",
+      "why": "From table"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "role": "leaf",
+      "value": "35",
+      "why": "From table"
+    },
+    {
+      "id": "r29c4",
+      "row": 29,
+      "col": 4,
+      "role": "leaf",
+      "value": "272",
+      "why": "From table"
+    },
+    {
+      "id": "r29c6",
+      "row": 29,
+      "col": 6,
+      "role": "leaf",
+      "value": "272",
+      "why": "From table"
+    },
+    {
+      "id": "r29c7",
+      "row": 29,
+      "col": 7,
+      "role": "leaf",
+      "value": "258",
+      "why": "From table"
+    },
+    {
+      "id": "r29c9",
+      "row": 29,
+      "col": 9,
+      "role": "leaf",
+      "value": "258",
+      "why": "From table"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "role": "leaf",
+      "value": "59",
+      "why": "From table"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "role": "leaf",
+      "value": "-59",
+      "why": "From table"
+    },
+    {
+      "id": "r30c5",
+      "row": 30,
+      "col": 5,
+      "role": "leaf",
+      "value": "354",
+      "why": "From table"
+    },
+    {
+      "id": "r30c6",
+      "row": 30,
+      "col": 6,
+      "role": "leaf",
+      "value": "-354",
+      "why": "From table"
+    },
+    {
+      "id": "r30c8",
+      "row": 30,
+      "col": 8,
+      "role": "leaf",
+      "value": "171",
+      "why": "From table"
+    },
+    {
+      "id": "r30c9",
+      "row": 30,
+      "col": 9,
+      "role": "leaf",
+      "value": "-171",
+      "why": "From table"
+    },
+    {
+      "id": "r31c5",
+      "row": 31,
+      "col": 5,
+      "role": "leaf",
+      "value": "242",
+      "why": "From table"
+    },
+    {
+      "id": "r31c6",
+      "row": 31,
+      "col": 6,
+      "role": "leaf",
+      "value": "-242",
+      "why": "From table"
+    },
+    {
+      "id": "r31c8",
+      "row": 31,
+      "col": 8,
+      "role": "leaf",
+      "value": "222",
+      "why": "From table"
+    },
+    {
+      "id": "r31c9",
+      "row": 31,
+      "col": 9,
+      "role": "leaf",
+      "value": "-222",
+      "why": "From table"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "role": "leaf",
+      "value": "-1",
+      "why": "From table"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "role": "leaf",
+      "value": "-1",
+      "why": "From table"
+    },
+    {
+      "id": "r32c4",
+      "row": 32,
+      "col": 4,
+      "role": "leaf",
+      "value": "-11",
+      "why": "From table"
+    },
+    {
+      "id": "r32c6",
+      "row": 32,
+      "col": 6,
+      "role": "leaf",
+      "value": "-11",
+      "why": "From table"
+    },
+    {
+      "id": "r32c7",
+      "row": 32,
+      "col": 7,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r32c9",
+      "row": 32,
+      "col": 9,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "role": "leaf",
+      "value": "1",
+      "why": "From table"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "role": "leaf",
+      "value": "-1",
+      "why": "From table"
+    },
+    {
+      "id": "r33c5",
+      "row": 33,
+      "col": 5,
+      "role": "leaf",
+      "value": "10",
+      "why": "From table"
+    },
+    {
+      "id": "r33c6",
+      "row": 33,
+      "col": 6,
+      "role": "leaf",
+      "value": "-10",
+      "why": "From table"
+    },
+    {
+      "id": "r33c8",
+      "row": 33,
+      "col": 8,
+      "role": "leaf",
+      "value": "11",
+      "why": "From table"
+    },
+    {
+      "id": "r33c9",
+      "row": 33,
+      "col": 9,
+      "role": "leaf",
+      "value": "-11",
+      "why": "From table"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "role": "total",
+      "value": "6509",
+      "why": "From table"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "role": "total",
+      "value": "68",
+      "why": "From table"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "role": "total",
+      "value": "6441",
+      "why": "From table"
+    },
+    {
+      "id": "r34c4",
+      "row": 34,
+      "col": 4,
+      "role": "total",
+      "value": "46910",
+      "why": "From table"
+    },
+    {
+      "id": "r34c5",
+      "row": 34,
+      "col": 5,
+      "role": "total",
+      "value": "708",
+      "why": "From table"
+    },
+    {
+      "id": "r34c6",
+      "row": 34,
+      "col": 6,
+      "role": "total",
+      "value": "46202",
+      "why": "From table"
+    },
+    {
+      "id": "r34c7",
+      "row": 34,
+      "col": 7,
+      "role": "total",
+      "value": "47099",
+      "why": "From table"
+    },
+    {
+      "id": "r34c8",
+      "row": 34,
+      "col": 8,
+      "role": "total",
+      "value": "572",
+      "why": "From table"
+    },
+    {
+      "id": "r34c9",
+      "row": 34,
+      "col": 9,
+      "role": "total",
+      "value": "46527",
+      "why": "From table"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r26c1",
+      "sources": [
+        "r16c1",
+        "r17c1",
+        "r21c1",
+        "r22c1",
+        "r23c1",
+        "r24c1",
+        "r25c1"
+      ],
+      "tol": "2",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c2",
+      "sources": [
+        "r19c2",
+        "r20c2",
+        "r25c2"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r26c3",
+      "sources": [
+        "r16c3",
+        "r17c3",
+        "r20c3",
+        "r21c3",
+        "r22c3",
+        "r23c3",
+        "r24c3"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c4",
+      "sources": [
+        "r16c4",
+        "r17c4",
+        "r19c4",
+        "r21c4",
+        "r22c4",
+        "r23c4",
+        "r24c4",
+        "r25c4"
+      ],
+      "tol": "2",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c5",
+      "sources": [
+        "r18c5",
+        "r19c5",
+        "r20c5",
+        "r25c5"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c6",
+      "sources": [
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6",
+        "r22c6",
+        "r23c6",
+        "r24c6",
+        "r25c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r26c7",
+      "sources": [
+        "r16c7",
+        "r17c7",
+        "r18c7",
+        "r19c7",
+        "r20c7",
+        "r21c7",
+        "r22c7",
+        "r23c7",
+        "r24c7",
+        "r25c7"
+      ],
+      "tol": "2",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c8",
+      "sources": [
+        "r18c8",
+        "r19c8",
+        "r20c8",
+        "r25c8"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c9",
+      "sources": [
+        "r16c9",
+        "r17c9",
+        "r19c9",
+        "r20c9",
+        "r21c9",
+        "r22c9",
+        "r23c9",
+        "r24c9",
+        "r25c9"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r19c4",
+      "sources": [
+        "r19c5",
+        "r19c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r19c7",
+      "sources": [
+        "r19c8",
+        "r19c9"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r20c7",
+      "sources": [
+        "r20c8",
+        "r20c9"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r25c4",
+      "sources": [
+        "r25c5",
+        "r25c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r25c7",
+      "sources": [
+        "r25c8",
+        "r25c9"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c1",
+      "sources": [
+        "r26c2",
+        "r26c3"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r26c4",
+      "sources": [
+        "r26c5",
+        "r26c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r26c7",
+      "sources": [
+        "r26c8",
+        "r26c9"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r27c4",
+      "sources": [
+        "r27c5",
+        "r27c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r27c7",
+      "sources": [
+        "r27c8",
+        "r27c9"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c1",
+      "sources": [
+        "r8c1",
+        "r15c1",
+        "r26c1",
+        "r27c1",
+        "r28c1",
+        "r29c1",
+        "r32c1"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c2",
+      "sources": [
+        "r26c2",
+        "r30c2",
+        "r33c2"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c3",
+      "sources": [
+        "r8c3",
+        "r15c3",
+        "r26c3",
+        "r27c3",
+        "r28c3",
+        "r29c3",
+        "r30c3",
+        "r32c3",
+        "r33c3"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c4",
+      "sources": [
+        "r8c4",
+        "r15c4",
+        "r26c4",
+        "r27c4",
+        "r28c4",
+        "r29c4",
+        "r32c4"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c5",
+      "sources": [
+        "r26c5",
+        "r27c5",
+        "r30c5",
+        "r31c5",
+        "r33c5"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c6",
+      "sources": [
+        "r8c6",
+        "r15c6",
+        "r26c6",
+        "r27c6",
+        "r28c6",
+        "r29c6",
+        "r30c6",
+        "r31c6",
+        "r32c6",
+        "r33c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c7",
+      "sources": [
+        "r8c7",
+        "r15c7",
+        "r26c7",
+        "r27c7",
+        "r28c7",
+        "r29c7",
+        "r32c7"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c8",
+      "sources": [
+        "r26c8",
+        "r27c8",
+        "r30c8",
+        "r31c8",
+        "r33c8"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c9",
+      "sources": [
+        "r8c9",
+        "r15c9",
+        "r26c9",
+        "r27c9",
+        "r28c9",
+        "r29c9",
+        "r30c9",
+        "r31c9",
+        "r32c9",
+        "r33c9"
+      ],
+      "tol": "2",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r34c1",
+      "sources": [
+        "r34c2",
+        "r34c3"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c4",
+      "sources": [
+        "r34c5",
+        "r34c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r34c7",
+      "sources": [
+        "r34c8",
+        "r34c9"
+      ]
+    }
+  ]
+}

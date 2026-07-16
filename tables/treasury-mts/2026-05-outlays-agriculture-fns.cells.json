@@ -1,0 +1,879 @@
+{
+  "table_id": "treasury-mts/2026-05-outlays-agriculture-fns",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 5",
+    "page": 10,
+    "title": "Outlays of the U.S. Government",
+    "period": "May 2026 and Other Periods"
+  },
+  "unit_note": "Department of Agriculture (unit 2/3). FNS and Rural groups. Page 10.",
+  "rows": [
+    {
+      "index": 1,
+      "label": "Rural Development"
+    },
+    {
+      "index": 2,
+      "label": "Rural Housing Service: Rural Housing Insurance Fund"
+    },
+    {
+      "index": 3,
+      "label": "Rural Housing Service: Rental Assistance Program"
+    },
+    {
+      "index": 4,
+      "label": "Rural Housing Service: Other"
+    },
+    {
+      "index": 5,
+      "label": "Rural Utilities Service: Rural Electrification and Telecommunications Fund"
+    },
+    {
+      "index": 6,
+      "label": "Rural Utilities Service: Other"
+    },
+    {
+      "index": 7,
+      "label": "Foreign Agricultural Service"
+    },
+    {
+      "index": 8,
+      "label": "Food and Nutrition Service: Supplemental Nutrition Assistance Program"
+    },
+    {
+      "index": 9,
+      "label": "Food and Nutrition Service: Child Nutrition Programs"
+    },
+    {
+      "index": 10,
+      "label": "Food and Nutrition Service: Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)"
+    },
+    {
+      "index": 11,
+      "label": "Food and Nutrition Service: Other"
+    },
+    {
+      "index": 12,
+      "label": "Total--Food and Nutrition Service"
+    }
+  ],
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month Net Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD Net Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD Net Outlays"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "61",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "61",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "-12",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-12",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "190",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "190",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "10",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "24",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-14",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "466",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "188",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "278",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "390",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "183",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "207",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "158",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "158",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1261",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1261",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1173",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1173",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "30",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "30",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "217",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "217",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "299",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "299",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "12",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "12",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "108",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "8",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "101",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "49",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "8",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "40",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "83",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "2",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "81",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "642",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "11",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "631",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "752",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "12",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "740",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "158",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "158",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "1023",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "1023",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "1326",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "1326",
+      "role": "standalone",
+      "why": "From table"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "7610",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "7610",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "64918",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "64918",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "71392",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "71392",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "3312",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "3312",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "23795",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "23795",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "24054",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "24054",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "633",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "633",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "5111",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "5111",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "5333",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "5333",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "49",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "49",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "399",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "399",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "426",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "426",
+      "role": "leaf",
+      "why": "From table"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "11605",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "11605",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "94224",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "94224",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "101205",
+      "role": "total",
+      "why": "From table"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "101205",
+      "role": "total",
+      "why": "From table"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r12c1",
+      "sources": [
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r12c3",
+      "sources": [
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r12c4",
+      "sources": [
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r12c6",
+      "sources": [
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r12c7",
+      "sources": [
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r11c7"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r12c9",
+      "sources": [
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r2c1",
+      "sources": [
+        "r2c2",
+        "r2c3"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r2c4",
+      "sources": [
+        "r2c5",
+        "r2c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r2c7",
+      "sources": [
+        "r2c8",
+        "r2c9"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r5c4",
+      "sources": [
+        "r5c5",
+        "r5c6"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r5c7",
+      "sources": [
+        "r5c8",
+        "r5c9"
+      ],
+      "tol": "1",
+      "why": "Note: Details may not add to totals due to rounding."
+    },
+    {
+      "type": "sum",
+      "target": "r6c1",
+      "sources": [
+        "r6c2",
+        "r6c3"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r6c4",
+      "sources": [
+        "r6c5",
+        "r6c6"
+      ]
+    },
+    {
+      "type": "sum",
+      "target": "r6c7",
+      "sources": [
+        "r6c8",
+        "r6c9"
+      ]
+    }
+  ]
+}

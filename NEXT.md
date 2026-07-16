@@ -102,7 +102,7 @@ applicable columns handled as usual (standalone + total-row net identity).
   Offsetting Receipts (209, 2u), Treasury (235, 3u), HHS (252, 3u), Agriculture
   (271, 3u), Defense–Military (271, 3u), Independent Agencies (305, 3u). Split at
   printed `Total--` bureau boundaries; boundaries in the plan's over-cap sizing
-  table. Independent sections → fleet-distributable. **Next up: HUD (p14-15).**
+  table. Independent sections → fleet-distributable. **Next up: The Treasury MTS Table 5 is complete.**
 - **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
   Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
   Kenrin's go (marginal assurance, showcase value). See plan.
@@ -433,3 +433,10 @@ applicable columns handled as usual (standalone + total-row net identity).
   with quoted rounding note; strict-coverage GREEN. Commit `069e687`.
   In hindsight D2 was right: the cid-font decode + slice decision needed
   judgment; future *decided* slices of the same PDF are D3-adjacent.
+
+
+
+
+
+
+
