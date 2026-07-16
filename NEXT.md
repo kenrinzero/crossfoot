@@ -107,15 +107,30 @@ applicable columns handled as usual (standalone + total-row net identity).
   - [x] Defense-Military (3 units: -defense-programs, -defense-rdte, -defense-departmental)
   - [x] Independent Agencies (4 units: -independent-epa-opm, -independent-sba-ssa, -independent-a-m, -independent-n-z).
   **The Treasury MTS Table 5 is officially complete.**
-- **Optional later:** `-grand-sum-*` — the full table-wide cross-foot (`Total
-  Outlays = Σ 30 section totals`), a 3-part re-anchor unit. Deferred; needs
-  Kenrin's go (marginal assurance, showcase value). See plan.
+- [x] **Optional grand-sum capstone** — **SHIPPED 2026-07-16** as single unit
+  `treasury-mts/2026-05-outlays-grand-sum` (corpus #63). Plan's "3-part" size
+  estimate was unnecessary once Independent Agencies units already set the
+  raised ceiling (~280–295 cells); the sum relation requires all 30 section
+  totals in one file.
 - fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
   vendoring first (alternative new families).
 
 ---
 
 ## Shipped
+
+- 2026-07-16 · treasury-mts/2026-05-outlays-grand-sum (D2, Oz / Grok 4.5 high) —
+  Corpus **#63**, optional table-wide grand-sum capstone. Re-anchors all **30**
+  top-level section `Total--` rows (pages 10–22) as leaves + `Total Outlays`
+  (page 22) as target; **277 cells / 9 sum relations** (floor 9) = one column-wise
+  cross-foot per full-9 column (`Total Outlays = Σ section totals`). EOP + NASA
+  omit This-Month Applicable (`(**)`). **7 tol ≤2** quoting the p. 23 rounding
+  note (c1/c4/c5/c7 gap 2; c6/c8/c9 gap 1; c2/c3 exact). Values re-read from the
+  MTS PDF text layer (+29 custom-encoding decode), not copied from sibling units;
+  spot-checked vs corpus section totals (Legislative / EOP / NASA / Independent
+  Agencies / Defense–Military) 5/5 exact. Complements `-grand-total-capstone`
+  (On/Off-Budget + net identities; no section re-anchors). reconcile GREEN (0
+  warnings), pytest 10/10.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-international-assistance-{bureaus,departmental} (D2, Claude Opus 4.8) —
   Corpus **#35 + #36**, Tier-C over-cap split #2 (International Assistance Programs, pages 19–20, 165
