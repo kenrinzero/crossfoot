@@ -120,10 +120,14 @@ applicable columns handled as usual (standalone + total-row net identity).
      relations: column sums 312/226 + 312+226=538. The family's proof unit.~~
      **SHIPPED 2026-07-17** (Kimi — 108 cells / 6 relations, all exact;
      corpus #64; commit `1a82360`).
-  2. pp2–6 popular-vote blocks (D2, ~2 sub-units per page-block at the
-     ≤140 ceiling) — sized in BACKLOG.md; dispatch after the starter
-     settles the family's row/label conventions (jurisdiction codes as
-     printed: AL…WY, DC; asterisked footnotes transcribed as printed).
+  2. pp3–6 popular-vote blocks (D2, one unit per block unless dense — the
+     ≤140 ceiling decides; fringe blocks like p2 are ~75 cells, major-candidate
+     blocks approach ~300) — conventions settled by the starter + block 1:
+     jurisdiction codes as printed (AL…WY, DC), blanks omitted, sparse columns
+     fine, single-jurisdiction columns → standalone (schema minItems-2),
+     Percentage row standalone (denominator on final block).
+     ~~Block 1 (p2: AYYADURAI…EBKE)~~ **SHIPPED 2026-07-17** (Kimi — 75 cells /
+     3 relations; corpus #65; commit `4e611da`).
   3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
      `-departmental` pattern).
 - [x] omb/budget-appendix-slice vendoring — **DONE 2026-07-17**
@@ -141,6 +145,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-17 · fec/2024-presidential-general-popular-block-1 (D2, Kimi) — Corpus **#65**, first popular-vote block (page 2: AYYADURAI, BOWMAN, DE LA CRUZ, DUNCAN, EBKE). The ~300-cells-per-block sizing estimate broke on contact: fringe columns are SPARSE — 65 printed state cells — so the whole block fits one unit. **75 cells / 3 exact sum relations** (floor 3) = per-candidate column sums (28,437 / 5,975 / 166,175, all foot exactly). **9 standalones**: DUNCAN (OH only) + EBKE (NM only) are single-jurisdiction columns whose state cell equals the national total — the frozen schema's `minItems: 2` forbids 1-source sums → standalone + `why` (4 cells); the 5 Percentage cells are standalone (national denominator prints on the final block, capstone-anchored later). Positioned extraction + page-2 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `4e611da`.
 
 - 2026-07-17 · fec/2024-presidential-general-electoral (D3, Kimi) — Corpus **#64**, the FEC family's proof unit (page 1): 51 jurisdiction rows × {ELECTORAL VOTES, Trump EV, Harris EV} + Total row. **108 cells / 6 sum relations** (floor 6) = 3 column sums (538/312/226) + the 312+226=538 capstone + 2 split-state row identities (ME 1+3=4, NE 4+1=5), **all exact, 0 tol**. Winner-take-all blanks not transcribed (blank ≠ zero); 1 standalone ("Total Electoral Votes Needed to Win = 270" italic reference line). Column assignment proven three ways: positioned text-layer extraction (x-bands — resolves the `AL 9 9` loser-column ambiguity), column sums re-derived == printed Total, page-1 render check. reconcile GREEN (0 warnings), pytest 10/10. Commit `1a82360`.
 
