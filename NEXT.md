@@ -125,8 +125,13 @@ applicable columns handled as usual (standalone + total-row net identity).
      `fc2e1bc`). **⚠ AUDIT DUE: unit #70 needs a DIFFERENT agent (placeholder
      in AUDITS.md).** Popular-vote sequence complete (pp1–6 all transcribed);
      remaining family work: the cross-page capstone (item 3).
-  3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
-     `-departmental` pattern).
+  3. ~~Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
+     `-departmental` pattern).~~ **SHIPPED 2026-07-17** (Kimi — 4 sub-units:
+     capstone-a AL–IL 133c/14r #71, b IN–MT 132c/13r #72, c NE–TX 136c/17r
+     #73, d UT–WY + national row 100c/8r #74; all 51 per-state identities
+     exact, consistency vs block units 501/501 0-mismatch; commit `3f05b9d`).
+     **FEC family numerically COMPLETE (11 units, #64–74).** Footnote capture
+     (pp7–9) stays a Tier-3 stage concern per DESIGN §8.
 - [x] omb/budget-appendix-slice vendoring — **DONE 2026-07-17**
   (`sources/omb/budget-2027-app-2-3-legislative.pdf`, FY2027 Legislative
   Branch; sized in BACKLOG.md; the earlier "interstitial" was a wrong
@@ -142,6 +147,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-17 · fec/2024-presidential-general-popular-capstone-a…d (D2, Kimi) — Corpus **#71–74**, the cross-page per-state TOTAL VOTES re-anchor capstone (Table-5 `-departmental` pattern), closing the FEC family numerically. All **501** candidate + TOTAL VOTES cells **re-read from the PDF** (never copied from the block units), then machine-checked byte-for-byte against committed blocks 1–5: **501/501, 0 mismatches**. The 51 per-state identities foot **exactly** (Σ populated candidate cells per jurisdiction == its TOTAL VOTES); split a (AL–IL, 133c/14r), b (IN–MT, 132c/13r), c (NE–TX, 136c/17r), d (UT–WY + national row, 100c/8r — the 26 candidate national totals summing to the printed national TOTAL VOTES **155,238,302**). All four reconcile GREEN (0 warnings), pytest 10/10. Commit `3f05b9d`.
 
 - 2026-07-17 · fec/2024-presidential-general-popular-block-5 (D2, Kimi) — Corpus **#70**, the final popular-vote block (page 6: WEST, WOOD, NONE OF THESE CANDIDATES, WRITE-IN VOTES (SCATTERED), TOTAL VOTES). **125 cells / 3 exact sum relations** (floor 3) = WEST column (82,644), WRITE-IN column (210,381), and the TOTAL VOTES column footing to the printed national **155,238,302**. WOOD (AR only) + NONE OF THESE CANDIDATES (NV only — Nevada's ballot option) single-jurisdiction → standalone per `minItems: 2` (4 cells); 4 Percentage cells standalone (TOTAL VOTES pct blank as printed). Per-row TOTAL VOTES decomposition spans all blocks → deferred to the cross-page capstone (re-anchor pattern). Positioned extraction + page-6 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `fc2e1bc`. **Every-10th audit fires — DUE to a different agent (placeholder in `AUDITS.md`).**
 
