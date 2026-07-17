@@ -124,9 +124,17 @@ applicable columns handled as usual (standalone + total-row net identity).
      printed: AL…WY, DC; asterisked footnotes transcribed as printed).
   3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
      `-departmental` pattern).
-- omb/budget-appendix-slice — D1 (web) vendoring pending: govinfo serves
-  an HTML interstitial to plain curl (2026-07-17); chapter URL + fetch
-  path being resolved. Vendor + size-cap check, then queue.
+- [x] omb/budget-appendix-slice vendoring — **DONE 2026-07-17**
+  (`sources/omb/budget-2027-app-2-3-legislative.pdf`, FY2027 Legislative
+  Branch; sized in BACKLOG.md; the earlier "interstitial" was a wrong
+  granule id — chapters are `BUDGET-2027-APP-2-N`, plain curl works).
+- **NEW QUEUE — OMB family starter (PDF → vision, render-anchored):**
+  `omb/budget-appendix-fy2027-leg-cbo` (D2, ~100 cells) — Congressional
+  Budget Office account: P&F schedule + Object Classification +
+  Employment Summary, 3 year-columns; relations: obligations total
+  (99.9 = Σ object classes), budgetary-resources identity, outlays-net
+  roll-up. Text layer strips spaces in schedules — read values from the
+  RENDER (SOURCES.md quirk note).
 
 ---
 
