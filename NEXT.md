@@ -112,8 +112,21 @@ applicable columns handled as usual (standalone + total-row net identity).
   estimate was unnecessary once Independent Agencies units already set the
   raised ceiling (~280–295 cells); the sum relation requires all 30 section
   totals in one file.
-- fec/2024-presidential-general, omb/budget-appendix-slice — D1 (web)
-  vendoring first (alternative new families).
+- [x] fec/2024-presidential-general vendoring — **DONE 2026-07-17**
+  (`sources/fec/2024presgeresults.pdf`, sized in BACKLOG.md: ≈12–13 units).
+- **NEW QUEUE — FEC family (all PDF → vision):**
+  1. `fec/2024-presidential-general-electoral` (D3, ~110 cells) — p1
+     electoral votes: 51 jurisdictions × {Trump EV, Harris EV} + Total row;
+     relations: column sums 312/226 + 312+226=538. The family's proof unit.
+  2. pp2–6 popular-vote blocks (D2, ~2 sub-units per page-block at the
+     ≤140 ceiling) — sized in BACKLOG.md; dispatch after the starter
+     settles the family's row/label conventions (jurisdiction codes as
+     printed: AL…WY, DC; asterisked footnotes transcribed as printed).
+  3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
+     `-departmental` pattern).
+- omb/budget-appendix-slice — D1 (web) vendoring pending: govinfo serves
+  an HTML interstitial to plain curl (2026-07-17); chapter URL + fetch
+  path being resolved. Vendor + size-cap check, then queue.
 
 ---
 
