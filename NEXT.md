@@ -115,9 +115,11 @@ applicable columns handled as usual (standalone + total-row net identity).
 - [x] fec/2024-presidential-general vendoring — **DONE 2026-07-17**
   (`sources/fec/2024presgeresults.pdf`, sized in BACKLOG.md: ≈12–13 units).
 - **NEW QUEUE — FEC family (all PDF → vision):**
-  1. `fec/2024-presidential-general-electoral` (D3, ~110 cells) — p1
+  1. ~~`fec/2024-presidential-general-electoral` (D3, ~110 cells) — p1
      electoral votes: 51 jurisdictions × {Trump EV, Harris EV} + Total row;
-     relations: column sums 312/226 + 312+226=538. The family's proof unit.
+     relations: column sums 312/226 + 312+226=538. The family's proof unit.~~
+     **SHIPPED 2026-07-17** (Kimi — 108 cells / 6 relations, all exact;
+     corpus #64; commit `1a82360`).
   2. pp2–6 popular-vote blocks (D2, ~2 sub-units per page-block at the
      ≤140 ceiling) — sized in BACKLOG.md; dispatch after the starter
      settles the family's row/label conventions (jurisdiction codes as
@@ -139,6 +141,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-17 · fec/2024-presidential-general-electoral (D3, Kimi) — Corpus **#64**, the FEC family's proof unit (page 1): 51 jurisdiction rows × {ELECTORAL VOTES, Trump EV, Harris EV} + Total row. **108 cells / 6 sum relations** (floor 6) = 3 column sums (538/312/226) + the 312+226=538 capstone + 2 split-state row identities (ME 1+3=4, NE 4+1=5), **all exact, 0 tol**. Winner-take-all blanks not transcribed (blank ≠ zero); 1 standalone ("Total Electoral Votes Needed to Win = 270" italic reference line). Column assignment proven three ways: positioned text-layer extraction (x-bands — resolves the `AL 9 9` loser-column ambiguity), column sums re-derived == printed Total, page-1 render check. reconcile GREEN (0 warnings), pytest 10/10. Commit `1a82360`.
 
 - 2026-07-16 · treasury-mts/2026-05-outlays-grand-sum (D2, Oz / Grok 4.5 high) —
   Corpus **#63**, optional table-wide grand-sum capstone. Re-anchors all **30**
