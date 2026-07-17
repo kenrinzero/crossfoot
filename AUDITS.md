@@ -304,3 +304,13 @@ Applicable Receipts "1" on the Other line, p18) — **PASS**.
 ### 5. Conclusion
 Faithful to the rendered source; all 70 cells token-exact; oracle GREEN.
 **GREEN.**
+
+---
+
+## Spot-Audit: Unit 70 — FEC Popular Vote Block 5 (WEST…TOTAL VOTES)
+
+- **Audit Date:** _pending_
+- **Auditor:** _pending — **different agent required** (transcriber: Kimi, commit `fc2e1bc`)_
+- **Table ID:** `fec/2024-presidential-general-popular-block-5`
+- **Source Document:** `sources/fec/2024presgeresults.pdf` (page 6)
+- **Status:** **DUE** — every-10th-unit audit, queued 2026-07-17. Verify: metadata (title/period/source line), 51+3 row labels and 5 column labels (two-line headers NONE OF THESE CANDIDATES / WRITE-IN VOTES (SCATTERED)), 10 sampled cell values against the page-6 render (suggested coverage: WEST cell, WRITE-IN cell, TOTAL VOTES cells incl. a large one like CA 15,865,475, the single-jurisdiction WOOD-AR 1,144 and NONE-NV 19,625 standalones, national totals incl. 155,238,302), omission convention (blanks ≠ zero), and the reconcile gate.

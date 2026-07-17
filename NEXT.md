@@ -120,22 +120,11 @@ applicable columns handled as usual (standalone + total-row net identity).
      relations: column sums 312/226 + 312+226=538. The family's proof unit.~~
      **SHIPPED 2026-07-17** (Kimi — 108 cells / 6 relations, all exact;
      corpus #64; commit `1a82360`).
-  2. p6 final popular-vote block (D2 — WRITE-IN + TOTAL VOTES columns; one
-     unit unless over the ≤140 ceiling) — conventions settled: jurisdiction
-     codes as printed (AL…WY, DC), blanks omitted, single-jurisdiction columns
-     → standalone (schema minItems-2), Percentage row standalone (denominator
-     on final block), splits go by column groups, page-specific x-bands.
-     ~~Block 1 (p2: AYYADURAI…EBKE)~~ **SHIPPED 2026-07-17** (Kimi — 75 cells /
-     3 relations; corpus #65; commit `4e611da`).
-     ~~Block 2 (p3: EVERYLOVE…KENNEDY, HARRIS dense)~~ **SHIPPED 2026-07-17**
-     (Kimi — 107 cells / 4 relations; corpus #66; commit `f26be00`).
-     ~~Block 3 (p4: KISHORE…STEIN, 141 cells → split)~~ **SHIPPED 2026-07-17**
-     (Kimi — 3a 63 cells / 2 relations #67 + 3b 78 cells / 3 relations #68;
-     commit `38d585d`).
-     ~~Block 4 (p5: STODDEN…WELLS, TRUMP dense)~~ **SHIPPED 2026-07-17**
-     (Kimi — 79 cells / 4 relations; corpus #69; commit `e052643`).
-     **⚠ p6 will be corpus #70 — the every-10th different-agent spot-audit
-     fires: whoever transcribes p6 CANNOT audit it (AUDITS.md).**
+  2. ~~p6 final popular-vote block~~ **SHIPPED 2026-07-17** (Kimi — 125 cells /
+     3 relations incl. national TOTAL VOTES 155,238,302; corpus #70; commit
+     `fc2e1bc`). **⚠ AUDIT DUE: unit #70 needs a DIFFERENT agent (placeholder
+     in AUDITS.md).** Popular-vote sequence complete (pp1–6 all transcribed);
+     remaining family work: the cross-page capstone (item 3).
   3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
      `-departmental` pattern).
 - [x] omb/budget-appendix-slice vendoring — **DONE 2026-07-17**
@@ -153,6 +142,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-17 · fec/2024-presidential-general-popular-block-5 (D2, Kimi) — Corpus **#70**, the final popular-vote block (page 6: WEST, WOOD, NONE OF THESE CANDIDATES, WRITE-IN VOTES (SCATTERED), TOTAL VOTES). **125 cells / 3 exact sum relations** (floor 3) = WEST column (82,644), WRITE-IN column (210,381), and the TOTAL VOTES column footing to the printed national **155,238,302**. WOOD (AR only) + NONE OF THESE CANDIDATES (NV only — Nevada's ballot option) single-jurisdiction → standalone per `minItems: 2` (4 cells); 4 Percentage cells standalone (TOTAL VOTES pct blank as printed). Per-row TOTAL VOTES decomposition spans all blocks → deferred to the cross-page capstone (re-anchor pattern). Positioned extraction + page-6 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `fc2e1bc`. **Every-10th audit fires — DUE to a different agent (placeholder in `AUDITS.md`).**
 
 - 2026-07-17 · fec/2024-presidential-general-popular-block-4 (D2, Kimi) — Corpus **#69**, fourth popular-vote block (page 5: STODDEN, SUPREME, TERRY, TRUMP, WELLS) — the TRUMP block: TRUMP dense (51/51, 77,302,580 = 49.80%), TERRY scattered (13), STODDEN (IA, MD) and SUPREME (DE, VT) two-cell columns — valid sums at the schema's `minItems: 2` minimum. **79 cells / 4 exact sum relations** (floor 4) = column sums (364 / 921 / 41,294 / 77,302,580). WELLS (RI only) single-jurisdiction → standalone (2 cells); 5 Percentage cells standalone. Positioned extraction + page-5 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `e052643`.
 
