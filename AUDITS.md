@@ -215,3 +215,92 @@ An independent audit-side system-Python run of the same reconciler against the s
 ### 5. Audit Conclusion
 
 The transcription of `treasury-mts/2026-05-outlays-transportation-departmental` by Antigravity (`3c85bbd`) is clean and faithful to the rendered source. The title, reporting periods, USD-million scale, 9-column mapping, all 14 unit rows and their re-anchor/hierarchy structure, all printed omission positions, and the exact 10-cell stratified sample match pages 16–17 with zero discrepancies. `reconcile.py` is GREEN with 0 warnings. **GREEN.**
+
+---
+
+## Spot-Audit: Unit 50 — HHS / CMS
+
+- **Audit Date:** 2026-07-17
+- **Auditor:** Claude Fable 5
+- **Transcriber:** Antigravity (batch commit `450fb91`)
+- **Table ID:** `treasury-mts/2026-05-outlays-hhs-cms`
+- **Source Document:** `sources/treasury-mts/mts-202605.pdf`, Table 5, page 13 (spill to 14 checked; unit is p13-complete)
+- **Status:** **GREEN**
+
+**Numbering note (tie-break, recorded once for the batch):** corpus #43–62
+landed in one batch commit (`450fb91`), so per-unit ship order inside the
+batch is not recoverable. This audit series therefore numbers the batch by
+deterministic **git add-order** (`git log --reverse --diff-filter=A`),
+under which **#50 = `hhs-cms`** and **#60 = `treasury-irs`**. The cadence's
+intent (periodic different-agent sampling) is preserved either way.
+
+### 1. Metadata
+- Title "Table 5. Outlays of the U.S. Government, May 2026 and Other
+  Periods - Continued", [$ millions], page 13 — **PASS** (render).
+- 9-column structure (This Month / Current FYTD / Prior FYTD × Gross
+  Outlays / Applicable Receipts / Outlays) — **PASS** (render).
+- Unit note "CMS only (unit 1/3)" consistent with section layout — **PASS**.
+
+### 2. Row labels
+All 14 row labels verified against the page-13 render, including the
+two-line wrapped "Total--Federal Supplementary Medical Insurance Trust
+Fund" and the "Medicare Prescription Drugs: Benefit Payments" nesting —
+**PASS** (zero mismatches).
+
+### 3. Cell values — FULL-ROW verification (exceeds the 10-cell minimum)
+Text-layer check (pdfplumber, `(cid:NN)`→`chr(NN+29)` decode,
+wrapped-label continuation handling): the complete ordered numeric token
+sequence of **every transcribed row matches the source line exactly —
+14/14 rows, i.e. all 84 cells**. The seed-42 10-cell sample additionally
+confirmed on the visual render (row1c6=471,709; row2c9=386,820;
+row3c3=2,029/c4=16,270/c9=14,695; row5c7=304,554; row6c3=314/c9=2,718;
+row12c6=514,340; row14c6=1,755,721) — **PASS**.
+
+### 4. Reconcile Gate
+`uv run python reconcile.py tables/treasury-mts/2026-05-outlays-hhs-cms.cells.json`
+→ `GREEN … (0 warning(s))`; `uv run pytest` 10/10.
+
+### 5. Conclusion
+Faithful to the rendered source; all 84 cells token-exact; oracle GREEN.
+**GREEN.**
+
+---
+
+## Spot-Audit: Unit 60 — Treasury / IRS
+
+- **Audit Date:** 2026-07-17
+- **Auditor:** Claude Fable 5
+- **Transcriber:** Antigravity (batch commit `450fb91`)
+- **Table ID:** `treasury-mts/2026-05-outlays-treasury-irs`
+- **Source Document:** `sources/treasury-mts/mts-202605.pdf`, Table 5, pages 17–18
+- **Status:** **GREEN**
+
+(Numbering tie-break as recorded in the Unit-50 entry: git add-order
+inside batch `450fb91`; #60 = `treasury-irs`.)
+
+### 1. Metadata
+- Title/period/[$ millions]/9-column structure — **PASS** on both page
+  renders (17 and 18); unit correctly declares the p17→18 spill
+  ("Pages 17-18").
+
+### 2. Row labels
+All 11 IRS row labels verified on the renders, including the two-line
+wraps ("Refundable Premium Tax Credits and Cost Sharing Reductions",
+"Payment Where Earned Income Credit Exceeds Liability for Tax", "Payment
+Where American Opportunity Tax Credit Exceeds Liability for Tax") and
+the p18 continuation rows — **PASS**.
+
+### 3. Cell values — FULL-ROW verification (exceeds the 10-cell minimum)
+Text-layer check with continuation handling: **11/11 rows token-exact —
+all 70 cells**. Seed-42 10-cell sample additionally confirmed on the
+renders (row1c6=2,469; row3c3=457/c4=3,336/c9=4,156; row5c7=80,075;
+row6c3=2,852/c9=63,842; row8c3=163/c9=2,429; row10c5=1 — the lone CFYTD
+Applicable Receipts "1" on the Other line, p18) — **PASS**.
+
+### 4. Reconcile Gate
+`uv run python reconcile.py tables/treasury-mts/2026-05-outlays-treasury-irs.cells.json`
+→ `GREEN … (0 warning(s))`; `uv run pytest` 10/10.
+
+### 5. Conclusion
+Faithful to the rendered source; all 70 cells token-exact; oracle GREEN.
+**GREEN.**
