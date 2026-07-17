@@ -120,7 +120,7 @@ applicable columns handled as usual (standalone + total-row net identity).
      relations: column sums 312/226 + 312+226=538. The family's proof unit.~~
      **SHIPPED 2026-07-17** (Kimi — 108 cells / 6 relations, all exact;
      corpus #64; commit `1a82360`).
-  2. pp3–6 popular-vote blocks (D2, one unit per block unless dense — the
+  2. pp4–6 popular-vote blocks (D2, one unit per block unless dense — the
      ≤140 ceiling decides; fringe blocks like p2 are ~75 cells, major-candidate
      blocks approach ~300) — conventions settled by the starter + block 1:
      jurisdiction codes as printed (AL…WY, DC), blanks omitted, sparse columns
@@ -128,6 +128,8 @@ applicable columns handled as usual (standalone + total-row net identity).
      Percentage row standalone (denominator on final block).
      ~~Block 1 (p2: AYYADURAI…EBKE)~~ **SHIPPED 2026-07-17** (Kimi — 75 cells /
      3 relations; corpus #65; commit `4e611da`).
+     ~~Block 2 (p3: EVERYLOVE…KENNEDY, HARRIS dense)~~ **SHIPPED 2026-07-17**
+     (Kimi — 107 cells / 4 relations; corpus #66; commit `f26be00`).
   3. Cross-page capstone: per-state TOTAL VOTES re-anchor (Table-5
      `-departmental` pattern).
 - [x] omb/budget-appendix-slice vendoring — **DONE 2026-07-17**
@@ -145,6 +147,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-17 · fec/2024-presidential-general-popular-block-2 (D2, Kimi) — Corpus **#66**, second popular-vote block (page 3: EVERYLOVE, FRUIT, GARRITY, HARRIS, HUBER, KENNEDY) — the first major-candidate block: HARRIS dense (51/51 jurisdictions, 75,017,613), KENNEDY broad (31 cells). **107 cells / 4 exact sum relations** (floor 4) = per-candidate column sums (4,118 / 5,297 / 75,017,613 / 756,393, all foot exactly). **10 standalones**: EVERYLOVE (UT only) + HUBER (CO only) single-jurisdiction columns → standalone + `why` per schema `minItems: 2` (4 cells); 6 Percentage cells standalone (national denominator on the final block). Positioned extraction (6 x-band columns) + page-3 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `f26be00`.
 
 - 2026-07-17 · fec/2024-presidential-general-popular-block-1 (D2, Kimi) — Corpus **#65**, first popular-vote block (page 2: AYYADURAI, BOWMAN, DE LA CRUZ, DUNCAN, EBKE). The ~300-cells-per-block sizing estimate broke on contact: fringe columns are SPARSE — 65 printed state cells — so the whole block fits one unit. **75 cells / 3 exact sum relations** (floor 3) = per-candidate column sums (28,437 / 5,975 / 166,175, all foot exactly). **9 standalones**: DUNCAN (OH only) + EBKE (NM only) are single-jurisdiction columns whose state cell equals the national total — the frozen schema's `minItems: 2` forbids 1-source sums → standalone + `why` (4 cells); the 5 Percentage cells are standalone (national denominator prints on the final block, capstone-anchored later). Positioned extraction + page-2 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `4e611da`.
 
