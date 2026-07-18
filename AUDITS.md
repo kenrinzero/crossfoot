@@ -634,3 +634,30 @@ The 10-cell sample was stratified to test negative values, offsetting collection
 
 ### 5. Audit Conclusion
 The transcription of `omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant` by Claude Fable 5 is clean, accurate, and completely faithful to the rendered source. The rich relation topology (including the reimbursable identity `0900 = 0001+0801`, gross outlays `4020 = 4010+4011`, offsets `4040 = 4030+4033`, and direct obligations sum) reconciles perfectly with 0 warnings. **GREEN.**
+
+---
+
+## Spot-Audit: Unit 129 — Architect of the Capitol / Botanic Garden
+
+- **Audit Date:** 2026-07-18
+- **Auditor:** Claude Fable 5
+- **Transcriber:** Antigravity (batch commit `e582c99`, #121–129; #129 = `-botanic-garden` per the recorded NEXT.md numbering)
+- **Cadence note:** Conducted at corpus #129, ONE UNIT EARLY, per Kenrin's explicit call (2026-07-18) — this audit satisfies the #130 every-10th slot; the next cadence fire is corpus **#140**.
+- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-botanic-garden](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-aoc-botanic-garden.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf), PDF page 16 (printed 28), right column (left column is Administrative Provisions legal text; Library of Congress chapter starts below)
+- **Method:** fresh independent pypdfium2 4x render (`scratchpad/audit129-p16-4x.png`) + text-layer cross-check; FULL-coverage machine comparison of every transcribed cell against the render read (not a 10-cell sample), plus label/omission/metadata verification.
+- **Status:** **GREEN after one completeness repair** (details below)
+
+### 1. Verification results
+- **Metadata / id / period:** id `009-0200-0-1-801`, three FY columns — **PASS**.
+- **All 32 row labels:** match the render exactly, including the `1121 Appropriations transferred from other acct [001-0108]` cross-reference — **PASS**.
+- **All 90 transcribed values:** machine-compared to the render read — **90/90 exact, zero mismatches**, negatives as printed (3020/3040), blank-vs-zero omissions all correct.
+- **Cross-unit consistency:** `1121` (+2 c1) mirrors Capitol Grounds #117's `1120b` (-2 c1) transfer — **PASS**.
+- **Arithmetic gate:** reconcile GREEN 0 warnings; pytest 10/10; full-corpus sweep 129/129 GREEN.
+
+### 2. Finding and repair (the audit's catch)
+- **Completeness defect:** the printed **`1001 Discretionary unobligated balance brought fwd, Oct 1` non-add memo row (17, c1 only)** — present in every sibling AoC unit — was missing from the transcription entirely (the unit had 90 of the 91 printed cells). Invisible to reconcile because the row is standalone-class (participates in no arithmetic).
+- **Repair applied in this audit session** (per the #76 precedent: values untouched, mechanical insert): row added in print order as `standalone` with the standard memo `why`; all row indices/cell ids/relation references renumbered; unit_note carries the repair annotation. Post-repair: 91 cells / 17 relations, reconcile GREEN 0 warnings, sweep 129/129.
+
+### 3. Audit conclusion
+Antigravity's transcription is value-perfect (90/90 exact) with a single missing memo cell, now repaired. **GREEN.** Batch-shipped units remain auditable via the recorded NEXT.md numbering; the missing-memo-row failure mode (invisible to strict coverage) is exactly what this non-arithmetic cadence exists to catch — recommend transcribers cross-check row COUNTS against the print, not just relation closure. Next every-10th audit: corpus #140.
