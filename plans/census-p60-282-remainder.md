@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Correct the Census appendix inventory, preserve the shipped legacy unit without duplicate work, and advance Table A-2 through source-native percent-distribution slices with an auditable route to corpus #170.
+**Goal:** Correct the Census appendix inventory, preserve the shipped legacy unit without duplicate work, and advance Table A-2 through source-native percent-distribution slices with auditable ten-unit checkpoints.
 
 **Architecture:** Treat each Table A-2 unit as one demographic group and one contiguous source-year band. Each row carries the 11 already-settled cells (household count, printed 100 total, and nine income-bracket percentages), two relations (a `sum` targeting the printed 100 and a `percent-closure` over the nine brackets), and one standalone household-count cell. Keep every unit at 13 rows / 143 cells or fewer; exclude the median/mean columns because the shipped seed deliberately scoped the arithmetic-bearing distribution block only.
 
@@ -15,7 +15,7 @@
 - Every A-2 slice is re-read from `sources/census/p60-282.pdf`; no values are copied from another corpus unit.
 - Every A-2 slice must reconcile GREEN with zero warnings under strict coverage and meet its manifest relation floor.
 - Render verification is mandatory even when the PDF text layer is used for extraction.
-- Corpus #170 must be audited by an agent other than its transcriber before later units ship.
+- Corpus #170 was audited GREEN by an agent other than its transcriber before later units shipped; repeat the different-agent gate at corpus #180.
 - The historical id `census-p60/2023-income-a1` remains unchanged; documentation must identify it as the legacy-named A-2 ALL RACES 2023-2017 slice.
 
 ---
@@ -227,4 +227,26 @@ Expected: tests pass and package metadata remains unchanged unless repository hi
 - [x] **#168:** WHITE historical 1988-1976, 13 rows / 143 cells.
 - [x] **#169:** WHITE historical 1975-1967, 9 rows / 99 cells; historical WHITE complete.
 - [x] **#170:** WHITE ALONE, NOT HISPANIC 2023 through the second printed 2013 series row, 13 rows / 143 cells.
-- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #170 and records it in `AUDITS.md` before #171 ships.
+- [x] **Audit gate:** Antigravity performed the different-agent audit of #170 and recorded GREEN in `AUDITS.md`, unblocking #171.
+
+### Task 6: Continue A-2 to the #180 audit gate
+
+**Files:**
+- Create: ten additional `tables/census-p60/*.cells.json` units
+- Modify: `BACKLOG.md`, `NEXT.md`, `README.md`, `AUDITS.md`, and this plan
+
+**Interfaces:**
+- Consumes: the audited-GREEN #170 unit and the same A-2 source-native split policy.
+- Produces: corpus #171-180, stopping before #181 until a different-agent audit of #180 is GREEN.
+
+- [x] **#171:** WHITE ALONE, NOT HISPANIC 2012-2002, 11 rows / 121 cells; modern group complete.
+- [x] **#172:** WHITE, NOT HISPANIC historical 2001-1989, 13 rows / 143 cells.
+- [x] **#173:** WHITE, NOT HISPANIC historical 1988-1976, 13 rows / 143 cells.
+- [x] **#174:** WHITE, NOT HISPANIC historical 1975-1972, 4 rows / 44 cells; historical group complete.
+- [x] **#175:** BLACK ALONE OR IN COMBINATION 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#176:** BLACK ALONE OR IN COMBINATION 2012-2002, 11 rows / 121 cells; group complete.
+- [x] **#177:** BLACK ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#178:** BLACK ALONE 2012-2002, 11 rows / 121 cells; modern group complete.
+- [x] **#179:** BLACK historical 2001-1989, 13 rows / 143 cells.
+- [x] **#180:** BLACK historical 1988-1976, 13 rows / 143 cells.
+- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #180 and records it in `AUDITS.md` before #181 ships.

@@ -880,3 +880,20 @@ The 10-cell sample was stratified to test household counts, redesigned series, l
 
 ### 5. Audit Conclusion
 Codex's transcription of `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013` is value-perfect, complete, and completely faithful to the Census P60-282 report. All 143 values are exact, row labels and redesigned/legacy years are accurately represented, and all rounding tolerances are mathematically verified and honest to the source. **GREEN.** Next every-10th different-agent audit: corpus **#180**.
+
+
+---
+
+## Spot-Audit: Unit 180 — Census P60-282 Table A-2 BLACK historical 1988-1976 (DUE)
+
+- **Audit status:** **DUE — #181 BLOCKED pending GREEN**
+- **Transcriber:** Codex (`codex/census-p60-sizing`)
+- **Required auditor:** a different agent
+- **Table ID:** `census-p60/2023-income-a2-black-historical-1988-1976`
+- **Source:** `sources/census/p60-282.pdf`, PDF page 28 (printed page 22), historical BLACK block from 1988 through 1976
+- **Shipped shape:** 13 rows / 143 cells / 26 relations / 13 standalone household counts
+- **Transcriber evidence:** upright pypdfium2 render inspected; independent pypdf extraction matched 143/143 cells; reconcile GREEN with 0 warnings; full-corpus and pytest gates recorded at checkpoint
+
+### Required non-arithmetic audit
+
+Using a fresh render, verify every row label and all 143 printed values (or a stratified value sample plus a full independent multiset comparison), with special attention to row completeness, footnote-marked historical years, and the eight source-authorized 0.1/0.2 rounding tolerances. Record the auditor identity, method, discrepancies or repairs, and final GREEN/RED result here before any corpus #181 unit ships.
