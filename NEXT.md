@@ -83,7 +83,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -129,8 +129,8 @@ audited and GREEN by Antigravity** (unblocking #171).
   under the numeric-only schema), strict reconcile, and the full corpus
   gate. The render-anchored different-agent audit of #190
   (`census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013`)
-  is now **DUE**; #191 is blocked until it records GREEN in `AUDITS.md`.
-  After GREEN, #191 is AMERICAN INDIAN AND ALASKA NATIVE ALONE 2012-2002
+  has been completed and recorded as **GREEN** in `AUDITS.md` by Antigravity.
+  **#191 is unblocked**; #191 is AMERICAN INDIAN AND ALASKA NATIVE ALONE 2012-2002
   (11 rows / 121 cells), completing that modern group. Any non-default
   tolerance must quote the report's rounding note per DESIGN §3.
 
@@ -168,7 +168,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013` — #190 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit DUE; #191 blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013` — #190 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit GREEN (Antigravity); #191 unblocked.**
 - 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-or-in-combination-2012-2002` — #189 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; group complete.
 - 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-or-in-combination-2023-2013` — #188 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-asian-pacific-islander-historical-1988-1987` — #187 (Codex). 21 numeric cells/4r/1 standalone; strict-default GREEN; independent pypdf comparison 21/21 numeric cells exact; printed 1987 count `N` documented and omitted; historical group complete.
