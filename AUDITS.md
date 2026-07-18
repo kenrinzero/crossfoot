@@ -661,3 +661,63 @@ The transcription of `omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant` by
 
 ### 3. Audit conclusion
 Antigravity's transcription is value-perfect (90/90 exact) with a single missing memo cell, now repaired. **GREEN.** Batch-shipped units remain auditable via the recorded NEXT.md numbering; the missing-memo-row failure mode (invisible to strict coverage) is exactly what this non-arithmetic cadence exists to catch — recommend transcribers cross-check row COUNTS against the print, not just relation closure. Next every-10th audit: corpus #140.
+
+---
+
+## Spot-Audit: Unit 139 — Treasury MTS Table 7 Receipts Totals/Budget splits
+
+- **Audit Date:** 2026-07-18
+- **Auditor:** Grok (Grok 4.5 / Grok Build CLI)
+- **Transcriber:** Antigravity (batch commit `6af87ac`, #132–139; #139 = `2026-05-table7-receipts-totals`)
+- **Cadence note:** Conducted at corpus #139, ONE UNIT EARLY, per Kenrin's explicit call (2026-07-18) — this audit satisfies the #140 every-10th slot before unit #140 is shipped by the same session; the next cadence fire is corpus **#150**.
+- **Table ID:** [treasury-mts/2026-05-table7-receipts-totals](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table7-receipts-totals.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 34 (Table 7 Receipts totals block)
+- **Method:** independent pypdfium2 3x render (`scratchpad/mts-p34-3x.png`) + pdfplumber text-layer (cid+29 decode) + FULL-coverage machine comparison of every transcribed cell against the printed values (not a 10-cell sample).
+- **Status:** **GREEN** (all verification checks passed; 54/54 cells exact)
+
+### 1. Metadata Verification
+- **Table title / period:** "Table 7. Receipts and Outlays of the U.S. Government by Month, Fiscal Year 2026" / May FY2026 — **PASS**
+- **Units / scale:** `[$ millions]` — **PASS**
+- **Columns (10):** October … May, Year to Date, Comparable Period Prior F.Y. — **PASS** (June–Sept blank for YTD-through-May and correctly not claimed as data columns beyond the 10 printed numeric bands)
+- **Rows (6):** Total--Receipts This Year / (On-Budget) / (Off-Budget) + Total--Receipts Prior Year / (On-Budget) / (Off-Budget) — **PASS**
+- **Omission convention:** This-Year rows correctly omit Prior-FY (`......`); Prior-Year rows correctly omit YTD (`......`) — blank ≠ zero — **PASS**
+
+### 2. Full-coverage value verification
+Machine-compared all 54 cells to the page-34 source (text layer cross-checked against the 3x render):
+
+| Block | Cells | Result |
+| :--- | ---: | :--- |
+| This Year Total (r1, c1–c9) | 9 | **9/9 exact** |
+| This Year On-Budget (r2, c1–c9) | 9 | **9/9 exact** |
+| This Year Off-Budget (r3, c1–c9) | 9 | **9/9 exact** |
+| Prior Year Total (r4, c1–c8 + c10) | 9 | **9/9 exact** |
+| Prior Year On-Budget (r5, c1–c8 + c10) | 9 | **9/9 exact** |
+| Prior Year Off-Budget (r6, c1–c8 + c10) | 9 | **9/9 exact** |
+
+Spot high-risk samples also confirmed on the render (negatives N/A in this block; YTD/Prior split; On+Off identities):
+
+| Cell ID | Row | Col | JSON | Source | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | Total--Receipts This Year | October | `404371` | `404,371` | **PASS** |
+| `r1c9` | Total--Receipts This Year | Year to Date | `3655648` | `3,655,648` | **PASS** |
+| `r2c7` | (On-Budget) This Year | April | `696834` | `696,834` | **PASS** |
+| `r3c8` | (Off-Budget) This Year | May | `110072` | `110,072` | **PASS** |
+| `r4c8` | Total--Receipts Prior Year | May | `371229` | `371,229` | **PASS** |
+| `r4c10` | Total--Receipts Prior Year | Prior F.Y. | `3481701` | `3,481,701` | **PASS** |
+| `r5c4` | (On-Budget) Prior Year | January | `392261` | `392,261` | **PASS** |
+| `r6c2` | (Off-Budget) Prior Year | November | `94718` | `94,718` | **PASS** |
+| `r1c6` | Total This Year | March | `384863` | `384,863` | **PASS** (tol-1 On+Off identity) |
+| `r6c10` | (Off-Budget) Prior Year | Prior F.Y. | `852274` | `852,274` | **PASS** |
+
+### 3. Relation / rounding honesty
+- 18 sum relations: On-Budget + Off-Budget = Total for This-Year cols 1–9 and Prior-Year cols 1–8 + c10.
+- Two printed rounding gaps (March This Year and March Prior Year, delta 1 each) correctly carry `tol: "1"` with the page-34 rounding note quoted — **PASS**
+- No under-declaration; no invented slack.
+
+### 4. Reconcile Gate
+- `uv run python reconcile.py tables/treasury-mts/2026-05-table7-receipts-totals.cells.json` → **GREEN**, 0 warnings
+- `uv run pytest` → 10/10
+- Full-corpus sweep (pre-ship): 139/139 GREEN
+
+### 5. Audit Conclusion
+Antigravity's transcription of `treasury-mts/2026-05-table7-receipts-totals` is clean and faithful to the rendered source. All 54 values exact, omission conventions correct, and the On/Off budget split identities are correctly encoded with source-authorized rounding tolerance where the print does not foot exactly. **GREEN.** Next every-10th different-agent audit: corpus **#150**.

@@ -60,25 +60,26 @@ control-plane project log):
   Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
   #118, House Office Buildings #119, Capitol Power Plant #120.
 
-Every-10th different-agent spot-audits GREEN through **#129**: #120
+Every-10th different-agent spot-audits GREEN through **#139**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
 completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
-slot; **next cadence fire is corpus #140**. Lesson for transcribers:
-cross-check row COUNTS against the print — a missing standalone-class
-row is invisible to strict coverage. In the OMB
+slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
+by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
+(satisfies the #140 slot); **next cadence fire is corpus #150**.
+Lesson for transcribers: cross-check row COUNTS against the print — a
+missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1, 2, 3, 8, 9, and Table 7 Receipts complete: #130-139):
+The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1, 2, 3, 8, 9, Table 7 Receipts, and Table 7 Outlays leg-def complete: #130-140):
 
-- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules; Receipts complete: #138-139)
-  - `treasury-mts/2026-05-table7-outlays-leg-def` (~150 cells / 15 relations. D3)
+- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules; Receipts complete: #138-139; Outlays leg-def complete: #140)
   - `treasury-mts/2026-05-table7-outlays-edu-labor` (~150 cells / 15 relations. D3)
   - `treasury-mts/2026-05-table7-outlays-state-gsa` (~120 cells / 12 relations. D3)
   - `treasury-mts/2026-05-table7-outlays-intl-sba` (~80 cells / 8 relations. D3)
@@ -134,6 +135,8 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-leg-def` — #140 (Grok). Outlays Legislative through Total DoD Military; 150c/25r/6 standalone (Prior-FY on non-DoD lines). DoD bureau roll-ups + per-row Oct–May→YTD.
+- 2026-07-18 · `treasury-mts/2026-05-table7-receipts-totals` — #139 audit: **GREEN** (Grok, one early per Kenrin; 54/54 values exact; `AUDITS.md`). Next audit #150.
 - 2026-07-18 · `treasury-mts/2026-05-table7-receipts-totals` — #139 (Antigravity). Receipts Totals/Budget splits; 54c/18r/0 standalone.
 - 2026-07-18 · `treasury-mts/2026-05-table7-receipts-detail` — #138 (Antigravity). Receipts Detail rows; 90c/0r/90 standalone.
 - 2026-07-18 · `treasury-mts/2026-05-table8-investments` — #137 (Antigravity). Securities Held investments; 45c/3r/0 standalone.
