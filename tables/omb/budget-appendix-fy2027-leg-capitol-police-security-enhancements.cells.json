@@ -1,0 +1,32 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-capitol-police-security-enhancements",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "002-0461-0-1-801",
+    "page": 6,
+    "title": "Capitol Police - Security Enhancements (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "columns": [
+    { "index": 1, "label": "2025 actual" },
+    { "index": 2, "label": "2026 est." },
+    { "index": 3, "label": "2027 est." }
+  ],
+  "rows": [
+    { "index": 1, "label": "1000 Unobligated balance brought forward, Oct 1" },
+    { "index": 2, "label": "1930 Total budgetary resources available" },
+    { "index": 3, "label": "1941 Unexpired unobligated balance, end of year" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "1", "role": "standalone", "why": "Single-source resource; schema minItems 2 forbids a relation" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "1", "role": "standalone", "why": "Single-source resource; schema minItems 2 forbids a relation" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "1", "role": "standalone", "why": "Single-source resource; schema minItems 2 forbids a relation" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "1", "role": "standalone", "why": "1000 is the sole printed resource; schema minItems 2 forbids a relation" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "1", "role": "standalone", "why": "1000 is the sole printed resource; schema minItems 2 forbids a relation" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "1", "role": "standalone", "why": "1000 is the sole printed resource; schema minItems 2 forbids a relation" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "1", "role": "standalone", "why": "Memorandum non-add entry; it does not feed section arithmetic" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "1", "role": "standalone", "why": "Memorandum non-add entry; it does not feed section arithmetic" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "1", "role": "standalone", "why": "Memorandum non-add entry; it does not feed section arithmetic" }
+  ],
+  "relations": []
+}
