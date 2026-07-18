@@ -75,27 +75,57 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Treasury MTS May 2026 remainder (QUEUE REFRESH
-  2026-07-18).** The vendored `sources/treasury-mts/mts-202605.pdf`
-  (sha256 ledgered, `(cid:NN)`→`chr(NN+29)` decode, `(**)`/rounding
-  conventions all settled by Tables 4+5) still holds SIX un-transcribed
-  tables. Each needs a sizing pass before transcription (D2 survey →
-  D2/D3 units); suggested order, compact first:
-  1. **Table 1** (p5) — Summary of Receipts, Outlays, and the
-     Deficit/Surplus (check whether Table 2 occupies pp6–7; the header
-     scan only matched Tables 1 and 3).
-  2. **Table 3** (p8) — Summary of Receipts and Outlays.
-  3. **Table 9** (p37) — Summary of Receipts by Source, Outlays by
-     Function.
-  4. **Table 8** (p36) — Trust Fund Impact on Budget Results.
-  5. **Table 7** (pp34–35) — Receipts and Outlays by month.
-  6. **Table 6 FAMILY** (pp24–33) — Means of Financing + Schedules
-     A/C/D/E (~10 pages; expect several units and possibly over-cap
-     splits; treat like a small Table-5).
-  Also available in already-vendored sources: the Census **P60-282**
-  report PDF (only one unit, #3, transcribed from it so far) — a
-  sizing survey of its remaining cross-tabs is a parallel queue-refresh
-  option.
+The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence:
+
+- **Table 1 (p. 5) — Summary of Receipts, Outlays, and the Deficit/Surplus**
+  - Unit: `treasury-mts/2026-05-table1`
+  - Sizing: ~66 cells / 28 relations / 0 standalone waivers. D3.
+- **Table 2 (p. 5) — Budget and Off-Budget Results and Financing**
+  - Unit: `treasury-mts/2026-05-table2`
+  - Sizing: ~51 cells / 28 relations / 0 standalone waivers. D3.
+- **Table 3 (p. 8) — Summary of Receipts and Outlays** (Split into 3 units to stay under 140-cell ceiling)
+  - `treasury-mts/2026-05-table3-receipts` (~56 cells / 12 relations. D3)
+  - `treasury-mts/2026-05-table3-outlays-departments` (~112 cells / 20 relations. D3)
+  - `treasury-mts/2026-05-table3-outlays-remainder` (~56 cells / 15 relations. D3)
+- **Table 9 (p. 37) — Summary of Receipts by Source, and Outlays by Function**
+  - Unit: `treasury-mts/2026-05-table9`
+  - Sizing: ~93 cells / 25 relations / 0 standalone waivers. D3.
+- **Table 8 (p. 36) — Trust Fund Impact on Budget Results** (Split into 2 units by columns)
+  - `treasury-mts/2026-05-table8-activity` (Receipts/Outlays/Excess activity; ~138 cells / 30 relations. D3)
+  - `treasury-mts/2026-05-table8-investments` (Securities Held investments; ~51 cells / 10 relations. D3)
+- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules)
+  - `treasury-mts/2026-05-table7-receipts-detail` (~90 cells / 15 relations. D3)
+  - `treasury-mts/2026-05-table7-receipts-totals` (~60 cells / 10 relations. D3)
+  - `treasury-mts/2026-05-table7-outlays-leg-def` (~150 cells / 15 relations. D3)
+  - `treasury-mts/2026-05-table7-outlays-edu-labor` (~150 cells / 15 relations. D3)
+  - `treasury-mts/2026-05-table7-outlays-state-gsa` (~120 cells / 12 relations. D3)
+  - `treasury-mts/2026-05-table7-outlays-intl-sba` (~80 cells / 8 relations. D3)
+  - `treasury-mts/2026-05-table7-outlays-ssa-totals` (~150 cells / 15 relations. D3)
+- **Table 6 (p. 24) — Means of Financing the Deficit or Disposition of Surplus**
+  - Unit: `treasury-mts/2026-05-table6`
+  - Sizing: ~126 cells / 20 relations / 0 standalone waivers. D3.
+- **Table 6 Schedule A (p. 25) — Analysis of Change in Excess of Liabilities**
+  - Unit: `treasury-mts/2026-05-table6-schedule-a`
+  - Sizing: ~24 cells / 5 relations / 0 standalone waivers. D3.
+- **Table 6 Schedule B (p. 25) — Securities Issued by Federal Agencies**
+  - Unit: `treasury-mts/2026-05-table6-schedule-b`
+  - Sizing: ~42 cells / 5 relations / 0 standalone waivers. D3.
+- **Table 6 Schedule C (pp. 26–28) — Federal Agency Borrowing** (Split into 5 units by page/department)
+  - `treasury-mts/2026-05-table6-schedule-c-agri` (~120 cells / 15 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-c-comm-energy` (~84 cells / 10 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-c-hhs-trans` (~90 cells / 12 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-c-treas-vets` (~60 cells / 8 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-c-epa-ind` (~90 cells / 12 relations. D3)
+- **Table 6 Schedule D (pp. 29–30) — Investments of Federal Government Accounts** (Split into 3 units)
+  - `treasury-mts/2026-05-table6-schedule-d-federal-funds-agri-just` (~90 cells / 10 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-d-federal-funds-labor-totals` (~108 cells / 12 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-d-trust-funds` (~150 cells / 20 relations. D3)
+- **Table 6 Schedule E (pp. 31–33) — Guaranteed and Direct Loan Financing** (Split into 3 units)
+  - `treasury-mts/2026-05-table6-schedule-e-guaranteed` (~132 cells / 15 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-e-direct-part1` (~180 cells / 20 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-e-direct-part2` (~210 cells / 25 relations. D3)
+
+Also available in already-vendored sources: a sizing survey of the Census **P60-282** report cross-tabs remains a parallel queue-refresh option.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
