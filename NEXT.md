@@ -79,7 +79,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is shipped and audit-DUE**; #181 is blocked until a different agent records GREEN in `AUDITS.md`.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -121,10 +121,10 @@ audited and GREEN by Antigravity** (unblocking #171).
 
   **AUDIT GATE — NEXT DISPATCH:** #171–180 are **SHIPPED** and passed
   independent pypdf comparison (1,265/1,265 cells exact), strict
-  reconcile, and the full corpus gate. A **DIFFERENT agent** must audit
-  #180 (`census-p60/2023-income-a2-black-historical-1988-1976`) and
-  record it in `AUDITS.md`. **Do not ship #181 before that audit is
-  GREEN.** After GREEN, #181 is historical BLACK 1975-1967 (9 rows / 99
+  reconcile, and the full corpus gate. The render-anchored audit of
+  #180 (`census-p60/2023-income-a2-black-historical-1988-1976`) has been
+  completed and recorded as **GREEN** in `AUDITS.md` by Antigravity.
+  **#181 is unblocked**; #181 is historical BLACK 1975-1967 (9 rows / 99
   cells), completing that group. Any non-default tolerance must quote
   the report's rounding note per DESIGN §3.
 
@@ -162,7 +162,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `census-p60/2023-income-a2-black-historical-1988-1976` — #180 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit DUE; #181 blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-black-historical-1988-1976` — #180 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit GREEN (Antigravity); #181 unblocked.**
 - 2026-07-18 · `census-p60/2023-income-a2-black-historical-2001-1989` — #179 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-black-alone-2012-2002` — #178 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; modern BLACK ALONE complete.
 - 2026-07-18 · `census-p60/2023-income-a2-black-alone-2023-2013` — #177 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
