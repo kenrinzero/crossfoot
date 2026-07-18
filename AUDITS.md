@@ -402,3 +402,17 @@ Every cell in the .cells.json was checked against the page-21 render (zoomed cro
 - *Result:* **PASS**
 
 **Audit Result:** **GREEN.** The transcription of `omb/budget-appendix-fy2027-leg-loc-payments-copyright` by Antigravity is faithful to the rendered source — all 42 cells token-exact including signs and omissions, and the 0-relation declaration is semantically forced by the page. Next every-10th audit lands at corpus #90.
+
+---
+
+## Spot-Audit: Unit 90 — Capitol Police / General Expenses  ⚠ DUE (placeholder)
+
+- **Status:** **DUE — awaiting a different-agent auditor.**
+- **Transcriber:** Claude Opus 4.8 (commit TBD, shipped 2026-07-18) — **cannot self-audit; a DIFFERENT agent must perform this audit** per DESIGN.md § 6.
+- **Table ID:** `omb/budget-appendix-fy2027-leg-capitol-police-general-expenses` (corpus #90)
+- **Source Document:** `sources/omb/budget-2027-app-2-3-legislative.pdf`, id `002-0476-0-1-801`, PDF pages 5-6 (printed pages 17-18). Program and Financing on p5 (right column) continuing to Object Classification on p6.
+- **Method (suggested):** pypdfium2 render of pages 5-6 (scale ≥3) cross-checked against the pdfplumber text layer (this PDF decodes cleanly — no `(cid:NN)` remap needed, unlike the Treasury MTS PDF). Note the two-column page layout: General Expenses is the RIGHT column of p5; the LEFT column is the sibling Salaries account (#89, id `002-0477`) — do not cross-contaminate.
+- **What to check:** the 9 offsetting/uncollected lines that print only in col 1 (2025 actual) and are correctly omitted where blank (1700/1701/1750, 3060→wait 3060 prints all cols, 3070, 3011, 3041, 4030, 4050, 0801, and 24.0 col 3); the negatives (3020, 3041, 3060, 3090, 4030, 1940); and that 3100/3200 are declared as genuine 2-source obligated-balance sums (unpaid obligations + uncollected payments), not memo duplicates. reconcile GREEN (0 warnings), pytest 10/10 at ship time; 106 cells / 25 relations / 32 standalone.
+- **10-cell sample:** auditor's choice (seed or coverage-stratified), spanning both pages, at least one negative, one offsetting-collections line, one uncollected-payments line, and the 3100/3200 obligated-balance totals.
+
+_(Fill this section in on audit; set Status to GREEN/finding and record the auditor, date, and sampled cells. After it closes, the next every-10th audit lands at corpus #100.)_

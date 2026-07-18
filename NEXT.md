@@ -48,12 +48,15 @@ control-plane project log):
   Table-5 grand-sum capstone #63).
 - **FEC 2024 presidential general** — #64–74, complete (11 units).
 - **OMB FY2027 Legislative Branch** — *in progress*: CBO #75; Library of
-  Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88).
+  Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
+  Capitol Police 2/4 (Salaries #89, General Expenses #90).
 
-Every-10th different-agent spot-audits GREEN through #80; **next audit
-at #90**. In the OMB chapter, Senate + House (pp1–4) carry **zero** P&F
-schedules (pure appropriations language, out of scope); the chapter has
-≈40–45 real accounts.
+Every-10th different-agent spot-audits GREEN through #80. **Unit #90
+(Capitol Police General Expenses) audit is now DUE — a DIFFERENT agent
+than the transcriber (Claude Opus 4.8) must do it; placeholder in
+`AUDITS.md`.** Next audit after that lands at #100. In the OMB chapter,
+Senate + House (pp1–4) carry **zero** P&F schedules (pure appropriations
+language, out of scope); the chapter has ≈40–45 real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
@@ -73,18 +76,27 @@ schedules (pure appropriations language, out of scope); the chapter has
   as one unit if a higher ceiling is acceptable. **D1/D2 sizing pass
   needed before this is D2 execution.**
 
-- **Capitol Police (pp5-6) — partially surveyed, do not treat as
-  complete:** confirmed 2 accounts on page 5 — `Salaries` (id
-  `002-0477-0-1-801`, simple, single ObjClass pair 11.1/12.1, ~20 P&F
-  rows, est. ~70 cells, D2 cap-fit) and `General Expenses` (id
-  `002-0476-0-1-801`, larger — offsetting collections + uncollected
-  payments tracking like FEDLINK, ~34 P&F rows visible on page 5
-  alone, continues onto page 6, not yet sized). Page 6 also holds at
-  least two more entities by name only (Office of Congressional
-  Workplace Rights; Capitol Police Mutual Aid Reimbursements) —
-  **page 6 needs a render + read before this family can be queued as
-  concrete dispatch items**; treat as 4+ accounts, not the ~4-5 rough
-  guess from the chapter-wide survey.
+- **Capitol Police (pp5-6) — 2 of 4 accounts SHIPPED 2026-07-18
+  (Salaries #89, General Expenses #90); pp5-6 now fully read.** Two
+  small accounts remain, both D2 cap-fit:
+  1. `omb/budget-appendix-fy2027-leg-capitol-police-security-enhancements`
+     (id `002-0461-0-1-801`, page 6) — near-degenerate P&F: only
+     1000/1930/1941 populated (all = 1), 4180/4190 blank. Est. ~6-9
+     cells; likely **0 relations** (1930 = 1000 single-source, no
+     appropriation printed), all standalone. Trivial closeout unit.
+  2. `omb/budget-appendix-fy2027-leg-capitol-police-mutual-aid`
+     (id `002-0478-0-1-801`, page 6) — U.S. Capitol Police Mutual Aid
+     Reimbursements. Medium discretionary account (0001/0900,
+     1000/1100/1930, 3000/3010/3020/3050, 4000/4010/4011/4020/4180/4190;
+     several cols blank in 2027 est.). Est. ~40-50 cells. Clean (no
+     offsetting collections). Render + values already captured in
+     `scratchpad/cap-p6-*`.
+
+- **Office of Congressional Workplace Rights — Salaries and Expenses
+  (id `009-1600-0-1-801`, page 6, right column, immediately after
+  Capitol Police):** small clean discretionary account (0001/1100/1930,
+  3010/3020, 4000/4010/4180/4190; ~8/8/9 grid). Est. ~20-25 cells, D2
+  cap-fit — spotted while reading Capitol Police page 6, dispatch-ready.
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
@@ -102,6 +114,8 @@ schedules (pure appropriations language, out of scope); the chapter has
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-capitol-police-general-expenses` — #90 (Claude Opus 4.8). Offsetting collections + uncollected payments; 106c/25r/32 standalone. **⚠ every-10th audit DUE — different agent (placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-capitol-police-salaries` — #89 (Claude Opus 4.8). Clean discretionary account; 66c/12r/26 standalone.
 - 2026-07-18 · `omb/…-tax-court-survivors-annuity` — #88 (Claude Opus 4.8). Trust Fund combined receipts+P&F; 73c/12r/45 standalone. **US Tax Court family complete, 3/3 (#86–88).**
 - 2026-07-18 · `omb/…-tax-court-fees` — #87 (Claude Opus 4.7). Combined receipts+P&F; 30c/3r/24 standalone.
 - 2026-07-18 · `omb/…-tax-court-salaries` — #86 (Claude Opus 4.6). Main account; 98c/16r/27 standalone.
