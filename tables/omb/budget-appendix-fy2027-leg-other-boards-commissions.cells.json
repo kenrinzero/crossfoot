@@ -1,0 +1,186 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-other-boards-commissions",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "009-9911-0-1-999",
+    "page": 36,
+    "title": "Other Legislative Branch Boards and Commissions (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. Other Legislative Branch Boards and Commissions (id 009-9911-0-1-999), a consolidated presentation covering (per the printed narrative): International Conferences and Contingencies; House and Senate Expenses; Western Hemisphere Drug Policy Commission; Women's Suffrage Centennial Commission; and the Oliver Wendell Holmes Devise Fund. P&F starts PDF page 36 (printed 48) bottom left, continues top right (3100/3200 memos; 4180/4190 print blank in all columns). ZERO relations: every printed equality is single-source under schema minItems 2 (same class as OCWR #93 and Capitol Police Security Enhancements #91) - no Outlays row prints at all (3050 carries forward via 3000/3010 alone), and the 0900 label carries '(object class 25.1)' inline.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Direct program activity"
+    },
+    {
+      "index": 2,
+      "label": "0900 Total new obligations, unexpired accounts (object class 25.1)"
+    },
+    {
+      "index": 3,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 4,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 5,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 6,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 7,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 8,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 9,
+      "label": "3200 Obligated balance, end of year"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 0900 Total new obligations (sole program activity); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source total new obligations (equals sole program activity 0001); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1000; no budget authority rows print); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 3050 Unpaid obligations end of year (no outlays row prints; 3010 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 3050 Unpaid obligations end of year (no outlays row prints; 3010 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 3050 Unpaid obligations end of year (no outlays row prints; 3000 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source unpaid obligations end of year (equals 3010; 3000 blank, no outlays row); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source unpaid obligations end of year (equals 3000; 3010 blank, no outlays row); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source unpaid obligations end of year (equals 3000; 3010 blank, no outlays row); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    }
+  ],
+  "relations": []
+}
