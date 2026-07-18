@@ -1,0 +1,1751 @@
+{
+  "table_id": "treasury-mts/2026-05-table7-outlays-uor-totals",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 7. Receipts and Outlays by Month, FY2026 (Outlays: UOR and Monthly Totals)",
+    "page": 35,
+    "title": "Receipts and Outlays by Month (Outlays: UOR and Monthly Totals)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions. Values as printed, thousands separators stripped. '......' and '(**)' omitted not as 0. June\u2013Sept blank. Cap-fit split of former ssa-totals unit. On/Off budget decompositions encoded.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "Year to Date"
+    },
+    {
+      "index": 10,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Outlays / Undistributed Offsetting Receipts: Employer Share, Employee Retirement"
+    },
+    {
+      "index": 2,
+      "label": "Outlays / Undistributed Offsetting Receipts: Interest Received by Trust Funds"
+    },
+    {
+      "index": 3,
+      "label": "Outlays / Undistributed Offsetting Receipts: Rents and Royalties on the Outer Continental Shelf Lands"
+    },
+    {
+      "index": 4,
+      "label": "Outlays / Undistributed Offsetting Receipts: Sale of Major Assets"
+    },
+    {
+      "index": 5,
+      "label": "Outlays / Undistributed Offsetting Receipts: Other"
+    },
+    {
+      "index": 6,
+      "label": "Outlays / Totals This Year: Total Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Outlays / Totals This Year: Total Outlays (On-Budget)"
+    },
+    {
+      "index": 8,
+      "label": "Outlays / Totals This Year: Total Outlays (Off-Budget)"
+    },
+    {
+      "index": 9,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 10,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-) (On-Budget)"
+    },
+    {
+      "index": 11,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-) (Off-Budget)"
+    },
+    {
+      "index": 12,
+      "label": "Outlays / Totals This Year: Total Borrowing from the Public"
+    },
+    {
+      "index": 13,
+      "label": "Outlays / Total-Outlays Prior Year"
+    },
+    {
+      "index": 14,
+      "label": "Outlays / Total-Outlays Prior Year (On-Budget)"
+    },
+    {
+      "index": 15,
+      "label": "Outlays / Total-Outlays Prior Year (Off-Budget)"
+    },
+    {
+      "index": 16,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year"
+    },
+    {
+      "index": 17,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year (On-Budget)"
+    },
+    {
+      "index": 18,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-45488",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "-9764",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-9253",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "-9021",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "-8984",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-9281",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "-8489",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "-8150",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "-108431",
+      "role": "total"
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "-105363",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-9923",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "-6476",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-62150",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "3439",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "-12246",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "-6463",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "-12929",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "-18922",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "-125670",
+      "role": "total"
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "-102766",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "-407",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "-423",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "-601",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "-381",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "-644",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "-884",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "-876",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "-988",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "-5206",
+      "role": "total"
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "-3658",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "-1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-4",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "-5",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "509279",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "629136",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "654667",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "620623",
+      "role": "total"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "548963",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "622319",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "628161",
+      "role": "total"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "4901851",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "377575",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "531372",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "529781",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "484129",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "412180",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "501959",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "490896",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "3895582",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "121016",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "131703",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "97764",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "124886",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "136494",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "136783",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "120359",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "137265",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "1006270",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-284333",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-173277",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-144752",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-94615",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "-307501",
+      "role": "total"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-164100",
+      "role": "total"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "215024",
+      "role": "total"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "-292648",
+      "role": "total"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "-1246203",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "-140734",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-151814",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "-98197",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "-279169",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "-146870",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "194874",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "-265456",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "-1142226",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "-29471",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "-32543",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "7061",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "3582",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "-28333",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-17230",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "20150",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "-27193",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "-103977",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "295826",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "141587",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "73413",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "70901",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "266903",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "244023",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "-160234",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "241002",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "1173420",
+      "role": "total"
+    },
+    {
+      "id": "r12c10",
+      "row": 12,
+      "col": 10,
+      "value": "648351",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "584220",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "668517",
+      "role": "total"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "541146",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "641935",
+      "role": "total"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "603441",
+      "role": "total"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "528174",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "591769",
+      "role": "total"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "686881",
+      "role": "total"
+    },
+    {
+      "id": "r13c10",
+      "row": 13,
+      "col": 10,
+      "value": "4846083",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "475361",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "546637",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "453675",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "530261",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "477773",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "384754",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "476629",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "556466",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c10",
+      "row": 14,
+      "col": 10,
+      "value": "3901556",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "108859",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "121880",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "87471",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "111673",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "125668",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "143419",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "115141",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c8",
+      "row": 15,
+      "col": 8,
+      "value": "130415",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c10",
+      "row": 15,
+      "col": 10,
+      "value": "944527",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-257450",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-366763",
+      "role": "total"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-86732",
+      "role": "total"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "-128640",
+      "role": "total"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "-307017",
+      "role": "total"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "-160528",
+      "role": "total"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "258400",
+      "role": "total"
+    },
+    {
+      "id": "r16c8",
+      "row": 16,
+      "col": 8,
+      "value": "-315652",
+      "role": "total"
+    },
+    {
+      "id": "r16c10",
+      "row": 16,
+      "col": 10,
+      "value": "-1364382",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-236202",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "-339601",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "-98069",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "-138000",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "-283367",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "-129904",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "241583",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c8",
+      "row": 17,
+      "col": 8,
+      "value": "-288570",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c10",
+      "row": 17,
+      "col": 10,
+      "value": "-1272130",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-21248",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-27162",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "11337",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "9360",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "-23650",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "-30625",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "16817",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c8",
+      "row": 18,
+      "col": 8,
+      "value": "-27082",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c10",
+      "row": 18,
+      "col": 10,
+      "value": "-92252",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r1c5",
+        "r1c6",
+        "r1c7",
+        "r1c8"
+      ],
+      "target": "r1c9",
+      "note": "row YTD: Oct..May sum (Outlays / Undistributed Offsetting Receipts: Emplo)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r2c5",
+        "r2c6",
+        "r2c7",
+        "r2c8"
+      ],
+      "target": "r2c9",
+      "note": "row YTD: Oct..May sum (Outlays / Undistributed Offsetting Receipts: Inter)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r3c5",
+        "r3c6",
+        "r3c7",
+        "r3c8"
+      ],
+      "target": "r3c9",
+      "note": "row YTD: Oct..May sum (Outlays / Undistributed Offsetting Receipts: Rents)",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r6c2",
+        "r6c3",
+        "r6c4",
+        "r6c5",
+        "r6c6",
+        "r6c7",
+        "r6c8"
+      ],
+      "target": "r6c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total Outlays)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r7c2",
+        "r7c3",
+        "r7c4",
+        "r7c5",
+        "r7c6",
+        "r7c7",
+        "r7c8"
+      ],
+      "target": "r7c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total Outlays (On-Budg)",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r8c2",
+        "r8c3",
+        "r8c4",
+        "r8c5",
+        "r8c6",
+        "r8c7",
+        "r8c8"
+      ],
+      "target": "r8c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total Outlays (Off-Bud)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r9c2",
+        "r9c3",
+        "r9c4",
+        "r9c5",
+        "r9c6",
+        "r9c7",
+        "r9c8"
+      ],
+      "target": "r9c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total-Surplus (+) or D)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r10c2",
+        "r10c3",
+        "r10c4",
+        "r10c5",
+        "r10c6",
+        "r10c7",
+        "r10c8"
+      ],
+      "target": "r10c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total-Surplus (+) or D)",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r11c2",
+        "r11c3",
+        "r11c4",
+        "r11c5",
+        "r11c6",
+        "r11c7",
+        "r11c8"
+      ],
+      "target": "r11c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total-Surplus (+) or D)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r12c2",
+        "r12c3",
+        "r12c4",
+        "r12c5",
+        "r12c6",
+        "r12c7",
+        "r12c8"
+      ],
+      "target": "r12c9",
+      "note": "row YTD: Oct..May sum (Outlays / Totals This Year: Total Borrowing from t)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1"
+      ],
+      "target": "r6c1",
+      "note": "On+Off=Total Outlays This Year (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r8c2"
+      ],
+      "target": "r6c2",
+      "note": "On+Off=Total Outlays This Year (col 2)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r8c3"
+      ],
+      "target": "r6c3",
+      "note": "On+Off=Total Outlays This Year (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r8c4"
+      ],
+      "target": "r6c4",
+      "note": "On+Off=Total Outlays This Year (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r8c5"
+      ],
+      "target": "r6c5",
+      "note": "On+Off=Total Outlays This Year (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r8c6"
+      ],
+      "target": "r6c6",
+      "note": "On+Off=Total Outlays This Year (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c7",
+        "r8c7"
+      ],
+      "target": "r6c7",
+      "note": "On+Off=Total Outlays This Year (col 7)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c8",
+        "r8c8"
+      ],
+      "target": "r6c8",
+      "note": "On+Off=Total Outlays This Year (col 8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c9",
+        "r8c9"
+      ],
+      "target": "r6c9",
+      "note": "On+Off=Total Outlays This Year (col 9)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r9c1",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2"
+      ],
+      "target": "r9c2",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r9c3",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 3)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r9c4",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r11c5"
+      ],
+      "target": "r9c5",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 5)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r11c6"
+      ],
+      "target": "r9c6",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c7",
+        "r11c7"
+      ],
+      "target": "r9c7",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 7)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c8",
+        "r11c8"
+      ],
+      "target": "r9c8",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 8)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r11c9"
+      ],
+      "target": "r9c9",
+      "note": "On+Off=Total Surplus/Deficit This Year (col 9)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1"
+      ],
+      "target": "r13c1",
+      "note": "On+Off=Total Outlays Prior Year (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2"
+      ],
+      "target": "r13c2",
+      "note": "On+Off=Total Outlays Prior Year (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3"
+      ],
+      "target": "r13c3",
+      "note": "On+Off=Total Outlays Prior Year (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r15c4"
+      ],
+      "target": "r13c4",
+      "note": "On+Off=Total Outlays Prior Year (col 4)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r15c5"
+      ],
+      "target": "r13c5",
+      "note": "On+Off=Total Outlays Prior Year (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c6",
+        "r15c6"
+      ],
+      "target": "r13c6",
+      "note": "On+Off=Total Outlays Prior Year (col 6)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c7",
+        "r15c7"
+      ],
+      "target": "r13c7",
+      "note": "On+Off=Total Outlays Prior Year (col 7)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c8",
+        "r15c8"
+      ],
+      "target": "r13c8",
+      "note": "On+Off=Total Outlays Prior Year (col 8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c10",
+        "r15c10"
+      ],
+      "target": "r13c10",
+      "note": "On+Off=Total Outlays Prior Year (col 10)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r18c1"
+      ],
+      "target": "r16c1",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r18c2"
+      ],
+      "target": "r16c2",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c3",
+        "r18c3"
+      ],
+      "target": "r16c3",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r18c4"
+      ],
+      "target": "r16c4",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r18c5"
+      ],
+      "target": "r16c5",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c6",
+        "r18c6"
+      ],
+      "target": "r16c6",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 6)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c7",
+        "r18c7"
+      ],
+      "target": "r16c7",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 7)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c8",
+        "r18c8"
+      ],
+      "target": "r16c8",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c10",
+        "r18c10"
+      ],
+      "target": "r16c10",
+      "note": "On+Off=Total Surplus/Deficit Prior Year (col 10)"
+    }
+  ]
+}

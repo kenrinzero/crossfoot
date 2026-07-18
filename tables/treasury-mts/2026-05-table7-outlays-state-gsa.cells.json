@@ -1,0 +1,1239 @@
+{
+  "table_id": "treasury-mts/2026-05-table7-outlays-state-gsa",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 7. Receipts and Outlays of the U.S. Government by Month, Fiscal Year 2026 (Outlays: State through GSA)",
+    "page": 34,
+    "title": "Receipts and Outlays by Month (Outlays: State through GSA)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Values as printed, thousands separators stripped. '......' and '(**)' (less than $500,000 absolute) cells are omitted, not transcribed as 0. June\u2013Sept blank for YTD-through-May. VA Compensation/National Service Life/Other continue onto page 35.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "Year to Date"
+    },
+    {
+      "index": 10,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Outlays / Department of State"
+    },
+    {
+      "index": 2,
+      "label": "Outlays / Department of Transportation: Highway Trust Fund"
+    },
+    {
+      "index": 3,
+      "label": "Outlays / Department of Transportation: Other"
+    },
+    {
+      "index": 4,
+      "label": "Outlays / Department of the Treasury: Interest on Treasury Debt Securities (Gross)"
+    },
+    {
+      "index": 5,
+      "label": "Outlays / Department of the Treasury: Other"
+    },
+    {
+      "index": 6,
+      "label": "Outlays / Department of Veterans Affairs: Compensation and Pensions"
+    },
+    {
+      "index": 7,
+      "label": "Outlays / Department of Veterans Affairs: National Service Life"
+    },
+    {
+      "index": 8,
+      "label": "Outlays / Department of Veterans Affairs: Other"
+    },
+    {
+      "index": 9,
+      "label": "Outlays / Corps of Engineers"
+    },
+    {
+      "index": 10,
+      "label": "Outlays / Other Defense Civil Programs"
+    },
+    {
+      "index": 11,
+      "label": "Outlays / Environmental Protection Agency"
+    },
+    {
+      "index": 12,
+      "label": "Outlays / Executive Office of the President"
+    },
+    {
+      "index": 13,
+      "label": "Outlays / General Services Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "2179",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "2000",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "2328",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "2061",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "2546",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "2581",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "1069",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "2339",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "17103",
+      "role": "total"
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "19789",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "5560",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "3775",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "5120",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "3232",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "3127",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "4334",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "3606",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "4205",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "32958",
+      "role": "total"
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "32115",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "4305",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "5154",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "5042",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "5313",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "4739",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "5636",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "5077",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "4672",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "39939",
+      "role": "total"
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "42572",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "104404",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "96255",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "153922",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "71888",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "93483",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "102644",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "111601",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "132623",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "866820",
+      "role": "total"
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "776340",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "17314",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "16123",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "14456",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "12661",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "69256",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "32157",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "24537",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "13427",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "199931",
+      "role": "total"
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "212319",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "32631",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1115",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "33448",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "19055",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "17887",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "8867",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "18149",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "18132",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "149284",
+      "role": "total"
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "144809",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "100",
+      "role": "total"
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "139",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "16792",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "13187",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "16765",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "16392",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "16702",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "8450",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "17472",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "15089",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "120849",
+      "role": "total"
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "114682",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1343",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "1055",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1159",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-84",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "975",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "1188",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1053",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "1113",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "7801",
+      "role": "total"
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "9114",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "10519",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "898",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "13119",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "9473",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "5627",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "401",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "4423",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "3763",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "48223",
+      "role": "total"
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "57449",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1543",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1295",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "1628",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1128",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "1504",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "1332",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "1235",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "1249",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "10914",
+      "role": "total"
+    },
+    {
+      "id": "r11c10",
+      "row": 11,
+      "col": 10,
+      "value": "30681",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-145",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-972",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "-62",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "50",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-961",
+      "role": "total"
+    },
+    {
+      "id": "r12c10",
+      "row": 12,
+      "col": 10,
+      "value": "-137",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1283",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "93",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-609",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "-662",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "-311",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "59",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "-136",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "-260",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-544",
+      "role": "total"
+    },
+    {
+      "id": "r13c10",
+      "row": 13,
+      "col": 10,
+      "value": "-70",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2); comparable-period or sparse/single-source line"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r1c5",
+        "r1c6",
+        "r1c7",
+        "r1c8"
+      ],
+      "target": "r1c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of State)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r2c5",
+        "r2c6",
+        "r2c7",
+        "r2c8"
+      ],
+      "target": "r2c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of Transportation: )",
+      "tol": "1",
+      "why": "Page 34/35 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r3c5",
+        "r3c6",
+        "r3c7",
+        "r3c8"
+      ],
+      "target": "r3c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of Transportation: )",
+      "tol": "1",
+      "why": "Page 34/35 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4",
+        "r4c5",
+        "r4c6",
+        "r4c7",
+        "r4c8"
+      ],
+      "target": "r4c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of the Treasury: In)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r5c2",
+        "r5c3",
+        "r5c4",
+        "r5c5",
+        "r5c6",
+        "r5c7",
+        "r5c8"
+      ],
+      "target": "r5c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of the Treasury: Ot)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r6c2",
+        "r6c3",
+        "r6c4",
+        "r6c5",
+        "r6c6",
+        "r6c7",
+        "r6c8"
+      ],
+      "target": "r6c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of Veterans Affairs)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r7c2",
+        "r7c3",
+        "r7c4",
+        "r7c5",
+        "r7c6",
+        "r7c7",
+        "r7c8"
+      ],
+      "target": "r7c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of Veterans Affairs)",
+      "tol": "1",
+      "why": "Page 34/35 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r8c2",
+        "r8c3",
+        "r8c4",
+        "r8c5",
+        "r8c6",
+        "r8c7",
+        "r8c8"
+      ],
+      "target": "r8c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Department of Veterans Affairs)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r9c2",
+        "r9c3",
+        "r9c4",
+        "r9c5",
+        "r9c6",
+        "r9c7",
+        "r9c8"
+      ],
+      "target": "r9c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Corps of Engineers)",
+      "tol": "1",
+      "why": "Page 34/35 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r10c2",
+        "r10c3",
+        "r10c4",
+        "r10c5",
+        "r10c6",
+        "r10c7",
+        "r10c8"
+      ],
+      "target": "r10c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Other Defense Civil Programs)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r11c2",
+        "r11c3",
+        "r11c4",
+        "r11c5",
+        "r11c6",
+        "r11c7",
+        "r11c8"
+      ],
+      "target": "r11c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Environmental Protection Agenc)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r12c2",
+        "r12c3",
+        "r12c4",
+        "r12c5",
+        "r12c6",
+        "r12c7",
+        "r12c8"
+      ],
+      "target": "r12c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / Executive Office of the Presid)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r13c2",
+        "r13c3",
+        "r13c4",
+        "r13c5",
+        "r13c6",
+        "r13c7",
+        "r13c8"
+      ],
+      "target": "r13c9",
+      "note": "row YTD: Oct..May sum to Year to Date (Outlays / General Services Administratio)",
+      "tol": "1",
+      "why": "Page 34/35 prints: \"Note: Details may not add to totals due to rounding.\""
+    }
+  ]
+}

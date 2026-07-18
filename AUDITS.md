@@ -721,3 +721,22 @@ Spot high-risk samples also confirmed on the render (negatives N/A in this block
 
 ### 5. Audit Conclusion
 Antigravity's transcription of `treasury-mts/2026-05-table7-receipts-totals` is clean and faithful to the rendered source. All 54 values exact, omission conventions correct, and the On/Off budget split identities are correctly encoded with source-authorized rounding tolerance where the print does not foot exactly. **GREEN.** Next every-10th different-agent audit: corpus **#150**.
+
+---
+
+## Spot-Audit: Unit 150 — Table 6 Schedule C Agriculture (PLACEHOLDER)
+
+- **Audit Date:** _pending_
+- **Auditor:** _different agent than Grok (transcriber of #141–151)_
+- **Transcriber:** Grok (Grok 4.5 / Grok Build CLI), commit pending for batch #141–151
+- **Table ID:** [treasury-mts/2026-05-table6-schedule-c-agri](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 26 (Schedule C Agriculture block under Borrowing from the US Treasury)
+- **Status:** **PENDING** — every-10th different-agent spot-audit
+
+### Guidance for auditor
+- 6-column model: This Month / FYTD This Year / FYTD Prior Year / Beginning of This Year / Close prior month / Close this month
+- Verify balance roll-forward identity `close_end = close_open + this_month` on lines with all three present (CCC, Ag Credit, Rural Housing, etc.)
+- Omission of `(**)` and `......` (not zero)
+- Row completeness vs print (17 Agriculture lines; Foreign Agricultural Service balance-only)
+- Sample high-risk: CCC large negative FYTD (−11,128), Rural Electrification FYTD +555, Food Supply Chain sparse this-month
+- Gate: reconcile GREEN 0 warnings; pytest 10/10

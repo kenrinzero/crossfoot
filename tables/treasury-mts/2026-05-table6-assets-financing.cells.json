@@ -1,0 +1,1519 @@
+{
+  "table_id": "treasury-mts/2026-05-table6-assets-financing",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 6. Means of Financing \u2014 Asset Accounts and Financing Totals",
+    "page": 24,
+    "title": "Table 6. Means of Financing \u2014 Asset Accounts and Financing Totals",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions. Values as printed, thousands separators stripped. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6=col5+col1 where all present. Cap-fit split of full Table 6. Total Liability Accounts re-anchored from sibling liabilities unit for Excess identity.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month \u2014 end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Liability Accounts: Total Liability Accounts (RE-ANCHORED from table6-liabilities)"
+    },
+    {
+      "index": 2,
+      "label": "Asset Accounts: Cash and Monetary Assets: U.S. Treasury Operating Cash: Federal Reserve Account"
+    },
+    {
+      "index": 3,
+      "label": "Asset Accounts: Cash and Monetary Assets: U.S. Treasury Operating Cash: Balance"
+    },
+    {
+      "index": 4,
+      "label": "Asset Accounts: Cash and Monetary Assets: Special Drawing Rights: Total Holdings"
+    },
+    {
+      "index": 5,
+      "label": "Asset Accounts: Cash and Monetary Assets: Special Drawing Rights: SDR Certificates Issued to Federal Reserve Banks"
+    },
+    {
+      "index": 6,
+      "label": "Asset Accounts: Cash and Monetary Assets: Special Drawing Rights: Balance"
+    },
+    {
+      "index": 7,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: U.S. Subscription: Direct Quota Payments"
+    },
+    {
+      "index": 8,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: U.S. Subscription: Maintenance of Value Adjustments"
+    },
+    {
+      "index": 9,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: Letter of Credit Issued to IMF"
+    },
+    {
+      "index": 10,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: Dollar Deposits with the IMF"
+    },
+    {
+      "index": 11,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: Receivable/Payable (-) for Interim Maintenance of Value Adjustments"
+    },
+    {
+      "index": 12,
+      "label": "Asset Accounts: Cash and Monetary Assets: Reserve Position on the U.S. Quota in the IMF: Balance"
+    },
+    {
+      "index": 13,
+      "label": "Asset Accounts: Cash and Monetary Assets: Other Cash and Monetary Assets"
+    },
+    {
+      "index": 14,
+      "label": "Asset Accounts: Cash and Monetary Assets: Total Cash and Monetary Assets"
+    },
+    {
+      "index": 15,
+      "label": "Asset Accounts: Non-Federal Securities of the National Railroad Retirement Investment Trust"
+    },
+    {
+      "index": 16,
+      "label": "Asset Accounts: Net Activity, Guaranteed Loan Financing"
+    },
+    {
+      "index": 17,
+      "label": "Asset Accounts: Net Activity, Direct Loan Financing"
+    },
+    {
+      "index": 18,
+      "label": "Asset Accounts: Miscellaneous Asset Accounts"
+    },
+    {
+      "index": 19,
+      "label": "Asset Accounts: Total Asset Accounts"
+    },
+    {
+      "index": 20,
+      "label": "Excess of Liabilities (+) or Assets (-)"
+    },
+    {
+      "index": 21,
+      "label": "Transactions Not Applied to Current Year's Surplus or Deficit"
+    },
+    {
+      "index": 22,
+      "label": "Total Budget and Off-Budget Federal Entities (Financing of Deficit (+) or Disposition of Surplus (-))"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "222646",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "1243530",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "867230",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "30564528",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "31585411",
+      "role": "total"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "31808058",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-65502",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "13056",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-534283",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "890825",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "969383",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "903881",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "-65502",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "13056",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "-534283",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "890825",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "969383",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "903881",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "-113",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-1849",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1413",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "174732",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "172996",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "172883",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-5000",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-15200",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "-15200",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-15200",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "-113",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-1849",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-3587",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "159532",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "157796",
+      "role": "total"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "157683",
+      "role": "total"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "111629",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "111629",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "111629",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-271",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-184",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "28",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "2154",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "2240",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1969",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1054",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "2085",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1402",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-82087",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "-81056",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-80002",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "3",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "-286",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "-283",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "-282",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "195",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "131",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-5",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "-1042",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "-1106",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-911",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "979",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "2035",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "1425",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "30368",
+      "role": "total"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "31424",
+      "role": "total"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "32403",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-2418",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "4254",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-1464",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "95497",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "102169",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "99751",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-67054",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "17496",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-537909",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "1176222",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "1260772",
+      "role": "total"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "1193718",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "1470",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "1320",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "-655",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "26980",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "26830",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "28300",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-686",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-2912",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "6257",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "146893",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "144667",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "143981",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-3046",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "-8088",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "43830",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "1698275",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "1693233",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "1690188",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-291",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-131",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "209",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "204",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "-87",
+      "role": "total"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "-69606",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "7685",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "-488268",
+      "role": "total"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "3048415",
+      "role": "total"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "3125706",
+      "role": "total"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "3056100",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "292252",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "1235844",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "1355498",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "27516113",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "28459705",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "28751957",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "396",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "10359",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "8884",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "9963",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "10359",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "292648",
+      "role": "total"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "1246203",
+      "role": "total"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "1364382",
+      "role": "total"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "27516113",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "28469668",
+      "role": "total"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "28762316",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Liability Accounts: Total Liability Acco)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r6c1"
+      ],
+      "target": "r6c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c1"
+      ],
+      "target": "r9c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c1"
+      ],
+      "target": "r11c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c1"
+      ],
+      "target": "r12c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r13c1"
+      ],
+      "target": "r13c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c1"
+      ],
+      "target": "r14c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Non-Federal Securities o)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c1"
+      ],
+      "target": "r16c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Net Activity, Guaranteed)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Net Activity, Direct Loa)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c5",
+        "r18c1"
+      ],
+      "target": "r18c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Miscellaneous Asset Acco)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r19c1"
+      ],
+      "target": "r19c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Asset Accounts: Total Asset Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c1"
+      ],
+      "target": "r20c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Excess of Liabilities (+) or Assets (-))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c5",
+        "r21c1"
+      ],
+      "target": "r21c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Transactions Not Applied to Current Year)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c5",
+        "r22c1"
+      ],
+      "target": "r22c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Total Budget and Off-Budget Federal Enti)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r5c3"
+      ],
+      "target": "r6c3",
+      "note": "SDR Total Holdings + Certificates = SDR Balance (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r5c4"
+      ],
+      "target": "r6c4",
+      "note": "SDR Total Holdings + Certificates = SDR Balance (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r5c5"
+      ],
+      "target": "r6c5",
+      "note": "SDR Total Holdings + Certificates = SDR Balance (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c6",
+        "r5c6"
+      ],
+      "target": "r6c6",
+      "note": "SDR Total Holdings + Certificates = SDR Balance (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r12c4",
+      "note": "IMF subscription components sum to IMF Balance (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r8c5",
+        "r9c5",
+        "r10c5",
+        "r11c5"
+      ],
+      "target": "r12c5",
+      "note": "IMF subscription components sum to IMF Balance (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6"
+      ],
+      "target": "r12c6",
+      "note": "IMF subscription components sum to IMF Balance (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r6c1",
+        "r12c1",
+        "r13c1"
+      ],
+      "target": "r14c1",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r6c2",
+        "r12c2",
+        "r13c2"
+      ],
+      "target": "r14c2",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r6c3",
+        "r12c3",
+        "r13c3"
+      ],
+      "target": "r14c3",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r6c4",
+        "r12c4",
+        "r13c4"
+      ],
+      "target": "r14c4",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r6c5",
+        "r12c5",
+        "r13c5"
+      ],
+      "target": "r14c5",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r6c6",
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "note": "Operating Cash + SDR Balance + IMF Balance + Other Cash = Total Cash and Monetary Assets (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1",
+        "r18c1"
+      ],
+      "target": "r19c1",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 1)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2",
+        "r18c2"
+      ],
+      "target": "r19c2",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3"
+      ],
+      "target": "r19c3",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4"
+      ],
+      "target": "r19c4",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 4)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r15c5",
+        "r16c5",
+        "r17c5",
+        "r18c5"
+      ],
+      "target": "r19c5",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6"
+      ],
+      "target": "r19c6",
+      "note": "Cash + RRIT + Guaranteed Loan + Direct Loan + Misc = Total Asset Accounts (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r20c1"
+      ],
+      "target": "r1c1",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r20c2"
+      ],
+      "target": "r1c2",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 2)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c3",
+        "r20c3"
+      ],
+      "target": "r1c3",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r20c4"
+      ],
+      "target": "r1c4",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r20c5"
+      ],
+      "target": "r1c5",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c6",
+        "r20c6"
+      ],
+      "target": "r1c6",
+      "note": "Total Assets + Excess of Liabilities = Total Liability Accounts (col 6)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c1",
+        "r21c1"
+      ],
+      "target": "r22c1",
+      "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c2",
+        "r21c2"
+      ],
+      "target": "r22c2",
+      "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c3",
+        "r21c3"
+      ],
+      "target": "r22c3",
+      "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r21c5"
+      ],
+      "target": "r22c5",
+      "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c6",
+        "r21c6"
+      ],
+      "target": "r22c6",
+      "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 6)"
+    }
+  ]
+}

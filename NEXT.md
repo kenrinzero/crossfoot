@@ -68,7 +68,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **next cadence fire is corpus #150**.
+(satisfies the #140 slot); **#150 every-10th audit DUE** (Grok transcribed #141–151; different-agent rule).
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -77,28 +77,14 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1, 2, 3, 8, 9, Table 7 Receipts, and Table 7 Outlays leg-def complete: #130-140):
+Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing split (#146–147). Schedule A/B + Schedule C agri + comm-energy shipped (#148–151). **Unit-150 every-10th audit DUE** (different agent than Grok; placeholder in `AUDITS.md`).
 
-- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules; Receipts complete: #138-139; Outlays leg-def complete: #140)
-  - `treasury-mts/2026-05-table7-outlays-edu-labor` (~150 cells / 15 relations. D3)
-  - `treasury-mts/2026-05-table7-outlays-state-gsa` (~120 cells / 12 relations. D3)
-  - `treasury-mts/2026-05-table7-outlays-intl-sba` (~80 cells / 8 relations. D3)
-  - `treasury-mts/2026-05-table7-outlays-ssa-totals` (~150 cells / 15 relations. D3)
-- **Table 6 (p. 24) — Means of Financing the Deficit or Disposition of Surplus**
-  - Unit: `treasury-mts/2026-05-table6`
-  - Sizing: ~126 cells / 20 relations / 0 standalone waivers. D3.
-- **Table 6 Schedule A (p. 25) — Analysis of Change in Excess of Liabilities**
-  - Unit: `treasury-mts/2026-05-table6-schedule-a`
-  - Sizing: ~24 cells / 5 relations / 0 standalone waivers. D3.
-- **Table 6 Schedule B (p. 25) — Securities Issued by Federal Agencies**
-  - Unit: `treasury-mts/2026-05-table6-schedule-b`
-  - Sizing: ~42 cells / 5 relations / 0 standalone waivers. D3.
-- **Table 6 Schedule C (pp. 26–28) — Federal Agency Borrowing** (Split into 5 units by page/department)
-  - `treasury-mts/2026-05-table6-schedule-c-agri` (~120 cells / 15 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-c-comm-energy` (~84 cells / 10 relations. D3)
+Remaining Schedule C / D / E:
+
+- **Table 6 Schedule C (remainder)** (pp. 26–28)
   - `treasury-mts/2026-05-table6-schedule-c-hhs-trans` (~90 cells / 12 relations. D3)
   - `treasury-mts/2026-05-table6-schedule-c-treas-vets` (~60 cells / 8 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-c-epa-ind` (~90 cells / 12 relations. D3)
+  - `treasury-mts/2026-05-table6-schedule-c-epa-ind` (~90 cells / 12 relations. D3) — includes US-Treasury Total Borrowing + FFB section totals
 - **Table 6 Schedule D (pp. 29–30) — Investments of Federal Government Accounts** (Split into 3 units)
   - `treasury-mts/2026-05-table6-schedule-d-federal-funds-agri-just` (~90 cells / 10 relations. D3)
   - `treasury-mts/2026-05-table6-schedule-d-federal-funds-labor-totals` (~108 cells / 12 relations. D3)
@@ -135,6 +121,17 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-comm-energy` — #151 (Grok). Schedule C Commerce–Energy; 62c/5r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-agri` — #150 (Grok). Schedule C Agriculture; 93c/10r. **Every-10th audit DUE** (different agent).
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-b` — #149 (Grok). Agency securities under special financing; 15c/5r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-a` — #148 (Grok). Analysis of change in excess of liabilities; 31c/10r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-assets-financing` — #147 (Grok). Table 6 assets + Excess + Financing; Total Liability re-anchored; 125c/50r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-liabilities` — #146 (Grok). Table 6 liability accounts; 102c/41r. Cap-fit split of over-cap single Table 6.
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-uor-totals` — #145 (Grok). UOR + monthly totals this/prior year; 157c/46r. Cap-fit split of ssa-totals.
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-ssa-independents` — #144 (Grok). SSA + Independent Agencies; 87c/8r.
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-intl-sba` — #143 (Grok). International Assistance through SBA; 80c/8r.
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-state-gsa` — #142 (Grok). State through GSA (incl. VA on p35); 130c/13r.
+- 2026-07-18 · `treasury-mts/2026-05-table7-outlays-edu-labor` — #141 (Grok). Education through Labor; 150c/15r.
 - 2026-07-18 · `treasury-mts/2026-05-table7-outlays-leg-def` — #140 (Grok). Outlays Legislative through Total DoD Military; 150c/25r/6 standalone (Prior-FY on non-DoD lines). DoD bureau roll-ups + per-row Oct–May→YTD.
 - 2026-07-18 · `treasury-mts/2026-05-table7-receipts-totals` — #139 audit: **GREEN** (Grok, one early per Kenrin; 54/54 values exact; `AUDITS.md`). Next audit #150.
 - 2026-07-18 · `treasury-mts/2026-05-table7-receipts-totals` — #139 (Antigravity). Receipts Totals/Budget splits; 54c/18r/0 standalone.
