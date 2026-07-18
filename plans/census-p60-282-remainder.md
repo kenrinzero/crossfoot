@@ -15,7 +15,7 @@
 - Every A-2 slice is re-read from `sources/census/p60-282.pdf`; no values are copied from another corpus unit.
 - Every A-2 slice must reconcile GREEN with zero warnings under strict coverage and meet its manifest relation floor.
 - Render verification is mandatory even when the PDF text layer is used for extraction.
-- Corpus #170 was audited GREEN by an agent other than its transcriber before later units shipped; repeat the different-agent gate at corpus #180.
+- Corpus #170 and #180 were audited GREEN by agents other than their transcriber before later units shipped; repeat the different-agent gate at corpus #190.
 - The historical id `census-p60/2023-income-a1` remains unchanged; documentation must identify it as the legacy-named A-2 ALL RACES 2023-2017 slice.
 
 ---
@@ -249,4 +249,26 @@ Expected: tests pass and package metadata remains unchanged unless repository hi
 - [x] **#178:** BLACK ALONE 2012-2002, 11 rows / 121 cells; modern group complete.
 - [x] **#179:** BLACK historical 2001-1989, 13 rows / 143 cells.
 - [x] **#180:** BLACK historical 1988-1976, 13 rows / 143 cells.
-- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #180 and records it in `AUDITS.md` before #181 ships.
+- [x] **Audit gate:** Antigravity performed the different-agent audit of #180 and recorded GREEN in `AUDITS.md`, unblocking #181.
+
+### Task 7: Continue A-2 to the #190 audit gate
+
+**Files:**
+- Create: ten additional `tables/census-p60/*.cells.json` units
+- Modify: `BACKLOG.md`, `NEXT.md`, `README.md`, `AUDITS.md`, and this plan
+
+**Interfaces:**
+- Consumes: the audited-GREEN #180 unit and the same A-2 source-native split policy.
+- Produces: corpus #181-190, stopping before #191 until a different-agent audit of #190 is GREEN.
+
+- [x] **#181:** BLACK historical 1975-1967, 9 rows / 99 cells; historical BLACK complete.
+- [x] **#182:** ASIAN ALONE OR IN COMBINATION 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#183:** ASIAN ALONE OR IN COMBINATION 2012-2002, 11 rows / 121 cells; group complete.
+- [x] **#184:** ASIAN ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#185:** ASIAN ALONE 2012-2002, 11 rows / 121 cells; modern group complete.
+- [x] **#186:** ASIAN AND PACIFIC ISLANDER historical 2001-1989, 13 rows / 143 cells.
+- [x] **#187:** ASIAN AND PACIFIC ISLANDER historical 1988-1987, 2 rows / 21 numeric cells; historical group complete. The printed 1987 household count is `N` (not available) and is omitted under the numeric-only schema.
+- [x] **#188:** AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#189:** AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION 2012-2002, 11 rows / 121 cells; group complete.
+- [x] **#190:** AMERICAN INDIAN AND ALASKA NATIVE ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #190 and records it in `AUDITS.md` before #191 ships.

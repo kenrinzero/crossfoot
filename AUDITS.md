@@ -930,3 +930,25 @@ The 10-cell sample was stratified to test household counts, historical years, bo
 
 ### 5. Audit Conclusion
 Codex's transcription of `census-p60/2023-income-a2-black-historical-1988-1976` is value-perfect, complete, and completely faithful to the Census P60-282 report. All 143 values are exact, row labels and footnote-marked historical years are accurately represented, and all rounding tolerances are mathematically verified and honest to the source. **GREEN.** Next every-10th different-agent audit: corpus **#190**.
+
+
+---
+
+## Spot-Audit Due: Unit 190 — Census P60-282 Table A-2 AMERICAN INDIAN AND ALASKA NATIVE ALONE 2023-2013
+
+- **Status:** **DUE — #191 is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Codex (`codex/census-p60-sizing`)
+- **Table ID:** `census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF pages 31-32 (printed pages 25-26), AMERICAN INDIAN AND ALASKA NATIVE ALONE block from 2023 through both printed 2013 series rows
+- **Expected shape:** 13 rows / 143 cells / 26 relations / 13 standalone household counts
+- **Pre-audit ship evidence:** independent pypdf comparison 143/143 exact; strict reconcile GREEN with 0 warnings; full-corpus sweep and pytest must be re-run against the audited head.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor the block heading on PDF page 31, the first four rows on that page, and the continuation boundary onto PDF page 32.
+- [ ] Verify all 13 row labels in print order: 2023-2018, 2017 redesigned, 2017 legacy, 2016-2014, 2013 redesigned, 2013 legacy.
+- [ ] Verify all 143 values, or record a coverage-stratified sample that includes household counts, both duplicate-year pairs, first/last income brackets, and the page boundary.
+- [ ] Confirm median and mean columns are deliberately outside this percent-distribution slice and that no value-bearing row or arithmetic-bearing percentage cell is missing.
+- [ ] Recompute all nine-bracket percentage sums. The five non-exact rows are 2023, 2022, 2020, 2018, and 2015, each with exact `tol: "0.1"` and the report's disclosure-protection rounding rationale on both relations.
+- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
+- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before #191 ships.

@@ -11,11 +11,11 @@ correctness is derived, not trusted.
 
 Active corpus (2026-07-18): schema + oracle frozen and live (**10/10 tests**;
 strict coverage is the default), six public-source families vendored, and
-**180 transcription units shipped**. Treasury MTS May 2026 (Tables 1-9), the
+**190 transcription units shipped**. Treasury MTS May 2026 (Tables 1-9), the
 OMB FY2027 Legislative Branch chapter, BLS 2024 relative importance, and FEC
 2024 presidential results are numerically complete. Census P60-282 Table A-2
-is the live dispatch family; #161–180 are source-compared and strict-GREEN,
-and #180 now awaits its required different-agent audit before #181 can ship.
+is the live dispatch family; #161–190 are source-compared and strict-GREEN,
+and #190 now awaits its required different-agent audit before #191 can ship.
 
 ## How a unit works
 

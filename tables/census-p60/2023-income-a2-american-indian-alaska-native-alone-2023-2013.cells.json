@@ -1,13 +1,13 @@
 {
-  "table_id": "census-p60/2023-income-a2-asian-pacific-islander-historical-2001-1989",
+  "table_id": "census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013",
   "source": {
     "path": "sources/census/p60-282.pdf",
     "table": "Table A-2. Households by Total Money Income, Race, and Hispanic Origin of Householder: 1967 to 2023",
-    "page": 30,
-    "title": "Households by Total Money Income -- ASIAN AND PACIFIC ISLANDER historical-series percent-distribution slice (2001-1989)",
+    "page": 31,
+    "title": "Households by Total Money Income -- AMERICAN INDIAN AND ALASKA NATIVE ALONE percent-distribution slice (2023-2013, including both printed 2017 and 2013 series)",
     "period": "1967-2023"
   },
-  "unit_note": "Arithmetic-bearing distribution block only; median and mean income columns are outside this family slice. Source rows are on PDF page 30.",
+  "unit_note": "Arithmetic-bearing distribution block only; median and mean income columns are outside this family slice. Source rows span PDF pages 31-32. Duplicate year rows follow the printed redesigned and legacy question-series footnotes.",
   "columns": [
     {
       "index": 1,
@@ -57,55 +57,55 @@
   "rows": [
     {
       "index": 1,
-      "label": "2001"
+      "label": "2023"
     },
     {
       "index": 2,
-      "label": "2000"
+      "label": "2022"
     },
     {
       "index": 3,
-      "label": "1999"
+      "label": "2021"
     },
     {
       "index": 4,
-      "label": "1998"
+      "label": "2020"
     },
     {
       "index": 5,
-      "label": "1997"
+      "label": "2019"
     },
     {
       "index": 6,
-      "label": "1996"
+      "label": "2018"
     },
     {
       "index": 7,
-      "label": "1995"
+      "label": "2017 (redesigned)"
     },
     {
       "index": 8,
-      "label": "1994"
+      "label": "2017 (legacy)"
     },
     {
       "index": 9,
-      "label": "1993"
+      "label": "2016"
     },
     {
       "index": 10,
-      "label": "1992"
+      "label": "2015"
     },
     {
       "index": 11,
-      "label": "1991"
+      "label": "2014"
     },
     {
       "index": 12,
-      "label": "1990"
+      "label": "2013 (redesigned)"
     },
     {
       "index": 13,
-      "label": "1989"
+      "label": "2013 (legacy)"
     }
   ],
   "cells": [
@@ -113,7 +113,7 @@
       "id": "r1c1",
       "row": 1,
       "col": 1,
-      "value": "4071",
+      "value": "1414",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -128,70 +128,70 @@
       "id": "r1c3",
       "row": 1,
       "col": 3,
-      "value": "7.6",
+      "value": "11.5",
       "role": "leaf"
     },
     {
       "id": "r1c4",
       "row": 1,
       "col": 4,
-      "value": "5.7",
+      "value": "8.7",
       "role": "leaf"
     },
     {
       "id": "r1c5",
       "row": 1,
       "col": 5,
-      "value": "6.3",
+      "value": "9.1",
       "role": "leaf"
     },
     {
       "id": "r1c6",
       "row": 1,
       "col": 6,
-      "value": "9.4",
+      "value": "12.3",
       "role": "leaf"
     },
     {
       "id": "r1c7",
       "row": 1,
       "col": 7,
-      "value": "14.5",
+      "value": "19.6",
       "role": "leaf"
     },
     {
       "id": "r1c8",
       "row": 1,
       "col": 8,
-      "value": "13.4",
+      "value": "11.7",
       "role": "leaf"
     },
     {
       "id": "r1c9",
       "row": 1,
       "col": 9,
-      "value": "18.0",
+      "value": "14.3",
       "role": "leaf"
     },
     {
       "id": "r1c10",
       "row": 1,
       "col": 10,
-      "value": "10.8",
+      "value": "6.5",
       "role": "leaf"
     },
     {
       "id": "r1c11",
       "row": 1,
       "col": 11,
-      "value": "14.2",
+      "value": "6.2",
       "role": "leaf"
     },
     {
       "id": "r2c1",
       "row": 2,
       "col": 1,
-      "value": "3963",
+      "value": "1371",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -206,70 +206,70 @@
       "id": "r2c3",
       "row": 2,
       "col": 3,
-      "value": "6.4",
+      "value": "11.8",
       "role": "leaf"
     },
     {
       "id": "r2c4",
       "row": 2,
       "col": 4,
-      "value": "5.5",
+      "value": "10.4",
       "role": "leaf"
     },
     {
       "id": "r2c5",
       "row": 2,
       "col": 5,
-      "value": "5.4",
+      "value": "9.1",
       "role": "leaf"
     },
     {
       "id": "r2c6",
       "row": 2,
       "col": 6,
-      "value": "8.8",
+      "value": "15.0",
       "role": "leaf"
     },
     {
       "id": "r2c7",
       "row": 2,
       "col": 7,
-      "value": "15.0",
+      "value": "17.5",
       "role": "leaf"
     },
     {
       "id": "r2c8",
       "row": 2,
       "col": 8,
-      "value": "11.7",
+      "value": "12.1",
       "role": "leaf"
     },
     {
       "id": "r2c9",
       "row": 2,
       "col": 9,
-      "value": "21.4",
+      "value": "12.3",
       "role": "leaf"
     },
     {
       "id": "r2c10",
       "row": 2,
       "col": 10,
-      "value": "10.0",
+      "value": "5.5",
       "role": "leaf"
     },
     {
       "id": "r2c11",
       "row": 2,
       "col": 11,
-      "value": "15.7",
+      "value": "6.2",
       "role": "leaf"
     },
     {
       "id": "r3c1",
       "row": 3,
       "col": 1,
-      "value": "3742",
+      "value": "1430",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -284,70 +284,70 @@
       "id": "r3c3",
       "row": 3,
       "col": 3,
-      "value": "7.6",
+      "value": "13.9",
       "role": "leaf"
     },
     {
       "id": "r3c4",
       "row": 3,
       "col": 4,
-      "value": "5.8",
+      "value": "9.8",
       "role": "leaf"
     },
     {
       "id": "r3c5",
       "row": 3,
       "col": 5,
-      "value": "5.9",
+      "value": "9.6",
       "role": "leaf"
     },
     {
       "id": "r3c6",
       "row": 3,
       "col": 6,
-      "value": "8.0",
+      "value": "11.3",
       "role": "leaf"
     },
     {
       "id": "r3c7",
       "row": 3,
       "col": 7,
-      "value": "17.0",
+      "value": "17.9",
       "role": "leaf"
     },
     {
       "id": "r3c8",
       "row": 3,
       "col": 8,
-      "value": "11.9",
+      "value": "11.2",
       "role": "leaf"
     },
     {
       "id": "r3c9",
       "row": 3,
       "col": 9,
-      "value": "18.5",
+      "value": "13.1",
       "role": "leaf"
     },
     {
       "id": "r3c10",
       "row": 3,
       "col": 10,
-      "value": "9.8",
+      "value": "5.8",
       "role": "leaf"
     },
     {
       "id": "r3c11",
       "row": 3,
       "col": 11,
-      "value": "15.6",
+      "value": "7.4",
       "role": "leaf"
     },
     {
       "id": "r4c1",
       "row": 4,
       "col": 1,
-      "value": "3308",
+      "value": "1377",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -362,70 +362,70 @@
       "id": "r4c3",
       "row": 4,
       "col": 3,
-      "value": "8.1",
+      "value": "10.0",
       "role": "leaf"
     },
     {
       "id": "r4c4",
       "row": 4,
       "col": 4,
-      "value": "5.7",
+      "value": "13.4",
       "role": "leaf"
     },
     {
       "id": "r4c5",
       "row": 4,
       "col": 5,
-      "value": "5.9",
+      "value": "8.4",
       "role": "leaf"
     },
     {
       "id": "r4c6",
       "row": 4,
       "col": 6,
-      "value": "9.7",
+      "value": "13.7",
       "role": "leaf"
     },
     {
       "id": "r4c7",
       "row": 4,
       "col": 7,
-      "value": "16.3",
+      "value": "16.8",
       "role": "leaf"
     },
     {
       "id": "r4c8",
       "row": 4,
       "col": 8,
-      "value": "13.0",
+      "value": "13.3",
       "role": "leaf"
     },
     {
       "id": "r4c9",
       "row": 4,
       "col": 9,
-      "value": "19.3",
+      "value": "11.4",
       "role": "leaf"
     },
     {
       "id": "r4c10",
       "row": 4,
       "col": 10,
-      "value": "11.4",
+      "value": "5.5",
       "role": "leaf"
     },
     {
       "id": "r4c11",
       "row": 4,
       "col": 11,
-      "value": "10.5",
+      "value": "7.4",
       "role": "leaf"
     },
     {
       "id": "r5c1",
       "row": 5,
       "col": 1,
-      "value": "3125",
+      "value": "1329",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -440,70 +440,70 @@
       "id": "r5c3",
       "row": 5,
       "col": 3,
-      "value": "8.1",
+      "value": "13.4",
       "role": "leaf"
     },
     {
       "id": "r5c4",
       "row": 5,
       "col": 4,
-      "value": "7.4",
+      "value": "8.2",
       "role": "leaf"
     },
     {
       "id": "r5c5",
       "row": 5,
       "col": 5,
-      "value": "5.4",
+      "value": "8.0",
       "role": "leaf"
     },
     {
       "id": "r5c6",
       "row": 5,
       "col": 6,
-      "value": "9.4",
+      "value": "14.2",
       "role": "leaf"
     },
     {
       "id": "r5c7",
       "row": 5,
       "col": 7,
-      "value": "16.2",
+      "value": "17.1",
       "role": "leaf"
     },
     {
       "id": "r5c8",
       "row": 5,
       "col": 8,
-      "value": "13.5",
+      "value": "11.6",
       "role": "leaf"
     },
     {
       "id": "r5c9",
       "row": 5,
       "col": 9,
-      "value": "18.6",
+      "value": "16.2",
       "role": "leaf"
     },
     {
       "id": "r5c10",
       "row": 5,
       "col": 10,
-      "value": "11.4",
+      "value": "5.2",
       "role": "leaf"
     },
     {
       "id": "r5c11",
       "row": 5,
       "col": 11,
-      "value": "10.0",
+      "value": "6.1",
       "role": "leaf"
     },
     {
       "id": "r6c1",
       "row": 6,
       "col": 1,
-      "value": "2998",
+      "value": "1331",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -518,70 +518,70 @@
       "id": "r6c3",
       "row": 6,
       "col": 3,
-      "value": "9.1",
+      "value": "13.9",
       "role": "leaf"
     },
     {
       "id": "r6c4",
       "row": 6,
       "col": 4,
-      "value": "6.8",
+      "value": "11.8",
       "role": "leaf"
     },
     {
       "id": "r6c5",
       "row": 6,
       "col": 5,
-      "value": "6.2",
+      "value": "8.3",
       "role": "leaf"
     },
     {
       "id": "r6c6",
       "row": 6,
       "col": 6,
-      "value": "9.3",
+      "value": "14.2",
       "role": "leaf"
     },
     {
       "id": "r6c7",
       "row": 6,
       "col": 7,
-      "value": "17.1",
+      "value": "18.5",
       "role": "leaf"
     },
     {
       "id": "r6c8",
       "row": 6,
       "col": 8,
-      "value": "12.4",
+      "value": "10.5",
       "role": "leaf"
     },
     {
       "id": "r6c9",
       "row": 6,
       "col": 9,
-      "value": "19.2",
+      "value": "12.3",
       "role": "leaf"
     },
     {
       "id": "r6c10",
       "row": 6,
       "col": 10,
-      "value": "10.4",
+      "value": "6.1",
       "role": "leaf"
     },
     {
       "id": "r6c11",
       "row": 6,
       "col": 11,
-      "value": "9.5",
+      "value": "4.5",
       "role": "leaf"
     },
     {
       "id": "r7c1",
       "row": 7,
       "col": 1,
-      "value": "2777",
+      "value": "1327",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -596,70 +596,70 @@
       "id": "r7c3",
       "row": 7,
       "col": 3,
-      "value": "8.7",
+      "value": "16.1",
       "role": "leaf"
     },
     {
       "id": "r7c4",
       "row": 7,
       "col": 4,
-      "value": "7.8",
+      "value": "10.9",
       "role": "leaf"
     },
     {
       "id": "r7c5",
       "row": 7,
       "col": 5,
-      "value": "7.3",
+      "value": "10.1",
       "role": "leaf"
     },
     {
       "id": "r7c6",
       "row": 7,
       "col": 6,
-      "value": "8.1",
+      "value": "14.3",
       "role": "leaf"
     },
     {
       "id": "r7c7",
       "row": 7,
       "col": 7,
-      "value": "17.8",
+      "value": "16.3",
       "role": "leaf"
     },
     {
       "id": "r7c8",
       "row": 7,
       "col": 8,
-      "value": "13.9",
+      "value": "10.3",
       "role": "leaf"
     },
     {
       "id": "r7c9",
       "row": 7,
       "col": 9,
-      "value": "19.2",
+      "value": "11.1",
       "role": "leaf"
     },
     {
       "id": "r7c10",
       "row": 7,
       "col": 10,
-      "value": "7.9",
+      "value": "4.1",
       "role": "leaf"
     },
     {
       "id": "r7c11",
       "row": 7,
       "col": 11,
-      "value": "9.4",
+      "value": "6.8",
       "role": "leaf"
     },
     {
       "id": "r8c1",
       "row": 8,
       "col": 1,
-      "value": "2040",
+      "value": "1326",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -674,14 +674,14 @@
       "id": "r8c3",
       "row": 8,
       "col": 3,
-      "value": "8.6",
+      "value": "15.9",
       "role": "leaf"
     },
     {
       "id": "r8c4",
       "row": 8,
       "col": 4,
-      "value": "7.3",
+      "value": "12.8",
       "role": "leaf"
     },
     {
@@ -695,49 +695,49 @@
       "id": "r8c6",
       "row": 8,
       "col": 6,
-      "value": "9.5",
+      "value": "14.0",
       "role": "leaf"
     },
     {
       "id": "r8c7",
       "row": 8,
       "col": 7,
-      "value": "15.9",
+      "value": "15.4",
       "role": "leaf"
     },
     {
       "id": "r8c8",
       "row": 8,
       "col": 8,
-      "value": "14.3",
+      "value": "12.1",
       "role": "leaf"
     },
     {
       "id": "r8c9",
       "row": 8,
       "col": 9,
-      "value": "19.0",
+      "value": "11.1",
       "role": "leaf"
     },
     {
       "id": "r8c10",
       "row": 8,
       "col": 10,
-      "value": "8.4",
+      "value": "5.9",
       "role": "leaf"
     },
     {
       "id": "r8c11",
       "row": 8,
       "col": 11,
-      "value": "9.8",
+      "value": "5.7",
       "role": "leaf"
     },
     {
       "id": "r9c1",
       "row": 9,
       "col": 1,
-      "value": "2233",
+      "value": "1314",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -752,70 +752,70 @@
       "id": "r9c3",
       "row": 9,
       "col": 3,
-      "value": "10.2",
+      "value": "14.1",
       "role": "leaf"
     },
     {
       "id": "r9c4",
       "row": 9,
       "col": 4,
-      "value": "7.9",
+      "value": "10.5",
       "role": "leaf"
     },
     {
       "id": "r9c5",
       "row": 9,
       "col": 5,
-      "value": "7.0",
+      "value": "9.5",
       "role": "leaf"
     },
     {
       "id": "r9c6",
       "row": 9,
       "col": 6,
-      "value": "10.8",
+      "value": "14.3",
       "role": "leaf"
     },
     {
       "id": "r9c7",
       "row": 9,
       "col": 7,
-      "value": "14.6",
+      "value": "19.1",
       "role": "leaf"
     },
     {
       "id": "r9c8",
       "row": 9,
       "col": 8,
-      "value": "11.8",
+      "value": "9.4",
       "role": "leaf"
     },
     {
       "id": "r9c9",
       "row": 9,
       "col": 9,
-      "value": "19.8",
+      "value": "11.6",
       "role": "leaf"
     },
     {
       "id": "r9c10",
       "row": 9,
       "col": 10,
-      "value": "9.8",
+      "value": "5.3",
       "role": "leaf"
     },
     {
       "id": "r9c11",
       "row": 9,
       "col": 11,
-      "value": "8.2",
+      "value": "6.2",
       "role": "leaf"
     },
     {
       "id": "r10c1",
       "row": 10,
       "col": 1,
-      "value": "2262",
+      "value": "1417",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -830,70 +830,70 @@
       "id": "r10c3",
       "row": 10,
       "col": 3,
-      "value": "8.4",
+      "value": "15.7",
       "role": "leaf"
     },
     {
       "id": "r10c4",
       "row": 10,
       "col": 4,
-      "value": "7.4",
+      "value": "9.9",
       "role": "leaf"
     },
     {
       "id": "r10c5",
       "row": 10,
       "col": 5,
-      "value": "7.3",
+      "value": "10.0",
       "role": "leaf"
     },
     {
       "id": "r10c6",
       "row": 10,
       "col": 6,
-      "value": "9.8",
+      "value": "14.3",
       "role": "leaf"
     },
     {
       "id": "r10c7",
       "row": 10,
       "col": 7,
-      "value": "16.6",
+      "value": "15.7",
       "role": "leaf"
     },
     {
       "id": "r10c8",
       "row": 10,
       "col": 8,
-      "value": "15.3",
+      "value": "12.9",
       "role": "leaf"
     },
     {
       "id": "r10c9",
       "row": 10,
       "col": 9,
-      "value": "18.3",
+      "value": "10.8",
       "role": "leaf"
     },
     {
       "id": "r10c10",
       "row": 10,
       "col": 10,
-      "value": "8.8",
+      "value": "5.8",
       "role": "leaf"
     },
     {
       "id": "r10c11",
       "row": 10,
       "col": 11,
-      "value": "8.2",
+      "value": "5.0",
       "role": "leaf"
     },
     {
       "id": "r11c1",
       "row": 11,
       "col": 1,
-      "value": "2094",
+      "value": "1264",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -908,70 +908,70 @@
       "id": "r11c3",
       "row": 11,
       "col": 3,
-      "value": "8.4",
+      "value": "14.2",
       "role": "leaf"
     },
     {
       "id": "r11c4",
       "row": 11,
       "col": 4,
-      "value": "7.1",
+      "value": "10.4",
       "role": "leaf"
     },
     {
       "id": "r11c5",
       "row": 11,
       "col": 5,
-      "value": "6.2",
+      "value": "11.4",
       "role": "leaf"
     },
     {
       "id": "r11c6",
       "row": 11,
       "col": 6,
-      "value": "11.8",
+      "value": "12.2",
       "role": "leaf"
     },
     {
       "id": "r11c7",
       "row": 11,
       "col": 7,
-      "value": "16.5",
+      "value": "16.7",
       "role": "leaf"
     },
     {
       "id": "r11c8",
       "row": 11,
       "col": 8,
-      "value": "13.4",
+      "value": "12.8",
       "role": "leaf"
     },
     {
       "id": "r11c9",
       "row": 11,
       "col": 9,
-      "value": "18.6",
+      "value": "12.4",
       "role": "leaf"
     },
     {
       "id": "r11c10",
       "row": 11,
       "col": 10,
-      "value": "9.3",
+      "value": "5.7",
       "role": "leaf"
     },
     {
       "id": "r11c11",
       "row": 11,
       "col": 11,
-      "value": "8.7",
+      "value": "4.2",
       "role": "leaf"
     },
     {
       "id": "r12c1",
       "row": 12,
       "col": 1,
-      "value": "1958",
+      "value": "1045",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -986,70 +986,70 @@
       "id": "r12c3",
       "row": 12,
       "col": 3,
-      "value": "7.1",
+      "value": "17.3",
       "role": "leaf"
     },
     {
       "id": "r12c4",
       "row": 12,
       "col": 4,
-      "value": "6.8",
+      "value": "14.2",
       "role": "leaf"
     },
     {
       "id": "r12c5",
       "row": 12,
       "col": 5,
-      "value": "6.9",
+      "value": "9.4",
       "role": "leaf"
     },
     {
       "id": "r12c6",
       "row": 12,
       "col": 6,
-      "value": "8.5",
+      "value": "13.9",
       "role": "leaf"
     },
     {
       "id": "r12c7",
       "row": 12,
       "col": 7,
-      "value": "15.9",
+      "value": "11.1",
       "role": "leaf"
     },
     {
       "id": "r12c8",
       "row": 12,
       "col": 8,
-      "value": "16.0",
+      "value": "15.0",
       "role": "leaf"
     },
     {
       "id": "r12c9",
       "row": 12,
       "col": 9,
-      "value": "19.4",
+      "value": "11.0",
       "role": "leaf"
     },
     {
       "id": "r12c10",
       "row": 12,
       "col": 10,
-      "value": "10.2",
+      "value": "4.3",
       "role": "leaf"
     },
     {
       "id": "r12c11",
       "row": 12,
       "col": 11,
-      "value": "9.1",
+      "value": "3.8",
       "role": "leaf"
     },
     {
       "id": "r13c1",
       "row": 13,
       "col": 1,
-      "value": "1988",
+      "value": "1108",
       "role": "standalone",
       "why": "Number of households is a population count and does not participate in the percent distribution arithmetic."
     },
@@ -1064,63 +1064,63 @@
       "id": "r13c3",
       "row": 13,
       "col": 3,
-      "value": "5.7",
+      "value": "14.0",
       "role": "leaf"
     },
     {
       "id": "r13c4",
       "row": 13,
       "col": 4,
-      "value": "7.7",
+      "value": "14.7",
       "role": "leaf"
     },
     {
       "id": "r13c5",
       "row": 13,
       "col": 5,
-      "value": "6.1",
+      "value": "10.5",
       "role": "leaf"
     },
     {
       "id": "r13c6",
       "row": 13,
       "col": 6,
-      "value": "9.8",
+      "value": "16.4",
       "role": "leaf"
     },
     {
       "id": "r13c7",
       "row": 13,
       "col": 7,
-      "value": "17.1",
+      "value": "18.2",
       "role": "leaf"
     },
     {
       "id": "r13c8",
       "row": 13,
       "col": 8,
-      "value": "14.0",
+      "value": "10.9",
       "role": "leaf"
     },
     {
       "id": "r13c9",
       "row": 13,
       "col": 9,
-      "value": "20.8",
+      "value": "10.3",
       "role": "leaf"
     },
     {
       "id": "r13c10",
       "row": 13,
       "col": 10,
-      "value": "9.5",
+      "value": "2.1",
       "role": "leaf"
     },
     {
       "id": "r13c11",
       "row": 13,
       "col": 11,
-      "value": "9.2",
+      "value": "2.9",
       "role": "leaf"
     }
   ],
@@ -1204,9 +1204,7 @@
         "r3c10",
         "r3c11"
       ],
-      "target": "r3c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      "target": "r3c2"
     },
     {
       "type": "percent-closure",
@@ -1220,9 +1218,7 @@
         "r3c9",
         "r3c10",
         "r3c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      ]
     },
     {
       "type": "sum",
@@ -1299,7 +1295,9 @@
         "r6c10",
         "r6c11"
       ],
-      "target": "r6c2"
+      "target": "r6c2",
+      "tol": "0.1",
+      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
     },
     {
       "type": "percent-closure",
@@ -1313,44 +1311,42 @@
         "r6c9",
         "r6c10",
         "r6c11"
+      ],
+      "tol": "0.1",
+      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r7c4",
+        "r7c5",
+        "r7c6",
+        "r7c7",
+        "r7c8",
+        "r7c9",
+        "r7c10",
+        "r7c11"
+      ],
+      "target": "r7c2"
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r7c3",
+        "r7c4",
+        "r7c5",
+        "r7c6",
+        "r7c7",
+        "r7c8",
+        "r7c9",
+        "r7c10",
+        "r7c11"
       ]
     },
     {
       "type": "sum",
       "sources": [
-        "r7c3",
-        "r7c4",
-        "r7c5",
-        "r7c6",
-        "r7c7",
-        "r7c8",
-        "r7c9",
-        "r7c10",
-        "r7c11"
-      ],
-      "target": "r7c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
-    },
-    {
-      "type": "percent-closure",
-      "sources": [
-        "r7c3",
-        "r7c4",
-        "r7c5",
-        "r7c6",
-        "r7c7",
-        "r7c8",
-        "r7c9",
-        "r7c10",
-        "r7c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
-    },
-    {
-      "type": "sum",
-      "sources": [
         "r8c3",
         "r8c4",
         "r8c5",
@@ -1361,9 +1357,7 @@
         "r8c10",
         "r8c11"
       ],
-      "target": "r8c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      "target": "r8c2"
     },
     {
       "type": "percent-closure",
@@ -1377,9 +1371,7 @@
         "r8c9",
         "r8c10",
         "r8c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      ]
     },
     {
       "type": "sum",
@@ -1394,9 +1386,7 @@
         "r9c10",
         "r9c11"
       ],
-      "target": "r9c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      "target": "r9c2"
     },
     {
       "type": "percent-closure",
@@ -1410,9 +1400,7 @@
         "r9c9",
         "r9c10",
         "r9c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      ]
     },
     {
       "type": "sum",
@@ -1489,9 +1477,7 @@
         "r12c10",
         "r12c11"
       ],
-      "target": "r12c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      "target": "r12c2"
     },
     {
       "type": "percent-closure",
@@ -1505,9 +1491,7 @@
         "r12c9",
         "r12c10",
         "r12c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      ]
     },
     {
       "type": "sum",
@@ -1522,9 +1506,7 @@
         "r13c10",
         "r13c11"
       ],
-      "target": "r13c2",
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      "target": "r13c2"
     },
     {
       "type": "percent-closure",
@@ -1538,9 +1520,7 @@
         "r13c9",
         "r13c10",
         "r13c11"
-      ],
-      "tol": "0.1",
-      "why": "Report disclosure-protection note: all estimates undergo additional rounding, so details may not sum to totals."
+      ]
     }
   ]
 }
