@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–129, all reconcile GREEN under strict
+**Completed so far — corpus #1–160, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -68,7 +68,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit DUE** (Grok transcribed #141–151; different-agent rule).
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit DUE** (Antigravity transcribed #152–160; different-agent rule).
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -77,22 +77,9 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing split (#146–147). Schedule A/B + Schedule C agri + comm-energy shipped (#148–151). **Unit-150 every-10th audit DUE** (different agent than Grok; placeholder in `AUDITS.md`).
+Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing + schedules A–E split (#146–160). **Unit-150 every-10th audit completed GREEN** (Antigravity audited Grok's agri unit). **Unit-160 every-10th audit DUE** (different agent than Antigravity).
 
-Remaining Schedule C / D / E:
-
-- **Table 6 Schedule C (remainder)** (pp. 26–28)
-  - `treasury-mts/2026-05-table6-schedule-c-hhs-trans` (~90 cells / 12 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-c-treas-vets` (~60 cells / 8 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-c-epa-ind` (~90 cells / 12 relations. D3) — includes US-Treasury Total Borrowing + FFB section totals
-- **Table 6 Schedule D (pp. 29–30) — Investments of Federal Government Accounts** (Split into 3 units)
-  - `treasury-mts/2026-05-table6-schedule-d-federal-funds-agri-just` (~90 cells / 10 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-d-federal-funds-labor-totals` (~108 cells / 12 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-d-trust-funds` (~150 cells / 20 relations. D3)
-- **Table 6 Schedule E (pp. 31–33) — Guaranteed and Direct Loan Financing** (Split into 3 units)
-  - `treasury-mts/2026-05-table6-schedule-e-guaranteed` (~132 cells / 15 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-e-direct-part1` (~180 cells / 20 relations. D3)
-  - `treasury-mts/2026-05-table6-schedule-e-direct-part2` (~210 cells / 25 relations. D3)
+All Schedule C / D / E units have been shipped.
 
 Also available in already-vendored sources: a sizing survey of the Census **P60-282** report cross-tabs remains a parallel queue-refresh option.
 
@@ -121,6 +108,15 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part2` — #160 (Antigravity). Schedule E Direct Loans Part 2; 175c/23r. **Every-10th audit DUE** (different agent).
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part1` — #159 (Antigravity). Schedule E Direct Loans Part 1; 136c/18r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-guaranteed` — #158 (Antigravity). Schedule E Guaranteed Loans; 181c/17r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-d-trust-funds` — #157 (Antigravity). Schedule D Trust Funds; 224c/30r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-d-federal-funds-labor-totals` — #156 (Antigravity). Schedule D Federal Funds Labor-Totals; 116c/18r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-d-federal-funds-agri-just` — #155 (Antigravity). Schedule D Federal Funds Agriculture-Justice; 48c/6r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-epa-ind` — #154 (Antigravity). Schedule C EPA-Independent; 73c/8r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-treas-vets` — #153 (Antigravity). Schedule C Treasury-Veterans; 35c/1r.
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-hhs-trans` — #152 (Antigravity). Schedule C HHS-Transportation; 68c/3r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-comm-energy` — #151 (Grok). Schedule C Commerce–Energy; 62c/5r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-agri` — #150 (Grok). Schedule C Agriculture; 93c/10r. **Every-10th audit DUE** (different agent).
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-b` — #149 (Grok). Agency securities under special financing; 15c/5r.

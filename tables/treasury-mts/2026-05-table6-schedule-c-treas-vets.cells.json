@@ -1,0 +1,361 @@
+{
+  "table_id": "2026-05-table6-schedule-c-treas-vets",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 6. Schedule C — Federal Agency Borrowing (Treasury, Veterans)",
+    "page": 27,
+    "title": "Table 6. Schedule C — Federal Agency Borrowing (Treasury, Veterans)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions. Borrowing from the US Treasury under Treasury and Veterans Affairs. Blank and less-than-500k (**) cells omitted.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month — open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Borrowing from the US Treasury: Department of the Treasury: Departmental Offices: Community Development Financial Institutions Fund"
+    },
+    {
+      "index": 2,
+      "label": "Borrowing from the US Treasury: Department of the Treasury: Departmental Offices: Temporary Credit and Liquidity Program"
+    },
+    {
+      "index": 3,
+      "label": "Borrowing from the US Treasury: Department of the Treasury: Departmental Offices: Small Business Lending Financing Fund"
+    },
+    {
+      "index": 4,
+      "label": "Borrowing from the US Treasury: Department of the Treasury: Departmental Offices: ESF - Economic Stabilization Program"
+    },
+    {
+      "index": 5,
+      "label": "Borrowing from the US Treasury: Department of the Treasury: Federal Financing Bank Revolving Fund"
+    },
+    {
+      "index": 6,
+      "label": "Borrowing from the US Treasury: Department of Veterans Affairs: Veterans Housing Benefit Program Fund"
+    },
+    {
+      "index": 7,
+      "label": "Borrowing from the US Treasury: Department of Veterans Affairs: Native American Veteran Housing Fund"
+    },
+    {
+      "index": 8,
+      "label": "Borrowing from the US Treasury: Department of Veterans Affairs: Vocational Rehabilitation Loan Fund"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "8",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "11",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "117",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "125",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "125",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "898",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "898",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "898",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "33",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "33",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "33",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-1208",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-1498",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "2714",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "1507",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "1507",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "348",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "4127",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "32636",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "210939",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "214718",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "215066",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-219",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "7250",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "8948",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "8729",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "8729",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "10",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "3",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "99",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "108",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "108",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Borrowing from the US Treasury: Departme)"
+    }
+  ]
+}

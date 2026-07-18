@@ -1,0 +1,503 @@
+{
+  "table_id": "2026-05-table6-schedule-d-federal-funds-agri-just",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 6. Schedule D — Investments of Federal Government Accounts (Federal Funds: Agriculture through Justice)",
+    "page": 29,
+    "title": "Table 6. Schedule D — Investments of Federal Government Accounts (Federal Funds: Agriculture through Justice)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions. Investments of Federal Funds under Agriculture through Justice. Blank and less-than-500k (**) cells omitted.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month — open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Federal Funds: Department of Agriculture"
+    },
+    {
+      "index": 2,
+      "label": "Federal Funds: Department of Commerce"
+    },
+    {
+      "index": 3,
+      "label": "Federal Funds: Department of Defense--Military Programs: Defense Cooperation Account"
+    },
+    {
+      "index": 4,
+      "label": "Federal Funds: Department of Energy"
+    },
+    {
+      "index": 5,
+      "label": "Federal Funds: Department of Health and Human Services"
+    },
+    {
+      "index": 6,
+      "label": "Federal Funds: Department of Homeland Security"
+    },
+    {
+      "index": 7,
+      "label": "Federal Funds: Department of Housing and Urban Development: Housing Programs: Federal Housing Administration Fund"
+    },
+    {
+      "index": 8,
+      "label": "Federal Funds: Department of Housing and Urban Development: Government National Mortgage Association: Guarantees of Mortgage-Backed Securities"
+    },
+    {
+      "index": 9,
+      "label": "Federal Funds: Department of the Interior"
+    },
+    {
+      "index": 10,
+      "label": "Federal Funds: Department of Justice"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "11",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-89",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "409",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "419",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "419",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "10",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "10",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "10",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "744",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "6270",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "6068",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "80096",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "85622",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "86366",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "17532",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "18207",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "17458",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "17532",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-4948",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1248",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "9771",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "7726",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "185047",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "193570",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "194818",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1211",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "2236",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "29516",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "30686",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "30727",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "62",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1707",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "32218",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "32168",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "32230",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "-2777",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-504",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "3102",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "324",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "325",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Energy)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Health and )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r7c1"
+      ],
+      "target": "r7c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c1"
+      ],
+      "target": "r9c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of the Interio)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Justice)"
+    }
+  ]
+}
