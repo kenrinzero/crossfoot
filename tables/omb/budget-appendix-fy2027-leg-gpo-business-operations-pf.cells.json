@@ -1,0 +1,1254 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-gpo-business-operations-pf",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "004-4505-0-4-808",
+    "page": 27,
+    "title": "GPO - Business Operations Revolving Fund (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. GPO Business Operations Revolving Fund (id 004-4505-0-4-808), Program and Financing schedule, PDF page 27 (printed page 39) right column. Unit 1 of the 2-unit by-schedule split of this 152-cell account (sibling: -gpo-business-operations-objclass), following the GAO 005-0107 by-schedule precedent; each schedule prints its own 004-4505 header. Revolving fund: mandatory offsetting-collections spending authority (1800/1801/1850), uncollected-payments tracking (3060/3070/3090), and a mandatory net section (4090-4170). Row 4160 Budget authority, net (mandatory) prints dotted-leader blank in ALL three columns (4090+4130+4140 nets to zero, zero-suppressed) and is omitted per convention (blank != zero) - consequently 4090/4140 feed no encodable relation and 4180 is single-source. Blank cells: 1012 col 1 only, 4010 blank col 1, 4123 blank col 1. Negatives as printed (1801 c1, 3020, 3060, 3090, 4120, 4123, 4130, 4140 c2/c3, 3070 c2/c3). 1930 sums 1000+1900 directly in c2/c3 (1070 single-source there) per family precedent. Obligated-balance memo lines 3100/3200 are genuine sums (uncollected payments present). Cross-schedule sanity (not encoded; sibling re-reads independently): 0900 = 99.9 (1302/1294/1294).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0801 Business Operations"
+    },
+    {
+      "index": 2,
+      "label": "0811 Capital investment"
+    },
+    {
+      "index": 3,
+      "label": "0900 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 4,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 5,
+      "label": "1012 Unobligated balance transfers between expired and unexpired accounts"
+    },
+    {
+      "index": 6,
+      "label": "1070 Unobligated balance (total)"
+    },
+    {
+      "index": 7,
+      "label": "1100 Appropriation"
+    },
+    {
+      "index": 8,
+      "label": "1800 Collected"
+    },
+    {
+      "index": 9,
+      "label": "1801 Change in uncollected payments, Federal sources"
+    },
+    {
+      "index": 10,
+      "label": "1850 Spending auth from offsetting collections, mand (total)"
+    },
+    {
+      "index": 11,
+      "label": "1900 Budget authority (total)"
+    },
+    {
+      "index": 12,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 13,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 14,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 15,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 16,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 17,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 18,
+      "label": "3060 Uncollected pymts, Fed sources, brought forward, Oct 1"
+    },
+    {
+      "index": 19,
+      "label": "3070 Change in uncollected pymts, Fed sources, unexpired"
+    },
+    {
+      "index": 20,
+      "label": "3090 Uncollected pymts, Fed sources, end of year"
+    },
+    {
+      "index": 21,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 22,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 23,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 24,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 25,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 26,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 27,
+      "label": "4090 Budget authority, gross"
+    },
+    {
+      "index": 28,
+      "label": "4100 Outlays from new mandatory authority"
+    },
+    {
+      "index": 29,
+      "label": "4101 Outlays from mandatory balances"
+    },
+    {
+      "index": 30,
+      "label": "4110 Outlays, gross (total)"
+    },
+    {
+      "index": 31,
+      "label": "4120 Federal sources"
+    },
+    {
+      "index": 32,
+      "label": "4123 Non-Federal sources"
+    },
+    {
+      "index": 33,
+      "label": "4130 Offsets against gross budget authority and outlays (total)"
+    },
+    {
+      "index": 34,
+      "label": "4140 Change in uncollected pymts, Fed sources, unexpired"
+    },
+    {
+      "index": 35,
+      "label": "4170 Outlays, net (mandatory)"
+    },
+    {
+      "index": 36,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 37,
+      "label": "4190 Outlays, net (total)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1276",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "1268",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "1268",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "1302",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1294",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1294",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "372",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "404",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "319",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "382",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "404",
+      "role": "standalone",
+      "why": "Single-source unobligated balance total (equals 1000 brought-forward; 1012 transfers blank this column); schema minItems 2 forbids single-source sum. 1930 this column sums 1000+1900 directly per family precedent"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "319",
+      "role": "standalone",
+      "why": "Single-source unobligated balance total (equals 1000 brought-forward; 1012 transfers blank this column); schema minItems 2 forbids single-source sum. 1930 this column sums 1000+1900 directly per family precedent"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "1343",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1179",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1179",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-31",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "1312",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1200",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "1200",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1324",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1209",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "1209",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "1706",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "1613",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "1528",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "404",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: Unexpired unobligated balance end of year does not feed the section arithmetic"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "319",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: Unexpired unobligated balance end of year does not feed the section arithmetic"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "234",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: Unexpired unobligated balance end of year does not feed the section arithmetic"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "692",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "580",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "655",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "1302",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "1294",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "1294",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-1414",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-1219",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-1241",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "580",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "655",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "708",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-244",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-213",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-234",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "-21",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "-21",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-213",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "-234",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-255",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "448",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "367",
+      "role": "total"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "421",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "367",
+      "role": "total"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "421",
+      "role": "total"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "453",
+      "role": "total"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "12",
+      "role": "standalone",
+      "why": "Restates 1100 as gross discretionary budget authority; single-source into 4180 (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "9",
+      "role": "standalone",
+      "why": "Restates 1100 as gross discretionary budget authority; single-source into 4180 (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "9",
+      "role": "standalone",
+      "why": "Restates 1100 as gross discretionary budget authority; single-source into 4180 (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "14",
+      "role": "standalone",
+      "why": "Single-source into 4020 Outlays gross (4010 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "23",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "27",
+      "role": "total"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "23",
+      "role": "total"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "1312",
+      "role": "standalone",
+      "why": "Restates 1850 as gross mandatory budget authority; feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "1200",
+      "role": "standalone",
+      "why": "Restates 1850 as gross mandatory budget authority; feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "1200",
+      "role": "standalone",
+      "why": "Restates 1850 as gross mandatory budget authority; feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "1028",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "960",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "960",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "372",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "232",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "258",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "1400",
+      "role": "total"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "1192",
+      "role": "total"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "1218",
+      "role": "total"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "-1343",
+      "role": "standalone",
+      "why": "Single-source into 4130 offsets total (4123 non-Federal blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "-1155",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "-1155",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "-1343",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "-1179",
+      "role": "total"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "-1179",
+      "role": "total"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "31",
+      "role": "standalone",
+      "why": "Feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "-21",
+      "role": "standalone",
+      "why": "Feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "value": "-21",
+      "role": "standalone",
+      "why": "Feeds only 4160 Budget authority net (mandatory), which prints blank (zero-suppressed) in all columns, so no encodable relation exists"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "57",
+      "role": "total"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r35c3",
+      "row": 35,
+      "col": 3,
+      "value": "39",
+      "role": "total"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "12",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross discretionary (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "9",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross discretionary (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r36c3",
+      "row": 36,
+      "col": 3,
+      "value": "9",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross discretionary (4160 mandatory net prints blank/zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "71",
+      "role": "total"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "40",
+      "role": "total"
+    },
+    {
+      "id": "r37c3",
+      "row": 37,
+      "col": 3,
+      "value": "62",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1"
+      ],
+      "target": "r3c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2"
+      ],
+      "target": "r3c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "target": "r3c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r5c1"
+      ],
+      "target": "r6c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r10c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r10c1"
+      ],
+      "target": "r11c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r10c2"
+      ],
+      "target": "r11c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r10c3"
+      ],
+      "target": "r11c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r11c1"
+      ],
+      "target": "r12c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r11c2"
+      ],
+      "target": "r12c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r11c3"
+      ],
+      "target": "r12c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1",
+        "r16c1"
+      ],
+      "target": "r17c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2",
+        "r16c2"
+      ],
+      "target": "r17c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ],
+      "target": "r17c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c1",
+        "r19c1"
+      ],
+      "target": "r20c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c2",
+        "r19c2"
+      ],
+      "target": "r20c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c3",
+        "r19c3"
+      ],
+      "target": "r20c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r18c1"
+      ],
+      "target": "r21c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r18c2"
+      ],
+      "target": "r21c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r18c3"
+      ],
+      "target": "r21c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r20c1"
+      ],
+      "target": "r22c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r20c2"
+      ],
+      "target": "r22c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c3",
+        "r20c3"
+      ],
+      "target": "r22c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c2",
+        "r25c2"
+      ],
+      "target": "r26c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c3",
+        "r25c3"
+      ],
+      "target": "r26c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c1",
+        "r29c1"
+      ],
+      "target": "r30c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c2",
+        "r29c2"
+      ],
+      "target": "r30c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c3",
+        "r29c3"
+      ],
+      "target": "r30c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c2",
+        "r32c2"
+      ],
+      "target": "r33c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c3",
+        "r32c3"
+      ],
+      "target": "r33c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c1",
+        "r33c1"
+      ],
+      "target": "r35c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c2",
+        "r33c2"
+      ],
+      "target": "r35c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c3",
+        "r33c3"
+      ],
+      "target": "r35c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c1",
+        "r35c1"
+      ],
+      "target": "r37c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c2",
+        "r35c2"
+      ],
+      "target": "r37c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c3",
+        "r35c3"
+      ],
+      "target": "r37c3"
+    }
+  ]
+}
