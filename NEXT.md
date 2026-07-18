@@ -139,6 +139,49 @@ applicable columns handled as usual (standalone + total-row net identity).
 - **NEW QUEUE — OMB family starter (PDF → vision, render-anchored):**
   1. ~~`omb/budget-appendix-fy2027-leg-cbo` (D2, ~100 cells) — Congressional
      Budget Office account.~~ **SHIPPED 2026-07-18** (Antigravity — 92 cells / 14 relations; corpus #75).
+  2. ~~Library of Congress family: Salaries and Expenses, Stewardship Fund,
+     Copyright Office, Blind and Print Disabled, Payments to Copyright
+     Owners.~~ **SHIPPED 2026-07-18** (Antigravity — corpus #76-80, 488
+     cells / 100 relations). Logged as "the Library of Congress family"
+     complete — **it wasn't**: see item 3.
+
+- **CORRECTION 2026-07-18 (Claude Sonnet 5):** a full-chapter survey by
+  distinct OMB identification code found the LoC family is 5 of **10**
+  accounts, and the chapter overall has ≈40–45 real accounts, not the
+  ~20 in the old estimate (Senate + House, pp1–4, carry **zero** P&F
+  schedules — pure appropriations language, confirmed out of scope).
+  Full corrected breakdown in `BACKLOG.md` under
+  `omb/budget-appendix-slice`. The five open LoC accounts are queued
+  below as the immediate next dispatch; the rest of the chapter
+  (Architect of the Capitol ~14-15 accounts, Capitol Police ~4-5, GPO 3,
+  GAO 1, US Tax Court 3, Boards and Commissions ~8-10) stays unsized,
+  operator's call on sequencing.
+
+- **NEW QUEUE — Library of Congress remainder (PDF → vision,
+  render-anchored; all pp17-24, none sized/render-verified yet — sizes
+  below are text-layer line counts only, verify on pickup):**
+  1. `omb/budget-appendix-fy2027-leg-loc-crs` (D2, id `003-0127-0-1-801`,
+     page 20, est. ~90-100 cells) — Congressional Research Service,
+     Salaries and Expenses. A schedule distinct from the already-shipped
+     LoC "Salaries and Expenses" unit (`003-0101`) — easy to miss since
+     it sits in the same Federal Funds block; best starter, cleanest
+     schedule, adjacent to the already-verified Blind-and-Print-Disabled
+     unit.
+  2. `omb/budget-appendix-fy2027-leg-loc-cooperative-acquisitions` (D2,
+     id `003-4325-0-3-503`, pp21-22, spans the page break, est. ~60-90
+     cells) — Cooperative Acquisitions Program Revolving Fund.
+  3. `omb/budget-appendix-fy2027-leg-loc-gift-shop` (D2, id
+     `003-4346-0-3-503`, page 22, small — similar scale to item 2) —
+     Gift Shop, Decimal Classification, Photo Duplication, and Related
+     Services revolving fund.
+  4. `omb/budget-appendix-fy2027-leg-loc-fedlink` (D2, id
+     `003-4543-0-4-503`, pp22-23, larger — denser P&F + ObjClass +
+     EmploymentSummary) — FEDLINK Program and Federal Research Program.
+  5. `omb/budget-appendix-fy2027-leg-loc-gift-trust` (D2, id
+     `003-9971-0-7-503`, pp23-24) — Gift and Trust Fund Accounts (Trust
+     Funds — a `SpecialandTrustFundReceipts` schedule, not P&F, plus its
+     own EmploymentSummary; the Library's "seven program areas"
+     gift/trust umbrella).
 
 ---
 
