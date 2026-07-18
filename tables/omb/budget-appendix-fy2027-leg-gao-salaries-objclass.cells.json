@@ -1,0 +1,698 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-gao-salaries-objclass",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "005-0107-0-1-801",
+    "page": 29,
+    "title": "Government Accountability Office - Salaries and Expenses (Object Classification + Employment Summary)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions except the Employment Summary FTE lines (headcounts). GAO Salaries and Expenses account (id 005-0107-0-1-801), Object Classification and Employment Summary schedules, PDF page 29 (printed page 41) LEFT column - the right column of this two-column page is the separate US Tax Court account 023-0100 (do not cross-contaminate). Unit 2 of the 2-unit by-schedule split of this 195-cell account (sibling: -gao-salaries-pf); each schedule prints its own 005-0107 header, so no cross-unit re-anchoring is needed. 99.0 Direct obligations sums 11.9 Total personnel compensation plus the non-personnel line items (11.1/11.3/11.5 fold in via 11.9, not double-counted). Two rows share the printed code 99.0 (Direct vs Reimbursable) and are distinct rows here. No blank cells in these schedules. Cross-schedule sanity (not encoded; sibling unit re-reads independently): 99.9 = 0900 (926/903/910), 99.0 Direct = 0799 (825/812/860), 99.0 Reimbursable = 0899 (101/91/50).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "11.1 Full-time permanent"
+    },
+    {
+      "index": 2,
+      "label": "11.3 Other than full-time permanent"
+    },
+    {
+      "index": 3,
+      "label": "11.5 Other personnel compensation"
+    },
+    {
+      "index": 4,
+      "label": "11.9 Total personnel compensation"
+    },
+    {
+      "index": 5,
+      "label": "12.1 Civilian personnel benefits"
+    },
+    {
+      "index": 6,
+      "label": "13.0 Benefits for former personnel"
+    },
+    {
+      "index": 7,
+      "label": "21.0 Travel and transportation of persons"
+    },
+    {
+      "index": 8,
+      "label": "23.1 Rental payments to GSA"
+    },
+    {
+      "index": 9,
+      "label": "23.3 Communications, utilities, and miscellaneous charges"
+    },
+    {
+      "index": 10,
+      "label": "25.1 Advisory and assistance services"
+    },
+    {
+      "index": 11,
+      "label": "25.2 Other services from non-Federal sources"
+    },
+    {
+      "index": 12,
+      "label": "25.3 Other goods and services from Federal sources"
+    },
+    {
+      "index": 13,
+      "label": "25.4 Operation and maintenance of facilities"
+    },
+    {
+      "index": 14,
+      "label": "25.6 Medical care"
+    },
+    {
+      "index": 15,
+      "label": "25.7 Operation and maintenance of equipment"
+    },
+    {
+      "index": 16,
+      "label": "31.0 Equipment"
+    },
+    {
+      "index": 17,
+      "label": "32.0 Land and structures"
+    },
+    {
+      "index": 18,
+      "label": "99.0 Direct obligations"
+    },
+    {
+      "index": 19,
+      "label": "99.0 Reimbursable obligations"
+    },
+    {
+      "index": 20,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 21,
+      "label": "1001 Direct civilian full-time equivalent employment"
+    },
+    {
+      "index": 22,
+      "label": "2001 Reimbursable civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "479",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "458",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "482",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "507",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "485",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "510",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "187",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "178",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "188",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "70",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "825",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "812",
+      "role": "total"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "860",
+      "role": "total"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "91",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "50",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "926",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "903",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "910",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "3223",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "3000",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "3034",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "324",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "353",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "176",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r4c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1"
+      ],
+      "target": "r18c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c1",
+        "r19c1"
+      ],
+      "target": "r20c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2",
+        "r11c2",
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2"
+      ],
+      "target": "r18c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c2",
+        "r19c2"
+      ],
+      "target": "r20c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r4c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3"
+      ],
+      "target": "r18c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c3",
+        "r19c3"
+      ],
+      "target": "r20c3"
+    }
+  ]
+}
