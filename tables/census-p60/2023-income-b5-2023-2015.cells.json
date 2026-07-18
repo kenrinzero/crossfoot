@@ -1,0 +1,1150 @@
+{
+  "table_id": "census-p60/2023-income-b5-2023-2015",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table B-5. Selected Measures of Household Post-Tax Income Dispersion: 2009 to 2023",
+    "page": 55,
+    "title": "Years 2023 through 2015 (10 year-rows \u00d7 13 dispersion measures)",
+    "period": "2023-2015"
+  },
+  "unit_note": "Post-tax income dispersion time series. All cells are level percentiles or printed ratios; under the frozen sum/percent-closure vocabulary every cell is standalone. Footnote markers on year labels (redesign/processing/population-controls) are recorded in the row label where they distinguish series.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "10th percentile"
+    },
+    {
+      "index": 2,
+      "label": "20th percentile"
+    },
+    {
+      "index": 3,
+      "label": "30th percentile"
+    },
+    {
+      "index": 4,
+      "label": "40th percentile"
+    },
+    {
+      "index": 5,
+      "label": "50th percentile (median)"
+    },
+    {
+      "index": 6,
+      "label": "60th percentile"
+    },
+    {
+      "index": 7,
+      "label": "70th percentile"
+    },
+    {
+      "index": 8,
+      "label": "80th percentile"
+    },
+    {
+      "index": 9,
+      "label": "90th percentile"
+    },
+    {
+      "index": 10,
+      "label": "95th percentile"
+    },
+    {
+      "index": 11,
+      "label": "90th/10th"
+    },
+    {
+      "index": 12,
+      "label": "90th/50th"
+    },
+    {
+      "index": 13,
+      "label": "50th/10th"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "2023"
+    },
+    {
+      "index": 2,
+      "label": "2022"
+    },
+    {
+      "index": 3,
+      "label": "2021"
+    },
+    {
+      "index": 4,
+      "label": "2020"
+    },
+    {
+      "index": 5,
+      "label": "2019"
+    },
+    {
+      "index": 6,
+      "label": "2018"
+    },
+    {
+      "index": 7,
+      "label": "2017 (updated processing)"
+    },
+    {
+      "index": 8,
+      "label": "2017 (legacy)"
+    },
+    {
+      "index": 9,
+      "label": "2016"
+    },
+    {
+      "index": 10,
+      "label": "2015"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "18780",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "31830",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "43840",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "55550",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "69240",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "85400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "105500",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "132600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "181800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "237200",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "9.68",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "2.63",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "3.69",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "17840",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "30410",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "42270",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "53770",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "66800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "82430",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "101600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "126700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "172500",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "228500",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "9.67",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c12",
+      "row": 2,
+      "col": 12,
+      "value": "2.58",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "3.74",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "20720",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "33800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "46840",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "59530",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "73170",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "89790",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "110700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "138600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "185200",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "241300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "8.94",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c12",
+      "row": 3,
+      "col": 12,
+      "value": "2.53",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "3.53",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "21120",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "34450",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "47280",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "59860",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "73780",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "90120",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "110700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "139000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "185100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "242600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "8.77",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c12",
+      "row": 4,
+      "col": 12,
+      "value": "2.51",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "3.49",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "18970",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "32250",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "44490",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "56750",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "70440",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "87150",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "107400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "134900",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "184300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "241200",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "9.72",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c12",
+      "row": 5,
+      "col": 12,
+      "value": "2.62",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "3.71",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "17450",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "30090",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "41750",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "53310",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "66240",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "81150",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "100300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "125700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "171600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "226200",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "9.84",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c12",
+      "row": 6,
+      "col": 12,
+      "value": "2.59",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "3.80",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "17420",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "29280",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "40290",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "51370",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "63950",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "79190",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "97790",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "123500",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "168200",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "220700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "9.65",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c12",
+      "row": 7,
+      "col": 12,
+      "value": "2.63",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "3.67",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "17350",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "29230",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "40210",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "51520",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "64240",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "79330",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "97320",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "122600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "165000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "213300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "9.51",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c12",
+      "row": 8,
+      "col": 12,
+      "value": "2.57",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "3.70",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "16950",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "29090",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "39970",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "50930",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "63350",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "78120",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "95910",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "118000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "161600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "207400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "9.54",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c12",
+      "row": 9,
+      "col": 12,
+      "value": "2.55",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "3.74",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "16710",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "28110",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "38470",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "49360",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "61470",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "74860",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "90490",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "111600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "154100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "198700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio time series: values are level estimates or printed ratios that do not participate in sum or percent-closure arithmetic under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "9.22",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c12",
+      "row": 10,
+      "col": 12,
+      "value": "2.51",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "3.68",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}

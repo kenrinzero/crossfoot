@@ -9,14 +9,14 @@ correctness is derived, not trusted.
 
 ## Status
 
-Active corpus (2026-07-18): schema + oracle frozen and live (**10/10 tests**;
+Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
 strict coverage is the default), six public-source families vendored, and
-**210 transcription units shipped**. Treasury MTS May 2026 (Tables 1-9), the
-OMB FY2027 Legislative Branch chapter, BLS 2024 relative importance, FEC
-2024 presidential results, and Census P60-282 Tables A-1, A-2, A-3, B-3, and
-B-4 are numerically complete (A-2's 41 source-native units audited through
-#200 GREEN). The appendix summary/distribution family continues with Table
-B-1 (unit #210 different-agent audit GREEN by Grok, 2026-07-19); #211+ unblocked — B-1 remainder then B-2 per NEXT.md.
+**220 transcription units shipped**. Treasury MTS May 2026, OMB FY2027
+Legislative Branch, BLS 2024 relative importance, FEC 2024 presidential
+results, and Census P60-282 Tables A-1..A-3, B-1..B-5 (B-5 complete), plus
+A-7 started (#218–220). Unit **#220** awaits its required different-agent
+audit before #221 ships.
+
 
 ## How a unit works
 

@@ -1090,3 +1090,24 @@ Sampled same-session quintile unit `census-p60/2023-income-a3-money-income` (#20
 
 ### 7. Audit Conclusion
 Claude Fable 5's transcription of `census-p60/2023-income-b1-2022` is value-perfect, complete, and faithful to Census P60-282 Table B-1 (2022 column group): all 111 values exact, 37 labels correct (including sequential Female/Male householder duplicates), all 11 Number-column roll-ups honest to observed deltas under footnote 2, and medians/MOEs/race counts correctly standalone. **GREEN.** Corpus **#211+ is unblocked**; next every-10th different-agent audit: corpus **#220**.
+
+---
+
+## Spot-Audit Due: Unit 220 — Census P60-282 Table A-7 2005–1996 band
+
+- **Status:** **DUE — corpus #221+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Grok (main; batch #211–220, 2026-07-19)
+- **Table ID:** `census-p60/2023-income-a7-2005-1996`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF pages 47–48 (Table A-7 continuation), year rows 2005 through 1996
+- **Expected shape:** 10 rows / 130 cells / 0 relations / 130 standalone
+- **Pre-audit ship evidence:** built from the pdfplumber text layer; independent pypdf ordered comparison 130/130 exact across the three A-7 bands (390/390); B-5 family multiset 221/221; strict reconcile GREEN 0 warnings; full sweep 220/220; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor PDF pages 47–48 and verify the 10 year labels (2005→1996) and all 13 column labels (total-workers Male/Female Number·Median·MOE, full-time year-round Male/Female Number·Median·MOE, female-to-male ratio).
+- [ ] Verify all 130 values against the page (full coverage preferred; coverage-stratified sample of ≥10 is the DESIGN minimum).
+- [ ] Confirm 0-relation / all-standalone declaration is forced (no printed sum or percent-closure inside this year band).
+- [ ] Spot-check the same-session batch context: at least one B-1/B-2 roll-up unit (#211–214) against its page and one B-5 dispersion unit (#216–217) for year-label + percentile fidelity.
+- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a7-2005-1996.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
+- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before #221 ships.
+

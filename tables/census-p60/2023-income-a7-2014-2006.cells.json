@@ -1,0 +1,1150 @@
+{
+  "table_id": "census-p60/2023-income-a7-2014-2006",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-7. Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023",
+    "page": 47,
+    "title": "Years 2014 through 2006 (10 year-rows \u00d7 13 measures)",
+    "period": "2014 to 2006"
+  },
+  "unit_note": "Earnings-by-sex time series. Counts, medians, MOEs, and the female-to-male ratio are level/derived fields without sum or percent-closure arithmetic inside this unit; all cells standalone under the frozen relation vocabulary. Printed asterisk markers are not present on this table's year block.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Total workers / Male / Number (thousands)"
+    },
+    {
+      "index": 2,
+      "label": "Total workers / Male / Median earnings"
+    },
+    {
+      "index": 3,
+      "label": "Total workers / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 4,
+      "label": "Total workers / Female / Number (thousands)"
+    },
+    {
+      "index": 5,
+      "label": "Total workers / Female / Median earnings"
+    },
+    {
+      "index": 6,
+      "label": "Total workers / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 7,
+      "label": "Full-time year-round / Male / Number (thousands)"
+    },
+    {
+      "index": 8,
+      "label": "Full-time year-round / Male / Median earnings"
+    },
+    {
+      "index": 9,
+      "label": "Full-time year-round / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 10,
+      "label": "Full-time year-round / Female / Number (thousands)"
+    },
+    {
+      "index": 11,
+      "label": "Full-time year-round / Female / Median earnings"
+    },
+    {
+      "index": 12,
+      "label": "Full-time year-round / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 13,
+      "label": "Female-to-male earnings ratio"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "2014"
+    },
+    {
+      "index": 2,
+      "label": "2013 (redesigned)"
+    },
+    {
+      "index": 3,
+      "label": "2013 (legacy)"
+    },
+    {
+      "index": 4,
+      "label": "2012"
+    },
+    {
+      "index": 5,
+      "label": "2011"
+    },
+    {
+      "index": 6,
+      "label": "2010"
+    },
+    {
+      "index": 7,
+      "label": "2009"
+    },
+    {
+      "index": 8,
+      "label": "2008"
+    },
+    {
+      "index": 9,
+      "label": "2007"
+    },
+    {
+      "index": 10,
+      "label": "2006"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "84490",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "51010",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "268",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "75570",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "35640",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "595",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "62460",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "63250",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "273",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "46230",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "49740",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "900",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "0.786",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "83860",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "51220",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "635",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "74820",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "34870",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "591",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "61240",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "63680",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "1190",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "44630",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "49390",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c12",
+      "row": 2,
+      "col": 12,
+      "value": "1458",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "0.776",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "83560",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "50800",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "915",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "74550",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "35310",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "762",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "60770",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "63700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "515",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "45070",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "49850",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c12",
+      "row": 3,
+      "col": 12,
+      "value": "760",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "0.783",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "83000",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "48860",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "878",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "74190",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "34640",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "290",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "59010",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "63660",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "990",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "44040",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "48700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c12",
+      "row": 4,
+      "col": 12,
+      "value": "765",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "0.765",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "81370",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "49050",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "359",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "73090",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "34870",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "285",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "57990",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "63310",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "1024",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "43680",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "48750",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c12",
+      "row": 5,
+      "col": 12,
+      "value": "333",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "0.770",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "80860",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "49820",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "354",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "72720",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "35890",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "292",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "56280",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "64940",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "1089",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "43180",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "49960",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c12",
+      "row": 6,
+      "col": 12,
+      "value": "325",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "0.769",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "81930",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "49880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "266",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "72970",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "35740",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "210",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "56050",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "64700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "332",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "43220",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "49810",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c12",
+      "row": 7,
+      "col": 12,
+      "value": "237",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "0.770",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "84040",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "50000",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "241",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "74540",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "35070",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "218",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "59860",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "63400",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "326",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "44160",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "48880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c12",
+      "row": 8,
+      "col": 12,
+      "value": "238",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "0.771",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "84480",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "51930",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "247",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "74300",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "36680",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "212",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "62980",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "63950",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "350",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "45610",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "49760",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r9c12",
+      "row": 9,
+      "col": 12,
+      "value": "238",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "0.778",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "83930",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "52160",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "256",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "73680",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "35570",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "366",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "63060",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "61440",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "210",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "44660",
+      "role": "standalone",
+      "why": "Worker counts in this slice are transcribed as levels without a multi-source roll-up inside this unit (sex/total roll-ups live in characteristic-summary tables)."
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "47270",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r10c12",
+      "row": 10,
+      "col": 12,
+      "value": "442",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "0.769",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}
