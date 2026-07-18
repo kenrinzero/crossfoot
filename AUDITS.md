@@ -834,16 +834,49 @@ Antigravity's transcription of `treasury-mts/2026-05-table6-schedule-e-direct-pa
 
 ---
 
-## Spot-Audit: Unit 170 — Census P60-282 Table A-2 WHITE ALONE, NOT HISPANIC 2023-2013 (DUE)
+## Spot-Audit: Unit 170 — Census P60-282 Table A-2 WHITE ALONE, NOT HISPANIC 2023-2013
 
-- **Audit status:** **DUE — #171 BLOCKED pending GREEN**
+- **Audit Date:** 2026-07-18
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Codex (`codex/census-p60-sizing`)
-- **Required auditor:** a different agent
-- **Table ID:** `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013`
-- **Source:** `sources/census/p60-282.pdf`, PDF page 25 (printed page 19), WHITE ALONE, NOT HISPANIC block from 2023 through the second printed 2013 series row
-- **Shipped shape:** 13 rows / 143 cells / 26 relations / 13 standalone household counts
-- **Transcriber evidence:** upright pypdfium2 render inspected; independent pypdf extraction matched 143/143 cells; reconcile GREEN with 0 warnings; full-corpus and pytest gates recorded at checkpoint
+- **Table ID:** [census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013.cells.json)
+- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 25 (printed page 19), WHITE ALONE, NOT HISPANIC block from 2023 through 2013 redesign and legacy rows
+- **Method:** Programmatic text-layer extraction (pdfplumber) + FULL-coverage machine comparison of all 143 cells vs source data + manual check of row labels, footnotes, and rounding tolerances.
+- **Status:** **GREEN** (all verification checks passed; 143/143 cells exact)
 
-### Required non-arithmetic audit
+### 1. Metadata Verification
+- **Table title / period:** "Table A-2. Households by Total Money Income, Race, and Hispanic Origin of Householder: 1967 to 2023" / 1967-2023 — **PASS**
+- **Units / scale:** `[Number in thousands, Percent distribution]` — **PASS**
+- **Columns (11):** Number (thousands) / Percent distribution / Total (100) / Under $15,000 / $15,000 to $24,999 / $25,000 to $34,999 / $35,000 to $49,999 / $50,000 to $74,999 / $75,000 to $99,999 / $100,000 to $149,999 / $150,000 to $199,999 / $200,000 and over — **PASS**
+- **Rows (13):** Verified all 13 rows from 2023 down to 2013 (including redesign and legacy years 2017 and 2013) — **PASS**
+- **Omission convention:** Blank / non-applicable cells are not present (the table slice is fully populated). Mean and median income columns correctly omitted from this percent-distribution slice — **PASS**
 
-Using a fresh render, verify every row label and all 143 printed values (or a stratified value sample plus a full independent multiset comparison), with special attention to the duplicate 2017 and 2013 redesigned/legacy rows, row completeness, and the five source-authorized 0.1/0.2 rounding tolerances. Record the auditor identity, method, discrepancies or repairs, and final GREEN/RED result here before any corpus #171 unit ships.
+### 2. Sampled Cells Verification (10 sampled cells)
+The 10-cell sample was stratified to test household counts, redesigned series, legacy series, boundary bins, and various years:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 2023 | Number (thousands) | standalone | `84440` | `84,440` | **PASS** |
+| `r1c3` | 2023 | Under $15,000 | leaf | `5.9` | `5.9` | **PASS** |
+| `r1c11` | 2023 | $200,000 and over | leaf | `16.3` | `16.3` | **PASS** |
+| `r4c1` | 2020 | Number (thousands) | standalone | `84710` | `84,710` | **PASS** (redesigned CPS ASEC) |
+| `r7c1` | 2017 (redesigned) | Number (thousands) | standalone | `84710` | `84,710` | **PASS** |
+| `r8c1` | 2017 (legacy) | Number (thousands) | standalone | `84680` | `84,680` | **PASS** |
+| `r8c2` | 2017 (legacy) | Total | total | `100` | `100` | **PASS** (reconciles with tol 0.2) |
+| `r9c11` | 2016 | $200,000 and over | leaf | `13.4` | `13.4` | **PASS** (reconciles with tol 0.1) |
+| `r12c1` | 2013 (redesigned) | Number (thousands) | standalone | `84430` | `84,430` | **PASS** |
+| `r13c1` | 2013 (legacy) | Number (thousands) | standalone | `83640` | `83,640` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- 26 relations: 13 row-wise sums (col 3 to 11 sum to col 2) and 13 percent-closures (col 3 to 11 sum to 100).
+- Five printed rounding gaps correctly carry their source-authorized tolerances (Rows 2023, 2022, 2016, 2014 at `tol: "0.1"`; Row 2017 legacy at `tol: "0.2"`). These exact sums are `99.9` (2023), `100.1` (2022), `99.8` (2017 legacy), `100.1` (2016), and `100.1` (2014) respectively.
+- No invented slack; no under-declaration relative to printed totals.
+
+### 4. Reconcile Gate
+- Command: `uv run python reconcile.py tables/census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013.cells.json`
+- Output: `GREEN: tables/census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 170/170 GREEN — **PASS**
+
+### 5. Audit Conclusion
+Codex's transcription of `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013` is value-perfect, complete, and completely faithful to the Census P60-282 report. All 143 values are exact, row labels and redesigned/legacy years are accurately represented, and all rounding tolerances are mathematically verified and honest to the source. **GREEN.** Next every-10th different-agent audit: corpus **#180**.

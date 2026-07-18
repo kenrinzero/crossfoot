@@ -78,7 +78,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is shipped and audit-DUE**; #171 is blocked until a different agent records GREEN in `AUDITS.md`.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**; #171 is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -94,7 +94,7 @@ GREEN after completeness repair (Grok; 175/175 present values exact, 2
 missing standalone rows inserted). **Verification 2026-07-18 (Claude
 Fable 5): full-corpus sweep re-run on a repaired venv — 160/160 GREEN,
 pytest 10/10, audit trail #120-#160 rotation-clean.** Corpus **#170 is
-now audit-DUE** after the Census continuation batch below.
+audited and GREEN by Antigravity** (unblocking #171).
 
 - **NEXT DISPATCH — Census P60-282 Table A-2 continuation (zero new
   vendoring, D2).** The 59-page vendored PDF is sha256-ledgered. Its
@@ -120,11 +120,10 @@ now audit-DUE** after the Census continuation batch below.
 
   **AUDIT GATE — NEXT DISPATCH:** #161–170 are **SHIPPED** and all nine
   newly added units (#162–170) passed independent pypdf comparison
-  (1,210/1,210 cells exact), strict reconcile, and the full corpus gate. A
-  **DIFFERENT agent** must perform the render-anchored audit of #170
-  (`census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013`) and
-  record it in `AUDITS.md`. **Do not ship #171 before that audit is
-  GREEN.** After GREEN, resume the remaining WHITE ALONE, NOT HISPANIC
+  (1,210/1,210 cells exact), strict reconcile, and the full corpus gate. The
+  render-anchored audit of #170 (`census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013`)
+  has been completed and recorded as **GREEN** in `AUDITS.md` by Antigravity.
+  **#171 is unblocked**; resume the remaining WHITE ALONE, NOT HISPANIC
   rows under the same 13-row / 143-cell ceiling. Any non-default
   tolerance must quote the report's rounding note per DESIGN §3.
 
@@ -162,7 +161,7 @@ now audit-DUE** after the Census continuation batch below.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013` — #170 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit DUE; #171 blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013` — #170 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit GREEN (Antigravity); #171 unblocked.**
 - 2026-07-18 · `census-p60/2023-income-a2-white-historical-1975-1967` — #169 (Codex). 99c/18r/9 standalone; strict-default GREEN; independent pypdf source comparison 99/99 exact; historical WHITE complete.
 - 2026-07-18 · `census-p60/2023-income-a2-white-historical-1988-1976` — #168 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-white-historical-2001-1989` — #167 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
