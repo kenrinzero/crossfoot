@@ -157,31 +157,47 @@ applicable columns handled as usual (standalone + total-row net identity).
   GAO 1, US Tax Court 3, Boards and Commissions ~8-10) stays unsized,
   operator's call on sequencing.
 
-- **NEW QUEUE — Library of Congress remainder (PDF → vision,
-  render-anchored; all pp17-24, none sized/render-verified yet — sizes
-  below are text-layer line counts only, verify on pickup):**
-  1. `omb/budget-appendix-fy2027-leg-loc-crs` (D2, id `003-0127-0-1-801`,
-     page 20, est. ~90-100 cells) — Congressional Research Service,
-     Salaries and Expenses. A schedule distinct from the already-shipped
-     LoC "Salaries and Expenses" unit (`003-0101`) — easy to miss since
-     it sits in the same Federal Funds block; best starter, cleanest
-     schedule, adjacent to the already-verified Blind-and-Print-Disabled
-     unit.
-  2. `omb/budget-appendix-fy2027-leg-loc-cooperative-acquisitions` (D2,
-     id `003-4325-0-3-503`, pp21-22, spans the page break, est. ~60-90
-     cells) — Cooperative Acquisitions Program Revolving Fund.
-  3. `omb/budget-appendix-fy2027-leg-loc-gift-shop` (D2, id
-     `003-4346-0-3-503`, page 22, small — similar scale to item 2) —
-     Gift Shop, Decimal Classification, Photo Duplication, and Related
-     Services revolving fund.
-  4. `omb/budget-appendix-fy2027-leg-loc-fedlink` (D2, id
-     `003-4543-0-4-503`, pp22-23, larger — denser P&F + ObjClass +
-     EmploymentSummary) — FEDLINK Program and Federal Research Program.
-  5. `omb/budget-appendix-fy2027-leg-loc-gift-trust` (D2, id
-     `003-9971-0-7-503`, pp23-24) — Gift and Trust Fund Accounts (Trust
-     Funds — a `SpecialandTrustFundReceipts` schedule, not P&F, plus its
-     own EmploymentSummary; the Library's "seven program areas"
-     gift/trust umbrella).
+- **Library of Congress remainder — ALL 5 SHIPPED 2026-07-18 (Claude
+  Sonnet 5), same session as the correction above. LoC family now
+  numerically COMPLETE, 10/10 accounts, corpus #76–85:**
+  1. ~~`omb/budget-appendix-fy2027-leg-loc-crs` (id `003-0127-0-1-801`,
+     page 20) — Congressional Research Service, Salaries and
+     Expenses.~~ **SHIPPED** (83 cells / 13 relations; corpus #81).
+  2. ~~`omb/budget-appendix-fy2027-leg-loc-cooperative-acquisitions` (id
+     `003-4325-0-3-503`, pp21-22) — Cooperative Acquisitions Program
+     Revolving Fund.~~ **SHIPPED** (62 cells / 11 relations; corpus
+     #82).
+  3. ~~`omb/budget-appendix-fy2027-leg-loc-gift-shop` (id
+     `003-4346-0-3-503`, page 22) — Gift Shop, Decimal Classification,
+     Photo Duplication, and Related Services revolving fund.~~
+     **SHIPPED** (78 cells / 16 relations; corpus #83).
+  4. ~~`omb/budget-appendix-fy2027-leg-loc-fedlink` (id
+     `003-4543-0-4-503`, pp22-23) — FEDLINK Program and Federal
+     Research Program.~~ **SHIPPED** (107 cells / 28 relations; corpus
+     #84). Densest of the five — genuine uncollected-payments
+     identities (3090/3100/3200), not simple memo duplicates.
+  5. ~~`omb/budget-appendix-fy2027-leg-loc-gift-trust` (id
+     `003-9971-0-7-503`, pp23-24) — Gift and Trust Fund Accounts.~~
+     **SHIPPED** (147 cells / 27 relations; corpus #85). Combines a
+     Special and Trust Fund Receipts schedule with a companion P&F
+     schedule under one id, same pattern as the already-shipped
+     Payments to Copyright Owners unit.
+
+  All re-read from the pp17-24 render (3x pypdfium2) + pdfplumber
+  text-layer cross-check; reconcile GREEN (0 warnings, strict
+  coverage) and pytest 10/10 on each. **Bonus finding:** a full-corpus
+  reconcile sweep after shipping surfaced a pre-existing coverage bug
+  in the already-shipped `-salaries` unit (#76) — two memo rows
+  (1940/1941) mislabeled `leaf` instead of `standalone`, meaning the
+  original "reconcile GREEN" ship claim wasn't actually true. Fixed
+  (commit `82f81f2`, values untouched, role+why corrected only). All
+  85 corpus units now reconcile GREEN.
+
+- **OMB chapter beyond LoC** stays unsized, operator's call on
+  sequencing: Architect of the Capitol (~14-15 accounts, pp8-16, the
+  largest remaining department), Capitol Police (~4-5, pp5-6), GPO (3,
+  pp25-28), GAO (1, pp28-29), US Tax Court (3, pp29-30), Legislative
+  Branch Boards and Commissions (~8-10 tiny commissions, pp31-37).
 
 ---
 
