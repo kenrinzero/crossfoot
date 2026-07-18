@@ -609,28 +609,32 @@
       "row": 18,
       "col": 1,
       "value": "-5",
-      "role": "leaf"
+      "role": "standalone",
+      "why": "Memorandum, non-add (Unobligated balance expiring)"
     },
     {
       "id": "r19c1",
       "row": 19,
       "col": 1,
       "value": "38",
-      "role": "leaf"
+      "role": "standalone",
+      "why": "Memorandum, non-add"
     },
     {
       "id": "r19c2",
       "row": 19,
       "col": 2,
       "value": "41",
-      "role": "leaf"
+      "role": "standalone",
+      "why": "Memorandum, non-add"
     },
     {
       "id": "r19c3",
       "row": 19,
       "col": 3,
       "value": "41",
-      "role": "leaf"
+      "role": "standalone",
+      "why": "Memorandum, non-add"
     },
     {
       "id": "r20c1",
