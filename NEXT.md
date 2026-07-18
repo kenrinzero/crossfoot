@@ -207,13 +207,21 @@ applicable columns handled as usual (standalone + total-row net identity).
      4033/4040/4050/4053/4060/4070/4080 rows exist in this account
      (no offsetting collections); the text-layer line-count over-
      estimated from other accounts' row patterns.
-  2. `omb/budget-appendix-fy2027-leg-tax-court-fees` (id
+  2. ~~`omb/budget-appendix-fy2027-leg-tax-court-fees` (id
      `023-5633-0-2-752`, page 30) — U.S. Tax Court Fees. Small
      receipts-style account (Special and Trust Fund Receipts: 0100/
      1110/2000/2101/5099; companion P&F: 1000/1201/1900/1930/1941/
      4090/4180/4190). Est. ~20-25 cells — smallest of the three,
      combined-schedule pattern like the shipped LoC `-gift-trust` and
-     `-payments-copyright` units.
+     `-payments-copyright` units.~~ **SHIPPED 2026-07-18** (Claude
+     Opus 4.7 — 30 cells / 3 relations / 24 standalone waivers;
+     corpus #87). Actual is 30 cells (est was 20-25); 3 blank rows
+     (0100/5099/4190) correctly omitted. Only clean multi-source
+     identity is `1930 = 1000 + 1900` per column (6+1=7, 7+1=8,
+     8+1=9); everything else single-source under schema `minItems: 2`
+     → standalone. Render-verified against pypdfium2 3x page 30.
+     reconcile GREEN (0 warnings), pytest 10/10, full-corpus sweep
+     87/87 GREEN.
   3. `omb/budget-appendix-fy2027-leg-tax-court-survivors-annuity` (id
      `023-8115-0-7-602`, page 30, Trust Funds) — Tax Court Judges
      Survivors Annuity Fund. Special and Trust Fund Receipts (0100/
@@ -259,6 +267,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-18 · omb/budget-appendix-fy2027-leg-tax-court-fees (D2, Claude Opus 4.7) — Corpus **#87**, the second US Tax Court account. Combined-schedule (Special and Trust Fund Receipts + Program and Financing under one id `023-5633-0-2-752`, page 30 PDF-1-based / printed page 42), following the LoC `-payments-copyright` / `-gift-trust` precedent. **30 cells / 3 sum relations / 24 standalone waivers.** Est was ~20-25 cells; actual 30 (10 rows × 3 cols, with three fully-blank rows correctly omitted: 0100 + 5099 on the receipts schedule, 4190 on P&F). The only clean multi-source identity is `1930 = 1000 + 1900` per column (6+1=7, 7+1=8, 8+1=9 — all exact, 0 tol); every other candidate identity collapses to a single source under schema `minItems: 2` (2000=1110 alone with 0100 omitted; 1900=1201 alone; 4090=1 with no other mandatory-BA line; 4180=4090 with no offsets) → 24 honest standalone waivers. Render-anchored: pypdfium2 3x page-30 render (`scratchpad/omb-p30-render.png`) cross-checked against the pdfplumber `(cid:NN)`→`chr(NN+29)`-decoded text layer, both agree on every value and sign. reconcile GREEN (0 warnings), pytest 10/10, full-corpus sweep 87/87 GREEN.
 
 - 2026-07-18 · omb/budget-appendix-fy2027-leg-loc-salaries…payments-copyright (D2, Antigravity) — Corpus **#76–80**, the Library of Congress family slice. Consists of 5 accounts: Salaries and Expenses (172c/35r), Stewardship Fund (27c/2r), Copyright Office (134c/37r), Blind and Print Disabled (113c/26r), and Payments to Copyright Owners (42c/0r). Combined: **488 cells / 100 sum relations**. Payments to Copyright Owners has 0 relations because all columns are single-source. reconcile GREEN (0 warnings), pytest 10/10. Commit `698a39c`. **Every-10th audit: unit #80 audit GREEN** (Claude Fable 5, 2026-07-18 — full-coverage 42/42 cell render verification incl. the 0-relation semantics; `AUDITS.md`). Next audit lands at corpus #90.
 - 2026-07-18 · omb/budget-appendix-fy2027-leg-cbo (D2, Antigravity) — Corpus **#75**, the OMB family starter unit. Congressional Budget Office account (FY2027 Legislative Branch chapter, page 7). **92 cells / 14 sum relations**, 35 standalone waivers (single-source identities natively forbidden by schema `minItems: 2`). Re-read from the page-7 render due to text-layer quirks. reconcile GREEN (0 warnings), pytest 10/10.
