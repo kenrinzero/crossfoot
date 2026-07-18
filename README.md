@@ -11,9 +11,9 @@ correctness is derived, not trusted.
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
 strict coverage is the default), six public-source families vendored, and
-**230 transcription units shipped**. Census appendix progress: A-1..A-3,
-A-6 complete, A-7 full-MOE era complete (51 rows), B-1..B-5 complete.
-Unit **#230** awaits its required different-agent audit before #231 ships.
+**240 transcription units shipped**. Census appendix: A-1..A-4a and A-6..A-7
+complete; A-4b started; B-1..B-5 complete. Unit **#240** awaits its required
+different-agent audit before #241 ships.
 
 
 ## How a unit works

@@ -1,0 +1,1150 @@
+{
+  "table_id": "census-p60/2023-income-a4a-1995-1986",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-4a. Selected Measures of Household Income Dispersion: 1967 to 2023",
+    "page": 38,
+    "title": "Years 1995 through 1986 (10 year-rows \u00d7 13 measures)",
+    "period": "1995 to 1986"
+  },
+  "unit_note": "Money-income dispersion percentiles and ratios. All cells are level percentiles or printed ratios; under the frozen sum/percent-closure vocabulary every cell is standalone. Dual series years are distinct rows.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "10th percentile"
+    },
+    {
+      "index": 2,
+      "label": "20th percentile"
+    },
+    {
+      "index": 3,
+      "label": "30th percentile"
+    },
+    {
+      "index": 4,
+      "label": "40th percentile"
+    },
+    {
+      "index": 5,
+      "label": "50th percentile (median)"
+    },
+    {
+      "index": 6,
+      "label": "60th percentile"
+    },
+    {
+      "index": 7,
+      "label": "70th percentile"
+    },
+    {
+      "index": 8,
+      "label": "80th percentile"
+    },
+    {
+      "index": 9,
+      "label": "90th percentile"
+    },
+    {
+      "index": 10,
+      "label": "95th percentile"
+    },
+    {
+      "index": 11,
+      "label": "90th/10th"
+    },
+    {
+      "index": 12,
+      "label": "90th/50th"
+    },
+    {
+      "index": 13,
+      "label": "50th/10th"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1995"
+    },
+    {
+      "index": 2,
+      "label": "1994"
+    },
+    {
+      "index": 3,
+      "label": "1993"
+    },
+    {
+      "index": 4,
+      "label": "1992"
+    },
+    {
+      "index": 5,
+      "label": "1991"
+    },
+    {
+      "index": 6,
+      "label": "1990"
+    },
+    {
+      "index": 7,
+      "label": "1989"
+    },
+    {
+      "index": 8,
+      "label": "1988"
+    },
+    {
+      "index": 9,
+      "label": "1987"
+    },
+    {
+      "index": 10,
+      "label": "1986"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "16240",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "26950",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "37690",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "50360",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "63770",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "78600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "97050",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "121900",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "164100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "211500",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "10.11",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "2.57",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "3.93",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "15380",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "25720",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "36640",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "48270",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "61800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "76810",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "95820",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "120400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "162600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "210400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "10.57",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c12",
+      "row": 2,
+      "col": 12,
+      "value": "2.63",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "4.02",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "15040",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "25380",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "36400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "48310",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "61150",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "75930",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "94450",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "118000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "160000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "204800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "10.64",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c12",
+      "row": 3,
+      "col": 12,
+      "value": "2.62",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "4.06",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "15040",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "25270",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "36210",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "48420",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "61450",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "76020",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "93540",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "116400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "155600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "198600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "10.34",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c12",
+      "row": 4,
+      "col": 12,
+      "value": "2.53",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "4.08",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "15270",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "25900",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "37190",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "49360",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "61960",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "76250",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "93400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "116700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "156100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "198300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "10.22",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c12",
+      "row": 5,
+      "col": 12,
+      "value": "2.52",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "4.06",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "15600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "26640",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "38370",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "50440",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "63830",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "77160",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "95030",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "117700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "158000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "202000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "10.12",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c12",
+      "row": 6,
+      "col": 12,
+      "value": "2.47",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "4.09",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "16090",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "27040",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "38700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "51410",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "64610",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "79010",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "96700",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "120100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "160800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "205100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "9.99",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c12",
+      "row": 7,
+      "col": 12,
+      "value": "2.49",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "4.01",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "15320",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "26560",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "37800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "50170",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "63530",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "78180",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "95010",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "118100",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "156300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "199800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "10.21",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c12",
+      "row": 8,
+      "col": 12,
+      "value": "2.46",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "4.15",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "15090",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "26130",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "37590",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "49600",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "63060",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "77430",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "94490",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "117000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "154400",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "195800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "10.23",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c12",
+      "row": 9,
+      "col": 12,
+      "value": "2.45",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "4.18",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "14960",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "25630",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "37300",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "49030",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "62280",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "76090",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "92800",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "115000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "151000",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "192900",
+      "role": "standalone",
+      "why": "Dispersion percentile/ratio or earnings level field; no sum/percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "10.09",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c12",
+      "row": 10,
+      "col": 12,
+      "value": "2.42",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "4.16",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}

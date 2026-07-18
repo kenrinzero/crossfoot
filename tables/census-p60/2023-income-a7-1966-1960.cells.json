@@ -1,0 +1,378 @@
+{
+  "table_id": "census-p60/2023-income-a7-1966-1960",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-7. Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023",
+    "page": 48,
+    "title": "Years 1966 through 1960 (pre-full-MOE; printed N omitted)",
+    "period": "1966 to 1960"
+  },
+  "unit_note": "Pre-1975 A-7 band. Source prints N for missing MOEs (and for worker counts before 1967). Nonnumeric N is omitted from the numeric-only cells schema (precedent: historical household-count N on Table A-2). Remaining values are all standalone under the frozen relation vocabulary.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Total workers / Male / Number (thousands)"
+    },
+    {
+      "index": 2,
+      "label": "Total workers / Male / Median earnings"
+    },
+    {
+      "index": 3,
+      "label": "Total workers / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 4,
+      "label": "Total workers / Female / Number (thousands)"
+    },
+    {
+      "index": 5,
+      "label": "Total workers / Female / Median earnings"
+    },
+    {
+      "index": 6,
+      "label": "Total workers / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 7,
+      "label": "Full-time year-round / Male / Number (thousands)"
+    },
+    {
+      "index": 8,
+      "label": "Full-time year-round / Male / Median earnings"
+    },
+    {
+      "index": 9,
+      "label": "Full-time year-round / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 10,
+      "label": "Full-time year-round / Female / Number (thousands)"
+    },
+    {
+      "index": 11,
+      "label": "Full-time year-round / Female / Median earnings"
+    },
+    {
+      "index": 12,
+      "label": "Full-time year-round / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 13,
+      "label": "Female-to-male earnings ratio"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1966"
+    },
+    {
+      "index": 2,
+      "label": "1965"
+    },
+    {
+      "index": 3,
+      "label": "1964"
+    },
+    {
+      "index": 4,
+      "label": "1963"
+    },
+    {
+      "index": 5,
+      "label": "1962"
+    },
+    {
+      "index": 6,
+      "label": "1961"
+    },
+    {
+      "index": 7,
+      "label": "1960"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "45640",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "18280",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "53010",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "30510",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "0.576",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "42950",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "18430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "50780",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "30430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "0.599",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "42700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "17330",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "50240",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "29720",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "0.591",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "45240",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "16630",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "48900",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "28830",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "0.589",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "40770",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "16280",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "47740",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "28310",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "0.593",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "39520",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "15680",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "46880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "27780",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "0.592",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "38080",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "15480",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "45430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "27560",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "0.607",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}

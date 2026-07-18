@@ -1212,3 +1212,23 @@ Stratified sample to check estimates, MOEs, positive/negative changes, and bound
 ### 6. Audit Conclusion
 Grok's transcription of `census-p60/2023-income-a6-ft-pct-median` is value-perfect, complete, and faithful to Census Table A-6. All 42 values are exact, row labels and columns match the source exactly, asterisks are correctly stripped, and en dashes are correctly converted to negative values. **GREEN.** Next every-10th different-agent audit: corpus **#240**.
 
+---
+
+## Spot-Audit Due: Unit 240 — Census P60-282 Table A-4b 2014–2006 band
+
+- **Status:** **DUE — corpus #241+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Grok (main; batch #231–240, 2026-07-19)
+- **Table ID:** `census-p60/2023-income-a4b-2014-2006`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF page 40 (Table A-4b), years 2014 through 2006
+- **Expected shape:** 10 rows / 180 cells / 10 percent-closure relations / 130 standalone
+- **Pre-audit ship evidence:** pdfplumber extraction; A-4a multiset 767/767 exact; A-4b first-20-row multiset 360/360 exact; all batch units reconcile GREEN; full sweep 240/240; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor PDF p40; verify 10 year labels (incl. dual 2013/2017 if present in band) and 18 column groups (means ×6, shares ×6, Gini/MLD/Theil/Atkinson×3).
+- [ ] Verify all 180 values; recompute the 10 quintile-share percent-closures (cols 7–11 → 100) and confirm each declared tol equals the observed gap.
+- [ ] Confirm Top-5 share is standalone (overlaps highest quintile).
+- [ ] Spot-check batch: one A-4a unit (#233–238) for percentile fidelity and one A-7 pre-1975 unit (#231–232) for N-omission honesty.
+- [ ] Run reconcile on the unit, pytest, and full-corpus sweep; record results.
+- [ ] Replace this placeholder with auditor identity, method, evidence, and GREEN/RED before #241 ships.
+

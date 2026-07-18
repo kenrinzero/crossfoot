@@ -1,0 +1,694 @@
+{
+  "table_id": "census-p60/2023-income-a7-1974-1967",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-7. Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023",
+    "page": 48,
+    "title": "Years 1974 through 1967 (pre-full-MOE; printed N omitted)",
+    "period": "1974 to 1967"
+  },
+  "unit_note": "Pre-1975 A-7 band. Source prints N for missing MOEs (and for worker counts before 1967). Nonnumeric N is omitted from the numeric-only cells schema (precedent: historical household-count N on Table A-2). Remaining values are all standalone under the frozen relation vocabulary.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Total workers / Male / Number (thousands)"
+    },
+    {
+      "index": 2,
+      "label": "Total workers / Male / Median earnings"
+    },
+    {
+      "index": 3,
+      "label": "Total workers / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 4,
+      "label": "Total workers / Female / Number (thousands)"
+    },
+    {
+      "index": 5,
+      "label": "Total workers / Female / Median earnings"
+    },
+    {
+      "index": 6,
+      "label": "Total workers / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 7,
+      "label": "Full-time year-round / Male / Number (thousands)"
+    },
+    {
+      "index": 8,
+      "label": "Full-time year-round / Male / Median earnings"
+    },
+    {
+      "index": 9,
+      "label": "Full-time year-round / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 10,
+      "label": "Full-time year-round / Female / Number (thousands)"
+    },
+    {
+      "index": 11,
+      "label": "Full-time year-round / Female / Median earnings"
+    },
+    {
+      "index": 12,
+      "label": "Full-time year-round / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 13,
+      "label": "Female-to-male earnings ratio"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1974"
+    },
+    {
+      "index": 2,
+      "label": "1973"
+    },
+    {
+      "index": 3,
+      "label": "1972"
+    },
+    {
+      "index": 4,
+      "label": "1971"
+    },
+    {
+      "index": 5,
+      "label": "1970"
+    },
+    {
+      "index": 6,
+      "label": "1969"
+    },
+    {
+      "index": 7,
+      "label": "1968"
+    },
+    {
+      "index": 8,
+      "label": "1967"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "59870",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "47890",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "42850",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "18710",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "37920",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "62280",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "440",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "16950",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "36590",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "294",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata; it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "0.588",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "59440",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "50060",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "41580",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "18840",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "39580",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "64500",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "17200",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "36530",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "0.566",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "57770",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "48890",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "39470",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "19470",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "38180",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "62420",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "16680",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "36120",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "0.579",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "56890",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "46720",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "38490",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "18880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "36820",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "59430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "16000",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "35370",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "0.595",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "55820",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "47150",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "38270",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "18000",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "36130",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "59110",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "15480",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "35090",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "0.594",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "55270",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "47700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "37740",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "17730",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "37010",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "56890",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "15370",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "34410",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "0.605",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "54030",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "46430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "35700",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "18110",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "37070",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "55240",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "15010",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "32120",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "0.582",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "53220",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "45110",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "34390",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "17620",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "36650",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "53820",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "14850",
+      "role": "standalone",
+      "why": "Worker counts transcribed as levels; no multi-source roll-up inside this unit."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "31100",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across groups."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "0.578",
+      "role": "standalone",
+      "why": "Printed percentile or earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}
