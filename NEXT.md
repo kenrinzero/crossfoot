@@ -60,21 +60,49 @@ language, out of scope); the chapter has ≈40–45 real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **GAO Salaries and Expenses (page 28-29, id `005-0107-0-1-801`) —
-  LARGE, likely needs a split, do NOT attempt as one cap-fit unit
-  without re-assessing:** single account but ~53 P&F rows alone (five
-  program-activity goals 0001-0005 with their own
-  0799/0801/0803/0805/0809/0899/0900 subtotal structure, plus the usual
-  budgetary-resources/change-in-obligated-balance/budget-authority-net
-  sections, all with offsetting-collections complexity similar to
-  FEDLINK) + ~19 Object Classification rows + 2 Employment rows. Rough
-  estimate **200+ cells** — well past the ~140-180 ceiling every other
-  single-account unit in this corpus has stayed under. Whoever picks
-  this up should re-measure properly first (like the Treasury MTS Table 5
-  over-cap tier) and decide: split by the five GOAL program activities
-  (mirrors the Treasury `-bureaus`/`-departmental` pattern), or take it
-  as one unit if a higher ceiling is acceptable. **D1/D2 sizing pass
-  needed before this is D2 execution.**
+- **GAO Salaries and Expenses (id `005-0107-0-1-801`, PDF pages 28-29 /
+  printed pp40-41) — SIZED + SPLIT DECIDED 2026-07-18 (Claude Opus 4.8,
+  render-verified). Two cap-fit units, split BY SCHEDULE. Ready for D2
+  execution:**
+  - Full-account size confirmed **195 cells** (the earlier "200+"
+    estimate was right — genuinely over the ~140 ceiling).
+  - ⚠ **The earlier "split by the five GOAL program activities /
+    `-bureaus`/`-departmental`" idea was checked and REJECTED.** The 5
+    GOALs (0001–0005) are just **leaf rows** feeding `0799 Total direct
+    obligations`; they have no per-GOAL budgetary-resources /
+    obligated-balance / object-classification sub-blocks, so there is
+    nothing to peel into a bureaus/departmental structure (unlike the
+    Treasury Table-5 bureaus, which each carried a full subtotal block).
+  - **Correct split — by schedule** (each schedule already prints its own
+    `005-0107` header, so the boundary is clean and no cross-unit
+    re-anchoring is needed):
+    1. `omb/budget-appendix-fy2027-leg-gao-salaries-pf` (**~129 cells**,
+       D2) — Program and Financing: obligations-by-program-activity
+       (`0799 = Σ0001..0005`, `0809 = 0801+0803+0805`, `0900 = 0799 +
+       0899`), budgetary resources (`1070 = 1000+1021+1033`, `1750`,
+       `1900`, `1930`), change-in-obligated-balance (`3050` 6-source,
+       `3090`, `3100 = 3000+3060`, `3200 = 3050+3090`), and
+       budget-authority-net (`4040 = 4030+4033`, `4060`, `4070`, `4080`,
+       `4190`). Has offsetting collections + uncollected payments — same
+       machinery as the shipped Capitol Police `-general-expenses` (#90);
+       reuse that unit as the template. Note `1001` is a non-add memo
+       subset of `1000` (do NOT feed it into `1070`).
+    2. `omb/budget-appendix-fy2027-leg-gao-salaries-objclass` (**~66
+       cells**, D2) — Object Classification + Employment Summary:
+       `11.9 = 11.1+11.3+11.5`, `99.0 Direct = Σ(object classes, using
+       11.9 not its parts)`, `99.9 = 99.0 Direct + 99.0 Reimbursable`;
+       the two `1001`/`2001` FTE lines standalone.
+  - Cross-schedule consistency (optional sanity, not a dependency): each
+    unit re-reads the shared totals independently — `0900`≡`99.9`
+    (926/903/910), `0799`≡`99.0 Direct` (825/812/860), `0899`≡`99.0
+    Reimbursable` (101/91/50).
+  - **Harness caution:** PDF page 29 is a TWO-COLUMN page — GAO's
+    net-section tail + Object Classification + Employment are the LEFT
+    column; the RIGHT column is the already-shipped US Tax Court Salaries
+    (`023-0100`, #86). Don't cross-contaminate. This PDF's text layer
+    decodes cleanly (no `(cid:NN)` remap), but render-verify per the
+    standard discipline. Renders staged at `scratchpad/gao-p28-render.png`
+    + `gao-p29-render.png`.
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
