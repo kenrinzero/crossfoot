@@ -1,0 +1,934 @@
+{
+  "table_id": "treasury-mts/2026-06-table1",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 1. Summary of Receipts, Outlays, and the Deficit/Surplus of the U.S. Government, Fiscal Years 2025 and 2026, by Month",
+    "page": 5,
+    "title": "Summary of Receipts, Outlays, and the Deficit/Surplus of the U.S. Government",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions ([$ millions] per table header). Values as printed, thousands separators stripped. Deficit/Surplus (-) is negative for a surplus month.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Outlays"
+    },
+    {
+      "index": 3,
+      "label": "Deficit/Surplus (-)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "FY 2025 / October"
+    },
+    {
+      "index": 2,
+      "label": "FY 2025 / November"
+    },
+    {
+      "index": 3,
+      "label": "FY 2025 / December"
+    },
+    {
+      "index": 4,
+      "label": "FY 2025 / January"
+    },
+    {
+      "index": 5,
+      "label": "FY 2025 / February"
+    },
+    {
+      "index": 6,
+      "label": "FY 2025 / March"
+    },
+    {
+      "index": 7,
+      "label": "FY 2025 / April"
+    },
+    {
+      "index": 8,
+      "label": "FY 2025 / May"
+    },
+    {
+      "index": 9,
+      "label": "FY 2025 / June"
+    },
+    {
+      "index": 10,
+      "label": "FY 2025 / July"
+    },
+    {
+      "index": 11,
+      "label": "FY 2025 / August"
+    },
+    {
+      "index": 12,
+      "label": "FY 2025 / September"
+    },
+    {
+      "index": 13,
+      "label": "FY 2025 / Year-to-Date"
+    },
+    {
+      "index": 14,
+      "label": "FY 2026 / October"
+    },
+    {
+      "index": 15,
+      "label": "FY 2026 / November"
+    },
+    {
+      "index": 16,
+      "label": "FY 2026 / December"
+    },
+    {
+      "index": 17,
+      "label": "FY 2026 / January"
+    },
+    {
+      "index": 18,
+      "label": "FY 2026 / February"
+    },
+    {
+      "index": 19,
+      "label": "FY 2026 / March"
+    },
+    {
+      "index": 20,
+      "label": "FY 2026 / April"
+    },
+    {
+      "index": 21,
+      "label": "FY 2026 / May"
+    },
+    {
+      "index": 22,
+      "label": "FY 2026 / June"
+    },
+    {
+      "index": 23,
+      "label": "FY 2026 / Year-to-Date"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "326770",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "584220",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "257450",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "301754",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "668517",
+      "role": "total"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "366763",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "454415",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "541146",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "86732",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "513294",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "641935",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "128640",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "296424",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "603441",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "307017",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "367645",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "528174",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "160528",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "850169",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "591769",
+      "role": "total"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-258400",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "371229",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "686881",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "315652",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "526445",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "499436",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-27010",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "338492",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "629635",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "291143",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "344315",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "689107",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "344792",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "543663",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "345725",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-197938",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "5234616",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "7009986",
+      "role": "total"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1775369",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "404371",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "284333",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "336002",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "509279",
+      "role": "total"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "173277",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "484384",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "629136",
+      "role": "total"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "144752",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "560052",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "654667",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "94615",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "313122",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "620623",
+      "role": "total"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "307501",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "384863",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "548963",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "164100",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "837343",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "622319",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-215024",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "335512",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "628160",
+      "role": "total"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "292648",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "495761",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "616067",
+      "role": "total"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "120305",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "4151410",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "5517918",
+      "role": "total"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "1366508",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r1c3"
+      ],
+      "target": "r1c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r2c3"
+      ],
+      "target": "r2c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r3c3"
+      ],
+      "target": "r3c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r4c3"
+      ],
+      "target": "r4c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r5c3"
+      ],
+      "target": "r5c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r6c3"
+      ],
+      "target": "r6c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r7c3"
+      ],
+      "target": "r7c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r8c3"
+      ],
+      "target": "r8c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r9c3"
+      ],
+      "target": "r9c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r10c3"
+      ],
+      "target": "r10c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r11c3"
+      ],
+      "target": "r11c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r12c3"
+      ],
+      "target": "r12c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r13c3"
+      ],
+      "target": "r13c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r14c3"
+      ],
+      "target": "r14c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c1",
+        "r15c3"
+      ],
+      "target": "r15c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r16c3"
+      ],
+      "target": "r16c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r17c3"
+      ],
+      "target": "r17c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c1",
+        "r18c3"
+      ],
+      "target": "r18c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r19c3"
+      ],
+      "target": "r19c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c1",
+        "r20c3"
+      ],
+      "target": "r20c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c1",
+        "r21c3"
+      ],
+      "target": "r21c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c1",
+        "r22c3"
+      ],
+      "target": "r22c2",
+      "note": "row identity: Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c1",
+        "r23c3"
+      ],
+      "target": "r23c2",
+      "note": "row identity: Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1"
+      ],
+      "target": "r13c1",
+      "note": "FY 2025 monthly components sum to Year-to-Date",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1",
+        "r18c1",
+        "r19c1",
+        "r20c1",
+        "r21c1",
+        "r22c1"
+      ],
+      "target": "r23c1",
+      "note": "FY 2026 monthly components sum to Year-to-Date"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2",
+        "r11c2",
+        "r12c2"
+      ],
+      "target": "r13c2",
+      "note": "FY 2025 monthly components sum to Year-to-Date"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2",
+        "r18c2",
+        "r19c2",
+        "r20c2",
+        "r21c2",
+        "r22c2"
+      ],
+      "target": "r23c2",
+      "note": "FY 2026 monthly components sum to Year-to-Date"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r13c3",
+      "note": "FY 2025 monthly components sum to Year-to-Date"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3",
+        "r19c3",
+        "r20c3",
+        "r21c3",
+        "r22c3"
+      ],
+      "target": "r23c3",
+      "note": "FY 2026 monthly components sum to Year-to-Date",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

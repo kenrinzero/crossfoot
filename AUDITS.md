@@ -1336,3 +1336,23 @@ Stratified sample to check shares, ratios, and inequality measures:
 
 ### 7. Audit Conclusion
 The equivalence-adjusted income dispersion values for `census-p60/2023-income-a5-1975-1967` have been corrected, verified exact, and are faithful to Census Table A-5. All 126 values are exact, row labels and columns match the source exactly, and all quintile-share closures reconcile with the correct observed rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#260**.
+
+---
+
+## Spot-Audit Due: Unit 260 — Treasury MTS June 2026 EOP outlays
+
+- **Status:** **DUE — corpus #261+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Grok (main; batch #251–260, 2026-07-19)
+- **Table ID:** `treasury-mts/2026-06-outlays-eop`
+- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, PDF page 19, Executive Office of the President section
+- **Expected shape:** 7 rows / ~40 cells / sum relations (net identities + section roll-ups) / some standalone for sparse applicable columns
+- **Pre-audit ship evidence:** MTS June PDF vendored + content-gated (39pp, sha256 ledgered); 10 June starter units GREEN; full sweep 260/260; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor p19 EOP section; verify 7 row labels and 9-column model; confirm ...... / (**) omissions.
+- [ ] Sample ≥10 cells including negatives (Other, Proprietary, Total nets −300/−1,261/−598).
+- [ ] Spot-check batch context: Table 1 June YTD and Legislative totals against pages 5 and 10.
+- [ ] Run reconcile on the unit, pytest, full-corpus sweep; record results.
+- [ ] Replace placeholder before #261 ships.
+

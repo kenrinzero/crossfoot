@@ -1,0 +1,637 @@
+{
+  "table_id": "treasury-mts/2026-06-table3-receipts",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, June 2026 and Other Periods \u2014 Budget Receipts block",
+    "page": 8,
+    "title": "Budget Receipts block of Table 3",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. Four period columns as printed on Table 3.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Receipts / Individual Income Taxes"
+    },
+    {
+      "index": 2,
+      "label": "Budget Receipts / Corporation Income Taxes"
+    },
+    {
+      "index": 3,
+      "label": "Budget Receipts / Social Insurance and Retirement Receipts: Employment and General Retirement (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Receipts / Social Insurance and Retirement Receipts: Employment and General Retirement (On-Budget)"
+    },
+    {
+      "index": 5,
+      "label": "Budget Receipts / Social Insurance and Retirement Receipts: Unemployment Insurance"
+    },
+    {
+      "index": 6,
+      "label": "Budget Receipts / Social Insurance and Retirement Receipts: Other Retirement"
+    },
+    {
+      "index": 7,
+      "label": "Budget Receipts / Excise Taxes"
+    },
+    {
+      "index": 8,
+      "label": "Budget Receipts / Estate and Gift Taxes"
+    },
+    {
+      "index": 9,
+      "label": "Budget Receipts / Customs Duties"
+    },
+    {
+      "index": 10,
+      "label": "Budget Receipts / Miscellaneous Receipts"
+    },
+    {
+      "index": 11,
+      "label": "Budget Receipts / Total Receipts"
+    },
+    {
+      "index": 12,
+      "label": "Budget Receipts / Total Receipts (On-Budget)"
+    },
+    {
+      "index": 13,
+      "label": "Budget Receipts / Total Receipts (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "283147",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "2195686",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "2059339",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "2629899",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "69537",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "279340",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "366273",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "398640",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "120952",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1023245",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "988424",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1367655",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "33000",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "314442",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "309668",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "419258",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "801",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "39712",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "44880",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "53777",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "756",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "6281",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "6323",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "9125",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "7706",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "74998",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "75358",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "105588",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "2204",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "30155",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "22341",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "35795",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-25556",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "163019",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "108018",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "406059",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "3215",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "24531",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "27521",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "49909",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "495761",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "4151410",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "4008146",
+      "role": "total"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "5475705",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "374809",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "3128165",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "3019723",
+      "role": "total"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "4108050",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "120952",
+      "role": "standalone",
+      "why": "Printed Off-Budget total equals the single Off-Budget employment line (r3); multi-source sum not applicable."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1023245",
+      "role": "standalone",
+      "why": "Printed Off-Budget total equals the single Off-Budget employment line (r3); multi-source sum not applicable."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "988424",
+      "role": "standalone",
+      "why": "Printed Off-Budget total equals the single Off-Budget employment line (r3); multi-source sum not applicable."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "1367655",
+      "role": "standalone",
+      "why": "Printed Off-Budget total equals the single Off-Budget employment line (r3); multi-source sum not applicable."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r11c1",
+      "note": "column roll-up: all revenue categories sum to Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r12c1",
+      "note": "column roll-up: On-Budget revenue categories sum to On-Budget Total",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2"
+      ],
+      "target": "r11c2",
+      "note": "column roll-up: all revenue categories sum to Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2"
+      ],
+      "target": "r12c2",
+      "note": "column roll-up: On-Budget revenue categories sum to On-Budget Total",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3"
+      ],
+      "target": "r11c3",
+      "note": "column roll-up: all revenue categories sum to Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3"
+      ],
+      "target": "r12c3",
+      "note": "column roll-up: On-Budget revenue categories sum to On-Budget Total",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4"
+      ],
+      "target": "r11c4",
+      "note": "column roll-up: all revenue categories sum to Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4"
+      ],
+      "target": "r12c4",
+      "note": "column roll-up: On-Budget revenue categories sum to On-Budget Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r3c1"
+      ],
+      "target": "r11c1",
+      "note": "On-Budget total + Off-Budget employment = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r3c2"
+      ],
+      "target": "r11c2",
+      "note": "On-Budget total + Off-Budget employment = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c3",
+        "r3c3"
+      ],
+      "target": "r11c3",
+      "note": "On-Budget total + Off-Budget employment = Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r3c4"
+      ],
+      "target": "r11c4",
+      "note": "On-Budget total + Off-Budget employment = Total Receipts"
+    }
+  ]
+}

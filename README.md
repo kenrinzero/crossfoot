@@ -10,10 +10,9 @@ correctness is derived, not trusted.
 ## Status
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
-strict coverage is the default), six public-source families vendored, and
-**250 transcription units shipped**. Census P60-282 appendix tables A-1..A-7
-and B-1..B-5 are complete under the frozen relation vocabulary. Unit **#250**
-awaits its required different-agent audit before #251 ships.
+strict coverage is the default), **260 transcription units shipped**. Census
+P60-282 appendix complete; Treasury MTS June 2026 vendored with 10 starter
+units. Unit **#260** awaits its required different-agent audit before #261 ships.
 
 
 ## How a unit works

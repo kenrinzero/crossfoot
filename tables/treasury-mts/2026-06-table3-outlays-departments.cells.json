@@ -1,0 +1,1042 @@
+{
+  "table_id": "treasury-mts/2026-06-table3-outlays-departments",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays \u2014 department/agency outlay lines",
+    "page": 8,
+    "title": "Budget Outlays department lines (excluding totals/SSA/independent/UOR)",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (sibling remainder unit holds totals).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Outlays / Legislative Branch"
+    },
+    {
+      "index": 2,
+      "label": "Budget Outlays / Judicial Branch"
+    },
+    {
+      "index": 3,
+      "label": "Budget Outlays / Department of Agriculture"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Department of Commerce"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Department of Defense--Military Programs"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Department of Education"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Department of Energy"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Department of Health and Human Services"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Department of Homeland Security"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Department of Housing and Urban Development"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Department of the Interior"
+    },
+    {
+      "index": 12,
+      "label": "Budget Outlays / Department of Justice"
+    },
+    {
+      "index": 13,
+      "label": "Budget Outlays / Department of Labor"
+    },
+    {
+      "index": 14,
+      "label": "Budget Outlays / Department of State"
+    },
+    {
+      "index": 15,
+      "label": "Budget Outlays / Department of Transportation"
+    },
+    {
+      "index": 16,
+      "label": "Budget Outlays / Department of the Treasury: Interest on Treasury Debt Securities (Gross)"
+    },
+    {
+      "index": 17,
+      "label": "Budget Outlays / Department of the Treasury: Other"
+    },
+    {
+      "index": 18,
+      "label": "Budget Outlays / Department of Veterans Affairs"
+    },
+    {
+      "index": 19,
+      "label": "Budget Outlays / Corps of Engineers"
+    },
+    {
+      "index": 20,
+      "label": "Budget Outlays / Other Defense Civil Programs"
+    },
+    {
+      "index": 21,
+      "label": "Budget Outlays / Environmental Protection Agency"
+    },
+    {
+      "index": 22,
+      "label": "Budget Outlays / Executive Office of the President"
+    },
+    {
+      "index": 23,
+      "label": "Budget Outlays / General Services Administration"
+    },
+    {
+      "index": 24,
+      "label": "Budget Outlays / International Assistance Programs"
+    },
+    {
+      "index": 25,
+      "label": "Budget Outlays / National Aeronautics and Space Administration"
+    },
+    {
+      "index": 26,
+      "label": "Budget Outlays / National Science Foundation"
+    },
+    {
+      "index": 27,
+      "label": "Budget Outlays / Office of Personnel Management"
+    },
+    {
+      "index": 28,
+      "label": "Budget Outlays / Small Business Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "602",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "5246",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "5311",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "8499",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "802",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "7374",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "7134",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "10375",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "17407",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "173556",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "176544",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "238841",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1488",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "10173",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "19569",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "21170",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "78330",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "678661",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "647416",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "913705",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "-36911",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "45831",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "100812",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "62188",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "4370",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "38198",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "39526",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "59641",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "189140",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1474302",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1376007",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "2035980",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "11072",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "75280",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "88115",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "116341",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4874",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "51076",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "53671",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "76031",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "-2385",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "7966",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "16037",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "24292",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3538",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "33381",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "32876",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "51516",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "4459",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "43529",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "45279",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "71579",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "1511",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "18614",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "22291",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "35351",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "10736",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "83634",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "85894",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "131545",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "185200",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "1052019",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "920965",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1301255",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "18664",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "218596",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "229667",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "221428",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "34653",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "304886",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "277824",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "439752",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "965",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "8766",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "9704",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "8099",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-2283",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "45940",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "57890",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "76950",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "1559",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "12473",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "32229",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "22323",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "-300",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "-1261",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "-598",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "-327",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "-474",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "-245",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "1760",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "-867",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "16279",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "23018",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "24477",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "1871",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "17394",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "18064",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "24629",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "707",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "6175",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "6959",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "10473",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "10267",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "101838",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "96559",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "132542",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "10752",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "11414",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "1703",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "12142",
+      "role": "standalone",
+      "why": "Department-line outlay from Table 3 summary; full-table roll-up lives in the sibling remainder unit."
+    }
+  ],
+  "relations": []
+}

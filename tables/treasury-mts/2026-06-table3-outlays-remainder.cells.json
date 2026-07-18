@@ -1,0 +1,592 @@
+{
+  "table_id": "treasury-mts/2026-06-table3-outlays-remainder",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 3 remainder \u2014 totals, SSA, Independent Agencies, UOR, surplus/deficit",
+    "page": 8,
+    "title": "Table 3 remainder block",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... cells omitted. SSA/Independent/UOR/Allowances standalone; On/Off decompositions as sums.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Receipts / Total Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Budget Receipts / Total Receipts (On-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Budget Receipts / Total Receipts (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Social Security Administration"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Independent Agencies"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Allowances"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts: Interest"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts: Other"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Total Outlays"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Total Outlays (On-Budget)"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Total Outlays (Off-Budget)"
+    },
+    {
+      "index": 12,
+      "label": "Surplus (+) or Deficit (-) / Total"
+    },
+    {
+      "index": 13,
+      "label": "Surplus (+) or Deficit (-) / On-Budget"
+    },
+    {
+      "index": 14,
+      "label": "Surplus (+) or Deficit (-) / Off-Budget"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "495761",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "4151410",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "4008146",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "5475705",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "374809",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "3128165",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "3019723",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "4108050",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "120952",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1023245",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "988424",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1367655",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "152111",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "1293432",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1230237",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "1745811",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-7459",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "1811",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "5571",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "21057",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-26",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-69675",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-195346",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-162131",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "-203434",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-9201",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-122842",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-118380",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-155531",
+      "role": "standalone",
+      "why": "Summary-line from Table 3 not decomposed further in this unit."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "616067",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "5517918",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "5345519",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "7540434",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "503533",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "4399115",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "4294415",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "6008685",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "112533",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1118803",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "1051104",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1531749",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-120305",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-1366508",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-1337372",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-128724",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-1270950",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-1274692",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "8419",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-95558",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-62680",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "On+Off Receipts=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r9c1",
+      "note": "On+Off Outlays=Total",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r12c1",
+      "note": "On+Off Deficit=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r12c1"
+      ],
+      "target": "r1c1",
+      "note": "Outlays+Deficit=Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "On+Off Receipts=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2"
+      ],
+      "target": "r9c2",
+      "note": "On+Off Outlays=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r14c2"
+      ],
+      "target": "r12c2",
+      "note": "On+Off Deficit=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r12c2"
+      ],
+      "target": "r1c2",
+      "note": "Outlays+Deficit=Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "On+Off Receipts=Total",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r9c3",
+      "note": "On+Off Outlays=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r14c3"
+      ],
+      "target": "r12c3",
+      "note": "On+Off Deficit=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r12c3"
+      ],
+      "target": "r1c3",
+      "note": "Outlays+Deficit=Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "On+Off Receipts=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r9c4",
+      "note": "On+Off Outlays=Total"
+    }
+  ]
+}
