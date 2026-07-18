@@ -90,6 +90,12 @@ NEXT.md.)
 | fec/2024-presidential-general-popular-capstone-b | `sources/fec/2024presgeresults.pdf` | Capstone part b (IN–MT) | 13 | sum | ≤ 140 cells (132 sized) | 0 | SHIPPED 2026-07-17 (132 cells, 13 exact per-state identities; corpus #72) |
 | fec/2024-presidential-general-popular-capstone-c | `sources/fec/2024presgeresults.pdf` | Capstone part c (NE–TX) | 17 | sum | ≤ 140 cells (136 sized) | 0 | SHIPPED 2026-07-17 (136 cells, 17 exact per-state identities; corpus #73) |
 | fec/2024-presidential-general-popular-capstone-d | `sources/fec/2024presgeresults.pdf` | Capstone part d (UT–WY + national Total row: the 26 candidate national totals sum to the printed national TOTAL VOTES 155,238,302) | 8 | sum | ≤ 140 cells (100 sized) | 0 | SHIPPED 2026-07-17 (100 cells, 7 per-state identities + the national identity; corpus #74) |
+| omb/budget-appendix-fy2027-leg-cbo | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Congressional Budget Office (FY2027 Legislative Branch chapter, page 7) | 14 | sum | ≤ 120 cells (92 sized) | 35 | SHIPPED 2026-07-18 (92 cells, 14 relations, strict-default GREEN; corpus #75) |
+| omb/budget-appendix-fy2027-leg-loc-salaries | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Salaries and Expenses (page 17) | 35 | sum | ≤ 180 cells (172 sized) | 8 | SHIPPED 2026-07-18 (172 cells, 35 relations; corpus #76) |
+| omb/budget-appendix-fy2027-leg-loc-stewardship | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - National Collection Stewardship Fund (page 18) | 2 | sum | ≤ 30 cells (27 sized) | 12 | SHIPPED 2026-07-18 (27 cells, 2 relations; corpus #77) |
+| omb/budget-appendix-fy2027-leg-loc-copyright | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Copyright Office Salaries and Expenses (page 19) | 37 | sum | ≤ 140 cells (134 sized) | 14 | SHIPPED 2026-07-18 (134 cells, 37 relations; corpus #78) |
+| omb/budget-appendix-fy2027-leg-loc-blind | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Blind and Print Disabled (page 20) | 26 | sum | ≤ 120 cells (113 sized) | 8 | SHIPPED 2026-07-18 (113 cells, 26 relations; corpus #79) |
+| omb/budget-appendix-fy2027-leg-loc-payments-copyright | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Payments to Copyright Owners (page 21) | 0 | sum | ≤ 50 cells (42 sized) | 42 | SHIPPED 2026-07-18 (42 cells, 0 relations; corpus #80 — unit-80 audit GREEN 2026-07-18, Claude Fable 5, `AUDITS.md`) |
 
 ## Queued (need vendoring or sizing first)
 

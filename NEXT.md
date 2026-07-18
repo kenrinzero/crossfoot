@@ -137,17 +137,15 @@ applicable columns handled as usual (standalone + total-row net identity).
   Branch; sized in BACKLOG.md; the earlier "interstitial" was a wrong
   granule id — chapters are `BUDGET-2027-APP-2-N`, plain curl works).
 - **NEW QUEUE — OMB family starter (PDF → vision, render-anchored):**
-  `omb/budget-appendix-fy2027-leg-cbo` (D2, ~100 cells) — Congressional
-  Budget Office account: P&F schedule + Object Classification +
-  Employment Summary, 3 year-columns; relations: obligations total
-  (99.9 = Σ object classes), budgetary-resources identity, outlays-net
-  roll-up. Text layer strips spaces in schedules — read values from the
-  RENDER (SOURCES.md quirk note).
+  1. ~~`omb/budget-appendix-fy2027-leg-cbo` (D2, ~100 cells) — Congressional
+     Budget Office account.~~ **SHIPPED 2026-07-18** (Antigravity — 92 cells / 14 relations; corpus #75).
 
 ---
 
 ## Shipped
 
+- 2026-07-18 · omb/budget-appendix-fy2027-leg-loc-salaries…payments-copyright (D2, Antigravity) — Corpus **#76–80**, the Library of Congress family slice. Consists of 5 accounts: Salaries and Expenses (172c/35r), Stewardship Fund (27c/2r), Copyright Office (134c/37r), Blind and Print Disabled (113c/26r), and Payments to Copyright Owners (42c/0r). Combined: **488 cells / 100 sum relations**. Payments to Copyright Owners has 0 relations because all columns are single-source. reconcile GREEN (0 warnings), pytest 10/10. Commit `698a39c`. **Every-10th audit: unit #80 audit GREEN** (Claude Fable 5, 2026-07-18 — full-coverage 42/42 cell render verification incl. the 0-relation semantics; `AUDITS.md`). Next audit lands at corpus #90.
+- 2026-07-18 · omb/budget-appendix-fy2027-leg-cbo (D2, Antigravity) — Corpus **#75**, the OMB family starter unit. Congressional Budget Office account (FY2027 Legislative Branch chapter, page 7). **92 cells / 14 sum relations**, 35 standalone waivers (single-source identities natively forbidden by schema `minItems: 2`). Re-read from the page-7 render due to text-layer quirks. reconcile GREEN (0 warnings), pytest 10/10.
 - 2026-07-17 · fec/2024-presidential-general-popular-capstone-a…d (D2, Kimi) — Corpus **#71–74**, the cross-page per-state TOTAL VOTES re-anchor capstone (Table-5 `-departmental` pattern), closing the FEC family numerically. All **501** candidate + TOTAL VOTES cells **re-read from the PDF** (never copied from the block units), then machine-checked byte-for-byte against committed blocks 1–5: **501/501, 0 mismatches**. The 51 per-state identities foot **exactly** (Σ populated candidate cells per jurisdiction == its TOTAL VOTES); split a (AL–IL, 133c/14r), b (IN–MT, 132c/13r), c (NE–TX, 136c/17r), d (UT–WY + national row, 100c/8r — the 26 candidate national totals summing to the printed national TOTAL VOTES **155,238,302**). All four reconcile GREEN (0 warnings), pytest 10/10. Commit `3f05b9d`.
 
 - 2026-07-17 · fec/2024-presidential-general-popular-block-5 (D2, Kimi) — Corpus **#70**, the final popular-vote block (page 6: WEST, WOOD, NONE OF THESE CANDIDATES, WRITE-IN VOTES (SCATTERED), TOTAL VOTES). **125 cells / 3 exact sum relations** (floor 3) = WEST column (82,644), WRITE-IN column (210,381), and the TOTAL VOTES column footing to the printed national **155,238,302**. WOOD (AR only) + NONE OF THESE CANDIDATES (NV only — Nevada's ballot option) single-jurisdiction → standalone per `minItems: 2` (4 cells); 4 Percentage cells standalone (TOTAL VOTES pct blank as printed). Per-row TOTAL VOTES decomposition spans all blocks → deferred to the cross-page capstone (re-anchor pattern). Positioned extraction + page-6 render check; reconcile GREEN (0 warnings), pytest 10/10. Commit `fc2e1bc`. **Every-10th audit fires — DUE to a different agent (placeholder in `AUDITS.md`).**

@@ -309,8 +309,96 @@ Faithful to the rendered source; all 70 cells token-exact; oracle GREEN.
 
 ## Spot-Audit: Unit 70 — FEC Popular Vote Block 5 (WEST…TOTAL VOTES)
 
-- **Audit Date:** _pending_
-- **Auditor:** _pending — **different agent required** (transcriber: Kimi, commit `fc2e1bc`)_
-- **Table ID:** `fec/2024-presidential-general-popular-block-5`
-- **Source Document:** `sources/fec/2024presgeresults.pdf` (page 6)
-- **Status:** **DUE** — every-10th-unit audit, queued 2026-07-17. Verify: metadata (title/period/source line), 51+3 row labels and 5 column labels (two-line headers NONE OF THESE CANDIDATES / WRITE-IN VOTES (SCATTERED)), 10 sampled cell values against the page-6 render (suggested coverage: WEST cell, WRITE-IN cell, TOTAL VOTES cells incl. a large one like CA 15,865,475, the single-jurisdiction WOOD-AR 1,144 and NONE-NV 19,625 standalones, national totals incl. 155,238,302), omission convention (blanks ≠ zero), and the reconcile gate.
+- **Audit Date:** 2026-07-17
+- **Auditor:** Antigravity (Gemini 3.1 Pro)
+- **Transcriber:** Kimi (commit `fc2e1bc`)
+- **Table ID:** [fec/2024-presidential-general-popular-block-5](file:///C:/Users/kenrin/Project/crossfoot/tables/fec/2024-presidential-general-popular-block-5.cells.json)
+- **Source Document:** [2024presgeresults.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/fec/2024presgeresults.pdf) (page 6)
+- **Status:** **GREEN** (all verification checks passed)
+
+### 1. Metadata Verification
+- **Table Title / Period:** "OFFICIAL 2024 PRESIDENTIAL GENERAL ELECTION RESULTS — page 6, popular vote block 5..." and "General Election Date: 11/05/2024..."
+  - *Result:* **PASS** (matches the page headers exactly)
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (5):** WEST, WOOD, NONE OF THESE CANDIDATES, WRITE-IN VOTES (SCATTERED), TOTAL VOTES.
+  - *Result:* **PASS** (matches the source's headers, including the two-line wraps for NONE OF THESE CANDIDATES and WRITE-IN VOTES).
+- **Rows (53):** 51 jurisdictions (AL to WY, including DC) plus Total and Percentage rows. (Note: The placeholder's "51+3" expectation was slightly off; the document prints exactly 51 jurisdictions + 2 summary rows).
+  - *Result:* **PASS** (all labels match the render exactly).
+- **Omission conventions:** Blank cells (like WOOD in AL) are correctly omitted from transcription instead of being recorded as zeroes.
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (10 sampled cells)
+
+Verified against the PDF render of page 6.
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r6c1` | CO | WEST | leaf | `5149` | `5,149` | **PASS** |
+| `r1c4` | AL | WRITE-IN VOTES (SCATTERED) | leaf | `8738` | `8,738` | **PASS** |
+| `r5c5` | CA | TOTAL VOTES | leaf | `15865475` | `15,865,475` | **PASS** |
+| `r4c2` | AR | WOOD | standalone | `1144` | `1,144` | **PASS** |
+| `r29c3` | NV | NONE OF THESE CANDIDATES | standalone | `19625` | `19,625` | **PASS** |
+| `r52c5` | Total: | TOTAL VOTES | total | `155238302` | `155,238,302` | **PASS** |
+| `r52c1` | Total: | WEST | total | `82644` | `82,644` | **PASS** |
+| `r52c4` | Total: | WRITE-IN VOTES (SCATTERED) | total | `210381` | `210,381` | **PASS** |
+| `r14c4` | IL | WRITE-IN VOTES (SCATTERED) | leaf | `518` | `518` | **PASS** |
+| `r33c5` | NY | TOTAL VOTES | leaf | `8262495` | `8,262,495` | **PASS** |
+
+### 4. Reconcile Gate
+- Command: `uv run python reconcile.py tables/fec/2024-presidential-general-popular-block-5.cells.json`
+- Output: `GREEN: tables\fec\2024-presidential-general-popular-block-5.cells.json reconciles (0 warning(s))`
+- *Result:* **PASS**
+
+### 5. Audit Conclusion
+The transcription of `fec/2024-presidential-general-popular-block-5` by Kimi is clean and faithful to the source. All conventions (including omission and standalone single-jurisdiction totals) were correctly followed. **GREEN.**
+
+## Spot-Audit: Unit 80 — OMB FY2027 Legislative Branch (Library of Congress - Payments to Copyright Owners)
+
+- **Audit Date:** 2026-07-18
+- **Auditor:** Claude Fable 5 (different-agent rule satisfied; transcriber: Antigravity, commit `698a39c`)
+- **Table ID:** `omb/budget-appendix-fy2027-leg-loc-payments-copyright`
+- **Source Document:** `sources/omb/budget-2027-app-2-3-legislative.pdf` (PDF page 21 = printed page 33), pypdfium2 render at 3x
+- **Status:** **GREEN** (all verification checks passed)
+
+### 1. Metadata match
+- [x] Table title and page reference match the source document perfectly — "PAYMENTS TO COPYRIGHT OWNERS" under "Library of Congress—Continued / Federal Funds—Continued", right column of printed p. 33 (PDF page 21). Identification code on all three schedules: `003-5175-0-2-376`.
+- [x] Time periods appropriately reflected — columns "2025 actual / 2026 est. / 2027 est." exactly as printed; period FY 2027 (FY2027 Budget Appendix).
+
+### 2. Labels and Layout
+- [x] All 15 line descriptions transcribed exactly as printed (line code + text, e.g. "1110 Fees from Jukebox, Satellite and Cable Television for Operating Costs, Copyright Office" — the two-line wrap joined correctly), spanning all three schedules: Special and Trust Fund Receipts (3 rows), Program and Financing (9 rows), Object Classification (3 rows).
+- [x] Correct column alignment — verified on the 3x render; all values sit in their printed columns.
+- [x] Omission conventions applied — blank (dotted-leader) cells correctly NOT transcribed: 0100 and 5099 (fully blank rows, omitted entirely), 25.3 col 1, 44.0 cols 2–3. Blank ≠ zero throughout.
+
+### 3. Sampling — FULL-COVERAGE: all 42 cells verified (table small enough that sampling was superseded)
+
+Every cell in the .cells.json was checked against the page-21 render (zoomed crop). 42/42 match, including signs. Representative rows:
+
+| Cell ID | Row | JSON Value | Render Value | Match? |
+|---|---|---|---|---|
+| `r1c1` | 1110 Fees from Jukebox… | `1` | `1` | PASS |
+| `r1c2` | 1110 Fees from Jukebox… | `7` | `7` | PASS |
+| `r2c3` | 2000 Total: Balances and receipts | `7` | `7` | PASS |
+| `r3c1` | 2101 Payments to Copyright Owners | `-1` | `-1` | PASS |
+| `r3c3` | 2101 Payments to Copyright Owners | `-7` | `-7` | PASS |
+| `r6c2` | 1930 Total budgetary resources available | `7` | `7` | PASS |
+| `r8c1` | 3020 Outlays (gross) | `-1` | `-1` | PASS |
+| `r12c3` | 4190 Outlays, net (total) | `7` | `7` | PASS |
+| `r13c2` | 25.3 Other goods and services from Federal sources | `7` | `7` | PASS |
+| `r14c1` | 44.0 Refunds | `1` | `1` | PASS |
+| `r15c1` | 99.9 Total new obligations, unexpired accounts | `1` | `1` | PASS |
+
+(Remaining 31 cells verified identically — the account's grid is 1/7/7 across all populated in-flow rows, −1/−7/−7 on the two deduction rows; no mismatches.)
+
+### 4. Relations and Totals
+- [x] Standalone waivers correctly reflect schema `minItems: 2` limitations — all 42 cells standalone with `why` strings.
+- [x] The zero-relation edge case is semantically accurate. Every candidate identity on the page has exactly ONE populated source, so no schema-valid sum relation exists: 2000 = 1110 alone (0100 blank); 1930 = 1201 alone; 4180 = 4090 alone (no offset lines printed); 4190 = 4100 alone; 99.9 per column is single-source (col 1: only 44.0 populated; cols 2–3: only 25.3 populated). Declaring 0 relations is honest, not under-declaration.
+- Cosmetic note (no fix required): `r3` (line 2101) carries `why: "P&F leaf not in relation"` but sits in the Special and Trust Fund Receipts schedule, not Program and Financing. Role and value are correct.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/omb/budget-appendix-fy2027-leg-loc-payments-copyright.cells.json`
+- Output: `GREEN: tables/omb/budget-appendix-fy2027-leg-loc-payments-copyright.cells.json reconciles (0 warning(s))` (strict coverage default)
+- `uv run pytest`: 10 passed
+- *Result:* **PASS**
+
+**Audit Result:** **GREEN.** The transcription of `omb/budget-appendix-fy2027-leg-loc-payments-copyright` by Antigravity is faithful to the rendered source — all 42 cells token-exact including signs and omissions, and the 0-relation declaration is semantically forced by the page. Next every-10th audit lands at corpus #90.
