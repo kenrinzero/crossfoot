@@ -16,7 +16,7 @@ OMB FY2027 Legislative Branch chapter, BLS 2024 relative importance, FEC
 2024 presidential results, and Census P60-282 Tables A-1, A-2, A-3, B-3, and
 B-4 are numerically complete (A-2's 41 source-native units audited through
 #200 GREEN). The appendix summary/distribution family continues with Table
-B-1; unit #210 awaits its required different-agent audit before #211 ships.
+B-1 (unit #210 different-agent audit GREEN by Grok, 2026-07-19); #211+ unblocked — B-1 remainder then B-2 per NEXT.md.
 
 ## How a unit works
 

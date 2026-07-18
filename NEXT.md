@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 audit is DUE** (transcriber Claude Fable 5 — a different agent must take it; placeholder in `AUDITS.md`).
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`); #211+ unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -144,10 +144,10 @@ audited and GREEN by Antigravity** (unblocking #171).
   MOEs, ratios, Gini, percentiles, percent-change, and overlapping race
   counts are standalone with whys.
 
-  **AUDIT GATE:** unit **#210** (`census-p60/2023-income-b1-2022`)
-  requires a different-agent audit (placeholder in `AUDITS.md`;
-  transcriber Claude Fable 5). **#211+ is blocked until it is GREEN.**
-  After GREEN, the remaining appendix work, in suggested order:
+  **AUDIT GATE CLOSED:** unit **#210** (`census-p60/2023-income-b1-2022`)
+  audited **GREEN** by Grok (2026-07-19; full-coverage 111/111;
+  `AUDITS.md`). **#211+ is unblocked.** Remaining appendix work, in
+  suggested order:
   1. **B-1 remainder** (2023 block + percent-change block, ~185 cells,
      2 units — same recipe as A-1 #208/#209).
   2. **B-2** (PDF p52, single 2023 money-vs-post-tax summary: 37 rows ×
@@ -193,7 +193,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `census-p60/2023-income-b1-2022` — #210 (Claude Fable 5). 111c/11r/79 standalone; strict-default GREEN; independent pypdf source comparison 111/111 exact. **Different-agent audit DUE; #211+ blocked.**
+- 2026-07-18 · `census-p60/2023-income-b1-2022` — #210 (Claude Fable 5). 111c/11r/79 standalone; strict-default GREEN; independent pypdf source comparison 111/111 exact. **Every-10th audit GREEN** (Grok, 2026-07-19, full-coverage 111/111; `AUDITS.md`); #211+ unblocked.
 - 2026-07-18 · `census-p60/2023-income-a1-percent-change` — #209 (Claude Fable 5). 74c/0r/74 standalone (derived ratios, outside relation vocabulary); strict-default GREEN; independent pypdf source comparison 74/74 exact. **Table A-1 complete.**
 - 2026-07-18 · `census-p60/2023-income-a1-2023` — #208 (Claude Fable 5). 111c/11r/79 standalone; 2 roll-ups exact, 9 at source-authorized rounding tol; strict-default GREEN; independent pypdf source comparison 111/111 exact.
 - 2026-07-18 · `census-p60/2023-income-a1-2022` — #207 (Claude Fable 5). 111c/11r/79 standalone; 1 roll-up exact, 10 at source-authorized rounding tol; strict-default GREEN; independent pypdf source comparison 111/111 exact.

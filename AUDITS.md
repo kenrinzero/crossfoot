@@ -1021,21 +1021,72 @@ Codex's transcription of `census-p60/2023-income-a2-hispanic-any-race-1975-1972`
 
 ---
 
-## Spot-Audit Due: Unit 210 — Census P60-282 Table B-1 2022 column group
+## Spot-Audit: Unit 210 — Census P60-282 Table B-1 2022 column group
 
-- **Status:** **DUE — corpus #211+ is blocked pending a GREEN different-agent audit.**
-- **Transcriber:** Claude Fable 5 (main; batch #201–210, 2026-07-18)
+- **Audit Date:** 2026-07-19
+- **Auditor:** Grok (different agent — transcriber was Claude Fable 5)
+- **Transcriber:** Claude Fable 5 (main; batch #201–210, commit `3e8a770`)
 - **Table ID:** `census-p60/2023-income-b1-2022`
 - **Source Document:** `sources/census/p60-282.pdf`, PDF page 51 (printed page 45), Table B-1, 2022 column group (Number / median post-tax estimate / MOE)
-- **Expected shape:** 37 rows / 111 cells / 11 sum relations / 79 standalone
-- **Pre-audit ship evidence:** built from the pdfplumber text layer; independent pypdf comparison 111/111 exact; render read and all 11 Number-column roll-ups hand-recomputed (1 exact, 10 at source-authorized rounding tol ≤ 50); strict reconcile GREEN 0 warnings; full sweep 210/210; pytest 10/10.
+- **Method:** Independent pypdfium2 2.5× re-render (`scratchpad/audit-210-p51-2.5x.png`) + pdfplumber text-layer dump (`scratchpad/audit-210-p51-text.txt`) + independent pypdf extraction; FULL-coverage ordered comparison of all 111 values and 37 row labels against both extractors (leader-dot anchored so age-band numbers inside labels do not shift columns). Different-agent rule satisfied.
+- **Status:** **GREEN** (all required checks passed; 111/111 cells exact; 37/37 labels exact)
 
-### Required non-arithmetic checks
+### 1. Metadata and layout
+- **Table title:** "Table B-1. Post-Tax Household Income Summary Measures by Selected Characteristics: 2022 and 2023" — **PASS** (matches page header verbatim).
+- **Period / columns:** 2022 Number (thousands) · Median post-tax income Estimate · Margin of error (±) — unit columns match the printed 2022 triple; 2023 and percent-change column groups correctly left for sibling units — **PASS**.
+- **Units / scale:** households in thousands; income in 2023 dollars (C-CPI-U) — **PASS**.
+- **Rows (37):** All households → education block (Bachelor's degree or higher). Sequential family vs nonfamily "Female/Male householder" duplicates preserved in print order; age bands, nativity, region, residence, and education blocks complete — **PASS**.
+- **Omission / apparatus:** printed `*` significance markers appear only on the percent-change block (out of this unit's scope) and are correctly absent from transcribed values; no blank≠zero omissions in this fully populated 2022 triple — **PASS**.
 
-- [ ] Render-anchor PDF page 51 and verify the 37 row labels (sequential duplicates: family vs nonfamily "Female/Male householder" rows) and the three 2022 columns against the unit's columns.
-- [ ] Verify all 111 values, including the boldface All-households row and the education block.
-- [ ] Recompute the 11 Number-column section roll-ups (household type ×3, age ×2, nativity ×2, region, residence ×2, education); confirm each declared tol equals the exact observed delta and carries the footnote-2 rounded-components rationale (Nonfamily = Female + Male is exact).
-- [ ] Confirm medians/MOEs/race counts are correctly standalone (non-additive; overlapping race groups per the source's race footnote).
-- [ ] Spot-check the batch context: #201–209 (A-3/B-3/B-4 quintile-share closures, A-1 blocks) shipped the same session by the same transcriber — sample at least one closure unit's five shares against its page render.
-- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-b1-2022.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
-- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before #211 ships.
+### 2. Value verification (111/111)
+Ordered full-coverage match of every cell against the page text layer and an independent pypdf multiset (both 111/111; Counter diff empty):
+
+| Cell ID | Row Label | Column | JSON | Source | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | All households | Number (thousands) | `131400` | `131,400` | **PASS** |
+| `r1c2` | All households | Median estimate | `66800` | `66,800` | **PASS** |
+| `r1c3` | All households | MOE | `626` | `626` | **PASS** |
+| `r4c1` | Female householder, no spouse present | Number | `15030` | `15,030` | **PASS** |
+| `r5c1` | Male householder, no spouse present | Number | `7128` | `7,128` | **PASS** |
+| `r7c1` / `r8c1` | Nonfamily Female / Male householder | Number | `24360` / `22740` | `24,360` / `22,740` | **PASS** |
+| `r12c2` | Asian | Median estimate | `93100` | `93,100` | **PASS** |
+| `r15c1` | 15 to 24 years | Number | `6136` | `6,136` | **PASS** |
+| `r33c1` | Total, aged 25 and older | Number | `125300` | `125,300` | **PASS** |
+| `r37c2` | Bachelor's degree or higher | Median estimate | `100200` | `100,200` | **PASS** |
+
+(Full 111-cell ordered comparison also **PASS**; table above is the high-risk / boundary sample.)
+
+### 3. Relation / rounding honesty (11 Number-column roll-ups)
+Recomputed every sum from leaf cells; each declared `tol` equals the exact observed delta, and every non-exact relation quotes the source footnote-2 rounded-components rationale ("Calculated estimate may be different due to rounded components"):
+
+| Relation | Sum | Target | Δ | Declared tol | Status |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| Family + Nonfamily → All | 131430 | 131400 | 30 | 30 | **PASS** |
+| Married + Female + Male → Family | 84338 | 84330 | 8 | 8 | **PASS** |
+| Nonfamily Female + Male → Nonfamily | 47100 | 47100 | 0 | *(exact, no tol)* | **PASS** |
+| Under-65 + 65+ → All | 131430 | 131400 | 30 | 30 | **PASS** |
+| Age bands → Under 65 | 94296 | 94300 | 4 | 4 | **PASS** |
+| Native + Foreign → All | 131440 | 131400 | 40 | 40 | **PASS** |
+| Naturalized + Not citizen → Foreign | 21145 | 21140 | 5 | 5 | **PASS** |
+| Four regions → All | 131430 | 131400 | 30 | 30 | **PASS** |
+| Inside metro + Outside metro → All | 131450 | 131400 | 50 | 50 | **PASS** |
+| Inside/outside principal cities → Inside metro | 113480 | 113500 | 20 | 20 | **PASS** |
+| Education leaves → Total 25+ | 125292 | 125300 | 8 | 8 | **PASS** |
+
+No invented slack; no under-declaration. **PASS**.
+
+### 4. Role / standalone honesty
+- All 74 median + MOE cells are `standalone` with non-aggregation / sampling-metadata whys — **PASS**.
+- Race and Hispanic-origin Number cells (rows 9–13) are `standalone` citing the source race-alone overlap footnote — **PASS**.
+- Number-column totals/leaves participate only in the 11 printed section roll-ups — **PASS**.
+
+### 5. Batch context spot-check (#201–209)
+Sampled same-session quintile unit `census-p60/2023-income-a3-money-income` (#201) against PDF page 37 MONEY INCOME block: five 2022 quintile shares `3.0 / 8.2 / 14.0 / 22.5 / 52.1` all present on the page; percent-closure sums to `99.8` with declared `tol: "0.2"` (source rounded-components rationale); 2023 shares sum exact `100.0`. **PASS** (no defect found in the shared batch conventions).
+
+### 6. Reconcile gate
+- `uv run python reconcile.py tables/census-p60/2023-income-b1-2022.cells.json` → `GREEN … (0 warning(s))` — **PASS**
+- `uv run pytest -q` → 10 passed — **PASS**
+- Full-corpus strict sweep → **210/210 GREEN** — **PASS**
+
+### 7. Audit Conclusion
+Claude Fable 5's transcription of `census-p60/2023-income-b1-2022` is value-perfect, complete, and faithful to Census P60-282 Table B-1 (2022 column group): all 111 values exact, 37 labels correct (including sequential Female/Male householder duplicates), all 11 Number-column roll-ups honest to observed deltas under footnote 2, and medians/MOEs/race counts correctly standalone. **GREEN.** Corpus **#211+ is unblocked**; next every-10th different-agent audit: corpus **#220**.
