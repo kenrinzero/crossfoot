@@ -1,0 +1,791 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-gpo-public-information",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "004-0201-0-1-808",
+    "page": 26,
+    "title": "GPO - Public Information Programs of the Superintendent of Documents, Salaries and Expenses (Program and Financing + Object Classification + Employment Summary)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions except the Employment Summary FTE line (headcount). GPO Public Information Programs of the Superintendent of Documents - Salaries and Expenses (id 004-0201-0-1-808): Program and Financing on PDF page 26 (printed page 38) right column; Object Classification + Employment Summary on PDF page 27 (printed page 39) left column. No blank cells. Negatives as printed (3020). Single-source chains (1100->1930, 4000->4180, 4020->4190, memo 3100/3200) are standalone under schema minItems 2.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Depository Library Distribution"
+    },
+    {
+      "index": 2,
+      "label": "0002 Cataloging and Indexing"
+    },
+    {
+      "index": 3,
+      "label": "0003 International Exchange"
+    },
+    {
+      "index": 4,
+      "label": "0900 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 5,
+      "label": "1100 Appropriation"
+    },
+    {
+      "index": 6,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 7,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 8,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 9,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 10,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 11,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 12,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 13,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 14,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 15,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 16,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 17,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 18,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 19,
+      "label": "11.1 Personnel compensation: Full-time permanent"
+    },
+    {
+      "index": 20,
+      "label": "12.1 Civilian personnel benefits"
+    },
+    {
+      "index": 21,
+      "label": "22.0 Transportation of things"
+    },
+    {
+      "index": 22,
+      "label": "24.0 Printing and reproduction"
+    },
+    {
+      "index": 23,
+      "label": "25.2 Other services from non-Federal sources"
+    },
+    {
+      "index": 24,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 25,
+      "label": "1001 Direct civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "37",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "43",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "43",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "37",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources (no other budgetary resources); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources (no other budgetary resources); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources (no other budgetary resources); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "37",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1100 appropriation); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1100 appropriation); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1100 appropriation); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "23",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "37",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-32",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-42",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-43",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "22",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "23",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "23",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "22",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "23",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "22",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "23",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "23",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "37",
+      "role": "standalone",
+      "why": "Restates 1100/1930 as gross discretionary budget authority; single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Restates 1100/1930 as gross discretionary budget authority; single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Restates 1100/1930 as gross discretionary budget authority; single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "32",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "42",
+      "role": "total"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "43",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "37",
+      "role": "standalone",
+      "why": "Single-source net total = gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source net total = gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source net total = gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "32",
+      "role": "standalone",
+      "why": "Single-source outlays net = gross (4190 = 4020, no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "42",
+      "role": "standalone",
+      "why": "Single-source outlays net = gross (4190 = 4020, no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source outlays net = gross (4190 = 4020, no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "37",
+      "role": "total"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "43",
+      "role": "total"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "43",
+      "role": "total"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "81",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "81",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "93",
+      "role": "standalone",
+      "why": "Employment Summary line (full-time equivalent employment, a headcount, not USD millions); participates in no arithmetic on this schedule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r4c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r4c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r4c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r10c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c1",
+        "r15c1"
+      ],
+      "target": "r16c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2"
+      ],
+      "target": "r16c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3"
+      ],
+      "target": "r16c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r20c1",
+        "r21c1",
+        "r22c1",
+        "r23c1"
+      ],
+      "target": "r24c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r20c2",
+        "r21c2",
+        "r22c2",
+        "r23c2"
+      ],
+      "target": "r24c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c3",
+        "r20c3",
+        "r21c3",
+        "r22c3",
+        "r23c3"
+      ],
+      "target": "r24c3"
+    }
+  ]
+}
