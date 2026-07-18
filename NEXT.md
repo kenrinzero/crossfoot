@@ -222,12 +222,21 @@ applicable columns handled as usual (standalone + total-row net identity).
      → standalone. Render-verified against pypdfium2 3x page 30.
      reconcile GREEN (0 warnings), pytest 10/10, full-corpus sweep
      87/87 GREEN.
-  3. `omb/budget-appendix-fy2027-leg-tax-court-survivors-annuity` (id
+  3. ~~`omb/budget-appendix-fy2027-leg-tax-court-survivors-annuity` (id
      `023-8115-0-7-602`, page 30, Trust Funds) — Tax Court Judges
      Survivors Annuity Fund. Special and Trust Fund Receipts (0100/
      0198/0199/1110/1140/1199/1999/2000/2101/5098/5099) + companion
      P&F (0001/0900/1000/1201/1930/1941/3010/3020/4090/4100/4101/4110/
-     4180/4190 + memo 5000/5001). Est. ~60-70 cells.
+     4180/4190 + memo 5000/5001). Est. ~60-70 cells.~~ **SHIPPED
+     2026-07-18** (Claude Opus 4.8 — 73 cells / 12 relations / 45
+     standalone; corpus #88). **US Tax Court family numerically
+     COMPLETE, 3/3 accounts (#86-88).** Actual 73 (est ~60-70). The
+     closing identity `5099 = 2000 + 2101 + 5098` holds because the
+     appropriations line 2101 is printed negative; `1140` (col 1),
+     `0198`/`5098`/`4100` (partial) and `4101` (cols 2-3) are blank/
+     omitted. Render-anchored (pypdfium2 4x page-30 crops + pdfplumber
+     text-layer cross-check), reconcile GREEN (0 warnings), pytest
+     10/10, full-corpus sweep 88/88 GREEN.
 
 - **NEW QUEUE — GAO Salaries and Expenses (page 28-29, id
   `005-0107-0-1-801`) — LARGE, likely needs a split, do NOT attempt
@@ -267,6 +276,8 @@ applicable columns handled as usual (standalone + total-row net identity).
 ---
 
 ## Shipped
+
+- 2026-07-18 · omb/budget-appendix-fy2027-leg-tax-court-survivors-annuity (D2, Claude Opus 4.8) — Corpus **#88**, the third US Tax Court account — **the family closeout (3/3 accounts numerically complete, #86-88).** Trust Fund account (id `023-8115-0-7-602`, page 30 PDF-1-based / printed page 42), combined Special and Trust Fund Receipts + Program and Financing schedules under one id, following the shipped LoC `-gift-trust` precedent. **73 cells / 12 sum relations / 45 standalone waivers.** Est was ~60-70; actual 73. Receipts schedule carries **9** identities: `0199 = 0100 + 0198` (c1 only — 0198 blank in cols 2-3), `1199 = 1110 + 1140` (c2/c3 — 1140 blank in c1), `2000 = 0199 + 1999` (all cols), and the closing `5099 = 2000 + 2101 + 5098` (3-source in c1, 2-source c2/c3 — 5098 blank in cols 2-3; closes because the appropriations line 2101 prints negative -1). P&F carries **3**: `1930 = 1000 + 1201` (all cols). Every other total collapses to single-source under schema `minItems: 2` → 45 honest standalone waivers (the whole net section 4090/4100/4101/4110/4180/4190 is single-source per column; 0900/1999/1941 memo/investment lines standalone). All exact, 0 tolerance. Render-anchored: pypdfium2 4x page-30 crops (`scratchpad/omb-p30-sa-left.png` + `-sa-right.png`) cross-checked against the pdfplumber text layer, both agree on every value and sign. reconcile GREEN (0 warnings), pytest 10/10, full-corpus sweep 88/88 GREEN.
 
 - 2026-07-18 · omb/budget-appendix-fy2027-leg-tax-court-fees (D2, Claude Opus 4.7) — Corpus **#87**, the second US Tax Court account. Combined-schedule (Special and Trust Fund Receipts + Program and Financing under one id `023-5633-0-2-752`, page 30 PDF-1-based / printed page 42), following the LoC `-payments-copyright` / `-gift-trust` precedent. **30 cells / 3 sum relations / 24 standalone waivers.** Est was ~20-25 cells; actual 30 (10 rows × 3 cols, with three fully-blank rows correctly omitted: 0100 + 5099 on the receipts schedule, 4190 on P&F). The only clean multi-source identity is `1930 = 1000 + 1900` per column (6+1=7, 7+1=8, 8+1=9 — all exact, 0 tol); every other candidate identity collapses to a single source under schema `minItems: 2` (2000=1110 alone with 0100 omitted; 1900=1201 alone; 4090=1 with no other mandatory-BA line; 4180=4090 with no offsets) → 24 honest standalone waivers. Render-anchored: pypdfium2 3x page-30 render (`scratchpad/omb-p30-render.png`) cross-checked against the pdfplumber `(cid:NN)`→`chr(NN+29)`-decoded text layer, both agree on every value and sign. reconcile GREEN (0 warnings), pytest 10/10, full-corpus sweep 87/87 GREEN.
 
