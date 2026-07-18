@@ -1,0 +1,313 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-senate-preservation-fund",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "000-5509-0-2-801",
+    "page": 34,
+    "title": "Senate Preservation Fund (Special and Trust Fund Receipts + Program and Financing)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. Senate Preservation Fund (id 000-5509-0-2-801), combined Special and Trust Fund Receipts + P&F: starts PDF page 34 (printed 46) bottom right, ends PDF page 35 (printed 47) top left (5000/5001 investment memos). Gift-funded account with NO obligations section at all (no 0900/3xxx rows). Receipts: 0100 and 5099 print blank (5099 = 4-4 nets to zero, zero-suppressed), so 1130/2000/2101 are standalone. P&F: 1010 is a NEGATIVE unobligated-balance transfer to account [001-0123] (c2 = -4); 1070 c2 = 1000 + 1010 = 5-4 = 1 is the account's only multi-source balance identity besides 1930 c1 = 1070 + 1101 = 1+4 = 5. 1001 is a non-add memo subset of 1000. 4190 prints blank in all columns.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1130 Gifts, Senate Preservation Fund"
+    },
+    {
+      "index": 2,
+      "label": "2000 Total: Balances and receipts"
+    },
+    {
+      "index": 3,
+      "label": "2101 Senate Preservation Fund"
+    },
+    {
+      "index": 4,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 5,
+      "label": "1001 Discretionary unobligated balance brought fwd, Oct 1"
+    },
+    {
+      "index": 6,
+      "label": "1010 Unobligated balance transfer to other accts [001-0123]"
+    },
+    {
+      "index": 7,
+      "label": "1070 Unobligated balance (total)"
+    },
+    {
+      "index": 8,
+      "label": "1101 Appropriation (special or trust)"
+    },
+    {
+      "index": 9,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 10,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 11,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 12,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 13,
+      "label": "5000 Total investments, SOY: Federal securities: Par value"
+    },
+    {
+      "index": 14,
+      "label": "5001 Total investments, EOY: Federal securities: Par value"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source into 2000 Total balances and receipts (0100 balance blank); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source total (equals 1130); feeds 5099 Balance end of year, which prints blank (4-4 nets to zero, zero-suppressed); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "-4",
+      "role": "standalone",
+      "why": "Appropriation out of the fund; feeds 5099 Balance end of year, which prints blank (4-4 nets to zero, zero-suppressed)"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 1070 Unobligated balance total (1010 transfer blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into 1070 Unobligated balance total (1010 transfer blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add): discretionary subset of the 1000 unobligated balance, does not feed the section arithmetic"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Memorandum (non-add): discretionary subset of the 1000 unobligated balance, does not feed the section arithmetic"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "1",
+      "role": "total"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source unobligated balance total (equals 1000; 1010 blank this column), and 1930 this column is also single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "5",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1070; 1101 appropriation blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1070; 1101 appropriation blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "5",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Restates 1101 as gross discretionary budget authority; single-source into 4180 (4190 prints blank all columns); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross (no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) investment entry (Federal securities par value); participates in no arithmetic on this schedule"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r6c2"
+      ],
+      "target": "r7c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1"
+      ],
+      "target": "r9c1"
+    }
+  ]
+}
