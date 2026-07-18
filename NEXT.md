@@ -25,6 +25,12 @@ means a stage, never difficulty. If a stray "T2" survives in older
 crossfoot text, read it as D2.
 
 **Harness notes for transcribers:**
+- ⚠ **Recurring venv breaker:** if EVERY `uv run` fails with `failed to
+  remove .venv/lib64: Access is denied (os error 5)`, a POSIX-side
+  session has left a stray `lib64 -> lib` symlink in `.venv`. Fix:
+  `rm .venv/lib64` — uv then rebuilds cleanly. Happened twice on
+  2026-07-18; a full-corpus sweep run through a broken uv reports
+  every unit RED, so fix the venv BEFORE believing a red sweep.
 - Neither host has poppler; PDF units use `uv run --with pdfplumber` (text
   layer) + a pypdfium2 page render for visual verification. The MTS PDF's
   text layer emits `(cid:NN)` tokens — decode `chr(NN+29)`, then verify
@@ -75,13 +81,41 @@ chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
-### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
+### Live dispatch — Census P60-282 remainder (QUEUE REFRESH 2026-07-18)
 
-Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing + schedules A–E split (#146–160). **Unit-150 every-10th audit GREEN** (Antigravity). **Unit-160 every-10th audit GREEN after completeness repair** (Grok; 175/175 present values exact; 2 missing standalone rows + 4 cells inserted; post-repair 179 cells). Next every-10th audit at **#170**.
+**Treasury MTS May 2026: SOURCE COMPLETE.** Tables 1-9 all transcribed
+(Table 7 #138-145; Table 6 #146-160 as liabilities + assets-financing +
+Schedules A-E). Unit-150 audit GREEN (Antigravity); unit-160 audit
+GREEN after completeness repair (Grok; 175/175 present values exact, 2
+missing standalone rows inserted). **Verification 2026-07-18 (Claude
+Fable 5): full-corpus sweep re-run on a repaired venv — 160/160 GREEN,
+pytest 10/10, audit trail #120-#160 rotation-clean.** Next every-10th
+audit at **#170**.
 
-All Schedule C / D / E units have been shipped. MTS May-2026 remainder family is numerically complete at corpus #160.
+- **NEXT DISPATCH — Census P60-282 remainder (zero new vendoring,
+  D2).** The vendored `sources/census/p60-282.pdf` (59pp, sha256
+  ledgered) has ~11 appendix tables; only unit #3
+  (`census-p60/2023-income-a1`) is transcribed. Contents (p6): **A-1**
+  Income Summary Measures, **A-2** Households by Total Money
+  Income/Race/Hispanic Origin (the big cross-tab), **A-3** Income
+  Distribution Measures, **A-5** Equivalence-Adjusted Dispersion
+  1967-2023 (long time series), **A-6** Earnings Summary Measures,
+  **A-7** Median Earnings of Workers, **B-1..B-5** Post-Tax Income
+  tables. Sizing pass first: locate print pages, check overlap with
+  the shipped a1 unit before dispatching. **Expect PERCENT-CLOSURE
+  relations** (distribution rows summing to 100.0) — the schema's
+  second relation type (default tol 0.05), unused since the seed;
+  any non-default tol must quote the report's own rounding note per
+  DESIGN §3.
 
-Also available in already-vendored sources: a sizing survey of the Census **P60-282** report cross-tabs remains a parallel queue-refresh option.
+- **D1/web vendoring options (browser-capable agents; content-gate per
+  DESIGN §7 — magic-byte check, soft-404 caution):**
+  1. **Treasury MTS June 2026** — fiscaldata static path (same pattern
+     as `mts-202605.pdf`); a whole new month-family with every
+     extraction convention already settled. Highest-leverage vendor.
+  2. **A second 10-K** (e.g., Microsoft FY2025) via EDGAR
+     FilingSummary.xml (SEC requires a contact UA) — balance sheet
+     first per the Apple #2 seed pattern.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
