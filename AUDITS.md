@@ -578,3 +578,18 @@ Every populated cell re-read from the auditor's render; column positions machine
 The transcription of `omb/budget-appendix-fy2027-leg-other-boards-commissions` by Claude Fable 5 (`bddc4a3`) is clean and faithful to the rendered source. Metadata, the 3-column model, all 9 row labels, the within-page left→right column flow, the COIL/Stennis non-contamination boundaries, the blank ≠ zero omission conventions, and all 15 cell values match the page-36 render with zero discrepancies. The 0-relation declaration is semantically forced by the page. **GREEN.** Next every-10th different-agent audit lands at corpus **#120**.
 
 ---
+
+---
+
+## Spot-Audit: Unit 120 — Architect of the Capitol / Capitol Power Plant — PLACEHOLDER
+
+- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
+- **Transcriber:** Claude Fable 5 (commit `d5444a1`)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F on PDF page 11 (printed 23) RIGHT column; ObjClass + Employment on PDF page 12 (printed 24) LEFT column. Staged renders: `scratchpad/aoc-p11-render.png`, `scratchpad/aoc-p12-render.png` (regenerate at 3x via pypdfium2 if absent).
+- **Shape:** 123 cells / 33 relations / 21 standalone; id `001-0133-0-1-801`; three columns (2025 actual / 2026 est. / 2027 est.).
+- **High-risk features the sample should exercise:**
+  - The richest relation topology in the AoC family — the 10-cell sample should stratify across: the reimbursable identity (`0900 = 0001+0801`), the offsetting-collections chain (`1900 = 1100+1700`), the all-columns two-source `4040 = 4030+4033`, the 5-source `3050 c1` (expired 3011/3041 pair), and the dual `99.0` Direct/Reimbursable rows feeding `99.9`.
+  - `1940 Unobligated balance expiring` memo prints -1 in c1 only (rare row, memo non-add).
+  - Cross-schedule identities to spot-check (not encoded): `99.0 Direct` ≡ `0001` (170/138/135), `99.0 Reimbursable` ≡ `0801` (9/10/10), `99.9` ≡ `0900` (179/148/145).
+  - Two-column pages: p11's LEFT column holds the separate 001-1833/001-0137 accounts; p12's RIGHT column holds the separate 001-0155 account — verify no cross-contamination.
