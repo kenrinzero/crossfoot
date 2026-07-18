@@ -1,0 +1,56 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-ocwr-salaries-expenses",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "009-1600-0-1-801",
+    "page": 6,
+    "title": "Office of Congressional Workplace Rights - Salaries and Expenses (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "columns": [
+    { "index": 1, "label": "2025 actual" },
+    { "index": 2, "label": "2026 est." },
+    { "index": 3, "label": "2027 est." }
+  ],
+  "rows": [
+    { "index": 1, "label": "0001 Salaries and Expenses (Direct)" },
+    { "index": 2, "label": "1100 Appropriation" },
+    { "index": 3, "label": "1930 Total budgetary resources available" },
+    { "index": 4, "label": "3010 New obligations, unexpired accounts" },
+    { "index": 5, "label": "3020 Outlays (gross)" },
+    { "index": 6, "label": "4000 Budget authority, gross" },
+    { "index": 7, "label": "4010 Outlays from new discretionary authority" },
+    { "index": 8, "label": "4180 Budget authority, net (total)" },
+    { "index": 9, "label": "4190 Outlays, net (total)" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "8", "role": "standalone", "why": "Single program activity; schema minItems 2 forbids a sum" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "8", "role": "standalone", "why": "Single program activity; schema minItems 2 forbids a sum" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "9", "role": "standalone", "why": "Single program activity; schema minItems 2 forbids a sum" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "8", "role": "standalone", "why": "Single appropriation source; no valid multi-source sum" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "8", "role": "standalone", "why": "Single appropriation source; no valid multi-source sum" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "9", "role": "standalone", "why": "Single appropriation source; no valid multi-source sum" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "8", "role": "standalone", "why": "1100 is the sole printed resource; no valid sum" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "8", "role": "standalone", "why": "1100 is the sole printed resource; no valid sum" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "9", "role": "standalone", "why": "1100 is the sole printed resource; no valid sum" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "8", "role": "standalone", "why": "P&F obligations line has no multi-source identity" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "8", "role": "standalone", "why": "P&F obligations line has no multi-source identity" },
+    { "id": "r4c3", "row": 4, "col": 3, "value": "9", "role": "standalone", "why": "P&F obligations line has no multi-source identity" },
+    { "id": "r5c1", "row": 5, "col": 1, "value": "-8", "role": "standalone", "why": "P&F outlays line has no multi-source identity" },
+    { "id": "r5c2", "row": 5, "col": 2, "value": "-8", "role": "standalone", "why": "P&F outlays line has no multi-source identity" },
+    { "id": "r5c3", "row": 5, "col": 3, "value": "-9", "role": "standalone", "why": "P&F outlays line has no multi-source identity" },
+    { "id": "r6c1", "row": 6, "col": 1, "value": "8", "role": "standalone", "why": "4000 restates one appropriation source; no valid sum" },
+    { "id": "r6c2", "row": 6, "col": 2, "value": "8", "role": "standalone", "why": "4000 restates one appropriation source; no valid sum" },
+    { "id": "r6c3", "row": 6, "col": 3, "value": "9", "role": "standalone", "why": "4000 restates one appropriation source; no valid sum" },
+    { "id": "r7c1", "row": 7, "col": 1, "value": "8", "role": "standalone", "why": "4010 has no multi-source gross-outlay identity" },
+    { "id": "r7c2", "row": 7, "col": 2, "value": "8", "role": "standalone", "why": "4010 has no multi-source gross-outlay identity" },
+    { "id": "r7c3", "row": 7, "col": 3, "value": "9", "role": "standalone", "why": "4010 has no multi-source gross-outlay identity" },
+    { "id": "r8c1", "row": 8, "col": 1, "value": "8", "role": "standalone", "why": "4180 restates one authority source; no valid sum" },
+    { "id": "r8c2", "row": 8, "col": 2, "value": "8", "role": "standalone", "why": "4180 restates one authority source; no valid sum" },
+    { "id": "r8c3", "row": 8, "col": 3, "value": "9", "role": "standalone", "why": "4180 restates one authority source; no valid sum" },
+    { "id": "r9c1", "row": 9, "col": 1, "value": "8", "role": "standalone", "why": "4190 restates one net-outlay source; no valid sum" },
+    { "id": "r9c2", "row": 9, "col": 2, "value": "8", "role": "standalone", "why": "4190 restates one net-outlay source; no valid sum" },
+    { "id": "r9c3", "row": 9, "col": 3, "value": "9", "role": "standalone", "why": "4190 restates one net-outlay source; no valid sum" }
+  ],
+  "relations": []
+}
