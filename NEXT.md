@@ -57,24 +57,20 @@ control-plane project log):
   Semiquincentennial, COIL, Other Boards, Stennis, Capitol
   Preservation, Open World, GFRA).
 
-Every-10th different-agent spot-audits GREEN through #100 (MedPAC,
-Grok). **The unit #110 audit is now DUE — placeholder in `AUDITS.md`;
-the transcriber (Claude Fable 5) CANNOT self-audit; the 15-cell
-zero-relation unit warrants full-coverage verification.** In the OMB
+Every-10th different-agent spot-audits GREEN through #110 (Other
+Boards, Kimi — full 15/15 coverage of the zero-relation unit). **Next
+every-10th audit lands at corpus #120.** In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Unit #110 spot-audit (D3, vision, DIFFERENT agent
-  than Claude Fable 5).** Placeholder with shape, staged render, and
-  the full-coverage expectation is in `AUDITS.md`. Do this before (or
-  alongside) further transcription.
-
-- **After the audit: Architect of the Capitol (pp8–16, ~14–15
-  accounts) is the ONLY remaining unsized block in the chapter** — a
-  survey/sizing pass makes it dispatch-ready; expect the largest
+- **NEXT DISPATCH — Architect of the Capitol survey/sizing pass
+  (pp8–16, ~14–15 accounts), the ONLY remaining unsized block in the
+  chapter.** Unit #110 spot-audit GREEN (Kimi, 2026-07-18,
+  `AUDITS.md`). The Architect survey makes the block dispatch-ready;
+  expect the largest
   department (US Botanic Garden, Capitol buildings/grounds/power
   plant, House/Senate office buildings, Library buildings, Capitol
   Visitor Center, judiciary-adjacent accounts, etc.).
@@ -108,7 +104,7 @@ One line per shipped unit/batch, newest first. Full specs in
 - 2026-07-18 · `omb/…-open-world-trust-fund` — #113 (Claude Fable 5). Trust fund + same-id receipts schedule; 92c/14r/44 standalone.
 - 2026-07-18 · `omb/…-capitol-preservation-commission` — #112 (Claude Fable 5). Dormant trust fund; 22c/1r/19 standalone.
 - 2026-07-18 · `omb/…-stennis-center` — #111 (Claude Fable 5). Trust fund, duplicate printed 1140 codes; 73c/12r/40 standalone.
-- 2026-07-18 · `omb/…-other-boards-commissions` — #110 (Claude Fable 5). Zero-relation consolidated account; 15c/0r/15 standalone. **Every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-other-boards-commissions` — #110 (Claude Fable 5). Zero-relation consolidated account; 15c/0r/15 standalone. **Every-10th audit GREEN** (Kimi, full 15/15 coverage; `AUDITS.md`).
 - 2026-07-18 · `omb/…-coil-fund` — #109 (Claude Fable 5). Payment account, 3050 row absent; 44c/3r/35 standalone.
 - 2026-07-18 · `omb/…-semiquincentennial-commission` — #108 (Claude Fable 5). Close-out commission, 4-source 3050 c1; 71c/12r/29 standalone.
 - 2026-07-18 · `omb/…-senate-preservation-fund` — #107 (Claude Fable 5). Gift trust fund, no obligations section, negative 1010 transfer; 27c/2r/21 standalone.

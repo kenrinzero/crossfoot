@@ -510,16 +510,71 @@ The transcription of `omb/budget-appendix-fy2027-leg-medpac-salaries-expenses` b
 
 ---
 
-## Spot-Audit: Unit 110 — Other Legislative Branch Boards and Commissions — PLACEHOLDER
+## Spot-Audit: Unit 110 — Other Legislative Branch Boards and Commissions (OMB FY2027 Legislative Branch)
 
-- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
-- **Transcriber:** Claude Fable 5 (commit `bddc4a3`)
-- **Table ID:** [omb/budget-appendix-fy2027-leg-other-boards-commissions](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F starts PDF page 36 (printed 48) bottom LEFT column, continues top RIGHT column (3100/3200 memos). Staged render: `scratchpad/boards-p36-render.png` (regenerate at 3x via pypdfium2 if absent).
-- **Shape:** 15 cells / 0 relations / 15 standalone; id `009-9911-0-1-999`; three columns (2025 actual / 2026 est. / 2027 est.).
-- **High-risk features the sample should exercise (a 15-cell unit warrants FULL-coverage verification, not a 10-cell sample — see the #80 precedent):**
-  - **Zero-relation unit** (same class as #91/#93): the audit's main job is confirming each standalone waiver is semantically forced — no Outlays row prints at all, so `3050` carries forward via `3000`/`3010` alone, single-source per column.
-  - The sparse column pattern: `0001`/`0900`/`1000`/`1930`/`3010` print ONLY in c1; `3000`/`3100` ONLY in c2/c3; `3050`/`3200` in all three.
-  - `4180`/`4190` print blank in ALL columns (omitted entirely) — confirm blank != zero handling.
-  - The `0900` label carries "(object class 25.1)" inline; the narrative lists the five consolidated sub-programs (International Conferences and Contingencies; House and Senate Expenses; Western Hemisphere Drug Policy Commission; Women's Suffrage Centennial Commission; Oliver Wendell Holmes Devise Fund).
-  - Within-page column flow (left col bottom → right col top), and the left column ABOVE this account is the separate COIL account `009-0145` — verify no cross-contamination.
+- **Audit Date:** 2026-07-18
+- **Auditor:** Kimi (different-agent rule satisfied; transcriber: Claude Fable 5, commit `bddc4a3`)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-other-boards-commissions](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json) (corpus #110)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F on PDF page 36 (printed page 48) bottom LEFT column, continuing top RIGHT column (3100/3200 memos, 4180/4190, narrative).
+- **Method:** Independent pypdfium2 re-render of PDF page 36 at 3x (auditor-generated `scratchpad/audit-110-p36-render.png` + crops A/B — NOT the transcriber's staged files), plus a pdfplumber positioned-word dump (`scratchpad/audit-110-p36-words.txt`) to confirm exact column assignment of every value. FULL-coverage verification of all 15 cells (sampling superseded per the #80 precedent).
+- **Status:** **GREEN** (all verification checks passed; 15/15 cells match the render)
+
+### 1. Metadata Verification
+- **Heading / Table Title:** "OTHER LEGISLATIVE BRANCH BOARDS AND COMMISSIONS — Program and Financing (in millions of dollars)"
+  - *Result:* **PASS** (matches the render verbatim; JSON `title` reconstructs it)
+- **Identification code:** `009-9911-0-1-999`
+  - *Result:* **PASS** (printed on the P&F header, left column)
+- **Period / Columns:** "2025 actual" / "2026 est." / "2027 est." (FY 2027 Budget Appendix)
+  - *Result:* **PASS**
+- **Units / Scale:** USD millions ("in millions of dollars")
+  - *Result:* **PASS**
+
+### 2. Layout, Row Labels, and Page-Flow Verification
+- **Within-page column flow:** LEFT column ends at `3050` (page bottom); RIGHT column top continues with "Memorandum (non-add) entries:" (`3100`/`3200`), then `4180`/`4190`, then the narrative. Exactly as the placeholder described.
+  - *Result:* **PASS**
+- **Rows (9):** 0001 Direct program activity; 0900 Total new obligations, unexpired accounts (object class 25.1); 1000 Unobligated balance brought forward, Oct 1; 1930 Total budgetary resources available; 3000 Unpaid obligations, brought forward, Oct 1; 3010 New obligations, unexpired accounts; 3050 Unpaid obligations, end of year; 3100 Obligated balance, start of year; 3200 Obligated balance, end of year.
+  - *Result:* **PASS** (all 9 labels match the render, including the inline "(object class 25.1)" on 0900; 3100/3200 print under a "Memorandum (non-add) entries:" header, matching their `why` strings)
+- **Non-contamination:** the LEFT column above this account is the separate COIL account `009-0145` (values 2/7/6/-9/-6/-7/11/13…); the RIGHT column below the narrative moves to Stennis `009-8275`. No COIL or Stennis value appears in the JSON (all 15 cells are `1`).
+  - *Result:* **PASS**
+- **Omission conventions:** dotted-blank cells are omitted, never zeroed. Sparse pattern confirmed on the render: `0001`/`0900`/`1000`/`1930`/`3010` print ONLY in c1; `3000`/`3100` ONLY in c2/c3; `3050`/`3200` in all three. `4180`/`4190` print dotted-blank in ALL columns and are correctly absent from the JSON (blank ≠ zero). No Outlays row (`3020`) prints at all.
+  - *Result:* **PASS**
+
+### 3. Full-Coverage Cell Verification (15/15 — exceeds the 10-cell minimum)
+
+Every populated cell re-read from the auditor's render; column positions machine-confirmed via the positioned text layer:
+
+| Cell ID | Row Label | Column | JSON Value | Render Value | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 0001 Direct program activity | 2025 actual | `1` | `1` | **PASS** |
+| `r2c1` | 0900 Total new obligations, unexpired accounts (object class 25.1) | 2025 actual | `1` | `1` | **PASS** |
+| `r3c1` | 1000 Unobligated balance brought forward, Oct 1 | 2025 actual | `1` | `1` | **PASS** |
+| `r4c1` | 1930 Total budgetary resources available | 2025 actual | `1` | `1` | **PASS** |
+| `r5c2` | 3000 Unpaid obligations, brought forward, Oct 1 | 2026 est. | `1` | `1` | **PASS** |
+| `r5c3` | 3000 Unpaid obligations, brought forward, Oct 1 | 2027 est. | `1` | `1` | **PASS** |
+| `r6c1` | 3010 New obligations, unexpired accounts | 2025 actual | `1` | `1` | **PASS** |
+| `r7c1` | 3050 Unpaid obligations, end of year | 2025 actual | `1` | `1` | **PASS** |
+| `r7c2` | 3050 Unpaid obligations, end of year | 2026 est. | `1` | `1` | **PASS** |
+| `r7c3` | 3050 Unpaid obligations, end of year | 2027 est. | `1` | `1` | **PASS** |
+| `r8c2` | 3100 Obligated balance, start of year | 2026 est. | `1` | `1` | **PASS** |
+| `r8c3` | 3100 Obligated balance, start of year | 2027 est. | `1` | `1` | **PASS** |
+| `r9c1` | 3200 Obligated balance, end of year | 2025 actual | `1` | `1` | **PASS** |
+| `r9c2` | 3200 Obligated balance, end of year | 2026 est. | `1` | `1` | **PASS** |
+| `r9c3` | 3200 Obligated balance, end of year | 2027 est. | `1` | `1` | **PASS** |
+
+**15/15 exact match, 0 missing, 0 extra.**
+
+### 4. Zero-Relation Semantics (the audit's main job for this unit class)
+- [x] Every candidate printed identity is single-source, so all 15 `standalone` waivers are semantically forced under schema `minItems: 2`: `0900` = `0001` alone; `1930` = `1000` alone (no budget-authority rows print); `3050` c1 = `3010` alone (`3000` blank that column, no Outlays row prints); `3050` c2/c3 = `3000` alone (`3010` blank); `3100` = `3000` and `3200` = `3050` as printed memorandum (non-add) entries (no uncollected-payments rows print); `4180`/`4190` blank in all columns (nothing to encode).
+- [x] Declaring 0 relations is honest, not under-declaration; matches the manifest floor `expected_relations_min: 0`.
+- [x] Narrative verified verbatim: "This presentation includes the following: International Conferences and Contingencies; House and Senate Expenses; Western Hemisphere Drug Policy Commission; Women's Suffrage Centennial Commission; and Oliver Wendell Holmes Devise Fund." — the five consolidated sub-programs named in `unit_note`.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json`
+- Output: `GREEN: tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json reconciles (0 warning(s))` (strict coverage default)
+- `uv run pytest`: 10 passed
+- *Result:* **PASS**
+
+### 6. Audit Conclusion
+The transcription of `omb/budget-appendix-fy2027-leg-other-boards-commissions` by Claude Fable 5 (`bddc4a3`) is clean and faithful to the rendered source. Metadata, the 3-column model, all 9 row labels, the within-page left→right column flow, the COIL/Stennis non-contamination boundaries, the blank ≠ zero omission conventions, and all 15 cell values match the page-36 render with zero discrepancies. The 0-relation declaration is semantically forced by the page. **GREEN.** Next every-10th different-agent audit lands at corpus **#120**.
+
+---
