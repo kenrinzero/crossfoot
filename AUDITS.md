@@ -507,3 +507,19 @@ Also confirmed: `99.9 c2 = 99.0 c2 + 99.5 c2` is exact (`14 + 1 = 15`); no non-d
 
 ### 5. Audit Conclusion
 The transcription of `omb/budget-appendix-fy2027-leg-medpac-salaries-expenses` by Claude Fable 5 (`02b57cf`) is clean and faithful to the source. Metadata, the 3-column model, all 30 row labels, two-column page discipline (no CSCE contamination), zero-suppressed net/rounding omissions, the no-`0900` reimbursable shape, the p32 Employment FTE line (35/36/37), and all 79 cell values (including the formal 10-cell high-risk sample) match the page 31–32 renders with zero discrepancies. `reconcile.py` is GREEN with 0 warnings (79 cells / 14 relations / 30 standalone). **GREEN.** Next every-10th different-agent audit lands at corpus **#110**.
+
+---
+
+## Spot-Audit: Unit 110 — Other Legislative Branch Boards and Commissions — PLACEHOLDER
+
+- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
+- **Transcriber:** Claude Fable 5 (commit `bddc4a3`)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-other-boards-commissions](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F starts PDF page 36 (printed 48) bottom LEFT column, continues top RIGHT column (3100/3200 memos). Staged render: `scratchpad/boards-p36-render.png` (regenerate at 3x via pypdfium2 if absent).
+- **Shape:** 15 cells / 0 relations / 15 standalone; id `009-9911-0-1-999`; three columns (2025 actual / 2026 est. / 2027 est.).
+- **High-risk features the sample should exercise (a 15-cell unit warrants FULL-coverage verification, not a 10-cell sample — see the #80 precedent):**
+  - **Zero-relation unit** (same class as #91/#93): the audit's main job is confirming each standalone waiver is semantically forced — no Outlays row prints at all, so `3050` carries forward via `3000`/`3010` alone, single-source per column.
+  - The sparse column pattern: `0001`/`0900`/`1000`/`1930`/`3010` print ONLY in c1; `3000`/`3100` ONLY in c2/c3; `3050`/`3200` in all three.
+  - `4180`/`4190` print blank in ALL columns (omitted entirely) — confirm blank != zero handling.
+  - The `0900` label carries "(object class 25.1)" inline; the narrative lists the five consolidated sub-programs (International Conferences and Contingencies; House and Senate Expenses; Western Hemisphere Drug Policy Commission; Women's Suffrage Centennial Commission; Oliver Wendell Holmes Devise Fund).
+  - Within-page column flow (left col bottom → right col top), and the left column ABOVE this account is the separate COIL account `009-0145` — verify no cross-contamination.
