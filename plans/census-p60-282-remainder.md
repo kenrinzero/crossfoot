@@ -293,4 +293,4 @@ Expected: tests pass and package metadata remains unchanged unless repository hi
 - [x] **#198:** HISPANIC (ANY RACE) 2001-1989, 13 rows / 143 cells.
 - [x] **#199:** HISPANIC (ANY RACE) 1988-1976, 13 rows / 143 cells.
 - [x] **#200:** HISPANIC (ANY RACE) 1975-1972, 4 rows / 44 cells; group and Table A-2 complete.
-- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #200 and records it in `AUDITS.md` before a new family ships.
+- [x] **Audit gate:** Claude Fable 5 performed the render-anchored full-value different-agent audit of #200 (44/44 exact, reversed-text-layer cross-check, sums recomputed, family/corpus closure verified) and recorded GREEN in `AUDITS.md`, unblocking new-family work. Plan complete.

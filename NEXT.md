@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2); new-family work is unblocked and the next every-10th audit fires at **#210**.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -126,13 +126,12 @@ audited and GREEN by Antigravity** (unblocking #171).
   unit; median/mean columns stay outside this deliberately scoped
   distribution block.
 
-  **AUDIT GATE — TABLE A-2 COMPLETE:** #191–200 are **SHIPPED** and passed
-  independent pypdf comparison (1,144/1,144 cells exact), strict reconcile,
-  and the full corpus gate. A different agent must render-anchor and record
-  the #200 audit GREEN in `AUDITS.md` before a new family ships. Unit #200 is
-  `census-p60/2023-income-a2-hispanic-any-race-1975-1972` (4 rows / 44 cells),
-  the final source rows of A-2. After GREEN, refresh the queue for the next
-  Census appendix table or one of the existing D1/web vendoring options.
+  **TABLE A-2 COMPLETE AND AUDITED:** #191–200 shipped with independent
+  pypdf comparison (1,144/1,144 cells exact), strict reconcile, and the
+  full corpus gate. The #200 different-agent audit is **GREEN** (Claude
+  Fable 5, 2026-07-18, render-anchored full-value; `AUDITS.md`) —
+  `plans/census-p60-282-remainder.md` is complete. Next every-10th audit
+  fires at **#210**.
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
   DESIGN §7 — magic-byte check, soft-404 caution):**
@@ -168,7 +167,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1975-1972` — #200 (Codex). 44c/8r/4 standalone; strict-default GREEN; independent pypdf source comparison 44/44 exact; HISPANIC (ANY RACE) and Table A-2 complete. **Different-agent audit DUE; new-family work blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1975-1972` — #200 (Codex). 44c/8r/4 standalone; strict-default GREEN; independent pypdf source comparison 44/44 exact; HISPANIC (ANY RACE) and Table A-2 complete. **Every-10th audit GREEN** (Claude Fable 5, render-anchored 44/44; `AUDITS.md`); new-family work unblocked.
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1988-1976` — #199 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2001-1989` — #198 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2012-2002` — #197 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact.

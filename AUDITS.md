@@ -984,21 +984,37 @@ Codex's transcription of `census-p60/2023-income-a2-american-indian-alaska-nativ
 
 ---
 
-## Spot-Audit Due: Unit 200 — Census P60-282 Table A-2 HISPANIC (ANY RACE) 1975-1972
+## Spot-Audit: Unit 200 — Census P60-282 Table A-2 HISPANIC (ANY RACE) 1975-1972
 
-- **Status:** **DUE — new-family work is blocked pending a GREEN different-agent audit.**
-- **Transcriber:** Codex (`codex/census-p60-sizing`)
+- **Audit Date:** 2026-07-18
+- **Auditor:** Claude Fable 5 (different agent — transcriber was Codex)
+- **Transcriber:** Codex (branch `codex/census-p60-sizing`, audited head `d402522`)
 - **Table ID:** `census-p60/2023-income-a2-hispanic-any-race-1975-1972`
-- **Source Document:** `sources/census/p60-282.pdf`, PDF page 35 (printed page 29), final four HISPANIC (ANY RACE) rows and the end of Table A-2
-- **Expected shape:** 4 rows / 44 cells / 8 relations / 4 standalone household counts
-- **Pre-audit ship evidence:** independent pypdf comparison 44/44 exact; strict reconcile GREEN with 0 warnings; full-corpus sweep and pytest must be re-run against the audited head.
+- **Source Document:** `sources/census/p60-282.pdf`, PDF page 35 (printed page 29)
+- **Status:** **GREEN** (all required checks passed; every checklist item verified)
 
-### Required non-arithmetic checks
+### 1. Method
+Render-anchored: PDF page 35 rendered via pypdfium2 at scale 3.0 (full page + 2x zoomed crop of the final rows) and read directly. Independent text-layer cross-check via pdfplumber `extract_words` with per-token character reversal (this page's known text-layer quirk: every token is stored reversed, e.g. `227,2` → `2,722`), grouping tokens into printed-row bands by x-position with footnote-superscript-aware year anchors (1975²¹, 1974²¹·²², 1972²³ carry superscripts that break naive label matching; 1973 has none).
 
-- [ ] Render-anchor the continuation on PDF page 35 and verify that 1975-1972 are the final four printed rows before "Footnotes provided on next page."
-- [ ] Verify all four row labels and all 44 values, including household counts and the first/last income brackets.
-- [ ] Confirm median and mean columns are deliberately outside this percent-distribution slice and that no value-bearing row or arithmetic-bearing percentage cell is missing.
-- [ ] Recompute all nine-bracket percentage sums. Rows 1974 and 1972 each require exact `tol: "0.1"` with the report's disclosure-protection rounding rationale on both relations; 1975 and 1973 close exactly.
-- [ ] Confirm this unit closes the 54-row HISPANIC (ANY RACE) group and the 459-row / 41-unit Table A-2 transcription without duplicating the legacy-named seed.
-- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a2-hispanic-any-race-1975-1972.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
-- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before a new family ships.
+### 2. Render-anchor and structure
+- The final four printed rows of Table A-2 on PDF page 35 are `1975²¹`, `1974²¹·²²`, `1973`, `1972²³`, immediately followed by "Footnotes provided on next page." — **PASS**.
+- Row labels match the unit's rows 1–4 exactly (footnote superscripts are label apparatus, not label text) — **PASS**.
+
+### 3. Value verification (44/44)
+- All 44 values verified against the page render and independently against the reversed text layer, each value found in its correct row band: household counts `2,948 / 2,897 / 2,722 / 2,655` (standalone, correct `why`), Totals `100`, and all four 9-bracket distributions from Under $15,000 through $200,000 and over — **44/44 exact, PASS**.
+- Median/mean estimate and MOE columns (e.g. 1972: 46,970 / 1,510 / 53,990 / 1,510) are present in the source bands and deliberately outside this percent-distribution slice per the unit_note; no value-bearing row or arithmetic-bearing percentage cell is missing — **PASS**.
+
+### 4. Relation / rounding honesty
+- 8 relations: 4 row-wise sums (cols 3–11 → col 2) + 4 percent-closures. Recomputed by hand: 1975 → 100.0 (exact), 1974 → 100.1 (`tol: "0.1"` on both relations), 1973 → 100.0 (exact), 1972 → 99.9 (`tol: "0.1"` on both relations) — exactly the declared tolerance pattern, each carrying the report's disclosure-protection rounding rationale. No invented slack, no under-declaration — **PASS**.
+
+### 5. Family and corpus closure
+- HISPANIC (ANY RACE) group bands are contiguous and non-overlapping: 2023–2013 (13) + 2012–2002 (11) + 2001–1989 (13) + 1988–1976 (13) + 1975–1972 (4) = **54 rows** — closes the group — **PASS**.
+- `tables/census-p60/` holds exactly **41 units**; the legacy-named seed (`2023-income-a1`, documented as the A-2 ALL RACES 2023–2017 slice) is not duplicated by any A-2 unit — Table A-2 is source-complete at 459 rows — **PASS**.
+
+### 6. Reconcile gate (re-run at audited head `d402522`)
+- `uv run python reconcile.py tables/census-p60/2023-income-a2-hispanic-any-race-1975-1972.cells.json` → `GREEN … (0 warning(s))` — **PASS**
+- `uv run pytest -q` → 10 passed — **PASS**
+- Full-corpus strict sweep → **200/200 GREEN** — **PASS**
+
+### 7. Audit Conclusion
+Codex's transcription of `census-p60/2023-income-a2-hispanic-any-race-1975-1972` is value-perfect, complete, and faithful to the Census P60-282 report: all 44 values exact, labels and structure correct, tolerances honest to the printed sums, and the unit cleanly closes both the HISPANIC (ANY RACE) group and the 41-unit Table A-2 transcription. **GREEN.** New-family work is unblocked; next every-10th different-agent audit: corpus **#210**.
