@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–93, all reconcile GREEN under strict
+**Completed so far — corpus #1–95, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -50,7 +50,7 @@ control-plane project log):
 - **OMB FY2027 Legislative Branch** — *in progress*: CBO #75; Library of
   Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
   Capitol Police family 4/4 (#89–92); Office of Congressional Workplace
-  Rights #93.
+  Rights #93; GAO 2/2 (#94–95).
 
 Every-10th different-agent spot-audits GREEN through #90. Unit #90
 (Capitol Police General Expenses) was independently audited GREEN by Codex
@@ -60,49 +60,11 @@ language, out of scope); the chapter has ≈40–45 real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **GAO Salaries and Expenses (id `005-0107-0-1-801`, PDF pages 28-29 /
-  printed pp40-41) — SIZED + SPLIT DECIDED 2026-07-18 (Claude Opus 4.8,
-  render-verified). Two cap-fit units, split BY SCHEDULE. Ready for D2
-  execution:**
-  - Full-account size confirmed **195 cells** (the earlier "200+"
-    estimate was right — genuinely over the ~140 ceiling).
-  - ⚠ **The earlier "split by the five GOAL program activities /
-    `-bureaus`/`-departmental`" idea was checked and REJECTED.** The 5
-    GOALs (0001–0005) are just **leaf rows** feeding `0799 Total direct
-    obligations`; they have no per-GOAL budgetary-resources /
-    obligated-balance / object-classification sub-blocks, so there is
-    nothing to peel into a bureaus/departmental structure (unlike the
-    Treasury Table-5 bureaus, which each carried a full subtotal block).
-  - **Correct split — by schedule** (each schedule already prints its own
-    `005-0107` header, so the boundary is clean and no cross-unit
-    re-anchoring is needed):
-    1. `omb/budget-appendix-fy2027-leg-gao-salaries-pf` (**~129 cells**,
-       D2) — Program and Financing: obligations-by-program-activity
-       (`0799 = Σ0001..0005`, `0809 = 0801+0803+0805`, `0900 = 0799 +
-       0899`), budgetary resources (`1070 = 1000+1021+1033`, `1750`,
-       `1900`, `1930`), change-in-obligated-balance (`3050` 6-source,
-       `3090`, `3100 = 3000+3060`, `3200 = 3050+3090`), and
-       budget-authority-net (`4040 = 4030+4033`, `4060`, `4070`, `4080`,
-       `4190`). Has offsetting collections + uncollected payments — same
-       machinery as the shipped Capitol Police `-general-expenses` (#90);
-       reuse that unit as the template. Note `1001` is a non-add memo
-       subset of `1000` (do NOT feed it into `1070`).
-    2. `omb/budget-appendix-fy2027-leg-gao-salaries-objclass` (**~66
-       cells**, D2) — Object Classification + Employment Summary:
-       `11.9 = 11.1+11.3+11.5`, `99.0 Direct = Σ(object classes, using
-       11.9 not its parts)`, `99.9 = 99.0 Direct + 99.0 Reimbursable`;
-       the two `1001`/`2001` FTE lines standalone.
-  - Cross-schedule consistency (optional sanity, not a dependency): each
-    unit re-reads the shared totals independently — `0900`≡`99.9`
-    (926/903/910), `0799`≡`99.0 Direct` (825/812/860), `0899`≡`99.0
-    Reimbursable` (101/91/50).
-  - **Harness caution:** PDF page 29 is a TWO-COLUMN page — GAO's
-    net-section tail + Object Classification + Employment are the LEFT
-    column; the RIGHT column is the already-shipped US Tax Court Salaries
-    (`023-0100`, #86). Don't cross-contaminate. This PDF's text layer
-    decodes cleanly (no `(cid:NN)` remap), but render-verify per the
-    standard discipline. Renders staged at `scratchpad/gao-p28-render.png`
-    + `gao-p29-render.png`.
+- **GAO complete (2/2, #94–95, 2026-07-18).** Cross-schedule sanity
+  verified across the two units at ship time: `0900`≡`99.9`
+  (926/903/910), `0799`≡`99.0 Direct` (825/812/860), `0899`≡`99.0
+  Reimbursable` (101/91/50) — each unit read its own values from the
+  page independently.
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
@@ -120,6 +82,8 @@ language, out of scope); the chapter has ≈40–45 real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-gao-salaries-objclass` — #95 (Claude Fable 5). ObjClass + Employment; 66c/9r/6 standalone. **GAO complete, 2/2 (#94–95); account 005-0107 fully transcribed (195 cells).**
+- 2026-07-18 · `omb/…-gao-salaries-pf` — #94 (Claude Fable 5). P&F with offsetting collections + uncollected payments; 129c/39r/16 standalone; spans p28 right col → p29 left col.
 - 2026-07-18 · `omb/…-ocwr-salaries-expenses` — #93 (Codex). 27c/0r/27 standalone; every equality is single-source under `minItems: 2`.
 - 2026-07-18 · `omb/…-capitol-police-mutual-aid` — #92 (Codex). 43c/5r/26 standalone. **Capitol Police family complete, 4/4 (#89–92).**
 - 2026-07-18 · `omb/…-capitol-police-security-enhancements` — #91 (Codex). 9c/0r/9 standalone; degenerate one-source schedule.
