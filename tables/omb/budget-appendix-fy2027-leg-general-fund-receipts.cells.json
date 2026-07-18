@@ -1,0 +1,54 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-general-fund-receipts",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "general-fund-receipt-accounts",
+    "page": 37,
+    "title": "Legislative Branch - General Fund Receipt Accounts",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. The Legislative Branch chapter's closing GENERAL FUND RECEIPT ACCOUNTS table, PDF page 37 (printed 49) bottom right - a two-row offsetting-receipts listing with no identification-code header (the account row carries its own code 001-322000). The total row equals the sole detail row single-source under schema minItems 2, so both cells are standalone. 2026/2027 print blank (omitted per blank != zero). This closes the chapter's transcribable content: pp38-40 are General Provisions (pure legal text, out of scope).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "001-322000 All Other General Fund Proprietary Receipts Including Budget Clearing Accounts"
+    },
+    {
+      "index": 2,
+      "label": "General Fund Offsetting receipts from the public"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source into the General Fund offsetting-receipts total (sole detail row); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Single-source total (equals the sole detail row 001-322000); schema minItems 2 forbids single-source sum"
+    }
+  ],
+  "relations": []
+}
