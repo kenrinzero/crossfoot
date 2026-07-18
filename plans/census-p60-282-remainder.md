@@ -191,18 +191,18 @@ Expected: one commit containing only the plan, routing changes, and corpus #161.
 - Consumes: verified corpus #161 state.
 - Produces: a current repository status section without changing package metadata unless history proves the package version tracks corpus milestones.
 
-- [ ] **Step 1: Replace the stale 25-unit/Table-5 status in `README.md` with the verified 161-unit state and current Census dispatch.**
+- [x] **Step 1: Replace the stale 25-unit/Table-5 status in `README.md` with the verified 161-unit state and current Census dispatch.**
 
-- [ ] **Step 2: Inspect `git log -p -- pyproject.toml`; retain `version = "0.0.1"` if it has always represented package metadata independently of the Atelier milestone version.**
+- [x] **Step 2: Inspect `git log -p -- pyproject.toml`; retain `version = "0.0.1"` because repository history shows it has represented package metadata independently of the Atelier milestone version since the seed.**
 
-- [ ] **Step 3: Re-run `uv run pytest -q`, `git diff --check`, and commit the documentation-only change separately.**
+- [x] **Step 3: Re-run `uv run pytest -q`, `git diff --check`, and commit the documentation-only change separately.**
 
 Run:
 
 ```powershell
 uv run pytest -q
 git diff --check
-git add README.md
+git add README.md plans/census-p60-282-remainder.md
 git commit -m "docs: refresh Crossfoot corpus status"
 ```
 
