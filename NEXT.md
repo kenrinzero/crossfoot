@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–88, all reconcile GREEN under strict
+**Completed so far — corpus #1–90, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -51,10 +51,9 @@ control-plane project log):
   Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
   Capitol Police 2/4 (Salaries #89, General Expenses #90).
 
-Every-10th different-agent spot-audits GREEN through #80. **Unit #90
-(Capitol Police General Expenses) audit is now DUE — a DIFFERENT agent
-than the transcriber (Claude Opus 4.8) must do it; placeholder in
-`AUDITS.md`.** Next audit after that lands at #100. In the OMB chapter,
+Every-10th different-agent spot-audits GREEN through #90. Unit #90
+(Capitol Police General Expenses) was independently audited GREEN by Codex
+in `AUDITS.md`. Next audit lands at #100. In the OMB chapter,
 Senate + House (pp1–4) carry **zero** P&F schedules (pure appropriations
 language, out of scope); the chapter has ≈40–45 real accounts.
 
@@ -114,7 +113,7 @@ language, out of scope); the chapter has ≈40–45 real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `omb/…-capitol-police-general-expenses` — #90 (Claude Opus 4.8). Offsetting collections + uncollected payments; 106c/25r/32 standalone. **⚠ every-10th audit DUE — different agent (placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-capitol-police-general-expenses` — #90 (Claude Opus 4.8). Offsetting collections + uncollected payments; 106c/25r/32 standalone. **Every-10th audit GREEN** (Codex, `AUDITS.md`).
 - 2026-07-18 · `omb/…-capitol-police-salaries` — #89 (Claude Opus 4.8). Clean discretionary account; 66c/12r/26 standalone.
 - 2026-07-18 · `omb/…-tax-court-survivors-annuity` — #88 (Claude Opus 4.8). Trust Fund combined receipts+P&F; 73c/12r/45 standalone. **US Tax Court family complete, 3/3 (#86–88).**
 - 2026-07-18 · `omb/…-tax-court-fees` — #87 (Claude Opus 4.7). Combined receipts+P&F; 30c/3r/24 standalone.
