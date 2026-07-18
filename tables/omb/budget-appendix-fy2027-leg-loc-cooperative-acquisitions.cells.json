@@ -1,0 +1,672 @@
+{
+  "table_id": "budget-appendix-fy2027-leg-loc-cooperative-acquisitions",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "Library of Congress - Cooperative Acquisitions Program Revolving Fund",
+    "page": 21,
+    "title": "Library of Congress - Cooperative Acquisitions Program Revolving Fund",
+    "period": "FY 2027"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0801 Cooperative Acquisitions Program"
+    },
+    {
+      "index": 2,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 3,
+      "label": "1700 Collected"
+    },
+    {
+      "index": 4,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 5,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 6,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 7,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 8,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 9,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 10,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 11,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 12,
+      "label": "4033 Non-Federal sources"
+    },
+    {
+      "index": 13,
+      "label": "4040 Offsets against gross budget authority and outlays (total)"
+    },
+    {
+      "index": 14,
+      "label": "11.1 Personnel compensation: Full-time permanent"
+    },
+    {
+      "index": 15,
+      "label": "22.0 Transportation of things"
+    },
+    {
+      "index": 16,
+      "label": "23.3 Communications, utilities, and miscellaneous charges"
+    },
+    {
+      "index": 17,
+      "label": "25.3 Other goods and services from Federal sources"
+    },
+    {
+      "index": 18,
+      "label": "31.0 Equipment"
+    },
+    {
+      "index": 19,
+      "label": "99.0 Reimbursable obligations"
+    },
+    {
+      "index": 20,
+      "label": "99.5 Adjustment for rounding"
+    },
+    {
+      "index": 21,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 22,
+      "label": "2001 Reimbursable civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "13",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "10",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "20",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "20",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "7",
+      "role": "standalone",
+      "why": "Memorandum entry, non-add"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "7",
+      "role": "standalone",
+      "why": "Memorandum entry, non-add"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Memorandum entry, non-add"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source, equals 0801 exactly; no unpaid-obligations carryover printed (3050 omitted)"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "Single-source, equals 0801 exactly; no unpaid-obligations carryover printed (3050 omitted)"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "13",
+      "role": "standalone",
+      "why": "Single-source, equals 0801 exactly; no unpaid-obligations carryover printed (3050 omitted)"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source outlay figure; no unpaid-obligations roll-forward printed for this account (3050 omitted)"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source outlay figure; no unpaid-obligations roll-forward printed for this account (3050 omitted)"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source outlay figure; no unpaid-obligations roll-forward printed for this account (3050 omitted)"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source, equals 1700 Collected exactly"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "Single-source, equals 1700 Collected exactly"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "13",
+      "role": "standalone",
+      "why": "Single-source, equals 1700 Collected exactly"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source this column; no discretionary-balance outlays (4011) in 2025 actual"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "12",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source this column; no discretionary-balance outlays (4011) in 2025 actual"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source Non-Federal offset; no Federal-source (4030) offset line for this account"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source Non-Federal offset; no Federal-source (4030) offset line for this account"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source Non-Federal offset; no Federal-source (4030) offset line for this account"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source, equals 4033 Non-Federal sources exactly"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source, equals 4033 Non-Federal sources exactly"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Single-source, equals 4033 Non-Federal sources exactly"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "2",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "11",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "11",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "3",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "6",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r4c1",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c1",
+      "sources": [
+        "r19c1",
+        "r20c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c1",
+      "sources": [
+        "r15c1",
+        "r18c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r4c2",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c2",
+      "sources": [
+        "r19c2",
+        "r20c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c2",
+      "sources": [
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2",
+        "r18c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r4c3",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c3",
+      "sources": [
+        "r19c3",
+        "r20c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c3",
+      "sources": [
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r11c2",
+      "sources": [
+        "r9c2",
+        "r10c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r11c3",
+      "sources": [
+        "r9c3",
+        "r10c3"
+      ],
+      "type": "sum"
+    }
+  ]
+}
