@@ -1,3 +1,17 @@
+<!--
+  This is a repo-internal, informal session digest — optional, occasionally
+  updated, not part of the documented workflow (AGENTS.md doesn't reference
+  it). It is NOT the project's authoritative log. That's the atelier
+  control-plane project log at
+  .atelier\projects\coding\crossfoot\log.md — canonical, updated every
+  session via `katflow clock-out`, "the detail" per CHARTER § Logging
+  rules. Renamed from log.md to CHANGELOG.md on 2026-07-18 (Claude Sonnet
+  5, at Kenrin's suggestion) after a same-named-different-file mixup: an
+  agent read the control-plane log.md, assumed it was this file, and
+  nearly reported false data loss when this file's actual (much shorter,
+  lagging) content didn't match.
+-->
+
 - 2026-07-17  audits #50/#60 + FEC/OMB vendoring (D1, Claude Fable 5) - Spot-audits GREEN: hhs-cms + treasury-irs, full-row token verification (all 154 cells) + render checks; batch-450fb91 numbering tie-break recorded in AUDITS.md. Vendored + sized two new families: fec/2024-presidential-general (9pp, starter = p1 electoral votes) and omb/budget-appendix FY2027 Legislative Branch (40pp, starter = CBO account); both content-gated, quirks ledgered, starters queued in NEXT.md.
 
 
