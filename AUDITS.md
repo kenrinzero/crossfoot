@@ -1271,3 +1271,23 @@ Stratified sample to check means, shares, inequality indices, Gini, and redesign
 
 ### 6. Audit Conclusion
 Grok's transcription of `census-p60/2023-income-a4b-2014-2006` is value-perfect, complete, and faithful to Census Table A-4b. All 180 values are exact, row labels and columns match the source exactly, and all quintile-share closures reconcile with the correct observed rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#250**.
+
+---
+
+## Spot-Audit Due: Unit 250 — Census P60-282 Table A-5 1975–1967 band
+
+- **Status:** **DUE — corpus #251+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Grok (main; batch #241–250, 2026-07-19)
+- **Table ID:** `census-p60/2023-income-a5-1975-1967`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF page 43 (Table A-5 landscape), years 1975 through 1967
+- **Expected shape:** 9 rows / 126 cells / 9 percent-closure relations / 81 standalone
+- **Pre-audit ship evidence:** A-4b remainder completed (full multiset vs source); A-5 transposed from landscape measure×year layout with x-aligned year headers (incl. dual series); share closures green; full sweep 250/250; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor PDF p42–43; verify year labels (incl. dual series) and 14 measure columns (5 shares + 3 ratios + Gini/MLD/Theil + 3 Atkinson).
+- [ ] Verify all 126 values for the 1975–1967 band; recompute the 9 quintile-share percent-closures.
+- [ ] Spot-check batch: one earlier A-5 band (#245–249) and one A-4b remainder unit (#241–244) against source.
+- [ ] Run reconcile, pytest, full-corpus sweep; record results.
+- [ ] Replace placeholder with auditor identity, method, evidence, GREEN/RED before #251 ships.
+

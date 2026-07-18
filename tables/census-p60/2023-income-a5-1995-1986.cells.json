@@ -1,0 +1,1343 @@
+{
+  "table_id": "census-p60/2023-income-a5-1995-1986",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-5. Selected Measures of Equivalence-Adjusted Income Dispersion: 1967 to 2023",
+    "page": 42,
+    "title": "Years 1995 through 1986 (10 year-rows \u00d7 shares/ratios/indices)",
+    "period": "1995 to 1986"
+  },
+  "unit_note": "Equivalence-adjusted income dispersion (source is measure\u00d7year landscape; transcribed as year-rows). Quintile shares (cols 1\u20135) carry percent-closure to 100 with source-authorized rounding tolerances; ratios and inequality indices standalone.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Share of income / Lowest quintile"
+    },
+    {
+      "index": 2,
+      "label": "Share of income / Second quintile"
+    },
+    {
+      "index": 3,
+      "label": "Share of income / Third quintile"
+    },
+    {
+      "index": 4,
+      "label": "Share of income / Fourth quintile"
+    },
+    {
+      "index": 5,
+      "label": "Share of income / Highest quintile"
+    },
+    {
+      "index": 6,
+      "label": "90th/10th"
+    },
+    {
+      "index": 7,
+      "label": "90th/50th"
+    },
+    {
+      "index": 8,
+      "label": "50th/10th"
+    },
+    {
+      "index": 9,
+      "label": "Gini index of income inequality"
+    },
+    {
+      "index": 10,
+      "label": "Mean logarithmic deviation of income"
+    },
+    {
+      "index": 11,
+      "label": "Theil index"
+    },
+    {
+      "index": 12,
+      "label": "Atkinson e=0.25"
+    },
+    {
+      "index": 13,
+      "label": "Atkinson e=0.50"
+    },
+    {
+      "index": 14,
+      "label": "Atkinson e=0.75"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1995"
+    },
+    {
+      "index": 2,
+      "label": "1994"
+    },
+    {
+      "index": 3,
+      "label": "1993"
+    },
+    {
+      "index": 4,
+      "label": "1992"
+    },
+    {
+      "index": 5,
+      "label": "1991"
+    },
+    {
+      "index": 6,
+      "label": "1990"
+    },
+    {
+      "index": 7,
+      "label": "1989"
+    },
+    {
+      "index": 8,
+      "label": "1988"
+    },
+    {
+      "index": 9,
+      "label": "1987"
+    },
+    {
+      "index": 10,
+      "label": "1986"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "4.1",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "9.9",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "15.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "22.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "47.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "8.59",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "2.42",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "3.55",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "0.433",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "0.463",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "0.356",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "0.085",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "0.166",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r1c14",
+      "row": 1,
+      "col": 14,
+      "value": "0.251",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "4.0",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "9.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "15.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "22.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "47.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "8.95",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "2.43",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "3.68",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "0.436",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "0.474",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "0.363",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c12",
+      "row": 2,
+      "col": 12,
+      "value": "0.087",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "0.169",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r2c14",
+      "row": 2,
+      "col": 14,
+      "value": "0.256",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "3.9",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "9.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "15.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "23.0",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "47.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "9.08",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "2.43",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "3.73",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "0.436",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "0.472",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "0.363",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c12",
+      "row": 3,
+      "col": 12,
+      "value": "0.087",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "0.169",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r3c14",
+      "row": 3,
+      "col": 14,
+      "value": "0.256",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "4.2",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "10.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "16.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "23.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "45.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "8.60",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "2.34",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "3.68",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "0.412",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "0.416",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "0.298",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c12",
+      "row": 4,
+      "col": 12,
+      "value": "0.074",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "0.149",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r4c14",
+      "row": 4,
+      "col": 14,
+      "value": "0.230",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "4.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "10.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "16.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "23.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "45.0",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "8.30",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "2.31",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "3.59",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "0.406",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "0.398",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "0.289",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c12",
+      "row": 5,
+      "col": 12,
+      "value": "0.071",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "0.144",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r5c14",
+      "row": 5,
+      "col": 14,
+      "value": "0.222",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "4.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "10.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "16.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "23.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "45.1",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "8.07",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "2.31",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "3.49",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "0.406",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "0.386",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "0.292",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c12",
+      "row": 6,
+      "col": 12,
+      "value": "0.072",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "0.143",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r6c14",
+      "row": 6,
+      "col": 14,
+      "value": "0.220",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "4.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "10.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "16.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "23.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "45.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "7.93",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "2.31",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "3.43",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "0.408",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "0.390",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "0.297",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c12",
+      "row": 7,
+      "col": 12,
+      "value": "0.073",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "0.145",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r7c14",
+      "row": 7,
+      "col": 14,
+      "value": "0.222",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "4.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "10.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "16.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "23.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "44.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "8.06",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "2.28",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "3.53",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "0.402",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "0.379",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "0.285",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c12",
+      "row": 8,
+      "col": 12,
+      "value": "0.070",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "0.141",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r8c14",
+      "row": 8,
+      "col": 14,
+      "value": "0.216",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "4.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "10.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "16.7",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "23.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "44.4",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "8.07",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "2.25",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "3.58",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "0.399",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "0.379",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "0.280",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c12",
+      "row": 9,
+      "col": 12,
+      "value": "0.069",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "0.139",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r9c14",
+      "row": 9,
+      "col": 14,
+      "value": "0.215",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4.5",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "10.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "16.6",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "23.8",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "44.3",
+      "role": "leaf",
+      "why": "Share of aggregate income by quintile; participates in the row percent-closure."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "7.80",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "2.27",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "3.44",
+      "role": "standalone",
+      "why": "Printed percentile ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "0.397",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "0.375",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "0.276",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c12",
+      "row": 10,
+      "col": 12,
+      "value": "0.068",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "0.137",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    },
+    {
+      "id": "r10c14",
+      "row": 10,
+      "col": 14,
+      "value": "0.212",
+      "role": "standalone",
+      "why": "Inequality index / summary measure; outside sum/percent-closure vocabulary."
+    }
+  ],
+  "relations": [
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r1c5"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r2c5"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r3c5"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4",
+        "r4c5"
+      ],
+      "tol": "0.1",
+      "why": "Printed quintile shares are rounded; source footnote family on rounded components authorizes the observed gap from 100."
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r5c1",
+        "r5c2",
+        "r5c3",
+        "r5c4",
+        "r5c5"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r6c1",
+        "r6c2",
+        "r6c3",
+        "r6c4",
+        "r6c5"
+      ],
+      "tol": "0.1",
+      "why": "Printed quintile shares are rounded; source footnote family on rounded components authorizes the observed gap from 100."
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r7c1",
+        "r7c2",
+        "r7c3",
+        "r7c4",
+        "r7c5"
+      ],
+      "tol": "0.1",
+      "why": "Printed quintile shares are rounded; source footnote family on rounded components authorizes the observed gap from 100."
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r8c1",
+        "r8c2",
+        "r8c3",
+        "r8c4",
+        "r8c5"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r9c1",
+        "r9c2",
+        "r9c3",
+        "r9c4",
+        "r9c5"
+      ],
+      "tol": "0.1",
+      "why": "Printed quintile shares are rounded; source footnote family on rounded components authorizes the observed gap from 100."
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r10c1",
+        "r10c2",
+        "r10c3",
+        "r10c4",
+        "r10c5"
+      ]
+    }
+  ]
+}
