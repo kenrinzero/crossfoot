@@ -193,11 +193,67 @@ applicable columns handled as usual (standalone + total-row net identity).
   (commit `82f81f2`, values untouched, role+why corrected only). All
   85 corpus units now reconcile GREEN.
 
-- **OMB chapter beyond LoC** stays unsized, operator's call on
-  sequencing: Architect of the Capitol (~14-15 accounts, pp8-16, the
-  largest remaining department), Capitol Police (~4-5, pp5-6), GPO (3,
-  pp25-28), GAO (1, pp28-29), US Tax Court (3, pp29-30), Legislative
-  Branch Boards and Commissions (~8-10 tiny commissions, pp31-37).
+- **NEW QUEUE — US Tax Court family (pp29-30, PDF → vision,
+  render-anchored; page/id-anchored but not yet render-verified
+  cell-by-cell — sizes are text-layer line counts, verify on pickup),
+  all 3 accounts, D2 each:**
+  1. `omb/budget-appendix-fy2027-leg-tax-court-salaries` (id
+     `023-0100-0-1-752`, pp29-30) — Salaries and Expenses, the main
+     account. ~31 P&F rows (0001, 1000/1001/1021/1070, 1100/1900/1930/
+     1941, 3000/3010/3020/3040/3050/3100/3200, 4000/4010/4011/4020/
+     4030/4033/4040/4050/4053/4060/4070/4080/4101/4180/4190) + ~14
+     Object Classification rows (11.1/12.1/21.0/23.1/23.3/25.1/25.2/
+     25.3/25.7/26.0/31.0/99.0×2/99.9, page 30) + Employment (1001
+     only). Est. ~130-150 cells — best starter, cleanest schedule,
+     single program activity line.
+  2. `omb/budget-appendix-fy2027-leg-tax-court-fees` (id
+     `023-5633-0-2-752`, page 30) — U.S. Tax Court Fees. Small
+     receipts-style account (Special and Trust Fund Receipts: 0100/
+     1110/2000/2101/5099; companion P&F: 1000/1201/1900/1930/1941/
+     4090/4180/4190). Est. ~20-25 cells — smallest of the three,
+     combined-schedule pattern like the shipped LoC `-gift-trust` and
+     `-payments-copyright` units.
+  3. `omb/budget-appendix-fy2027-leg-tax-court-survivors-annuity` (id
+     `023-8115-0-7-602`, page 30, Trust Funds) — Tax Court Judges
+     Survivors Annuity Fund. Special and Trust Fund Receipts (0100/
+     0198/0199/1110/1140/1199/1999/2000/2101/5098/5099) + companion
+     P&F (0001/0900/1000/1201/1930/1941/3010/3020/4090/4100/4101/4110/
+     4180/4190 + memo 5000/5001). Est. ~60-70 cells.
+
+- **NEW QUEUE — GAO Salaries and Expenses (page 28-29, id
+  `005-0107-0-1-801`) — LARGE, likely needs a split, do NOT attempt
+  as one cap-fit unit without re-assessing:** single account but ~53
+  P&F rows alone (five program-activity goals 0001-0005 with their
+  own 0799/0801/0803/0805/0809/0899/0900 subtotal structure, plus the
+  usual budgetary-resources/change-in-obligated-balance/budget-
+  authority-net sections, all with offsetting-collections complexity
+  similar to FEDLINK) + ~19 Object Classification rows + 2 Employment
+  rows. Rough estimate **200+ cells** — well past the ~140-180 ceiling
+  every other single-account unit in this corpus has stayed under.
+  Whoever picks this up should re-measure properly first (like the
+  Treasury MTS Table 5 over-cap tier) and decide: split by the five
+  GOAL program activities (mirrors the Treasury `-bureaus`/
+  `-departmental` pattern), or take it as one unit if a higher ceiling
+  is acceptable. D1/D2 sizing pass needed before this is D2 execution.
+
+- **Capitol Police (pp5-6) — partially surveyed, do not treat as
+  complete:** confirmed 2 accounts on page 5 — `Salaries` (id
+  `002-0477-0-1-801`, simple, single ObjClass pair 11.1/12.1, ~20 P&F
+  rows, est. ~70 cells, D2 cap-fit) and `General Expenses` (id
+  `002-0476-0-1-801`, larger — offsetting collections + uncollected
+  payments tracking like FEDLINK, ~34 P&F rows visible on page 5
+  alone, continues onto page 6, not yet sized). Page 6 also holds at
+  least two more entities by name only (Office of Congressional
+  Workplace Rights; Capitol Police Mutual Aid Reimbursements) —
+  **page 6 needs a render + read before this family can be queued as
+  concrete dispatch items**; treat as 4+ accounts, not the ~4-5 rough
+  guess from the chapter-wide survey.
+
+- **OMB chapter still fully unsized beyond the above:** Architect of
+  the Capitol (~14-15 accounts, pp8-16, the largest remaining
+  department — not touched this session), GPO (3, pp25-28),
+  Legislative Branch Boards and Commissions (~8-10 tiny commissions,
+  pp31-37).
 
 ---
 
