@@ -449,3 +449,19 @@ The sample deliberately spans both source pages and the specified high-risk shap
 ### 4. Audit conclusion
 
 The transcription is faithful to the rendered source. Metadata, units, periods, all labels, omission conventions, and all ten coverage-stratified sampled values match. No non-arithmetic defect found. **GREEN.** The next every-10th different-agent audit is due at corpus #100.
+
+---
+
+## Spot-Audit: Unit 100 — Medicare Payment Advisory Commission (OMB FY2027 Legislative Branch) — PLACEHOLDER
+
+- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
+- **Transcriber:** Claude Fable 5 (commit `<see git log for tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json>`)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-medpac-salaries-expenses](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png` (regenerate at 3x via pypdfium2 if absent).
+- **Shape:** 79 cells / 14 relations / 30 standalone; id `235-1550-0-1-571`; three columns (2025 actual / 2026 est. / 2027 est.).
+- **High-risk features the sample should exercise:**
+  - Two-column page 31: the LEFT column is the separate CSCE account `009-0110` — verify no cross-contamination.
+  - Zero-suppressed net lines: `4180` prints ONLY in c2 (=1), `4190` ONLY in c1 (=1); the blank columns net to zero and are correctly omitted (blank != zero).
+  - `99.5 Adjustment for rounding` prints only in c2 (=1) and `99.9 c2 = 99.0 + 99.5` sums exactly — confirm no tolerance was invented.
+  - Fully reimbursable account with NO `0900` row printed — `0801`/`0809` are standalone.
+  - Employment Summary FTE line (35/36/37) lives on the NEXT page (p32) under the MedPAC—Continued header.
