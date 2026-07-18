@@ -724,19 +724,52 @@ Antigravity's transcription of `treasury-mts/2026-05-table7-receipts-totals` is 
 
 ---
 
-## Spot-Audit: Unit 150 — Table 6 Schedule C Agriculture (PLACEHOLDER)
+## Spot-Audit: Unit 150 — Table 6 Schedule C Agriculture
 
-- **Audit Date:** _pending_
-- **Auditor:** _different agent than Grok (transcriber of #141–151)_
-- **Transcriber:** Grok (Grok 4.5 / Grok Build CLI), commit pending for batch #141–151
+- **Audit Date:** 2026-07-18
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
+- **Transcriber:** Grok (Grok 4.5 / Grok Build CLI, batch commit `2a917c3`, #141–151; #150 = `table6-schedule-c-agri`)
+- **Cadence note:** Conducted at corpus #150, on schedule. Next cadence fire is corpus **#160**.
 - **Table ID:** [treasury-mts/2026-05-table6-schedule-c-agri](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json)
 - **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 26 (Schedule C Agriculture block under Borrowing from the US Treasury)
-- **Status:** **PENDING** — every-10th different-agent spot-audit
+- **Method:** independent visual review of staged render (`scratchpad/mts-p26-2.5x.png`) + pdfplumber text-layer (`scratchpad/mts-p26-text.txt`) + FULL-coverage machine comparison of all 93 transcribed cells against the printed values.
+- **Status:** **GREEN** (all verification checks passed; 93/93 cells exact)
 
-### Guidance for auditor
-- 6-column model: This Month / FYTD This Year / FYTD Prior Year / Beginning of This Year / Close prior month / Close this month
-- Verify balance roll-forward identity `close_end = close_open + this_month` on lines with all three present (CCC, Ag Credit, Rural Housing, etc.)
-- Omission of `(**)` and `......` (not zero)
-- Row completeness vs print (17 Agriculture lines; Foreign Agricultural Service balance-only)
-- Sample high-risk: CCC large negative FYTD (−11,128), Rural Electrification FYTD +555, Food Supply Chain sparse this-month
-- Gate: reconcile GREEN 0 warnings; pytest 10/10
+### 1. Metadata Verification
+- **Table title / period:** "Table 6. Schedule C (Memorandum)-Federal Agency Borrowing Financed Through the Issue of Treasury Securities," "May 2026 and Other Periods" — **PASS**
+- **Units / scale:** `[$ millions]` — **PASS**
+- **Columns (6):** This Month / FYTD This Year / FYTD Prior Year / Beginning of This Year / Close prior month (open) / Close this month (end) — **PASS**
+- **Rows (17):** Verified all 17 Agriculture lines (Office of the Secretary, Farm Service Agency, Rural Housing Service, Rural Business-Cooperative Service, Rural Utilities Service, Foreign Agricultural Service) under Borrowing from the US Treasury — **PASS**
+- **Omission convention:** Blank (`......`) and less-than-500k (`(**)`) cells were correctly omitted from the JSON instead of being recorded as zeroes (e.g. `(**)` in r8c1/r11c1, `......` in r1c1/r7c1/r12c1/r15c1/r17c1-c3) — **PASS**
+
+### 2. Sampled Cells Verification (10 sampled cells)
+
+The 10-cell sample was stratified to test negative values, large transactions, zero-suppression/omission, less-than-500k placeholders, roll-forward balances, and the Foreign Agricultural Service row:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r2c1` | Commodity Credit Corporation | This Month | leaf | `-193` | `-193` | **PASS** |
+| `r2c2` | Commodity Credit Corporation | Fiscal Year to Date This Year | standalone | `-11128` | `-11,128` | **PASS** |
+| `r2c6` | Commodity Credit Corporation | Close of This Month - end | total | `15721` | `15,721` | **PASS** |
+| `r5c1` | Rural Housing Insurance | This Month | leaf | `55` | `55` | **PASS** |
+| `r6c6` | Rural Community Facility Loans Fund | Close of This Month - end | total | `13360` | `13,360` | **PASS** (reconciles with tol 1) |
+| `r8c2` | Rural Development Loan Fund | Fiscal Year to Date This Year | standalone | `-16` | `-16` | **PASS** (This Month `(**)` omitted) |
+| `r13c1` | Rural Water and Waste Disposal Fund | This Month | leaf | `123` | `123` | **PASS** |
+| `r14c3` | Rural Electrification and Telecommunications Fund | Fiscal Year to Date Prior Year | standalone | `2130` | `2,130` | **PASS** |
+| `r16c5` | Distance Learning and Telemedicine Program | Close of This Month - open/prior | leaf | `749` | `749` | **PASS** |
+| `r17c6` | Foreign Agricultural Service | Close of This Month - end | standalone | `175` | `175` | **PASS** (cols 1-3 `......` omitted) |
+
+### 3. Relation / rounding honesty
+- 10 sum relations: Close of prior month (col 5) + This Month (col 1) = Close of this month (col 6) for all 10 rows with transactions.
+- Two printed rounding gaps (Rural Community Facility Loans Fund and Rural Water and Waste Disposal Fund, delta 1 each) correctly carry `tol: "1"` with the rounding note quoted — **PASS**
+- No under-declaration; no invented slack.
+
+### 4. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep (`scratchpad/sweep.py`): 151/151 GREEN — **PASS**
+
+### 5. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-05-table6-schedule-c-agri` is clean, accurate, value-perfect, and completely faithful to the rendered source. All 93 values are exact, omission conventions are correct, and the roll-forward balance identities reconcile perfectly with 0 warnings. **GREEN.**
+
