@@ -1,0 +1,714 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-aoc-capitol-visitor-center-revolving",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "001-4296-0-3-801",
+    "page": 13,
+    "title": "Architect of the Capitol - Capitol Visitor Center Revolving Fund (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. AoC Capitol Visitor Center Revolving Fund (id 001-4296-0-3-801): P&F starts PDF page 13 (printed 25) right column bottom and continues PDF page 14 (printed 26) left column top. Offsetting collections: two-source 4040 c1 (4031 Interest + 4033 Non-Federal). 4080 (and 4190) is gross outlays 4020 plus offsets 4040 (4-9 = -5, 8-9 = -1, 8-9 = -1). 4180 net budget authority is completely blank (suppressed). Negatives as printed (3020, 4031, 4033, 4040, 4080, 4190).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0801 Capitol Visitor Center Revolving Fund (Reimbursable)"
+    },
+    {
+      "index": 2,
+      "label": "0900 Total new obligations, unexpired accounts (object class 26.0)"
+    },
+    {
+      "index": 3,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 4,
+      "label": "1700 Collected"
+    },
+    {
+      "index": 5,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 6,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 7,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 8,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 9,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 10,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 11,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 12,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 13,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 14,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 15,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 16,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 17,
+      "label": "4031 Interest on Federal securities"
+    },
+    {
+      "index": 18,
+      "label": "4033 Non-Federal sources"
+    },
+    {
+      "index": 19,
+      "label": "4040 Offsets against gross budget authority and outlays (total)"
+    },
+    {
+      "index": 20,
+      "label": "4080 Outlays, net (discretionary)"
+    },
+    {
+      "index": 21,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 22,
+      "label": "5000 Total investments, SOY: Federal securities: Par value"
+    },
+    {
+      "index": 23,
+      "label": "5001 Total investments, EOY: Federal securities: Par value"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "9",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "6",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source total obligations (equals 0801); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "9",
+      "role": "standalone",
+      "why": "Single-source total obligations (equals 0801); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source total obligations (equals 0801); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "23",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "26",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "26",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-8",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-8",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "3",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "4",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "2",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "3",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "4",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "2",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3050 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "9",
+      "role": "standalone",
+      "why": "Restates gross discretionary budget authority; 4180 net is blank; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "9",
+      "role": "standalone",
+      "why": "Restates gross discretionary budget authority; 4180 net is blank; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "9",
+      "role": "standalone",
+      "why": "Restates gross discretionary budget authority; 4180 net is blank; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source outlays from discretionary balances (sole source of gross outlays); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "8",
+      "role": "total"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "8",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-8",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-9",
+      "role": "standalone",
+      "why": "Single-source into 4040 offsets total (4031 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-9",
+      "role": "standalone",
+      "why": "Single-source into 4040 offsets total (4031 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "-9",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "-9",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "-9",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-5",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "-1",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-1",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "-5",
+      "role": "standalone",
+      "why": "Single-source outlays net total = 4080 net discretionary (no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source outlays net total = 4080 net discretionary (no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source outlays net total = 4080 net discretionary (no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "15",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "20",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r4c1"
+      ],
+      "target": "r5c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r4c2"
+      ],
+      "target": "r5c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r5c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r10c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r15c2"
+      ],
+      "target": "r16c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r15c3"
+      ],
+      "target": "r16c3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r18c1"
+      ],
+      "target": "r19c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r19c1"
+      ],
+      "target": "r20c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c2",
+        "r19c2"
+      ],
+      "target": "r20c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c3",
+        "r19c3"
+      ],
+      "target": "r20c3"
+    }
+  ]
+}

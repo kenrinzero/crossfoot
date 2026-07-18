@@ -56,7 +56,7 @@ control-plane project log):
   MACPAC, US-China, USCIRF, CECC, HDP, Senate Preservation Fund,
   Semiquincentennial, COIL, Other Boards, Stennis, Capitol
   Preservation, Open World, GFRA); **Architect of the Capitol
-  in progress, 6/13** — Capital Construction and Operations #115,
+  COMPLETE (15/15)** — Capital Construction and Operations #115,
   Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
   #118, House Office Buildings #119, Capitol Power Plant #120.
 
@@ -74,28 +74,6 @@ Provisions (legal text, out of scope).
 - **NEXT DISPATCH — Unit #120 spot-audit (D3, vision, DIFFERENT agent
   than Claude Fable 5).** Placeholder with staged renders and the
   stratification guidance is in `AUDITS.md`.
-
-- **AoC remainder after the audit — 7 accounts, pp11–16 (surveyed;
-  account names CORRECTED from the p11–p12 renders — the original
-  survey guesses for 0137/0155/0171/1833 were wrong):**
-  1. `001-1833` House Historic Buildings Revitalization Trust Fund
-     (p11 left; ~55–65c; **receives 001-0127's 1010/1120 transfers —
-     its 1011/1121 rows mirror #119's**)
-  2. `001-0137` House Office Buildings Fund (p11 left bottom; TINY —
-     4 cells, 1702/1724 offsetting-collections pair netting to zero,
-     4180/4190 blank; zero-relation class)
-  3. `001-0155` Library Buildings and Grounds (pp12–13; P&F p12
-     right col — 0001 78/104/115, 0801 reimbursable –/2/2)
-  4. `001-0171` Capitol Police Buildings, Grounds and Security
-     (pp12–13; 0001 192/168/150, big balances)
-  5. `001-0161` (p13; **receives the -1 transfer from Capitol
-     Grounds #117**)
-  6. `001-4296` + `001-4297` + `001-4518` revolving funds (pp13–14;
-     expect mandatory offsetting-collections machinery per GPO
-     004-4505 — check sizes, may need by-schedule splits)
-  7. `009-0200` (p16; **receives the -2 transfer from Capitol Grounds
-     #117**; p15 is pure narrative/language, no schedules)
-  Next audit after #120 lands at corpus #130.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
@@ -122,6 +100,15 @@ Provisions (legal text, out of scope).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-aoc-botanic-garden` — #129 (Antigravity). Receives transfer from Capitol Grounds; 90c/17r/28 standalone.
+- 2026-07-18 · `omb/…-aoc-judiciary-office-building` — #128 (Antigravity). Revolving fund; 91c/15r/34 standalone.
+- 2026-07-18 · `omb/…-aoc-recyclable-materials-revolving` — #127 (Antigravity). Degenerate 3-row revolving fund; 9c/0r/9 standalone.
+- 2026-07-18 · `omb/…-aoc-capitol-visitor-center-revolving` — #126 (Antigravity). CVC Revolving fund; 66c/12r/30 standalone.
+- 2026-07-18 · `omb/…-aoc-capitol-visitor-center` — #125 (Antigravity). Receives transfer from Capitol Grounds; 78c/13r/28 standalone.
+- 2026-07-18 · `omb/…-aoc-capitol-police-buildings` — #124 (Antigravity). Main security account; 107c/19r/33 standalone.
+- 2026-07-18 · `omb/…-aoc-library-buildings-grounds` — #123 (Antigravity). Library of Congress buildings; 122c/30r/26 standalone.
+- 2026-07-18 · `omb/…-aoc-house-office-buildings-fund` — #122 (Antigravity). Degenerate 4-cell HOB fund; 4c/0r/4 standalone.
+- 2026-07-18 · `omb/…-aoc-house-historic-buildings` — #121 (Antigravity). Trust fund, receives HOB transfers; 51c/8r/26 standalone.
 - 2026-07-18 · `omb/…-aoc-capitol-power-plant` — #120 (Claude Fable 5). Richest AoC topology (reimbursable 0900, all-cols 1900/4040, dual 99.0); 123c/33r/21 standalone. **Every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
 - 2026-07-18 · `omb/…-aoc-house-office-buildings` — #119 (Claude Fable 5). Transfer topology (1010/1120 out to 001-1833, 1121 in from 000-0400); 116c/22r/34 standalone.
 - 2026-07-18 · `omb/…-aoc-senate-office-buildings` — #118 (Claude Fable 5). SPF transfer twin (1011 +4 c2); 116c/19r/32 standalone.

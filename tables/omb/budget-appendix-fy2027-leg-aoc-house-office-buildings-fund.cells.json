@@ -1,0 +1,70 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-aoc-house-office-buildings-fund",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "001-0137-0-1-801",
+    "page": 11,
+    "title": "Architect of the Capitol - House Office Buildings Fund (Program and Financing)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. AoC House Office Buildings Fund (id 001-0137-0-1-801): P&F on PDF page 11 (printed 23) left column bottom. A degenerate 4-cell table with zero relations. Offsetting-collections rows 1702 and 1724 net to zero. Budget authority net (4180) and outlays net (4190) are completely blank (suppressed).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1702 Offsetting collections (previously unavailable)"
+    },
+    {
+      "index": 2,
+      "label": "1724 Spending authority from offsetting collections precluded from obligation (limitation on obligations)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "Standalone collection line; participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "13",
+      "role": "standalone",
+      "why": "Standalone collection line; participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Standalone precluded collection line; participates in no arithmetic on this schedule"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-13",
+      "role": "standalone",
+      "why": "Standalone precluded collection line; participates in no arithmetic on this schedule"
+    }
+  ],
+  "relations": []
+}
