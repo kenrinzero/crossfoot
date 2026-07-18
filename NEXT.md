@@ -53,34 +53,28 @@ control-plane project log):
   Rights #93; GAO 2/2 (#94–95); GPO 4/4 (#96–99); Boards and
   Commissions started — MedPAC #100.
 
-Every-10th different-agent spot-audits GREEN through #90. **The unit
-#100 audit is now DUE — placeholder in `AUDITS.md`; the transcriber
-(Claude Fable 5) CANNOT self-audit, any other vision-capable agent
-qualifies.** In the OMB chapter, Senate + House (pp1–4) carry **zero**
-P&F schedules (pure appropriations language, out of scope); the chapter
-has ≈40–45 real accounts.
+Every-10th different-agent spot-audits GREEN through **#100** (MedPAC
+audit by Grok, `AUDITS.md`). Next cadence fire is corpus **#110**. In
+the OMB chapter, Senate + House (pp1–4) carry **zero** P&F schedules
+(pure appropriations language, out of scope); the chapter has ≈40–45
+real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Unit #100 spot-audit (D3, vision, DIFFERENT agent
-  than Claude Fable 5).** Placeholder with shape, staged renders, and
-  the high-risk features to sample is in `AUDITS.md`. Do this before
-  (or alongside) further transcription.
+- **NEXT DISPATCH — Boards and Commissions continuation (D2, vision).**
+  CSCE (009-0110, pp30–31; P&F starts p30, tail + ObjClass + Employment
+  on p31 LEFT, ~55–65 cells est.), MACPAC (009-1801, p32, ~50–60 cells
+  est.), and US-China Economic and Security Review Commission (starts
+  p32) are spotted and dispatchable. Remaining commissions pp33–37
+  unsurveyed.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
   Reimbursable`. **GPO complete (4/4, #96–99):** the survey's "3
   accounts" became 4 units — Business Operations Revolving Fund
   (004-4505) measured 152 cells, over-cap, split by schedule per the
-  GAO precedent. **Boards and Commissions partial survey (2026-07-18,
-  from pp30–32 renders):** MedPAC (235-1550) SHIPPED as #100; also
-  spotted and dispatchable after the #100 audit: US Commission on
-  Security and Cooperation in Europe (009-0110, pp30–31, P&F starts
-  p30 — its tail + ObjClass + Employment are p31 LEFT column, ~55–65
-  cells est.), Medicaid and CHIP Payment and Access Commission
-  (009-1801, p32, ~50–60 cells est.), US-China Economic and Security
-  Review Commission (starts p32). Remaining commissions pp33–37
-  unsurveyed.
+  GAO precedent. **Boards and Commissions:** MedPAC (235-1550) SHIPPED
+  as #100 with every-10th audit **GREEN** (Grok, 2026-07-18).
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
@@ -97,7 +91,7 @@ has ≈40–45 real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `omb/…-medpac-salaries-expenses` — #100 (Claude Fable 5). First Boards and Commissions account; 79c/14r/30 standalone; no 0900 row, zero-suppressed nets. **Corpus at 100 — every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-medpac-salaries-expenses` — #100 (Claude Fable 5). First Boards and Commissions account; 79c/14r/30 standalone; no 0900 row, zero-suppressed nets. **Every-10th audit GREEN** (Grok, full 79/79 multiset + 10 high-risk sample; `AUDITS.md`).
 - 2026-07-18 · `omb/…-gpo-business-operations-objclass` — #99 (Claude Fable 5). 45c/6r/6 standalone. **GPO complete, 4/4 (#96–99); account 004-4505 fully transcribed (152 cells).**
 - 2026-07-18 · `omb/…-gpo-business-operations-pf` — #98 (Claude Fable 5). Revolving fund P&F, mandatory offsetting collections; 107c/38r/19 standalone; 4160 zero-suppressed all cols.
 - 2026-07-18 · `omb/…-gpo-public-information` — #97 (Claude Fable 5). P&F + ObjClass + Employment; 75c/12r/24 standalone.

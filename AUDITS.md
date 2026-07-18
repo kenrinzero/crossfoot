@@ -452,16 +452,58 @@ The transcription is faithful to the rendered source. Metadata, units, periods, 
 
 ---
 
-## Spot-Audit: Unit 100 — Medicare Payment Advisory Commission (OMB FY2027 Legislative Branch) — PLACEHOLDER
+## Spot-Audit: Unit 100 — Medicare Payment Advisory Commission (OMB FY2027 Legislative Branch)
 
-- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
+- **Audit Date:** 2026-07-18
+- **Auditor:** Grok (xAI / Grok Build)
 - **Transcriber:** Claude Fable 5 (commit `02b57cf`)
 - **Table ID:** [omb/budget-appendix-fy2027-leg-medpac-salaries-expenses](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png` (regenerate at 3x via pypdfium2 if absent).
-- **Shape:** 79 cells / 14 relations / 30 standalone; id `235-1550-0-1-571`; three columns (2025 actual / 2026 est. / 2027 est.).
-- **High-risk features the sample should exercise:**
-  - Two-column page 31: the LEFT column is the separate CSCE account `009-0110` — verify no cross-contamination.
-  - Zero-suppressed net lines: `4180` prints ONLY in c2 (=1), `4190` ONLY in c1 (=1); the blank columns net to zero and are correctly omitted (blank != zero).
-  - `99.5 Adjustment for rounding` prints only in c2 (=1) and `99.9 c2 = 99.0 + 99.5` sums exactly — confirm no tolerance was invented.
-  - Fully reimbursable account with NO `0900` row printed — `0801`/`0809` are standalone.
-  - Employment Summary FTE line (35/36/37) lives on the NEXT page (p32) under the MedPAC—Continued header.
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png`.
+- **Method:** Independent visual re-read of the staged pypdfium2 page-31/32 renders (RIGHT column for MedPAC P&F + ObjClass; p32 left-column top for Employment) plus text-layer cross-check (`boards-p31-text.txt` / `boards-p32-text.txt`). Full 79-cell multiset compared to a machine-checked expected grid derived from the render; formal sample of 10 high-risk cells below. Different-agent rule satisfied (transcriber Claude Fable 5; auditor Grok).
+- **Status:** **GREEN** (all verification checks passed; 79/79 cells match the render)
+
+### 1. Metadata Verification
+- **Table / identification code:** `235-1550-0-1-571` (Medicare Payment Advisory Commission — Salaries and Expenses)
+  - *Result:* **PASS** (matches the Program and Financing, Object Classification, and Employment Summary headers on p31 right / p32 left)
+- **Period / columns:** "2025 actual" / "2026 est." / "2027 est." (FY 2027 Budget Appendix)
+  - *Result:* **PASS**
+- **Units / Scale:** USD millions for P&F and ObjClass; Employment Summary FTE is headcount (not USD)
+  - *Result:* **PASS** (`unit_note` correctly distinguishes the FTE line)
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (3):** 2025 actual · 2026 est. · 2027 est.
+  - *Result:* **PASS**
+- **Rows (30):** Full P&F slice (0801, 0809, 1000, 1100, 1700, 1900, 1930, 1941, 3000–3050, 3100, 3200, 4000–4040, 4180, 4190) + ObjClass (11.1, 12.1, 23.3, 25.1, 99.0, 99.5, 99.9) + Employment 2001. No `0900` total obligations row is printed for this fully reimbursable account — correctly absent.
+  - *Result:* **PASS** (all 30 labels match the render line codes + text)
+- **Two-column page discipline (p31):** LEFT column is the separate CSCE account `009-0110` (values such as 0801/3010-style 3/3/7 and FTE 13/13/13). MedPAC values live only in the RIGHT column under id `235-1550-0-1-571`. No CSCE numbers appear in the JSON.
+  - *Result:* **PASS** (non-contamination check held)
+- **Omission / zero-suppression conventions:** Blank (dotted-leader) cells are omitted, not zeroed. High-risk nets: `4180` prints ONLY c2 (`1`); `4190` prints ONLY c1 (`1`); `99.5 Adjustment for rounding` prints ONLY c2 (`1`); several P&F lines are column-sparse (`1000` c3 only, `1100` c2 only, `1941` c2/c3). No blank printed as zero.
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (10 high-risk + full multiset)
+
+Full multiset re-read of all **79** transcribed cells against the p31-right + p32-employment expected grid: **79/79 exact match, 0 value mismatches, 0 missing, 0 extra.** Formal sample of 10 covering the placeholder high-risk features:
+
+| Cell ID | Source Page | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 31 R | 0801 Medicare Payment Advisory Commission (Reimbursable) | 2025 actual | standalone | `14` | `14` | **PASS** |
+| `r3c3` | 31 R | 1000 Unobligated balance brought forward, Oct 1 | 2027 est. | leaf | `1` | `1` | **PASS** |
+| `r6c2` | 31 R | 1900 Budget authority (total) | 2026 est. | total | `16` | `16` | **PASS** |
+| `r11c1` | 31 R | 3020 Outlays (gross) | 2025 actual | leaf | `-15` | `-15` | **PASS** |
+| `r15c2` | 31 R | 4000 Budget authority, gross | 2026 est. | leaf | `16` | `16` | **PASS** |
+| `r21c2` | 31 R | 4180 Budget authority, net (total) | 2026 est. | total | `1` | `1` (only printed col) | **PASS** |
+| `r22c1` | 31 R | 4190 Outlays, net (total) | 2025 actual | total | `1` | `1` (only printed col) | **PASS** |
+| `r28c2` | 31 R | 99.5 Adjustment for rounding | 2026 est. | leaf | `1` | `1` (only printed col) | **PASS** |
+| `r29c2` | 31 R | 99.9 Total new obligations, unexpired accounts | 2026 est. | total | `15` | `15` (= 14+1 exact) | **PASS** |
+| `r30c3` | 32 L | 2001 Reimbursable civilian full-time equivalent employment | 2027 est. | standalone | `37` | `37` | **PASS** |
+
+Also confirmed: `99.9 c2 = 99.0 c2 + 99.5 c2` is exact (`14 + 1 = 15`); no non-default tolerance is declared on that relation.
+
+### 4. Reconcile Gate
+- Command: `uv run python reconcile.py tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json`
+- Output: `GREEN: tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json reconciles (0 warning(s))`
+- `uv run pytest`: 10 passed
+- *Result:* **PASS**
+
+### 5. Audit Conclusion
+The transcription of `omb/budget-appendix-fy2027-leg-medpac-salaries-expenses` by Claude Fable 5 (`02b57cf`) is clean and faithful to the source. Metadata, the 3-column model, all 30 row labels, two-column page discipline (no CSCE contamination), zero-suppressed net/rounding omissions, the no-`0900` reimbursable shape, the p32 Employment FTE line (35/36/37), and all 79 cell values (including the formal 10-cell high-risk sample) match the page 31–32 renders with zero discrepancies. `reconcile.py` is GREEN with 0 warnings (79 cells / 14 relations / 30 standalone). **GREEN.** Next every-10th different-agent audit lands at corpus **#110**.
