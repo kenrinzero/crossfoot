@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–100, all reconcile GREEN under strict
+**Completed so far — corpus #1–104, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -51,7 +51,8 @@ control-plane project log):
   Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
   Capitol Police family 4/4 (#89–92); Office of Congressional Workplace
   Rights #93; GAO 2/2 (#94–95); GPO 4/4 (#96–99); Boards and
-  Commissions started — MedPAC #100.
+  Commissions in progress — MedPAC #100, CSCE #101, MACPAC #102,
+  US-China #103, USCIRF #104.
 
 Every-10th different-agent spot-audits GREEN through **#100** (MedPAC
 audit by Grok, `AUDITS.md`). Next cadence fire is corpus **#110**. In
@@ -61,24 +62,29 @@ real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Boards and Commissions continuation (D2, vision).**
-  CSCE (009-0110, pp30–31; P&F starts p30, tail + ObjClass + Employment
-  on p31 LEFT, ~55–65 cells est.), MACPAC (009-1801, p32, ~50–60 cells
-  est.), and US-China Economic and Security Review Commission (starts
-  p32) are spotted and dispatchable. Remaining commissions pp33–37
-  unsurveyed.
+- **NEXT DISPATCH — Boards and Commissions remainder (D2, vision).**
+  Congressional-Executive Commission on the People's Republic of China
+  (CECC, 272-2930) is spotted: P&F starts p33 bottom-RIGHT (0001 2/2/2,
+  0900 2/2/2 "(object class 11.1)"), continues p34 — needs the p34
+  render. Remaining commissions pp34–37 unsurveyed (Open World, John C.
+  Stennis Center, and others expected). Next every-10th different-agent
+  audit at corpus #110.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
   Reimbursable`. **GPO complete (4/4, #96–99):** the survey's "3
   accounts" became 4 units — Business Operations Revolving Fund
   (004-4505) measured 152 cells, over-cap, split by schedule per the
-  GAO precedent. **Boards and Commissions:** MedPAC (235-1550) SHIPPED
-  as #100 with every-10th audit **GREEN** (Grok, 2026-07-18).
+  GAO precedent. **Boards and Commissions 5 shipped:** MedPAC #100
+  (audit GREEN, Grok), then CSCE #101 / MACPAC #102 / US-China #103 /
+  USCIRF #104 (2026-07-18, Claude Fable 5) — the family's recurring
+  wrinkles: tiny accounts with no 0900/1900 rows, zero-suppressed
+  3050/4180/4190 columns, and printed `99.5 Adjustment for rounding`
+  lines that sum EXACTLY (never a tolerance).
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
-  department) and the Boards and Commissions remainder (pp33-37). Each
+  department) and the Boards and Commissions remainder (pp34-37). Each
   needs a survey/sizing pass before it is dispatch-ready.
 
 - **FEC footnote pages pp7-9** stay a Tier-3 stage concern (DESIGN §8) —
@@ -91,6 +97,10 @@ real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-uscirf-salaries-expenses` — #104 (Claude Fable 5). Within-page column-flow P&F (starts bottom-left, continues top-right of p33); 65c/13r/27 standalone.
+- 2026-07-18 · `omb/…-uscc-salaries-expenses` — #103 (Claude Fable 5). 99.5 rounding line all 3 cols, 99.9=99.0+99.5 exact each; 64c/14r/23 standalone.
+- 2026-07-18 · `omb/…-macpac-salaries-expenses` — #102 (Claude Fable 5). No 0900/1000 rows; 3050 zero-suppressed c2/c3; 60c/7r/36 standalone.
+- 2026-07-18 · `omb/…-csce-salaries-expenses` — #101 (Claude Fable 5). P&F spans p30 bottom-right → p31 top-left; 55c/9r/28 standalone.
 - 2026-07-18 · `omb/…-medpac-salaries-expenses` — #100 (Claude Fable 5). First Boards and Commissions account; 79c/14r/30 standalone; no 0900 row, zero-suppressed nets. **Every-10th audit GREEN** (Grok, full 79/79 multiset + 10 high-risk sample; `AUDITS.md`).
 - 2026-07-18 · `omb/…-gpo-business-operations-objclass` — #99 (Claude Fable 5). 45c/6r/6 standalone. **GPO complete, 4/4 (#96–99); account 004-4505 fully transcribed (152 cells).**
 - 2026-07-18 · `omb/…-gpo-business-operations-pf` — #98 (Claude Fable 5). Revolving fund P&F, mandatory offsetting collections; 107c/38r/19 standalone; 4160 zero-suppressed all cols.
