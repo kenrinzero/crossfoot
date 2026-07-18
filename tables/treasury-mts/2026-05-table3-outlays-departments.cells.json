@@ -1,0 +1,1042 @@
+{
+  "table_id": "treasury-mts/2026-05-table3-outlays-departments",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, May 2026 and Other Periods (Outlays: Legislative through SBA)",
+    "page": 8,
+    "title": "Summary of Receipts and Outlays of the U.S. Government (Outlays Section: Legislative through SBA)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Values as printed, thousands separators stripped. Other Defense Civil Programs YTD adjusted to remove footnote superscript '3' (348223 -> 48223).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Full Fiscal Year Budget Estimates"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Outlays / Legislative Branch"
+    },
+    {
+      "index": 2,
+      "label": "Budget Outlays / Judicial Branch"
+    },
+    {
+      "index": 3,
+      "label": "Budget Outlays / Department of Agriculture"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Department of Commerce"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Department of Defense--Military Programs"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Department of Education"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Department of Energy"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Department of Health and Human Services"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Department of Homeland Security"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Department of Housing and Urban Development"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Department of the Interior"
+    },
+    {
+      "index": 12,
+      "label": "Budget Outlays / Department of Justice"
+    },
+    {
+      "index": 13,
+      "label": "Budget Outlays / Department of Labor"
+    },
+    {
+      "index": 14,
+      "label": "Budget Outlays / Department of State"
+    },
+    {
+      "index": 15,
+      "label": "Budget Outlays / Department of Transportation"
+    },
+    {
+      "index": 16,
+      "label": "Budget Outlays / Department of the Treasury: Interest on Treasury Debt Securities (Gross)"
+    },
+    {
+      "index": 17,
+      "label": "Budget Outlays / Department of the Treasury: Other"
+    },
+    {
+      "index": 18,
+      "label": "Budget Outlays / Department of Veterans Affairs"
+    },
+    {
+      "index": 19,
+      "label": "Budget Outlays / Corps of Engineers"
+    },
+    {
+      "index": 20,
+      "label": "Budget Outlays / Other Defense Civil Programs"
+    },
+    {
+      "index": 21,
+      "label": "Budget Outlays / Environmental Protection Agency"
+    },
+    {
+      "index": 22,
+      "label": "Budget Outlays / Executive Office of the President"
+    },
+    {
+      "index": 23,
+      "label": "Budget Outlays / General Services Administration"
+    },
+    {
+      "index": 24,
+      "label": "Budget Outlays / International Assistance Programs"
+    },
+    {
+      "index": 25,
+      "label": "Budget Outlays / National Aeronautics and Space Administration"
+    },
+    {
+      "index": 26,
+      "label": "Budget Outlays / National Science Foundation"
+    },
+    {
+      "index": 27,
+      "label": "Budget Outlays / Office of Personnel Management"
+    },
+    {
+      "index": 28,
+      "label": "Budget Outlays / Small Business Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "556",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "4644",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "4755",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "8499",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "960",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "6572",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "6485",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "10375",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "22626",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "156149",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "158355",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "238841",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "728",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "8684",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "17626",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "21170",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "69078",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "600331",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "581661",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "913705",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "5836",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "82742",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "92918",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "62188",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "3892",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "33829",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "34838",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "59641",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "165130",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1285162",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1281016",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "2035980",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "9421",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "64208",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "78830",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "116341",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "6441",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "46202",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "46527",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "76031",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1711",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "10351",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "14009",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "24292",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3385",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "29842",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "29608",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "51516",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "4417",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "39070",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "39311",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "71579",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "2339",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "17103",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "19789",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "35351",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "8877",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "72898",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "74686",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "131545",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "132623",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "866820",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "776340",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1301255",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "13427",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "199931",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "212319",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "221428",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "33235",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "270233",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "259630",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "439752",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1113",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "7801",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "9114",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "8099",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "3763",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "48223",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "57449",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "76950",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "1249",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "10914",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "30681",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "22323",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "50",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "-961",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "-137",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "-327",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "-260",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "-544",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "-70",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "1760",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "4598",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "17146",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "19181",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "24477",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "1779",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "15523",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "16233",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "24629",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "687",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "5468",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "6227",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "10473",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "11862",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "91570",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "85973",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "132542",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "53",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "662",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "1535",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "12142",
+      "role": "standalone",
+      "why": "Departmental outlay row with no sub-elements or printed departmental subtotal in Table 3."
+    }
+  ],
+  "relations": []
+}

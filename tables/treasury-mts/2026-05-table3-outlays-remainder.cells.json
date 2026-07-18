@@ -1,0 +1,656 @@
+{
+  "table_id": "treasury-mts/2026-05-table3-outlays-remainder",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, May 2026 and Other Periods (Outlays: Remainder, Totals, and Deficits)",
+    "page": 8,
+    "title": "Summary of Receipts and Outlays of the U.S. Government (Outlays Section: Remainder, Totals, and Deficits)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells are omitted, not transcribed as 0. Values as printed, thousands separators stripped.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Full Fiscal Year Budget Estimates"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Receipts / Total Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Budget Receipts / Total Receipts (On-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Budget Receipts / Total Receipts (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Social Security Administration"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Independent Agencies"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Allowances"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts: Interest"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts: Other"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Total Outlays"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Total Outlays (On-Budget)"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Total Outlays (Off-Budget)"
+    },
+    {
+      "index": 12,
+      "label": "Surplus (+) or Deficit (-) / Total Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 13,
+      "label": "Surplus (+) or Deficit (-) / Total Surplus (+) or Deficit (-) (On-Budget)"
+    },
+    {
+      "index": 14,
+      "label": "Surplus (+) or Deficit (-) / Total Surplus (+) or Deficit (-) (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "335512",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "3655648",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "3481701",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "5475705",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "225440",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "2753355",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "2629427",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "4108050",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "110072",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "902293",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "852274",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1367655",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "145859",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "1141321",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1088988",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "1745811",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "787",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "9270",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "13996",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "21057",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-26",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-18922",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-125670",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-102766",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "-203434",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-9139",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-113641",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-109027",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-155531",
+      "role": "standalone",
+      "why": "Outlay remainder row with no sub-elements in this unit."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "628161",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "4901851",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "4846083",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "7540434",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "490896",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "3895582",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "3901556",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "6008685",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "137265",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1006270",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "944527",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1531749",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-292648",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-1246203",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-1364382",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-265456",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-1142226",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-1272130",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-27193",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-103977",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-92252",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r9c1",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Total Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2"
+      ],
+      "target": "r9c2",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Total Outlays",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r9c3",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Total Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r9c4",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Total Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r12c1",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Total Deficit",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r14c2"
+      ],
+      "target": "r12c2",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Total Deficit",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r14c3"
+      ],
+      "target": "r12c3",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Total Deficit"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r12c1"
+      ],
+      "target": "r1c1",
+      "note": "row identity: Outlays + Deficit = Receipts (Budget)",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r13c1"
+      ],
+      "target": "r2c1",
+      "note": "row identity: On-Budget Outlays + Deficit = Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "target": "r3c1",
+      "note": "row identity: Off-Budget Outlays + Deficit = Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r12c2"
+      ],
+      "target": "r1c2",
+      "note": "row identity: Outlays + Deficit = Receipts (Budget)",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r13c2"
+      ],
+      "target": "r2c2",
+      "note": "row identity: On-Budget Outlays + Deficit = Receipts",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "target": "r3c2",
+      "note": "row identity: Off-Budget Outlays + Deficit = Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r12c3"
+      ],
+      "target": "r1c3",
+      "note": "row identity: Outlays + Deficit = Receipts (Budget)",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r13c3"
+      ],
+      "target": "r2c3",
+      "note": "row identity: On-Budget Outlays + Deficit = Receipts",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r14c3"
+      ],
+      "target": "r3c3",
+      "note": "row identity: Off-Budget Outlays + Deficit = Receipts",
+      "tol": "1",
+      "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
+    }
+  ]
+}

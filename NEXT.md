@@ -75,21 +75,9 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1 & 2 complete: #130-131):
+The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1, 2, 3, 8, 9, and Table 7 Receipts complete: #130-139):
 
-- **Table 3 (p. 8) — Summary of Receipts and Outlays** (Split into 3 units to stay under 140-cell ceiling)
-  - `treasury-mts/2026-05-table3-receipts` (~56 cells / 12 relations. D3)
-  - `treasury-mts/2026-05-table3-outlays-departments` (~112 cells / 20 relations. D3)
-  - `treasury-mts/2026-05-table3-outlays-remainder` (~56 cells / 15 relations. D3)
-- **Table 9 (p. 37) — Summary of Receipts by Source, and Outlays by Function**
-  - Unit: `treasury-mts/2026-05-table9`
-  - Sizing: ~93 cells / 25 relations / 0 standalone waivers. D3.
-- **Table 8 (p. 36) — Trust Fund Impact on Budget Results** (Split into 2 units by columns)
-  - `treasury-mts/2026-05-table8-activity` (Receipts/Outlays/Excess activity; ~138 cells / 30 relations. D3)
-  - `treasury-mts/2026-05-table8-investments` (Securities Held investments; ~51 cells / 10 relations. D3)
-- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules)
-  - `treasury-mts/2026-05-table7-receipts-detail` (~90 cells / 15 relations. D3)
-  - `treasury-mts/2026-05-table7-receipts-totals` (~60 cells / 10 relations. D3)
+- **Table 7 (pp. 34–35) — Receipts and Outlays by Month** (Split into 7 units by row groups/schedules; Receipts complete: #138-139)
   - `treasury-mts/2026-05-table7-outlays-leg-def` (~150 cells / 15 relations. D3)
   - `treasury-mts/2026-05-table7-outlays-edu-labor` (~150 cells / 15 relations. D3)
   - `treasury-mts/2026-05-table7-outlays-state-gsa` (~120 cells / 12 relations. D3)
@@ -146,7 +134,15 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `treasury-mts/2026-05-table2` — #131 (Antigravity). Budget/off-budget results and financing; 39c/24r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table7-receipts-totals` — #139 (Antigravity). Receipts Totals/Budget splits; 54c/18r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table7-receipts-detail` — #138 (Antigravity). Receipts Detail rows; 90c/0r/90 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table8-investments` — #137 (Antigravity). Securities Held investments; 45c/3r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table8-activity` — #136 (Antigravity). Receipts/Outlays/Excess activity; 132c/60r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table9` — #135 (Antigravity). Summary of receipts by source, outlays by function; 90c/6r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table3-outlays-remainder` — #134 (Antigravity). Outlays Section remainder, totals, and deficits; 50c/20r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table3-outlays-departments` — #133 (Antigravity). Outlays Section: Legislative through OPM/SBA; 112c/0r/112 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table3-receipts` — #132 (Antigravity). Summary of Receipts; 52c/12r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table2` — #131 (Antigravity). Budget/off-budget results and financing; 50c/28r/0 standalone.
 - 2026-07-18 · `treasury-mts/2026-05-table1` — #130 (Antigravity). Summary of monthly receipts, outlays, deficit; 66c/28r/0 standalone.
 - 2026-07-18 · `omb/…-aoc-botanic-garden` — #129 (Antigravity). Receives transfer from Capitol Grounds; 90c/17r/28 standalone.
 - 2026-07-18 · `omb/…-aoc-judiciary-office-building` — #128 (Antigravity). Revolving fund; 91c/15r/34 standalone.

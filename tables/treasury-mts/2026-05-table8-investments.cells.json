@@ -1,0 +1,483 @@
+{
+  "table_id": "treasury-mts/2026-05-table8-investments",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 8. Trust Fund Impact on Budget Results and Investment Holdings as of May 31, 2026 (Investments)",
+    "page": 36,
+    "title": "Trust Fund Impact on Budget Results (Securities Held as Investments)",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells are omitted, not transcribed as 0. Values as printed, thousands separators stripped.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Beginning of This Year"
+    },
+    {
+      "index": 2,
+      "label": "Close of Prior Month"
+    },
+    {
+      "index": 3,
+      "label": "Close of This Month"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Trust Receipts, Outlays, and Investments Held / Airport and Airway"
+    },
+    {
+      "index": 2,
+      "label": "Trust Receipts, Outlays, and Investments Held / Black Lung Disability"
+    },
+    {
+      "index": 3,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Disability Insurance"
+    },
+    {
+      "index": 4,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Employees Life and Health"
+    },
+    {
+      "index": 5,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Employees Retirement"
+    },
+    {
+      "index": 6,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Hospital Insurance"
+    },
+    {
+      "index": 7,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Old-Age and Survivors Insurance"
+    },
+    {
+      "index": 8,
+      "label": "Trust Receipts, Outlays, and Investments Held / Federal Supplementary Medical Insurance"
+    },
+    {
+      "index": 9,
+      "label": "Trust Receipts, Outlays, and Investments Held / Hazardous Substance Superfund"
+    },
+    {
+      "index": 10,
+      "label": "Trust Receipts, Outlays, and Investments Held / Highways"
+    },
+    {
+      "index": 11,
+      "label": "Trust Receipts, Outlays, and Investments Held / Military Advances"
+    },
+    {
+      "index": 12,
+      "label": "Trust Receipts, Outlays, and Investments Held / Military Retirement"
+    },
+    {
+      "index": 13,
+      "label": "Trust Receipts, Outlays, and Investments Held / Railroad Retirement"
+    },
+    {
+      "index": 14,
+      "label": "Trust Receipts, Outlays, and Investments Held / Unemployment"
+    },
+    {
+      "index": 15,
+      "label": "Trust Receipts, Outlays, and Investments Held / Veterans Life Insurance"
+    },
+    {
+      "index": 16,
+      "label": "Trust Receipts, Outlays, and Investments Held / All Other Trust"
+    },
+    {
+      "index": 17,
+      "label": "Trust Receipts, Outlays, and Investments Held / Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "18571",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "20308",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "21409",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "215352",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "242462",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "245183",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "81316",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "81759",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "81545",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "1130982",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "1117830",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1112452",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "252906",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "279284",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "273811",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "2400808",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "2298888",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "2268792",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "153844",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "187736",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "187061",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "11473",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "11483",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "11621",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "68941",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "58408",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "59078",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "1806919",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "2096471",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "2108009",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "3523",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "3535",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "3335",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "89394",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "83061",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "101513",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "946",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "802",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "778",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "39814",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "41703",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "42495",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "6274791",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "6523731",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "6517083",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1"
+      ],
+      "target": "r17c1",
+      "note": "column roll-up: trust fund investments sum to Total Trust Investments (col 1)",
+      "tol": "2",
+      "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2",
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2"
+      ],
+      "target": "r17c2",
+      "note": "column roll-up: trust fund investments sum to Total Trust Investments (col 2)",
+      "tol": "1",
+      "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ],
+      "target": "r17c3",
+      "note": "column roll-up: trust fund investments sum to Total Trust Investments (col 3)",
+      "tol": "1",
+      "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
+    }
+  ]
+}
