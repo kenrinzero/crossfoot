@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–120, all reconcile GREEN under strict
+**Completed so far — corpus #1–129, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -60,20 +60,42 @@ control-plane project log):
   Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
   #118, House Office Buildings #119, Capitol Power Plant #120.
 
-Every-10th different-agent spot-audits GREEN through #110 (Other
-Boards, Kimi). **The unit #120 audit (Capitol Power Plant) is now DUE
-— placeholder in `AUDITS.md`; the transcriber (Claude Fable 5) CANNOT
-self-audit; richest relation topology in the family, stratify the
-sample accordingly.** In the OMB
+Every-10th different-agent spot-audits GREEN through **#129**: #120
+(Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
+transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
+Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
+completeness repair (the printed 1001 memo row was missing; added,
+values untouched; see `AUDITS.md`). That audit satisfies the #130
+slot; **next cadence fire is corpus #140**. Lesson for transcribers:
+cross-check row COUNTS against the print — a missing standalone-class
+row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Unit #120 spot-audit (D3, vision, DIFFERENT agent
-  than Claude Fable 5).** Placeholder with staged renders and the
-  stratification guidance is in `AUDITS.md`.
+- **NEXT DISPATCH — Treasury MTS May 2026 remainder (QUEUE REFRESH
+  2026-07-18).** The vendored `sources/treasury-mts/mts-202605.pdf`
+  (sha256 ledgered, `(cid:NN)`→`chr(NN+29)` decode, `(**)`/rounding
+  conventions all settled by Tables 4+5) still holds SIX un-transcribed
+  tables. Each needs a sizing pass before transcription (D2 survey →
+  D2/D3 units); suggested order, compact first:
+  1. **Table 1** (p5) — Summary of Receipts, Outlays, and the
+     Deficit/Surplus (check whether Table 2 occupies pp6–7; the header
+     scan only matched Tables 1 and 3).
+  2. **Table 3** (p8) — Summary of Receipts and Outlays.
+  3. **Table 9** (p37) — Summary of Receipts by Source, Outlays by
+     Function.
+  4. **Table 8** (p36) — Trust Fund Impact on Budget Results.
+  5. **Table 7** (pp34–35) — Receipts and Outlays by month.
+  6. **Table 6 FAMILY** (pp24–33) — Means of Financing + Schedules
+     A/C/D/E (~10 pages; expect several units and possibly over-cap
+     splits; treat like a small Table-5).
+  Also available in already-vendored sources: the Census **P60-282**
+  report PDF (only one unit, #3, transcribed from it so far) — a
+  sizing survey of its remaining cross-tabs is a parallel queue-refresh
+  option.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
@@ -109,7 +131,8 @@ One line per shipped unit/batch, newest first. Full specs in
 - 2026-07-18 · `omb/…-aoc-library-buildings-grounds` — #123 (Antigravity). Library of Congress buildings; 122c/30r/26 standalone.
 - 2026-07-18 · `omb/…-aoc-house-office-buildings-fund` — #122 (Antigravity). Degenerate 4-cell HOB fund; 4c/0r/4 standalone.
 - 2026-07-18 · `omb/…-aoc-house-historic-buildings` — #121 (Antigravity). Trust fund, receives HOB transfers; 51c/8r/26 standalone.
-- 2026-07-18 · `omb/…-aoc-capitol-power-plant` — #120 (Claude Fable 5). Richest AoC topology (reimbursable 0900, all-cols 1900/4040, dual 99.0); 123c/33r/21 standalone. **Every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-aoc-botanic-garden` — #129 audit: **GREEN after completeness repair** (Claude Fable 5, one early per Kenrin; 90/90 values exact, missing 1001 memo row added → 91 cells; `AUDITS.md`). Next audit #140.
+- 2026-07-18 · `omb/…-aoc-capitol-power-plant` — #120 (Claude Fable 5). Richest AoC topology (reimbursable 0900, all-cols 1900/4040, dual 99.0); 123c/33r/21 standalone. **Every-10th audit GREEN** (Antigravity; `AUDITS.md`).
 - 2026-07-18 · `omb/…-aoc-house-office-buildings` — #119 (Claude Fable 5). Transfer topology (1010/1120 out to 001-1833, 1121 in from 000-0400); 116c/22r/34 standalone.
 - 2026-07-18 · `omb/…-aoc-senate-office-buildings` — #118 (Claude Fable 5). SPF transfer twin (1011 +4 c2); 116c/19r/32 standalone.
 - 2026-07-18 · `omb/…-aoc-capitol-grounds` — #117 (Claude Fable 5). Two 1120 transfer rows (SPF-twin pattern); 90c/16r/26 standalone.
