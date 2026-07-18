@@ -45,7 +45,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–161, all reconcile GREEN under strict
+**Completed so far — corpus #1–170, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -65,8 +65,12 @@ control-plane project log):
   COMPLETE (15/15)** — Capital Construction and Operations #115,
   Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
   #118, House Office Buildings #119, Capitol Power Plant #120.
+- **Census P60-282 Table A-2 continuation** — #161–170: ALL RACES
+  completed through 1967, modern WHITE ALONE completed through 2002,
+  historical WHITE completed through 1967, and WHITE ALONE, NOT
+  HISPANIC started through the second printed 2013 series row.
 
-Every-10th different-agent spot-audits GREEN through **#139**: #120
+Every-10th different-agent spot-audits GREEN through **#160**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
@@ -74,7 +78,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Next cadence fire is corpus **#170**.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is shipped and audit-DUE**; #171 is blocked until a different agent records GREEN in `AUDITS.md`.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -89,8 +93,8 @@ Schedules A-E). Unit-150 audit GREEN (Antigravity); unit-160 audit
 GREEN after completeness repair (Grok; 175/175 present values exact, 2
 missing standalone rows inserted). **Verification 2026-07-18 (Claude
 Fable 5): full-corpus sweep re-run on a repaired venv — 160/160 GREEN,
-pytest 10/10, audit trail #120-#160 rotation-clean.** Next every-10th
-audit at **#170**.
+pytest 10/10, audit trail #120-#160 rotation-clean.** Corpus **#170 is
+now audit-DUE** after the Census continuation batch below.
 
 - **NEXT DISPATCH — Census P60-282 Table A-2 continuation (zero new
   vendoring, D2).** The 59-page vendored PDF is sha256-ledgered. Its
@@ -106,22 +110,23 @@ audit at **#170**.
   the historical id/file; do not duplicate those eight rows.
 
   **A-2 sizing:** 459 source rows × 11 arithmetic-bearing cells =
-  5,049 cells across 41 source-native cap-fit units. One is shipped,
-  leaving **40 new A-2 units**. Each row carries household count
+  5,049 cells across 41 source-native cap-fit units. Eleven units are
+  now shipped (the legacy-named seed plus #161–170), leaving **30 A-2
+  units**. Each row carries household count
   (standalone), printed total 100, nine bracket percentages, one sum,
   and one percent-closure relation. Maximum 13 rows / 143 cells per
   unit; median/mean columns stay outside this deliberately scoped
   distribution block.
 
-  **Route to the #170 audit gate:** #161 ALL RACES 2016-2005
-  **SHIPPED** (143c/26r/13 standalone; independent source compare
-  143/143 exact). **NEXT: #162** 2004-1992; #163 1991-1979; #164
-  1978-1967 (ALL RACES complete);
-  #165-166 WHITE ALONE 2023-2002; #167-169 historical WHITE
-  2001-1967; #170 WHITE ALONE, NOT HISPANIC 2023 through the second
-  printed 2013 series row. Stop after #170 for a DIFFERENT-agent
-  render-anchored audit before #171 ships. Any non-default tolerance
-  must quote the report's rounding note per DESIGN §3.
+  **AUDIT GATE — NEXT DISPATCH:** #161–170 are **SHIPPED** and all nine
+  newly added units (#162–170) passed independent pypdf comparison
+  (1,210/1,210 cells exact), strict reconcile, and the full corpus gate. A
+  **DIFFERENT agent** must perform the render-anchored audit of #170
+  (`census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013`) and
+  record it in `AUDITS.md`. **Do not ship #171 before that audit is
+  GREEN.** After GREEN, resume the remaining WHITE ALONE, NOT HISPANIC
+  rows under the same 13-row / 143-cell ceiling. Any non-default
+  tolerance must quote the report's rounding note per DESIGN §3.
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
   DESIGN §7 — magic-byte check, soft-404 caution):**
@@ -157,6 +162,15 @@ audit at **#170**.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013` — #170 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit DUE; #171 blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-white-historical-1975-1967` — #169 (Codex). 99c/18r/9 standalone; strict-default GREEN; independent pypdf source comparison 99/99 exact; historical WHITE complete.
+- 2026-07-18 · `census-p60/2023-income-a2-white-historical-1988-1976` — #168 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-white-historical-2001-1989` — #167 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-white-alone-2012-2002` — #166 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; WHITE ALONE complete.
+- 2026-07-18 · `census-p60/2023-income-a2-white-alone-2023-2013` — #165 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-all-races-1978-1967` — #164 (Codex). 132c/24r/12 standalone; strict-default GREEN; independent pypdf source comparison 132/132 exact; ALL RACES complete.
+- 2026-07-18 · `census-p60/2023-income-a2-all-races-1991-1979` — #163 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-all-races-2004-1992` — #162 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-all-races-2016-2005` — #161 (Codex). Table A-2 ALL RACES continuation; 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact; 2013 redesigned row closes at source-authorized tol 0.2.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part2` — #160 (Antigravity). Schedule E Direct Loans Part 2; post-audit 179c/23r (was 175c). **Every-10th audit GREEN after completeness repair** (Grok: 175/175 present values exact; inserted Transitional Housing −1 + AID International Debt Reduction −172/−172/−172; `AUDITS.md`).
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part1` — #159 (Antigravity). Schedule E Direct Loans Part 1; 136c/18r.

@@ -830,3 +830,20 @@ Two printed value-bearing rows were **missing entirely** from the original trans
 
 ### 6. Audit Conclusion
 Antigravity's transcription of `treasury-mts/2026-05-table6-schedule-e-direct-part2` is **value-perfect on every cell that was shipped** (175/175 exact) with **two missing standalone-class rows** (4 cells) that this non-arithmetic cadence exists to catch. Both are now repaired. **GREEN after completeness repair.** Next every-10th different-agent audit lands at corpus **#170**.
+
+
+---
+
+## Spot-Audit: Unit 170 — Census P60-282 Table A-2 WHITE ALONE, NOT HISPANIC 2023-2013 (DUE)
+
+- **Audit status:** **DUE — #171 BLOCKED pending GREEN**
+- **Transcriber:** Codex (`codex/census-p60-sizing`)
+- **Required auditor:** a different agent
+- **Table ID:** `census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013`
+- **Source:** `sources/census/p60-282.pdf`, PDF page 25 (printed page 19), WHITE ALONE, NOT HISPANIC block from 2023 through the second printed 2013 series row
+- **Shipped shape:** 13 rows / 143 cells / 26 relations / 13 standalone household counts
+- **Transcriber evidence:** upright pypdfium2 render inspected; independent pypdf extraction matched 143/143 cells; reconcile GREEN with 0 warnings; full-corpus and pytest gates recorded at checkpoint
+
+### Required non-arithmetic audit
+
+Using a fresh render, verify every row label and all 143 printed values (or a stratified value sample plus a full independent multiset comparison), with special attention to the duplicate 2017 and 2013 redesigned/legacy rows, row completeness, and the five source-authorized 0.1/0.2 rounding tolerances. Record the auditor identity, method, discrepancies or repairs, and final GREEN/RED result here before any corpus #171 unit ships.

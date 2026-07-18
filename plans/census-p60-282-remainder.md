@@ -218,13 +218,13 @@ Expected: tests pass and package metadata remains unchanged unless repository hi
 - Consumes: the verified #161 unit and A-2 split policy.
 - Produces: corpus #162-170, stopping before any #171 work until a different-agent audit of #170 is GREEN.
 
-- [ ] **#162:** ALL RACES 2004-1992, 13 rows / 143 cells.
-- [ ] **#163:** ALL RACES 1991-1979, 13 rows / 143 cells.
-- [ ] **#164:** ALL RACES 1978-1967, 12 rows / 132 cells; ALL RACES complete.
-- [ ] **#165:** WHITE ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
-- [ ] **#166:** WHITE ALONE 2012-2002, 11 rows / 121 cells; WHITE ALONE complete.
-- [ ] **#167:** WHITE historical 2001-1989, 13 rows / 143 cells.
-- [ ] **#168:** WHITE historical 1988-1976, 13 rows / 143 cells.
-- [ ] **#169:** WHITE historical 1975-1967, 9 rows / 99 cells; historical WHITE complete.
-- [ ] **#170:** WHITE ALONE, NOT HISPANIC 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#162:** ALL RACES 2004-1992, 13 rows / 143 cells.
+- [x] **#163:** ALL RACES 1991-1979, 13 rows / 143 cells.
+- [x] **#164:** ALL RACES 1978-1967, 12 rows / 132 cells; ALL RACES complete.
+- [x] **#165:** WHITE ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#166:** WHITE ALONE 2012-2002, 11 rows / 121 cells; WHITE ALONE complete.
+- [x] **#167:** WHITE historical 2001-1989, 13 rows / 143 cells.
+- [x] **#168:** WHITE historical 1988-1976, 13 rows / 143 cells.
+- [x] **#169:** WHITE historical 1975-1967, 9 rows / 99 cells; historical WHITE complete.
+- [x] **#170:** WHITE ALONE, NOT HISPANIC 2023 through the second printed 2013 series row, 13 rows / 143 cells.
 - [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #170 and records it in `AUDITS.md` before #171 ships.
