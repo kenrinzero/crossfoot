@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–95, all reconcile GREEN under strict
+**Completed so far — corpus #1–100, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -50,27 +50,42 @@ control-plane project log):
 - **OMB FY2027 Legislative Branch** — *in progress*: CBO #75; Library of
   Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
   Capitol Police family 4/4 (#89–92); Office of Congressional Workplace
-  Rights #93; GAO 2/2 (#94–95).
+  Rights #93; GAO 2/2 (#94–95); GPO 4/4 (#96–99); Boards and
+  Commissions started — MedPAC #100.
 
-Every-10th different-agent spot-audits GREEN through #90. Unit #90
-(Capitol Police General Expenses) was independently audited GREEN by Codex
-in `AUDITS.md`. Next audit lands at #100. In the OMB chapter,
-Senate + House (pp1–4) carry **zero** P&F schedules (pure appropriations
-language, out of scope); the chapter has ≈40–45 real accounts.
+Every-10th different-agent spot-audits GREEN through #90. **The unit
+#100 audit is now DUE — placeholder in `AUDITS.md`; the transcriber
+(Claude Fable 5) CANNOT self-audit, any other vision-capable agent
+qualifies.** In the OMB chapter, Senate + House (pp1–4) carry **zero**
+P&F schedules (pure appropriations language, out of scope); the chapter
+has ≈40–45 real accounts.
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **GAO complete (2/2, #94–95, 2026-07-18).** Cross-schedule sanity
-  verified across the two units at ship time: `0900`≡`99.9`
-  (926/903/910), `0799`≡`99.0 Direct` (825/812/860), `0899`≡`99.0
-  Reimbursable` (101/91/50) — each unit read its own values from the
-  page independently.
+- **NEXT DISPATCH — Unit #100 spot-audit (D3, vision, DIFFERENT agent
+  than Claude Fable 5).** Placeholder with shape, staged renders, and
+  the high-risk features to sample is in `AUDITS.md`. Do this before
+  (or alongside) further transcription.
+
+- **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
+  ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
+  Reimbursable`. **GPO complete (4/4, #96–99):** the survey's "3
+  accounts" became 4 units — Business Operations Revolving Fund
+  (004-4505) measured 152 cells, over-cap, split by schedule per the
+  GAO precedent. **Boards and Commissions partial survey (2026-07-18,
+  from pp30–32 renders):** MedPAC (235-1550) SHIPPED as #100; also
+  spotted and dispatchable after the #100 audit: US Commission on
+  Security and Cooperation in Europe (009-0110, pp30–31, P&F starts
+  p30 — its tail + ObjClass + Employment are p31 LEFT column, ~55–65
+  cells est.), Medicaid and CHIP Payment and Access Commission
+  (009-1801, p32, ~50–60 cells est.), US-China Economic and Security
+  Review Commission (starts p32). Remaining commissions pp33–37
+  unsurveyed.
 
 - **OMB chapter still fully unsized beyond the above:** Architect of
   the Capitol (~14-15 accounts, pp8-16, the largest remaining
-  department), GPO (3, pp25-28), Legislative Branch Boards and
-  Commissions (~8-10 tiny commissions, pp31-37). Each needs a
-  survey/sizing pass before it is dispatch-ready.
+  department) and the Boards and Commissions remainder (pp33-37). Each
+  needs a survey/sizing pass before it is dispatch-ready.
 
 - **FEC footnote pages pp7-9** stay a Tier-3 stage concern (DESIGN §8) —
   not yet in scope.
@@ -82,6 +97,11 @@ language, out of scope); the chapter has ≈40–45 real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-medpac-salaries-expenses` — #100 (Claude Fable 5). First Boards and Commissions account; 79c/14r/30 standalone; no 0900 row, zero-suppressed nets. **Corpus at 100 — every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-gpo-business-operations-objclass` — #99 (Claude Fable 5). 45c/6r/6 standalone. **GPO complete, 4/4 (#96–99); account 004-4505 fully transcribed (152 cells).**
+- 2026-07-18 · `omb/…-gpo-business-operations-pf` — #98 (Claude Fable 5). Revolving fund P&F, mandatory offsetting collections; 107c/38r/19 standalone; 4160 zero-suppressed all cols.
+- 2026-07-18 · `omb/…-gpo-public-information` — #97 (Claude Fable 5). P&F + ObjClass + Employment; 75c/12r/24 standalone.
+- 2026-07-18 · `omb/…-gpo-congressional-publishing` — #96 (Claude Fable 5). Sole-activity P&F-only account; 49c/6r/27 standalone.
 - 2026-07-18 · `omb/…-gao-salaries-objclass` — #95 (Claude Fable 5). ObjClass + Employment; 66c/9r/6 standalone. **GAO complete, 2/2 (#94–95); account 005-0107 fully transcribed (195 cells).**
 - 2026-07-18 · `omb/…-gao-salaries-pf` — #94 (Claude Fable 5). P&F with offsetting collections + uncollected payments; 129c/39r/16 standalone; spans p28 right col → p29 left col.
 - 2026-07-18 · `omb/…-ocwr-salaries-expenses` — #93 (Codex). 27c/0r/27 standalone; every equality is single-source under `minItems: 2`.
