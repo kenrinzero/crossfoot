@@ -581,15 +581,56 @@ The transcription of `omb/budget-appendix-fy2027-leg-other-boards-commissions` b
 
 ---
 
-## Spot-Audit: Unit 120 — Architect of the Capitol / Capitol Power Plant — PLACEHOLDER
+## Spot-Audit: Unit 120 — Architect of the Capitol / Capitol Power Plant
 
-- **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
+- **Audit Date:** 2026-07-18
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Claude Fable 5 (commit `d5444a1`)
 - **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F on PDF page 11 (printed 23) RIGHT column; ObjClass + Employment on PDF page 12 (printed 24) LEFT column. Staged renders: `scratchpad/aoc-p11-render.png`, `scratchpad/aoc-p12-render.png` (regenerate at 3x via pypdfium2 if absent).
-- **Shape:** 123 cells / 33 relations / 21 standalone; id `001-0133-0-1-801`; three columns (2025 actual / 2026 est. / 2027 est.).
-- **High-risk features the sample should exercise:**
-  - The richest relation topology in the AoC family — the 10-cell sample should stratify across: the reimbursable identity (`0900 = 0001+0801`), the offsetting-collections chain (`1900 = 1100+1700`), the all-columns two-source `4040 = 4030+4033`, the 5-source `3050 c1` (expired 3011/3041 pair), and the dual `99.0` Direct/Reimbursable rows feeding `99.9`.
-  - `1940 Unobligated balance expiring` memo prints -1 in c1 only (rare row, memo non-add).
-  - Cross-schedule identities to spot-check (not encoded): `99.0 Direct` ≡ `0001` (170/138/135), `99.0 Reimbursable` ≡ `0801` (9/10/10), `99.9` ≡ `0900` (179/148/145).
-  - Two-column pages: p11's LEFT column holds the separate 001-1833/001-0137 accounts; p12's RIGHT column holds the separate 001-0155 account — verify no cross-contamination.
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) (PDF page 11 right column, PDF page 12 left column)
+- **Status:** **GREEN** (All verification checks passed with 100% accuracy)
+
+### 1. Metadata Verification
+- **Table Title / Identification code:** "CAPITOL POWER PLANT" (and "CAPITOL POWER PLANT-Continued") under "Architect of the Capitol", matching the source headings verbatim. Identification code is `001-0133-0-1-801`.
+  - *Result:* **PASS**
+- **Period / columns:** "2025 actual" / "2026 est." / "2027 est." (FY 2027 Budget Appendix).
+  - *Result:* **PASS**
+- **Units / Scale:** USD millions for Program and Financing and Object Classification; headcount for Employment Summary FTE.
+  - *Result:* **PASS**
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (3):** 2025 actual · 2026 est. · 2027 est.
+  - *Result:* **PASS**
+- **Rows (45):** Verified all 45 row labels and line codes (Program and Financing, Object Classification, and Employment Summary) against the page renders and text layers.
+  - *Result:* **PASS**
+- **Two-column page discipline:** Left column on PDF page 11 (House Historic Buildings and House Office Buildings) and right column on PDF page 12 (Library Buildings and Grounds) were checked for cross-contamination.
+  - *Result:* **PASS** (Zero contamination)
+- **Omission / zero-suppression conventions:** Blank (dotted-leader) cells were correctly omitted from the JSON instead of being recorded as zeroes (such as the c2/c3 blanks in `1940`, `3011`, `3041`, `4052`, `4060`).
+  - *Result:* **PASS**
+
+### 3. Sampled Cells Verification (10 sampled cells)
+
+The 10-cell sample was stratified to test negative values, offsetting collections, the reimbursable program activity, the gross outlays total, the end-of-year unpaid obligations sum, direct obligations, and the Employment Summary FTE line:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 0001 Capitol Power Plant (Direct) | 2025 actual | leaf | `170` | `170` | **PASS** |
+| `r2c2` | 0801 Capitol Power Plant (Reimbursable) | 2026 est. | leaf | `10` | `10` | **PASS** |
+| `r3c3` | 0900 Total new obligations, unexpired accounts | 2027 est. | total | `145` | `145` | **PASS** |
+| `r10c1` | 1940 Unobligated balance expiring | 2025 actual | standalone | `-1` | `-1` | **PASS** |
+| `r15c2` | 3020 Outlays (gross) | 2026 est. | leaf | `-182` | `-182` | **PASS** |
+| `r17c1` | 3050 Unpaid obligations, end of year | 2025 actual | total | `110` | `110` | **PASS** |
+| `r24c1` | 4030 Federal sources | 2025 actual | leaf | `-9` | `-9` | **PASS** |
+| `r26c3` | 4040 Offsets against gross budget authority and outlays (total) | 2027 est. | total | `-10` | `-10` | **PASS** |
+| `r42c3` | 99.0 Direct obligations | 2027 est. | total | `135` | `135` | **PASS** |
+| `r45c2` | 1001 Direct civilian full-time equivalent employment | 2026 est. | standalone | `117` | `117` | **PASS** |
+
+### 4. Reconcile Gate
+- Command: `uv run python reconcile.py tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json`
+- Output: `GREEN: tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json reconciles (0 warning(s))`
+  - *Result:* **PASS**
+- `uv run pytest`: 10 passed.
+  - *Result:* **PASS**
+
+### 5. Audit Conclusion
+The transcription of `omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant` by Claude Fable 5 is clean, accurate, and completely faithful to the rendered source. The rich relation topology (including the reimbursable identity `0900 = 0001+0801`, gross outlays `4020 = 4010+4011`, offsets `4040 = 4030+4033`, and direct obligations sum) reconciles perfectly with 0 warnings. **GREEN.**
