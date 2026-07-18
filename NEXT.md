@@ -45,7 +45,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–190, all reconcile GREEN under strict
+**Completed so far — corpus #1–200, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -65,17 +65,19 @@ control-plane project log):
   COMPLETE (15/15)** — Capital Construction and Operations #115,
   Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
   #118, House Office Buildings #119, Capitol Power Plant #120.
-- **Census P60-282 Table A-2 continuation** — #161–190: ALL RACES
+- **Census P60-282 Table A-2 continuation COMPLETE** — #161–200: ALL RACES
   completed through 1967, modern WHITE ALONE completed through 2002,
   historical WHITE completed through 1967, both WHITE NOT HISPANIC
   groups completed, both modern BLACK groups completed, and historical
   BLACK completed through 1967; both modern ASIAN groups and the
   historical ASIAN AND PACIFIC ISLANDER group completed; AMERICAN
   INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION completed; and
-  AMERICAN INDIAN AND ALASKA NATIVE ALONE advanced through both 2013
-  series rows.
+  AMERICAN INDIAN AND ALASKA NATIVE ALONE and its historical predecessor
+  completed; TWO OR MORE RACES completed; and HISPANIC (ANY RACE) completed
+  through 1972. Together with the legacy-named seed unit #3, all 41 A-2
+  source-native units are shipped.
 
-Every-10th different-agent spot-audits GREEN through **#180**: #120
+Every-10th different-agent spot-audits GREEN through **#190**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
@@ -114,25 +116,23 @@ audited and GREEN by Antigravity** (unblocking #171).
   page correctly identify **Table A-2, ALL RACES, 2023-2017**. Keep
   the historical id/file; do not duplicate those eight rows.
 
-  **A-2 sizing:** 459 source rows × 11 arithmetic-bearing cells =
-  5,049 source fields across 41 source-native cap-fit units. Thirty-one units are
-  now shipped (the legacy-named seed plus #161–190), leaving **10 A-2
-  units**. Each row carries household count
+  **A-2 sizing and completion:** 459 source rows × 11 arithmetic-bearing
+  fields = 5,049 source fields across 41 source-native cap-fit units. All 41
+  units are now shipped (the legacy-named seed plus #161–200), encoding
+  5,048 numeric cells; one historical household count prints `N` and is
+  documented but omitted under the numeric-only schema. Each row carries household count
   (standalone), printed total 100, nine bracket percentages, one sum,
   and one percent-closure relation. Maximum 13 rows / 143 cells per
   unit; median/mean columns stay outside this deliberately scoped
   distribution block.
 
-  **AUDIT GATE — NEXT DISPATCH:** #181–190 are **SHIPPED** and passed
-  independent pypdf comparison (1,198/1,198 numeric cells exact; the
-  source's single printed `N` household count is documented and omitted
-  under the numeric-only schema), strict reconcile, and the full corpus
-  gate. The render-anchored different-agent audit of #190
-  (`census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013`)
-  has been completed and recorded as **GREEN** in `AUDITS.md` by Antigravity.
-  **#191 is unblocked**; #191 is AMERICAN INDIAN AND ALASKA NATIVE ALONE 2012-2002
-  (11 rows / 121 cells), completing that modern group. Any non-default
-  tolerance must quote the report's rounding note per DESIGN §3.
+  **AUDIT GATE — TABLE A-2 COMPLETE:** #191–200 are **SHIPPED** and passed
+  independent pypdf comparison (1,144/1,144 cells exact), strict reconcile,
+  and the full corpus gate. A different agent must render-anchor and record
+  the #200 audit GREEN in `AUDITS.md` before a new family ships. Unit #200 is
+  `census-p60/2023-income-a2-hispanic-any-race-1975-1972` (4 rows / 44 cells),
+  the final source rows of A-2. After GREEN, refresh the queue for the next
+  Census appendix table or one of the existing D1/web vendoring options.
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
   DESIGN §7 — magic-byte check, soft-404 caution):**
@@ -168,6 +168,16 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1975-1972` — #200 (Codex). 44c/8r/4 standalone; strict-default GREEN; independent pypdf source comparison 44/44 exact; HISPANIC (ANY RACE) and Table A-2 complete. **Different-agent audit DUE; new-family work blocked.**
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1988-1976` — #199 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2001-1989` — #198 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2012-2002` — #197 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2023-2013` — #196 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-two-or-more-races-2012-2002` — #195 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; group complete.
+- 2026-07-18 · `census-p60/2023-income-a2-two-or-more-races-2023-2013` — #194 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-historical-1988-1987` — #193 (Codex). 22c/4r/2 standalone; strict-default GREEN; independent pypdf source comparison 22/22 exact; historical group complete.
+- 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-historical-2001-1989` — #192 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
+- 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-2012-2002` — #191 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; modern group complete.
 - 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013` — #190 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact. **Different-agent audit GREEN (Antigravity); #191 unblocked.**
 - 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-or-in-combination-2012-2002` — #189 (Codex). 121c/22r/11 standalone; strict-default GREEN; independent pypdf source comparison 121/121 exact; group complete.
 - 2026-07-18 · `census-p60/2023-income-a2-american-indian-alaska-native-alone-or-in-combination-2023-2013` — #188 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.

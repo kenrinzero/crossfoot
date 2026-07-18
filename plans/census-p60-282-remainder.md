@@ -15,7 +15,7 @@
 - Every A-2 slice is re-read from `sources/census/p60-282.pdf`; no values are copied from another corpus unit.
 - Every A-2 slice must reconcile GREEN with zero warnings under strict coverage and meet its manifest relation floor.
 - Render verification is mandatory even when the PDF text layer is used for extraction.
-- Corpus #170 and #180 were audited GREEN by agents other than their transcriber before later units shipped; repeat the different-agent gate at corpus #190.
+- Corpus #170, #180, and #190 were audited GREEN by agents other than their transcriber before later units shipped; repeat the different-agent gate at corpus #200.
 - The historical id `census-p60/2023-income-a1` remains unchanged; documentation must identify it as the legacy-named A-2 ALL RACES 2023-2017 slice.
 
 ---
@@ -42,7 +42,7 @@ The source has 13 appendix tables, not the approximately 11 previously stated in
 
 ## Table A-2 sizing
 
-The arithmetic-bearing block has 459 source rows and 5,049 cells at 11 cells per row. Source-native group splits require 41 total units at the 13-row cap. The already-shipped legacy unit covers the first eight ALL RACES rows, leaving 40 new A-2 units.
+The arithmetic-bearing block has 459 source rows and 5,049 source fields at 11 fields per row. One historical household count prints `N`, yielding 5,048 numeric cells under the schema. Source-native group splits require 41 total units at the 13-row cap. The already-shipped legacy unit covers the first eight ALL RACES rows, leaving 40 new A-2 units.
 
 | demographic group | years | rows | cells | cap-fit units |
 |---|---:|---:|---:|---:|
@@ -271,4 +271,26 @@ Expected: tests pass and package metadata remains unchanged unless repository hi
 - [x] **#188:** AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION 2023 through the second printed 2013 series row, 13 rows / 143 cells.
 - [x] **#189:** AMERICAN INDIAN AND ALASKA NATIVE ALONE OR IN COMBINATION 2012-2002, 11 rows / 121 cells; group complete.
 - [x] **#190:** AMERICAN INDIAN AND ALASKA NATIVE ALONE 2023 through the second printed 2013 series row, 13 rows / 143 cells.
-- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #190 and records it in `AUDITS.md` before #191 ships.
+- [x] **Audit gate:** Antigravity performed the different-agent audit of #190 and recorded GREEN in `AUDITS.md`, unblocking #191.
+
+### Task 8: Complete A-2 at the #200 audit gate
+
+**Files:**
+- Create: ten additional `tables/census-p60/*.cells.json` units
+- Modify: `BACKLOG.md`, `NEXT.md`, `README.md`, `AUDITS.md`, and this plan
+
+**Interfaces:**
+- Consumes: the audited-GREEN #190 unit and the same A-2 source-native split policy.
+- Produces: corpus #191-200 and completes Table A-2, stopping before any new family until a different-agent audit of #200 is GREEN.
+
+- [x] **#191:** AMERICAN INDIAN AND ALASKA NATIVE ALONE 2012-2002, 11 rows / 121 cells; modern group complete.
+- [x] **#192:** AMERICAN INDIAN AND ALASKA NATIVE historical 2001-1989, 13 rows / 143 cells.
+- [x] **#193:** AMERICAN INDIAN AND ALASKA NATIVE historical 1988-1987, 2 rows / 22 cells; historical group complete.
+- [x] **#194:** TWO OR MORE RACES 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#195:** TWO OR MORE RACES 2012-2002, 11 rows / 121 cells; group complete.
+- [x] **#196:** HISPANIC (ANY RACE) 2023 through the second printed 2013 series row, 13 rows / 143 cells.
+- [x] **#197:** HISPANIC (ANY RACE) 2012-2002, 11 rows / 121 cells.
+- [x] **#198:** HISPANIC (ANY RACE) 2001-1989, 13 rows / 143 cells.
+- [x] **#199:** HISPANIC (ANY RACE) 1988-1976, 13 rows / 143 cells.
+- [x] **#200:** HISPANIC (ANY RACE) 1975-1972, 4 rows / 44 cells; group and Table A-2 complete.
+- [ ] **Audit gate:** a different agent performs a render-anchored full-value or stratified non-arithmetic audit of #200 and records it in `AUDITS.md` before a new family ships.

@@ -980,3 +980,25 @@ The 10-cell sample was stratified to test household counts, redesigned series, l
 
 ### 5. Audit Conclusion
 Codex's transcription of `census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013` is value-perfect, complete, and completely faithful to the Census P60-282 report. All 143 values are exact, row labels and redesigned/legacy years are accurately represented, and all rounding tolerances are mathematically verified and honest to the source. **GREEN.** Next every-10th different-agent audit: corpus **#200**.
+
+
+---
+
+## Spot-Audit Due: Unit 200 — Census P60-282 Table A-2 HISPANIC (ANY RACE) 1975-1972
+
+- **Status:** **DUE — new-family work is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Codex (`codex/census-p60-sizing`)
+- **Table ID:** `census-p60/2023-income-a2-hispanic-any-race-1975-1972`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF page 35 (printed page 29), final four HISPANIC (ANY RACE) rows and the end of Table A-2
+- **Expected shape:** 4 rows / 44 cells / 8 relations / 4 standalone household counts
+- **Pre-audit ship evidence:** independent pypdf comparison 44/44 exact; strict reconcile GREEN with 0 warnings; full-corpus sweep and pytest must be re-run against the audited head.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor the continuation on PDF page 35 and verify that 1975-1972 are the final four printed rows before "Footnotes provided on next page."
+- [ ] Verify all four row labels and all 44 values, including household counts and the first/last income brackets.
+- [ ] Confirm median and mean columns are deliberately outside this percent-distribution slice and that no value-bearing row or arithmetic-bearing percentage cell is missing.
+- [ ] Recompute all nine-bracket percentage sums. Rows 1974 and 1972 each require exact `tol: "0.1"` with the report's disclosure-protection rounding rationale on both relations; 1975 and 1973 close exactly.
+- [ ] Confirm this unit closes the 54-row HISPANIC (ANY RACE) group and the 459-row / 41-unit Table A-2 transcription without duplicating the legacy-named seed.
+- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a2-hispanic-any-race-1975-1972.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
+- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before a new family ships.
