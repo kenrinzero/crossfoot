@@ -1157,3 +1157,23 @@ Stratified sample to check total/full-time worker counts, medians, MOEs, ratios,
 ### 6. Audit Conclusion
 Grok's transcription of `census-p60/2023-income-a7-2005-1996` is value-perfect, complete, and faithful to Census Table A-7. All 130 values are exact, row labels and footnote-marked years are accurately represented, and all columns match the source exactly. **GREEN.** Next every-10th different-agent audit: corpus **#230**.
 
+---
+
+## Spot-Audit Due: Unit 230 — Census P60-282 Table A-6 FT percent-change median
+
+- **Status:** **DUE — corpus #231+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Grok (main; batch #221–230, 2026-07-19)
+- **Table ID:** `census-p60/2023-income-a6-ft-pct-median`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF pages 45–46 (Table A-6), full-time year-round percent-change-in-median columns (incl. female-to-male earnings ratio row)
+- **Expected shape:** 21 rows / 42 cells / 0 relations / 42 standalone
+- **Pre-audit ship evidence:** pdfplumber extraction; A-7 remainder pypdf ordered 21/21 exact; A-6 spot assertions (people Total 170,900 / FT Total 121,400 / Z→0 / ratio −1.5); all 10 batch units reconcile GREEN 0 warnings; full sweep 230/230; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor PDF pages 45–46; verify 20 characteristic labels + the female-to-male earnings ratio row and both percent-change median columns.
+- [ ] Verify all 42 values (including ratio −1.5 / 1.38); confirm asterisks stripped and no Z on this block.
+- [ ] Confirm 0-relation / all-standalone is appropriate for derived percent-change fields.
+- [ ] Spot-check batch context: at least one A-6 Number roll-up unit (#223–224 or #227–228) against the page (Sex Male+Female→Total and one education roll-up) and one A-7 remainder unit (#221–222) for year-label fidelity.
+- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a6-ft-pct-median.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record results here.
+- [ ] Replace this placeholder with auditor identity, method, evidence, and GREEN/RED before #231 ships.
+

@@ -1,0 +1,426 @@
+{
+  "table_id": "census-p60/2023-income-a6-people-pct-workers",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-6. Earnings Summary Measures by Selected Characteristics: 2022 and 2023",
+    "page": 45,
+    "title": "People with earnings \u2014 percent change in number of workers",
+    "period": "2023 less 2022"
+  },
+  "unit_note": "People with earnings percent-change block. Printed asterisk significance markers are apparatus and stripped; Z (rounds to zero) transcribed as 0. All cells standalone (derived ratios outside the frozen relation vocabulary).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Percent change in number of workers / Estimate"
+    },
+    {
+      "index": 2,
+      "label": "Percent change in number of workers / Margin of error (+/-)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total"
+    },
+    {
+      "index": 2,
+      "label": "Male"
+    },
+    {
+      "index": 3,
+      "label": "Female"
+    },
+    {
+      "index": 4,
+      "label": "White"
+    },
+    {
+      "index": 5,
+      "label": "White, not Hispanic"
+    },
+    {
+      "index": 6,
+      "label": "Black"
+    },
+    {
+      "index": 7,
+      "label": "Asian"
+    },
+    {
+      "index": 8,
+      "label": "Hispanic (any race)"
+    },
+    {
+      "index": 9,
+      "label": "Under 65 years"
+    },
+    {
+      "index": 10,
+      "label": "15 to 24 years"
+    },
+    {
+      "index": 11,
+      "label": "25 to 34 years"
+    },
+    {
+      "index": 12,
+      "label": "35 to 44 years"
+    },
+    {
+      "index": 13,
+      "label": "45 to 54 years"
+    },
+    {
+      "index": 14,
+      "label": "55 to 64 years"
+    },
+    {
+      "index": 15,
+      "label": "65 years and older"
+    },
+    {
+      "index": 16,
+      "label": "Total, aged 25 and older"
+    },
+    {
+      "index": 17,
+      "label": "No high school diploma"
+    },
+    {
+      "index": 18,
+      "label": "High school, no college"
+    },
+    {
+      "index": 19,
+      "label": "Some college"
+    },
+    {
+      "index": 20,
+      "label": "Bachelor's degree or higher"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1.3",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "0.54",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1.0",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "0.68",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "1.6",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "0.80",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1.1",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "0.59",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "0.5",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "0.67",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1.1",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1.77",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1.7",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "2.19",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "3.8",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1.06",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1.0",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "0.50",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-0.9",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1.94",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "0.4",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "0.98",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "1.9",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "0.92",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1.2",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1.01",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "1.8",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "1.40",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "5.1",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "3.36",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "1.6",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "0.57",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "2.9",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "3.95",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "1.8",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "1.94",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1.4",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "1.86",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "1.5",
+      "role": "standalone",
+      "why": "Derived year-over-year comparison; ratio relations are outside the frozen relation vocabulary. Printed Z (rounds to zero) transcribed as 0; asterisk significance markers stripped as apparatus."
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "1.36",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    }
+  ],
+  "relations": []
+}

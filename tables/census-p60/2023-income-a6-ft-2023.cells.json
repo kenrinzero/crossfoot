@@ -1,0 +1,621 @@
+{
+  "table_id": "census-p60/2023-income-a6-ft-2023",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-6. Earnings Summary Measures by Selected Characteristics: 2022 and 2023",
+    "page": 45,
+    "title": "Full-time year-round workers \u2014 2023 column group (Number, median, MOE)",
+    "period": "2023"
+  },
+  "unit_note": "Full-time, year-round workers with earnings block. Printed asterisk significance markers are apparatus and stripped. Worker-count columns carry section roll-ups with source-authorized rounding tolerances; medians and MOEs are non-additive. Race counts are standalone (overlapping race-alone groups).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Number (thousands)"
+    },
+    {
+      "index": 2,
+      "label": "Median earnings / Estimate"
+    },
+    {
+      "index": 3,
+      "label": "Median earnings / Margin of error (+/-)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total"
+    },
+    {
+      "index": 2,
+      "label": "Male"
+    },
+    {
+      "index": 3,
+      "label": "Female"
+    },
+    {
+      "index": 4,
+      "label": "White"
+    },
+    {
+      "index": 5,
+      "label": "White, not Hispanic"
+    },
+    {
+      "index": 6,
+      "label": "Black"
+    },
+    {
+      "index": 7,
+      "label": "Asian"
+    },
+    {
+      "index": 8,
+      "label": "Hispanic (any race)"
+    },
+    {
+      "index": 9,
+      "label": "Under 65 years"
+    },
+    {
+      "index": 10,
+      "label": "15 to 24 years"
+    },
+    {
+      "index": 11,
+      "label": "25 to 34 years"
+    },
+    {
+      "index": 12,
+      "label": "35 to 44 years"
+    },
+    {
+      "index": 13,
+      "label": "45 to 54 years"
+    },
+    {
+      "index": 14,
+      "label": "55 to 64 years"
+    },
+    {
+      "index": 15,
+      "label": "65 years and older"
+    },
+    {
+      "index": 16,
+      "label": "Total, aged 25 and older"
+    },
+    {
+      "index": 17,
+      "label": "No high school diploma"
+    },
+    {
+      "index": 18,
+      "label": "High school, no college"
+    },
+    {
+      "index": 19,
+      "label": "Some college"
+    },
+    {
+      "index": 20,
+      "label": "Bachelor's degree or higher"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "121300",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "61440",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "249",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "68470",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "66790",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "564",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "52850",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "55240",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "628",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "92250",
+      "role": "standalone",
+      "why": "Race and Hispanic-origin groups overlap (race-alone concept plus the Hispanic any-race cross-cut; source race footnote) and do not sum to Total."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "62040",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "295",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "72140",
+      "role": "standalone",
+      "why": "Race and Hispanic-origin groups overlap (race-alone concept plus the Hispanic any-race cross-cut; source race footnote) and do not sum to Total."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "69070",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1688",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "16060",
+      "role": "standalone",
+      "why": "Race and Hispanic-origin groups overlap (race-alone concept plus the Hispanic any-race cross-cut; source race footnote) and do not sum to Total."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "51960",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "497",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "8657",
+      "role": "standalone",
+      "why": "Race and Hispanic-origin groups overlap (race-alone concept plus the Hispanic any-race cross-cut; source race footnote) and do not sum to Total."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "81020",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1291",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "22680",
+      "role": "standalone",
+      "why": "Race and Hispanic-origin groups overlap (race-alone concept plus the Hispanic any-race cross-cut; source race footnote) and do not sum to Total."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "46880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "497",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "114600",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "61450",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "262",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "8722",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "36670",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "509",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "28230",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "57450",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "1070",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "29560",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "66070",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "716",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "26650",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "70370",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "747",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "21470",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "67430",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "1988",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "6689",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "61170",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "818",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "112600",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "63640",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "1404",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "6266",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "37000",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "588",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "27540",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "48810",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "1058",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "27350",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "56740",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "470",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "51450",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "89410",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "2502",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "tol": "20",
+      "why": "Worker counts are independently rounded (source footnote family on rounded components), so rounded components drift from the printed aggregate."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r15c1"
+      ],
+      "target": "r1c1",
+      "tol": "11",
+      "why": "Worker counts are independently rounded (source footnote family on rounded components), so rounded components drift from the printed aggregate."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r9c1",
+      "tol": "32",
+      "why": "Worker counts are independently rounded (source footnote family on rounded components), so rounded components drift from the printed aggregate."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c1",
+        "r18c1",
+        "r19c1",
+        "r20c1"
+      ],
+      "target": "r16c1",
+      "tol": "6",
+      "why": "Worker counts are independently rounded (source footnote family on rounded components), so rounded components drift from the printed aggregate."
+    }
+  ]
+}

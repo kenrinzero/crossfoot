@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**. Corpus **#230 audit is DUE** (transcriber Grok — different agent; placeholder in `AUDITS.md`); #231+ blocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -144,24 +144,23 @@ audited and GREEN by Antigravity** (unblocking #171).
   MOEs, ratios, Gini, percentiles, percent-change, and overlapping race
   counts are standalone with whys.
 
-  **BATCH #211–220 SHIPPED (Grok, 2026-07-19):** B-1 complete (#211–212),
-  B-2 complete (#213–215), B-5 complete (#216–217, all-standalone dispersion),
-  and A-7 started (#218–220, three year bands, 30 rows). Independent pypdf
-  comparisons exact; full sweep 220/220 GREEN; pytest 10/10.
+  **BATCH #211–220 SHIPPED (Grok, 2026-07-19):** B-1/B-2/B-5 complete; A-7
+  started. **#220 audit GREEN** (Antigravity).
 
-  **AUDIT GATE:** the render-anchored different-agent audit of unit **#220**
-  (`census-p60/2023-income-a7-2005-1996`) has been completed and recorded
-  as **GREEN** in `AUDITS.md` by Antigravity. **#221+ is unblocked.** After GREEN,
-  remaining appendix work, in suggested order:
-  1. **A-7 remainder** (1995→1960; older rows drop MOEs → `N` omissions /
-     partial columns — size carefully; ~2–4 more units).
-  2. **A-6 earnings-by-characteristics** (PDF p45–46 readable; Sex
-     Male+Female→Total roll-ups; landscape start page may need reverse-token
-     extraction) — 2–4 units by column group.
-  3. **A-4a/A-4b/A-5** dispersion (landscape, reversed text layer) — size
-     only if wanted; almost all standalone.
-  4. Else prefer the D1/web vendoring options below (MTS June 2026 highest
-     leverage).
+  **BATCH #221–230 SHIPPED (Grok, 2026-07-19):** A-7 full-MOE era complete
+  (#221–222, 51 rows total across five bands); Table A-6 complete (#223–230:
+  people + full-time × {2022, 2023, pct-workers, pct-median}; Sex/age/education
+  Number roll-ups; Z→0; female-to-male ratio on FT pct-median only). Full sweep
+  230/230 GREEN; pytest 10/10.
+
+  **AUDIT GATE:** unit **#230** (`census-p60/2023-income-a6-ft-pct-median`)
+  requires a different-agent audit (placeholder in `AUDITS.md`; transcriber
+  Grok). **#231+ is blocked until it is GREEN.** After GREEN, remaining work:
+  1. **A-7 pre-1975** (MOE prints as N — omit MOE columns or document N;
+     partial rows back to 1960).
+  2. **A-4a/A-4b/A-5** dispersion (landscape, reversed text layer) — mostly
+     standalone.
+  3. Else prefer D1/web vendoring (MTS June 2026 highest leverage).
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
   DESIGN §7 — magic-byte check, soft-404 caution):**
@@ -197,6 +196,16 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-19 · `census-p60/2023-income-a6-ft-pct-median` — #230 (Grok). 42c/0r (incl. ratio row); strict-default GREEN. **Table A-6 complete. Different-agent audit DUE; #231+ blocked.**
+- 2026-07-19 · `census-p60/2023-income-a6-ft-pct-workers` — #229 (Grok). 40c/0r; Z→0 on Total; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-ft-2023` — #228 (Grok). 60c/4r; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-ft-2022` — #227 (Grok). 60c/4r; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-people-pct-median` — #226 (Grok). 40c/0r; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-people-pct-workers` — #225 (Grok). 40c/0r; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-people-2023` — #224 (Grok). 60c/4r; strict-default GREEN.
+- 2026-07-19 · `census-p60/2023-income-a6-people-2022` — #223 (Grok). 60c/4r; Sex/age/educ Number roll-ups; strict-default GREEN. **Table A-6 started.**
+- 2026-07-19 · `census-p60/2023-income-a7-1984-1975` — #222 (Grok). 130c/0r; strict-default GREEN; pypdf ordered exact. **A-7 full-MOE era complete (51 rows).**
+- 2026-07-19 · `census-p60/2023-income-a7-1995-1985` — #221 (Grok). 143c/0r; strict-default GREEN; pypdf ordered exact.
 - 2026-07-19 · `census-p60/2023-income-a7-2005-1996` — #220 (Grok). 130c/0r/130 standalone; strict-default GREEN; pypdf ordered 130/130. **Different-agent audit GREEN (Antigravity); #221+ unblocked.**
 - 2026-07-19 · `census-p60/2023-income-a7-2014-2006` — #219 (Grok). 130c/0r; dual 2013 redesigned/legacy; strict-default GREEN; pypdf ordered exact.
 - 2026-07-19 · `census-p60/2023-income-a7-2023-2015` — #218 (Grok). 130c/0r; dual 2017 series; strict-default GREEN; pypdf ordered exact. **Table A-7 started.**

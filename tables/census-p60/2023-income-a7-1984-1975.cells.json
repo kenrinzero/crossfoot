@@ -1,0 +1,1150 @@
+{
+  "table_id": "census-p60/2023-income-a7-1984-1975",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-7. Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023",
+    "page": 47,
+    "title": "Years 1984 through 1975 (10 year-rows \u00d7 13 measures)",
+    "period": "1984 to 1975"
+  },
+  "unit_note": "Earnings-by-sex time series. Counts, medians, MOEs, and the female-to-male ratio are level/derived fields without sum or percent-closure arithmetic inside this unit; all cells standalone under the frozen relation vocabulary.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "Total workers / Male / Number (thousands)"
+    },
+    {
+      "index": 2,
+      "label": "Total workers / Male / Median earnings"
+    },
+    {
+      "index": 3,
+      "label": "Total workers / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 4,
+      "label": "Total workers / Female / Number (thousands)"
+    },
+    {
+      "index": 5,
+      "label": "Total workers / Female / Median earnings"
+    },
+    {
+      "index": 6,
+      "label": "Total workers / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 7,
+      "label": "Full-time year-round / Male / Number (thousands)"
+    },
+    {
+      "index": 8,
+      "label": "Full-time year-round / Male / Median earnings"
+    },
+    {
+      "index": 9,
+      "label": "Full-time year-round / Male / Margin of error (+/-)"
+    },
+    {
+      "index": 10,
+      "label": "Full-time year-round / Female / Number (thousands)"
+    },
+    {
+      "index": 11,
+      "label": "Full-time year-round / Female / Median earnings"
+    },
+    {
+      "index": 12,
+      "label": "Full-time year-round / Female / Margin of error (+/-)"
+    },
+    {
+      "index": 13,
+      "label": "Female-to-male earnings ratio"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "1984"
+    },
+    {
+      "index": 2,
+      "label": "1983"
+    },
+    {
+      "index": 3,
+      "label": "1982"
+    },
+    {
+      "index": 4,
+      "label": "1981"
+    },
+    {
+      "index": 5,
+      "label": "1980"
+    },
+    {
+      "index": 6,
+      "label": "1979"
+    },
+    {
+      "index": 7,
+      "label": "1978"
+    },
+    {
+      "index": 8,
+      "label": "1977"
+    },
+    {
+      "index": 9,
+      "label": "1976"
+    },
+    {
+      "index": 10,
+      "label": "1975"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "66450",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "44760",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "411",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "55230",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "22810",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "363",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "43810",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "61040",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "515",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "26470",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "38860",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r1c12",
+      "row": 1,
+      "col": 12,
+      "value": "376",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "0.637",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "65140",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "44020",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "397",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "53110",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "22540",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "270",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "41530",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "59930",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "451",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "25170",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "38120",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r2c12",
+      "row": 2,
+      "col": 12,
+      "value": "383",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "0.636",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "64730",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "43870",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "408",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "51820",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "21940",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "263",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "40110",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "60150",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "418",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "23700",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "37140",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r3c12",
+      "row": 3,
+      "col": 12,
+      "value": "413",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "0.617",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "65230",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "45580",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "428",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "51940",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "21860",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "259",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "41770",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "61320",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "354",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "23330",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "36320",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r4c12",
+      "row": 4,
+      "col": 12,
+      "value": "249",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "0.592",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "64730",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "46460",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "529",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "51450",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "21960",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "295",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "41880",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "61710",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "513",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "22860",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "37130",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r5c12",
+      "row": 5,
+      "col": 12,
+      "value": "267",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "0.602",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "64650",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "47670",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "527",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "50900",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "22010",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "309",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "42440",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "62640",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "406",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "22080",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "37370",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r6c12",
+      "row": 6,
+      "col": 12,
+      "value": "315",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "0.597",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "62900",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "48910",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "391",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "48400",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "21160",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "318",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "41040",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "63400",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "358",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "20910",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "37690",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r7c12",
+      "row": 7,
+      "col": 12,
+      "value": "345",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "0.594",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "61700",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "47530",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "404",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "46190",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "20130",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "290",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "39260",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "62980",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "489",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "19240",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "37110",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r8c12",
+      "row": 8,
+      "col": 12,
+      "value": "276",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "0.589",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "60450",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "47230",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "354",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "44570",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "19700",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "302",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "38180",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "61690",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "400",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "18070",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "37130",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r9c12",
+      "row": 9,
+      "col": 12,
+      "value": "302",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "0.602",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "59270",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "46880",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "415",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "42930",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "19160",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "335",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "37270",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "61830",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "399",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "17450",
+      "role": "standalone",
+      "why": "Earnings-by-sex time series level/ratio field; no sum or percent-closure arithmetic inside this unit under the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "36370",
+      "role": "standalone",
+      "why": "Median earnings do not aggregate across characteristic groups."
+    },
+    {
+      "id": "r10c12",
+      "row": 10,
+      "col": 12,
+      "value": "303",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "0.588",
+      "role": "standalone",
+      "why": "Printed female-to-male earnings ratio; ratio arithmetic is outside the frozen relation vocabulary."
+    }
+  ],
+  "relations": []
+}

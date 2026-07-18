@@ -11,11 +11,9 @@ correctness is derived, not trusted.
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
 strict coverage is the default), six public-source families vendored, and
-**220 transcription units shipped**. Treasury MTS May 2026, OMB FY2027
-Legislative Branch, BLS 2024 relative importance, FEC 2024 presidential
-results, and Census P60-282 Tables A-1..A-3, B-1..B-5 (B-5 complete), plus
-A-7 started (#218–220). Unit **#220** awaits its required different-agent
-audit before #221 ships.
+**230 transcription units shipped**. Census appendix progress: A-1..A-3,
+A-6 complete, A-7 full-MOE era complete (51 rows), B-1..B-5 complete.
+Unit **#230** awaits its required different-agent audit before #231 ships.
 
 
 ## How a unit works
