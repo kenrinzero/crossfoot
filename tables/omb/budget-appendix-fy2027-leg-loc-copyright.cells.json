@@ -1,0 +1,1509 @@
+{
+  "table_id": "budget-appendix-fy2027-leg-loc-copyright",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "Library of Congress - Copyright Office Salaries and Expenses",
+    "page": 19,
+    "title": "Library of Congress - Copyright Office",
+    "period": "FY 2027"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Registration, recordation, cataloging, acquisitions, & public reference (Basic)"
+    },
+    {
+      "index": 2,
+      "label": "0002 Determinations by Copyright Royalty Judges"
+    },
+    {
+      "index": 3,
+      "label": "0799 Total direct obligations"
+    },
+    {
+      "index": 4,
+      "label": "0801 Registration, recordation, cataloging, acquisitions, & public reference (Basic)"
+    },
+    {
+      "index": 5,
+      "label": "0802 Licensing"
+    },
+    {
+      "index": 6,
+      "label": "0803 Copyright Royalty Judges"
+    },
+    {
+      "index": 7,
+      "label": "0899 Total reimbursable obligations"
+    },
+    {
+      "index": 8,
+      "label": "0900 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 9,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 10,
+      "label": "1021 Recoveries of prior year unpaid obligations"
+    },
+    {
+      "index": 11,
+      "label": "1070 Unobligated balance (total)"
+    },
+    {
+      "index": 12,
+      "label": "1100 Appropriation"
+    },
+    {
+      "index": 13,
+      "label": "1700 Collected"
+    },
+    {
+      "index": 14,
+      "label": "1900 Budget authority (total)"
+    },
+    {
+      "index": 15,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 16,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 17,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 18,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 19,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 20,
+      "label": "3040 Recoveries of prior year unpaid obligations, unexpired"
+    },
+    {
+      "index": 21,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 22,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 23,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 24,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 25,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 26,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 27,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 28,
+      "label": "4030 Federal sources"
+    },
+    {
+      "index": 29,
+      "label": "4033 Non-Federal sources"
+    },
+    {
+      "index": 30,
+      "label": "4040 Offsets against gross budget authority and outlays (total)"
+    },
+    {
+      "index": 31,
+      "label": "4070 Budget authority, net (discretionary)"
+    },
+    {
+      "index": 32,
+      "label": "4080 Outlays, net (discretionary)"
+    },
+    {
+      "index": 33,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 34,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 35,
+      "label": "11.1 Full-time permanent"
+    },
+    {
+      "index": 36,
+      "label": "11.5 Other personnel compensation"
+    },
+    {
+      "index": 37,
+      "label": "11.9 Total personnel compensation"
+    },
+    {
+      "index": 38,
+      "label": "12.1 Civilian personnel benefits"
+    },
+    {
+      "index": 39,
+      "label": "23.3 Communications, utilities, and miscellaneous charges"
+    },
+    {
+      "index": 40,
+      "label": "25.1 Advisory and assistance services"
+    },
+    {
+      "index": 41,
+      "label": "25.3 Other goods and services from Federal sources"
+    },
+    {
+      "index": 42,
+      "label": "25.7 Operation and maintenance of equipment"
+    },
+    {
+      "index": 43,
+      "label": "99.0 Direct obligations"
+    },
+    {
+      "index": 44,
+      "label": "99.0 Reimbursable obligations"
+    },
+    {
+      "index": 45,
+      "label": "99.5 Adjustment for rounding"
+    },
+    {
+      "index": 46,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 47,
+      "label": "1001 Direct civilian full-time equivalent employment"
+    },
+    {
+      "index": 48,
+      "label": "2001 Reimbursable civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "55",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "57",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "58",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "57",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "60",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "37",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "40",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "53",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "45",
+      "role": "total"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "48",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "111",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "102",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "108",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "25",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "25",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "25",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "25",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "58",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "57",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "60",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "106",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "102",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "108",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "136",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "127",
+      "role": "total"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "133",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "25",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "25",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "25",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "111",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "102",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "108",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "-110",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "-102",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "-107",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "17",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "17",
+      "role": "total"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "18",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "22",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "17",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "18",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "106",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "102",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "108",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "89",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "87",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "92",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "110",
+      "role": "total"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "102",
+      "role": "total"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "107",
+      "role": "total"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "-8",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "-8",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "-48",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "-37",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "-40",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "-48",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "-45",
+      "role": "total"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "-48",
+      "role": "total"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "58",
+      "role": "total"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "57",
+      "role": "total"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "60",
+      "role": "total"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "62",
+      "role": "total"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "57",
+      "role": "total"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "value": "59",
+      "role": "total"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "58",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "57",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "60",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "62",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "57",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "value": "59",
+      "role": "standalone",
+      "why": "Memorandum"
+    },
+    {
+      "id": "r35c1",
+      "row": 35,
+      "col": 1,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "26",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r35c3",
+      "row": 35,
+      "col": 3,
+      "value": "29",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "28",
+      "role": "total"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "26",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r37c3",
+      "row": 37,
+      "col": 3,
+      "value": "29",
+      "role": "standalone",
+      "why": "Single-source"
+    },
+    {
+      "id": "r38c1",
+      "row": 38,
+      "col": 1,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c2",
+      "row": 38,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c3",
+      "row": 38,
+      "col": 3,
+      "value": "11",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c3",
+      "row": 39,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c1",
+      "row": 40,
+      "col": 1,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c2",
+      "row": 40,
+      "col": 2,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c3",
+      "row": 40,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c1",
+      "row": 41,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c2",
+      "row": 41,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c3",
+      "row": 41,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r43c1",
+      "row": 43,
+      "col": 1,
+      "value": "58",
+      "role": "total"
+    },
+    {
+      "id": "r43c2",
+      "row": 43,
+      "col": 2,
+      "value": "58",
+      "role": "total"
+    },
+    {
+      "id": "r43c3",
+      "row": 43,
+      "col": 3,
+      "value": "59",
+      "role": "total"
+    },
+    {
+      "id": "r44c1",
+      "row": 44,
+      "col": 1,
+      "value": "51",
+      "role": "leaf"
+    },
+    {
+      "id": "r44c2",
+      "row": 44,
+      "col": 2,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r44c3",
+      "row": 44,
+      "col": 3,
+      "value": "46",
+      "role": "leaf"
+    },
+    {
+      "id": "r45c1",
+      "row": 45,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r45c2",
+      "row": 45,
+      "col": 2,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r45c3",
+      "row": 45,
+      "col": 3,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r46c1",
+      "row": 46,
+      "col": 1,
+      "value": "111",
+      "role": "total"
+    },
+    {
+      "id": "r46c2",
+      "row": 46,
+      "col": 2,
+      "value": "102",
+      "role": "total"
+    },
+    {
+      "id": "r46c3",
+      "row": 46,
+      "col": 3,
+      "value": "108",
+      "role": "total"
+    },
+    {
+      "id": "r47c1",
+      "row": 47,
+      "col": 1,
+      "value": "217",
+      "role": "standalone",
+      "why": "Employment"
+    },
+    {
+      "id": "r47c2",
+      "row": 47,
+      "col": 2,
+      "value": "247",
+      "role": "standalone",
+      "why": "Employment"
+    },
+    {
+      "id": "r47c3",
+      "row": 47,
+      "col": 3,
+      "value": "247",
+      "role": "standalone",
+      "why": "Employment"
+    },
+    {
+      "id": "r48c1",
+      "row": 48,
+      "col": 1,
+      "value": "221",
+      "role": "standalone",
+      "why": "Employment"
+    },
+    {
+      "id": "r48c2",
+      "row": 48,
+      "col": 2,
+      "value": "231",
+      "role": "standalone",
+      "why": "Employment"
+    },
+    {
+      "id": "r48c3",
+      "row": 48,
+      "col": 3,
+      "value": "231",
+      "role": "standalone",
+      "why": "Employment"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r3c1",
+      "sources": [
+        "r1c1",
+        "r2c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r7c1",
+      "sources": [
+        "r4c1",
+        "r5c1",
+        "r6c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r8c1",
+      "sources": [
+        "r3c1",
+        "r7c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r11c1",
+      "sources": [
+        "r9c1",
+        "r10c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r14c1",
+      "sources": [
+        "r12c1",
+        "r13c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c1",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c1",
+      "sources": [
+        "r17c1",
+        "r18c1",
+        "r19c1",
+        "r20c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r27c1",
+      "sources": [
+        "r25c1",
+        "r26c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c1",
+      "sources": [
+        "r24c1",
+        "r30c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c1",
+      "sources": [
+        "r27c1",
+        "r30c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r37c1",
+      "sources": [
+        "r35c1",
+        "r36c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r43c1",
+      "sources": [
+        "r37c1",
+        "r38c1",
+        "r40c1",
+        "r41c1",
+        "r42c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r46c1",
+      "sources": [
+        "r43c1",
+        "r44c1",
+        "r45c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r3c2",
+      "sources": [
+        "r1c2",
+        "r2c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r7c2",
+      "sources": [
+        "r4c2",
+        "r5c2",
+        "r6c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r8c2",
+      "sources": [
+        "r3c2",
+        "r7c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r14c2",
+      "sources": [
+        "r12c2",
+        "r13c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c2",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c2",
+      "sources": [
+        "r17c2",
+        "r18c2",
+        "r19c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r27c2",
+      "sources": [
+        "r25c2",
+        "r26c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r30c2",
+      "sources": [
+        "r29c2",
+        "r28c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c2",
+      "sources": [
+        "r24c2",
+        "r30c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c2",
+      "sources": [
+        "r27c2",
+        "r30c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r43c2",
+      "sources": [
+        "r37c2",
+        "r38c2",
+        "r40c2",
+        "r41c2",
+        "r42c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r46c2",
+      "sources": [
+        "r43c2",
+        "r44c2",
+        "r45c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r3c3",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r7c3",
+      "sources": [
+        "r4c3",
+        "r5c3",
+        "r6c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r8c3",
+      "sources": [
+        "r3c3",
+        "r7c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r14c3",
+      "sources": [
+        "r12c3",
+        "r13c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c3",
+      "sources": [
+        "r11c3",
+        "r14c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r21c3",
+      "sources": [
+        "r17c3",
+        "r18c3",
+        "r19c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r27c3",
+      "sources": [
+        "r25c3",
+        "r26c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r30c3",
+      "sources": [
+        "r29c3",
+        "r28c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c3",
+      "sources": [
+        "r24c3",
+        "r30c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c3",
+      "sources": [
+        "r27c3",
+        "r30c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r43c3",
+      "sources": [
+        "r37c3",
+        "r38c3",
+        "r40c3",
+        "r41c3",
+        "r39c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r46c3",
+      "sources": [
+        "r43c3",
+        "r44c3",
+        "r45c3"
+      ],
+      "type": "sum"
+    }
+  ]
+}

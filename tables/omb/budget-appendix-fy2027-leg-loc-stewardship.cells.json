@@ -1,0 +1,312 @@
+{
+  "table_id": "budget-appendix-fy2027-leg-loc-stewardship",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "Library of Congress - National Collection Stewardship Fund",
+    "page": 18,
+    "title": "Library of Congress - National Collection Stewardship Fund",
+    "period": "FY 2027"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Direct program activity"
+    },
+    {
+      "index": 2,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 3,
+      "label": "1012 Unobligated balance transfers between expired and unexpired accounts"
+    },
+    {
+      "index": 4,
+      "label": "1070 Unobligated balance (total)"
+    },
+    {
+      "index": 5,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 6,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 7,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 8,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 9,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 10,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 11,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 12,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 13,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 14,
+      "label": "4190 Outlays, net (total)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "P&F leaf not used in relation"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source Unobligated balance"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source Unobligated balance"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source Unobligated balance"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source Unobligated balance"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "30",
+      "role": "standalone",
+      "why": "Single-source budgetary resources identity"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source budgetary resources identity"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source budgetary resources identity"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "27",
+      "role": "standalone",
+      "why": "Memorandum non-add"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "27",
+      "role": "standalone",
+      "why": "Memorandum non-add"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "27",
+      "role": "standalone",
+      "why": "Memorandum non-add"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source or missing target"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-4",
+      "role": "standalone",
+      "why": "Single-source or missing target"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source identity"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Single-source identity"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r4c1",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r10c1",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1"
+      ],
+      "type": "sum"
+    }
+  ]
+}
