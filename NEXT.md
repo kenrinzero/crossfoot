@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–117, all reconcile GREEN under strict
+**Completed so far — corpus #1–120, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -56,43 +56,46 @@ control-plane project log):
   MACPAC, US-China, USCIRF, CECC, HDP, Senate Preservation Fund,
   Semiquincentennial, COIL, Other Boards, Stennis, Capitol
   Preservation, Open World, GFRA); **Architect of the Capitol
-  started** — Capital Construction and Operations #115, Capitol
-  Building #116, Capitol Grounds #117.
+  in progress, 6/13** — Capital Construction and Operations #115,
+  Capitol Building #116, Capitol Grounds #117, Senate Office Buildings
+  #118, House Office Buildings #119, Capitol Power Plant #120.
 
 Every-10th different-agent spot-audits GREEN through #110 (Other
-Boards, Kimi — full 15/15 coverage of the zero-relation unit). **Next
-every-10th audit lands at corpus #120.** In the OMB
+Boards, Kimi). **The unit #120 audit (Capitol Power Plant) is now DUE
+— placeholder in `AUDITS.md`; the transcriber (Claude Fable 5) CANNOT
+self-audit; richest relation topology in the family, stratify the
+sample accordingly.** In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **AoC SURVEYED (id-code map, 2026-07-18) and STARTED — 3/13 shipped
-  (#115–117).** Text extracts + 3x renders staged in `scratchpad/`
-  (`aoc-p8..p16-*`). Remaining 10 accounts in page order, each a
-  standard D2 unit (P&F + usually ObjClass + Employment; ~50–110
-  cells; the shipped #115–117 are the conventions template):
-  1. `001-0123` Senate Office Buildings (pp9–10; P&F starts p9
-     bottom-right — 0001 115/160/170, **1011 transfer FROM
-     [000-5509] = +4 c2, the SPF twin**)
-  2. `001-0127` House Office Buildings (pp10–11)
-  3. `001-0133` Capitol Power Plant (pp11–12; expect offsetting
-     collections)
-  4. `001-0137` Library Buildings and Grounds (p11)
-  5. `001-1833` Capitol Police Buildings, Grounds and Security (p11)
-  6. `001-0155` Capitol Visitor Center (p12)
-  7. `001-0171` Botanic Garden (pp12–13)
-  8. `001-0161` Judiciary Office Building (p13; **receives the -1
-     transfer from Capitol Grounds #117**)
-  9. `001-4296` + `001-4297` + `001-4518` revolving funds (pp13–14;
-     expect mandatory offsetting-collections machinery per GPO 004-4505
-     — check sizes, may need by-schedule splits)
-  10. `009-0200` (p16; **receives the -2 transfer from Capitol Grounds
-     #117** — identify the account heading from the p16 render; p15 is
-     pure narrative/language, no schedules)
-  Next every-10th different-agent audit at corpus **#120** — lands 3
-  units into this queue; plan transcriber rotation accordingly.
+- **NEXT DISPATCH — Unit #120 spot-audit (D3, vision, DIFFERENT agent
+  than Claude Fable 5).** Placeholder with staged renders and the
+  stratification guidance is in `AUDITS.md`.
+
+- **AoC remainder after the audit — 7 accounts, pp11–16 (surveyed;
+  account names CORRECTED from the p11–p12 renders — the original
+  survey guesses for 0137/0155/0171/1833 were wrong):**
+  1. `001-1833` House Historic Buildings Revitalization Trust Fund
+     (p11 left; ~55–65c; **receives 001-0127's 1010/1120 transfers —
+     its 1011/1121 rows mirror #119's**)
+  2. `001-0137` House Office Buildings Fund (p11 left bottom; TINY —
+     4 cells, 1702/1724 offsetting-collections pair netting to zero,
+     4180/4190 blank; zero-relation class)
+  3. `001-0155` Library Buildings and Grounds (pp12–13; P&F p12
+     right col — 0001 78/104/115, 0801 reimbursable –/2/2)
+  4. `001-0171` Capitol Police Buildings, Grounds and Security
+     (pp12–13; 0001 192/168/150, big balances)
+  5. `001-0161` (p13; **receives the -1 transfer from Capitol
+     Grounds #117**)
+  6. `001-4296` + `001-4297` + `001-4518` revolving funds (pp13–14;
+     expect mandatory offsetting-collections machinery per GPO
+     004-4505 — check sizes, may need by-schedule splits)
+  7. `009-0200` (p16; **receives the -2 transfer from Capitol Grounds
+     #117**; p15 is pure narrative/language, no schedules)
+  Next audit after #120 lands at corpus #130.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
@@ -119,6 +122,9 @@ Provisions (legal text, out of scope).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-aoc-capitol-power-plant` — #120 (Claude Fable 5). Richest AoC topology (reimbursable 0900, all-cols 1900/4040, dual 99.0); 123c/33r/21 standalone. **Every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-aoc-house-office-buildings` — #119 (Claude Fable 5). Transfer topology (1010/1120 out to 001-1833, 1121 in from 000-0400); 116c/22r/34 standalone.
+- 2026-07-18 · `omb/…-aoc-senate-office-buildings` — #118 (Claude Fable 5). SPF transfer twin (1011 +4 c2); 116c/19r/32 standalone.
 - 2026-07-18 · `omb/…-aoc-capitol-grounds` — #117 (Claude Fable 5). Two 1120 transfer rows (SPF-twin pattern); 90c/16r/26 standalone.
 - 2026-07-18 · `omb/…-aoc-capitol-building` — #116 (Claude Fable 5). Incl. Flag Office Revolving fund; 6-source 3050 c1; 103c/18r/33 standalone.
 - 2026-07-18 · `omb/…-aoc-capital-construction-ops` — #115 (Claude Fable 5). **AoC started (3/13).** Department starter; 101c/19r/30 standalone.
