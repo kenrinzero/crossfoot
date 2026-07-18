@@ -1,0 +1,979 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-cbo",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "Congressional Budget Office",
+    "page": 7,
+    "title": "Congressional Budget Office - Salaries and Expenses",
+    "period": "FY 2027"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Salaries and Expenses (Direct)"
+    },
+    {
+      "index": 2,
+      "label": "1100 Appropriation"
+    },
+    {
+      "index": 3,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 4,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 5,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 6,
+      "label": "3011 Obligations (upward adjustments), expired accounts"
+    },
+    {
+      "index": 7,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 8,
+      "label": "3041 Recoveries of prior year unpaid obligations, expired"
+    },
+    {
+      "index": 9,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 10,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 11,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 12,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 13,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 14,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 15,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 16,
+      "label": "4033 Non-Federal sources"
+    },
+    {
+      "index": 17,
+      "label": "4052 Offsetting collections credited to expired accounts"
+    },
+    {
+      "index": 18,
+      "label": "4070 Budget authority, net (discretionary)"
+    },
+    {
+      "index": 19,
+      "label": "4080 Outlays, net (discretionary)"
+    },
+    {
+      "index": 20,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 21,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 22,
+      "label": "11.1 Full-time permanent"
+    },
+    {
+      "index": 23,
+      "label": "11.3 Other than full-time permanent"
+    },
+    {
+      "index": 24,
+      "label": "11.5 Other personnel compensation"
+    },
+    {
+      "index": 25,
+      "label": "11.9 Total personnel compensation"
+    },
+    {
+      "index": 26,
+      "label": "12.1 Civilian personnel benefits"
+    },
+    {
+      "index": 27,
+      "label": "23.3 Communications, utilities, and miscellaneous charges"
+    },
+    {
+      "index": 28,
+      "label": "25.1 Advisory and assistance services"
+    },
+    {
+      "index": 29,
+      "label": "25.2 Other services from non-Federal sources"
+    },
+    {
+      "index": 30,
+      "label": "25.7 Operation and maintenance of equipment"
+    },
+    {
+      "index": 31,
+      "label": "31.0 Equipment"
+    },
+    {
+      "index": 32,
+      "label": "99.0 Direct obligations"
+    },
+    {
+      "index": 33,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 34,
+      "label": "1001 Direct civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "P&F leaf not used in relation"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "P&F leaf not used in relation"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "P&F leaf not used in relation"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "Single-source applicable column"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source applicable column"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Single-source applicable column"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "Total row for single-source applicable column"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Total row for single-source applicable column"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Total row for single-source applicable column"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "70",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "75",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-73",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-74",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-75",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "6",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "7",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "8",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "8",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "8",
+      "role": "standalone",
+      "why": "Single-source roll-forward identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "70",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source applicable column due to missing offsets"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Single-source applicable column due to missing offsets"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "65",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "73",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "74",
+      "role": "standalone",
+      "why": "Single-source gross outlays column due to missing offsets"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source gross outlays column due to missing offsets"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "70",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Total row for single-source applicable column"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Total row for single-source applicable column"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "72",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "74",
+      "role": "standalone",
+      "why": "Total row for single-source outlays column"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "75",
+      "role": "standalone",
+      "why": "Total row for single-source outlays column"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "72",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "74",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "45",
+      "role": "total"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "46",
+      "role": "total"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "46",
+      "role": "total"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "70",
+      "role": "total"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "75",
+      "role": "total"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "value": "76",
+      "role": "total"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "70",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "75",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "76",
+      "role": "standalone",
+      "why": "Single-source identity forbidden by schema minItems 2"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "275",
+      "role": "standalone",
+      "why": "Employment summary"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "272",
+      "role": "standalone",
+      "why": "Employment summary"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "value": "285",
+      "role": "standalone",
+      "why": "Employment summary"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r9c1",
+      "sources": [
+        "r4c1",
+        "r5c1",
+        "r7c1",
+        "r6c1",
+        "r8c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c1",
+      "sources": [
+        "r13c1",
+        "r14c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r18c1",
+      "sources": [
+        "r12c1",
+        "r16c1",
+        "r17c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c1",
+      "sources": [
+        "r15c1",
+        "r16c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r25c1",
+      "sources": [
+        "r22c1",
+        "r23c1",
+        "r24c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c1",
+      "sources": [
+        "r25c1",
+        "r26c1",
+        "r28c1",
+        "r29c1",
+        "r30c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r9c2",
+      "sources": [
+        "r4c2",
+        "r5c2",
+        "r7c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c2",
+      "sources": [
+        "r13c2",
+        "r14c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r25c2",
+      "sources": [
+        "r22c2",
+        "r23c2",
+        "r24c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c2",
+      "sources": [
+        "r25c2",
+        "r26c2",
+        "r28c2",
+        "r29c2",
+        "r30c2",
+        "r27c2",
+        "r31c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r9c3",
+      "sources": [
+        "r4c3",
+        "r5c3",
+        "r7c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c3",
+      "sources": [
+        "r13c3",
+        "r14c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r25c3",
+      "sources": [
+        "r22c3",
+        "r23c3",
+        "r24c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r32c3",
+      "sources": [
+        "r25c3",
+        "r26c3",
+        "r28c3",
+        "r29c3",
+        "r30c3",
+        "r27c3",
+        "r31c3"
+      ],
+      "type": "sum"
+    }
+  ]
+}
