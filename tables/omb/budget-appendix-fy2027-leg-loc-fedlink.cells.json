@@ -1,0 +1,1214 @@
+{
+  "table_id": "budget-appendix-fy2027-leg-loc-fedlink",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "Library of Congress - FEDLINK Program and Federal Research Program",
+    "page": 22,
+    "title": "Library of Congress - FEDLINK Program and Federal Research Program",
+    "period": "FY 2027"
+  },
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0801 Fedlink and Federal Research"
+    },
+    {
+      "index": 2,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 3,
+      "label": "1021 Recoveries of prior year unpaid obligations"
+    },
+    {
+      "index": 4,
+      "label": "1033 Recoveries of prior year paid obligations"
+    },
+    {
+      "index": 5,
+      "label": "1070 Unobligated balance (total)"
+    },
+    {
+      "index": 6,
+      "label": "1700 Collected"
+    },
+    {
+      "index": 7,
+      "label": "1701 Change in uncollected payments, Federal sources"
+    },
+    {
+      "index": 8,
+      "label": "1750 Spending authority from offsetting collections, discretionary (total)"
+    },
+    {
+      "index": 9,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 10,
+      "label": "1941 Unexpired unobligated balance, end of year"
+    },
+    {
+      "index": 11,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 12,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 13,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 14,
+      "label": "3040 Recoveries of prior year unpaid obligations, unexpired"
+    },
+    {
+      "index": 15,
+      "label": "3050 Unpaid obligations, end of year"
+    },
+    {
+      "index": 16,
+      "label": "3060 Uncollected pymts, Fed sources, brought forward, Oct 1"
+    },
+    {
+      "index": 17,
+      "label": "3070 Change in uncollected pymts, Fed sources, unexpired"
+    },
+    {
+      "index": 18,
+      "label": "3090 Uncollected pymts, Fed sources, end of year"
+    },
+    {
+      "index": 19,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 20,
+      "label": "3200 Obligated balance, end of year"
+    },
+    {
+      "index": 21,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 22,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 23,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 24,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 25,
+      "label": "4030 Federal sources"
+    },
+    {
+      "index": 26,
+      "label": "4033 Non-Federal sources"
+    },
+    {
+      "index": 27,
+      "label": "4040 Offsets against gross budget authority and outlays (total)"
+    },
+    {
+      "index": 28,
+      "label": "4050 Change in uncollected pymts, Fed sources, unexpired"
+    },
+    {
+      "index": 29,
+      "label": "4053 Recoveries of prior year paid obligations, unexpired accounts"
+    },
+    {
+      "index": 30,
+      "label": "4060 Additional offsets against budget authority only (total)"
+    },
+    {
+      "index": 31,
+      "label": "4080 Outlays, net (discretionary)"
+    },
+    {
+      "index": 32,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 33,
+      "label": "11.1 Personnel compensation: Full-time permanent"
+    },
+    {
+      "index": 34,
+      "label": "12.1 Civilian personnel benefits"
+    },
+    {
+      "index": 35,
+      "label": "25.1 Advisory and assistance services"
+    },
+    {
+      "index": 36,
+      "label": "25.2 Other services from non-Federal sources"
+    },
+    {
+      "index": 37,
+      "label": "25.3 Other goods and services from Federal sources"
+    },
+    {
+      "index": 38,
+      "label": "31.0 Equipment"
+    },
+    {
+      "index": 39,
+      "label": "44.0 Refunds"
+    },
+    {
+      "index": 40,
+      "label": "99.0 Reimbursable obligations"
+    },
+    {
+      "index": 41,
+      "label": "99.5 Adjustment for rounding"
+    },
+    {
+      "index": 42,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    },
+    {
+      "index": 43,
+      "label": "2001 Reimbursable civilian full-time equivalent employment"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "100",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "308",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "308",
+      "role": "standalone",
+      "why": "Sole program activity line, equals 3010 New obligations exactly, no distinct total line"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source this column; no recoveries (1021/1033) this period, equals 1070 exactly"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Single-source this column; no recoveries (1021/1033) this period, equals 1070 exactly"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "56",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "88",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "308",
+      "role": "standalone",
+      "why": "Single-source this column; no change-in-uncollected-payments (1701) this period, equals 1750 exactly"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "308",
+      "role": "standalone",
+      "why": "Single-source this column; no change-in-uncollected-payments (1701) this period, equals 1750 exactly"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "87",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "143",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "351",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "351",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "43",
+      "role": "standalone",
+      "why": "Memorandum, non-add"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "43",
+      "role": "standalone",
+      "why": "Memorandum, non-add"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "43",
+      "role": "standalone",
+      "why": "Memorandum, non-add"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "29",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "80",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "100",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-99",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-257",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-305",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "29",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "80",
+      "role": "total"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "83",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-1",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "28",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "28",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "79",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "28",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "79",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "82",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "87",
+      "role": "standalone",
+      "why": "Single-source, equals 1750 Spending authority from offsetting collections exactly"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "308",
+      "role": "standalone",
+      "why": "Single-source, equals 1750 Spending authority from offsetting collections exactly"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "308",
+      "role": "standalone",
+      "why": "Single-source, equals 1750 Spending authority from offsetting collections exactly"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "194",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "194",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "111",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "99",
+      "role": "total"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "257",
+      "role": "total"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "305",
+      "role": "total"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "-88",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "-308",
+      "role": "standalone",
+      "why": "Single-source Federal offset; no Non-Federal (4033) offset this period, equals 4040 exactly"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "-308",
+      "role": "standalone",
+      "why": "Single-source Federal offset; no Non-Federal (4033) offset this period, equals 4040 exactly"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "-90",
+      "role": "total"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "-308",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "-308",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "3",
+      "role": "total"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "9",
+      "role": "total"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "-51",
+      "role": "total"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "-3",
+      "role": "total"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "9",
+      "role": "standalone",
+      "why": "Single-source, equals 4080 Outlays net (discretionary) exactly"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "-51",
+      "role": "standalone",
+      "why": "Single-source, equals 4080 Outlays net (discretionary) exactly"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source, equals 4080 Outlays net (discretionary) exactly"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c2",
+      "row": 35,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r35c3",
+      "row": 35,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c1",
+      "row": 36,
+      "col": 1,
+      "value": "59",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c2",
+      "row": 36,
+      "col": 2,
+      "value": "250",
+      "role": "leaf"
+    },
+    {
+      "id": "r36c3",
+      "row": 36,
+      "col": 3,
+      "value": "250",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c1",
+      "row": 37,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c2",
+      "row": 37,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r37c3",
+      "row": 37,
+      "col": 3,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c1",
+      "row": 38,
+      "col": 1,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c2",
+      "row": 38,
+      "col": 2,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r38c3",
+      "row": 38,
+      "col": 3,
+      "value": "42",
+      "role": "leaf"
+    },
+    {
+      "id": "r39c1",
+      "row": 39,
+      "col": 1,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r40c1",
+      "row": 40,
+      "col": 1,
+      "value": "100",
+      "role": "total"
+    },
+    {
+      "id": "r40c2",
+      "row": 40,
+      "col": 2,
+      "value": "307",
+      "role": "total"
+    },
+    {
+      "id": "r40c3",
+      "row": 40,
+      "col": 3,
+      "value": "307",
+      "role": "total"
+    },
+    {
+      "id": "r41c2",
+      "row": 41,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r41c3",
+      "row": 41,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "100",
+      "role": "standalone",
+      "why": "Single-source, equals 99.0 Reimbursable obligations exactly, no rounding adjustment this column"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "308",
+      "role": "total"
+    },
+    {
+      "id": "r42c3",
+      "row": 42,
+      "col": 3,
+      "value": "308",
+      "role": "total"
+    },
+    {
+      "id": "r43c1",
+      "row": 43,
+      "col": 1,
+      "value": "86",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    },
+    {
+      "id": "r43c2",
+      "row": 43,
+      "col": 2,
+      "value": "99",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    },
+    {
+      "id": "r43c3",
+      "row": 43,
+      "col": 3,
+      "value": "99",
+      "role": "standalone",
+      "why": "Employment summary figure, no relation to dollar figures in this schema"
+    }
+  ],
+  "relations": [
+    {
+      "target": "r5c1",
+      "sources": [
+        "r2c1",
+        "r3c1",
+        "r4c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r8c1",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r9c1",
+      "sources": [
+        "r5c1",
+        "r8c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r9c2",
+      "sources": [
+        "r5c2",
+        "r8c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r9c3",
+      "sources": [
+        "r5c3",
+        "r8c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c1",
+      "sources": [
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c2",
+      "sources": [
+        "r11c2",
+        "r12c2",
+        "r13c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r15c3",
+      "sources": [
+        "r11c3",
+        "r12c3",
+        "r13c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r18c1",
+      "sources": [
+        "r16c1",
+        "r17c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c1",
+      "sources": [
+        "r11c1",
+        "r16c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c2",
+      "sources": [
+        "r11c2",
+        "r16c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r19c3",
+      "sources": [
+        "r11c3",
+        "r16c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r20c1",
+      "sources": [
+        "r15c1",
+        "r18c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r20c2",
+      "sources": [
+        "r15c2",
+        "r18c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r20c3",
+      "sources": [
+        "r15c3",
+        "r18c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r24c1",
+      "sources": [
+        "r22c1",
+        "r23c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r24c2",
+      "sources": [
+        "r22c2",
+        "r23c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r24c3",
+      "sources": [
+        "r22c3",
+        "r23c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r27c1",
+      "sources": [
+        "r25c1",
+        "r26c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r30c1",
+      "sources": [
+        "r28c1",
+        "r29c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c1",
+      "sources": [
+        "r24c1",
+        "r27c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c2",
+      "sources": [
+        "r24c2",
+        "r27c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r31c3",
+      "sources": [
+        "r24c3",
+        "r27c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r40c1",
+      "sources": [
+        "r33c1",
+        "r34c1",
+        "r36c1",
+        "r37c1",
+        "r38c1",
+        "r39c1"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r40c2",
+      "sources": [
+        "r33c2",
+        "r34c2",
+        "r35c2",
+        "r36c2",
+        "r37c2",
+        "r38c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r40c3",
+      "sources": [
+        "r33c3",
+        "r34c3",
+        "r35c3",
+        "r36c3",
+        "r37c3",
+        "r38c3"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r42c2",
+      "sources": [
+        "r40c2",
+        "r41c2"
+      ],
+      "type": "sum"
+    },
+    {
+      "target": "r42c3",
+      "sources": [
+        "r40c3",
+        "r41c3"
+      ],
+      "type": "sum"
+    }
+  ]
+}
