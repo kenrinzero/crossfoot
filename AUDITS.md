@@ -455,7 +455,7 @@ The transcription is faithful to the rendered source. Metadata, units, periods, 
 ## Spot-Audit: Unit 100 — Medicare Payment Advisory Commission (OMB FY2027 Legislative Branch) — PLACEHOLDER
 
 - **Status:** **PENDING — awaiting a DIFFERENT agent** (every-10th cadence; transcriber cannot self-audit)
-- **Transcriber:** Claude Fable 5 (commit `<see git log for tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json>`)
+- **Transcriber:** Claude Fable 5 (commit `02b57cf`)
 - **Table ID:** [omb/budget-appendix-fy2027-leg-medpac-salaries-expenses](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json)
 - **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png` (regenerate at 3x via pypdfium2 if absent).
 - **Shape:** 79 cells / 14 relations / 30 standalone; id `235-1550-0-1-571`; three columns (2025 actual / 2026 est. / 2027 est.).
