@@ -1159,21 +1159,56 @@ Grok's transcription of `census-p60/2023-income-a7-2005-1996` is value-perfect, 
 
 ---
 
-## Spot-Audit Due: Unit 230 — Census P60-282 Table A-6 FT percent-change median
+## Spot-Audit: Unit 230 — Census P60-282 Table A-6 FT percent-change median
 
-- **Status:** **DUE — corpus #231+ is blocked pending a GREEN different-agent audit.**
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #221–230, 2026-07-19)
-- **Table ID:** `census-p60/2023-income-a6-ft-pct-median`
-- **Source Document:** `sources/census/p60-282.pdf`, PDF pages 45–46 (Table A-6), full-time year-round percent-change-in-median columns (incl. female-to-male earnings ratio row)
-- **Expected shape:** 21 rows / 42 cells / 0 relations / 42 standalone
-- **Pre-audit ship evidence:** pdfplumber extraction; A-7 remainder pypdf ordered 21/21 exact; A-6 spot assertions (people Total 170,900 / FT Total 121,400 / Z→0 / ratio −1.5); all 10 batch units reconcile GREEN 0 warnings; full sweep 230/230; pytest 10/10.
+- **Table ID:** [census-p60/2023-income-a6-ft-pct-median](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a6-ft-pct-median.cells.json)
+- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF pages 45–46 (Table A-6), full-time year-round percent-change-in-median columns (incl. female-to-male earnings ratio row)
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all 42 cells vs source data + manual check of row labels, columns, and special rows (ratio row, educational attainment) across page boundaries.
+- **Status:** **GREEN** (all verification checks passed; 42/42 cells exact)
 
-### Required non-arithmetic checks
+### 1. Metadata and Layout Verification
+- **Table title:** "Table A-6. Earnings Summary Measures by Selected Characteristics: 2022 and 2023" — **PASS**
+- **Period / columns:** 21 rows (characteristics and female-to-male ratio) × 2 columns — **PASS**
+- **Columns (2):**
+  1. Percent change in median earnings / Estimate
+  2. Percent change in median earnings / Margin of error (+/-)
+  — **PASS**
+- **Rows (21):** Verified all 21 row labels (from Total down to Bachelor's degree or higher, and the Female-to-male earnings ratio row) across the PDF page boundaries — **PASS**
+- **Omission convention:** Blank/non-applicable cells are not present. Asterisk significance markers are correctly stripped, and `Z` (rounds to zero) is correctly transcribed as `0` — **PASS**
 
-- [ ] Render-anchor PDF pages 45–46; verify 20 characteristic labels + the female-to-male earnings ratio row and both percent-change median columns.
-- [ ] Verify all 42 values (including ratio −1.5 / 1.38); confirm asterisks stripped and no Z on this block.
-- [ ] Confirm 0-relation / all-standalone is appropriate for derived percent-change fields.
-- [ ] Spot-check batch context: at least one A-6 Number roll-up unit (#223–224 or #227–228) against the page (Sex Male+Female→Total and one education roll-up) and one A-7 remainder unit (#221–222) for year-label fidelity.
-- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a6-ft-pct-median.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record results here.
-- [ ] Replace this placeholder with auditor identity, method, evidence, and GREEN/RED before #231 ships.
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check estimates, MOEs, positive/negative changes, and boundary/special rows:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | Total | Percent change / Estimate | standalone | `-1.6` | `*-1.6` | **PASS** (asterisk stripped, minus en dash converted) |
+| `r1c2` | Total | Percent change / MOE | standalone | `0.69` | `0.69` | **PASS** |
+| `r2c1` | Male | Percent change / Estimate | standalone | `3.0` | `*3.0` | **PASS** |
+| `r3c2` | Female | Percent change / MOE | standalone | `1.15` | `1.15` | **PASS** |
+| `r4c1` | White | Percent change / Estimate | standalone | `-1.5` | `*-1.5` | **PASS** |
+| `r5c1` | White, not Hispanic | Percent change / Estimate | standalone | `2.0` | `2.0` | **PASS** |
+| `r10c1` | 15 to 24 years | Percent change / Estimate | standalone | `0.1` | `0.1` | **PASS** |
+| `r16c1` | Total, aged 25 and older | Percent change / Estimate | standalone | `-0.1` | `-0.1` | **PASS** |
+| `r20c2` | Bachelor's degree or higher | Percent change / MOE | standalone | `4.04` | `4.04` | **PASS** (page 46 boundary) |
+| `r21c1` | Female-to-male earnings ratio | Percent change / Estimate | standalone | `-1.5` | `*-1.5` | **PASS** (special ratio row) |
+
+### 3. Relation / Rounding Honesty
+- Confirmed that 0-relation / all-standalone declaration is appropriate for these derived percent-change fields, as no printed sums or percent-closures apply to them.
+- No invented slack; no under-declaration.
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked A-6 Number roll-up unit `census-p60/2023-income-a6-people-2022` (#223): verified Male `90,380` + Female `80,490` sum to Total `170,900` within declared `tol: "30"` (exact delta from rounded printed values); and verified education components sum to Total 25+ `147,900` within `tol: "7"`.
+- Spot-checked A-7 remainder unit `census-p60/2023-income-a7-1995-1985` (#221): verified year-label `1995` (footnote 11) is correct.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/census-p60/2023-income-a6-ft-pct-median.cells.json`
+- Output: `GREEN: tables/census-p60/2023-income-a6-ft-pct-median.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 230/230 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `census-p60/2023-income-a6-ft-pct-median` is value-perfect, complete, and faithful to Census Table A-6. All 42 values are exact, row labels and columns match the source exactly, asterisks are correctly stripped, and en dashes are correctly converted to negative values. **GREEN.** Next every-10th different-agent audit: corpus **#240**.
 
