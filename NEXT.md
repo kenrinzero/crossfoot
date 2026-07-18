@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–104, all reconcile GREEN under strict
+**Completed so far — corpus #1–114, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -50,42 +50,49 @@ control-plane project log):
 - **OMB FY2027 Legislative Branch** — *in progress*: CBO #75; Library of
   Congress family 10/10 (#76–85); US Tax Court family 3/3 (#86–88);
   Capitol Police family 4/4 (#89–92); Office of Congressional Workplace
-  Rights #93; GAO 2/2 (#94–95); GPO 4/4 (#96–99); Boards and
-  Commissions in progress — MedPAC #100, CSCE #101, MACPAC #102,
-  US-China #103, USCIRF #104.
+  Rights #93; GAO 2/2 (#94–95); GPO 4/4 (#96–99); **Boards and
+  Commissions COMPLETE** — all 14 accounts + the chapter-closing
+  General Fund Receipt Accounts listing, #100–114 (MedPAC, CSCE,
+  MACPAC, US-China, USCIRF, CECC, HDP, Senate Preservation Fund,
+  Semiquincentennial, COIL, Other Boards, Stennis, Capitol
+  Preservation, Open World, GFRA).
 
-Every-10th different-agent spot-audits GREEN through **#100** (MedPAC
-audit by Grok, `AUDITS.md`). Next cadence fire is corpus **#110**. In
-the OMB chapter, Senate + House (pp1–4) carry **zero** P&F schedules
-(pure appropriations language, out of scope); the chapter has ≈40–45
-real accounts.
+Every-10th different-agent spot-audits GREEN through #100 (MedPAC,
+Grok). **The unit #110 audit is now DUE — placeholder in `AUDITS.md`;
+the transcriber (Claude Fable 5) CANNOT self-audit; the 15-cell
+zero-relation unit warrants full-coverage verification.** In the OMB
+chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
+appropriations language, out of scope) and pp38–40 are General
+Provisions (legal text, out of scope).
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Boards and Commissions remainder (D2, vision).**
-  Congressional-Executive Commission on the People's Republic of China
-  (CECC, 272-2930) is spotted: P&F starts p33 bottom-RIGHT (0001 2/2/2,
-  0900 2/2/2 "(object class 11.1)"), continues p34 — needs the p34
-  render. Remaining commissions pp34–37 unsurveyed (Open World, John C.
-  Stennis Center, and others expected). Next every-10th different-agent
-  audit at corpus #110.
+- **NEXT DISPATCH — Unit #110 spot-audit (D3, vision, DIFFERENT agent
+  than Claude Fable 5).** Placeholder with shape, staged render, and
+  the full-coverage expectation is in `AUDITS.md`. Do this before (or
+  alongside) further transcription.
+
+- **After the audit: Architect of the Capitol (pp8–16, ~14–15
+  accounts) is the ONLY remaining unsized block in the chapter** — a
+  survey/sizing pass makes it dispatch-ready; expect the largest
+  department (US Botanic Garden, Capitol buildings/grounds/power
+  plant, House/Senate office buildings, Library buildings, Capitol
+  Visitor Center, judiciary-adjacent accounts, etc.).
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
   Reimbursable`. **GPO complete (4/4, #96–99):** the survey's "3
   accounts" became 4 units — Business Operations Revolving Fund
   (004-4505) measured 152 cells, over-cap, split by schedule per the
-  GAO precedent. **Boards and Commissions 5 shipped:** MedPAC #100
-  (audit GREEN, Grok), then CSCE #101 / MACPAC #102 / US-China #103 /
-  USCIRF #104 (2026-07-18, Claude Fable 5) — the family's recurring
-  wrinkles: tiny accounts with no 0900/1900 rows, zero-suppressed
-  3050/4180/4190 columns, and printed `99.5 Adjustment for rounding`
-  lines that sum EXACTLY (never a tolerance).
-
-- **OMB chapter still fully unsized beyond the above:** Architect of
-  the Capitol (~14-15 accounts, pp8-16, the largest remaining
-  department) and the Boards and Commissions remainder (pp34-37). Each
-  needs a survey/sizing pass before it is dispatch-ready.
+  GAO precedent. **Boards and Commissions complete (15 units,
+  #100–114, all 2026-07-18):** the family's recurring wrinkles, now
+  fully catalogued for future chapters — tiny accounts drop 0900/1900
+  (sometimes 1000/3050/4020) rows entirely; columns that net to zero
+  are zero-suppressed (blank != zero, and a fully-zero row vanishes);
+  printed `99.5 Adjustment for rounding` lines sum EXACTLY (never a
+  tolerance); trust funds carry 5000/5001 investment memos and
+  combined same-id receipts schedules; duplicate printed row codes
+  (Stennis's two 1140s) become distinct rows.
 
 - **FEC footnote pages pp7-9** stay a Tier-3 stage concern (DESIGN §8) —
   not yet in scope.
@@ -97,6 +104,16 @@ real accounts.
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-general-fund-receipts` — #114 (Claude Fable 5). Chapter-closing 2-cell receipts listing. **Boards and Commissions COMPLETE (15 units, #100–114); Legislative Branch chapter fully transcribed outside AoC (pp8–16) and the out-of-scope language pages.**
+- 2026-07-18 · `omb/…-open-world-trust-fund` — #113 (Claude Fable 5). Trust fund + same-id receipts schedule; 92c/14r/44 standalone.
+- 2026-07-18 · `omb/…-capitol-preservation-commission` — #112 (Claude Fable 5). Dormant trust fund; 22c/1r/19 standalone.
+- 2026-07-18 · `omb/…-stennis-center` — #111 (Claude Fable 5). Trust fund, duplicate printed 1140 codes; 73c/12r/40 standalone.
+- 2026-07-18 · `omb/…-other-boards-commissions` — #110 (Claude Fable 5). Zero-relation consolidated account; 15c/0r/15 standalone. **Every-10th audit DUE (different agent; placeholder in `AUDITS.md`).**
+- 2026-07-18 · `omb/…-coil-fund` — #109 (Claude Fable 5). Payment account, 3050 row absent; 44c/3r/35 standalone.
+- 2026-07-18 · `omb/…-semiquincentennial-commission` — #108 (Claude Fable 5). Close-out commission, 4-source 3050 c1; 71c/12r/29 standalone.
+- 2026-07-18 · `omb/…-senate-preservation-fund` — #107 (Claude Fable 5). Gift trust fund, no obligations section, negative 1010 transfer; 27c/2r/21 standalone.
+- 2026-07-18 · `omb/…-house-democracy-partnership` — #106 (Claude Fable 5). New commission, entire 2025 column blank; 24c/2r/18 standalone.
+- 2026-07-18 · `omb/…-cecc-salaries-expenses` — #105 (Claude Fable 5). 3050 row absent (nets zero); 43c/4r/31 standalone.
 - 2026-07-18 · `omb/…-uscirf-salaries-expenses` — #104 (Claude Fable 5). Within-page column-flow P&F (starts bottom-left, continues top-right of p33); 65c/13r/27 standalone.
 - 2026-07-18 · `omb/…-uscc-salaries-expenses` — #103 (Claude Fable 5). 99.5 rounding line all 3 cols, 99.9=99.0+99.5 exact each; 64c/14r/23 standalone.
 - 2026-07-18 · `omb/…-macpac-salaries-expenses` — #102 (Claude Fable 5). No 0900/1000 rows; 3050 zero-suppressed c2/c3; 60c/7r/36 standalone.
