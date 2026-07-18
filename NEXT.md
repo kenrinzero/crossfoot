@@ -73,7 +73,7 @@ chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
 appropriations language, out of scope) and pp38–40 are General
 Provisions (legal text, out of scope).
 
-### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
+### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
 - **NEXT DISPATCH — Treasury MTS May 2026 remainder (QUEUE REFRESH
   2026-07-18).** The vendored `sources/treasury-mts/mts-202605.pdf`
