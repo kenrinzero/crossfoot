@@ -1,0 +1,470 @@
+{
+  "table_id": "omb/budget-appendix-fy2027-leg-coil-fund",
+  "source": {
+    "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
+    "table": "009-0145-0-1-154",
+    "page": 35,
+    "title": "Congressional Office for International Leadership Fund (Program and Financing + Object Classification)",
+    "period": "FY 2027"
+  },
+  "unit_note": "USD millions. Congressional Office for International Leadership Fund (id 009-0145-0-1-154) - the general-fund payment account (the receiving trust fund is 009-8148, a separate unit): P&F starts PDF page 35 (printed 47) bottom right, continues PDF page 36 (printed 48) top left; ObjClass p36 left. No 0900 row; no Employment Summary; the 3050 end-of-year row is absent entirely (2+7-9 = 0 in c1, 6-6 and 7-7 = 0 in c2/c3, zero-suppressed), so 3000/3010/3020 are standalone. 94.0 Financial transfers is the dominant object class. Negatives as printed (3020).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2025 actual"
+    },
+    {
+      "index": 2,
+      "label": "2026 est."
+    },
+    {
+      "index": 3,
+      "label": "2027 est."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "0001 Open World Leadership Center Trust Fund (Direct)"
+    },
+    {
+      "index": 2,
+      "label": "1000 Unobligated balance brought forward, Oct 1"
+    },
+    {
+      "index": 3,
+      "label": "1100 Appropriation"
+    },
+    {
+      "index": 4,
+      "label": "1900 Budget authority (total)"
+    },
+    {
+      "index": 5,
+      "label": "1930 Total budgetary resources available"
+    },
+    {
+      "index": 6,
+      "label": "3000 Unpaid obligations, brought forward, Oct 1"
+    },
+    {
+      "index": 7,
+      "label": "3010 New obligations, unexpired accounts"
+    },
+    {
+      "index": 8,
+      "label": "3020 Outlays (gross)"
+    },
+    {
+      "index": 9,
+      "label": "3100 Obligated balance, start of year"
+    },
+    {
+      "index": 10,
+      "label": "4000 Budget authority, gross"
+    },
+    {
+      "index": 11,
+      "label": "4010 Outlays from new discretionary authority"
+    },
+    {
+      "index": 12,
+      "label": "4011 Outlays from discretionary balances"
+    },
+    {
+      "index": 13,
+      "label": "4020 Outlays, gross (total)"
+    },
+    {
+      "index": 14,
+      "label": "4180 Budget authority, net (total)"
+    },
+    {
+      "index": 15,
+      "label": "4190 Outlays, net (total)"
+    },
+    {
+      "index": 16,
+      "label": "25.1 Advisory and assistance services"
+    },
+    {
+      "index": 17,
+      "label": "94.0 Financial transfers"
+    },
+    {
+      "index": 18,
+      "label": "99.9 Total new obligations, unexpired accounts"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "7",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Sole program activity; this account prints no 0900 row, so it feeds nothing; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source into 1900 Budget authority total; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source into 1900 Budget authority total; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source into 1900 Budget authority total; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources (1000 balance blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source into 1930 Total budgetary resources (1000 balance blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "7",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1900); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source total budgetary resources (equals 1900); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "2",
+      "role": "standalone",
+      "why": "Unpaid balance brought forward: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists (c1: 2+7-9 = 0)"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "7",
+      "role": "standalone",
+      "why": "New obligations: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "New obligations: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "New obligations: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-9",
+      "role": "standalone",
+      "why": "Outlays: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-6",
+      "role": "standalone",
+      "why": "Outlays: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-7",
+      "role": "standalone",
+      "why": "Outlays: the 3050 Unpaid-obligations-end-of-year row is absent entirely (nets to zero in every column, zero-suppressed), so no encodable relation exists"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "2",
+      "role": "standalone",
+      "why": "Memorandum (non-add) entry: does not feed the section arithmetic; equals 3000 (no uncollected payments in this account)"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Restates 1900 as gross discretionary budget authority; single-source into 4180; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Restates 1900 as gross discretionary budget authority; single-source into 4180; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Restates 1900 as gross discretionary budget authority; single-source into 4180; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source into 4020 Outlays gross (4011 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source into 4020 Outlays gross (4011 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "9",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source outlays gross total (equals 4010); 4190 also single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source outlays gross total (equals 4010); 4190 also single-source; schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source net total = 4000 gross (no offsets, no mandatory amounts); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "9",
+      "role": "standalone",
+      "why": "Single-source outlays net = 4020 gross (no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source outlays net = 4020 gross (no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source outlays net = 4020 gross (no offsets); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source into 99.9 Total new obligations (25.1 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source into 99.9 Total new obligations (25.1 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "7",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "6",
+      "role": "standalone",
+      "why": "Single-source total new obligations (equals 94.0; 25.1 blank this column); schema minItems 2 forbids single-source sum"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "7",
+      "role": "standalone",
+      "why": "Single-source total new obligations (equals 94.0; 25.1 blank this column); schema minItems 2 forbids single-source sum"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r4c1"
+      ],
+      "target": "r5c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r12c1"
+      ],
+      "target": "r13c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r17c1"
+      ],
+      "target": "r18c1"
+    }
+  ]
+}
