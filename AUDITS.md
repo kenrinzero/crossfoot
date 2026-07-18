@@ -1214,21 +1214,60 @@ Grok's transcription of `census-p60/2023-income-a6-ft-pct-median` is value-perfe
 
 ---
 
-## Spot-Audit Due: Unit 240 — Census P60-282 Table A-4b 2014–2006 band
+## Spot-Audit: Unit 240 — Census P60-282 Table A-4b 2014–2006 band
 
-- **Status:** **DUE — corpus #241+ is blocked pending a GREEN different-agent audit.**
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #231–240, 2026-07-19)
-- **Table ID:** `census-p60/2023-income-a4b-2014-2006`
-- **Source Document:** `sources/census/p60-282.pdf`, PDF page 40 (Table A-4b), years 2014 through 2006
-- **Expected shape:** 10 rows / 180 cells / 10 percent-closure relations / 130 standalone
-- **Pre-audit ship evidence:** pdfplumber extraction; A-4a multiset 767/767 exact; A-4b first-20-row multiset 360/360 exact; all batch units reconcile GREEN; full sweep 240/240; pytest 10/10.
+- **Table ID:** [census-p60/2023-income-a4b-2014-2006](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a4b-2014-2006.cells.json)
+- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 40 (Table A-4b), years 2014 through 2006
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all 180 cells vs source data + manual check of row labels, columns, and percent-closure computations.
+- **Status:** **GREEN** (all verification checks passed; 180/180 cells exact)
 
-### Required non-arithmetic checks
+### 1. Metadata and Layout Verification
+- **Table title:** "Table A-4b. Selected Measures of Household Income Dispersion: 1967 to 2023" — **PASS**
+- **Period / columns:** 10 year rows (2014 to 2006) × 18 columns — **PASS**
+- **Columns (18):**
+  1-6: Mean quintiles (Lowest, Second, Third, Fourth, Highest, Top 5 percent)
+  7-12: Share of aggregate income (Lowest, Second, Third, Fourth, Highest, Top 5 percent)
+  13-18: Gini index, Mean logarithmic deviation (MLD), Theil index, Atkinson (e=0.25, e=0.50, e=0.75)
+  — **PASS**
+- **Rows (10):** Verified all 10 row labels, including footnote-marked years: 2013 (redesigned, footnote 3), 2013 (legacy, footnote 4), 2010 (footnote 5), and 2009 (footnote 6) — **PASS**
+- **Omission convention:** Blank/non-applicable cells are not present. Means and shares are correctly formatted without commas/currency formatting — **PASS**
 
-- [ ] Render-anchor PDF p40; verify 10 year labels (incl. dual 2013/2017 if present in band) and 18 column groups (means ×6, shares ×6, Gini/MLD/Theil/Atkinson×3).
-- [ ] Verify all 180 values; recompute the 10 quintile-share percent-closures (cols 7–11 → 100) and confirm each declared tol equals the observed gap.
-- [ ] Confirm Top-5 share is standalone (overlaps highest quintile).
-- [ ] Spot-check batch: one A-4a unit (#233–238) for percentile fidelity and one A-7 pre-1975 unit (#231–232) for N-omission honesty.
-- [ ] Run reconcile on the unit, pytest, and full-corpus sweep; record results.
-- [ ] Replace this placeholder with auditor identity, method, evidence, and GREEN/RED before #241 ships.
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check means, shares, inequality indices, Gini, and redesigned/legacy series:
 
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 2014 | Mean / Lowest quintile | standalone | `14660` | `14,660` | **PASS** |
+| `r1c7` | 2014 | Share / Lowest quintile | leaf | `3.1` | `3.1` | **PASS** (reconciles exact) |
+| `r2c5` | 2013 (redesigned) | Mean / Highest quintile | standalone | `246200` | `246,200` | **PASS** (footnote 3) |
+| `r3c12` | 2013 (legacy) | Share / Top 5 percent | standalone | `22.2` | `22.2` | **PASS** (footnote 4) |
+| `r4c13` | 2012 | Gini index | standalone | `0.477` | `0.477` | **PASS** |
+| `r6c9` | 2010 | Share / Third quintile | leaf | `14.6` | `14.6` | **PASS** (footnote 5) |
+| `r7c14` | 2009 | MLD index | standalone | `0.550` | `0.550` | **PASS** (footnote 6) |
+| `r8c6` | 2008 | Mean / Top 5 percent | standalone | `403000` | `403,000` | **PASS** |
+| `r10c11` | 2006 | Share / Highest quintile | leaf | `50.5` | `50.5` | **PASS** (reconciles with tol 0.1) |
+| `r10c18` | 2006 | Atkinson e=0.75 | standalone | `0.289` | `0.289` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- 10 percent-closure relations verified: recomputed quintile-share sums (cols 7–11) to check against 100.
+- Observed sums:
+  - 2014, 2013 (redesigned), 2013 (legacy), 2011, 2008, 2007 -> exact 100.0 (no tol).
+  - 2012, 2006 -> sum 99.9 (JSON carries `tol: "0.1"` - **PASS**).
+  - 2010, 2009 -> sum 100.1 (JSON carries `tol: "0.1"` - **PASS**).
+- Gini, Atkinson, GMLD, and Top-5 percent share are correctly declared as `standalone`. Top-5 share is honest to the source and does not double-count in the quintile-share closures.
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked A-4a unit [2023-income-a4a-2023-2015](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a4a-2023-2015.cells.json) (#233): verified Year 2023 Gini `0.485` and 90th/10th ratio `12.38` match the print page 38 exactly.
+- Spot-checked A-7 unit [2023-income-a7-1974-1967](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a7-1974-1967.cells.json) (#231): verified pre-1975 year labels and correct omission of nonnumeric `N` cells.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/census-p60/2023-income-a4b-2014-2006.cells.json`
+- Output: `GREEN: tables/census-p60/2023-income-a4b-2014-2006.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 240/240 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `census-p60/2023-income-a4b-2014-2006` is value-perfect, complete, and faithful to Census Table A-4b. All 180 values are exact, row labels and columns match the source exactly, and all quintile-share closures reconcile with the correct observed rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#250**.

@@ -77,7 +77,7 @@ control-plane project log):
   through 1972. Together with the legacy-named seed unit #3, all 41 A-2
   source-native units are shipped.
 
-Every-10th different-agent spot-audits GREEN through **#230**: #120
+Every-10th different-agent spot-audits GREEN through **#240**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**. Corpus **#240 audit is DUE** (transcriber Grok; placeholder in `AUDITS.md`); #241+ blocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -158,9 +158,9 @@ audited and GREEN by Antigravity** (unblocking #171).
   Table A-4b started (#239–240, means/shares/indices with percent-closures).
   Sweep 240/240 GREEN; pytest 10/10.
 
-  **AUDIT GATE:** unit **#240** (`census-p60/2023-income-a4b-2014-2006`)
-  requires a different-agent audit (placeholder in `AUDITS.md`; transcriber
-  Grok). **#241+ is blocked until GREEN.** After GREEN, remaining work:
+  **AUDIT GATE:** the render-anchored different-agent audit of unit **#240**
+  (`census-p60/2023-income-a4b-2014-2006`) has been completed and recorded
+  as **GREEN** in `AUDITS.md` by Antigravity. **#241+ is unblocked.** After GREEN, remaining work:
   1. **A-4b remainder** (~39 year-rows still open after #239–240).
   2. **A-5** equivalence-adjusted dispersion (landscape/reversed text).
   3. Else D1/web vendoring (MTS June 2026 highest leverage).
@@ -200,7 +200,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-19 · `census-p60/2023-income-a4b-2014-2006` — #240 (Grok). 180c/10r percent-closures; strict-default GREEN. **Different-agent audit DUE; #241+ blocked.**
+- 2026-07-19 · `census-p60/2023-income-a4b-2014-2006` — #240 (Grok). 180c/10r percent-closures; strict-default GREEN. **Different-agent audit GREEN (Antigravity); #241+ unblocked.**
 - 2026-07-19 · `census-p60/2023-income-a4b-2023-2015` — #239 (Grok). 180c/10r; strict-default GREEN. **Table A-4b started.**
 - 2026-07-19 · `census-p60/2023-income-a4a-1975-1967` — #238 (Grok). 117c/0r; strict-default GREEN. **Table A-4a complete (59 rows).**
 - 2026-07-19 · `census-p60/2023-income-a4a-1985-1976` — #237 (Grok). 130c/0r; strict-default GREEN.
