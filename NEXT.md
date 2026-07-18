@@ -75,14 +75,8 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence:
+The remaining six tables from `sources/treasury-mts/mts-202605.pdf` have been sized and split into 21 cap-fit units (D3 difficulty). Work through them in the suggested sequence (Tables 1 & 2 complete: #130-131):
 
-- **Table 1 (p. 5) — Summary of Receipts, Outlays, and the Deficit/Surplus**
-  - Unit: `treasury-mts/2026-05-table1`
-  - Sizing: ~66 cells / 28 relations / 0 standalone waivers. D3.
-- **Table 2 (p. 5) — Budget and Off-Budget Results and Financing**
-  - Unit: `treasury-mts/2026-05-table2`
-  - Sizing: ~51 cells / 28 relations / 0 standalone waivers. D3.
 - **Table 3 (p. 8) — Summary of Receipts and Outlays** (Split into 3 units to stay under 140-cell ceiling)
   - `treasury-mts/2026-05-table3-receipts` (~56 cells / 12 relations. D3)
   - `treasury-mts/2026-05-table3-outlays-departments` (~112 cells / 20 relations. D3)
@@ -152,6 +146,8 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `treasury-mts/2026-05-table2` — #131 (Antigravity). Budget/off-budget results and financing; 39c/24r/0 standalone.
+- 2026-07-18 · `treasury-mts/2026-05-table1` — #130 (Antigravity). Summary of monthly receipts, outlays, deficit; 66c/28r/0 standalone.
 - 2026-07-18 · `omb/…-aoc-botanic-garden` — #129 (Antigravity). Receives transfer from Capitol Grounds; 90c/17r/28 standalone.
 - 2026-07-18 · `omb/…-aoc-judiciary-office-building` — #128 (Antigravity). Revolving fund; 91c/15r/34 standalone.
 - 2026-07-18 · `omb/…-aoc-recyclable-materials-revolving` — #127 (Antigravity). Degenerate 3-row revolving fund; 9c/0r/9 standalone.

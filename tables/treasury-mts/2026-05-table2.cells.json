@@ -1,0 +1,594 @@
+{
+  "table_id": "treasury-mts/2026-05-table2",
+  "source": {
+    "path": "sources/treasury-mts/mts-202605.pdf",
+    "table": "Table 2. Summary of Budget and Off-Budget Results and Financing of the U.S. Government, May 2026 and Other Periods",
+    "page": 5,
+    "title": "Summary of Budget and Off-Budget Results and Financing of the U.S. Government",
+    "period": "May FY2026"
+  },
+  "unit_note": "USD millions ('[$ millions]' per table header). Values as printed, thousands separators stripped.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Fiscal Year to Date (2025)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Results / Governmental Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Budget Results / Governmental Outlays"
+    },
+    {
+      "index": 3,
+      "label": "Budget Results / Deficit (-) or Surplus"
+    },
+    {
+      "index": 4,
+      "label": "On-Budget Results / Governmental Receipts"
+    },
+    {
+      "index": 5,
+      "label": "On-Budget Results / Governmental Outlays"
+    },
+    {
+      "index": 6,
+      "label": "On-Budget Results / Deficit (-) or Surplus"
+    },
+    {
+      "index": 7,
+      "label": "Off-Budget Results / Governmental Receipts"
+    },
+    {
+      "index": 8,
+      "label": "Off-Budget Results / Governmental Outlays"
+    },
+    {
+      "index": 9,
+      "label": "Off-Budget Results / Deficit (-) or Surplus"
+    },
+    {
+      "index": 10,
+      "label": "Financing / Borrowing from the Public"
+    },
+    {
+      "index": 11,
+      "label": "Financing / Decrease in Operating Cash"
+    },
+    {
+      "index": 12,
+      "label": "Financing / Other Means of Financing"
+    },
+    {
+      "index": 13,
+      "label": "Financing / Total Financing"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "335512",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "3655648",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "3481701",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "628161",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "4901851",
+      "role": "total"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "4496252",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "292648",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1246203",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1014551",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "237341",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "2752997",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "2674809",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "511894",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "4008318",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "3656766",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "274554",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1255321",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "981957",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "98171",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "902651",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "806892",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "116267",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "893532",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "839486",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "18095",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-9119",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "32594",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "277351",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1189520",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "904028",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "15225",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "18375",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "74484",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "38308",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "36039",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "292648",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1246203",
+      "role": "total"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1014551",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r3c1"
+      ],
+      "target": "r2c1",
+      "note": "row identity: Budget Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r6c1"
+      ],
+      "target": "r5c1",
+      "note": "row identity: On-Budget Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r9c1"
+      ],
+      "target": "r8c1",
+      "note": "row identity: Off-Budget Receipts + Deficit = Outlays",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r3c2"
+      ],
+      "target": "r2c2",
+      "note": "row identity: Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r6c2"
+      ],
+      "target": "r5c2",
+      "note": "row identity: On-Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r9c2"
+      ],
+      "target": "r8c2",
+      "note": "row identity: Off-Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r3c3"
+      ],
+      "target": "r2c3",
+      "note": "row identity: Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r6c3"
+      ],
+      "target": "r5c3",
+      "note": "row identity: On-Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r9c3"
+      ],
+      "target": "r8c3",
+      "note": "row identity: Off-Budget Receipts + Deficit = Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r7c1"
+      ],
+      "target": "r1c1",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Budget Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r8c1"
+      ],
+      "target": "r2c1",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Budget Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r9c1"
+      ],
+      "target": "r3c1",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Budget Deficit",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r7c2"
+      ],
+      "target": "r1c2",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Budget Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r8c2"
+      ],
+      "target": "r2c2",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Budget Outlays",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r9c2"
+      ],
+      "target": "r3c2",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Budget Deficit",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c3",
+        "r7c3"
+      ],
+      "target": "r1c3",
+      "note": "column decomposition: On-Budget + Off-Budget Receipts = Budget Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r8c3"
+      ],
+      "target": "r2c3",
+      "note": "column decomposition: On-Budget + Off-Budget Outlays = Budget Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r9c3"
+      ],
+      "target": "r3c3",
+      "note": "column decomposition: On-Budget + Off-Budget Deficit = Budget Deficit"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1",
+        "r12c1"
+      ],
+      "target": "r13c1",
+      "note": "financing row identity: Borrowing + Operating Cash + Other = Total Financing",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2",
+        "r12c2"
+      ],
+      "target": "r13c2",
+      "note": "financing row identity: Borrowing + Operating Cash + Other = Total Financing"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r13c3",
+      "note": "financing row identity: Borrowing + Operating Cash + Other = Total Financing"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1",
+        "r12c1"
+      ],
+      "target": "r3c1",
+      "note": "macro identity: Borrowing + Operating Cash + Other = Budget Deficit",
+      "tol": "1",
+      "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2",
+        "r12c2"
+      ],
+      "target": "r3c2",
+      "note": "macro identity: Borrowing + Operating Cash + Other = Budget Deficit"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r3c3",
+      "note": "macro identity: Borrowing + Operating Cash + Other = Budget Deficit"
+    }
+  ]
+}
