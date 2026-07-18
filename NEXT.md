@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2); new-family work is unblocked and the next every-10th audit fires at **#210**.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 audit is DUE** (transcriber Claude Fable 5 — a different agent must take it; placeholder in `AUDITS.md`).
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -130,8 +130,34 @@ audited and GREEN by Antigravity** (unblocking #171).
   pypdf comparison (1,144/1,144 cells exact), strict reconcile, and the
   full corpus gate. The #200 different-agent audit is **GREEN** (Claude
   Fable 5, 2026-07-18, render-anchored full-value; `AUDITS.md`) —
-  `plans/census-p60-282-remainder.md` is complete. Next every-10th audit
-  fires at **#210**.
+  `plans/census-p60-282-remainder.md` is complete.
+
+  **APPENDIX SUMMARY/DISTRIBUTION FAMILY (started 2026-07-18, Claude
+  Fable 5):** #201–210 shipped — A-3 (2 units, quintile-share
+  percent-closures), B-3 (2), B-4 (2), A-1 (3: 2022 / 2023 Number-column
+  roll-ups + all-standalone percent-change block), and the B-1 2022
+  block. Portrait pages have a NORMAL text layer (the reversed-token
+  quirk is specific to the rotated A-2/A-4 landscape pages). Convention
+  settled this batch: printed `*` significance markers are apparatus and
+  are stripped; Number-column roll-ups carry exact observed deltas as
+  tolerances with the footnote-2 rounded-components rationale; medians,
+  MOEs, ratios, Gini, percentiles, percent-change, and overlapping race
+  counts are standalone with whys.
+
+  **AUDIT GATE:** unit **#210** (`census-p60/2023-income-b1-2022`)
+  requires a different-agent audit (placeholder in `AUDITS.md`;
+  transcriber Claude Fable 5). **#211+ is blocked until it is GREEN.**
+  After GREEN, the remaining appendix work, in suggested order:
+  1. **B-1 remainder** (2023 block + percent-change block, ~185 cells,
+     2 units — same recipe as A-1 #208/#209).
+  2. **B-2** (PDF p52, single 2023 money-vs-post-tax summary: 37 rows ×
+     (2×3 Number/median/MOE + 2 pct-diff) — 2–3 units by column group;
+     Number roll-ups in both concept blocks).
+  3. **Dispersion time series** A-4a/A-4b/A-5/B-5 and **earnings** A-6/
+     A-7 — percentile-level + ratio columns only, i.e. almost entirely
+     standalone under the frozen sum/percent-closure vocabulary; size
+     and queue only if an all-standalone family is wanted (precedent:
+     #133/#138/#209), else prefer the D1/web vendoring options below.
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
   DESIGN §7 — magic-byte check, soft-404 caution):**
@@ -167,6 +193,16 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `census-p60/2023-income-b1-2022` — #210 (Claude Fable 5). 111c/11r/79 standalone; strict-default GREEN; independent pypdf source comparison 111/111 exact. **Different-agent audit DUE; #211+ blocked.**
+- 2026-07-18 · `census-p60/2023-income-a1-percent-change` — #209 (Claude Fable 5). 74c/0r/74 standalone (derived ratios, outside relation vocabulary); strict-default GREEN; independent pypdf source comparison 74/74 exact. **Table A-1 complete.**
+- 2026-07-18 · `census-p60/2023-income-a1-2023` — #208 (Claude Fable 5). 111c/11r/79 standalone; 2 roll-ups exact, 9 at source-authorized rounding tol; strict-default GREEN; independent pypdf source comparison 111/111 exact.
+- 2026-07-18 · `census-p60/2023-income-a1-2022` — #207 (Claude Fable 5). 111c/11r/79 standalone; 1 roll-up exact, 10 at source-authorized rounding tol; strict-default GREEN; independent pypdf source comparison 111/111 exact.
+- 2026-07-18 · `census-p60/2023-income-b4-equivalence-adjusted-income` — #206 (Claude Fable 5). 78c/2r/66 standalone; both closures exact; strict-default GREEN; independent pypdf source comparison 78/78 exact. **Table B-4 complete.**
+- 2026-07-18 · `census-p60/2023-income-b4-income` — #205 (Claude Fable 5). 78c/2r/66 standalone; money closure exact, post-tax tol 0.1; strict-default GREEN; independent pypdf source comparison 78/78 exact.
+- 2026-07-18 · `census-p60/2023-income-b3-equivalence-adjusted-post-tax` — #204 (Claude Fable 5). 78c/2r/66 standalone; both closures exact; strict-default GREEN; independent pypdf source comparison 78/78 exact. **Table B-3 complete.**
+- 2026-07-18 · `census-p60/2023-income-b3-post-tax` — #203 (Claude Fable 5). 78c/2r/66 standalone; both closures at source-authorized tol 0.1; strict-default GREEN; independent pypdf source comparison 78/78 exact.
+- 2026-07-18 · `census-p60/2023-income-a3-equivalence-adjusted` — #202 (Claude Fable 5). 78c/2r/66 standalone; both closures exact; strict-default GREEN; independent pypdf source comparison 78/78 exact. **Table A-3 complete.**
+- 2026-07-18 · `census-p60/2023-income-a3-money-income` — #201 (Claude Fable 5). 78c/2r/66 standalone; 2022 closure at source-authorized tol 0.2, 2023 exact; strict-default GREEN; independent pypdf source comparison 78/78 exact. **First percent-closure-led family unit.**
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1975-1972` — #200 (Codex). 44c/8r/4 standalone; strict-default GREEN; independent pypdf source comparison 44/44 exact; HISPANIC (ANY RACE) and Table A-2 complete. **Every-10th audit GREEN** (Claude Fable 5, render-anchored 44/44; `AUDITS.md`); new-family work unblocked.
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-1988-1976` — #199 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.
 - 2026-07-18 · `census-p60/2023-income-a2-hispanic-any-race-2001-1989` — #198 (Codex). 143c/26r/13 standalone; strict-default GREEN; independent pypdf source comparison 143/143 exact.

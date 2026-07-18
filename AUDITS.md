@@ -1018,3 +1018,24 @@ Render-anchored: PDF page 35 rendered via pypdfium2 at scale 3.0 (full page + 2x
 
 ### 7. Audit Conclusion
 Codex's transcription of `census-p60/2023-income-a2-hispanic-any-race-1975-1972` is value-perfect, complete, and faithful to the Census P60-282 report: all 44 values exact, labels and structure correct, tolerances honest to the printed sums, and the unit cleanly closes both the HISPANIC (ANY RACE) group and the 41-unit Table A-2 transcription. **GREEN.** New-family work is unblocked; next every-10th different-agent audit: corpus **#210**.
+
+---
+
+## Spot-Audit Due: Unit 210 — Census P60-282 Table B-1 2022 column group
+
+- **Status:** **DUE — corpus #211+ is blocked pending a GREEN different-agent audit.**
+- **Transcriber:** Claude Fable 5 (main; batch #201–210, 2026-07-18)
+- **Table ID:** `census-p60/2023-income-b1-2022`
+- **Source Document:** `sources/census/p60-282.pdf`, PDF page 51 (printed page 45), Table B-1, 2022 column group (Number / median post-tax estimate / MOE)
+- **Expected shape:** 37 rows / 111 cells / 11 sum relations / 79 standalone
+- **Pre-audit ship evidence:** built from the pdfplumber text layer; independent pypdf comparison 111/111 exact; render read and all 11 Number-column roll-ups hand-recomputed (1 exact, 10 at source-authorized rounding tol ≤ 50); strict reconcile GREEN 0 warnings; full sweep 210/210; pytest 10/10.
+
+### Required non-arithmetic checks
+
+- [ ] Render-anchor PDF page 51 and verify the 37 row labels (sequential duplicates: family vs nonfamily "Female/Male householder" rows) and the three 2022 columns against the unit's columns.
+- [ ] Verify all 111 values, including the boldface All-households row and the education block.
+- [ ] Recompute the 11 Number-column section roll-ups (household type ×3, age ×2, nativity ×2, region, residence ×2, education); confirm each declared tol equals the exact observed delta and carries the footnote-2 rounded-components rationale (Nonfamily = Female + Male is exact).
+- [ ] Confirm medians/MOEs/race counts are correctly standalone (non-additive; overlapping race groups per the source's race footnote).
+- [ ] Spot-check the batch context: #201–209 (A-3/B-3/B-4 quintile-share closures, A-1 blocks) shipped the same session by the same transcriber — sample at least one closure unit's five shares against its page render.
+- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-b1-2022.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
+- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before #211 ships.

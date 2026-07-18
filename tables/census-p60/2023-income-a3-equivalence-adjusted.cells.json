@@ -1,0 +1,729 @@
+{
+  "table_id": "census-p60/2023-income-a3-equivalence-adjusted",
+  "source": {
+    "path": "sources/census/p60-282.pdf",
+    "table": "Table A-3. Income Distribution Measures Using Money Income and Equivalence-Adjusted Income: 2022 and 2023",
+    "page": 37,
+    "title": "EQUIVALENCE-ADJUSTED INCOME block",
+    "period": "2022-2023"
+  },
+  "unit_note": "Share/percentile/summary distribution block. Printed asterisk significance markers are table apparatus and are stripped from values. Median/mean levels, ratios, and MOEs carry no additive arithmetic; the five quintile shares close to 100 per estimate column.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "2022 / Estimate"
+    },
+    {
+      "index": 2,
+      "label": "2022 / Margin of error (+/-)"
+    },
+    {
+      "index": 3,
+      "label": "2023 / Estimate"
+    },
+    {
+      "index": 4,
+      "label": "2023 / Margin of error (+/-)"
+    },
+    {
+      "index": 5,
+      "label": "Percent change (2023 less 2022) / Estimate"
+    },
+    {
+      "index": 6,
+      "label": "Percent change (2023 less 2022) / Margin of error (+/-)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Lowest quintile"
+    },
+    {
+      "index": 2,
+      "label": "Second quintile"
+    },
+    {
+      "index": 3,
+      "label": "Third quintile"
+    },
+    {
+      "index": 4,
+      "label": "Fourth quintile"
+    },
+    {
+      "index": 5,
+      "label": "Highest quintile"
+    },
+    {
+      "index": 6,
+      "label": "Top 5 percent"
+    },
+    {
+      "index": 7,
+      "label": "10th percentile"
+    },
+    {
+      "index": 8,
+      "label": "50th percentile (median)"
+    },
+    {
+      "index": 9,
+      "label": "90th percentile"
+    },
+    {
+      "index": 10,
+      "label": "Gini index of income inequality"
+    },
+    {
+      "index": 11,
+      "label": "90th/10th percentile income ratio"
+    },
+    {
+      "index": 12,
+      "label": "90th/50th percentile income ratio"
+    },
+    {
+      "index": 13,
+      "label": "50th/10th percentile income ratio"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "3.5",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "0.06",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "3.5",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "0.06",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "1.0",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "2.46",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "9.1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "0.08",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "9.1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "0.09",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "-0.6",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1.21",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "14.6",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "0.11",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "14.6",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "0.12",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "0.3",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1.07",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "22.1",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "0.16",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "22.4",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "0.15",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "1.0",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "0.92",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "50.7",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "0.32",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "50.4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "0.33",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "-0.5",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "0.85",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "22.9",
+      "role": "standalone",
+      "why": "Memo subset of the highest quintile; deliberately outside the five-quintile share closure."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "0.39",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "22.4",
+      "role": "standalone",
+      "why": "Memo subset of the highest quintile; deliberately outside the five-quintile share closure."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "0.39",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "-2.3",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "2.23",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "27100",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "630",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "28550",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "493",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "5.4",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "2.79",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "103500",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1153",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "106900",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "1218",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "3.3",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1.41",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "280400",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "3227",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "291800",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "3646",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "4.1",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "1.56",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "0.467",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "0.0032",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "0.465",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "0.0034",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "-0.4",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "0.94",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "10.35",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "0.257",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "10.22",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "0.206",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "-1.2",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "2.97",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "2.71",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "0.037",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "2.73",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "0.036",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "0.8",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "1.81",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "3.82",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "0.080",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "3.74",
+      "role": "standalone",
+      "why": "Distribution summary measure (percentile level, Gini, or percentile ratio); the printed ratio identities are outside the frozen sum/percent-closure relation vocabulary."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "0.068",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "-2.0",
+      "role": "standalone",
+      "why": "Derived comparison of the two estimate columns (source footnote: 'Calculated estimate may be different due to rounded components'); ratio relations are outside the frozen relation vocabulary."
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "2.65",
+      "role": "standalone",
+      "why": "Margin of error is sampling metadata (footnote 1/2 of the source table); it participates in no printed arithmetic."
+    }
+  ],
+  "relations": [
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1"
+      ]
+    },
+    {
+      "type": "percent-closure",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3"
+      ]
+    }
+  ]
+}
