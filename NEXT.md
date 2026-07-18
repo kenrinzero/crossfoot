@@ -68,7 +68,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit DUE** (Antigravity transcribed #152–160; different-agent rule).
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Next cadence fire is corpus **#170**.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -77,9 +77,9 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — Treasury MTS May 2026 remainder (PDF → vision, render-anchored)
 
-Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing + schedules A–E split (#146–160). **Unit-150 every-10th audit completed GREEN** (Antigravity audited Grok's agri unit). **Unit-160 every-10th audit DUE** (different agent than Antigravity).
+Table 7 fully complete (#138–145). Table 6 main complete as liabilities + assets-financing + schedules A–E split (#146–160). **Unit-150 every-10th audit GREEN** (Antigravity). **Unit-160 every-10th audit GREEN after completeness repair** (Grok; 175/175 present values exact; 2 missing standalone rows + 4 cells inserted; post-repair 179 cells). Next every-10th audit at **#170**.
 
-All Schedule C / D / E units have been shipped.
+All Schedule C / D / E units have been shipped. MTS May-2026 remainder family is numerically complete at corpus #160.
 
 Also available in already-vendored sources: a sizing survey of the Census **P60-282** report cross-tabs remains a parallel queue-refresh option.
 
@@ -108,7 +108,7 @@ Also available in already-vendored sources: a sizing survey of the Census **P60-
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part2` — #160 (Antigravity). Schedule E Direct Loans Part 2; 175c/23r. **Every-10th audit DUE** (different agent).
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part2` — #160 (Antigravity). Schedule E Direct Loans Part 2; post-audit 179c/23r (was 175c). **Every-10th audit GREEN after completeness repair** (Grok: 175/175 present values exact; inserted Transitional Housing −1 + AID International Debt Reduction −172/−172/−172; `AUDITS.md`).
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-direct-part1` — #159 (Antigravity). Schedule E Direct Loans Part 1; 136c/18r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-e-guaranteed` — #158 (Antigravity). Schedule E Guaranteed Loans; 181c/17r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-d-trust-funds` — #157 (Antigravity). Schedule D Trust Funds; 224c/30r.
@@ -118,7 +118,7 @@ One line per shipped unit/batch, newest first. Full specs in
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-treas-vets` — #153 (Antigravity). Schedule C Treasury-Veterans; 35c/1r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-hhs-trans` — #152 (Antigravity). Schedule C HHS-Transportation; 68c/3r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-comm-energy` — #151 (Grok). Schedule C Commerce–Energy; 62c/5r.
-- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-agri` — #150 (Grok). Schedule C Agriculture; 93c/10r. **Every-10th audit DUE** (different agent).
+- 2026-07-18 · `treasury-mts/2026-05-table6-schedule-c-agri` — #150 (Grok). Schedule C Agriculture; 93c/10r. **Every-10th audit GREEN** (Antigravity; `AUDITS.md`).
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-b` — #149 (Grok). Agency securities under special financing; 15c/5r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-schedule-a` — #148 (Grok). Analysis of change in excess of liabilities; 31c/10r.
 - 2026-07-18 · `treasury-mts/2026-05-table6-assets-financing` — #147 (Grok). Table 6 assets + Excess + Financing; Total Liability re-anchored; 125c/50r.

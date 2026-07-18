@@ -773,3 +773,60 @@ The 10-cell sample was stratified to test negative values, large transactions, z
 ### 5. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-05-table6-schedule-c-agri` is clean, accurate, value-perfect, and completely faithful to the rendered source. All 93 values are exact, omission conventions are correct, and the roll-forward balance identities reconcile perfectly with 0 warnings. **GREEN.**
 
+
+---
+
+## Spot-Audit: Unit 160 — Treasury MTS Table 6 Schedule E Direct Loan Financing (Part 2)
+
+- **Audit Date:** 2026-07-18
+- **Auditor:** Grok (xAI / Grok Build)
+- **Transcriber:** Antigravity (batch commit `33f5744`, #152–160; #160 = `2026-05-table6-schedule-e-direct-part2`)
+- **Table ID:** [treasury-mts/2026-05-table6-schedule-e-direct-part2](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table6-schedule-e-direct-part2.cells.json)
+- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf) — Schedule E Direct Loan Financing Activity from HHS through Independent Agencies & Net Activity Total. Content spans PDF pages 32–33 (HHS lines begin near the foot of p32; the bulk of the part-2 block and the Net Activity total print on p33). Auditor-generated renders: `scratchpad/mts-pdfp32-2.5x.png`, `scratchpad/mts-pdfp33-2.5x.png` + decoded text layers.
+- **Method:** Independent pypdfium2 2.5× re-render of PDF pages 32–33 + pdfplumber text (cid+29 decode) + FULL-coverage machine comparison of every transcribed cell against the printed values. Different-agent rule satisfied (transcriber Antigravity; auditor Grok).
+- **Status:** **GREEN after two completeness repairs** (details below)
+
+### 1. Metadata Verification
+- **Table title / period:** "Table 6. Schedule E-Net Activity, Guaranteed and Direct Loan Financing, May 2026 and Other Periods - Continued" / May FY2026 — **PASS**
+- **Units / scale:** `[$ millions]` — **PASS**
+- **Columns (6):** This Month · FYTD This Year · FYTD Prior Year · Beginning of This Year · Close of This Month (open/prior) · Close of This Month (end) — **PASS**
+- **Omission convention:** Blank (`......`) and less-than-500k (`(**)`) cells correctly omitted (not zeroed). All-placeholder rows correctly dropped: FHA-Mutual Mortgage Insurance Loans, BIA, TARP, Bureau of the Fiscal Service, Vocational Rehabilitation Loan Fund, Military Debt Reduction, Spectrum Auction Loan Fund — **PASS**
+
+### 2. Value verification (present rows)
+
+All **175 originally transcribed cells** across the 32 present program lines + Net Activity total match the page 32–33 print **exactly (175/175)**. High-risk formal sample of 10:
+
+| Cell ID (pre-repair) | Row Label | Column | JSON | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c2` | HHS Consumer Operated and Oriented Plan | FYTD This Year | `-32` | `-32` | **PASS** |
+| `r3c1` | DHS Disaster Assistance Loan Fund | This Month | `-9` | `-9` | **PASS** |
+| `r5c6` | HUD FHA-General and Special Risk Fund | Close end | `4074` | `4,074` | **PASS** |
+| `r10c2` | DOT TIFIA | FYTD This Year | `1464` | `1,464` | **PASS** |
+| `r18c1` | Treasury ESF - Economic Stabilization Program | This Month | `-834` | `-834` | **PASS** |
+| `r19c3` | VA Veterans Housing Benefit Program Fund | FYTD Prior Year | `5960` | `5,960` | **PASS** |
+| `r24c3` | AID Sovereign Credit Direct Loan Financing (pre-repair id) | FYTD Prior Year | `19465` | `19,465` | **PASS** |
+| `r30c1` | SBA Disaster Loan Fund (pre-repair id) | This Month | `-1548` | `-1,548` | **PASS** |
+| `r31c6` | Export-Import Bank (pre-repair id) | Close end | `2863` | `2,863` | **PASS** |
+| `r32c6` | Net Activity, Direct Loan Financing (pre-repair id) | Close end | `1351598` | `1,351,598` | **PASS** |
+
+### 3. Findings and repair (the audit's catch)
+
+Two printed value-bearing rows were **missing entirely** from the original transcription (175 of 179 printed cells). Both are standalone-class and therefore invisible to strict coverage / roll-forward relations — the same failure mode as unit-129's missing 1001 memo:
+
+1. **Transitional Housing Loans** (VA / Veterans Benefits Administration), page 33: printed `(**) (**) (**) -1 (**) (**)` → only Beginning-of-This-Year `-1` is a real value; the five `(**)` cells correctly remain omitted. **Was not transcribed at all.**
+2. **International Debt Reduction** under Agency for International Development (distinct from the USIDFC International Debt Reduction line that *was* present), page 33: printed `...... ...... ...... -172 -172 -172` → three balance cells. **Was not transcribed at all.**
+
+**Repair applied in this audit session** (per the #129 / #76 precedent: mechanical insert, no existing values changed): both rows inserted in print order as `standalone` with `why`; all subsequent row indices / cell ids / relation source-target ids renumbered; `unit_note` carries the repair annotation. Post-repair shape: **34 rows / 179 cells / 23 relations**. Full multiset re-check: **179/179 exact**. reconcile GREEN 0 warnings; pytest 10/10.
+
+### 4. Relation / rounding honesty
+- 23 sum relations: Close-of-prior-month (c5) + This-Month (c1) = Close-of-this-month (c6) for every row that has a This-Month transaction.
+- Nine relations correctly carry `tol: "1"` quoting the page note *"Details may not add to totals due to rounding."* — **PASS**
+- No invented slack; no under-declaration relative to multi-source identities.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-05-table6-schedule-e-direct-part2.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-05-table6-schedule-e-direct-part2.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+
+### 6. Audit Conclusion
+Antigravity's transcription of `treasury-mts/2026-05-table6-schedule-e-direct-part2` is **value-perfect on every cell that was shipped** (175/175 exact) with **two missing standalone-class rows** (4 cells) that this non-arithmetic cadence exists to catch. Both are now repaired. **GREEN after completeness repair.** Next every-10th different-agent audit lands at corpus **#170**.

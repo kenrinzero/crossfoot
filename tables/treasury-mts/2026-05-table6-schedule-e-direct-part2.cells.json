@@ -2,12 +2,12 @@
   "table_id": "2026-05-table6-schedule-e-direct-part2",
   "source": {
     "path": "sources/treasury-mts/mts-202605.pdf",
-    "table": "Table 6. Schedule E — Direct Loan Financing Activity (HHS through Independent Agencies & Totals)",
+    "table": "Table 6. Schedule E \u2014 Direct Loan Financing Activity (HHS through Independent Agencies & Totals)",
     "page": 32,
-    "title": "Table 6. Schedule E — Direct Loan Financing Activity (HHS through Independent Agencies & Totals)",
+    "title": "Table 6. Schedule E \u2014 Direct Loan Financing Activity (HHS through Independent Agencies & Totals)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Direct Loan Financing Activity under HHS through Independent Agencies & Totals. Blank and less-than-500k (**) cells omitted.",
+  "unit_note": "USD millions. Direct Loan Financing Activity under HHS through Independent Agencies & Totals. Blank and less-than-500k (**) cells omitted. AUDIT REPAIR 2026-07-18 (Grok, unit-160 spot-audit): inserted two printed rows that were missing from the original transcription \u2014 (1) Transitional Housing Loans (Beginning-of-This-Year -1 only; other cols (**) omitted); (2) Agency for International Development / International Debt Reduction (balance cols -172/-172/-172; transactions blank). Values taken from the page-33 render; no existing values changed; row/cell ids renumbered. Same completeness class as the unit-129 Botanic Garden missing-memo finding (invisible to strict coverage).",
   "columns": [
     {
       "index": 1,
@@ -27,11 +27,11 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
     },
     {
       "index": 6,
-      "label": "Close of This Month — end (Account Balance)"
+      "label": "Close of This Month \u2014 end (Account Balance)"
     }
   ],
   "rows": [
@@ -117,50 +117,58 @@
     },
     {
       "index": 21,
-      "label": "Direct Loan Financing Activity: Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program"
+      "label": "Direct Loan Financing Activity: Department of Veterans Affairs: Veterans Benefits Administration: Transitional Housing Loans"
     },
     {
       "index": 22,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: International Security Assistance: Foreign Military Loan Program"
+      "label": "Direct Loan Financing Activity: Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program"
     },
     {
       "index": 23,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: Agency for International Development: Development Credit Authority Loan Fund"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: International Security Assistance: Foreign Military Loan Program"
     },
     {
       "index": 24,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: Agency for International Development: Sovereign Credit Direct Loan Financing Account"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: Agency for International Development: International Debt Reduction"
     },
     {
       "index": 25,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: Overseas Private Investment Corporation"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: Agency for International Development: Development Credit Authority Loan Fund"
     },
     {
       "index": 26,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: International Monetary Programs"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: Agency for International Development: Sovereign Credit Direct Loan Financing Account"
     },
     {
       "index": 27,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: United States International Development Finance Corporation"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: Overseas Private Investment Corporation"
     },
     {
       "index": 28,
-      "label": "Direct Loan Financing Activity: International Assistance Programs: United States International Development Finance Corporation: International Debt Reduction"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: International Monetary Programs"
     },
     {
       "index": 29,
-      "label": "Direct Loan Financing Activity: Small Business Administration: Business Loan Fund"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: United States International Development Finance Corporation"
     },
     {
       "index": 30,
-      "label": "Direct Loan Financing Activity: Small Business Administration: Disaster Loan Fund"
+      "label": "Direct Loan Financing Activity: International Assistance Programs: United States International Development Finance Corporation: International Debt Reduction"
     },
     {
       "index": 31,
-      "label": "Direct Loan Financing Activity: Independent Agencies: Export-Import Bank of the United States"
+      "label": "Direct Loan Financing Activity: Small Business Administration: Business Loan Fund"
     },
     {
       "index": 32,
+      "label": "Direct Loan Financing Activity: Small Business Administration: Disaster Loan Fund"
+    },
+    {
+      "index": 33,
+      "label": "Direct Loan Financing Activity: Independent Agencies: Export-Import Bank of the United States"
+    },
+    {
+      "index": 34,
       "label": "Net Activity, Direct Loan Financing"
     }
   ],
@@ -978,62 +986,25 @@
       "role": "total"
     },
     {
-      "id": "r21c1",
-      "row": 21,
-      "col": 1,
-      "value": "-9",
-      "role": "leaf"
-    },
-    {
-      "id": "r21c2",
-      "row": 21,
-      "col": 2,
-      "value": "-97",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
-    },
-    {
-      "id": "r21c3",
-      "row": 21,
-      "col": 3,
-      "value": "-73",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
-    },
-    {
       "id": "r21c4",
       "row": 21,
       "col": 4,
-      "value": "5207",
+      "value": "-1",
       "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
-    },
-    {
-      "id": "r21c5",
-      "row": 21,
-      "col": 5,
-      "value": "5119",
-      "role": "leaf"
-    },
-    {
-      "id": "r21c6",
-      "row": 21,
-      "col": 6,
-      "value": "5110",
-      "role": "total"
+      "why": "Printed Beginning-of-This-Year balance only; other columns are (**) less-than-500k and omitted. Single printed value participates in no multi-source relation (schema minItems 2)."
     },
     {
       "id": "r22c1",
       "row": 22,
       "col": 1,
-      "value": "42",
+      "value": "-9",
       "role": "leaf"
     },
     {
       "id": "r22c2",
       "row": 22,
       "col": 2,
-      "value": "-102",
+      "value": "-97",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1041,7 +1012,7 @@
       "id": "r22c3",
       "row": 22,
       "col": 3,
-      "value": "-16",
+      "value": "-73",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1049,7 +1020,7 @@
       "id": "r22c4",
       "row": 22,
       "col": 4,
-      "value": "-60",
+      "value": "5207",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1057,28 +1028,28 @@
       "id": "r22c5",
       "row": 22,
       "col": 5,
-      "value": "-204",
+      "value": "5119",
       "role": "leaf"
     },
     {
       "id": "r22c6",
       "row": 22,
       "col": 6,
-      "value": "-162",
+      "value": "5110",
       "role": "total"
     },
     {
       "id": "r23c1",
       "row": 23,
       "col": 1,
-      "value": "-189",
+      "value": "42",
       "role": "leaf"
     },
     {
       "id": "r23c2",
       "row": 23,
       "col": 2,
-      "value": "-192",
+      "value": "-102",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1086,7 +1057,7 @@
       "id": "r23c3",
       "row": 23,
       "col": 3,
-      "value": "494",
+      "value": "-16",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1094,7 +1065,7 @@
       "id": "r23c4",
       "row": 23,
       "col": 4,
-      "value": "781",
+      "value": "-60",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1102,66 +1073,68 @@
       "id": "r23c5",
       "row": 23,
       "col": 5,
-      "value": "778",
+      "value": "-204",
       "role": "leaf"
     },
     {
       "id": "r23c6",
       "row": 23,
       "col": 6,
-      "value": "589",
+      "value": "-162",
       "role": "total"
-    },
-    {
-      "id": "r24c1",
-      "row": 24,
-      "col": 1,
-      "value": "-267",
-      "role": "leaf"
-    },
-    {
-      "id": "r24c2",
-      "row": 24,
-      "col": 2,
-      "value": "-267",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
-    },
-    {
-      "id": "r24c3",
-      "row": 24,
-      "col": 3,
-      "value": "19465",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
     {
       "id": "r24c4",
       "row": 24,
       "col": 4,
-      "value": "19606",
+      "value": "-172",
       "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "why": "Printed account-balance columns only (transactions blank); no This-Month activity so no begin+month=end roll-forward. Balance columns equal as printed; single-column equality is schema-invalid (minItems 2), so standalone."
     },
     {
       "id": "r24c5",
       "row": 24,
       "col": 5,
-      "value": "19606",
-      "role": "leaf"
+      "value": "-172",
+      "role": "standalone",
+      "why": "Printed account-balance columns only (transactions blank); no This-Month activity so no begin+month=end roll-forward. Balance columns equal as printed; single-column equality is schema-invalid (minItems 2), so standalone."
     },
     {
       "id": "r24c6",
       "row": 24,
       "col": 6,
-      "value": "19340",
-      "role": "total"
+      "value": "-172",
+      "role": "standalone",
+      "why": "Printed account-balance columns only (transactions blank); no This-Month activity so no begin+month=end roll-forward. Balance columns equal as printed; single-column equality is schema-invalid (minItems 2), so standalone."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "-189",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "-192",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "494",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
     {
       "id": "r25c4",
       "row": 25,
       "col": 4,
-      "value": "2902",
+      "value": "781",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1169,30 +1142,28 @@
       "id": "r25c5",
       "row": 25,
       "col": 5,
-      "value": "2902",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "value": "778",
+      "role": "leaf"
     },
     {
       "id": "r25c6",
       "row": 25,
       "col": 6,
-      "value": "2902",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "value": "589",
+      "role": "total"
     },
     {
       "id": "r26c1",
       "row": 26,
       "col": 1,
-      "value": "-21",
+      "value": "-267",
       "role": "leaf"
     },
     {
       "id": "r26c2",
       "row": 26,
       "col": 2,
-      "value": "7325",
+      "value": "-267",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1200,7 +1171,7 @@
       "id": "r26c3",
       "row": 26,
       "col": 3,
-      "value": "3588",
+      "value": "19465",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1208,7 +1179,7 @@
       "id": "r26c4",
       "row": 26,
       "col": 4,
-      "value": "4615",
+      "value": "19606",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1216,44 +1187,21 @@
       "id": "r26c5",
       "row": 26,
       "col": 5,
-      "value": "11960",
+      "value": "19606",
       "role": "leaf"
     },
     {
       "id": "r26c6",
       "row": 26,
       "col": 6,
-      "value": "11939",
+      "value": "19340",
       "role": "total"
-    },
-    {
-      "id": "r27c1",
-      "row": 27,
-      "col": 1,
-      "value": "-350",
-      "role": "leaf"
-    },
-    {
-      "id": "r27c2",
-      "row": 27,
-      "col": 2,
-      "value": "-303",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
-    },
-    {
-      "id": "r27c3",
-      "row": 27,
-      "col": 3,
-      "value": "69",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
     {
       "id": "r27c4",
       "row": 27,
       "col": 4,
-      "value": "8169",
+      "value": "2902",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1261,28 +1209,30 @@
       "id": "r27c5",
       "row": 27,
       "col": 5,
-      "value": "8217",
-      "role": "leaf"
+      "value": "2902",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
     {
       "id": "r27c6",
       "row": 27,
       "col": 6,
-      "value": "7866",
-      "role": "total"
+      "value": "2902",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
     {
       "id": "r28c1",
       "row": 28,
       "col": 1,
-      "value": "-23",
+      "value": "-21",
       "role": "leaf"
     },
     {
       "id": "r28c2",
       "row": 28,
       "col": 2,
-      "value": "-51",
+      "value": "7325",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1290,7 +1240,7 @@
       "id": "r28c3",
       "row": 28,
       "col": 3,
-      "value": "-75",
+      "value": "3588",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1298,7 +1248,7 @@
       "id": "r28c4",
       "row": 28,
       "col": 4,
-      "value": "-360",
+      "value": "4615",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1306,28 +1256,28 @@
       "id": "r28c5",
       "row": 28,
       "col": 5,
-      "value": "-389",
+      "value": "11960",
       "role": "leaf"
     },
     {
       "id": "r28c6",
       "row": 28,
       "col": 6,
-      "value": "-411",
+      "value": "11939",
       "role": "total"
     },
     {
       "id": "r29c1",
       "row": 29,
       "col": 1,
-      "value": "-2",
+      "value": "-350",
       "role": "leaf"
     },
     {
       "id": "r29c2",
       "row": 29,
       "col": 2,
-      "value": "-15",
+      "value": "-303",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1335,7 +1285,7 @@
       "id": "r29c3",
       "row": 29,
       "col": 3,
-      "value": "-9",
+      "value": "69",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1343,7 +1293,7 @@
       "id": "r29c4",
       "row": 29,
       "col": 4,
-      "value": "64",
+      "value": "8169",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1351,28 +1301,28 @@
       "id": "r29c5",
       "row": 29,
       "col": 5,
-      "value": "51",
+      "value": "8217",
       "role": "leaf"
     },
     {
       "id": "r29c6",
       "row": 29,
       "col": 6,
-      "value": "49",
+      "value": "7866",
       "role": "total"
     },
     {
       "id": "r30c1",
       "row": 30,
       "col": 1,
-      "value": "-1548",
+      "value": "-23",
       "role": "leaf"
     },
     {
       "id": "r30c2",
       "row": 30,
       "col": 2,
-      "value": "-13268",
+      "value": "-51",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1380,7 +1330,7 @@
       "id": "r30c3",
       "row": 30,
       "col": 3,
-      "value": "-12161",
+      "value": "-75",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1388,7 +1338,7 @@
       "id": "r30c4",
       "row": 30,
       "col": 4,
-      "value": "229683",
+      "value": "-360",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1396,28 +1346,28 @@
       "id": "r30c5",
       "row": 30,
       "col": 5,
-      "value": "217963",
+      "value": "-389",
       "role": "leaf"
     },
     {
       "id": "r30c6",
       "row": 30,
       "col": 6,
-      "value": "216414",
+      "value": "-411",
       "role": "total"
     },
     {
       "id": "r31c1",
       "row": 31,
       "col": 1,
-      "value": "-16",
+      "value": "-2",
       "role": "leaf"
     },
     {
       "id": "r31c2",
       "row": 31,
       "col": 2,
-      "value": "-786",
+      "value": "-15",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1425,7 +1375,7 @@
       "id": "r31c3",
       "row": 31,
       "col": 3,
-      "value": "-688",
+      "value": "-9",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1433,7 +1383,7 @@
       "id": "r31c4",
       "row": 31,
       "col": 4,
-      "value": "3650",
+      "value": "64",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1441,28 +1391,28 @@
       "id": "r31c5",
       "row": 31,
       "col": 5,
-      "value": "2879",
+      "value": "51",
       "role": "leaf"
     },
     {
       "id": "r31c6",
       "row": 31,
       "col": 6,
-      "value": "2863",
+      "value": "49",
       "role": "total"
     },
     {
       "id": "r32c1",
       "row": 32,
       "col": 1,
-      "value": "-3421",
+      "value": "-1548",
       "role": "leaf"
     },
     {
       "id": "r32c2",
       "row": 32,
       "col": 2,
-      "value": "-11446",
+      "value": "-13268",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1470,7 +1420,7 @@
       "id": "r32c3",
       "row": 32,
       "col": 3,
-      "value": "40591",
+      "value": "-12161",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1478,7 +1428,7 @@
       "id": "r32c4",
       "row": 32,
       "col": 4,
-      "value": "1363045",
+      "value": "229683",
       "role": "standalone",
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
     },
@@ -1486,12 +1436,102 @@
       "id": "r32c5",
       "row": 32,
       "col": 5,
-      "value": "1355019",
+      "value": "217963",
       "role": "leaf"
     },
     {
       "id": "r32c6",
       "row": 32,
+      "col": 6,
+      "value": "216414",
+      "role": "total"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "-16",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "-786",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "-688",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r33c4",
+      "row": 33,
+      "col": 4,
+      "value": "3650",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r33c5",
+      "row": 33,
+      "col": 5,
+      "value": "2879",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c6",
+      "row": 33,
+      "col": 6,
+      "value": "2863",
+      "role": "total"
+    },
+    {
+      "id": "r34c1",
+      "row": 34,
+      "col": 1,
+      "value": "-3421",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c2",
+      "row": 34,
+      "col": 2,
+      "value": "-11446",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r34c3",
+      "row": 34,
+      "col": 3,
+      "value": "40591",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r34c4",
+      "row": 34,
+      "col": 4,
+      "value": "1363045",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+    },
+    {
+      "id": "r34c5",
+      "row": 34,
+      "col": 5,
+      "value": "1355019",
+      "role": "leaf"
+    },
+    {
+      "id": "r34c6",
+      "row": 34,
       "col": 6,
       "value": "1351598",
       "role": "total"
@@ -1619,20 +1659,11 @@
     {
       "type": "sum",
       "sources": [
-        "r21c5",
-        "r21c1"
-      ],
-      "target": "r21c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Environm)"
-    },
-    {
-      "type": "sum",
-      "sources": [
         "r22c5",
         "r22c1"
       ],
       "target": "r22c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)"
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Environm)"
     },
     {
       "type": "sum",
@@ -1646,13 +1677,11 @@
     {
       "type": "sum",
       "sources": [
-        "r24c5",
-        "r24c1"
+        "r25c5",
+        "r25c1"
       ],
-      "target": "r24c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)",
-      "tol": "1",
-      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+      "target": "r25c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)"
     },
     {
       "type": "sum",
@@ -1661,15 +1690,6 @@
         "r26c1"
       ],
       "target": "r26c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r27c5",
-        "r27c1"
-      ],
-      "target": "r27c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)",
       "tol": "1",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
@@ -1681,9 +1701,7 @@
         "r28c1"
       ],
       "target": "r28c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)",
-      "tol": "1",
-      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)"
     },
     {
       "type": "sum",
@@ -1692,7 +1710,9 @@
         "r29c1"
       ],
       "target": "r29c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Small Bu)"
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
       "type": "sum",
@@ -1701,7 +1721,7 @@
         "r30c1"
       ],
       "target": "r30c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Small Bu)",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Internat)",
       "tol": "1",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
     },
@@ -1712,7 +1732,7 @@
         "r31c1"
       ],
       "target": "r31c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Independ)"
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Small Bu)"
     },
     {
       "type": "sum",
@@ -1721,6 +1741,26 @@
         "r32c1"
       ],
       "target": "r32c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Small Bu)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r33c5",
+        "r33c1"
+      ],
+      "target": "r33c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Direct Loan Financing Activity: Independ)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r34c5",
+        "r34c1"
+      ],
+      "target": "r34c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (Net Activity, Direct Loan Financing)"
     }
   ]
