@@ -405,14 +405,47 @@ Every cell in the .cells.json was checked against the page-21 render (zoomed cro
 
 ---
 
-## Spot-Audit: Unit 90 — Capitol Police / General Expenses  ⚠ DUE (placeholder)
+## Spot-Audit: Unit 90 — Capitol Police / General Expenses
 
-- **Status:** **DUE — awaiting a different-agent auditor.**
-- **Transcriber:** Claude Opus 4.8 (commit TBD, shipped 2026-07-18) — **cannot self-audit; a DIFFERENT agent must perform this audit** per DESIGN.md § 6.
+- **Audit Date:** 2026-07-18
+- **Auditor:** Codex
+- **Transcriber:** Claude Opus 4.8 (commit `709db57`)
 - **Table ID:** `omb/budget-appendix-fy2027-leg-capitol-police-general-expenses` (corpus #90)
-- **Source Document:** `sources/omb/budget-2027-app-2-3-legislative.pdf`, id `002-0476-0-1-801`, PDF pages 5-6 (printed pages 17-18). Program and Financing on p5 (right column) continuing to Object Classification on p6.
-- **Method (suggested):** pypdfium2 render of pages 5-6 (scale ≥3) cross-checked against the pdfplumber text layer (this PDF decodes cleanly — no `(cid:NN)` remap needed, unlike the Treasury MTS PDF). Note the two-column page layout: General Expenses is the RIGHT column of p5; the LEFT column is the sibling Salaries account (#89, id `002-0477`) — do not cross-contaminate.
-- **What to check:** the 9 offsetting/uncollected lines that print only in col 1 (2025 actual) and are correctly omitted where blank (1700/1701/1750, 3060→wait 3060 prints all cols, 3070, 3011, 3041, 4030, 4050, 0801, and 24.0 col 3); the negatives (3020, 3041, 3060, 3090, 4030, 1940); and that 3100/3200 are declared as genuine 2-source obligated-balance sums (unpaid obligations + uncollected payments), not memo duplicates. reconcile GREEN (0 warnings), pytest 10/10 at ship time; 106 cells / 25 relations / 32 standalone.
-- **10-cell sample:** auditor's choice (seed or coverage-stratified), spanning both pages, at least one negative, one offsetting-collections line, one uncollected-payments line, and the 3100/3200 obligated-balance totals.
+- **Source Document:** `sources/omb/budget-2027-app-2-3-legislative.pdf`, identification code `002-0476-0-1-801`, PDF pages 5-6 (printed pages 17-18).
+- **Method:** Independent 4x pypdfium2 renders of the Program and Financing schedule on the right side of PDF page 5 and its Object Classification continuation on PDF page 6, cross-checked against the PDF text layer. Different-agent rule satisfied: Codex did not transcribe the unit.
+- **Status:** **GREEN** (all verification checks passed)
 
-_(Fill this section in on audit; set Status to GREEN/finding and record the auditor, date, and sampled cells. After it closes, the next every-10th audit lands at corpus #100.)_
+### 1. Metadata and layout
+
+- [x] The rendered heading, identification code, FY2027 context, period columns (`2025 actual`, `2026 est.`, `2027 est.`), and `in millions of dollars` units match the JSON source metadata.
+- [x] All 43 row labels match the rendered schedules: 34 Program and Financing rows on printed page 17 and 9 Object Classification rows on printed page 18.
+- [x] The page-5 right-column account and page-6 `GENERAL EXPENSES-Continued` schedule were kept distinct from the sibling Capitol Police Salaries account and the next Security Enhancements account.
+- [x] Dotted blank cells are omitted rather than transcribed as zeroes, including the col-2/3 blanks in `0801`, `1700`, `1701`, `1750`, `3011`, `3041`, `3070`, `4030`, and `4050`, and `24.0` in 2027.
+
+### 2. Coverage-stratified 10-cell sample
+
+The sample deliberately spans both source pages and the specified high-risk shapes (negative values, offsetting collections, uncollected payments, and both obligated-balance totals).
+
+| Cell ID | Row label | Column | Role | JSON value | Render value | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | `0001 General Expenses (Direct)` | 2025 actual | leaf | `215` | `215` | PASS |
+| `r2c1` | `0801 Reimbursable program activity` | 2025 actual | leaf | `6` | `6` | PASS |
+| `r17c3` | `3020 Outlays (gross)` | 2027 est. | leaf | `-262` | `-262` | PASS |
+| `r20c1` | `3060 Uncollected pymts, Fed sources, brought forward, Oct 1` | 2025 actual | leaf | `-2` | `-2` | PASS |
+| `r21c1` | `3070 Change in uncollected pymts, Fed sources, unexpired` | 2025 actual | leaf | `1` | `1` | PASS |
+| `r23c2` | `3100 Obligated balance, start of year` | 2026 est. | total | `169` | `169` | PASS |
+| `r24c3` | `3200 Obligated balance, end of year` | 2027 est. | total | `175` | `175` | PASS |
+| `r29c1` | `4030 Offsetting collections (collected) from: Federal sources` | 2025 actual | leaf | `-5` | `-5` | PASS |
+| `r34c3` | `4190 Outlays, net (total)` | 2027 est. | standalone | `262` | `262` | PASS |
+| `r36c2` | `23.3 Communications, utilities, and miscellaneous charges` | 2026 est. | leaf | `12` | `12` | PASS |
+
+### 3. Arithmetic gate and coverage
+
+- `3100` and `3200` are correctly declared as two-source obligated-balance totals (unpaid obligations plus uncollected payments), not as memo-only duplicates.
+- `uv run python reconcile.py tables/omb/budget-appendix-fy2027-leg-capitol-police-general-expenses.cells.json` -> **GREEN**, 0 warnings.
+- `uv run pytest` -> **10 passed**.
+- Independent full-corpus sweep -> **90/90 tables GREEN**, 0 problems.
+
+### 4. Audit conclusion
+
+The transcription is faithful to the rendered source. Metadata, units, periods, all labels, omission conventions, and all ten coverage-stratified sampled values match. No non-arithmetic defect found. **GREEN.** The next every-10th different-agent audit is due at corpus #100.
