@@ -39,7 +39,7 @@ crossfoot text, read it as D2.
 
 ## Queue
 
-**Completed so far — corpus #1–114, all reconcile GREEN under strict
+**Completed so far — corpus #1–117, all reconcile GREEN under strict
 coverage** (per-unit specs in `BACKLOG.md`, session detail in the
 control-plane project log):
 
@@ -55,7 +55,9 @@ control-plane project log):
   General Fund Receipt Accounts listing, #100–114 (MedPAC, CSCE,
   MACPAC, US-China, USCIRF, CECC, HDP, Senate Preservation Fund,
   Semiquincentennial, COIL, Other Boards, Stennis, Capitol
-  Preservation, Open World, GFRA).
+  Preservation, Open World, GFRA); **Architect of the Capitol
+  started** — Capital Construction and Operations #115, Capitol
+  Building #116, Capitol Grounds #117.
 
 Every-10th different-agent spot-audits GREEN through #110 (Other
 Boards, Kimi — full 15/15 coverage of the zero-relation unit). **Next
@@ -66,14 +68,31 @@ Provisions (legal text, out of scope).
 
 ### Live dispatch — OMB FY2027 Legislative Branch (PDF → vision, render-anchored)
 
-- **NEXT DISPATCH — Architect of the Capitol survey/sizing pass
-  (pp8–16, ~14–15 accounts), the ONLY remaining unsized block in the
-  chapter.** Unit #110 spot-audit GREEN (Kimi, 2026-07-18,
-  `AUDITS.md`). The Architect survey makes the block dispatch-ready;
-  expect the largest
-  department (US Botanic Garden, Capitol buildings/grounds/power
-  plant, House/Senate office buildings, Library buildings, Capitol
-  Visitor Center, judiciary-adjacent accounts, etc.).
+- **AoC SURVEYED (id-code map, 2026-07-18) and STARTED — 3/13 shipped
+  (#115–117).** Text extracts + 3x renders staged in `scratchpad/`
+  (`aoc-p8..p16-*`). Remaining 10 accounts in page order, each a
+  standard D2 unit (P&F + usually ObjClass + Employment; ~50–110
+  cells; the shipped #115–117 are the conventions template):
+  1. `001-0123` Senate Office Buildings (pp9–10; P&F starts p9
+     bottom-right — 0001 115/160/170, **1011 transfer FROM
+     [000-5509] = +4 c2, the SPF twin**)
+  2. `001-0127` House Office Buildings (pp10–11)
+  3. `001-0133` Capitol Power Plant (pp11–12; expect offsetting
+     collections)
+  4. `001-0137` Library Buildings and Grounds (p11)
+  5. `001-1833` Capitol Police Buildings, Grounds and Security (p11)
+  6. `001-0155` Capitol Visitor Center (p12)
+  7. `001-0171` Botanic Garden (pp12–13)
+  8. `001-0161` Judiciary Office Building (p13; **receives the -1
+     transfer from Capitol Grounds #117**)
+  9. `001-4296` + `001-4297` + `001-4518` revolving funds (pp13–14;
+     expect mandatory offsetting-collections machinery per GPO 004-4505
+     — check sizes, may need by-schedule splits)
+  10. `009-0200` (p16; **receives the -2 transfer from Capitol Grounds
+     #117** — identify the account heading from the p16 render; p15 is
+     pure narrative/language, no schedules)
+  Next every-10th different-agent audit at corpus **#120** — lands 3
+  units into this queue; plan transcriber rotation accordingly.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
@@ -100,6 +119,9 @@ Provisions (legal text, out of scope).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-18 · `omb/…-aoc-capitol-grounds` — #117 (Claude Fable 5). Two 1120 transfer rows (SPF-twin pattern); 90c/16r/26 standalone.
+- 2026-07-18 · `omb/…-aoc-capitol-building` — #116 (Claude Fable 5). Incl. Flag Office Revolving fund; 6-source 3050 c1; 103c/18r/33 standalone.
+- 2026-07-18 · `omb/…-aoc-capital-construction-ops` — #115 (Claude Fable 5). **AoC started (3/13).** Department starter; 101c/19r/30 standalone.
 - 2026-07-18 · `omb/…-general-fund-receipts` — #114 (Claude Fable 5). Chapter-closing 2-cell receipts listing. **Boards and Commissions COMPLETE (15 units, #100–114); Legislative Branch chapter fully transcribed outside AoC (pp8–16) and the out-of-scope language pages.**
 - 2026-07-18 · `omb/…-open-world-trust-fund` — #113 (Claude Fable 5). Trust fund + same-id receipts schedule; 92c/14r/44 standalone.
 - 2026-07-18 · `omb/…-capitol-preservation-commission` — #112 (Claude Fable 5). Dormant trust fund; 22c/1r/19 standalone.

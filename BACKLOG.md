@@ -155,3 +155,13 @@ NEXT.md.)
 
 
 
+
+### Architect of the Capitol (shipped units; remainder queued in NEXT.md)
+
+| unit | id | pages | rel | cells | standalone | status |
+|---|---|---|---|---|---|---|
+| omb/budget-appendix-fy2027-leg-aoc-capital-construction-ops | 001-0100 | p8 | 19 | 101 | 30 | SHIPPED 2026-07-18 (corpus #115; strict-default GREEN). Department starter: within-page column-flow P&F; 1900 c1 = 1100+1700; 4070 c1 = 4000+4040+4052 (no 4060 row); ObjClass has no 99.0 row (line items sum into 99.9). |
+| omb/budget-appendix-fy2027-leg-aoc-capitol-building | 001-0105 | pp8-9 | 18 | 103 | 33 | SHIPPED 2026-07-18 (corpus #116; strict-default GREEN). Incl. Flag Office Revolving fund (printed note); 6-source 3050 c1; 4070 c1 = 4000+4033+4052 (no 4040 total row); 1900 single-source all cols (1100 standalone). |
+| omb/budget-appendix-fy2027-leg-aoc-capitol-grounds | 001-0108 | p9 | 16 | 90 | 26 | SHIPPED 2026-07-18 (corpus #117; strict-default GREEN). TWO printed 1120 transfer rows (to 001-0161, to 009-0200) as distinct keyed rows; 1160 = 1100-1-2 = 19 c1; transfers reappear as receipts in the target accounts (cross-account, not encoded). |
+
+AoC remainder (10 accounts, surveyed by id-code 2026-07-18, page-anchored in NEXT.md): 001-0123, 001-0127, 001-0133, 001-0137, 001-1833, 001-0155, 001-0171, 001-0161, revolving funds 001-4296/4297/4518 (sizes unverified — may need by-schedule splits per GPO 004-4505), and 009-0200 (p16). Staged renders + text extracts: `scratchpad/aoc-p8..p16-*`.
