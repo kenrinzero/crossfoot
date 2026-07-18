@@ -1093,21 +1093,67 @@ Claude Fable 5's transcription of `census-p60/2023-income-b1-2022` is value-perf
 
 ---
 
-## Spot-Audit Due: Unit 220 — Census P60-282 Table A-7 2005–1996 band
+## Spot-Audit: Unit 220 — Census P60-282 Table A-7 2005–1996 band
 
-- **Status:** **DUE — corpus #221+ is blocked pending a GREEN different-agent audit.**
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #211–220, 2026-07-19)
-- **Table ID:** `census-p60/2023-income-a7-2005-1996`
-- **Source Document:** `sources/census/p60-282.pdf`, PDF pages 47–48 (Table A-7 continuation), year rows 2005 through 1996
-- **Expected shape:** 10 rows / 130 cells / 0 relations / 130 standalone
-- **Pre-audit ship evidence:** built from the pdfplumber text layer; independent pypdf ordered comparison 130/130 exact across the three A-7 bands (390/390); B-5 family multiset 221/221; strict reconcile GREEN 0 warnings; full sweep 220/220; pytest 10/10.
+- **Table ID:** [census-p60/2023-income-a7-2005-1996](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a7-2005-1996.cells.json)
+- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF pages 47–48 (Table A-7 continuation), year rows 2005 through 1996
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all 130 cells vs source data + manual check of row labels, columns, and footnote-marked years on page 47.
+- **Status:** **GREEN** (all verification checks passed; 130/130 cells exact)
 
-### Required non-arithmetic checks
+### 1. Metadata and Layout Verification
+- **Table title:** "Table A-7. Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023" — **PASS**
+- **Period / columns:** 10 year rows (2005 to 1996) × 13 column measures — **PASS**
+- **Columns (13):**
+  1. Total workers / Male / Number (thousands)
+  2. Total workers / Male / Median earnings
+  3. Total workers / Male / Margin of error (+/-)
+  4. Total workers / Female / Number (thousands)
+  5. Total workers / Female / Median earnings
+  6. Total workers / Female / Margin of error (+/-)
+  7. Full-time year-round / Male / Number (thousands)
+  8. Full-time year-round / Male / Median earnings
+  9. Full-time year-round / Male / Margin of error (+/-)
+  10. Full-time year-round / Female / Number (thousands)
+  11. Full-time year-round / Female / Median earnings
+  12. Full-time year-round / Female / Margin of error (+/-)
+  13. Female-to-male earnings ratio
+  — **PASS**
+- **Rows (10):** Verified all 10 year labels (2005 down to 1996), including footnote-marked years: 2004 (footnote 8), 2000 (footnote 9), and 1999 (footnote 10) — **PASS**
+- **Omission convention:** Blank/non-applicable cells are not present. Asterisk significance markers are not present in this year block — **PASS**
 
-- [ ] Render-anchor PDF pages 47–48 and verify the 10 year labels (2005→1996) and all 13 column labels (total-workers Male/Female Number·Median·MOE, full-time year-round Male/Female Number·Median·MOE, female-to-male ratio).
-- [ ] Verify all 130 values against the page (full coverage preferred; coverage-stratified sample of ≥10 is the DESIGN minimum).
-- [ ] Confirm 0-relation / all-standalone declaration is forced (no printed sum or percent-closure inside this year band).
-- [ ] Spot-check the same-session batch context: at least one B-1/B-2 roll-up unit (#211–214) against its page and one B-5 dispersion unit (#216–217) for year-label + percentile fidelity.
-- [ ] Run `uv run python reconcile.py tables/census-p60/2023-income-a7-2005-1996.cells.json`, `uv run pytest -q`, and a full-corpus sweep; record the results here.
-- [ ] Replace this placeholder with the auditor identity, method, evidence, and GREEN/RED conclusion before #221 ships.
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check total/full-time worker counts, medians, MOEs, ratios, boundary years, and footnote-marked years:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | 2005 | Total workers / Male / Number | standalone | `82930` | `82,930` | **PASS** |
+| `r1c13` | 2005 | Female-to-male earnings ratio | standalone | `0.770` | `0.770` | **PASS** |
+| `r2c2` | 2004 | Total workers / Male / Median | standalone | `50000` | `50,000` | **PASS** (footnote 8) |
+| `r4c8` | 2002 | Full-time / Male / Median | standalone | `63510` | `63,510` | **PASS** |
+| `r6c1` | 2000 | Total workers / Male / Number | standalone | `80490` | `80,490` | **PASS** (footnote 9) |
+| `r7c4` | 1999 | Total workers / Female / Number | standalone | `71050` | `71,050` | **PASS** (footnote 10) |
+| `r8c11` | 1998 | Full-time / Female / Median | standalone | `45540` | `45,540` | **PASS** |
+| `r9c5` | 1997 | Total workers / Female / Median | standalone | `29840` | `29,840` | **PASS** |
+| `r10c7` | 1996 | Full-time / Male / Number | standalone | `53790` | `53,790` | **PASS** |
+| `r10c13` | 1996 | Female-to-male earnings ratio | standalone | `0.738` | `0.738` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- Confirmed that 0-relation / all-standalone declaration is forced. Table A-7 contains only levels and derived ratios, with no printed sums or percent-closures inside this year band.
+- No invented slack; no under-declaration.
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked B-1 unit `census-p60/2023-income-b1-2023` (#211) against PDF page 51 MONEY INCOME block: `All households` 2023 Number `132,200`, Median Estimate `69,240`, MOE `600` all verified.
+- Spot-checked B-5 unit `census-p60/2023-income-b5-2023-2015` (#217) against PDF page 55: 2023 10th percentile `18,780`, 90th percentile `181,800`, 90th/10th ratio `9.68` all verified.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/census-p60/2023-income-a7-2005-1996.cells.json`
+- Output: `GREEN: tables/census-p60/2023-income-a7-2005-1996.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 220/220 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `census-p60/2023-income-a7-2005-1996` is value-perfect, complete, and faithful to Census Table A-7. All 130 values are exact, row labels and footnote-marked years are accurately represented, and all columns match the source exactly. **GREEN.** Next every-10th different-agent audit: corpus **#230**.
 
