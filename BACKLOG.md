@@ -101,6 +101,7 @@ NEXT.md.)
 | omb/budget-appendix-fy2027-leg-loc-gift-shop | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Gift Shop, Decimal Classification, Photo Duplication, and Related Services (page 22, id `003-4346-0-3-503`) | 16 | sum | ≤ 100 cells (78 actual) | 12 | SHIPPED 2026-07-18 (78 cells, 16 relations, strict-default GREEN; corpus #83) |
 | omb/budget-appendix-fy2027-leg-loc-fedlink | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - FEDLINK Program and Federal Research Program (pp22–23, id `003-4543-0-4-503`) | 28 | sum | ≤ 150 cells (107 actual) | 18 | SHIPPED 2026-07-18 (107 cells, 28 relations, strict-default GREEN; corpus #84) |
 | omb/budget-appendix-fy2027-leg-loc-gift-trust | `sources/omb/budget-2027-app-2-3-legislative.pdf` | Library of Congress - Gift and Trust Fund Accounts (pp23–24, id `003-9971-0-7-503`, combines Special and Trust Fund Receipts + Program and Financing schedules) | 27 | sum | ≤ 180 cells (147 actual) | 20 | SHIPPED 2026-07-18 (147 cells, 27 relations, strict-default GREEN; corpus #85 — **LoC family numerically COMPLETE, 10/10 accounts**) |
+| omb/budget-appendix-fy2027-leg-tax-court-salaries | `sources/omb/budget-2027-app-2-3-legislative.pdf` | United States Tax Court - Salaries and Expenses (pp29–30, id `023-0100-0-1-752`) | 16 | sum | ≤ 150 cells (98 actual) | 27 | SHIPPED 2026-07-18 (98 cells, 16 relations, strict-default GREEN; corpus #86) |
 
 ## Queued (need vendoring or sizing first)
 

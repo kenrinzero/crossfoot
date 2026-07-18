@@ -197,15 +197,16 @@ applicable columns handled as usual (standalone + total-row net identity).
   render-anchored; page/id-anchored but not yet render-verified
   cell-by-cell — sizes are text-layer line counts, verify on pickup),
   all 3 accounts, D2 each:**
-  1. `omb/budget-appendix-fy2027-leg-tax-court-salaries` (id
+  1. ~~`omb/budget-appendix-fy2027-leg-tax-court-salaries` (id
      `023-0100-0-1-752`, pp29-30) — Salaries and Expenses, the main
-     account. ~31 P&F rows (0001, 1000/1001/1021/1070, 1100/1900/1930/
-     1941, 3000/3010/3020/3040/3050/3100/3200, 4000/4010/4011/4020/
-     4030/4033/4040/4050/4053/4060/4070/4080/4101/4180/4190) + ~14
-     Object Classification rows (11.1/12.1/21.0/23.1/23.3/25.1/25.2/
-     25.3/25.7/26.0/31.0/99.0×2/99.9, page 30) + Employment (1001
-     only). Est. ~130-150 cells — best starter, cleanest schedule,
-     single program activity line.
+     account.~~ **SHIPPED 2026-07-18** (Claude Opus 4.6 — 98 cells /
+     16 relations, 27 standalone; corpus #86). Original text-layer
+     estimate was ~130-150 cells; actual is 98 (many columns blank in
+     the 2026/2027 estimates). Render-anchored from 3x pypdfium2
+     renders of pp29-30 + pdfplumber text-layer cross-check. No 4030/
+     4033/4040/4050/4053/4060/4070/4080 rows exist in this account
+     (no offsetting collections); the text-layer line-count over-
+     estimated from other accounts' row patterns.
   2. `omb/budget-appendix-fy2027-leg-tax-court-fees` (id
      `023-5633-0-2-752`, page 30) — U.S. Tax Court Fees. Small
      receipts-style account (Special and Trust Fund Receipts: 0100/
