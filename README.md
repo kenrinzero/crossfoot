@@ -10,10 +10,9 @@ correctness is derived, not trusted.
 ## Status
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
-strict coverage is the default), **270 transcription units shipped**. Census
-P60-282 appendix complete; Treasury MTS June 2026 family growing through
-Table 5 departments (Agriculture, Commerce, Defense, Education, Energy).
-Unit **#270** awaits its required different-agent audit before #271 ships.
+strict coverage is the default), **280 transcription units shipped**. Census
+P60-282 appendix complete; Treasury MTS June 2026 Table 5 through Labor ETA (HHS/DHS/HUD/Interior/Justice/Labor).
+Unit **#280** awaits its required different-agent audit before #281 ships.
 
 
 ## How a unit works

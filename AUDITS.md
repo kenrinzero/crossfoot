@@ -1458,3 +1458,14 @@ Stratified sample to check gross outlays, applicable receipts, nets, and totals:
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-energy` is value-perfect, complete, and faithful to Table 5 Department of Energy section. All 132 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#280**.
+---
+
+## Unit #280 — treasury-mts/2026-06-outlays-labor-bureaus — AUDIT DUE
+
+- **Corpus index:** 280
+- **Table ID:** [treasury-mts/2026-06-outlays-labor-bureaus](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json)
+- **Transcriber:** Grok (2026-07-19)
+- **Auditor:** *different agent required* (transcriber was Grok)
+- **Status:** **DUE** — blocks #281+
+- **Shape:** 86 cells / 12 relations / 0 standalone (ETA + Unemployment Trust Fund roll-ups)
+- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p16

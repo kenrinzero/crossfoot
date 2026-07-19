@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 different-agent audit DUE** (transcriber Grok); #281+ blocked until GREEN.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -171,11 +171,14 @@ audited and GREEN by Antigravity** (unblocking #171).
   (programs/RDT&E/departmental), Education 2/2 (bureaus/departmental), Energy.
   Sweep 270/270 GREEN; pytest 10/10.
 
-  **AUDIT GATE:** the different-agent audit of unit **#270**
-  (`treasury-mts/2026-06-outlays-energy`) has been completed and recorded
-  as **GREEN** in `AUDITS.md` by Antigravity. **#271+ is unblocked.** After GREEN:
-  continue June Table 5 (HHS/DHS/HUD/Interior/Justice/Labor/State/Transportation/
-  Treasury/VA/Independents) then Table 6–8 / means-of-financing.
+  **BATCH #271–280 SHIPPED (Grok, 2026-07-19):** June Table 5 — HHS 3/3
+  (CMS/ACF/departmental), Homeland Security, HUD 2/2, Interior 2/2, Justice,
+  Labor ETA bureaus. Sweep 280/280 GREEN; pytest 10/10.
+
+  **AUDIT GATE:** the different-agent audit of unit **#280**
+  (`treasury-mts/2026-06-outlays-labor-bureaus`) is **DUE** before #281+. After
+  GREEN: Labor departmental, State, Transportation, Treasury, VA, Independents,
+  then Table 6–8 / means-of-financing.
 
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
@@ -212,6 +215,16 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-19 · `treasury-mts/2026-06-outlays-labor-bureaus` — #280 (Grok). Table 5 Labor ETA; 86c/12r; strict-default GREEN. **Different-agent audit DUE before #281.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-justice` — #279 (Grok). Table 5 Justice; 120c/15r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-interior-departmental` — #278 (Grok). Table 5 Interior capstone; 73c/22r; strict-default GREEN. **Interior 2/2 complete.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-interior-bureaus` — #277 (Grok). Table 5 Interior bureaus; 130c/40r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-hud-departmental` — #276 (Grok). Table 5 HUD capstone; 138c/34r; strict-default GREEN. **HUD 2/2 complete.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-hud-bureaus` — #275 (Grok). Table 5 HUD bureaus; 82c/12r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-homeland-security` — #274 (Grok). Table 5 DHS; 126c/27r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-hhs-departmental` — #273 (Grok). Table 5 HHS capstone; 108c/15r; strict-default GREEN. **HHS 3/3 complete.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-hhs-acf` — #272 (Grok). Table 5 HHS ACF/small agencies; 135c/9r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-hhs-cms` — #271 (Grok). Table 5 HHS CMS; 84c/18r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-energy` — #270 (Grok). Table 5 Energy; 132c/27r; strict-default GREEN. **Different-agent audit GREEN (Antigravity); #271+ unblocked.**
 - 2026-07-19 · `treasury-mts/2026-06-outlays-education-departmental` — #269 (Grok). Table 5 Education capstone; 93c/13r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-education-bureaus` — #268 (Grok). Table 5 Education bureaus; 92c/22r; strict-default GREEN.
