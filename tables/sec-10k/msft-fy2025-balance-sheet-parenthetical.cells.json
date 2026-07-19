@@ -1,0 +1,31 @@
+{
+  "table_id": "sec-10k/msft-fy2025-balance-sheet-parenthetical",
+  "source": {
+    "path": "sources/sec-10k/msft-fy2025-balance-sheet-parenthetical-R5.htm",
+    "table": "BALANCE SHEETS (Parenthetical)",
+    "title": "Microsoft Corporation consolidated balance sheets (parenthetical)",
+    "period": "June 30, 2025 and June 30, 2024"
+  },
+  "unit_note": "USD ($). Parenthetical balance sheet items: allowance/accumulated depreciation/share counts. All values are single-source, no cross-foot identities.",
+  "columns": [
+    { "index": 1, "label": "Jun. 30, 2025" },
+    { "index": 2, "label": "Jun. 30, 2024" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Accounts receivable, allowance for doubtful accounts" },
+    { "index": 2, "label": "Property and equipment, accumulated depreciation" },
+    { "index": 3, "label": "Common stock, shares authorized" },
+    { "index": 4, "label": "Common stock, shares outstanding" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "944", "role": "standalone", "why": "Allowance for doubtful accounts is a single-source estimate" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "830", "role": "standalone", "why": "Allowance for doubtful accounts is a single-source estimate" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "93653", "role": "standalone", "why": "Accumulated depreciation is a single-source summary figure" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "76421", "role": "standalone", "why": "Accumulated depreciation is a single-source summary figure" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "24000000000", "role": "standalone", "why": "Shares authorized are a fixed corporate authorization" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "24000000000", "role": "standalone", "why": "Shares authorized are a fixed corporate authorization" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "7434000000", "role": "standalone", "why": "Shares outstanding are a single-source count" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "7434000000", "role": "standalone", "why": "Shares outstanding are a single-source count" }
+  ],
+  "relations": []
+}
