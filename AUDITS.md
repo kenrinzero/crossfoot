@@ -1731,12 +1731,60 @@ Grok's transcription of `treasury-mts/2026-06-table6-schedule-e-direct-part2` is
 
 ---
 
-## Corpus unit #330 — `treasury-mts/2026-06-table8-investments` — PLACEHOLDER (audit DUE)
+## Spot-Audit: Unit 330 — treasury-mts/2026-06-table8-investments
 
-- **Status:** **DUE** — every-10th different-agent spot-audit
-- **Transcriber:** Grok (2026-07-19)
+- **Audit Date:** 2026-07-19
+- **Auditor:** Claude Fable 5
+- **Transcriber:** Grok (2026-07-19, commit `ca86254`)
 - **Table ID:** [treasury-mts/2026-06-table8-investments](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table8-investments.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 8 Securities Held as Investments, PDF page 36
-- **Shape:** 45 cells / 3 relations / 0 standalone (14 trust fund investment lines + Total; Black Lung + Military Advances all-...... dropped)
-- **Gate for auditor:** full-value check vs page-36 investments columns; Total = sum of trust lines; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#331+ blocked until GREEN.**
+- **Status:** **GREEN** (full-coverage 45/45 value check, 0 mismatches)
+
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 8. Trust Fund Impact on Budget Results and Investment Holdings as of June 30, 2026", `[$ millions]` — **PASS**
+- **Scope:** Securities Held as Investments columns only (the This Month / FYTD receipts-outlays columns belong to the sibling unit `2026-06-table8-activity`) — matches the May family split — **PASS**
+- **Columns (3):** Printed header is a spanner: "Beginning of" over {This Year, This Month} and "Close of" over {This Month} (render-verified at 3x). The unit's col-2 label "Close of Prior Month (This Month open)" is the settled May-precedent paraphrase of the printed "Beginning of This Month" (semantically identical; May unit uses "Close of Prior Month"). Cosmetic, no fix required — **PASS**
+- **Rows (15):** 14 trust fund investment lines + Total, verified against the page in print order — **PASS**
+- **Omission convention:** Black Lung Disability and Military Advances print `......` in all three investment columns and carry no cells — render- and text-verified. Note: May listed these two as cell-less rows; June drops them from `rows` entirely and declares the drop in `unit_note`. Both encode the same omission; structural difference recorded as cosmetic — **PASS**
+- **Total-row label:** unit's "Total Trust Fund Investments Held from Table 6-D" is a scope-trimmed form of the printed "Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D" (the trimmed words describe columns outside this unit's scope). Cosmetic — **PASS**
+
+### 2. Value Verification (full coverage, 45/45)
+Every cell compared against the page-36 text layer (positioned extraction) and cross-checked on the 3x pypdfium2 render: **45/45 exact, 0 mismatches**. High-risk / boundary sample:
+
+| Cell ID | Row Label | Column | Role | JSON Value | Source | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | Airport and Airway | Beginning of This Year | leaf | `18571` | `18,571` | **PASS** |
+| `r4c1` | Federal Employees Retirement | Beginning of This Year | leaf | `1130982` | `1,130,982` | **PASS** |
+| `r6c3` | Federal Old-Age and Survivors Insurance | Close of This Month | leaf | `2268181` | `2,268,181` | **PASS** |
+| `r10c2` | Military Retirement | Close of Prior Month | leaf | `2108009` | `2,108,009` | **PASS** |
+| `r11c3` | Railroad Retirement | Close of This Month | leaf | `3668` | `3,668` | **PASS** |
+| `r13c1` | Veterans Life Insurance | Beginning of This Year | leaf | `946` | `946` | **PASS** |
+| `r13c3` | Veterans Life Insurance | Close of This Month | leaf | `769` | `769` | **PASS** |
+| `r15c1` | Total ... from Table 6-D | Beginning of This Year | total | `6274791` | `6,274,791` | **PASS** |
+| `r15c2` | Total ... from Table 6-D | Close of Prior Month | total | `6517083` | `6,517,083` | **PASS** |
+| `r15c3` | Total ... from Table 6-D | Close of This Month | total | `6551831` | `6,551,831` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+All 3 column roll-ups recomputed independently in exact Decimal math (14 leaf sources → Total each):
+
+| Relation | Sum of leaves | Printed Total | Δ | Declared tol | Status |
+| :--- | ---: | ---: | ---: | ---: | :--- |
+| roll-up col 1 (Beginning of This Year) | 6,274,789 | 6,274,791 | 2 | 2 | **PASS** |
+| roll-up col 2 (Close of Prior Month) | 6,517,082 | 6,517,083 | 1 | 1 | **PASS** |
+| roll-up col 3 (Close of This Month) | 6,551,830 | 6,551,831 | 1 | 1 | **PASS** |
+
+Every declared `tol` sits exactly on the observed delta (no over-declaration), and each quotes the printed rounding note ("Details may not add to totals due to rounding.") — **PASS**. Roles honest: 42 leaf + 3 total, 0 standalone — every cell participates in a relation — **PASS**
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked `2026-06-table8-activity` (same page 36): Airport and Airway This Month Receipts `1,822`, Outlays `1,439`, Excess `384`, FYTD Receipts `16,605` all match the page exactly.
+- Spot-checked `2026-06-table7-receipts-totals` (page 34): Total--Receipts This Year October `404,371`, November `336,002`, December `484,384` all match the page exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-table8-investments.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-table8-investments.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 330/330 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-table8-investments` is value-perfect, complete, and faithful to the Table 8 investment columns (page 36). All 45 values are exact under full-coverage comparison, the all-`......` omissions are honest, and all three roll-ups reconcile with tolerances declared exactly at the observed rounding deltas. **GREEN.** #331+ is unblocked; June MTS is source-complete with this audit closed. Next every-10th different-agent audit: corpus **#340**.
 
