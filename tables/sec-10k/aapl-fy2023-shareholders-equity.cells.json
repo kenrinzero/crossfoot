@@ -1,0 +1,181 @@
+{
+  "table_id": "sec-10k/aapl-fy2023-shareholders-equity",
+  "source": {
+    "path": "sources/sec-10k/aapl-fy2023-shareholders-equity-R7.htm",
+    "table": "CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY",
+    "title": "Apple Inc. consolidated statements of shareholders' equity",
+    "period": "Fiscal years ended Sep. 25, 2021, Sep. 24, 2022, and Sep. 30, 2023"
+  },
+  "unit_note": "USD millions. Parenthesized accounting values are transcribed as negatives; thousands separators and currency symbols are stripped.",
+  "columns": [
+    {"index": 1, "label": "Total"},
+    {"index": 2, "label": "Common stock and additional paid-in capital"},
+    {"index": 3, "label": "Retained earnings/(Accumulated deficit)"},
+    {"index": 4, "label": "Accumulated other comprehensive income/(loss)"}
+  ],
+  "rows": [
+    {"index": 1, "label": "Beginning balances at Sep. 26, 2020"},
+    {"index": 2, "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]"},
+    {"index": 3, "label": "Common stock issued"},
+    {"index": 4, "label": "Common stock withheld related to net share settlement of equity awards"},
+    {"index": 5, "label": "Share-based compensation"},
+    {"index": 6, "label": "Net income"},
+    {"index": 7, "label": "Dividends and dividend equivalents declared"},
+    {"index": 8, "label": "Common stock repurchased"},
+    {"index": 9, "label": "Other comprehensive income/(loss)"},
+    {"index": 10, "label": "Ending balances at Sep. 25, 2021"},
+    {"index": 11, "label": "Dividends and dividend equivalents declared per share or RSU (in dollars per share or RSU)"},
+    {"index": 12, "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]"},
+    {"index": 13, "label": "Common stock issued"},
+    {"index": 14, "label": "Common stock withheld related to net share settlement of equity awards"},
+    {"index": 15, "label": "Share-based compensation"},
+    {"index": 16, "label": "Net income"},
+    {"index": 17, "label": "Dividends and dividend equivalents declared"},
+    {"index": 18, "label": "Common stock repurchased"},
+    {"index": 19, "label": "Other comprehensive income/(loss)"},
+    {"index": 20, "label": "Ending balances at Sep. 24, 2022"},
+    {"index": 21, "label": "Dividends and dividend equivalents declared per share or RSU (in dollars per share or RSU)"},
+    {"index": 22, "label": "Increase (Decrease) in Stockholders' Equity [Roll Forward]"},
+    {"index": 23, "label": "Common stock issued"},
+    {"index": 24, "label": "Common stock withheld related to net share settlement of equity awards"},
+    {"index": 25, "label": "Share-based compensation"},
+    {"index": 26, "label": "Net income"},
+    {"index": 27, "label": "Dividends and dividend equivalents declared"},
+    {"index": 28, "label": "Common stock repurchased"},
+    {"index": 29, "label": "Other comprehensive income/(loss)"},
+    {"index": 30, "label": "Ending balances at Sep. 30, 2023"},
+    {"index": 31, "label": "Dividends and dividend equivalents declared per share or RSU (in dollars per share or RSU)"}
+  ],
+  "cells": [
+    {"id": "r1c1", "row": 1, "col": 1, "value": "65339", "role": "total"},
+    {"id": "r1c2", "row": 1, "col": 2, "value": "50779", "role": "leaf"},
+    {"id": "r1c3", "row": 1, "col": 3, "value": "14966", "role": "leaf"},
+    {"id": "r1c4", "row": 1, "col": 4, "value": "-406", "role": "leaf"},
+    {"id": "r3c2", "row": 3, "col": 2, "value": "1105", "role": "leaf"},
+    {"id": "r4c2", "row": 4, "col": 2, "value": "-2627", "role": "leaf"},
+    {"id": "r4c3", "row": 4, "col": 3, "value": "-4151", "role": "leaf"},
+    {"id": "r5c2", "row": 5, "col": 2, "value": "8108", "role": "leaf"},
+    {"id": "r6c1", "row": 6, "col": 1, "value": "94680", "role": "standalone", "why": "The total-column net income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r6c3", "row": 6, "col": 3, "value": "94680", "role": "leaf"},
+    {"id": "r7c3", "row": 7, "col": 3, "value": "-14431", "role": "leaf"},
+    {"id": "r8c3", "row": 8, "col": 3, "value": "-85502", "role": "leaf"},
+    {"id": "r9c1", "row": 9, "col": 1, "value": "569", "role": "standalone", "why": "The total-column other comprehensive income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r9c4", "row": 9, "col": 4, "value": "569", "role": "leaf"},
+    {"id": "r10c1", "row": 10, "col": 1, "value": "63090", "role": "total"},
+    {"id": "r10c2", "row": 10, "col": 2, "value": "57365", "role": "total"},
+    {"id": "r10c3", "row": 10, "col": 3, "value": "5562", "role": "total"},
+    {"id": "r10c4", "row": 10, "col": 4, "value": "163", "role": "total"},
+    {"id": "r11c1", "row": 11, "col": 1, "value": "0.85", "role": "standalone", "unit": "USD/share", "why": "Per-share dividends declared are standalone disclosures and do not participate in the equity roll-forward"},
+    {"id": "r13c2", "row": 13, "col": 2, "value": "1175", "role": "leaf"},
+    {"id": "r14c2", "row": 14, "col": 2, "value": "-2971", "role": "leaf"},
+    {"id": "r14c3", "row": 14, "col": 3, "value": "-3454", "role": "leaf"},
+    {"id": "r15c2", "row": 15, "col": 2, "value": "9280", "role": "leaf"},
+    {"id": "r16c1", "row": 16, "col": 1, "value": "99803", "role": "standalone", "why": "The total-column net income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r16c3", "row": 16, "col": 3, "value": "99803", "role": "leaf"},
+    {"id": "r17c3", "row": 17, "col": 3, "value": "-14793", "role": "leaf"},
+    {"id": "r18c3", "row": 18, "col": 3, "value": "-90186", "role": "leaf"},
+    {"id": "r19c1", "row": 19, "col": 1, "value": "-11272", "role": "standalone", "why": "The total-column other comprehensive income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r19c4", "row": 19, "col": 4, "value": "-11272", "role": "leaf"},
+    {"id": "r20c1", "row": 20, "col": 1, "value": "50672", "role": "total"},
+    {"id": "r20c2", "row": 20, "col": 2, "value": "64849", "role": "total"},
+    {"id": "r20c3", "row": 20, "col": 3, "value": "-3068", "role": "total"},
+    {"id": "r20c4", "row": 20, "col": 4, "value": "-11109", "role": "total"},
+    {"id": "r21c1", "row": 21, "col": 1, "value": "0.90", "role": "standalone", "unit": "USD/share", "why": "Per-share dividends declared are standalone disclosures and do not participate in the equity roll-forward"},
+    {"id": "r23c2", "row": 23, "col": 2, "value": "1346", "role": "leaf"},
+    {"id": "r24c2", "row": 24, "col": 2, "value": "-3521", "role": "leaf"},
+    {"id": "r24c3", "row": 24, "col": 3, "value": "-2099", "role": "leaf"},
+    {"id": "r25c2", "row": 25, "col": 2, "value": "11138", "role": "leaf"},
+    {"id": "r26c1", "row": 26, "col": 1, "value": "96995", "role": "standalone", "why": "The total-column net income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r26c3", "row": 26, "col": 3, "value": "96995", "role": "leaf"},
+    {"id": "r27c3", "row": 27, "col": 3, "value": "-14996", "role": "leaf"},
+    {"id": "r28c1", "row": 28, "col": 1, "value": "-76600", "role": "standalone", "why": "FY2023 repurchases: Total -76600 vs RE -77046 is a real source feature (RSU equivalents), NOT a transcription error; the RE column value is the arithmetic source"},
+    {"id": "r28c3", "row": 28, "col": 3, "value": "-77046", "role": "leaf"},
+    {"id": "r29c1", "row": 29, "col": 1, "value": "-343", "role": "standalone", "why": "The total-column other comprehensive income value is a printed disclosure rather than a separate arithmetic source for the roll-forward"},
+    {"id": "r29c4", "row": 29, "col": 4, "value": "-343", "role": "leaf"},
+    {"id": "r30c1", "row": 30, "col": 1, "value": "62146", "role": "total"},
+    {"id": "r30c2", "row": 30, "col": 2, "value": "73812", "role": "total"},
+    {"id": "r30c3", "row": 30, "col": 3, "value": "-214", "role": "total"},
+    {"id": "r30c4", "row": 30, "col": 4, "value": "-11452", "role": "total"},
+    {"id": "r31c1", "row": 31, "col": 1, "value": "0.94", "role": "standalone", "unit": "USD/share", "why": "Per-share dividends declared are standalone disclosures and do not participate in the equity roll-forward"}
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": ["r1c2", "r1c3", "r1c4"],
+      "target": "r1c1",
+      "note": "FY2021 beginning total equity equals common stock + retained earnings + accumulated other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r10c2", "r10c3", "r10c4"],
+      "target": "r10c1",
+      "note": "FY2021 total equity equals common stock + retained earnings + accumulated other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r1c2", "r3c2", "r4c2", "r5c2"],
+      "target": "r10c2",
+      "note": "FY2021 common stock and additional paid-in capital roll-forward equals beginning balance plus stock issued minus withheld plus share-based compensation"
+    },
+    {
+      "type": "sum",
+      "sources": ["r1c3", "r4c3", "r6c3", "r7c3", "r8c3"],
+      "target": "r10c3",
+      "note": "FY2021 retained earnings roll-forward equals beginning balance minus withheld plus net income minus dividends minus repurchases"
+    },
+    {
+      "type": "sum",
+      "sources": ["r1c4", "r9c4"],
+      "target": "r10c4",
+      "note": "FY2021 accumulated other comprehensive income roll-forward equals beginning balance plus other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r20c2", "r20c3", "r20c4"],
+      "target": "r20c1",
+      "note": "FY2022 total equity equals common stock + retained earnings + accumulated other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r10c2", "r13c2", "r14c2", "r15c2"],
+      "target": "r20c2",
+      "note": "FY2022 common stock and additional paid-in capital roll-forward equals beginning balance plus stock issued minus withheld plus share-based compensation"
+    },
+    {
+      "type": "sum",
+      "sources": ["r10c3", "r14c3", "r16c3", "r17c3", "r18c3"],
+      "target": "r20c3",
+      "note": "FY2022 retained earnings roll-forward equals beginning balance minus withheld plus net income minus dividends minus repurchases"
+    },
+    {
+      "type": "sum",
+      "sources": ["r10c4", "r19c4"],
+      "target": "r20c4",
+      "note": "FY2022 accumulated other comprehensive income roll-forward equals beginning balance plus other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r30c2", "r30c3", "r30c4"],
+      "target": "r30c1",
+      "note": "FY2023 total equity equals common stock + retained earnings + accumulated other comprehensive income"
+    },
+    {
+      "type": "sum",
+      "sources": ["r20c2", "r23c2", "r24c2", "r25c2"],
+      "target": "r30c2",
+      "note": "FY2023 common stock and additional paid-in capital roll-forward equals beginning balance plus stock issued minus withheld plus share-based compensation"
+    },
+    {
+      "type": "sum",
+      "sources": ["r20c3", "r24c3", "r26c3", "r27c3", "r28c3"],
+      "target": "r30c3",
+      "note": "FY2023 retained earnings roll-forward equals beginning balance minus withheld plus net income minus dividends minus repurchases; FY2023 repurchases RE column -77046 is the arithmetic source (Total -76600 is a real source feature per BACKLOG)"
+    },
+    {
+      "type": "sum",
+      "sources": ["r20c4", "r29c4"],
+      "target": "r30c4",
+      "note": "FY2023 accumulated other comprehensive income roll-forward equals beginning balance plus other comprehensive income"
+    }
+  ]
+}
