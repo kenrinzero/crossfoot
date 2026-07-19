@@ -1729,3 +1729,14 @@ We verified all 166 cells against the PDF text layer and page render. Below is a
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-table6-schedule-e-direct-part2` is value-perfect, complete, and faithful to Table 6 Schedule E (page 33). All 166 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** #321+ is unblocked; next every-10th different-agent audit: corpus **#330**.
 
+---
+
+## Corpus unit #330 — `treasury-mts/2026-06-table8-investments` — PLACEHOLDER (audit DUE)
+
+- **Status:** **DUE** — every-10th different-agent spot-audit
+- **Transcriber:** Grok (2026-07-19)
+- **Table ID:** [treasury-mts/2026-06-table8-investments](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table8-investments.cells.json)
+- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 8 Securities Held as Investments, PDF page 36
+- **Shape:** 45 cells / 3 relations / 0 standalone (14 trust fund investment lines + Total; Black Lung + Military Advances all-...... dropped)
+- **Gate for auditor:** full-value check vs page-36 investments columns; Total = sum of trust lines; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#331+ blocked until GREEN.**
+

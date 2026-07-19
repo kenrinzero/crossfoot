@@ -1,0 +1,1729 @@
+{
+  "table_id": "treasury-mts/2026-06-table8-activity",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 8. Trust Fund Impact \u2014 Activity (Receipts/Outlays/Excess)",
+    "page": 36,
+    "title": "Table 8 Activity",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... omitted. Activity columns only (investments in sibling unit). Outlays+Excess=Receipts; trust/federal interfund netting; Net Budget = Trust net + Federal net.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Receipts"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Excess"
+    },
+    {
+      "index": 4,
+      "label": "Fiscal Year to Date / Receipts"
+    },
+    {
+      "index": 5,
+      "label": "Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 6,
+      "label": "Fiscal Year to Date / Excess"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Airport and Airway"
+    },
+    {
+      "index": 2,
+      "label": "Black Lung Disability"
+    },
+    {
+      "index": 3,
+      "label": "Federal Disability Insurance"
+    },
+    {
+      "index": 4,
+      "label": "Federal Employees Life and Health"
+    },
+    {
+      "index": 5,
+      "label": "Federal Employees Retirement"
+    },
+    {
+      "index": 6,
+      "label": "Federal Hospital Insurance"
+    },
+    {
+      "index": 7,
+      "label": "Federal Old-Age and Survivors Insurance"
+    },
+    {
+      "index": 8,
+      "label": "Federal Supplementary Medical Insurance"
+    },
+    {
+      "index": 9,
+      "label": "Hazardous Substance Superfund"
+    },
+    {
+      "index": 10,
+      "label": "Highways"
+    },
+    {
+      "index": 11,
+      "label": "Military Advances"
+    },
+    {
+      "index": 12,
+      "label": "Military Retirement"
+    },
+    {
+      "index": 13,
+      "label": "Railroad Retirement"
+    },
+    {
+      "index": 14,
+      "label": "Unemployment"
+    },
+    {
+      "index": 15,
+      "label": "Veterans Life Insurance"
+    },
+    {
+      "index": 16,
+      "label": "All Other Trust"
+    },
+    {
+      "index": 17,
+      "label": "Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D"
+    },
+    {
+      "index": 18,
+      "label": "Less: Interfund Transactions"
+    },
+    {
+      "index": 19,
+      "label": "Trust Fund Receipts and Outlays on the Basis of Tables 4 & 5"
+    },
+    {
+      "index": 20,
+      "label": "Total Federal Fund Receipts and Outlays"
+    },
+    {
+      "index": 21,
+      "label": "Less: Interfund Transactions (Federal)"
+    },
+    {
+      "index": 22,
+      "label": "Federal Fund Receipts and Outlays on the Basis of Table 4 & 5"
+    },
+    {
+      "index": 23,
+      "label": "Net Budget Receipts & Outlays"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "1822",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "1439",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "384",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "16605",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "14093",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "2512",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "23",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "202",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "158",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "21946",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "13484",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "8462",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "160463",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "122006",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "38456",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-1186",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1186",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "-1530",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "1530",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "20171",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "9864",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "10306",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "77855",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "87792",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-9937",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "49388",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "46314",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "3074",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "374261",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "347274",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "26987",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "132548",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "133263",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-715",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "989200",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "1122106",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "-132906",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "79662",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "76757",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "2905",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "627799",
+      "role": "total"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "591097",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "36701",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "186",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "1572",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "1607",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-35",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4227",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "6711",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-2484",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "36391",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "50015",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "-13623",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "9563",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "6799",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "2764",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "46603",
+      "role": "total"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "44286",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "2317",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "16153",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "6964",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "9189",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "278577",
+      "role": "total"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "62017",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "216560",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "7218",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1623",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "5595",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "15762",
+      "role": "total"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "12305",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "3457",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "2280",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "3726",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-1447",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "43268",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "32284",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "10983",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "4",
+      "role": "total"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "-9",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "14",
+      "role": "total"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "192",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "-178",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "642",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "2164",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-1521",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "9373",
+      "role": "total"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "6523",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "2850",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "345836",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "308125",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "37711",
+      "role": "total"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "2677944",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "2492225",
+      "role": "total"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "185718",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "184257",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "184257",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "1238483",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "1238483",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "161579",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "123868",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "37711",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "1439460",
+      "role": "total"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "1253742",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "185718",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "334441",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "492457",
+      "role": "total"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-158016",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "2712943",
+      "role": "total"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "4265169",
+      "role": "total"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "-1552227",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "259",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "259",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "993",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "993",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "334183",
+      "role": "total"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "492199",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "-158016",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "2711949",
+      "role": "total"
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "4264176",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "-1552227",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "495761",
+      "role": "total"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "616067",
+      "role": "total"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "-120305",
+      "role": "total"
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "4151410",
+      "role": "total"
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "5517918",
+      "role": "total"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "-1366508",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r1c3"
+      ],
+      "target": "r1c1",
+      "note": "row identity: Outlays+Excess=Receipts r1 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c6"
+      ],
+      "target": "r1c4",
+      "note": "row identity: Outlays+Excess=Receipts r1 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r2c3"
+      ],
+      "target": "r2c1",
+      "note": "row identity: Outlays+Excess=Receipts r2 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c6"
+      ],
+      "target": "r2c4",
+      "note": "row identity: Outlays+Excess=Receipts r2 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r3c3"
+      ],
+      "target": "r3c1",
+      "note": "row identity: Outlays+Excess=Receipts r3 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c6"
+      ],
+      "target": "r3c4",
+      "note": "row identity: Outlays+Excess=Receipts r3 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r5c3"
+      ],
+      "target": "r5c1",
+      "note": "row identity: Outlays+Excess=Receipts r5 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c6"
+      ],
+      "target": "r5c4",
+      "note": "row identity: Outlays+Excess=Receipts r5 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r6c3"
+      ],
+      "target": "r6c1",
+      "note": "row identity: Outlays+Excess=Receipts r6 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r6c6"
+      ],
+      "target": "r6c4",
+      "note": "row identity: Outlays+Excess=Receipts r6 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c2",
+        "r7c3"
+      ],
+      "target": "r7c1",
+      "note": "row identity: Outlays+Excess=Receipts r7 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r7c6"
+      ],
+      "target": "r7c4",
+      "note": "row identity: Outlays+Excess=Receipts r7 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r8c3"
+      ],
+      "target": "r8c1",
+      "note": "row identity: Outlays+Excess=Receipts r8 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c6"
+      ],
+      "target": "r8c4",
+      "note": "row identity: Outlays+Excess=Receipts r8 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r9c3"
+      ],
+      "target": "r9c1",
+      "note": "row identity: Outlays+Excess=Receipts r9 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c6"
+      ],
+      "target": "r9c4",
+      "note": "row identity: Outlays+Excess=Receipts r9 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r10c3"
+      ],
+      "target": "r10c1",
+      "note": "row identity: Outlays+Excess=Receipts r10 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c6"
+      ],
+      "target": "r10c4",
+      "note": "row identity: Outlays+Excess=Receipts r10 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r11c3"
+      ],
+      "target": "r11c1",
+      "note": "row identity: Outlays+Excess=Receipts r11 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c6"
+      ],
+      "target": "r11c4",
+      "note": "row identity: Outlays+Excess=Receipts r11 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r12c3"
+      ],
+      "target": "r12c1",
+      "note": "row identity: Outlays+Excess=Receipts r12 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c6"
+      ],
+      "target": "r12c4",
+      "note": "row identity: Outlays+Excess=Receipts r12 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r13c3"
+      ],
+      "target": "r13c1",
+      "note": "row identity: Outlays+Excess=Receipts r13 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r13c6"
+      ],
+      "target": "r13c4",
+      "note": "row identity: Outlays+Excess=Receipts r13 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r14c3"
+      ],
+      "target": "r14c1",
+      "note": "row identity: Outlays+Excess=Receipts r14 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c6"
+      ],
+      "target": "r14c4",
+      "note": "row identity: Outlays+Excess=Receipts r14 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c2",
+        "r15c3"
+      ],
+      "target": "r15c1",
+      "note": "row identity: Outlays+Excess=Receipts r15 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c6"
+      ],
+      "target": "r15c4",
+      "note": "row identity: Outlays+Excess=Receipts r15 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c2",
+        "r16c3"
+      ],
+      "target": "r16c1",
+      "note": "row identity: Outlays+Excess=Receipts r16 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c6"
+      ],
+      "target": "r16c4",
+      "note": "row identity: Outlays+Excess=Receipts r16 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r17c3"
+      ],
+      "target": "r17c1",
+      "note": "row identity: Outlays+Excess=Receipts r17 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c6"
+      ],
+      "target": "r17c4",
+      "note": "row identity: Outlays+Excess=Receipts r17 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r19c3"
+      ],
+      "target": "r19c1",
+      "note": "row identity: Outlays+Excess=Receipts r19 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r19c6"
+      ],
+      "target": "r19c4",
+      "note": "row identity: Outlays+Excess=Receipts r19 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c2",
+        "r20c3"
+      ],
+      "target": "r20c1",
+      "note": "row identity: Outlays+Excess=Receipts r20 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c6"
+      ],
+      "target": "r20c4",
+      "note": "row identity: Outlays+Excess=Receipts r20 period starting c4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c2",
+        "r22c3"
+      ],
+      "target": "r22c1",
+      "note": "row identity: Outlays+Excess=Receipts r22 period starting c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c5",
+        "r22c6"
+      ],
+      "target": "r22c4",
+      "note": "row identity: Outlays+Excess=Receipts r22 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c2",
+        "r23c3"
+      ],
+      "target": "r23c1",
+      "note": "row identity: Outlays+Excess=Receipts r23 period starting c1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c5",
+        "r23c6"
+      ],
+      "target": "r23c4",
+      "note": "row identity: Outlays+Excess=Receipts r23 period starting c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1"
+      ],
+      "target": "r17c1",
+      "note": "trust funds roll-up to Total Trust col 1",
+      "tol": "3",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2",
+        "r11c2",
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2"
+      ],
+      "target": "r17c2",
+      "note": "trust funds roll-up to Total Trust col 2",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ],
+      "target": "r17c3",
+      "note": "trust funds roll-up to Total Trust col 3",
+      "tol": "2",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4"
+      ],
+      "target": "r17c4",
+      "note": "trust funds roll-up to Total Trust col 4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5",
+        "r3c5",
+        "r4c5",
+        "r5c5",
+        "r6c5",
+        "r7c5",
+        "r8c5",
+        "r9c5",
+        "r10c5",
+        "r11c5",
+        "r12c5",
+        "r13c5",
+        "r14c5",
+        "r15c5",
+        "r16c5"
+      ],
+      "target": "r17c5",
+      "note": "trust funds roll-up to Total Trust col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6"
+      ],
+      "target": "r17c6",
+      "note": "trust funds roll-up to Total Trust col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r18c1"
+      ],
+      "target": "r17c1",
+      "note": "Trust netting: net+interfund=gross col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r18c2"
+      ],
+      "target": "r17c2",
+      "note": "Trust netting: net+interfund=gross col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r18c4"
+      ],
+      "target": "r17c4",
+      "note": "Trust netting: net+interfund=gross col 4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r18c5"
+      ],
+      "target": "r17c5",
+      "note": "Trust netting: net+interfund=gross col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c1",
+        "r21c1"
+      ],
+      "target": "r20c1",
+      "note": "Federal netting: net+interfund=gross col 1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c2",
+        "r21c2"
+      ],
+      "target": "r20c2",
+      "note": "Federal netting: net+interfund=gross col 2",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c4",
+        "r21c4"
+      ],
+      "target": "r20c4",
+      "note": "Federal netting: net+interfund=gross col 4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c5",
+        "r21c5"
+      ],
+      "target": "r20c5",
+      "note": "Federal netting: net+interfund=gross col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c1",
+        "r22c1"
+      ],
+      "target": "r23c1",
+      "note": "Net Budget = Trust net + Federal net col 1",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c2",
+        "r22c2"
+      ],
+      "target": "r23c2",
+      "note": "Net Budget = Trust net + Federal net col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c3",
+        "r22c3"
+      ],
+      "target": "r23c3",
+      "note": "Net Budget = Trust net + Federal net col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r22c4"
+      ],
+      "target": "r23c4",
+      "note": "Net Budget = Trust net + Federal net col 4",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r22c5"
+      ],
+      "target": "r23c5",
+      "note": "Net Budget = Trust net + Federal net col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c6",
+        "r22c6"
+      ],
+      "target": "r23c6",
+      "note": "Net Budget = Trust net + Federal net col 6",
+      "tol": "1",
+      "why": "Table 8 footnote prints: \"Note: Details may not add to totals due to rounding.\""
+    }
+  ]
+}

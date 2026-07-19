@@ -10,10 +10,10 @@ correctness is derived, not trusted.
 ## Status
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
-strict coverage is the default), **320 transcription units shipped**. Census
-P60-282 appendix complete; Treasury MTS June 2026 Table 5 complete and Table 6
-complete through Schedules A–E. Unit **#320** different-agent audit is **DUE**
-(transcriber Grok); #321+ blocked until GREEN. Next after audit: Tables 7–8.
+strict coverage is the default), **330 transcription units shipped**. Census
+P60-282 appendix complete; **Treasury MTS June 2026 SOURCE COMPLETE** (Tables
+1–9 + Table 5 detail + Table 6 A–E + Tables 7–8). Unit **#330** different-agent
+audit is **DUE** (transcriber Grok); #331+ blocked until GREEN.
 
 
 ## How a unit works

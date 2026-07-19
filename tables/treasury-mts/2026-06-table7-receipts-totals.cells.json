@@ -1,0 +1,743 @@
+{
+  "table_id": "treasury-mts/2026-06-table7-receipts-totals",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 7. Receipts and Outlays by Month \u2014 Receipts Totals",
+    "page": 34,
+    "title": "Table 7. Receipts and Outlays by Month \u2014 Receipts Totals",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June (printed) + Year to Date + Comparable Period Prior F.Y. (July\u2013Sept headers empty). Receipts totals with On/Off-Budget split.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "June"
+    },
+    {
+      "index": 10,
+      "label": "Year to Date"
+    },
+    {
+      "index": 11,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Receipts / Total--Receipts This Year"
+    },
+    {
+      "index": 2,
+      "label": "Receipts / Total--Receipts This Year (On-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Receipts / Total--Receipts This Year (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Receipts / Total--Receipts Prior Year"
+    },
+    {
+      "index": 5,
+      "label": "Receipts / Total--Receipts Prior Year (On-Budget)"
+    },
+    {
+      "index": 6,
+      "label": "Receipts / Total--Receipts Prior Year (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "336002",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "484384",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "560052",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "313122",
+      "role": "total"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "384863",
+      "role": "total"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "837343",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "335512",
+      "role": "total"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "495761",
+      "role": "total"
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "4151410",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "312826",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "236842",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "379559",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "431584",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "204961",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "265310",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "696834",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "225440",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "374809",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "3128165",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "91545",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "99160",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "104825",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "128468",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "108161",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "119552",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "140509",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "110072",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "120952",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "1023245",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "326770",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "301754",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "454415",
+      "role": "total"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "513294",
+      "role": "total"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "296424",
+      "role": "total"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "367645",
+      "role": "total"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "850169",
+      "role": "total"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "371229",
+      "role": "total"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "526445",
+      "role": "total"
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "4008146",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "239159",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "207036",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "355606",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "392261",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "194406",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "254851",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "718211",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "267896",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "390296",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "3019723",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "87611",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "94718",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "98809",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "121033",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "102018",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "112795",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "131958",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "103333",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "136149",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "988424",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r1c5",
+        "r1c6",
+        "r1c7",
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r2c5",
+        "r2c6",
+        "r2c7",
+        "r2c8",
+        "r2c9"
+      ],
+      "target": "r2c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r3c5",
+        "r3c6",
+        "r3c7",
+        "r3c8",
+        "r3c9"
+      ],
+      "target": "r3c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r3)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "On+Off=Total Receipts This Year col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "On+Off=Total Receipts This Year col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "On+Off=Total Receipts This Year col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "On+Off=Total Receipts This Year col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r3c5"
+      ],
+      "target": "r1c5",
+      "note": "On+Off=Total Receipts This Year col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6"
+      ],
+      "target": "r1c6",
+      "note": "On+Off=Total Receipts This Year col 6",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7"
+      ],
+      "target": "r1c7",
+      "note": "On+Off=Total Receipts This Year col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r3c8"
+      ],
+      "target": "r1c8",
+      "note": "On+Off=Total Receipts This Year col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9"
+      ],
+      "target": "r1c9",
+      "note": "On+Off=Total Receipts This Year col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c10",
+        "r3c10"
+      ],
+      "target": "r1c10",
+      "note": "On+Off=Total Receipts This Year col 10"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r6c1"
+      ],
+      "target": "r4c1",
+      "note": "On+Off=Total Receipts Prior Year col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r6c2"
+      ],
+      "target": "r4c2",
+      "note": "On+Off=Total Receipts Prior Year col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r6c3"
+      ],
+      "target": "r4c3",
+      "note": "On+Off=Total Receipts Prior Year col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r6c4"
+      ],
+      "target": "r4c4",
+      "note": "On+Off=Total Receipts Prior Year col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r6c5"
+      ],
+      "target": "r4c5",
+      "note": "On+Off=Total Receipts Prior Year col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r6c6"
+      ],
+      "target": "r4c6",
+      "note": "On+Off=Total Receipts Prior Year col 6",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c7",
+        "r6c7"
+      ],
+      "target": "r4c7",
+      "note": "On+Off=Total Receipts Prior Year col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c8",
+        "r6c8"
+      ],
+      "target": "r4c8",
+      "note": "On+Off=Total Receipts Prior Year col 8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r6c9"
+      ],
+      "target": "r4c9",
+      "note": "On+Off=Total Receipts Prior Year col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c11",
+        "r6c11"
+      ],
+      "target": "r4c11",
+      "note": "On+Off=Total Receipts Prior Year col 11",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

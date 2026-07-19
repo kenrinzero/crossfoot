@@ -1,0 +1,939 @@
+{
+  "table_id": "treasury-mts/2026-06-table7-outlays-ssa-independents",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 7. Receipts and Outlays by Month \u2014 Outlays SSA + Independent Agencies",
+    "page": 35,
+    "title": "Table 7. Receipts and Outlays by Month \u2014 Outlays SSA + Independent Agencies",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June + Year to Date + Comparable Period Prior F.Y. SSA + Independent Agencies (Postal PEF/Other, TVA, Other).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "June"
+    },
+    {
+      "index": 10,
+      "label": "Year to Date"
+    },
+    {
+      "index": 11,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Outlays / Social Security Administration: Federal Old-Age and Survivors Insurance Trust Fund (Off-Budget)"
+    },
+    {
+      "index": 2,
+      "label": "Outlays / Social Security Administration: Federal Disability Insurance Trust Fund (Off-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Outlays / Social Security Administration: Other"
+    },
+    {
+      "index": 4,
+      "label": "Outlays / Independent Agencies: Deposit Insurance Fund"
+    },
+    {
+      "index": 5,
+      "label": "Outlays / Independent Agencies: FSLIC Resolution Fund"
+    },
+    {
+      "index": 6,
+      "label": "Outlays / Independent Agencies: Postal Service: Off-Budget: Public Enterprise Funds"
+    },
+    {
+      "index": 7,
+      "label": "Outlays / Independent Agencies: Postal Service: Off-Budget: Other"
+    },
+    {
+      "index": 8,
+      "label": "Outlays / Independent Agencies: Postal Service: Other"
+    },
+    {
+      "index": 9,
+      "label": "Outlays / Independent Agencies: Tennessee Valley Authority"
+    },
+    {
+      "index": 10,
+      "label": "Outlays / Independent Agencies: Other"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "121041",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "120264",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "120669",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "124256",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "124690",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "125454",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "125973",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "126495",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "133263",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c10",
+      "row": 1,
+      "col": 10,
+      "value": "1122106",
+      "role": "total"
+    },
+    {
+      "id": "r1c11",
+      "row": 1,
+      "col": 11,
+      "value": "1061179",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "13096",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "13716",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "13348",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "13689",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "13714",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "13867",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "13532",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "13561",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "13484",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c10",
+      "row": 2,
+      "col": 10,
+      "value": "122006",
+      "role": "total"
+    },
+    {
+      "id": "r2c11",
+      "row": 2,
+      "col": 11,
+      "value": "120164",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "10402",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "298",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "10882",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "5604",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "5377",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "124",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "5466",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "5803",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "5364",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c10",
+      "row": 3,
+      "col": 10,
+      "value": "49319",
+      "role": "total"
+    },
+    {
+      "id": "r3c11",
+      "row": 3,
+      "col": 11,
+      "value": "48924",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "-171",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-99",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-5451",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "-2740",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-5318",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "-214",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-3531",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c10",
+      "row": 4,
+      "col": 10,
+      "value": "-17047",
+      "role": "total"
+    },
+    {
+      "id": "r4c11",
+      "row": 4,
+      "col": 11,
+      "value": "-19989",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c10",
+      "row": 5,
+      "col": 10,
+      "value": "-29",
+      "role": "total"
+    },
+    {
+      "id": "r5c11",
+      "row": 5,
+      "col": 11,
+      "value": "-38",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "1397",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-229",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-1638",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "1800",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "437",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-44",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "-135",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "55",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "-740",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c10",
+      "row": 6,
+      "col": 10,
+      "value": "903",
+      "role": "total"
+    },
+    {
+      "id": "r6c11",
+      "row": 6,
+      "col": 11,
+      "value": "487",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "90",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c10",
+      "row": 7,
+      "col": 10,
+      "value": "90",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c11",
+      "row": 7,
+      "col": 11,
+      "value": "271",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "32",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "86",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "69",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c10",
+      "row": 8,
+      "col": 10,
+      "value": "186",
+      "role": "total"
+    },
+    {
+      "id": "r8c11",
+      "row": 8,
+      "col": 11,
+      "value": "81",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "494",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-1181",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "484",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "59",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "144",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-47",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "-1349",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "480",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c10",
+      "row": 9,
+      "col": 10,
+      "value": "-921",
+      "role": "total"
+    },
+    {
+      "id": "r9c11",
+      "row": 9,
+      "col": 11,
+      "value": "1658",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "2080",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "2833",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "3203",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "2452",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "2679",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "3042",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "4196",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "1877",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "-3733",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c10",
+      "row": 10,
+      "col": 10,
+      "value": "18630",
+      "role": "total"
+    },
+    {
+      "id": "r10c11",
+      "row": 10,
+      "col": 11,
+      "value": "23100",
+      "role": "standalone",
+      "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r1c2",
+        "r1c3",
+        "r1c4",
+        "r1c5",
+        "r1c6",
+        "r1c7",
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r1)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r2c2",
+        "r2c3",
+        "r2c4",
+        "r2c5",
+        "r2c6",
+        "r2c7",
+        "r2c8",
+        "r2c9"
+      ],
+      "target": "r2c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r2)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r3c2",
+        "r3c3",
+        "r3c4",
+        "r3c5",
+        "r3c6",
+        "r3c7",
+        "r3c8",
+        "r3c9"
+      ],
+      "target": "r3c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r3)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r4c2",
+        "r4c3",
+        "r4c4",
+        "r4c5",
+        "r4c6",
+        "r4c7",
+        "r4c8",
+        "r4c9"
+      ],
+      "target": "r4c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r4)",
+      "tol": "2",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r5c2",
+        "r5c3",
+        "r5c4",
+        "r5c5",
+        "r5c6",
+        "r5c7",
+        "r5c8",
+        "r5c9"
+      ],
+      "target": "r5c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r6c2",
+        "r6c3",
+        "r6c4",
+        "r6c5",
+        "r6c6",
+        "r6c7",
+        "r6c8",
+        "r6c9"
+      ],
+      "target": "r6c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r8c6",
+        "r8c9"
+      ],
+      "target": "r8c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r8)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r9c2",
+        "r9c3",
+        "r9c4",
+        "r9c5",
+        "r9c6",
+        "r9c7",
+        "r9c8",
+        "r9c9"
+      ],
+      "target": "r9c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r9)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r10c2",
+        "r10c3",
+        "r10c4",
+        "r10c5",
+        "r10c6",
+        "r10c7",
+        "r10c8",
+        "r10c9"
+      ],
+      "target": "r10c10",
+      "note": "row YTD: Oct..June sum to Year to Date (r10)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}
