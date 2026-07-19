@@ -11,8 +11,8 @@ Audits must be performed by a different agent than the unit's transcriber.
 - **Audit Date:** 2026-07-13
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Hunyuan/OpenClaw (commit `0e42a46`)
-- **Table ID:** [bls-cpi/relative-importance-2024-apparel-transportation](file:///C:/Users/kenrin/Project/crossfoot/tables/bls-cpi/relative-importance-2024-apparel-transportation.cells.json)
-- **Source Document:** [relative-importance-2024.htm](file:///C:/Users/kenrin/Project/crossfoot/sources/bls-cpi/relative-importance-2024.htm)
+- **Table ID:** [bls-cpi/relative-importance-2024-apparel-transportation](tables/bls-cpi/relative-importance-2024-apparel-transportation.cells.json)
+- **Source Document:** [relative-importance-2024.htm](sources/bls-cpi/relative-importance-2024.htm)
 - **Status:** **GREEN** (All verification checks passed with 100% accuracy)
 
 ### 1. Metadata Verification
@@ -59,8 +59,8 @@ The transcription of `bls-cpi/relative-importance-2024-apparel-transportation` b
 - **Audit Date:** 2026-07-14
 - **Auditor:** Claude Opus 4.8
 - **Transcriber:** Codex (commit `312e269`)
-- **Table ID:** [treasury-mts/2026-05-outlays-eop](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-eop.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 19 (Executive Office of the President section)
+- **Table ID:** [treasury-mts/2026-05-outlays-eop](tables/treasury-mts/2026-05-outlays-eop.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf), page 19 (Executive Office of the President section)
 - **Method:** pypdfium2 page render (scale 3.0) cross-checked against the `(cid:NN)`→`chr(NN+29)`-decoded text layer.
 - **Status:** **GREEN** (all verification checks passed)
 
@@ -110,8 +110,8 @@ Alongside this formal audit, an independent positioned-word source cross-check w
 - **Audit Date:** 2026-07-15
 - **Auditor:** Grok (xAI / Grok Build)
 - **Transcriber:** Claude Opus 4.8 (commit `46b4afc`)
-- **Table ID:** [treasury-mts/2026-05-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-energy.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), pages 12–13 (Department of Energy section; NNSA + Environmental and Other Defense Activities on p12, Energy Programs onward on p13)
+- **Table ID:** [treasury-mts/2026-05-outlays-energy](tables/treasury-mts/2026-05-outlays-energy.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf), pages 12–13 (Department of Energy section; NNSA + Environmental and Other Defense Activities on p12, Energy Programs onward on p13)
 - **Method:** pypdfium2 page render (scale 3.0) of pages 12–13; full 132-cell multiset re-read from the render, plus 10 formal sampled cells. Different-agent rule satisfied (transcriber Claude Opus 4.8; auditor Grok).
 - **Status:** **GREEN** (all verification checks passed; 132/132 cells match the render)
 
@@ -160,8 +160,8 @@ The transcription of `treasury-mts/2026-05-outlays-energy` by Claude Opus 4.8 (`
 - **Audit Date:** 2026-07-16
 - **Auditor:** Codex independent audit agent
 - **Transcriber:** Antigravity (commit `3c85bbd`)
-- **Table ID:** [treasury-mts/2026-05-outlays-transportation-departmental](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-outlays-transportation-departmental.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), printed pages 16–17 (Department of Transportation begins on p16; the continuation and department total are on p17)
+- **Table ID:** [treasury-mts/2026-05-outlays-transportation-departmental](tables/treasury-mts/2026-05-outlays-transportation-departmental.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf), printed pages 16–17 (Department of Transportation begins on p16; the continuation and department total are on p17)
 - **Method:** Independent visual re-read of pypdfium2 renders at scale 3.5 (PDF indices 15–16, corresponding to printed pages 16–17) with the local image viewer at original detail. The garbled PDF text layer was used only for navigation, not as evidence; values were read from the render and compared to JSON decimal strings after removing printed thousands separators. Different-agent rule satisfied (transcriber Antigravity; auditor Codex).
 - **Status:** **GREEN** (all verification checks passed; formal sample 10/10)
 
@@ -312,8 +312,8 @@ Faithful to the rendered source; all 70 cells token-exact; oracle GREEN.
 - **Audit Date:** 2026-07-17
 - **Auditor:** Antigravity (Gemini 3.1 Pro)
 - **Transcriber:** Kimi (commit `fc2e1bc`)
-- **Table ID:** [fec/2024-presidential-general-popular-block-5](file:///C:/Users/kenrin/Project/crossfoot/tables/fec/2024-presidential-general-popular-block-5.cells.json)
-- **Source Document:** [2024presgeresults.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/fec/2024presgeresults.pdf) (page 6)
+- **Table ID:** [fec/2024-presidential-general-popular-block-5](tables/fec/2024-presidential-general-popular-block-5.cells.json)
+- **Source Document:** [2024presgeresults.pdf](sources/fec/2024presgeresults.pdf) (page 6)
 - **Status:** **GREEN** (all verification checks passed)
 
 ### 1. Metadata Verification
@@ -457,8 +457,8 @@ The transcription is faithful to the rendered source. Metadata, units, periods, 
 - **Audit Date:** 2026-07-18
 - **Auditor:** Grok (xAI / Grok Build)
 - **Transcriber:** Claude Fable 5 (commit `02b57cf`)
-- **Table ID:** [omb/budget-appendix-fy2027-leg-medpac-salaries-expenses](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png`.
+- **Table ID:** [omb/budget-appendix-fy2027-leg-medpac-salaries-expenses](tables/omb/budget-appendix-fy2027-leg-medpac-salaries-expenses.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F + ObjClass on PDF page 31 (printed 43) RIGHT column; Employment Summary on PDF page 32 (printed 44) left column top. Staged renders: `scratchpad/boards-p31-render.png`, `scratchpad/boards-p32-render.png`.
 - **Method:** Independent visual re-read of the staged pypdfium2 page-31/32 renders (RIGHT column for MedPAC P&F + ObjClass; p32 left-column top for Employment) plus text-layer cross-check (`boards-p31-text.txt` / `boards-p32-text.txt`). Full 79-cell multiset compared to a machine-checked expected grid derived from the render; formal sample of 10 high-risk cells below. Different-agent rule satisfied (transcriber Claude Fable 5; auditor Grok).
 - **Status:** **GREEN** (all verification checks passed; 79/79 cells match the render)
 
@@ -514,8 +514,8 @@ The transcription of `omb/budget-appendix-fy2027-leg-medpac-salaries-expenses` b
 
 - **Audit Date:** 2026-07-18
 - **Auditor:** Kimi (different-agent rule satisfied; transcriber: Claude Fable 5, commit `bddc4a3`)
-- **Table ID:** [omb/budget-appendix-fy2027-leg-other-boards-commissions](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json) (corpus #110)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F on PDF page 36 (printed page 48) bottom LEFT column, continuing top RIGHT column (3100/3200 memos, 4180/4190, narrative).
+- **Table ID:** [omb/budget-appendix-fy2027-leg-other-boards-commissions](tables/omb/budget-appendix-fy2027-leg-other-boards-commissions.cells.json) (corpus #110)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](sources/omb/budget-2027-app-2-3-legislative.pdf) — P&F on PDF page 36 (printed page 48) bottom LEFT column, continuing top RIGHT column (3100/3200 memos, 4180/4190, narrative).
 - **Method:** Independent pypdfium2 re-render of PDF page 36 at 3x (auditor-generated `scratchpad/audit-110-p36-render.png` + crops A/B — NOT the transcriber's staged files), plus a pdfplumber positioned-word dump (`scratchpad/audit-110-p36-words.txt`) to confirm exact column assignment of every value. FULL-coverage verification of all 15 cells (sampling superseded per the #80 precedent).
 - **Status:** **GREEN** (all verification checks passed; 15/15 cells match the render)
 
@@ -586,8 +586,8 @@ The transcription of `omb/budget-appendix-fy2027-leg-other-boards-commissions` b
 - **Audit Date:** 2026-07-18
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Claude Fable 5 (commit `d5444a1`)
-- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf) (PDF page 11 right column, PDF page 12 left column)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant](tables/omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](sources/omb/budget-2027-app-2-3-legislative.pdf) (PDF page 11 right column, PDF page 12 left column)
 - **Status:** **GREEN** (All verification checks passed with 100% accuracy)
 
 ### 1. Metadata Verification
@@ -643,8 +643,8 @@ The transcription of `omb/budget-appendix-fy2027-leg-aoc-capitol-power-plant` by
 - **Auditor:** Claude Fable 5
 - **Transcriber:** Antigravity (batch commit `e582c99`, #121–129; #129 = `-botanic-garden` per the recorded NEXT.md numbering)
 - **Cadence note:** Conducted at corpus #129, ONE UNIT EARLY, per Kenrin's explicit call (2026-07-18) — this audit satisfies the #130 every-10th slot; the next cadence fire is corpus **#140**.
-- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-botanic-garden](file:///C:/Users/kenrin/Project/crossfoot/tables/omb/budget-appendix-fy2027-leg-aoc-botanic-garden.cells.json)
-- **Source Document:** [budget-2027-app-2-3-legislative.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/omb/budget-2027-app-2-3-legislative.pdf), PDF page 16 (printed 28), right column (left column is Administrative Provisions legal text; Library of Congress chapter starts below)
+- **Table ID:** [omb/budget-appendix-fy2027-leg-aoc-botanic-garden](tables/omb/budget-appendix-fy2027-leg-aoc-botanic-garden.cells.json)
+- **Source Document:** [budget-2027-app-2-3-legislative.pdf](sources/omb/budget-2027-app-2-3-legislative.pdf), PDF page 16 (printed 28), right column (left column is Administrative Provisions legal text; Library of Congress chapter starts below)
 - **Method:** fresh independent pypdfium2 4x render (`scratchpad/audit129-p16-4x.png`) + text-layer cross-check; FULL-coverage machine comparison of every transcribed cell against the render read (not a 10-cell sample), plus label/omission/metadata verification.
 - **Status:** **GREEN after one completeness repair** (details below)
 
@@ -670,8 +670,8 @@ Antigravity's transcription is value-perfect (90/90 exact) with a single missing
 - **Auditor:** Grok (Grok 4.5 / Grok Build CLI)
 - **Transcriber:** Antigravity (batch commit `6af87ac`, #132–139; #139 = `2026-05-table7-receipts-totals`)
 - **Cadence note:** Conducted at corpus #139, ONE UNIT EARLY, per Kenrin's explicit call (2026-07-18) — this audit satisfies the #140 every-10th slot before unit #140 is shipped by the same session; the next cadence fire is corpus **#150**.
-- **Table ID:** [treasury-mts/2026-05-table7-receipts-totals](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table7-receipts-totals.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 34 (Table 7 Receipts totals block)
+- **Table ID:** [treasury-mts/2026-05-table7-receipts-totals](tables/treasury-mts/2026-05-table7-receipts-totals.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf), page 34 (Table 7 Receipts totals block)
 - **Method:** independent pypdfium2 3x render (`scratchpad/mts-p34-3x.png`) + pdfplumber text-layer (cid+29 decode) + FULL-coverage machine comparison of every transcribed cell against the printed values (not a 10-cell sample).
 - **Status:** **GREEN** (all verification checks passed; 54/54 cells exact)
 
@@ -730,8 +730,8 @@ Antigravity's transcription of `treasury-mts/2026-05-table7-receipts-totals` is 
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (Grok 4.5 / Grok Build CLI, batch commit `2a917c3`, #141–151; #150 = `table6-schedule-c-agri`)
 - **Cadence note:** Conducted at corpus #150, on schedule. Next cadence fire is corpus **#160**.
-- **Table ID:** [treasury-mts/2026-05-table6-schedule-c-agri](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf), page 26 (Schedule C Agriculture block under Borrowing from the US Treasury)
+- **Table ID:** [treasury-mts/2026-05-table6-schedule-c-agri](tables/treasury-mts/2026-05-table6-schedule-c-agri.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf), page 26 (Schedule C Agriculture block under Borrowing from the US Treasury)
 - **Method:** independent visual review of staged render (`scratchpad/mts-p26-2.5x.png`) + pdfplumber text-layer (`scratchpad/mts-p26-text.txt`) + FULL-coverage machine comparison of all 93 transcribed cells against the printed values.
 - **Status:** **GREEN** (all verification checks passed; 93/93 cells exact)
 
@@ -781,8 +781,8 @@ Grok's transcription of `treasury-mts/2026-05-table6-schedule-c-agri` is clean, 
 - **Audit Date:** 2026-07-18
 - **Auditor:** Grok (xAI / Grok Build)
 - **Transcriber:** Antigravity (batch commit `33f5744`, #152–160; #160 = `2026-05-table6-schedule-e-direct-part2`)
-- **Table ID:** [treasury-mts/2026-05-table6-schedule-e-direct-part2](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-05-table6-schedule-e-direct-part2.cells.json)
-- **Source Document:** [mts-202605.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202605.pdf) — Schedule E Direct Loan Financing Activity from HHS through Independent Agencies & Net Activity Total. Content spans PDF pages 32–33 (HHS lines begin near the foot of p32; the bulk of the part-2 block and the Net Activity total print on p33). Auditor-generated renders: `scratchpad/mts-pdfp32-2.5x.png`, `scratchpad/mts-pdfp33-2.5x.png` + decoded text layers.
+- **Table ID:** [treasury-mts/2026-05-table6-schedule-e-direct-part2](tables/treasury-mts/2026-05-table6-schedule-e-direct-part2.cells.json)
+- **Source Document:** [mts-202605.pdf](sources/treasury-mts/mts-202605.pdf) — Schedule E Direct Loan Financing Activity from HHS through Independent Agencies & Net Activity Total. Content spans PDF pages 32–33 (HHS lines begin near the foot of p32; the bulk of the part-2 block and the Net Activity total print on p33). Auditor-generated renders: `scratchpad/mts-pdfp32-2.5x.png`, `scratchpad/mts-pdfp33-2.5x.png` + decoded text layers.
 - **Method:** Independent pypdfium2 2.5× re-render of PDF pages 32–33 + pdfplumber text (cid+29 decode) + FULL-coverage machine comparison of every transcribed cell against the printed values. Different-agent rule satisfied (transcriber Antigravity; auditor Grok).
 - **Status:** **GREEN after two completeness repairs** (details below)
 
@@ -839,8 +839,8 @@ Antigravity's transcription of `treasury-mts/2026-05-table6-schedule-e-direct-pa
 - **Audit Date:** 2026-07-18
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Codex (`codex/census-p60-sizing`)
-- **Table ID:** [census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 25 (printed page 19), WHITE ALONE, NOT HISPANIC block from 2023 through 2013 redesign and legacy rows
+- **Table ID:** [census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013](tables/census-p60/2023-income-a2-white-alone-not-hispanic-2023-2013.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF page 25 (printed page 19), WHITE ALONE, NOT HISPANIC block from 2023 through 2013 redesign and legacy rows
 - **Method:** Programmatic text-layer extraction (pdfplumber) + FULL-coverage machine comparison of all 143 cells vs source data + manual check of row labels, footnotes, and rounding tolerances.
 - **Status:** **GREEN** (all verification checks passed; 143/143 cells exact)
 
@@ -889,8 +889,8 @@ Codex's transcription of `census-p60/2023-income-a2-white-alone-not-hispanic-202
 - **Audit Date:** 2026-07-18
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Codex (`codex/census-p60-sizing`)
-- **Table ID:** [census-p60/2023-income-a2-black-historical-1988-1976](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a2-black-historical-1988-1976.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 28 (printed page 22), historical BLACK block from 1988 through 1976
+- **Table ID:** [census-p60/2023-income-a2-black-historical-1988-1976](tables/census-p60/2023-income-a2-black-historical-1988-1976.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF page 28 (printed page 22), historical BLACK block from 1988 through 1976
 - **Method:** Programmatic text-layer extraction (pdfplumber) + FULL-coverage machine comparison of all 143 cells vs source data + manual check of row labels, footnotes, and rounding tolerances.
 - **Status:** **GREEN** (all verification checks passed; 143/143 cells exact)
 
@@ -939,8 +939,8 @@ Codex's transcription of `census-p60/2023-income-a2-black-historical-1988-1976` 
 - **Audit Date:** 2026-07-18
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Codex (`codex/census-p60-sizing`)
-- **Table ID:** [census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF pages 31-32 (printed pages 25-26), AMERICAN INDIAN AND ALASKA NATIVE ALONE block from 2023 through both printed 2013 series rows
+- **Table ID:** [census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013](tables/census-p60/2023-income-a2-american-indian-alaska-native-alone-2023-2013.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF pages 31-32 (printed pages 25-26), AMERICAN INDIAN AND ALASKA NATIVE ALONE block from 2023 through both printed 2013 series rows
 - **Method:** Programmatic text-layer extraction (pdfplumber) + FULL-coverage machine comparison of all 143 cells vs source data + manual check of row labels, footnotes, and rounding tolerances.
 - **Status:** **GREEN** (all verification checks passed; 143/143 cells exact)
 
@@ -1098,8 +1098,8 @@ Claude Fable 5's transcription of `census-p60/2023-income-b1-2022` is value-perf
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #211–220, 2026-07-19)
-- **Table ID:** [census-p60/2023-income-a7-2005-1996](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a7-2005-1996.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF pages 47–48 (Table A-7 continuation), year rows 2005 through 1996
+- **Table ID:** [census-p60/2023-income-a7-2005-1996](tables/census-p60/2023-income-a7-2005-1996.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF pages 47–48 (Table A-7 continuation), year rows 2005 through 1996
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 130 cells vs source data + manual check of row labels, columns, and footnote-marked years on page 47.
 - **Status:** **GREEN** (all verification checks passed; 130/130 cells exact)
 
@@ -1164,8 +1164,8 @@ Grok's transcription of `census-p60/2023-income-a7-2005-1996` is value-perfect, 
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #221–230, 2026-07-19)
-- **Table ID:** [census-p60/2023-income-a6-ft-pct-median](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a6-ft-pct-median.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF pages 45–46 (Table A-6), full-time year-round percent-change-in-median columns (incl. female-to-male earnings ratio row)
+- **Table ID:** [census-p60/2023-income-a6-ft-pct-median](tables/census-p60/2023-income-a6-ft-pct-median.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF pages 45–46 (Table A-6), full-time year-round percent-change-in-median columns (incl. female-to-male earnings ratio row)
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 42 cells vs source data + manual check of row labels, columns, and special rows (ratio row, educational attainment) across page boundaries.
 - **Status:** **GREEN** (all verification checks passed; 42/42 cells exact)
 
@@ -1219,8 +1219,8 @@ Grok's transcription of `census-p60/2023-income-a6-ft-pct-median` is value-perfe
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #231–240, 2026-07-19)
-- **Table ID:** [census-p60/2023-income-a4b-2014-2006](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a4b-2014-2006.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 40 (Table A-4b), years 2014 through 2006
+- **Table ID:** [census-p60/2023-income-a4b-2014-2006](tables/census-p60/2023-income-a4b-2014-2006.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF page 40 (Table A-4b), years 2014 through 2006
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 180 cells vs source data + manual check of row labels, columns, and percent-closure computations.
 - **Status:** **GREEN** (all verification checks passed; 180/180 cells exact)
 
@@ -1260,8 +1260,8 @@ Stratified sample to check means, shares, inequality indices, Gini, and redesign
 - Gini, Atkinson, GMLD, and Top-5 percent share are correctly declared as `standalone`. Top-5 share is honest to the source and does not double-count in the quintile-share closures.
 
 ### 4. Shared-Session Batch context spot-check
-- Spot-checked A-4a unit [2023-income-a4a-2023-2015](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a4a-2023-2015.cells.json) (#233): verified Year 2023 Gini `0.485` and 90th/10th ratio `12.38` match the print page 38 exactly.
-- Spot-checked A-7 unit [2023-income-a7-1974-1967](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a7-1974-1967.cells.json) (#231): verified pre-1975 year labels and correct omission of nonnumeric `N` cells.
+- Spot-checked A-4a unit [2023-income-a4a-2023-2015](tables/census-p60/2023-income-a4a-2023-2015.cells.json) (#233): verified Year 2023 Gini `0.485` and 90th/10th ratio `12.38` match the print page 38 exactly.
+- Spot-checked A-7 unit [2023-income-a7-1974-1967](tables/census-p60/2023-income-a7-1974-1967.cells.json) (#231): verified pre-1975 year labels and correct omission of nonnumeric `N` cells.
 
 ### 5. Reconcile Gate
 - Command: `uv run python reconcile.py tables/census-p60/2023-income-a4b-2014-2006.cells.json`
@@ -1279,8 +1279,8 @@ Grok's transcription of `census-p60/2023-income-a4b-2014-2006` is value-perfect,
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #241–250, 2026-07-19)
-- **Table ID:** [census-p60/2023-income-a5-1975-1967](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a5-1975-1967.cells.json)
-- **Source Document:** [p60-282.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/census/p60-282.pdf), PDF page 43 (Table A-5 landscape), years 1975 through 1967
+- **Table ID:** [census-p60/2023-income-a5-1975-1967](tables/census-p60/2023-income-a5-1975-1967.cells.json)
+- **Source Document:** [p60-282.pdf](sources/census/p60-282.pdf), PDF page 43 (Table A-5 landscape), years 1975 through 1967
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 126 cells vs source data + manual check of row labels, columns, and percent-closure computations.
 - **Status:** **GREEN** (all verification checks passed after a layout-based transposition bug fix; 126/126 cells exact)
 
@@ -1325,8 +1325,8 @@ Stratified sample to check shares, ratios, and inequality measures:
 - **Resolution:** Developed and executed `fix_all_a5.py` to re-extract all 57 years of Table A-5 data based on vertical column alignment (`x` coordinates of words). Checked the outputs against `verify_all_a5.py` to confirm that all 6 files have 100% correct data mappings.
 
 ### 5. Shared-Session Batch context spot-check
-- Spot-checked A-4b remainder unit [2023-income-a4b-1975-1967](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a4b-1975-1967.cells.json) (#244): verified Year 1975 Gini index `0.397` and 90th/10th ratio `8.59` match PDF page 40 exactly.
-- Spot-checked earlier A-5 unit [2023-income-a5-2023-2015](file:///C:/Users/kenrin/Project/crossfoot/tables/census-p60/2023-income-a5-2023-2015.cells.json) (#245): verified Year 2023 Gini `0.467` matches PDF page 42 exactly.
+- Spot-checked A-4b remainder unit [2023-income-a4b-1975-1967](tables/census-p60/2023-income-a4b-1975-1967.cells.json) (#244): verified Year 1975 Gini index `0.397` and 90th/10th ratio `8.59` match PDF page 40 exactly.
+- Spot-checked earlier A-5 unit [2023-income-a5-2023-2015](tables/census-p60/2023-income-a5-2023-2015.cells.json) (#245): verified Year 2023 Gini `0.467` matches PDF page 42 exactly.
 
 ### 6. Reconcile Gate
 - Command: `uv run python reconcile.py tables/census-p60/2023-income-a5-1975-1967.cells.json`
@@ -1344,8 +1344,8 @@ The equivalence-adjusted income dispersion values for `census-p60/2023-income-a5
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #251–260, 2026-07-19)
-- **Table ID:** [treasury-mts/2026-06-outlays-eop](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-eop.cells.json)
-- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF page 19, Executive Office of the President section
+- **Table ID:** [treasury-mts/2026-06-outlays-eop](tables/treasury-mts/2026-06-outlays-eop.cells.json)
+- **Source Document:** [mts-202606.pdf](sources/treasury-mts/mts-202606.pdf), PDF page 19, Executive Office of the President section
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all EOP cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
 - **Status:** **GREEN** (all verification checks passed; 100% value exactness)
 
@@ -1404,8 +1404,8 @@ Grok's transcription of `treasury-mts/2026-06-outlays-eop` is value-perfect, com
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #261–270, 2026-07-19)
-- **Table ID:** [treasury-mts/2026-06-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-energy.cells.json)
-- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF pages 12 and 13, Department of Energy section
+- **Table ID:** [treasury-mts/2026-06-outlays-energy](tables/treasury-mts/2026-06-outlays-energy.cells.json)
+- **Source Document:** [mts-202606.pdf](sources/treasury-mts/mts-202606.pdf), PDF pages 12 and 13, Department of Energy section
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 132 cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
 - **Status:** **GREEN** (all verification checks passed; 100% value exactness)
 
@@ -1465,8 +1465,8 @@ Grok's transcription of `treasury-mts/2026-06-outlays-energy` is value-perfect, 
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #271–280, 2026-07-19)
-- **Table ID:** [treasury-mts/2026-06-outlays-labor-bureaus](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json)
-- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF page 16, Department of Labor (Employment and Training Administration) section
+- **Table ID:** [treasury-mts/2026-06-outlays-labor-bureaus](tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json)
+- **Source Document:** [mts-202606.pdf](sources/treasury-mts/mts-202606.pdf), PDF page 16, Department of Labor (Employment and Training Administration) section
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 86 cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
 - **Status:** **GREEN** (all verification checks passed; 100% value exactness)
 
@@ -1532,8 +1532,8 @@ Grok's transcription of `treasury-mts/2026-06-outlays-labor-bureaus` is value-pe
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #281–290, 2026-07-19)
-- **Table ID:** [treasury-mts/2026-06-outlays-other-defense-civil](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json)
-- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF pages 18 and 19, Other Defense Civil Programs section
+- **Table ID:** [treasury-mts/2026-06-outlays-other-defense-civil](tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json)
+- **Source Document:** [mts-202606.pdf](sources/treasury-mts/mts-202606.pdf), PDF pages 18 and 19, Other Defense Civil Programs section
 - **Method:** Programmatic text-layer extraction + full-coverage comparison of all 53 cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
 - **Status:** **GREEN** (all verification checks passed; 100% value exactness)
 
@@ -1594,7 +1594,7 @@ Grok's transcription of `treasury-mts/2026-06-outlays-other-defense-civil` is va
 - **Audit Date:** 2026-07-19
 - **Auditor:** Claude Fable 5 (different agent — transcriber was Grok)
 - **Transcriber:** Grok (2026-07-19, commit `c00be3d`)
-- **Table ID:** [treasury-mts/2026-06-outlays-grand-total-capstone](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-grand-total-capstone.cells.json)
+- **Table ID:** [treasury-mts/2026-06-outlays-grand-total-capstone](tables/treasury-mts/2026-06-outlays-grand-total-capstone.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 5 continuation, PDF/printed page 23
 - **Status:** **GREEN** (all checks passed with 100% accuracy)
 
@@ -1630,7 +1630,7 @@ Grok's transcription of `treasury-mts/2026-06-outlays-grand-total-capstone` is v
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (2026-07-19, commit `3c2480a`)
-- **Table ID:** [treasury-mts/2026-06-table6-schedule-b](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-b.cells.json)
+- **Table ID:** [treasury-mts/2026-06-table6-schedule-b](tables/treasury-mts/2026-06-table6-schedule-b.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule B, PDF page 25
 - **Status:** **GREEN** (All verification checks passed with 100% accuracy)
 
@@ -1685,7 +1685,7 @@ Grok's transcription of `treasury-mts/2026-06-table6-schedule-b` is value-perfec
 - **Audit Date:** 2026-07-19
 - **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (2026-07-19, commit `e80991f`)
-- **Table ID:** [treasury-mts/2026-06-table6-schedule-e-direct-part2](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json)
+- **Table ID:** [treasury-mts/2026-06-table6-schedule-e-direct-part2](tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule E Direct remainder + Net Activity, PDF page 33
 - **Status:** **GREEN** (All verification checks passed with 100% accuracy)
 
@@ -1736,7 +1736,7 @@ Grok's transcription of `treasury-mts/2026-06-table6-schedule-e-direct-part2` is
 - **Audit Date:** 2026-07-19
 - **Auditor:** Claude Fable 5
 - **Transcriber:** Grok (2026-07-19, commit `ca86254`)
-- **Table ID:** [treasury-mts/2026-06-table8-investments](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table8-investments.cells.json)
+- **Table ID:** [treasury-mts/2026-06-table8-investments](tables/treasury-mts/2026-06-table8-investments.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 8 Securities Held as Investments, PDF page 36
 - **Status:** **GREEN** (full-coverage 45/45 value check, 0 mismatches)
 
@@ -1792,8 +1792,8 @@ Grok's transcription of `treasury-mts/2026-06-table8-investments` is value-perfe
 - **Audit Date:** 2026-07-19
 - **Auditor:** Mavis (precautionary, different-agent rule trivially satisfied since #332 is not a 10th unit and a different agent transcribed it; per Kenrin's request because the Nanobot harness is known to be finicky with file edits)
 - **Transcriber:** Trinity (via Nanobot harness, WSL; transcriber per the runbook at `scratchpad/unit-332-transcriber-runbook.md`)
-- **Table ID:** [sec-10k/msft-fy2025-balance-sheet-parenthetical](file:///C:/Users/kenrin/Project/crossfoot/tables/sec-10k/msft-fy2025-balance-sheet-parenthetical.cells.json)
-- **Source Document:** [msft-fy2025-balance-sheet-parenthetical-R5.htm](file:///C:/Users/kenrin/Project/crossfoot/sources/sec-10k/msft-fy2025-balance-sheet-parenthetical-R5.htm) (EDGAR XBRL R5, same accession as the R4 balance sheet -- 0000950170-25-100235)
+- **Table ID:** [sec-10k/msft-fy2025-balance-sheet-parenthetical](tables/sec-10k/msft-fy2025-balance-sheet-parenthetical.cells.json)
+- **Source Document:** [msft-fy2025-balance-sheet-parenthetical-R5.htm](sources/sec-10k/msft-fy2025-balance-sheet-parenthetical-R5.htm) (EDGAR XBRL R5, same accession as the R4 balance sheet -- 0000950170-25-100235)
 - **Status:** **GREEN** (full-coverage 8/8 cell check vs source; all metadata, labels, and conventions correct)
 
 ### 1. Metadata Verification
@@ -1851,8 +1851,8 @@ The transcription of `sec-10k/msft-fy2025-balance-sheet-parenthetical` by Trinit
 - **Audit Date:** 2026-07-19
 - **Auditor:** ZCode (builtin:zai-coding-plan/GLM-5.2)
 - **Transcriber:** Copilot CLI (working-copy file; not yet committed at audit time -- HEAD `7bd03d5` is at corpus #338, so #339-#341 are working-copy-only. This is the artifact reconcile accepts and the audit target.)
-- **Table ID:** [sec-10k/msft-fy2025-stockholders-equity](file:///C:/Users/kenrin/Project/crossfoot/tables/sec-10k/msft-fy2025-stockholders-equity.cells.json)
-- **Source Document:** [msft-fy2025-stockholders-equity-R7.htm](file:///C:/Users/kenrin/Project/crossfoot/sources/sec-10k/msft-fy2025-stockholders-equity-R7.htm) (EDGAR XBRL R7 from the same MSFT FY2025 accession 0000950170-25-100235 as the balance-sheet / income / cash-flows units)
+- **Table ID:** [sec-10k/msft-fy2025-stockholders-equity](tables/sec-10k/msft-fy2025-stockholders-equity.cells.json)
+- **Source Document:** [msft-fy2025-stockholders-equity-R7.htm](sources/sec-10k/msft-fy2025-stockholders-equity-R7.htm) (EDGAR XBRL R7 from the same MSFT FY2025 accession 0000950170-25-100235 as the balance-sheet / income / cash-flows units)
 - **Method:** Direct read of the vendored R7 HTM (HTML table; no PDF render needed). Each sampled cell verified byte-for-byte against the source's `<td class="num">`/`<td class="nump">` content. Different-agent rule satisfied (transcriber Copilot CLI; auditor ZCode).
 - **Status:** **GREEN** (all metadata, all 30 row labels, the 4-column model, all 10 sampled values, and the standalone/why conventions are correct)
 
