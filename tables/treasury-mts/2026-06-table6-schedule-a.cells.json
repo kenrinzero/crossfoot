@@ -1,0 +1,392 @@
+{
+  "table_id": "treasury-mts/2026-06-table6-schedule-a",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 6. Schedule A \u2014 Analysis of Change in Excess of Liabilities",
+    "page": 25,
+    "title": "Table 6. Schedule A",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... omitted. Close of Period = Beginning (Current Basis) + Total Surplus/Deficit + Total Transactions Not Applied.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Excess of Liabilities Beginning of Period: Based on Composition of Unified Budget in Preceding Period"
+    },
+    {
+      "index": 2,
+      "label": "Adjustments During Current Fiscal Year for Changes in Composition of Unified Budget: Revisions by Federal Agencies to the Prior Budget Results"
+    },
+    {
+      "index": 3,
+      "label": "Excess of Liabilities Beginning of Period (Current Basis)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Surplus (-) or Deficit: Based on Composition of Unified Budget in Prior Fiscal Year"
+    },
+    {
+      "index": 5,
+      "label": "Total Surplus (-) or Deficit (Table 2)"
+    },
+    {
+      "index": 6,
+      "label": "Total-On-Budget (Table 2)"
+    },
+    {
+      "index": 7,
+      "label": "Total-Off-Budget (Table 2)"
+    },
+    {
+      "index": 8,
+      "label": "Transactions Not Applied: Premium/Discount on Buyback of U.S. Treasury Securities"
+    },
+    {
+      "index": 9,
+      "label": "Transactions Not Applied: Other"
+    },
+    {
+      "index": 10,
+      "label": "Total-Transactions Not Applied to Current Year's Surplus or Deficit"
+    },
+    {
+      "index": 11,
+      "label": "Excess of Liabilities Close of Period"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "28751957",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "27516113",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "25719457",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "35205",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "28751957",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "27516113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "25754662",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "120305",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "1366508",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "1337372",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "120305",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "1366508",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1337372",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "128724",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1270950",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "1274692",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-8419",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "95558",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "62680",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-2228",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-12641",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-10053",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "297",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "350",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-406",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-1931",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "-12290",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-10459",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "28870331",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "28870331",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "27081575",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "target": "r3c3",
+      "note": "Beginning Current Basis col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r5c1",
+      "note": "Total Deficit = On+Off col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r7c2"
+      ],
+      "target": "r5c2",
+      "note": "Total Deficit = On+Off col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r5c3",
+      "note": "Total Deficit = On+Off col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1",
+      "note": "Transactions Not Applied col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r10c2",
+      "note": "Transactions Not Applied col 2",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3",
+      "note": "Transactions Not Applied col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r5c1",
+        "r10c1"
+      ],
+      "target": "r11c1",
+      "note": "Close = Beg + Deficit + Txns col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r5c2",
+        "r10c2"
+      ],
+      "target": "r11c2",
+      "note": "Close = Beg + Deficit + Txns col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r5c3",
+        "r10c3"
+      ],
+      "target": "r11c3",
+      "note": "Close = Beg + Deficit + Txns col 3"
+    }
+  ]
+}

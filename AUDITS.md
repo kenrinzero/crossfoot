@@ -1622,3 +1622,15 @@ Render-anchored: PDF page 23 rendered via pypdfium2 at scale 3.0 and read direct
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-grand-total-capstone` is value-perfect, complete, and faithful to the June 2026 MTS Table 5 grand totals: all 27 values exact, labels/columns/scope correct, and the tolerance pattern honest to the print. **GREEN.** #301+ is unblocked; next every-10th different-agent audit: corpus **#310**.
+
+---
+
+## Corpus unit #310 — `treasury-mts/2026-06-table6-schedule-b` — PLACEHOLDER (audit DUE)
+
+- **Status:** **DUE** — every-10th different-agent spot-audit
+- **Transcriber:** Grok (2026-07-19)
+- **Table ID:** [treasury-mts/2026-06-table6-schedule-b](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-b.cells.json)
+- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule B, PDF page 25
+- **Shape:** 15 cells / 5 relations / 4 standalone (FHA stationary balances + TVA + Total Agency Securities; Architect/FCC/NARA all-(**) rows dropped)
+- **Gate for auditor:** full-value check vs page-25 text layer/render; roll-forward + Total=FHA+TVA for balance columns; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#311+ blocked until GREEN.**
+
