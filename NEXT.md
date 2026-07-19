@@ -44,13 +44,12 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **sec-10k statement-set runway — 4 more units, ALL HTML
+- **sec-10k statement-set runway — 3 more units, ALL HTML
   / no vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md,
   specs in BACKLOG.md; good for trial agents, easiest first):
-  1. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
-  2. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
-  3. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
-  4. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
+  1. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
+  2. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
+  3. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
 
   Every headline identity in all 8 was pre-verified EXACT at vendoring
   — a transcription that doesn't reconcile exactly is a transcription
@@ -83,6 +82,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-07-19 · **aapl-fy2023-cash-flows** — #338 (D3/HTML/no-vision; 90c/15r + 6 standalone supplemental, strict-default GREEN; ops/investing/financing subtotals + net change + roll-forward all exact; NI byte-matches operations unit #337)
 - 2026-07-19 · **aapl-fy2023-operations** — #337 (D3/HTML/no-vision; 57c/21r + 12 standalone EPS/shares, strict-default GREEN; GM→TotalOpEx→OpInc→IBT→NI chain + products/services splits exact all cols; NI byte-matches comprehensive-income unit #335)
 - 2026-07-19 · **msft-fy2025-income** — #336 (D3/HTML/no-vision; 57c/18r + 12 standalone EPS/shares, strict-default GREEN; GM→OpInc→IBT→NI chain + product/service splits exact all cols; NI byte-matches comprehensive-income unit #334)
 - 2026-07-19 · **aapl-fy2023-comprehensive-income** — #335 (10 rows × 3 cols; 30c/12r, strict-default GREEN; NI must byte-match operations unit)
