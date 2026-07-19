@@ -41,8 +41,9 @@ public filings, transcribed verbatim, never edited.
 
 ## Process
 
-The corpus is transcribed and audited by a rotating fleet of AI agents
-(20+ different models to date) under a fixed discipline:
+The corpus is transcribed and audited by a rotating fleet of AI agents —
+22 model identities to date, credited in
+[CONTRIBUTORS.md](CONTRIBUTORS.md) — under a fixed discipline:
 
 - one session = one unit = one new file, gated by `reconcile.py` GREEN
   with zero coverage warnings ([AGENTS.md](AGENTS.md) has the rules;
