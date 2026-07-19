@@ -1625,12 +1625,57 @@ Grok's transcription of `treasury-mts/2026-06-outlays-grand-total-capstone` is v
 
 ---
 
-## Corpus unit #310 — `treasury-mts/2026-06-table6-schedule-b` — PLACEHOLDER (audit DUE)
+## Spot-Audit: Unit 310 — treasury-mts/2026-06-table6-schedule-b
 
-- **Status:** **DUE** — every-10th different-agent spot-audit
-- **Transcriber:** Grok (2026-07-19)
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
+- **Transcriber:** Grok (2026-07-19, commit `3c2480a`)
 - **Table ID:** [treasury-mts/2026-06-table6-schedule-b](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-b.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule B, PDF page 25
-- **Shape:** 15 cells / 5 relations / 4 standalone (FHA stationary balances + TVA + Total Agency Securities; Architect/FCC/NARA all-(**) rows dropped)
-- **Gate for auditor:** full-value check vs page-25 text layer/render; roll-forward + Total=FHA+TVA for balance columns; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#311+ blocked until GREEN.**
+- **Status:** **GREEN** (All verification checks passed with 100% accuracy)
+
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 6. Schedule B-Securities Issued by Federal Agencies Under Special Financing Authorities, June 2026 and Other Periods" — **PASS**
+- **Period / columns:** June FY2026. 6 columns: Net Transactions (This Month, Fiscal Year to Date This Year, Fiscal Year to Date Prior Year) and Account Balances Current Fiscal Year (Beginning of This Year, Close of This Month - open/prior, Close of This Month - end) — **PASS**
+- **Rows (3):**
+  - Department of Housing and Urban Development: Federal Housing Administration
+  - Tennessee Valley Authority
+  - Total Agency Securities
+  — **PASS**
+- **Omission convention:** All-`(**)` rows (Architect of the Capitol, Federal Communications Commission, National Archives and Records Administration) and empty transactions (`......`) are correctly omitted per project conventions — **PASS**
+
+### 2. Sampled Cells Verification (10 sampled cells)
+Since the table only contains 15 cells, we verified all 15 cells against the PDF text layer and render. Here is a sample of 10 cells covering all rows, columns, and negative values:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c4` | Federal Housing Administration | Beginning of This Year (Account Balance) | leaf | `19` | `19` | **PASS** |
+| `r1c6` | Federal Housing Administration | Close of This Month - end (Account Balance) | leaf | `19` | `19` | **PASS** |
+| `r2c1` | Tennessee Valley Authority | This Month (Net Transactions) | leaf | `480` | `480` | **PASS** |
+| `r2c2` | Tennessee Valley Authority | Fiscal Year to Date This Year (Net Transactions) | standalone | `-870` | `-870` | **PASS** |
+| `r2c3` | Tennessee Valley Authority | Fiscal Year to Date Prior Year (Net Transactions) | standalone | `879` | `879` | **PASS** |
+| `r2c5` | Tennessee Valley Authority | Close of This Month - open/prior (Account Balance) | leaf | `20706` | `20,706` | **PASS** |
+| `r2c6` | Tennessee Valley Authority | Close of This Month - end (Account Balance) | total | `21187` | `21,187` | **PASS** |
+| `r3c1` | Total Agency Securities | This Month (Net Transactions) | leaf | `480` | `480` | **PASS** |
+| `r3c4` | Total Agency Securities | Beginning of This Year (Account Balance) | total | `22075` | `22,075` | **PASS** |
+| `r3c6` | Total Agency Securities | Close of This Month - end (Account Balance) | total | `21205` | `21,205` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- **Roll-forward relations:** Roll-forward relation for TVA (row 2: `20,706 + 480 = 21,187` with tolerance of `1`) and Total Agency Securities (row 3: `20,725 + 480 = 21,205` exactly) verified. The `tol: "1"` for row 2 is honest to the printed rounding discrepancy — **PASS**
+- **Total Agency Securities relations:** Col 4 sum (`19 + 22,057 = 22,075` with tolerance of `1`), Col 5 sum (`19 + 20,706 = 20,725` exactly), Col 6 sum (`19 + 21,187 = 21,205` with tolerance of `1`) verified. The `tol: "1"` matches the printed rounding note — **PASS**
+- Components correctly declared as `leaf`, `total`, or `standalone` with appropriate `why` explanations for single-source columns — **PASS**
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked Table 6 Schedule A (Analysis of Change in Excess of Liabilities): verified Excess of Liabilities Beginning of Period (This Year Current Basis) value `27,516,113` matches page 25 exactly.
+- Spot-checked Table 6 Schedule C (Federal Agency Borrowing Financed Through the Issue of Treasury Securities): verified Commodity Credit Corporation This Month net borrowing `-358` and Beginning of This Year balance `26,849` match page 26 exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-table6-schedule-b.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-table6-schedule-b.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 310/310 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-table6-schedule-b` is value-perfect, complete, and faithful to Table 6 Schedule B. All 15 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** #311+ is unblocked; next every-10th different-agent audit: corpus **#320**.
+
 
