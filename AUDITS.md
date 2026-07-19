@@ -1586,3 +1586,15 @@ Stratified sample to check gross outlays, applicable receipts, nets, and negativ
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-other-defense-civil` is value-perfect, complete, and faithful to Table 5 Other Defense Civil Programs section. All 53 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#300**.
+
+---
+
+## Unit #300 — treasury-mts/2026-06-outlays-grand-total-capstone — AUDIT DUE
+
+- **Corpus index:** 300
+- **Table ID:** [treasury-mts/2026-06-outlays-grand-total-capstone](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-grand-total-capstone.cells.json)
+- **Transcriber:** Grok (2026-07-19)
+- **Auditor:** *different agent required* (transcriber was Grok)
+- **Status:** **DUE** — blocks #301+
+- **Shape:** 27 cells / 18 relations / 0 standalone (Total Outlays = On-Budget + Off-Budget per column; net identities)
+- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p23

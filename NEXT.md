@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 is audited and GREEN by Antigravity**; #291+ is unblocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 is audited and GREEN by Antigravity**; #291+ is unblocked. Corpus **#300 different-agent audit DUE** (transcriber Grok); #301+ blocked until GREEN.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -179,11 +179,14 @@ audited and GREEN by Antigravity** (unblocking #171).
   departmental, State, Transportation 2/2, Treasury 3/3, Veterans Affairs,
   Corps of Engineers, Other Defense Civil. Sweep 290/290 GREEN; pytest 10/10.
 
-  **AUDIT GATE:** the different-agent audit of unit **#290**
-  (`treasury-mts/2026-06-outlays-other-defense-civil`) has been completed and recorded
-  as **GREEN** in `AUDITS.md` by Antigravity. **#291+ is unblocked.**
-  After GREEN: Independents (EPA/GSA/International/NASA/NSF/OPM/SBA/SSA/…),
-  then Table 6–8 / means-of-financing.
+  **BATCH #291–300 SHIPPED (Grok, 2026-07-19):** June Table 5 — EPA, GSA,
+  International Assistance 2/2, NASA, NSF, OPM, SBA, Social Security,
+  grand-total On/Off/Total Outlays capstone. Sweep 300/300 GREEN; pytest 10/10.
+
+  **AUDIT GATE:** the different-agent audit of unit **#300**
+  (`treasury-mts/2026-06-outlays-grand-total-capstone`) is **DUE** before #301+.
+  After GREEN: remaining Independent Agencies detail (RRB/Postal/etc.), UOR,
+  Tables 6–8 / means-of-financing.
 
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
@@ -220,6 +223,16 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
+- 2026-07-19 · `treasury-mts/2026-06-outlays-grand-total-capstone` — #300 (Grok). Table 5 grand-total On/Off/Total; 27c/18r; strict-default GREEN. **Different-agent audit DUE before #301.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-social-security` — #299 (Grok). Table 5 SSA; 93c/24r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-sba` — #298 (Grok). Table 5 SBA; 49c/16r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-opm` — #297 (Grok). Table 5 OPM; 67c/18r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-nsf` — #296 (Grok). Table 5 NSF; 33c/9r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-nasa` — #295 (Grok). Table 5 NASA; 52c/8r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-international-assistance-departmental` — #294 (Grok). Table 5 Int'l Assistance capstone; 102c/33r; strict-default GREEN. **International Assistance 2/2 complete.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-international-assistance-bureaus` — #293 (Grok). Table 5 Int'l Assistance ISA/AID; 80c/21r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-gsa` — #292 (Grok). Table 5 GSA; 37c/9r; strict-default GREEN.
+- 2026-07-19 · `treasury-mts/2026-06-outlays-epa` — #291 (Grok). Table 5 EPA; 62c/15r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-other-defense-civil` — #290 (Grok). Table 5 Other Defense Civil; 53c/9r; strict-default GREEN. **Different-agent audit GREEN (Antigravity); #291+ unblocked.**
 - 2026-07-19 · `treasury-mts/2026-06-outlays-corps-engineers` — #289 (Grok). Table 5 Corps of Engineers; 53c/9r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-veterans-affairs` — #288 (Grok). Table 5 VA; 138c/36r; strict-default GREEN.

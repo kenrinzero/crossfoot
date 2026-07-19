@@ -10,10 +10,10 @@ correctness is derived, not trusted.
 ## Status
 
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
-strict coverage is the default), **290 transcription units shipped**. Census
-P60-282 appendix complete; Treasury MTS June 2026 Table 5 through Other Defense
-Civil (Labor/State/Transportation/Treasury/VA/Corps). Unit **#290** awaits its
-required different-agent audit before #291 ships.
+strict coverage is the default), **300 transcription units shipped**. Census
+P60-282 appendix complete; Treasury MTS June 2026 Table 5 through grand-total
+capstone (Independents + SSA + On/Off/Total Outlays). Unit **#300** awaits its
+required different-agent audit before #301 ships.
 
 
 ## How a unit works

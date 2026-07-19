@@ -1,0 +1,443 @@
+{
+  "table_id": "treasury-mts/2026-06-outlays-gsa",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 5. Outlays \u2014 General Services Administration",
+    "page": 19,
+    "title": "General Services Administration",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... and (**) cells omitted (not zero).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Real Property Activities"
+    },
+    {
+      "index": 2,
+      "label": "Supply and Technology Activities"
+    },
+    {
+      "index": 3,
+      "label": "General Activities"
+    },
+    {
+      "index": 4,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 6,
+      "label": "Total--General Services Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-158",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-158",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "-518",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-518",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "-150",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "-150",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "163",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "163",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "-87",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "-87",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "-319",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "-319",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "181",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "181",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "308",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-31",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "45",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-45",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "71",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-71",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-14",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-14",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "39",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-31",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "70",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-429",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-474",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "-174",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "-245",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r6c1",
+      "note": "section roll-up col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3"
+      ],
+      "target": "r6c3",
+      "note": "section roll-up col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r5c4"
+      ],
+      "target": "r6c4",
+      "note": "section roll-up col 4",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6"
+      ],
+      "target": "r6c6",
+      "note": "section roll-up col 6",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r5c7"
+      ],
+      "target": "r6c7",
+      "note": "section roll-up col 7",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "target": "r6c9",
+      "note": "section roll-up col 9",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}
