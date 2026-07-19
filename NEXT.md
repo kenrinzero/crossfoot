@@ -207,14 +207,27 @@ audited and GREEN by Antigravity** (unblocking #171).
   per D1/web options. Next every-10th audit fires at **#340**.
 
 
-- **D1/web vendoring options (browser-capable agents; content-gate per
-  DESIGN §7 — magic-byte check, soft-404 caution):**
-  1. **Treasury MTS June 2026** — fiscaldata static path (same pattern
-     as `mts-202605.pdf`); a whole new month-family with every
-     extraction convention already settled. Highest-leverage vendor.
-  2. **A second 10-K** (e.g., Microsoft FY2025) via EDGAR
-     FilingSummary.xml (SEC requires a contact UA) — balance sheet
-     first per the Apple #2 seed pattern.
+- **NEXT DISPATCH — `sec-10k/msft-fy2025-balance-sheet` (D3, HTML, no
+  vision).** Vendored + sized 2026-07-19 (Claude Fable 5):
+  `sources/sec-10k/msft-fy2025-balance-sheet-R4.htm` (sha256 ledgered,
+  content-gated; NOTE R4 here, not R5 as in Apple's filing). 34 rows ×
+  2 fiscal-year columns (Jun. 30 2025 / Jun. 30 2024) = 68 values;
+  7 sum relations per column (cash+STI roll-up, Total current assets,
+  Total assets, Total current liabilities, Total liabilities, Total
+  stockholders' equity incl. negative AOCI leaf, Total L+E = A) — all
+  pre-verified EXACT in both columns, no tolerances. Wrinkles for the
+  transcriber: Short-term debt prints a real `0` in col 1 (transcribe
+  it — printed zero, not blank); AOCI is negative; label-embedded
+  parenthetical numbers (allowance, accumulated depreciation, share
+  counts) belong to the R5 parenthetical statement, NOT this unit.
+  Follow the Apple #2 seed conventions (BACKLOG row for both).
+
+- **D1/web vendoring (later):** Treasury MTS **July 2026** — probed
+  2026-07-19: not yet published (503 + HTML error body, caught by the
+  magic-byte check). Expected ~mid-August at the fiscaldata static
+  path; re-probe then. Further 10-K statements (income, cash flows)
+  from the vendored MSFT filing are also available as follow-ons
+  (R2/R6 in the same accession dir) but need vendoring + sizing first.
 
 - **GAO complete (2/2, #94–95).** Cross-schedule sanity verified at
   ship time: `0900`≡`99.9`, `0799`≡`99.0 Direct`, `0899`≡`99.0
