@@ -44,18 +44,15 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **sec-10k statement-set runway — 8 more units, ALL HTML
+- **sec-10k statement-set runway — 6 more units, ALL HTML
   / no vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md,
   specs in BACKLOG.md; good for trial agents, easiest first):
-  1. `aapl-fy2023-balance-sheet-parenthetical` — 8c/0r, all standalone (D3)
-  2. `msft-fy2025-comprehensive-income` — 18c/6r (D3)
-  3. `aapl-fy2023-comprehensive-income` — 30c/12r, nested subtotals (D3)
-  4. `msft-fy2025-income` — 57c/18r + 12 standalone EPS/shares (D3)
-  5. `aapl-fy2023-operations` — 57c/21r + 12 standalone (D3)
-  6. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
-  7. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
-  8. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
-  9. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
+  1. `msft-fy2025-income` — 57c/18r + 12 standalone EPS/shares (D3)
+  2. `aapl-fy2023-operations` — 57c/21r + 12 standalone (D3)
+  3. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
+  4. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
+  5. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
+  6. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
 
   Every headline identity in all 8 was pre-verified EXACT at vendoring
   — a transcription that doesn't reconcile exactly is a transcription
@@ -94,8 +91,10 @@ status live in `BACKLOG.md`; session narrative in the project log
   (`msft-fy2025-balance-sheet`, Mavis; 68c/14r, strict-default GREEN,
   A=L+E foot exact both columns; printed-0 short-term debt col1
   transcribed; AOCI leaf negative; label-embedded parentheticals
-  dropped per project log — R5 unit's scope). 7 more units queued
+  dropped per project log — R5 unit's scope). 5 more units queued
   in NEXT.md; next every-10th audit at #340.
+- 2026-07-19 · **aapl-fy2023-comprehensive-income** — #335 (10 rows × 3 cols; 30c/12r, strict-default GREEN; NI must byte-match operations unit)
+- 2026-07-19 · **msft-fy2025-comprehensive-income** — #334 (6 rows × 3 cols; 18c/6r, strict-default GREEN; OCI = 3 components, CI = NI + OCI, both exact all cols; NI byte-matches income unit)
 - 2026-07-19 · **Treasury MTS June 2026 SOURCE COMPLETE** — #251–330
   (Grok, 8×10-unit batches; vendored `mts-202606.pdf` same day):
   Tables 1–3, 9, full Table 5 detail incl. grand-total capstone, Table

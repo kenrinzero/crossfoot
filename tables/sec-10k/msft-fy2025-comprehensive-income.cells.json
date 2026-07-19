@@ -1,0 +1,51 @@
+{
+  "table_id": "sec-10k/msft-fy2025-comprehensive-income",
+  "source": {
+    "path": "sources/sec-10k/msft-fy2025-comprehensive-income-R3.htm",
+    "table": "Consolidated Statements of Comprehensive Income",
+    "title": "Microsoft Corporation consolidated statements of comprehensive income",
+    "period": "June 30, 2025, June 30, 2024, and June 30, 2023"
+  },
+  "unit_note": "USD millions. All values net of tax.",
+  "columns": [
+    { "index": 1, "label": "Jun. 30, 2025" },
+    { "index": 2, "label": "Jun. 30, 2024" },
+    { "index": 3, "label": "Jun. 30, 2023" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Net income" },
+    { "index": 2, "label": "Net change related to derivatives" },
+    { "index": 3, "label": "Net change related to investments" },
+    { "index": 4, "label": "Translation adjustments and other" },
+    { "index": 5, "label": "Other comprehensive income (loss)" },
+    { "index": 6, "label": "Comprehensive income" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "101832", "role": "leaf" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "88136", "role": "leaf" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "72361", "role": "leaf" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "-5", "role": "leaf" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "24", "role": "leaf" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "-14", "role": "leaf" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "1574", "role": "leaf" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "957", "role": "leaf" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "-1444", "role": "leaf" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "674", "role": "leaf" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "-228", "role": "leaf" },
+    { "id": "r4c3", "row": 4, "col": 3, "value": "-207", "role": "leaf" },
+    { "id": "r5c1", "row": 5, "col": 1, "value": "2243", "role": "total" },
+    { "id": "r5c2", "row": 5, "col": 2, "value": "753", "role": "total" },
+    { "id": "r5c3", "row": 5, "col": 3, "value": "-1665", "role": "total" },
+    { "id": "r6c1", "row": 6, "col": 1, "value": "104075", "role": "total" },
+    { "id": "r6c2", "row": 6, "col": 2, "value": "88889", "role": "total" },
+    { "id": "r6c3", "row": 6, "col": 3, "value": "70696", "role": "total" }
+  ],
+  "relations": [
+    { "type": "sum", "sources": ["r2c1", "r3c1", "r4c1"], "target": "r5c1", "note": "Derivatives + investments + translation = Other comprehensive income FY2025" },
+    { "type": "sum", "sources": ["r2c2", "r3c2", "r4c2"], "target": "r5c2", "note": "Derivatives + investments + translation = Other comprehensive income FY2024" },
+    { "type": "sum", "sources": ["r2c3", "r3c3", "r4c3"], "target": "r5c3", "note": "Derivatives + investments + translation = Other comprehensive income FY2023" },
+    { "type": "sum", "sources": ["r1c1", "r5c1"], "target": "r6c1", "note": "Net income + Other comprehensive income = Comprehensive income FY2025" },
+    { "type": "sum", "sources": ["r1c2", "r5c2"], "target": "r6c2", "note": "Net income + Other comprehensive income = Comprehensive income FY2024" },
+    { "type": "sum", "sources": ["r1c3", "r5c3"], "target": "r6c3", "note": "Net income + Other comprehensive income = Comprehensive income FY2023" }
+  ]
+}

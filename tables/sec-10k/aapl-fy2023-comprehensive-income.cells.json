@@ -1,0 +1,73 @@
+{
+  "table_id": "sec-10k/aapl-fy2023-comprehensive-income",
+  "source": {
+    "path": "sources/sec-10k/aapl-fy2023-comprehensive-income-R4.htm",
+    "table": "Consolidated Statements of Comprehensive Income",
+    "title": "Apple Inc. consolidated statements of comprehensive income",
+    "period": "September 30, 2023, September 24, 2022, and September 25, 2021"
+  },
+  "unit_note": "USD millions. All values net of tax.",
+  "columns": [
+    { "index": 1, "label": "Sep. 30, 2023" },
+    { "index": 2, "label": "Sep. 24, 2022" },
+    { "index": 3, "label": "Sep. 25, 2021" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Net income" },
+    { "index": 2, "label": "Change in foreign currency translation, net of tax" },
+    { "index": 3, "label": "Change in fair value of derivative instruments" },
+    { "index": 4, "label": "Adjustment for net (gains)/losses realized on derivatives" },
+    { "index": 5, "label": "Total change in unrealized gains/losses on derivative instruments" },
+    { "index": 6, "label": "Change in fair value of marketable debt securities" },
+    { "index": 7, "label": "Adjustment for net (gains)/losses realized on securities" },
+    { "index": 8, "label": "Total change in unrealized gains/losses on marketable debt securities" },
+    { "index": 9, "label": "Total other comprehensive income/(loss)" },
+    { "index": 10, "label": "Total comprehensive income" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "96995", "role": "leaf" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "99803", "role": "leaf" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "94680", "role": "leaf" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "-765", "role": "leaf" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "-1511", "role": "leaf" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "501", "role": "leaf" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "323", "role": "leaf" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "3212", "role": "leaf" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "32", "role": "leaf" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "-1717", "role": "leaf" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "-1074", "role": "leaf" },
+    { "id": "r4c3", "row": 4, "col": 3, "value": "1003", "role": "leaf" },
+    { "id": "r5c1", "row": 5, "col": 1, "value": "-1394", "role": "total" },
+    { "id": "r5c2", "row": 5, "col": 2, "value": "2138", "role": "total" },
+    { "id": "r5c3", "row": 5, "col": 3, "value": "1035", "role": "total" },
+    { "id": "r6c1", "row": 6, "col": 1, "value": "1563", "role": "leaf" },
+    { "id": "r6c2", "row": 6, "col": 2, "value": "-12104", "role": "leaf" },
+    { "id": "r6c3", "row": 6, "col": 3, "value": "-694", "role": "leaf" },
+    { "id": "r7c1", "row": 7, "col": 1, "value": "253", "role": "leaf" },
+    { "id": "r7c2", "row": 7, "col": 2, "value": "205", "role": "leaf" },
+    { "id": "r7c3", "row": 7, "col": 3, "value": "-273", "role": "leaf" },
+    { "id": "r8c1", "row": 8, "col": 1, "value": "1816", "role": "total" },
+    { "id": "r8c2", "row": 8, "col": 2, "value": "-11899", "role": "total" },
+    { "id": "r8c3", "row": 8, "col": 3, "value": "-967", "role": "total" },
+    { "id": "r9c1", "row": 9, "col": 1, "value": "-343", "role": "total" },
+    { "id": "r9c2", "row": 9, "col": 2, "value": "-11272", "role": "total" },
+    { "id": "r9c3", "row": 9, "col": 3, "value": "569", "role": "total" },
+    { "id": "r10c1", "row": 10, "col": 1, "value": "96652", "role": "total" },
+    { "id": "r10c2", "row": 10, "col": 2, "value": "88531", "role": "total" },
+    { "id": "r10c3", "row": 10, "col": 3, "value": "95249", "role": "total" }
+  ],
+  "relations": [
+    { "type": "sum", "sources": ["r3c1", "r4c1"], "target": "r5c1", "note": "Fair value + reclassification = Total change in unrealized gains/losses on derivatives FY2023" },
+    { "type": "sum", "sources": ["r3c2", "r4c2"], "target": "r5c2", "note": "Fair value + reclassification = Total change in unrealized gains/losses on derivatives FY2022" },
+    { "type": "sum", "sources": ["r3c3", "r4c3"], "target": "r5c3", "note": "Fair value + reclassification = Total change in unrealized gains/losses on derivatives FY2021" },
+    { "type": "sum", "sources": ["r6c1", "r7c1"], "target": "r8c1", "note": "Fair value + reclassification = Total change in unrealized gains/losses on securities FY2023" },
+    { "type": "sum", "sources": ["r6c2", "r7c2"], "target": "r8c2", "note": "Fair value + reclassification = Total change in unrealized gains/losses on securities FY2022" },
+    { "type": "sum", "sources": ["r6c3", "r7c3"], "target": "r8c3", "note": "Fair value + reclassification = Total change in unrealized gains/losses on securities FY2021" },
+    { "type": "sum", "sources": ["r2c1", "r5c1", "r8c1"], "target": "r9c1", "note": "FX + derivatives + securities = Total other comprehensive income FY2023" },
+    { "type": "sum", "sources": ["r2c2", "r5c2", "r8c2"], "target": "r9c2", "note": "FX + derivatives + securities = Total other comprehensive income FY2022" },
+    { "type": "sum", "sources": ["r2c3", "r5c3", "r8c3"], "target": "r9c3", "note": "FX + derivatives + securities = Total other comprehensive income FY2021" },
+    { "type": "sum", "sources": ["r1c1", "r9c1"], "target": "r10c1", "note": "Net income + Other comprehensive income = Comprehensive income FY2023" },
+    { "type": "sum", "sources": ["r1c2", "r9c2"], "target": "r10c2", "note": "Net income + Other comprehensive income = Comprehensive income FY2022" },
+    { "type": "sum", "sources": ["r1c3", "r9c3"], "target": "r10c3", "note": "Net income + Other comprehensive income = Comprehensive income FY2021" }
+  ]
+}
