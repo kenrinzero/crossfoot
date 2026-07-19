@@ -22,6 +22,9 @@ written **D1/D2/D3** ≡ the CHARTER's fleet-wide T1/T2/T3 (Kenrin,
 (strict-coverage flip / footnote pass / new relation types). "Tier N"
 in this repo always means a stage, never difficulty.
 
+**Dispatched single-unit agents:** follow `RUNBOOK-transcriber.md` /
+`RUNBOOK-auditor.md` — self-contained flows, no deep orientation needed.
+
 **Harness notes for transcribers:**
 - ⚠ **Recurring venv breaker:** if EVERY `uv run` fails with `failed to
   remove .venv/lib64: Access is denied (os error 5)`, a POSIX-side

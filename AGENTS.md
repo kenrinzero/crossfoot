@@ -6,6 +6,16 @@
 
 <!-- Project-specific instructions below this line. -->
 
+> **Dispatched for ONE unit (transcription or audit)?** Skip the deep
+> orientation: read **`RUNBOOK-transcriber.md`** or
+> **`RUNBOOK-auditor.md`** instead — each is a self-contained flow with
+> an explicit read list (and don't-read list), sized so a cold agent is
+> working within ~5k tokens. The full control-plane read below is for
+> standing agents doing sizing, vendoring, or multi-unit sessions.
+> (Adopted 2026-07-19 after the trial-fleet run: orientation cost passed
+> 100k tokens per agent and every failure was process, not
+> transcription.)
+
 # Working on Crossfoot
 
 1. **Read `DESIGN.md`** (frozen), then take a READY unit from
