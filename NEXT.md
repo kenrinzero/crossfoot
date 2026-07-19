@@ -44,22 +44,39 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **NEXT DISPATCH — `sec-10k/msft-fy2025-balance-sheet` (#331; D3,
-  HTML, no vision).** Vendored + sized 2026-07-19:
-  `sources/sec-10k/msft-fy2025-balance-sheet-R4.htm` (sha256 ledgered,
-  content-gated; NOTE R4 in this filing, not R5 as in Apple's). 34 rows
-  × 2 fiscal-year columns (Jun. 30 2025 / 2024) = 68 values; 7 sum
-  relations per column (cash+STI, Total current assets, Total assets,
-  Total current liabilities, Total liabilities, Total stockholders'
-  equity incl. negative AOCI leaf, Total L+E = A) — all pre-verified
-  EXACT both columns, no tolerances. Wrinkles: Short-term debt prints a
-  real `0` in col 1 (transcribe it — printed zero, not blank); AOCI is
-  negative; label-embedded parenthetical numbers (allowance,
-  accumulated depreciation, share counts) belong to the R5
-  parenthetical statement, NOT this unit. Follow the Apple #2 seed
-  conventions (BACKLOG rows for both).
+- **NEXT DISPATCH — `sec-10k/msft-fy2025-balance-sheet-parenthetical`
+  (#332; D3, HTML, no vision).** Vendored + sized 2026-07-19:
+  `sources/sec-10k/msft-fy2025-balance-sheet-parenthetical-R5.htm`.
+  Easiest statement in the runway (8c/0r, all standalone, every value
+  single-source); allowance / accumulated depreciation / share counts
+  get their own cells with `why` explaining single-source (minItems-2
+  schema rule keeps them out of any sum). 8 standalone waivers, no
+  relations — coverage passes because the schema allows 0-relation
+  totals via standalone+why. Good first unit for a trial transcriber
+  rotating in for the first time.
 
-- **sec-10k statement-set runway — 10 more units, ALL HTML / no
+- **sec-10k statement-set runway — 9 more units after #332, ALL HTML
+  / no vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md,
+  specs in BACKLOG.md; good for trial agents, easiest first):
+  1. `aapl-fy2023-balance-sheet-parenthetical` — 8c/0r, all standalone (D3)
+  2. `msft-fy2025-comprehensive-income` — 18c/6r (D3)
+  3. `aapl-fy2023-comprehensive-income` — 30c/12r, nested subtotals (D3)
+  4. `msft-fy2025-income` — 57c/18r + 12 standalone EPS/shares (D3)
+  5. `aapl-fy2023-operations` — 57c/21r + 12 standalone (D3)
+  6. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
+  7. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
+  8. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
+  9. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
+
+  Every headline identity in all 9 was pre-verified EXACT at vendoring
+  — a transcription that doesn't reconcile exactly is a transcription
+  error, not a source feature (single exception: the equity statements'
+  Total-vs-RE dividend/repurchase deltas, documented in BACKLOG).
+  Duplicate printed row labels (product/service blocks, 'Other' rows)
+  get keyed rows per the Stennis precedent. Cross-unit ties (NI across
+  income/comprehensive/cash-flows/equity; ending cash to balance sheet)
+  are re-read, never copied. The every-10th audit fires mid-runway at
+  **#340** — plan transcriber rotation accordingly.
   vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md, specs
   in BACKLOG.md; good first units for trial agents, easiest first):
   1. `msft-fy2025-balance-sheet-parenthetical` — 8c/0r, all standalone (D3)
@@ -94,7 +111,8 @@ in this repo always means a stage, never difficulty.
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
 **#330** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
-rows, #250 systematic A-5 year-shift). Next fires at **#340**.
+rows, #250 systematic A-5 year-shift). #331 shipped without an audit;
+next fires at **#340**.
 
 ---
 
@@ -104,6 +122,12 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-07-19 · **sec-10k no-vision runway STARTED** — #331
+  (`msft-fy2025-balance-sheet`, Mavis; 68c/14r, strict-default GREEN,
+  A=L+E foot exact both columns; printed-0 short-term debt col1
+  transcribed; AOCI leaf negative; label-embedded parentheticals
+  dropped per project log — R5 unit's scope). 10 more units queued
+  in NEXT.md; next every-10th audit at #340.
 - 2026-07-19 · **Treasury MTS June 2026 SOURCE COMPLETE** — #251–330
   (Grok, 8×10-unit batches; vendored `mts-202606.pdf` same day):
   Tables 1–3, 9, full Table 5 detail incl. grand-total capstone, Table
