@@ -77,7 +77,7 @@ control-plane project log):
   through 1972. Together with the legacy-named seed unit #3, all 41 A-2
   source-native units are shipped.
 
-Every-10th different-agent spot-audits GREEN through **#280**: #120
+Every-10th different-agent spot-audits GREEN through **#290**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 different-agent audit DUE** (transcriber Grok); #291+ blocked until GREEN.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 is audited and GREEN by Antigravity**; #291+ is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -180,7 +180,8 @@ audited and GREEN by Antigravity** (unblocking #171).
   Corps of Engineers, Other Defense Civil. Sweep 290/290 GREEN; pytest 10/10.
 
   **AUDIT GATE:** the different-agent audit of unit **#290**
-  (`treasury-mts/2026-06-outlays-other-defense-civil`) is **DUE** before #291+.
+  (`treasury-mts/2026-06-outlays-other-defense-civil`) has been completed and recorded
+  as **GREEN** in `AUDITS.md` by Antigravity. **#291+ is unblocked.**
   After GREEN: Independents (EPA/GSA/International/NASA/NSF/OPM/SBA/SSA/…),
   then Table 6–8 / means-of-financing.
 
@@ -219,7 +220,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-19 · `treasury-mts/2026-06-outlays-other-defense-civil` — #290 (Grok). Table 5 Other Defense Civil; 53c/9r; strict-default GREEN. **Different-agent audit DUE before #291.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-other-defense-civil` — #290 (Grok). Table 5 Other Defense Civil; 53c/9r; strict-default GREEN. **Different-agent audit GREEN (Antigravity); #291+ unblocked.**
 - 2026-07-19 · `treasury-mts/2026-06-outlays-corps-engineers` — #289 (Grok). Table 5 Corps of Engineers; 53c/9r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-veterans-affairs` — #288 (Grok). Table 5 VA; 138c/36r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-treasury-departmental` — #287 (Grok). Table 5 Treasury capstone; 153c/30r; strict-default GREEN. **Treasury 3/3 complete.**

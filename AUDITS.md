@@ -1527,12 +1527,62 @@ Stratified sample to check gross outlays, applicable receipts, nets, and negativ
 Grok's transcription of `treasury-mts/2026-06-outlays-labor-bureaus` is value-perfect, complete, and faithful to Table 5 Employment and Training Administration section. All 86 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#290**.
 ---
 
-## Unit #290 — treasury-mts/2026-06-outlays-other-defense-civil — AUDIT DUE
+## Spot-Audit: Unit 290 — Treasury MTS June 2026 Other Defense Civil outlays
 
-- **Corpus index:** 290
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
+- **Transcriber:** Grok (main; batch #281–290, 2026-07-19)
 - **Table ID:** [treasury-mts/2026-06-outlays-other-defense-civil](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json)
-- **Transcriber:** Grok (2026-07-19)
-- **Auditor:** *different agent required* (transcriber was Grok)
-- **Status:** **DUE** — blocks #291+
-- **Shape:** 53 cells / 9 relations / 3 standalone (Military Retirement + Retiree Health Care + Educational Benefits + Other/Prop/Intra + Total)
-- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p19
+- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF pages 18 and 19, Other Defense Civil Programs section
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all 53 cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
+- **Status:** **GREEN** (all verification checks passed; 100% value exactness)
+
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 5. Outlays of the U.S. Government, June 2026 and Other Periods - Continued" (Other Defense Civil Programs section) — **PASS**
+- **Period / columns:** June FY2026. 9 columns (Gross Outlays, Applicable Receipts, Outlays for This Month, Current FYTD, and Prior FYTD) — **PASS**
+- **Rows (9):**
+  1: Payment to Military Retirement Fund
+  2: Military Retirement Fund
+  3: Payment to Department of Defense Medicare-Eligible Retiree Health Care Fund
+  4: Department of Defense Medicare-Eligible Retiree Health Care Fund
+  5: Educational Benefits
+  6: Other
+  7: Proprietary Receipts from the Public
+  8: Intrabudgetary Transactions
+  9: Total--Other Defense Civil Programs
+  — **PASS**
+- **Omission convention:** Blank/non-applicable cells (e.g. `......`) and negligible cells (`(**)`) are correctly omitted per standard conventions — **PASS**
+
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check gross outlays, applicable receipts, nets, and negatives:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c4` | Payment to Military Retirement | Current FYTD / Gross Outlays | leaf | `161413` | `161,413` | **PASS** |
+| `r2c1` | Military Retirement Fund | This Month / Gross Outlays | leaf | `6964` | `6,964` | **PASS** |
+| `r2c9` | Military Retirement Fund | Prior FYTD / Outlays (Net) | leaf | `60198` | `60,198` | **PASS** |
+| `r3c7` | Payment to Retiree Health Care Fund | Prior FYTD / Gross Outlays | leaf | `14569` | `14,569` | **PASS** |
+| `r4c6` | Retiree Health Care Fund | Current FYTD / Outlays (Net) | leaf | `10258` | `10,258` | **PASS** |
+| `r5c3` | Educational Benefits | This Month / Outlays (Net) | leaf | `9` | `9` | **PASS** |
+| `r6c6` | Other | Current FYTD / Outlays (Net) | leaf | `338` | `338` | **PASS** |
+| `r7c3` | Proprietary Receipts | This Month / Outlays (Net) | leaf | `-3` | `-3` | **PASS** |
+| `r8c6` | Intrabudgetary Transactions | Current FYTD / Outlays (Net) | leaf | `-206746` | `-206,746` | **PASS** |
+| `r9c3` | Total--Other Defense Civil Programs | This Month / Outlays (Net) | total | `-2283` | `-2,283` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- 3 net identities verified: `Outlays(net) + Applicable Receipts = Gross Outlays` for rows 7, 9 — **PASS**
+- 6 roll-up sums verified: 6 grand-total roll-ups for `Total--Other Defense Civil Programs` with a tolerance of `1` (due to independent rounding) — **PASS**
+- Components correctly declared as `leaf`, `total`, or `standalone`.
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked June Table 5 Commerce: verified Economic Development Administration Current FYTD Gross Outlays `865` and Bureau of the Census Prior FYTD Gross Outlays `1,144` matches PDF page 11 exactly.
+- Spot-checked State/Transportation/Treasury outlays; all values match the source exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 290/290 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-outlays-other-defense-civil` is value-perfect, complete, and faithful to Table 5 Other Defense Civil Programs section. All 53 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#300**.
