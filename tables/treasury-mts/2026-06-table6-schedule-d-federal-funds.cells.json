@@ -1,0 +1,1746 @@
+{
+  "table_id": "treasury-mts/2026-06-table6-schedule-d-federal-funds",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 6. Schedule D \u2014 Investments Federal Funds",
+    "page": 29,
+    "title": "Table 6. Schedule D \u2014 Investments Federal Funds",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. Federal Funds section through Total Federal Funds. Total Federal Funds equals Total Treasury Securities (Federal Funds).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month \u2014 end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Federal Funds: Department of Agriculture"
+    },
+    {
+      "index": 2,
+      "label": "Federal Funds: Department of Commerce"
+    },
+    {
+      "index": 3,
+      "label": "Federal Funds: Department of Defense--Military Programs: Defense Cooperation Account"
+    },
+    {
+      "index": 4,
+      "label": "Federal Funds: Department of Energy"
+    },
+    {
+      "index": 5,
+      "label": "Federal Funds: Department of Health and Human Services"
+    },
+    {
+      "index": 6,
+      "label": "Federal Funds: Department of Homeland Security"
+    },
+    {
+      "index": 7,
+      "label": "Federal Funds: Department of Housing and Urban Development: Federal Housing Administration Fund"
+    },
+    {
+      "index": 8,
+      "label": "Federal Funds: Department of Housing and Urban Development: Government National Mortgage Association: Guarantees of Mortgage-Backed Securities"
+    },
+    {
+      "index": 9,
+      "label": "Federal Funds: Department of the Interior"
+    },
+    {
+      "index": 10,
+      "label": "Federal Funds: Department of Justice"
+    },
+    {
+      "index": 11,
+      "label": "Federal Funds: Department of Labor"
+    },
+    {
+      "index": 12,
+      "label": "Federal Funds: Department of State: Foreign Service Retirement and Disability Fund"
+    },
+    {
+      "index": 13,
+      "label": "Federal Funds: Department of State: Other"
+    },
+    {
+      "index": 14,
+      "label": "Federal Funds: Department of Transportation"
+    },
+    {
+      "index": 15,
+      "label": "Federal Funds: Department of the Treasury"
+    },
+    {
+      "index": 16,
+      "label": "Federal Funds: Department of Veterans Affairs: Veterans Reopened Insurance Fund"
+    },
+    {
+      "index": 17,
+      "label": "Federal Funds: Department of Veterans Affairs: National Service Life Insurance"
+    },
+    {
+      "index": 18,
+      "label": "Federal Funds: Department of Veterans Affairs: Servicemen's Group Life Insurance Fund"
+    },
+    {
+      "index": 19,
+      "label": "Federal Funds: Other Defense Civil Programs: Uniformed Services Retiree Health Care Fund"
+    },
+    {
+      "index": 20,
+      "label": "Federal Funds: International Assistance Programs"
+    },
+    {
+      "index": 21,
+      "label": "Federal Funds: Office of Personnel Management: Postal Service Contributions"
+    },
+    {
+      "index": 22,
+      "label": "Federal Funds: Independent Agencies: Federal Deposit Insurance Corporation: Deposit Insurance Fund"
+    },
+    {
+      "index": 23,
+      "label": "Federal Funds: Independent Agencies: Federal Deposit Insurance Corporation: FSLIC Resolution Fund"
+    },
+    {
+      "index": 24,
+      "label": "Federal Funds: Independent Agencies: Federal Housing Finance Agency"
+    },
+    {
+      "index": 25,
+      "label": "Federal Funds: Independent Agencies: National Credit Union Administration"
+    },
+    {
+      "index": 26,
+      "label": "Federal Funds: Independent Agencies: Postal Service"
+    },
+    {
+      "index": 27,
+      "label": "Federal Funds: Other: Treasury Securities"
+    },
+    {
+      "index": 28,
+      "label": "Federal Funds: Other: Other"
+    },
+    {
+      "index": 29,
+      "label": "Total Treasury Securities (Federal Funds)"
+    },
+    {
+      "index": 30,
+      "label": "Total Federal Funds"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-82",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "409",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "419",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "428",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "32",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "6302",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "6091",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "80096",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "86366",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "86399",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "17508",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "18136",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "17532",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "17508",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-4948",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-2428",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "7344",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "8659",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "185047",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "194818",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "192391",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "801",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "2012",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "2328",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "29516",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "30727",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "31528",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-407",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-394",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1379",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "32218",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "32230",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "31824",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "-2569",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-597",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "3102",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "325",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "533",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "707",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "2327",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "3051",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "73532",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "75152",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "75859",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "356",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "375",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "377",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-21",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-21",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "83",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "2706",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "2783",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "2783",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "61",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "2502",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "8917",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "27828",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "30269",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "30329",
+      "role": "total"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "86",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "152",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "224",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "239",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "96",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "72",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "576",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "4761",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "4737",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "4833",
+      "role": "total"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "49071",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "88292",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "28451",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "416973",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "456194",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "505265",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "183",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "405",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "7067",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "7230",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "7250",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "-206",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "-3242",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "-4492",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "24067",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "21032",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "20826",
+      "role": "total"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "3594",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "16923",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "20374",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "120552",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "133880",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "137474",
+      "role": "total"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "33",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "1028",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "1054",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "1057",
+      "role": "total"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "-17",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "142",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "303",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c5",
+      "row": 24,
+      "col": 5,
+      "value": "361",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "344",
+      "role": "total"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "1180",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "1346",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "25312",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "value": "26490",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "26491",
+      "role": "total"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "672",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "-1247",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "-1261",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "13708",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c5",
+      "row": 26,
+      "col": 5,
+      "value": "11789",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c6",
+      "row": 26,
+      "col": 6,
+      "value": "12461",
+      "role": "total"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "-23",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "-82",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "102",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "13945",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c5",
+      "row": 27,
+      "col": 5,
+      "value": "13886",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c6",
+      "row": 27,
+      "col": 6,
+      "value": "13863",
+      "role": "total"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "158",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "3189",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "2803",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "1754",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c5",
+      "row": 28,
+      "col": 5,
+      "value": "4785",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c6",
+      "row": 28,
+      "col": 6,
+      "value": "4943",
+      "role": "total"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "52323",
+      "role": "total"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "140549",
+      "role": "total"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "91589",
+      "role": "total"
+    },
+    {
+      "id": "r29c4",
+      "row": 29,
+      "col": 4,
+      "value": "1064480",
+      "role": "total"
+    },
+    {
+      "id": "r29c5",
+      "row": 29,
+      "col": 5,
+      "value": "1152706",
+      "role": "total"
+    },
+    {
+      "id": "r29c6",
+      "row": 29,
+      "col": 6,
+      "value": "1205029",
+      "role": "total"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "52323",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "140549",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "91589",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r30c4",
+      "row": 30,
+      "col": 4,
+      "value": "1064480",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r30c5",
+      "row": 30,
+      "col": 5,
+      "value": "1152706",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c6",
+      "row": 30,
+      "col": 6,
+      "value": "1205029",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r1)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r4)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r7c1"
+      ],
+      "target": "r7c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r7)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c1"
+      ],
+      "target": "r9c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r9)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r10)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c1"
+      ],
+      "target": "r11c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r11)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c1"
+      ],
+      "target": "r12c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r12)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r15)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r17)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c5",
+        "r18c1"
+      ],
+      "target": "r18c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r18)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r19c1"
+      ],
+      "target": "r19c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r19)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c1"
+      ],
+      "target": "r20c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r20)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c5",
+        "r21c1"
+      ],
+      "target": "r21c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r21)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c5",
+        "r22c1"
+      ],
+      "target": "r22c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r22)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c5",
+        "r23c1"
+      ],
+      "target": "r23c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r23)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c5",
+        "r24c1"
+      ],
+      "target": "r24c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r24)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c5",
+        "r25c1"
+      ],
+      "target": "r25c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r25)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c5",
+        "r26c1"
+      ],
+      "target": "r26c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r26)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r27c5",
+        "r27c1"
+      ],
+      "target": "r27c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r27)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c5",
+        "r28c1"
+      ],
+      "target": "r28c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r28)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c5",
+        "r29c1"
+      ],
+      "target": "r29c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r29)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c5",
+        "r30c1"
+      ],
+      "target": "r30c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r30)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r4c1",
+        "r5c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r15c1",
+        "r17c1",
+        "r18c1",
+        "r19c1",
+        "r20c1",
+        "r21c1",
+        "r22c1",
+        "r23c1",
+        "r24c1",
+        "r25c1",
+        "r26c1",
+        "r27c1",
+        "r28c1"
+      ],
+      "target": "r29c1",
+      "note": "Federal Funds Total Treasury Securities roll-up col 1",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r4c2",
+        "r5c2",
+        "r7c2",
+        "r8c2",
+        "r9c2",
+        "r10c2",
+        "r11c2",
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2",
+        "r18c2",
+        "r19c2",
+        "r20c2",
+        "r21c2",
+        "r22c2",
+        "r23c2",
+        "r24c2",
+        "r25c2",
+        "r26c2",
+        "r27c2",
+        "r28c2"
+      ],
+      "target": "r29c2",
+      "note": "Federal Funds Total Treasury Securities roll-up col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3",
+        "r19c3",
+        "r20c3",
+        "r21c3",
+        "r22c3",
+        "r23c3",
+        "r24c3",
+        "r25c3",
+        "r26c3",
+        "r27c3",
+        "r28c3"
+      ],
+      "target": "r29c3",
+      "note": "Federal Funds Total Treasury Securities roll-up col 3",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r3c4",
+        "r4c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4",
+        "r19c4",
+        "r20c4",
+        "r21c4",
+        "r22c4",
+        "r23c4",
+        "r24c4",
+        "r25c4",
+        "r26c4",
+        "r27c4",
+        "r28c4"
+      ],
+      "target": "r29c4",
+      "note": "Federal Funds Total Treasury Securities roll-up col 4",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5",
+        "r3c5",
+        "r4c5",
+        "r5c5",
+        "r7c5",
+        "r8c5",
+        "r9c5",
+        "r10c5",
+        "r11c5",
+        "r12c5",
+        "r13c5",
+        "r14c5",
+        "r15c5",
+        "r16c5",
+        "r17c5",
+        "r18c5",
+        "r19c5",
+        "r20c5",
+        "r21c5",
+        "r22c5",
+        "r23c5",
+        "r24c5",
+        "r25c5",
+        "r26c5",
+        "r27c5",
+        "r28c5"
+      ],
+      "target": "r29c5",
+      "note": "Federal Funds Total Treasury Securities roll-up col 5",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6",
+        "r22c6",
+        "r23c6",
+        "r24c6",
+        "r25c6",
+        "r26c6",
+        "r27c6",
+        "r28c6"
+      ],
+      "target": "r29c6",
+      "note": "Federal Funds Total Treasury Securities roll-up col 6",
+      "tol": "2",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    }
+  ]
+}

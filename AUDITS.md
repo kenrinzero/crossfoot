@@ -1678,4 +1678,14 @@ Since the table only contains 15 cells, we verified all 15 cells against the PDF
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-table6-schedule-b` is value-perfect, complete, and faithful to Table 6 Schedule B. All 15 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** #311+ is unblocked; next every-10th different-agent audit: corpus **#320**.
 
+---
+
+## Corpus unit #320 — `treasury-mts/2026-06-table6-schedule-e-direct-part2` — PLACEHOLDER (audit DUE)
+
+- **Status:** **DUE** — every-10th different-agent spot-audit
+- **Transcriber:** Grok (2026-07-19)
+- **Table ID:** [treasury-mts/2026-06-table6-schedule-e-direct-part2](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json)
+- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule E Direct remainder + Net Activity, PDF page 33
+- **Shape:** 166 cells / 20 relations / 106 standalone (Direct loan financing HHS-remainder through Independents + Net Activity Direct; Spectrum Auction all-(**) dropped; Agri–HHS starter in sibling #319)
+- **Gate for auditor:** full-value check vs page-33 text layer/render; roll-forward relations; Net Activity Direct values; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#321+ blocked until GREEN.**
 
