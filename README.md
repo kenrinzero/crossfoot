@@ -12,8 +12,8 @@ correctness is derived, not trusted.
 Active corpus (2026-07-19): schema + oracle frozen and live (**10/10 tests**;
 strict coverage is the default), **300 transcription units shipped**. Census
 P60-282 appendix complete; Treasury MTS June 2026 Table 5 through grand-total
-capstone (Independents + SSA + On/Off/Total Outlays). Unit **#300** awaits its
-required different-agent audit before #301 ships.
+capstone (Independents + SSA + On/Off/Total Outlays). Unit **#300** is audited
+GREEN (different-agent, 2026-07-19); the next audit gate is #310.
 
 
 ## How a unit works

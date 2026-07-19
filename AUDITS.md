@@ -1589,12 +1589,36 @@ Grok's transcription of `treasury-mts/2026-06-outlays-other-defense-civil` is va
 
 ---
 
-## Unit #300 — treasury-mts/2026-06-outlays-grand-total-capstone — AUDIT DUE
+## Spot-Audit: Unit 300 — treasury-mts/2026-06-outlays-grand-total-capstone
 
-- **Corpus index:** 300
+- **Audit Date:** 2026-07-19
+- **Auditor:** Claude Fable 5 (different agent — transcriber was Grok)
+- **Transcriber:** Grok (2026-07-19, commit `c00be3d`)
 - **Table ID:** [treasury-mts/2026-06-outlays-grand-total-capstone](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-grand-total-capstone.cells.json)
-- **Transcriber:** Grok (2026-07-19)
-- **Auditor:** *different agent required* (transcriber was Grok)
-- **Status:** **DUE** — blocks #301+
-- **Shape:** 27 cells / 18 relations / 0 standalone (Total Outlays = On-Budget + Off-Budget per column; net identities)
-- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p23
+- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 5 continuation, PDF/printed page 23
+- **Status:** **GREEN** (all checks passed with 100% accuracy)
+
+### 1. Method
+Render-anchored: PDF page 23 rendered via pypdfium2 at scale 3.0 and read directly (the grand-total block sits in the top third of the page, above the MEMORANDUM). Independent value comparison via pypdf text-layer extraction of the three total rows. All 18 relations recomputed by hand before running the oracle.
+
+### 2. Layout, labels, and scope
+- Rows `Total Outlays`, `Total On-Budget`, `Total Off-Budget` are printed exactly as transcribed, in that order, between `Total--Undistributed Offsetting Receipts` and the `Total Surplus (+) or Deficit (-)` block — **PASS**.
+- Columns match the printed 3×3 layout (This Month / Current FYTD / Prior FYTD × Gross Outlays / Applicable Receipts / Outlays) — **PASS**.
+- Scope matches the May grand-total-capstone precedent exactly (#32: same 27-cell / 18-relation shape): the Surplus/Deficit block and MEMORANDUM are deliberately outside this outlays capstone; the UOR section above remains queued as its own future unit — **PASS**.
+
+### 3. Value verification (27/27)
+- All 27 values verified against the page render and independently against the pypdf text layer: 27/27 exact (e.g. Total Outlays TM `754,365 / 138,298 / 616,067`; Current FYTD `6,089,651 / 571,733 / 5,517,918`; Prior FYTD `5,793,302 / 447,784 / 5,345,519`) — **PASS**.
+
+### 4. Relation / rounding honesty
+- 9 net identities (`Outlays + Applicable Receipts = Gross Outlays` per row × period) and 9 On+Off roll-ups recomputed by hand: 12 close exactly; exactly six drift by 1 (r1 Prior-FYTD net identity; roll-ups for columns 2, 3, 4, 5, 7) and the six `tol: "1"` declarations sit precisely on those and nowhere else — **PASS**.
+- The quoted rationale ("Note: Details may not add to totals due to rounding.") is printed verbatim on this very page — **PASS**. No invented slack; no under-declaration.
+- Roles are coverage-consistent: dual target/source cells (e.g. On-Budget Gross columns) carry `total`; pure sources carry `leaf`; zero standalone — **PASS**.
+
+### 5. Reconcile Gate
+- Harness note: the recurring `.venv/lib64` symlink breaker (recreated 03:49 by a POSIX-side session) was removed FIRST per the NEXT.md warning; uv rebuilt cleanly before any gate was believed.
+- `uv run python reconcile.py tables/treasury-mts/2026-06-outlays-grand-total-capstone.cells.json` → `GREEN … (0 warning(s))` — **PASS**
+- `uv run pytest -q` → 10 passed — **PASS**
+- Full-corpus sweep: **300/300 GREEN** — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-outlays-grand-total-capstone` is value-perfect, complete, and faithful to the June 2026 MTS Table 5 grand totals: all 27 values exact, labels/columns/scope correct, and the tolerance pattern honest to the print. **GREEN.** #301+ is unblocked; next every-10th different-agent audit: corpus **#310**.
