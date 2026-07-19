@@ -1339,20 +1339,60 @@ The equivalence-adjusted income dispersion values for `census-p60/2023-income-a5
 
 ---
 
-## Spot-Audit Due: Unit 260 — Treasury MTS June 2026 EOP outlays
+## Spot-Audit: Unit 260 — Treasury MTS June 2026 EOP outlays
 
-- **Status:** **DUE — corpus #261+ is blocked pending a GREEN different-agent audit.**
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
 - **Transcriber:** Grok (main; batch #251–260, 2026-07-19)
-- **Table ID:** `treasury-mts/2026-06-outlays-eop`
-- **Source Document:** `sources/treasury-mts/mts-202606.pdf`, PDF page 19, Executive Office of the President section
-- **Expected shape:** 7 rows / ~40 cells / sum relations (net identities + section roll-ups) / some standalone for sparse applicable columns
-- **Pre-audit ship evidence:** MTS June PDF vendored + content-gated (39pp, sha256 ledgered); 10 June starter units GREEN; full sweep 260/260; pytest 10/10.
+- **Table ID:** [treasury-mts/2026-06-outlays-eop](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-eop.cells.json)
+- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF page 19, Executive Office of the President section
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all EOP cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
+- **Status:** **GREEN** (all verification checks passed; 100% value exactness)
 
-### Required non-arithmetic checks
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 5. Outlays of the U.S. Government, June 2026 and Other Periods - Continued" (Executive Office of the President section) — **PASS**
+- **Period / columns:** June FY2026. 9 columns (Gross Outlays, Applicable Receipts, Outlays for This Month, Current FYTD, and Prior FYTD) — **PASS**
+- **Rows (7):**
+  1: The White House
+  2: Office of Management and Budget
+  3: Unanticipated Needs
+  4: Other
+  5: Proprietary Receipts from the Public
+  6: Intrabudgetary Transactions
+  7: Total--Executive Office of the President
+  — **PASS**
+- **Omission convention:** Blank/non-applicable cells (e.g. `......`) and negligible cells (`(**)`) are correctly omitted per standard conventions — **PASS**
 
-- [ ] Render-anchor p19 EOP section; verify 7 row labels and 9-column model; confirm ...... / (**) omissions.
-- [ ] Sample ≥10 cells including negatives (Other, Proprietary, Total nets −300/−1,261/−598).
-- [ ] Spot-check batch context: Table 1 June YTD and Legislative totals against pages 5 and 10.
-- [ ] Run reconcile on the unit, pytest, full-corpus sweep; record results.
-- [ ] Replace placeholder before #261 ships.
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check gross outlays, applicable receipts, nets, and negatives:
 
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | The White House | This Month / Gross Outlays | leaf | `6` | `6` | **PASS** |
+| `r2c4` | Office of Management and Budget | Current FYTD / Gross Outlays | leaf | `78` | `78` | **PASS** |
+| `r3c7` | Unanticipated Needs | Prior FYTD / Gross Outlays | leaf | `17` | `17` | **PASS** |
+| `r4c1` | Other | This Month / Gross Outlays | leaf | `-113` | `-113` | **PASS** |
+| `r4c3` | Other | This Month / Outlays (Net) | leaf | `-113` | `-113` | **PASS** |
+| `r5c3` | Proprietary Receipts from the Public | This Month / Outlays (Net) | leaf | `-201` | `-201` | **PASS** |
+| `r5c6` | Proprietary Receipts from the Public | Current FYTD / Outlays (Net) | leaf | `-1201` | `-1,201` | **PASS** |
+| `r7c3` | Total--Executive Office of the President | This Month / Outlays (Net) | total | `-300` | `-300` | **PASS** |
+| `r7c6` | Total--Executive Office of the President | Current FYTD / Outlays (Net) | total | `-1261` | `-1,261` | **PASS** |
+| `r7c9` | Total--Executive Office of the President | Prior FYTD / Outlays (Net) | total | `-598` | `-598` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- 3 net identities verified: `Outlays(net) + Applicable Receipts = Gross Outlays` for Total row (This Month, Current FYTD, Prior FYTD) — **PASS**
+- 6 section roll-ups verified (columns 1, 3, 4, 6, 7, 9) with a tolerance of `1` (JSON carries `tol: "1"` due to independent component rounding) — **PASS**
+- Components correctly declared as `leaf`, `total`, or `standalone` (for sparse columns).
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked June Table 1: verified Year-to-Date June FY26 Receipts `4,151,410` and Outlays `5,517,918` match PDF page 5 exactly.
+- Spot-checked Legislative Table 5: verified Senate This Month Gross Outlays `118` and Library of Congress Current FYTD Net Outlays `654` match PDF page 10 exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-outlays-eop.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-outlays-eop.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 260/260 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-outlays-eop` is value-perfect, complete, and faithful to Table 5 EOP section. All values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#270**.

@@ -77,7 +77,7 @@ control-plane project log):
   through 1972. Together with the legacy-named seed unit #3, all 41 A-2
   source-native units are shipped.
 
-Every-10th different-agent spot-audits GREEN through **#250**: #120
+Every-10th different-agent spot-audits GREEN through **#260**: #120
 (Capitol Power Plant) audited by Antigravity; #129 (Botanic Garden,
 transcriber Antigravity) audited by Claude Fable 5 ONE EARLY per
 Kenrin's 2026-07-18 call — full-coverage 90/90 value match plus ONE
@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**. Corpus **#260 audit is DUE** (transcriber Grok; June MTS EOP; placeholder in `AUDITS.md`); #261+ blocked.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -166,9 +166,9 @@ audited and GREEN by Antigravity** (unblocking #171).
   (`mts-202606.pdf`, content-gated 39pp) and shipped 10 starter units (Tables 1–3,
   9, major receipts, Legislative/Judicial/EOP Table 5). Sweep 260/260 GREEN.
 
-  **AUDIT GATE:** unit **#260** (`treasury-mts/2026-06-outlays-eop`) requires a
-  different-agent audit (placeholder in `AUDITS.md`; transcriber Grok).
-  **#261+ is blocked until GREEN.** After GREEN: continue June Table 5 sections
+  **AUDIT GATE:** the different-agent audit of unit **#260**
+  (`treasury-mts/2026-06-outlays-eop`) has been completed and recorded
+  as **GREEN** in `AUDITS.md` by Antigravity. **#261+ is unblocked.** After GREEN: continue June Table 5 sections
   with May conventions, then Table 6–8 / means-of-financing.
 
 
@@ -206,7 +206,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-19 · `treasury-mts/2026-06-outlays-eop` — #260 (Grok). Table 5 EOP; strict-default GREEN. **June MTS family started. Different-agent audit DUE; #261+ blocked.**
+- 2026-07-19 · `treasury-mts/2026-06-outlays-eop` — #260 (Grok). Table 5 EOP; strict-default GREEN. **June MTS family started. Different-agent audit GREEN (Antigravity); #261+ unblocked.**
 - 2026-07-19 · `treasury-mts/2026-06-outlays-legislative` — #259 (Grok). Table 5 Legislative Branch; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-outlays-judicial` — #258 (Grok). Table 5 Judicial Branch; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-receipts-major` — #257 (Grok). Major net receipts; strict-default GREEN.
