@@ -44,15 +44,13 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **sec-10k statement-set runway — 6 more units, ALL HTML
+- **sec-10k statement-set runway — 4 more units, ALL HTML
   / no vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md,
   specs in BACKLOG.md; good for trial agents, easiest first):
-  1. `msft-fy2025-income` — 57c/18r + 12 standalone EPS/shares (D3)
-  2. `aapl-fy2023-operations` — 57c/21r + 12 standalone (D3)
-  3. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
-  4. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
-  5. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
-  6. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
+  1. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
+  2. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
+  3. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
+  4. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
 
   Every headline identity in all 8 was pre-verified EXACT at vendoring
   — a transcription that doesn't reconcile exactly is a transcription
@@ -85,6 +83,10 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-07-19 · **aapl-fy2023-operations** — #337 (D3/HTML/no-vision; 57c/21r + 12 standalone EPS/shares, strict-default GREEN; GM→TotalOpEx→OpInc→IBT→NI chain + products/services splits exact all cols; NI byte-matches comprehensive-income unit #335)
+- 2026-07-19 · **msft-fy2025-income** — #336 (D3/HTML/no-vision; 57c/18r + 12 standalone EPS/shares, strict-default GREEN; GM→OpInc→IBT→NI chain + product/service splits exact all cols; NI byte-matches comprehensive-income unit #334)
+- 2026-07-19 · **aapl-fy2023-comprehensive-income** — #335 (10 rows × 3 cols; 30c/12r, strict-default GREEN; NI must byte-match operations unit)
+- 2026-07-19 · **msft-fy2025-comprehensive-income** — #334 (6 rows × 3 cols; 18c/6r, strict-default GREEN; OCI = 3 components, CI = NI + OCI, both exact all cols; NI byte-matches income unit)
 - 2026-07-19 · **aapl-fy2023-balance-sheet-parenthetical** — #333 (Step; 8c/0r, all standalone; par value 0.00001 decimal; share counts in whole shares; strict-default GREEN)
 - 2026-07-19 · **msft-fy2025-balance-sheet-parenthetical** — #332 (Trinity, Nanobot harness; Mavis extra audit per Kenrin's request, AUDITS.md) — 8c/0r, all standalone, every value single-source; share counts in whole shares; strict-default GREEN
 - 2026-07-19 · **sec-10k no-vision runway STARTED** — #331
@@ -93,8 +95,6 @@ status live in `BACKLOG.md`; session narrative in the project log
   transcribed; AOCI leaf negative; label-embedded parentheticals
   dropped per project log — R5 unit's scope). 5 more units queued
   in NEXT.md; next every-10th audit at #340.
-- 2026-07-19 · **aapl-fy2023-comprehensive-income** — #335 (10 rows × 3 cols; 30c/12r, strict-default GREEN; NI must byte-match operations unit)
-- 2026-07-19 · **msft-fy2025-comprehensive-income** — #334 (6 rows × 3 cols; 18c/6r, strict-default GREEN; OCI = 3 components, CI = NI + OCI, both exact all cols; NI byte-matches income unit)
 - 2026-07-19 · **Treasury MTS June 2026 SOURCE COMPLETE** — #251–330
   (Grok, 8×10-unit batches; vendored `mts-202606.pdf` same day):
   Tables 1–3, 9, full Table 5 detail incl. grand-total capstone, Table
