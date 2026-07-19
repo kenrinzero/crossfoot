@@ -1460,12 +1460,68 @@ Stratified sample to check gross outlays, applicable receipts, nets, and totals:
 Grok's transcription of `treasury-mts/2026-06-outlays-energy` is value-perfect, complete, and faithful to Table 5 Department of Energy section. All 132 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#280**.
 ---
 
-## Unit #280 — treasury-mts/2026-06-outlays-labor-bureaus — AUDIT DUE
+## Spot-Audit: Unit 280 — Treasury MTS June 2026 Labor bureaus outlays
 
-- **Corpus index:** 280
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
+- **Transcriber:** Grok (main; batch #271–280, 2026-07-19)
 - **Table ID:** [treasury-mts/2026-06-outlays-labor-bureaus](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json)
-- **Transcriber:** Grok (2026-07-19)
-- **Auditor:** *different agent required* (transcriber was Grok)
-- **Status:** **DUE** — blocks #281+
-- **Shape:** 86 cells / 12 relations / 0 standalone (ETA + Unemployment Trust Fund roll-ups)
-- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p16
+- **Source Document:** [mts-202606.pdf](file:///C:/Users/kenrin/Project/crossfoot/sources/treasury-mts/mts-202606.pdf), PDF page 16, Department of Labor (Employment and Training Administration) section
+- **Method:** Programmatic text-layer extraction + full-coverage comparison of all 86 cells vs source data + manual check of row labels, columns, and net/rollup closure computations.
+- **Status:** **GREEN** (all verification checks passed; 100% value exactness)
+
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 5. Outlays of the U.S. Government, June 2026 and Other Periods - Continued" (Department of Labor Employment and Training Administration section) — **PASS**
+- **Period / columns:** June FY2026. 9 columns (Gross Outlays, Applicable Receipts, Outlays for This Month, Current FYTD, and Prior FYTD) — **PASS**
+- **Rows (15):**
+  1: Training and Employment Services
+  2: Office of Job Corps
+  3: Community Service Employment for Older Americans
+  4: Federal Unemployment Benefits and Allowances
+  5: Federal Additional Unemployment Compensation Program-Recovery Act
+  6: State Unemployment Insurance and Employment Service Operations
+  7: Payments to the Unemployment Trust Fund
+  8: Program Administration
+  9: State Unemployment Benefits
+  10: State Administrative Expenses
+  11: Federal Administrative Expenses
+  12: Other (Unemployment Trust Fund)
+  13: Total--Unemployment Trust Fund
+  14: Other (Employment and Training Administration)
+  15: Total--Employment and Training Administration
+  — **PASS**
+- **Omission convention:** Blank/non-applicable cells (e.g. `......`) and negligible cells (`(**)`) are correctly omitted per standard conventions — **PASS**
+
+### 2. Sampled Cells Verification (10 sampled cells)
+Stratified sample to check gross outlays, applicable receipts, nets, and negatives:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | Training and Employment Services | This Month / Gross Outlays | leaf | `637` | `637` | **PASS** |
+| `r2c3` | Office of Job Corps | This Month / Outlays (Net) | leaf | `134` | `134` | **PASS** |
+| `r3c4` | Community Service Older Americans | Current FYTD / Gross Outlays | leaf | `241` | `241` | **PASS** |
+| `r5c6` | Federal Additional Recovery | Current FYTD / Outlays (Net) | leaf | `-269` | `-269` | **PASS** |
+| `r6c9` | State UI operations | Prior FYTD / Outlays (Net) | leaf | `452` | `452` | **PASS** |
+| `r7c9` | Payments to UTF | Prior FYTD / Outlays (Net) | leaf | `-4277` | `-4,277` | **PASS** |
+| `r9c6` | State Unemployment Benefits | Current FYTD / Outlays (Net) | leaf | `28466` | `28,466` | **PASS** |
+| `r10c6` | State Administrative Expenses | Current FYTD / Outlays (Net) | leaf | `3225` | `3,225` | **PASS** |
+| `r13c3` | Total--Unemployment Trust Fund | This Month / Outlays (Net) | total | `3718` | `3,718` | **PASS** |
+| `r15c3` | Total--Employment and Training Admin | This Month / Outlays (Net) | total | `4414` | `4,414` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- 3 net identities verified: `Outlays(net) + Applicable Receipts = Gross Outlays` for rows 13, 15 (all zero applicable receipts, net = gross) — **PASS**
+- 9 roll-up sums verified: 3 sub-sums for `Total--Unemployment Trust Fund` (columns 1, 3, 4, 6, 7, 9 - since applicable is empty, gross/net subtotals are same) and 6 grand-total roll-ups for `Total--Employment and Training Administration` with a tolerance of `1` (due to independent rounding) — **PASS**
+- Components correctly declared as `leaf`, `total`, or `standalone`.
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked June Table 5 HHS CMS: verified Grants to States for Medicaid Current FYTD Gross Outlays `539,910` matches PDF page 13 exactly.
+- Spot-checked HUD: verified Housing Programs/Public Housing/Other outlays match PDF exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-outlays-labor-bureaus.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 280/280 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-outlays-labor-bureaus` is value-perfect, complete, and faithful to Table 5 Employment and Training Administration section. All 86 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#290**.
