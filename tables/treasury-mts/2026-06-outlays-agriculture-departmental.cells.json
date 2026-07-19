@@ -1,0 +1,2169 @@
+{
+  "table_id": "treasury-mts/2026-06-outlays-agriculture-departmental",
+  "source": {
+    "path": "sources/treasury-mts/mts-202606.pdf",
+    "table": "Table 5. Outlays \u2014 Department of Agriculture (departmental capstone)",
+    "page": 11,
+    "title": "Department of Agriculture (departmental capstone)",
+    "period": "June FY2026"
+  },
+  "unit_note": "USD millions. ...... and (**) cells omitted (not zero). Unit 3/3 of Agriculture; re-anchors program/FNS lines.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Forest Service: National Forest System"
+    },
+    {
+      "index": 2,
+      "label": "Forest Service: Capital Improvement and Maintenance"
+    },
+    {
+      "index": 3,
+      "label": "Forest Service: Wildland Fire Management"
+    },
+    {
+      "index": 4,
+      "label": "Forest Service: Forest Service Permanent Appropriations"
+    },
+    {
+      "index": 5,
+      "label": "Forest Service: Other"
+    },
+    {
+      "index": 6,
+      "label": "Total--Forest Service"
+    },
+    {
+      "index": 7,
+      "label": "Agriculture Departmental: Other"
+    },
+    {
+      "index": 8,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 9,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 10,
+      "label": "Total--Department of Agriculture"
+    },
+    {
+      "index": 11,
+      "label": "Agricultural Research Service"
+    },
+    {
+      "index": 12,
+      "label": "National Institute of Food and Agriculture: Research and Education Activities"
+    },
+    {
+      "index": 13,
+      "label": "National Institute of Food and Agriculture: Extension Activities"
+    },
+    {
+      "index": 14,
+      "label": "National Institute of Food and Agriculture: Other"
+    },
+    {
+      "index": 15,
+      "label": "Animal and Plant Health Inspection Service"
+    },
+    {
+      "index": 16,
+      "label": "Food Safety and Inspection Service"
+    },
+    {
+      "index": 17,
+      "label": "Agricultural Marketing Service"
+    },
+    {
+      "index": 18,
+      "label": "Risk Management Agency: Administrative and Operating Expenses"
+    },
+    {
+      "index": 19,
+      "label": "Risk Management Agency: Federal Crop Insurance Corporation Fund"
+    },
+    {
+      "index": 20,
+      "label": "Total--Farm Service Agency"
+    },
+    {
+      "index": 21,
+      "label": "Natural Resources Conservation Service: Conservation Operations"
+    },
+    {
+      "index": 22,
+      "label": "Natural Resources Conservation Service: Farm Security and Rural Investment Programs"
+    },
+    {
+      "index": 23,
+      "label": "Natural Resources Conservation Service: Other"
+    },
+    {
+      "index": 24,
+      "label": "Rural Development"
+    },
+    {
+      "index": 25,
+      "label": "Rural Housing Service: Rural Housing Insurance Fund"
+    },
+    {
+      "index": 26,
+      "label": "Rural Housing Service: Rental Assistance Program"
+    },
+    {
+      "index": 27,
+      "label": "Rural Housing Service: Other"
+    },
+    {
+      "index": 28,
+      "label": "Rural Utilities Service: Rural Electrification and Telecommunications Fund"
+    },
+    {
+      "index": 29,
+      "label": "Rural Utilities Service: Other"
+    },
+    {
+      "index": 30,
+      "label": "Foreign Agricultural Service"
+    },
+    {
+      "index": 31,
+      "label": "Total--Food and Nutrition Service"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "182",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "182",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "1681",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "1681",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "1731",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "1731",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "40",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "40",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "335",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "335",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "207",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "207",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "446",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "446",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "3388",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "3388",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "3609",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "3609",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "78",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "78",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "643",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "643",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "346",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "346",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "212",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "212",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "1904",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "1904",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "2035",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "2035",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "957",
+      "role": "total"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "957",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "7951",
+      "role": "total"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "7951",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "7928",
+      "role": "total"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "7928",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1157",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1157",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "21469",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "21444",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "12291",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "12291",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1787",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-1788",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-6",
+      "role": "total"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "3260",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-3266",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "1786",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-1786",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "1100",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "1100",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1048",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "1048",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "20127",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "2720",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "17407",
+      "role": "total"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "183914",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "10359",
+      "role": "total"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "173556",
+      "role": "total"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "184894",
+      "role": "total"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "8351",
+      "role": "total"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "176544",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "144",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "144",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1302",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "1302",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "1421",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "1421",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "111",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "111",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "807",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "807",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "864",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "864",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "64",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "64",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "460",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "460",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "509",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "509",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "125",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "125",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "126",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "126",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "258",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "258",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "1675",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "1675",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "1929",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "1929",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "842",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "842",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "888",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "888",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "146",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "1343",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "40",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "1304",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "2024",
+      "role": "total"
+    },
+    {
+      "id": "r17c8",
+      "row": 17,
+      "col": 8,
+      "value": "37",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "1987",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1676",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "269",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "1408",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "14769",
+      "role": "total"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "1799",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "12970",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c7",
+      "row": 19,
+      "col": 7,
+      "value": "18044",
+      "role": "total"
+    },
+    {
+      "id": "r19c8",
+      "row": 19,
+      "col": 8,
+      "value": "1756",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "value": "16288",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "468",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "626",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-158",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "15061",
+      "role": "total"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "4996",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "10065",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c7",
+      "row": 20,
+      "col": 7,
+      "value": "13973",
+      "role": "total"
+    },
+    {
+      "id": "r20c8",
+      "row": 20,
+      "col": 8,
+      "value": "4548",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "value": "9425",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "98",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "903",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "903",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "value": "1008",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "value": "1008",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "210",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "210",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "3024",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "3024",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "value": "3519",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "value": "3519",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "38",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "443",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "443",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c7",
+      "row": 23,
+      "col": 7,
+      "value": "335",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c9",
+      "row": 23,
+      "col": 9,
+      "value": "335",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "56",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "56",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c7",
+      "row": 24,
+      "col": 7,
+      "value": "127",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c9",
+      "row": 24,
+      "col": 9,
+      "value": "127",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "992",
+      "role": "total"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "963",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "1458",
+      "role": "total"
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "value": "218",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "1240",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c7",
+      "row": 25,
+      "col": 7,
+      "value": "525",
+      "role": "total"
+    },
+    {
+      "id": "r25c8",
+      "row": 25,
+      "col": 8,
+      "value": "202",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c9",
+      "row": 25,
+      "col": 9,
+      "value": "324",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "167",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "167",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "1428",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c6",
+      "row": 26,
+      "col": 6,
+      "value": "1428",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c7",
+      "row": 26,
+      "col": 7,
+      "value": "1323",
+      "role": "leaf"
+    },
+    {
+      "id": "r26c9",
+      "row": 26,
+      "col": 9,
+      "value": "1323",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "343",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "343",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "560",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c6",
+      "row": 27,
+      "col": 6,
+      "value": "560",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c7",
+      "row": 27,
+      "col": 7,
+      "value": "328",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c9",
+      "row": 27,
+      "col": 9,
+      "value": "328",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "369",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "368",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "477",
+      "role": "total"
+    },
+    {
+      "id": "r28c5",
+      "row": 28,
+      "col": 5,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c6",
+      "row": 28,
+      "col": 6,
+      "value": "469",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c7",
+      "row": 28,
+      "col": 7,
+      "value": "67",
+      "role": "total"
+    },
+    {
+      "id": "r28c8",
+      "row": 28,
+      "col": 8,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c9",
+      "row": 28,
+      "col": 9,
+      "value": "58",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c1",
+      "row": 29,
+      "col": 1,
+      "value": "466",
+      "role": "total"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "465",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c4",
+      "row": 29,
+      "col": 4,
+      "value": "1108",
+      "role": "total"
+    },
+    {
+      "id": "r29c5",
+      "row": 29,
+      "col": 5,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c6",
+      "row": 29,
+      "col": 6,
+      "value": "1095",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c7",
+      "row": 29,
+      "col": 7,
+      "value": "840",
+      "role": "total"
+    },
+    {
+      "id": "r29c8",
+      "row": 29,
+      "col": 8,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c9",
+      "row": 29,
+      "col": 9,
+      "value": "827",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c4",
+      "row": 30,
+      "col": 4,
+      "value": "1096",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c6",
+      "row": 30,
+      "col": 6,
+      "value": "1096",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c7",
+      "row": 30,
+      "col": 7,
+      "value": "1578",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c9",
+      "row": 30,
+      "col": 9,
+      "value": "1578",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "12202",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "12202",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c4",
+      "row": 31,
+      "col": 4,
+      "value": "106426",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c6",
+      "row": 31,
+      "col": 6,
+      "value": "106426",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c7",
+      "row": 31,
+      "col": 7,
+      "value": "114147",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c9",
+      "row": 31,
+      "col": 9,
+      "value": "114147",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ],
+      "target": "r7c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c6",
+        "r8c5"
+      ],
+      "target": "r8c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r10c2"
+      ],
+      "target": "r10c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r10c5"
+      ],
+      "target": "r10c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r10c8"
+      ],
+      "target": "r10c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c3",
+        "r17c2"
+      ],
+      "target": "r17c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c6",
+        "r17c5"
+      ],
+      "target": "r17c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c9",
+        "r17c8"
+      ],
+      "target": "r17c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c3",
+        "r19c2"
+      ],
+      "target": "r19c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c6",
+        "r19c5"
+      ],
+      "target": "r19c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c9",
+        "r19c8"
+      ],
+      "target": "r19c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c3",
+        "r20c2"
+      ],
+      "target": "r20c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c6",
+        "r20c5"
+      ],
+      "target": "r20c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c9",
+        "r20c8"
+      ],
+      "target": "r20c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c3",
+        "r25c2"
+      ],
+      "target": "r25c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c6",
+        "r25c5"
+      ],
+      "target": "r25c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c9",
+        "r25c8"
+      ],
+      "target": "r25c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c6",
+        "r28c5"
+      ],
+      "target": "r28c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c9",
+        "r28c8"
+      ],
+      "target": "r28c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c3",
+        "r29c2"
+      ],
+      "target": "r29c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c6",
+        "r29c5"
+      ],
+      "target": "r29c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c9",
+        "r29c8"
+      ],
+      "target": "r29c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1"
+      ],
+      "target": "r6c1",
+      "note": "section roll-up col 1",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3"
+      ],
+      "target": "r6c3",
+      "note": "section roll-up col 3",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4"
+      ],
+      "target": "r6c4",
+      "note": "section roll-up col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6"
+      ],
+      "target": "r6c6",
+      "note": "section roll-up col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7"
+      ],
+      "target": "r6c7",
+      "note": "section roll-up col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "target": "r6c9",
+      "note": "section roll-up col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1",
+        "r9c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1",
+        "r18c1",
+        "r19c1",
+        "r20c1",
+        "r21c1",
+        "r22c1",
+        "r23c1",
+        "r24c1",
+        "r25c1",
+        "r26c1",
+        "r27c1",
+        "r28c1",
+        "r29c1",
+        "r30c1",
+        "r31c1"
+      ],
+      "target": "r10c1",
+      "note": "section roll-up col 1",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r17c2",
+        "r19c2",
+        "r20c2",
+        "r25c2",
+        "r29c2"
+      ],
+      "target": "r10c2",
+      "note": "section roll-up col 2",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3",
+        "r19c3",
+        "r20c3",
+        "r21c3",
+        "r22c3",
+        "r23c3",
+        "r24c3",
+        "r25c3",
+        "r26c3",
+        "r27c3",
+        "r28c3",
+        "r29c3",
+        "r30c3",
+        "r31c3"
+      ],
+      "target": "r10c3",
+      "note": "section roll-up col 3",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4",
+        "r19c4",
+        "r20c4",
+        "r21c4",
+        "r22c4",
+        "r23c4",
+        "r24c4",
+        "r25c4",
+        "r26c4",
+        "r27c4",
+        "r28c4",
+        "r29c4",
+        "r30c4",
+        "r31c4"
+      ],
+      "target": "r10c4",
+      "note": "section roll-up col 4",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r8c5",
+        "r17c5",
+        "r19c5",
+        "r20c5",
+        "r25c5",
+        "r28c5",
+        "r29c5"
+      ],
+      "target": "r10c5",
+      "note": "section roll-up col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6",
+        "r22c6",
+        "r23c6",
+        "r24c6",
+        "r25c6",
+        "r26c6",
+        "r27c6",
+        "r28c6",
+        "r29c6",
+        "r30c6",
+        "r31c6"
+      ],
+      "target": "r10c6",
+      "note": "section roll-up col 6",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c7",
+        "r7c7",
+        "r9c7",
+        "r11c7",
+        "r12c7",
+        "r13c7",
+        "r14c7",
+        "r15c7",
+        "r16c7",
+        "r17c7",
+        "r18c7",
+        "r19c7",
+        "r20c7",
+        "r21c7",
+        "r22c7",
+        "r23c7",
+        "r24c7",
+        "r25c7",
+        "r26c7",
+        "r27c7",
+        "r28c7",
+        "r29c7",
+        "r30c7",
+        "r31c7"
+      ],
+      "target": "r10c7",
+      "note": "section roll-up col 7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c8",
+        "r17c8",
+        "r19c8",
+        "r20c8",
+        "r25c8",
+        "r28c8",
+        "r29c8"
+      ],
+      "target": "r10c8",
+      "note": "section roll-up col 8",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9",
+        "r11c9",
+        "r12c9",
+        "r13c9",
+        "r14c9",
+        "r15c9",
+        "r16c9",
+        "r17c9",
+        "r18c9",
+        "r19c9",
+        "r20c9",
+        "r21c9",
+        "r22c9",
+        "r23c9",
+        "r24c9",
+        "r25c9",
+        "r26c9",
+        "r27c9",
+        "r28c9",
+        "r29c9",
+        "r30c9",
+        "r31c9"
+      ],
+      "target": "r10c9",
+      "note": "section roll-up col 9"
+    }
+  ]
+}

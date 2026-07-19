@@ -1396,3 +1396,15 @@ Stratified sample to check gross outlays, applicable receipts, nets, and negativ
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-eop` is value-perfect, complete, and faithful to Table 5 EOP section. All values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#270**.
+
+---
+
+## Unit #270 — treasury-mts/2026-06-outlays-energy — AUDIT DUE
+
+- **Corpus index:** 270
+- **Table ID:** [treasury-mts/2026-06-outlays-energy](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-energy.cells.json)
+- **Transcriber:** Grok (2026-07-19)
+- **Auditor:** *different agent required* (transcriber was Grok)
+- **Status:** **DUE** — blocks #271+
+- **Shape:** 132 cells / 27 relations / 0 standalone (NNSA + Environmental + Energy Programs roll-up + department capstone; Defense Nuclear Waste Disposal all-omitted row skipped)
+- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 pp12–13
