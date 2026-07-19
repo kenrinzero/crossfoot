@@ -1525,3 +1525,14 @@ Stratified sample to check gross outlays, applicable receipts, nets, and negativ
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-labor-bureaus` is value-perfect, complete, and faithful to Table 5 Employment and Training Administration section. All 86 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#290**.
+---
+
+## Unit #290 — treasury-mts/2026-06-outlays-other-defense-civil — AUDIT DUE
+
+- **Corpus index:** 290
+- **Table ID:** [treasury-mts/2026-06-outlays-other-defense-civil](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-outlays-other-defense-civil.cells.json)
+- **Transcriber:** Grok (2026-07-19)
+- **Auditor:** *different agent required* (transcriber was Grok)
+- **Status:** **DUE** — blocks #291+
+- **Shape:** 53 cells / 9 relations / 3 standalone (Military Retirement + Retiree Health Care + Educational Benefits + Other/Prop/Intra + Total)
+- **Source:** `sources/treasury-mts/mts-202606.pdf` Table 5 p19
