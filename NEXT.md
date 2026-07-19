@@ -44,22 +44,6 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **sec-10k statement-set runway — 3 more units, ALL HTML
-  / no vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md,
-  specs in BACKLOG.md; good for trial agents, easiest first):
-  1. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
-  2. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
-  3. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
-
-  Every headline identity in all 8 was pre-verified EXACT at vendoring
-  — a transcription that doesn't reconcile exactly is a transcription
-  error, not a source feature (single exception: the equity statements'
-  Total-vs-RE dividend/repurchase deltas, documented in BACKLOG).
-  Duplicate printed row labels (product/service blocks, 'Other' rows)
-  get keyed rows per the Stennis precedent. Cross-unit ties (NI across
-  income/comprehensive/cash-flows/equity; ending cash to balance sheet)
-  are re-read, never copied. The every-10th audit fires mid-runway at
-  **#340** — plan transcriber rotation accordingly.
 - **D1/web vendoring (later):** Treasury MTS **July 2026** — probed
   2026-07-19: not yet published (503 + HTML body, caught by the
   magic-byte check). Expected ~mid-August at the fiscaldata static
@@ -72,7 +56,7 @@ in this repo always means a stage, never difficulty.
 **#330** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
-next fires at **#340**.
+#340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped without audit per cadence; next fires at **#350**.
 
 ---
 
@@ -82,6 +66,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-07-19 · **sec-10k no-vision runway COMPLETE (11/11, #331–341)** — trial-fleet run: #331 balance sheet (Mavis), #332–333 parentheticals (Trinity/Nanobot, Step), #334–335 comprehensive income (Ring), #336–337 income/operations (Hunyuan), #338 aapl cash flows (Qwen), #339 msft cash flows (Zed/Nemotron), #340 msft stockholders' equity (Copilot CLI; **every-10th audit GREEN by ZCode**, post-audit review repair: 2 unprinted duplicate begin-balance rows removed, see AUDITS.md), #341 aapl shareholders' equity (Mistral Vibe). Review pass (Claude Fable 5): all 11 units machine-verified EXACT multiset vs source, NI/cash cross-unit ties hold, sweep 341/341 GREEN.
 - 2026-07-19 · **aapl-fy2023-cash-flows** — #338 (D3/HTML/no-vision; 90c/15r + 6 standalone supplemental, strict-default GREEN; ops/investing/financing subtotals + net change + roll-forward all exact; NI byte-matches operations unit #337)
 - 2026-07-19 · **aapl-fy2023-operations** — #337 (D3/HTML/no-vision; 57c/21r + 12 standalone EPS/shares, strict-default GREEN; GM→TotalOpEx→OpInc→IBT→NI chain + products/services splits exact all cols; NI byte-matches comprehensive-income unit #335)
 - 2026-07-19 · **msft-fy2025-income** — #336 (D3/HTML/no-vision; 57c/18r + 12 standalone EPS/shares, strict-default GREEN; GM→OpInc→IBT→NI chain + product/service splits exact all cols; NI byte-matches comprehensive-income unit #334)

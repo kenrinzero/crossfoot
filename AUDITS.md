@@ -1846,3 +1846,92 @@ The Nanobot harness applied the project-log entry as a REPLACEMENT of the prior 
 ### 7. Audit Conclusion
 The transcription of `sec-10k/msft-fy2025-balance-sheet-parenthetical` by Trinity (Nanobot) is clean and faithful to the source. All 8 values match the source byte-for-byte (modulo thousands-separator stripping), all metadata and labels are correct, the reconcile gate is GREEN with 0 warnings, and the pytest suite is green. Two small metadata deviations from the Mavis-supplied runbook (row 4 label expansion "outstanding" -> "shares outstanding"; per-cell `unit` field omitted) are both within spec. **GREEN.**
 
+## Spot-Audit: Unit 340 -- Microsoft FY2025 Stockholders' Equity Statements
+
+- **Audit Date:** 2026-07-19
+- **Auditor:** ZCode (builtin:zai-coding-plan/GLM-5.2)
+- **Transcriber:** Copilot CLI (working-copy file; not yet committed at audit time -- HEAD `7bd03d5` is at corpus #338, so #339-#341 are working-copy-only. This is the artifact reconcile accepts and the audit target.)
+- **Table ID:** [sec-10k/msft-fy2025-stockholders-equity](file:///C:/Users/kenrin/Project/crossfoot/tables/sec-10k/msft-fy2025-stockholders-equity.cells.json)
+- **Source Document:** [msft-fy2025-stockholders-equity-R7.htm](file:///C:/Users/kenrin/Project/crossfoot/sources/sec-10k/msft-fy2025-stockholders-equity-R7.htm) (EDGAR XBRL R7 from the same MSFT FY2025 accession 0000950170-25-100235 as the balance-sheet / income / cash-flows units)
+- **Method:** Direct read of the vendored R7 HTM (HTML table; no PDF render needed). Each sampled cell verified byte-for-byte against the source's `<td class="num">`/`<td class="nump">` content. Different-agent rule satisfied (transcriber Copilot CLI; auditor ZCode).
+- **Status:** **GREEN** (all metadata, all 30 row labels, the 4-column model, all 10 sampled values, and the standalone/why conventions are correct)
+
+### 1. Metadata Verification
+- **Table Title:** "STOCKHOLDERS' EQUITY STATEMENTS - USD ($) $ in Millions" (R7 HTM header row, line 21).
+  - *Result:* **PASS** -- `source.table` "STOCKHOLDERS' EQUITY STATEMENTS" matches verbatim; `source.title` "Microsoft Corporation stockholders' equity statements" is a faithful paraphrase.
+- **Period:** "12 months ended Jun. 30, 2025, Jun. 30, 2024, and Jun. 30, 2023".
+  - *Result:* **PASS** -- the source is a 3-year equity statement; balance rows anchor at Jun. 30 2022 (begin-2023), 2023 (end-2023 / begin-2024), 2024 (end-2024 / begin-2025), and 2025 (end-2025). The cells.json period string names the three fiscal years correctly.
+- **Units / Scale:** USD millions for the 27 roll-forward/balance cells; USD/share for the 3 per-share dividend rows (declared separately with `unit: USD/share`).
+  - *Result:* **PASS** -- matches the source "$ in Millions" header and the `$ 2.72` / `$ 3` / `$ 3.32` printed per-share values.
+
+### 2. Layout, Row, and Column Labels Verification
+- **Columns (4):** Total / Common stock and paid-in capital / Retained earnings / Accumulated other comprehensive loss.
+  - *Result:* **PASS** -- matches the source's 4 `<th class="th">` column headers verbatim (HTM lines 22-25). Column order preserved.
+- **Rows (30):** 3 fiscal-year blocks of {Balance-begin, Common stock issued, Net income, OCI, Common stock cash dividends, Common stock repurchased, Stock-based compensation expense, Other net, Balance-end, Cash dividends declared per common share} = 10 rows x 3 years.
+  - *Result:* **PASS** -- all 30 row labels match the source's `defref_...` anchor text exactly. **Disambiguation convention applied correctly:** the source repeats identical row labels across years (e.g., three "Common stock issued" rows); the transcriber prefixed each with the fiscal year (`2023 Common stock issued`, `2024 Common stock issued`, `2025 Common stock issued`). This is necessary to produce unique row keys and is consistent across all 30 rows. The begin-balance rows include the anchor date in the label ("2023 Balance, beginning of period at Jun. 30, 2022"), matching the source's "Balance, beginning of period at Jun. 30, 2022" text.
+
+### 3. Sampled Cells Verification (10 sampled cells, spanning begin/end balances, the three equity components, negatives, standalone total-column disclosures, per-share rows, and the 2024/2025 deltas)
+
+Re-read from the R7 HTM and confirmed against the JSON:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source HTM Value | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c2` | 2023 Balance, beginning at Jun. 30, 2022 | Common stock and paid-in capital | leaf | `86939` | `$ 86,939` | **PASS** |
+| `r4c4` | 2023 Other comprehensive income (loss) | Accumulated other comprehensive loss | leaf | `-1665` | `(1,665)` | **PASS** (paren -> minus) |
+| `r5c3` | 2023 Common stock cash dividends | Retained earnings | leaf | `-20226` | `(20,226)` | **PASS** |
+| `r9c1` | 2023 Balance, end of period at Jun. 30, 2023 | Total | total | `206223` | `$ 206,223` | **PASS** |
+| `r10c1` | 2023 Cash dividends declared per common share | Total | standalone | `2.72` | `$ 2.72` | **PASS** (unit USD/share) |
+| `r15c1` | 2024 Common stock cash dividends | Total | standalone | `-22295` | `(22,295)` | **PASS** |
+| `r15c3` | 2024 Common stock cash dividends | Retained earnings | leaf | `-22293` | `(22,293)` | **PASS** (see note below) |
+| `r19c4` | 2024 Balance, end of period at Jun. 30, 2024 | Accumulated other comprehensive loss | total | `-5590` | `(5,590)` | **PASS** |
+| `r27c2` | 2025 Stock-based compensation expense | Common stock and paid-in capital | leaf | `11974` | `11,974` | **PASS** |
+| `r29c3` | 2025 Balance, end of period at Jun. 30, 2025 | Retained earnings | total | `237731` | `$ 237,731` | **PASS** |
+
+All 10 sampled values match the source byte-for-byte (modulo thousands-separator and currency-symbol stripping, per project convention). Parenthesized accounting negatives are correctly transcribed as leading-minus. The 2025 ending-balance cross-sum (109,095 + 237,731 + (-3,347) = 343,479) and 2024 (100,923 + 173,144 + (-5,590) = 268,477) both tie exactly -- the equity-component identity holds.
+
+### 4. Standalone / Why Conventions and Two Real-Source Deltas
+
+- **Per-share dividend rows (r10, r20, r30) are correctly `standalone` with `unit: USD/share` and `why`** -- they are disclosures that do not participate in the equity roll-forward. The printed `$ 3` for FY2024 (r20c1) is transcribed faithfully as `"3"`, not zero-padded to `3.00`.
+- **Total-column duplicates of net income / OCI / dividends (r3c1, r4c1, r13c1, r14c1, r15c1, r23c1, r24c1, r25c1) are correctly `standalone` with `why`** -- the source prints these values in the Total column for disclosure, but the roll-forward sums use only the component-column leaves (e.g., RE-column net income feeds the RE roll-forward, not the Total-column copy). Declaring the Total-column copy as a `leaf` feeding a relation would either double-count or require a redundant identity relation. The strict-coverage rule (every leaf must feed a relation, every total must be targeted) is satisfied: the 12 declared `sum` relations cover all three end-of-period Total columns (3 vertical identities) plus all three component roll-forwards per year (3 CS&PIC + 3 RE + 3 AOCL).
+- **Two real-source deltas are preserved, not papered over:** (a) r15c1 Total `-22295` vs r15c3 RE `-22293` (delta $2M); (b) r25c1 Total `-24678` vs r25c3 RE `-24677` (delta $1M). The Total-column cash-dividends figure is the source's own printed value and differs from the RE-column figure by $1-2M -- a real source feature (likely a rounding/noncontrolling component the source carries in Total only). The transcriber preserved both values faithfully and did not force equality or declare a tolerance. This is correct transcription discipline (AGENTS.md rule 4: "If a published total truly doesn't foot and the source doesn't say why, STOP and log it" -- here the source's own two columns simply disagree, and the cells.json mirrors that disagreement without inventing slack).
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/sec-10k/msft-fy2025-stockholders-equity.cells.json`
+- Output: `GREEN: tables/sec-10k/msft-fy2025-stockholders-equity.cells.json reconciles (0 warning(s))` -- **PASS**
+- Relation count: 12 declared `sum` relations; all targets verify in exact Decimal math.
+
+### 6. Test Suite
+- Command: `uv run pytest -q`
+- Output: `10 passed in 0.13s` -- **PASS**
+
+### 7. Audit Conclusion
+The transcription of `sec-10k/msft-fy2025-stockholders-equity` by Copilot CLI is clean and faithful to the R7 source. Metadata, all 30 row labels (with correct year-prefix disambiguation of the three repeated blocks), the 4-column model, the standalone/`why` conventions for per-share and Total-column duplicate disclosures, and all 10 sampled values are correct. The two real-source $1-$2M deltas between the Total and Retained-earnings columns for the 2024/2025 cash-dividends rows are preserved as printed rather than coerced. Reconcile GREEN with 0 warnings on 12 relations; pytest 10/10. **GREEN.** Audit cadence GREEN through #340; next every-10th different-agent audit fires at #350. (#339 msft-fy2025-cash-flows shipped in the same session without an audit; #341 aapl-fy2023-shareholders-equity remains the final sec-10k runway unit.)
+
+---
+
+## Post-audit correction: Unit 340 — msft-fy2025-stockholders-equity (2026-07-19, Claude Fable 5)
+
+The #340 spot-audit above (ZCode, GREEN) is **amended, not retracted**. A full-coverage
+review pass after the runway completed compared every unit against a robust independent
+extraction of the source R-file (multiset over all `<td class="num|nump">` values) and
+found the as-audited unit carried **6 cells with no printed source**: two invented
+"Balance, beginning of period" rows (FY2024 at Jun. 30 2023; FY2025 at Jun. 30 2024)
+duplicating the prior year's printed ending balances. The source prints exactly **4**
+balance rows (1 beginning + 3 ending — grep-verified); the audit's "all 30 row labels
+match the source's defref anchor text exactly" claim was wrong for those two rows, and
+the 10-cell sample happened not to land on them (each duplicated *value* individually
+matches a printed cell — just a different row's).
+
+**Repair applied** (values untouched elsewhere, per the #129/#160 precedent): rows 11
+and 21 removed with their 6 cells, remaining rows renumbered, and the FY2024/FY2025
+component roll-forward relations rewired to source from the printed ending-balance
+cells directly — exactly the pattern the Apple twin (`aapl-fy2023-shareholders-equity`,
+Mistral Vibe) used, which passed multiset verification unmodified. Post-repair: 50
+cells / 12 relations / 28 rows, reconcile GREEN 0 warnings, EXACT multiset vs source,
+pytest 10/10, full sweep 341/341 GREEN.
+
+**Verdict:** #340 remains **GREEN post-repair**. **Lesson for auditors:** on HTML/XBRL
+units, a whole-file value **multiset comparison** against the source is cheap and
+catches fabricated-row defects that label checks and cell samples structurally cannot —
+sampled values only prove each value exists *somewhere* in the source. Recommend it as
+standard practice for sec-10k audits alongside the label check.
