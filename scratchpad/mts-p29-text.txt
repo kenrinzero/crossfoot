@@ -1,0 +1,71 @@
+Table 6. Schedule D-Investments of Federal Government Accounts in Federal Securities, May 2026 and Other Periods
+[$ millions]
+Net Purchases or Sales (-) Securities Held as Investments
+Current Fiscal Year
+Classification
+This Month Fiscal Year to Date Beginning of Close of
+This Year Prior Year This Year This Month This Month
+Federal Funds:
+  Department of Agriculture ...... 11 -89 409 419 419
+  Department of Commerce ...... 2 2 ...... 2 2
+  Department of Defense--Military Programs:
+    Defense Cooperation Account ...... ...... ...... 10 10 10
+  Department of Energy 744 6,270 6,068 80,096 85,622 86,366
+  Department of Health and Human Services 74 17,532 18,207 ...... 17,458 17,532
+  Department of Homeland Security ...... ...... -4,948 ...... ...... ......
+  Department of Housing and Urban Development:
+    Housing Programs:
+      Federal Housing Administration Fund 1,248 9,771 7,726 185,047 193,570 194,818
+    Government National Mortgage Association:
+      Guarantees of Mortgage-Backed Securities 41 1,211 2,236 29,516 30,686 30,727
+  Department of the Interior 62 13 1,707 32,218 32,168 32,230
+  Department of Justice 1 -2,777 -504 3,102 324 325
+  Department of Labor 73 1,620 2,419 73,532 75,079 75,152
+  Department of State:
+    Foreign Service Retirement and Disability Fund 6 19 19 356 369 375
+    Other ...... ...... ...... 21 21 21
+  Department of Transportation 12 76 58 2,706 2,770 2,783
+  Department of the Treasury -114 2,441 7,152 27,828 30,383 30,269
+  Department of Veterans Affairs:
+    Veterans Reopened Insurance Fund -1 -3 -3 19 16 16
+    National Service Life Insurance 8 72 66 152 216 224
+    Servicemen'S Group Life Insurance Fund ...... -24 484 4,761 4,737 4,737
+  Other Defense Civil Programs:
+    Uniformed Services Retiree Health Care Fund 3,300 39,221 28,378 416,973 452,894 456,194
+  International Assistance Programs 22 163 395 7,067 7,208 7,230
+  Office of Personnel Management:
+    Postal Service Contributions -421 -3,036 -3,108 24,067 21,453 21,032
+  Independent Agencies:
+    Federal Deposit Insurance Corporation:
+      Deposit Insurance Fund -156 13,328 15,009 120,552 134,036 133,880
+      FSLIC Resolution Fund 3 26 30 1,028 1,051 1,054
+    Federal Housing Finance Agency -16 58 164 303 377 361
+    National Credit Union Administration 182 1,178 1,352 25,312 26,307 26,490
+    Postal Service 248 -1,918 -1,029 13,708 11,542 11,789
+    Other
+      Treasury Securities -14 -59 108 13,945 13,900 13,886
+  Other -16 3,031 2,503 1,754 4,801 4,785
+  Total Treasury Securities 5,287 88,226 84,403 1,064,480 1,147,419 1,152,706
+  Total Federal Funds 5,287 88,226 84,403 1,064,480 1,147,419 1,152,706
+Trust Funds:
+  Legislative Branch:
+    Library of Congress 4 19 6 69 84 88
+    United States Tax Court (**) (**) (**) 14 14 14
+    Other (**) 4 2 35 38 38
+  Judicial Branch:
+    Judicial Retirement Funds 14 256 249 2,374 2,616 2,629
+  Department of Agriculture (**) (**) 1 7 7 7
+  Department of Defense--Military Programs:
+    Voluntary Separation Incentive Fund (**) -3 2 30 27 27
+    Other 13 122 -331 698 808 820
+  Department of Health and Human Services:
+    Federal Supplementary Medical Insurance Trust Fund -675 33,217 -33,376 153,844 187,736 187,061
+    Other -5,465 21,132 -4,001 257,452 284,048 278,583
+  Department of Homeland Security 44 302 476 13,125 13,384 13,427
+  Department of the Interior 256 355 105 886 985 1,241
+  Department of Labor:
+    Unemployment Trust Fund 18,452 12,119 5,325 89,394 83,061 101,513
+    Other -6 -5 -7 73 74 68
+  Department of State:
+    Foreign Service Retirement and Disability Fund -59 -212 4 22,277 22,123 22,064
+29

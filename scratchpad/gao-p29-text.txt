@@ -1,0 +1,96 @@
+UnitedStatesTaxCourt 41
+LEGISLATIVE BRANCH FederalFunds
+Offsetsagainstgrossbudgetauthorityandoutlays:
+Budgetaryresources:
+Offsettingcollections(collected)from: Unobligatedbalance:
+4030 Federalsources............................................................. -34 -28 -28 1000 Unobligatedbalancebroughtforward,Oct1......................... 144 77 67
+4033 Non-Federalsources..................................................... -21 ................. ................. 1001 Discretionaryunobligatedbalancebroughtfwd,Oct1...... 1 ................. .................
+4040 Offsetsagainstgrossbudgetauthorityandoutlays(total).... -55 -28 -28 1021 Recoveriesofprioryearunpaidobligations........................... 1 ................. .................
+Additionaloffsetsagainstgrossbudgetauthorityonly: 1070 Unobligatedbalance(total)........................................................... 145 77 67
+4050 Changeinuncollectedpymts,Fedsources,unexpired....... 3 ................. ................. Budgetauthority:
+4052 Offsettingcollectionscreditedtoexpiredaccounts........... 5 ................. ................. Appropriations,discretionary:
+4053 Recoveries of prior year paid obligations, unexpired 1100 Appropriation.................................................................... 57 55 65
+accounts....................................................................... 15 ................. ................. 1900 Budgetauthority(total)............................................................. 57 55 65
+4060 Additionaloffsetsagainstbudgetauthorityonly(total)........ 23 ................. ................. 1930 Totalbudgetaryresourcesavailable.............................................. 202 132 132
+Memorandum(non-add)entries:
+4070 Budgetauthority,net(discretionary)......................................... 822 812 860 1941 Unexpiredunobligatedbalance,endofyear.......................... 77 67 65
+4080 Outlays,net(discretionary)....................................................... 865 885 870
+Mandatory:
+Changeinobligatedbalance:
+Outlays,gross: Unpaidobligations:
+4101 Outlaysfrommandatorybalances.................................... 8 ................. ................. 3000 Unpaidobligations,broughtforward,Oct1.......................... 14 68 14
+4180 Budgetauthority,net(total).......................................................... 822 812 860 3010 Newobligations,unexpiredaccounts.................................... 125 65 67
+4190 Outlays,net(total)........................................................................ 873 885 870 3020 Outlays(gross)...................................................................... -70 -119 -77
+3040 Recoveriesofprioryearunpaidobligations,unexpired......... -1 ................. .................
+GAO exists to support the Congress in meeting its constitutional respons-
+3050 Unpaidobligations,endofyear................................................. 68 14 4
+ibilities and to help improve the performance and ensure the accountability Memorandum(non-add)entries:
+of the Federal Government for the benefit of the American people. 3100 Obligatedbalance,startofyear............................................ 14 68 14
+3200 Obligatedbalance,endofyear.............................................. 68 14 4
+ObjectClassification(inmillionsofdollars)
+Budgetauthorityandoutlays,net:
+Identificationcode005–0107–0–1–801 2025actual 2026est. 2027est. Discretionary:
+4000 Budgetauthority,gross......................................................... 57 55 65
+Directobligations: Outlays,gross:
+Personnelcompensation: 4010 Outlaysfromnewdiscretionaryauthority.......................... 53 50 59
+11.1 Full-timepermanent............................................................. 479 458 482 4011 Outlaysfromdiscretionarybalances................................. 5 1 6
+11.3 Otherthanfull-timepermanent............................................ 19 18 17
+11.5 Otherpersonnelcompensation.............................................. 9 9 11 4020 Outlays,gross(total)............................................................. 58 51 65
+Mandatory:
+11.9 Totalpersonnelcompensation........................................... 507 485 510 Outlays,gross:
+12.1 Civilianpersonnelbenefits........................................................ 187 178 188 4101 Outlaysfrommandatorybalances.................................... 12 68 12
+13.0 Benefitsforformerpersonnel.................................................... 4 4 5 4180 Budgetauthority,net(total).......................................................... 57 55 65
+21.0 Travelandtransportationofpersons......................................... 5 5 5 4190 Outlays,net(total)........................................................................ 70 119 77
+23.1 RentalpaymentstoGSA............................................................ 6 6 5
+23.3 Communications,utilities,andmiscellaneouscharges............ 12 13 14
+The U.S. Tax Court is an independent judicial body established under
+25.1 Advisoryandassistanceservices.............................................. 5 6 7
+25.2 Otherservicesfromnon-Federalsources.................................. 16 22 22 Article I of the Constitution of the United States. The Tax Court's jurisdic-
+25.3 OthergoodsandservicesfromFederalsources........................ 2 2 8 tion is established by various sections of U.S. Code Title 26. The Tax
+25.4 Operationandmaintenanceoffacilities................................... 1 5 10
+25.6 Medicalcare.............................................................................. 1 1 1 Court's jurisdiction includes income, estate, gift, and certain excise tax
+25.7 Operationandmaintenanceofequipment................................ 68 70 71 deficiencies, collection due process cases, claims for spousal relief from
+31.0 Equipment................................................................................. 8 8 7
+joint and several liability, partnership proceedings, declaratory judgments,
+32.0 Landandstructures.................................................................. 3 7 7
+interest abatement actions, review of awards under the IRS whistleblower
+99.0 Directobligations.................................................................. 825 812 860
+program, and review of certifications by the Commissioner of Internal
+99.0 Reimbursableobligations..................................................... 101 91 50
+Revenue related to passports.
+99.9 Totalnewobligations,unexpiredaccounts............................ 926 903 910
+The Tax Court provides a national forum for the resolution of disputes
+between taxpayers and the IRS, and it is the primary court in which taxpay-
+EmploymentSummary
+ers can seek resolution without prepaying any portion of the disputed taxes.
+Identificationcode005–0107–0–1–801 2025actual 2026est. 2027est. The Tax Court resolves cases expeditiously while giving careful consider-
+ation to the merits of each matter, and ensures uniform interpretation of
+1001 Directcivilianfull-timeequivalentemployment............................ 3,223 3,000 3,034
+2001 Reimbursablecivilianfull-timeequivalentemployment............... 324 353 176 the Internal Revenue Code. Decisions by the Court are reviewable by the
+U.S. Courts of Appeals and, if certiorari is granted, by the Supreme Court.
+The Court is composed of 19 judges who are appointed to 15-year terms
+✦
+by the President with the advice and consent of the Senate. Senior judges
+UNITED STATES TAX COURT may be recalled by the chief judge to participate in case adjudication. The
+Federal Funds chief judge may also assign small tax cases and certain regular cases to
+special trial judges. The Court is headquartered in Washington, D.C. The
+SALARIESAND EXPENSES
+Court conducts trial sessions in 74 cities throughout the United States.
+For necessary expenses, including contract reporting and other services as author-
+ized by 5 U.S.C. 3109, and not to exceed $3,000 for official reception and represent- ObjectClassification(inmillionsofdollars)
+ation expenses, $65,000,000, of which $1,000,000 shall remain available until ex-
+Identificationcode023–0100–0–1–752 2025actual 2026est. 2027est.
+pended: Provided, That travel expenses of the judges shall be paid upon the written
+certificate of the judge. Directobligations:
+11.1 Personnelcompensation:Full-timepermanent......................... 32 33 34
+ProgramandFinancing(inmillionsofdollars) 12.1 Civilianpersonnelbenefits........................................................ 10 10 10
+21.0 Travelandtransportationofpersons......................................... 1 1 1
+Identificationcode023–0100–0–1–752 2025actual 2026est. 2027est. 23.1 RentalpaymentstoGSA............................................................ 11 11 11
+23.3 Communications,utilities,andmiscellaneouscharges............ 1 1 1
+25.1 Advisoryandassistanceservices.............................................. 15 ................. 2
+Obligationsbyprogramactivity:
+25.2 Otherservicesfromnon-Federalsources.................................. 1 4 1
+0001 SalariesandExpenses(Direct).................................................. 125 65 67
+25.3 OthergoodsandservicesfromFederalsources........................ 28 4 4
+25.7 Operationandmaintenanceofequipment................................ 18 ................. .................
+26.0 Suppliesandmaterials............................................................. 1 1 2

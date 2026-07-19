@@ -1,0 +1,73 @@
+Table B-2.
+Summary Measures by Selected Characteristics Using Money Income and Post-Tax Income: 2023
+(Households as of March of the following year. Information on confidentiality protection, sampling error, nonsampling error, and
+definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar24.pdf>)
+Money income1 Post-tax income3 Percent difference in
+median income
+Median income Median income
+(post-tax income
+Characteristic (dollars) (dollars)
+less money income)*, 4
+Number Number
+(thou- Margin of (thou- Margin of Margin of
+sands) Estimate error2 (±) sands) Estimate error2 (±) Estimate error2 (±)
+HOUSEHOLDS
+All households  . . . . . . . . . . . . . . . . . . . . . . . . . 132,200 80,610 634 132,200 69,240 600 *–14.1 0.23
+Type of Household
+Family households  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84,680 102,800 1,200 84,680 88,650 860 *–13.8 0.32
+Married-couple  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 62,300 119,400 1,576 62,300 101,500 998 *–15.0 0.42
+Female householder, no spouse present  . . . . . . . . . 15,180 59,470 1,774 15,180 54,040 1,231 *–9.1 1.02
+Male householder, no spouse present .  . . . . . . . . . . . 7,208 81,890 2,059 7,208 71,350 1,665 *–12.9 0.72
+Nonfamily households .  . . . . . . . . . . . . . . . . . . . . . . . . . . . 47,530 49,600 895 47,530 42,650 632 *–14.0 0.61
+Female householder  . . . . . . . . . . . . . . . . . . . . . . . . . . . 24,680 42,140 947 24,680 37,830 912 *–10.2 0.72
+Male householder .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22,850 57,200 1,190 22,850 48,590 793 *–15.0 0.64
+Race5 and Hispanic Origin of Householder
+White .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 101,900 84,630 1,182 101,900 72,490 809 *–14.3 0.45
+White, not Hispanic  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 84,440 89,050 1,234 84,440 75,920 896 *–14.7 0.42
+Black  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18,040 56,490 1,328 18,040 49,830 1,109 *–11.8 0.72
+Asian  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 7,655 112,800 4,187 7,655 94,810 3,232 *–16.0 1.08
+Hispanic (any race) .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19,860 65,540 1,259 19,860 58,240 983 *–11.1 0.61
+Age of Householder
+Under 65 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 94,590 92,470 1,088 94,590 77,790 846 *–15.9 0.36
+15 to 24 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 5,881 54,930 2,870 5,881 48,680 1,458 *–11.4 2.39
+25 to 34 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20,910 85,780 1,190 20,910 71,570 1,196 *–16.6 0.51
+35 to 44 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23,060 101,300 1,234 23,060 84,560 1,463 *–16.5 0.56
+45 to 54 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,660 110,700 1,887 21,660 91,330 1,976 *–17.5 0.59
+55 to 64 years  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 23,080 90,640 1,773 23,080 75,380 1,739 *–16.8 0.65
+65 years and older  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37,630 54,710 1,018 37,630 51,400 872 *–6.1 0.50
+Nativity of Householder
+Native-born  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 110,300 81,700 683 110,300 70,190 710 *–14.1 0.31
+Foreign-born  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21,920 73,360 2,546 21,920 63,950 1,451 *–12.8 1.30
+Naturalized citizen .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12,220 86,060 2,773 12,220 74,170 2,370 *–13.8 0.79
+Not a citizen .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9,700 61,440 1,109 9,700 55,380 1,292 *–9.9 0.76
+Region
+Northeast  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22,590 86,250 1,816 22,590 73,100 1,889 *–15.3 0.80
+Midwest .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 28,410 81,020 1,319 28,410 69,140 1,224 *–14.7 0.47
+South .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51,550 73,280 1,750 51,550 64,020 1,042 *–12.6 0.86
+West .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29,670 88,290 2,212 29,670 76,070 1,723 *–13.8 0.65
+Residence6
+Inside metropolitan statistical areas  . . . . . . . . . . . . . . . 114,300 83,590 1,140 114,300 71,690 735 *–14.2 0.46
+Inside principal cities .  . . . . . . . . . . . . . . . . . . . . . . . . . . 43,910 73,540 1,547 43,910 63,200 1,072 *–14.1 0.62
+Outside principal cities .  . . . . . . . . . . . . . . . . . . . . . . . . 70,360 90,140 1,087 70,360 77,160 940 *–14.4 0.39
+Outside metropolitan statistical areas .  . . . . . . . . . . . . . 17,950 62,520 1,723 17,950 56,110 1,325 *–10.3 0.88
+Educational Attainment of Householder
+Total, aged 25 and older .  . . . . . . . . . . . . . . . . . . . . . . . 126,300 82,010 633 126,300 70,640 662 *–13.9 0.28
+No high school diploma  . . . . . . . . . . . . . . . . . . . . . . . . . . 9,546 36,620 1,162 9,546 36,000 1,081 *–1.7 1.16
+High school, no college .  . . . . . . . . . . . . . . . . . . . . . . . . . . 31,810 55,810 988 31,810 50,900 799 *–8.8 0.60
+Some college .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 33,830 73,610 1,540 33,830 64,200 1,066 *–12.8 0.76
+Bachelor’s degree or higher .  . . . . . . . . . . . . . . . . . . . . . . 51,150 126,800 1,462 51,150 104,300 1,222 *–17.8 0.31
+* An asterisk preceding an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+1 Information on money income collected in the CPS ASEC is available in Appendix A, section “How Income Is Measured.”
+2 A margin of error (MOE) is a measure of an estimate’s variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number, when
+added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using replicate weights.
+3 Post-tax income is defined as money income net of federal and state income taxes and credits, payroll taxes (FICA), economic impact payments (EIP), and state stimulus
+and rebate payments.
+4 Calculated estimate may be different due to rounded components.
+5 Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are possible. A group, such as Asian, may
+be defined as those who reported Asian and no other race (the race-alone or single-race concept) or as those who reported Asian regardless of whether they also reported
+another race (the race-alone-or-in-combination concept). This table shows data using the first approach (race alone). The use of the single-race population does not imply that
+it is the preferred method of presenting or analyzing data. The Census Bureau uses a variety of approaches. Data for American Indians and Alaska Natives, Native Hawaiians and
+Other Pacific Islanders, and those reporting two or more races are not shown separately.
+6 Information on metropolitan statistical areas and principal cities is available at <www.census.gov/programs-surveys/metro-micro/about/glossary.html>.
+Source: U.S. Census Bureau, Current Population Survey, 2024 Annual Social and Economic Supplement (CPS ASEC).
+46 Income in the United States: 2023 U.S. Census Bureau

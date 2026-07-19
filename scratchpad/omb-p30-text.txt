@@ -1,0 +1,92 @@
+42 UnitedStatesTaxCourt—Continued
+FederalFunds—Continued THE BUDGET FOR FISCAL YEAR 2027
+SALARIESAND EXPENSES—Continued 5098 Roundingadjustment.................................................................... 1 ................. .................
+ObjectClassification—Continued 5099 Balance,endofyear.................................................................. 14 15 16
+Identificationcode023–0100–0–1–752 2025actual 2026est. 2027est. ProgramandFinancing(inmillionsofdollars)
+31.0 Equipment................................................................................. 7 ................. 1
+Identificationcode023–8115–0–7–602 2025actual 2026est. 2027est.
+99.9 Totalnewobligations,unexpiredaccounts............................ 125 65 67
+Obligationsbyprogramactivity:
+0001 TaxCourtJudgesSurvivorsAnnuityFund(Direct)...................... 1 1 1
+EmploymentSummary
+0900 Totalnewobligations,unexpiredaccounts(objectclass11.5)....... 1 1 1
+Identificationcode023–0100–0–1–752 2025actual 2026est. 2027est.
+1001 Directcivilianfull-timeequivalentemployment............................ 210 215 223 Budgetaryresources:
+Unobligatedbalance:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 1 1 1
+✦ Budgetauthority:
+Appropriations,mandatory:
+1201 Appropriation(specialortrustfund)................................. 1 1 1
+U.S. TAX COURT FEES
+1930 Totalbudgetaryresourcesavailable.............................................. 2 2 2
+Memorandum(non-add)entries:
+SpecialandTrustFundReceipts(inmillionsofdollars)
+1941 Unexpiredunobligatedbalance,endofyear.......................... 1 1 1
+Identificationcode023–5633–0–2–752 2025actual 2026est. 2027est.
+Changeinobligatedbalance:
+0100 Balance,startofyear.................................................................... ................. ................. ................. Unpaidobligations:
+Receipts: 3010 Newobligations,unexpiredaccounts.................................... 1 1 1
+Currentlaw: 3020 Outlays(gross)...................................................................... -1 -1 -1
+1110 U.S.TaxCourtFees............................................................... 1 1 1
+2000 Total:Balancesandreceipts..................................................... 1 1 1 Budgetauthorityandoutlays,net:
+Mandatory:
+Appropriations:
+4090 Budgetauthority,gross......................................................... 1 1 1
+Currentlaw:
+Outlays,gross:
+2101 U.S.TaxCourtFees................................................................ -1 -1 -1
+4100 Outlaysfromnewmandatoryauthority............................. ................. 1 1
+5099 Balance,endofyear.................................................................. ................. ................. ................. 4101 Outlaysfrommandatorybalances.................................... 1 ................. .................
+4110 Outlays,gross(total)............................................................. 1 1 1
+ProgramandFinancing(inmillionsofdollars) 4180 Budgetauthority,net(total).......................................................... 1 1 1
+4190 Outlays,net(total)........................................................................ 1 1 1
+Identificationcode023–5633–0–2–752 2025actual 2026est. 2027est.
+Memorandum(non-add)entries:
+Budgetaryresources: 5000 Totalinvestments,SOY:Federalsecurities:Parvalue............... 14 14 14
+Unobligatedbalance: 5001 Totalinvestments,EOY:Federalsecurities:Parvalue............... 14 14 15
+1000 Unobligatedbalancebroughtforward,Oct1......................... 6 7 8
+Budgetauthority:
+The Tax Court Judges' Survivors Annuity Fund provides survivorship
+Appropriations,mandatory:
+1201 Appropriation(specialortrustfund)................................. 1 1 1 benefits to eligible surviving spouses and dependent children of deceased
+1900 Budgetauthority(total)............................................................. 1 1 1 Tax Court judges. Participating judges pay 3.5 percent of their salaries or
+1930 Totalbudgetaryresourcesavailable.............................................. 7 8 9
+retired pay into the fund to cover creditable service for which payment is
+Memorandum(non-add)entries:
+1941 Unexpiredunobligatedbalance,endofyear.......................... 7 8 9 required. Additional funds, as needed, are provided through the Court's
+annual appropriation.
+Budgetauthorityandoutlays,net:
+Mandatory: ✦
+4090 Budgetauthority,gross......................................................... 1 1 1
+4180 Budgetauthority,net(total).......................................................... 1 1 1 LEGISLATIVE BRANCH BOARDS AND COMMISSIONS
+4190 Outlays,net(total)........................................................................ ................. ................. .................
+Federal Funds
+✦ COMMISSIONON SECURITYAND COOPERATIONIN EUROPE
+SALARIESAND EXPENSES
+Trust Funds
+For necessary expenses of the Commission on Security and Cooperation in Europe,
+TAX COURT JUDGES SURVIVORS ANNUITY FUND
+as authorized by Public Law 94–304 (22 U.S.C. 3001 et seq.), $7,059,000, including
+SpecialandTrustFundReceipts(inmillionsofdollars) not more than $6,000 for representation expenses, to remain available until
+September 30, 2028.
+Identificationcode023–8115–0–7–602 2025actual 2026est. 2027est.
+ProgramandFinancing(inmillionsofdollars)
+0100 Balance,startofyear.................................................................... 12 14 15
+0198 Reconciliationadjustment............................................................. 1 ................. ................. Identificationcode009–0110–0–1–801 2025actual 2026est. 2027est.
+0199 Balance,startofyear................................................................ 13 14 15
+Receipts: Obligationsbyprogramactivity:
+Currentlaw: 0001 Directprogramactivity.............................................................. 3 3 7
+1110 Tax Court Judges Survivors Annuity, Deductions from
+EmployeesSalaries........................................................... 1 1 1
+Budgetaryresources:
+1140 TaxCourtJudgesSurvivorsAnnuity,InterestandProfitson Unobligatedbalance:
+Investments...................................................................... ................. 1 1 1000 Unobligatedbalancebroughtforward,Oct1......................... 3 3 3
+Budgetauthority:
+1199 Totalcurrentlawreceipts.................................................. 1 2 2
+Appropriations,discretionary:
+1999 Totalreceipts............................................................................. 1 2 2 1100 Appropriation.................................................................... 3 3 7
+1930 Totalbudgetaryresourcesavailable.............................................. 6 6 10
+2000 Total:Balancesandreceipts..................................................... 14 16 17 Memorandum(non-add)entries:
+Appropriations: 1941 Unexpiredunobligatedbalance,endofyear.......................... 3 3 3
+Currentlaw:
+2101 TaxCourtJudgesSurvivorsAnnuityFund.............................. -1 -1 -1

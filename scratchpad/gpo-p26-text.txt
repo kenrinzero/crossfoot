@@ -1,0 +1,94 @@
+38 GovernmentPublishingOffice—Continued
+FederalFunds—Continued THE BUDGET FOR FISCAL YEAR 2027
+CONGRESSIONAL PUBLISHING—Continued ProgramandFinancing(inmillionsofdollars)
+appropriated, to be available for carrying out the purposes of this heading, subject
+Identificationcode004–0201–0–1–808 2025actual 2026est. 2027est.
+to the approval of the Committees on Appropriations of the House of Representatives
+and the Senate: Provided further, That this appropriation shall be available for
+Obligationsbyprogramactivity:
+publishing congressionally mandated reports under the Access to Congressionally
+0001 DepositoryLibraryDistribution.................................................. 26 30 30
+Mandated Reports Act (subtitle D of title LXXII of division G of Public Law 0002 CatalogingandIndexing........................................................... 10 12 12
+117–263): Provided further, That notwithstanding sections 901, 902, and 906 of 0003 InternationalExchange............................................................. 1 1 1
+title 44, United States Code, this appropriation may be used to prepare indexes to
+0900 Totalnewobligations,unexpiredaccounts.................................... 37 43 43
+the Congressional Record on only a monthly and session basis. (Legislative Branch
+Appropriations Act, 2026.)
+Budgetaryresources:
+Budgetauthority:
+ProgramandFinancing(inmillionsofdollars)
+Appropriations,discretionary:
+1100 Appropriation.................................................................... 37 43 43
+Identificationcode004–0203–0–1–801 2025actual 2026est. 2027est. 1930 Totalbudgetaryresourcesavailable.............................................. 37 43 43
+Obligationsbyprogramactivity:
+Changeinobligatedbalance:
+0001 CongressionalPublishing.......................................................... 83 80 80
+Unpaidobligations:
+0900 Totalnewobligations,unexpiredaccounts(objectclass24.0)....... 83 80 80 3000 Unpaidobligations,broughtforward,Oct1.......................... 17 22 23
+3010 Newobligations,unexpiredaccounts.................................... 37 43 43
+3020 Outlays(gross)...................................................................... -32 -42 -43
+Budgetaryresources:
+Budgetauthority: 3050 Unpaidobligations,endofyear................................................. 22 23 23
+Appropriations,discretionary: Memorandum(non-add)entries:
+1100 Appropriation.................................................................... 83 80 80 3100 Obligatedbalance,startofyear............................................ 17 22 23
+1930 Totalbudgetaryresourcesavailable.............................................. 83 80 80 3200 Obligatedbalance,endofyear.............................................. 22 23 23
+Changeinobligatedbalance: Budgetauthorityandoutlays,net:
+Unpaidobligations: Discretionary:
+3000 Unpaidobligations,broughtforward,Oct1.......................... 89 92 84 4000 Budgetauthority,gross......................................................... 37 43 43
+3010 Newobligations,unexpiredaccounts.................................... 83 80 80 Outlays,gross:
+3020 Outlays(gross)...................................................................... -70 -88 -86 4010 Outlaysfromnewdiscretionaryauthority.......................... 27 34 34
+3041 Recoveriesofprioryearunpaidobligations,expired............. -10 ................. ................. 4011 Outlaysfromdiscretionarybalances................................. 5 8 9
+3050 Unpaidobligations,endofyear................................................. 92 84 78 4020 Outlays,gross(total)............................................................. 32 42 43
+Memorandum(non-add)entries: 4180 Budgetauthority,net(total).......................................................... 37 43 43
+3100 Obligatedbalance,startofyear............................................ 89 92 84 4190 Outlays,net(total)........................................................................ 32 42 43
+3200 Obligatedbalance,endofyear.............................................. 92 84 78
+The Public Information Programs of the Superintendent of Documents
+Budgetauthorityandoutlays,net: operate under a separate appropriation that provides funds (salaries and
+Discretionary:
+4000 Budgetauthority,gross......................................................... 83 80 80 expenses) for: (1) the distribution of certain tangible publications to
+Outlays,gross: Members of Congress and other Government agencies, as authorized by
+4010 Outlaysfromnewdiscretionaryauthority.......................... 49 57 57
+law; (2) the distribution of Government publications to designated Federal
+4011 Outlaysfromdiscretionarybalances................................. 21 31 29
+depository libraries, as authorized by law, including tangible Government
+4020 Outlays,gross(total)............................................................. 70 88 86
+information products and online access via GPO's GovInfo (ht-
+4180 Budgetauthority,net(total).......................................................... 83 80 80
+4190 Outlays,net(total)........................................................................ 70 88 86 tps://www.govinfo.gov/); (3) the compilation of catalogs and indexes of
+Government publications, as authorized by law via the "Catalog of U.S.
+This appropriation covers publishing for the Congress, content manage- Government Publications (CGP)" (https://catalog.gpo.gov/); and (4) the
+ment, and the publishing of Government publications authorized by law distribution of Federal Government publications to foreign governments
+to be distributed to Members of Congress. Also, this appropriation includes via the International Exchange Service. These four functions are related
+funding for the publishing and distribution of Government publications to the publication activity of Federal agencies and the demands of the
+authorized by law to be distributed without charge to the recipients. public, Members of Congress, and depository libraries. Following is a de-
+✦ scription of these four functions:
+Distribution for other Government agencies and Members of Congress
+PUBLIC INFORMATION PROGRAMSOF THE SUPERINTENDENTOF DOCUMENTS (By-Law Distribution).—The Public Information Programs of the Superin-
+tendent of Documents maintain mailing lists and distribute, at the request
+SALARIESAND EXPENSES
+of Government agencies and Members of Congress, certain publications
+(INCLUDINGTRANSFEROFFUNDS)
+specified by public law.
+For expenses of the public information programs of the Office of Superintendent Federal Depository Library Program.—Established by Congress to ensure
+of Documents necessary to provide for the cataloging and indexing of Government
+the American public has access to its Government's information, the Fed-
+publications in any format, and their distribution to the public, Members of Congress,
+eral Depository Library Program (FDLP) involves the acquisition and
+other Government agencies, and designated depository and international exchange
+dissemination of Government information in all formats to Federal depos-
+libraries as authorized by law, $42,852,000: Provided, That amounts of not more
+than $2,000,000 from current year appropriations are authorized for producing and itory libraries across the country.
+disseminating Congressional serial sets and other related publications for the preced- The mission of the FDLP is to coordinate with depository libraries, 1,092
+ing two fiscal years to depository and other designated libraries: Provided further, nationwide, to disseminate information products from all three branches
+That unobligated or unexpended balances of expired discretionary funds made of the Government. Libraries that have been designated as Federal depos-
+available under this heading in this Act for this fiscal year may be transferred to, itories maintain these information products (as provided by GPO) as part
+and merged with, funds under the heading "Government Publishing Office Business
+of their existing collections and are responsible for assuring that the public
+Operations Revolving Fund" no later than the end of the fifth fiscal year after the
+has free access to the material provided by the FDLP.
+last fiscal year for which such funds are available for the purposes for which appro-
+Included in this program is the maintenance and expansion of free, elec-
+priated, to be available for carrying out the purposes of this heading, subject to the
+approval of the Committees on Appropriations of the House of Representatives and tronic access to information products produced by the Federal Government
+the Senate. (Legislative Branch Appropriations Act, 2026.) via GovInfo. Electronic information dissemination and access have greatly
+expanded the number of publications offered to the Federal depository

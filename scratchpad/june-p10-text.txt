@@ -1,0 +1,71 @@
+Table 5. Outlays of the U.S. Government, June 2026 and Other Periods
+[$ millions]
+This Month Current Fiscal Year to Date Prior Fiscal Year to Date
+Classification Gross Applicable Gross Applicable Gross Applicable
+Outlays Receipts Outlays Outlays Receipts Outlays Outlays Receipts Outlays
+Legislative Branch:
+Senate 118 (**) 117 977 2 975 968 2 966
+House of Representatives 163 1 163 1,500 5 1,496 1,499 4 1,495
+Joint Items 2 ...... 2 17 ...... 17 20 ...... 20
+Capitol Police 67 ...... 67 608 ...... 608 588 ...... 588
+Congressional Budget Office 6 ...... 6 52 ...... 52 51 ...... 51
+Architect of the Capitol 68 1 66 671 6 665 659 6 653
+Library of Congress 115 1 114 662 7 654 701 8 693
+Government Publishing Office 21 ...... 21 113 ...... 113 154 ...... 154
+Government Accountability Office 64 ...... 64 615 ...... 615 634 ...... 634
+United States Tax Court 6 ...... 6 54 ...... 54 52 ...... 52
+Other Legislative Branch Agencies 6 ...... 6 57 ...... 57 62 ...... 62
+Proprietary Receipts from the Public ...... 30 -30 ...... 51 -51 ...... 49 -49
+Intrabudgetary Transactions (**) ...... (**) -8 ...... -8 -7 ...... -7
+Offsetting Governmental Receipts ...... ...... ...... ...... (**) (**) ...... ...... ......
+Total--Legislative Branch 636 34 602 5,318 72 5,246 5,380 69 5,311
+Judicial Branch:
+Supreme Court of the United States 14 ...... 14 127 ...... 127 112 ...... 112
+Courts of Appeals, District Courts, and Other Judicial
+Services 763 ...... 763 7,737 ...... 7,737 7,476 ...... 7,476
+Other 38 ...... 38 667 ...... 667 625 ...... 625
+Proprietary Receipts from the Public ...... 2 -2 ...... 103 -103 ...... 203 -203
+Intrabudgetary Transactions -10 ...... -10 -1,053 ...... -1,053 -876 ...... -876
+Total--Judicial Branch 804 2 802 7,477 103 7,374 7,337 203 7,134
+Department of Agriculture:
+Agricultural Research Service 144 ...... 144 1,302 ...... 1,302 1,421 ...... 1,421
+National Institute of Food and Agriculture:
+Research and Education Activities 111 ...... 111 807 ...... 807 864 ...... 864
+Extension Activities 64 ...... 64 460 ...... 460 509 ...... 509
+Other 15 ...... 15 125 ...... 125 126 ...... 126
+Animal and Plant Health Inspection Service 258 ...... 258 1,675 ...... 1,675 1,929 ...... 1,929
+Food Safety and Inspection Service 98 ...... 98 842 ...... 842 888 ...... 888
+Agricultural Marketing Service 146 7 139 1,343 40 1,304 2,024 37 1,987
+Risk Management Agency:
+Administrative and Operating Expenses 5 ...... 5 48 ...... 48 52 ...... 52
+Federal Crop Insurance Corporation Fund 1,676 269 1,408 14,769 1,799 12,970 18,044 1,756 16,288
+Farm Service Agency:
+Salaries and Expenses 108 ...... 108 739 ...... 739 801 ...... 801
+USDA Supplemental Assistance (**) ...... (**) 3 ...... 3 3 ...... 3
+Agricultural Disaster Relief Fund ...... ...... ...... (**) ...... (**) (**) ...... (**)
+Commodity Credit Corporation 306 626 -319 12,697 4,990 7,708 11,239 4,537 6,702
+Tobacco Trust Fund (**) ...... (**) 2 ...... 2 4 ...... 4
+Agricultural Credit Insurance Fund 5 (**) 5 892 6 886 911 11 901
+Other 49 ...... 49 727 ...... 727 1,014 ...... 1,014
+Total--Farm Service Agency 468 626 -158 15,061 4,996 10,065 13,973 4,548 9,425
+Natural Resources Conservation Service:
+Conservation Operations 98 ...... 98 903 ...... 903 1,008 ...... 1,008
+Farm Security and Rural Investment Programs 210 ...... 210 3,024 ...... 3,024 3,519 ...... 3,519
+Other 38 ...... 38 443 ...... 443 335 ...... 335
+Rural Development 56 ...... 56 44 ...... 44 127 ...... 127
+Rural Housing Service:
+Rural Housing Insurance Fund 992 30 963 1,458 218 1,240 525 202 324
+Rental Assistance Program 167 ...... 167 1,428 ...... 1,428 1,323 ...... 1,323
+Other 343 ...... 343 560 ...... 560 328 ...... 328
+Rural Utilities Service:
+Rural Electrification and Telecommunications Fund 369 (**) 368 477 8 469 67 9 58
+Other 466 2 465 1,108 13 1,095 840 14 827
+Foreign Agricultural Service 73 ...... 73 1,096 ...... 1,096 1,578 ...... 1,578
+Food and Nutrition Service:
+Supplemental Nutrition Assistance Program 7,702 ...... 7,702 72,620 ...... 72,620 80,108 ...... 80,108
+Child Nutrition Programs 3,749 ...... 3,749 27,544 ...... 27,544 27,592 ...... 27,592
+Special Supplemental Nutrition Program for Women,
+Infants, and Children (WIC) 692 ...... 692 5,804 ...... 5,804 5,965 ...... 5,965
+Other 59 ...... 59 458 ...... 458 482 ...... 482
+Total--Food and Nutrition Service 12,202 ...... 12,202 106,426 ...... 106,426 114,147 ...... 114,147
+10

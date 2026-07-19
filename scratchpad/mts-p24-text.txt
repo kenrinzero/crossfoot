@@ -1,0 +1,69 @@
+Table 6. Means of Financing the Deficit or Disposition of Surplus by the U.S. Government, May 2026 and Other Periods
+[$ millions]
+Net Transactions
+Assets and Liabilities (-) d l e ia n b o i t l e it s y     n o e r t  a  r s e s d e u t c  a ti c o c n o   u o n f  t e s ither C A u c r c r o en u t n  F t  i B s a c l a a l n  Y c e e a s r
+Directly Related to
+Budget Off-Budget Activity This Month Fiscal Year to Date Beginning of Close of
+This Year Prior Year This Year This Month This Month
+Liability Accounts:
+  Borrowing from the Public:
+    Treasury Securities, Issued Under General Financing Authorities:
+      Debt Held by the Public 242,880 1,237,603 645,149 30,277,766 31,272,489 31,515,369
+      Intragovernmental Holdings -2,954 332,603 105,996 7,359,787 7,695,344 7,692,390
+      Total Treasury Securities Outstanding 239,926 1,570,206 751,144 37,637,553 38,967,834 39,207,760
+        Plus Premium on Treasury Securities -585 -3,864 -3,420 66,448 63,168 62,583
+        Less Discount on Treasury Securities -1,070 98,200 24,917 352,825 452,095 451,025
+        Total Treasury Securities Net of Premium and Discount 240,411 1,468,142 722,808 37,351,175 38,578,907 38,819,317
+    Agency Securities, Issued Under Special Financing Authorities (See
+      Schedule B; for Other Agency Borrowing, See Schedule C) -1,351 -1,350 701 22,075 22,076 20,725
+    Total Federal Securities 239,060 1,466,792 723,509 37,373,251 38,600,982 38,840,042
+    Deduct:
+      Federal Securities Held as Investments of Government Accounts
+        (See Schedule D) -1,361 330,517 102,043 7,339,271 7,671,150 7,669,789
+      Less Discount on Federal Securities Held as Investments of
+        Government Accounts 581 37,146 26,884 138,423 174,988 175,569
+      Net Federal Securities Held as Investments of Government
+        Accounts -1,943 293,371 75,158 7,200,848 7,496,162 7,494,220
+    Total Borrowing from the Public 241,002 1,173,420 648,351 30,172,402 31,104,820 31,345,822
+  Accrued Interest Payable to the Public -17,525 9,323 11,709 159,782 186,630 169,105
+  Allocations of Special Drawing Rights -376 -255 39 157,472 157,593 157,217
+  Uninvested Balances, Deposit Funds 688 215 197,394 33,157 32,684 33,372
+  Miscellaneous Liability Accounts (Includes Checks Outstanding Etc.) -1,144 60,826 9,737 41,715 103,685 102,541
+  Total Liability Accounts 222,646 1,243,530 867,230 30,564,528 31,585,411 31,808,058
+Asset Accounts (Deduct)
+  Cash and Monetary Assets:
+    U.S. Treasury Operating Cash:
+      Federal Reserve Account1 -65,502 13,056 -534,283 890,825 969,383 903,881
+      Balance -65,502 13,056 -534,283 890,825 969,383 903,881
+    Special Drawing Rights:
+      Total Holdings -113 -1,849 1,413 174,732 172,996 172,883
+      SDR Certificates Issued to Federal Reserve Banks ...... ...... -5,000 -15,200 -15,200 -15,200
+      Balance -113 -1,849 -3,587 159,532 157,796 157,683
+    Reserve Position on the U.S. Quota in the IMF:
+      U.S. Subscription to International Monetary Fund:
+        Direct Quota Payments ...... ...... ...... 111,629 111,629 111,629
+        Maintenance of Value Adjustments -271 -184 28 2,154 2,240 1,969
+      Letter of Credit Issued to IMF 1,054 2,085 1,402 -82,087 -81,056 -80,002
+      Dollar Deposits with the IMF 1 3 (**) -286 -283 -282
+      Receivable/Payable (-) for Interim Maintenance of Value
+        Adjustments 195 131 -5 -1,042 -1,106 -911
+      Balance 979 2,035 1,425 30,368 31,424 32,403
+    Loans to International Monetary Fund ...... ...... ...... (**) (**) (**)
+    Other Cash and Monetary Assets -2,418 4,254 -1,464 95,497 102,169 99,751
+    Total Cash and Monetary Assets -67,054 17,496 -537,909 1,176,222 1,260,772 1,193,718
+  Non-Federal Securities of the National Railroad Retirement
+    Investment Trust 1,470 1,320 -655 26,980 26,830 28,300
+  Net Activity, Guaranteed Loan Financing (See Schedule E) -686 -2,912 6,257 146,893 144,667 143,981
+  Net Activity, Direct Loan Financing (See Schedule E) -3,046 -8,088 43,830 1,698,275 1,693,233 1,690,188
+  Miscellaneous Asset Accounts -291 -131 209 44 204 -87
+  Total Asset Accounts -69,606 7,685 -488,268 3,048,415 3,125,706 3,056,100
+Excess of Liabilities (+) or Assets (-) 292,252 1,235,844 1,355,498 27,516,113 28,459,705 28,751,957
+Transactions Not Applied to Current Year's Surplus or Deficit (See
+  Schedule A for Details) 396 10,359 8,884 ...... 9,963 10,359
+Total Budget and Off-Budget Federal Entities (Financing of Deficit (+)
+  or Disposition of Surplus (-)) 292,648 1,246,203 1,364,382 27,516,113 28,469,668 28,762,316
+1Major sources of information used to determine Treasury's operating cash balance reflected as received and withdrawals are reflected as processed.
+include Federal Reserve Banks, Treasury Regional Finance Centers, Internal Note: Details may not add to totals due to rounding.
+Revenue Service Centers, various electronic systems, and information on the ... No Transactions
+Public Debt.  Information is presented on a modified cash basis. Deposits are (**) Less than absolute value of $500,000
+24

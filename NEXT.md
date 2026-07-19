@@ -77,7 +77,7 @@ in this repo always means a stage, never difficulty.
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
 **#330** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
-rows, #250 systematic A-5 year-shift). #331 + #332 shipped without audits;
+rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 next fires at **#340**.
 
 ---
@@ -88,12 +88,13 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-07-19 · **aapl-fy2023-balance-sheet-parenthetical** — #333 (Step; 8c/0r, all standalone; par value 0.00001 decimal; share counts in whole shares; strict-default GREEN)
 - 2026-07-19 · **msft-fy2025-balance-sheet-parenthetical** — #332 (Trinity, Nanobot harness; Mavis extra audit per Kenrin's request, AUDITS.md) — 8c/0r, all standalone, every value single-source; share counts in whole shares; strict-default GREEN
 - 2026-07-19 · **sec-10k no-vision runway STARTED** — #331
   (`msft-fy2025-balance-sheet`, Mavis; 68c/14r, strict-default GREEN,
   A=L+E foot exact both columns; printed-0 short-term debt col1
   transcribed; AOCI leaf negative; label-embedded parentheticals
-  dropped per project log — R5 unit's scope). 9 more units queued
+  dropped per project log — R5 unit's scope). 7 more units queued
   in NEXT.md; next every-10th audit at #340.
 - 2026-07-19 · **Treasury MTS June 2026 SOURCE COMPLETE** — #251–330
   (Grok, 8×10-unit batches; vendored `mts-202606.pdf` same day):

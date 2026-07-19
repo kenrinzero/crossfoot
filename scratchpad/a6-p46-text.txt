@@ -1,0 +1,34 @@
+Table A-6.
+Earnings Summary Measures by Selected Characteristics: 2022 and 2023—Con.
+(Earnings in 2023 dollars, adjusted using the C-CPI-U. People 15 years and older, as of March of the following year,
+with earnings. Information on confidentiality protection, sampling error, nonsampling error, and definitions is available at
+<https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar24.pdf>)
+2022 2023 Percent change in Percent change in
+Median earnings Median earnings number of workers median earnings
+(dollars) (dollars) (2023 less 2022)* (2023 less 2022)*
+Characteristic
+Number Margin Number Margin Margin Margin
+(thou- of error1 (thou- of error1 of error1 of error1
+sands) Estimate (±) sands) Estimate (±) Estimate (±) Estimate (±)
+Educational Attainment
+Total, aged 25 and
+older ............ 112,500 63,720 248 112,600 63,640 1,404 0.1 0.79 –0.1 2.14
+No high school diploma ... 6,120 38,260 627 6,266 37,000 588 2.4 5.18 *–3.3 1.96
+High school, no college ... 27,480 48,490 430 27,540 48,810 1,058 0.2 2.33 0.6 2.35
+Some college ............ 27,610 55,290 1,335 27,350 56,740 470 –1.0 2.16 *2.6 2.52
+Bachelor's degree or
+higher .................. 51,290 86,890 2,824 51,450 89,410 2,502 0.3 1.59 2.9 4.04
+* An asterisk preceding an estimate indicates change is statistically different from zero at the 90 percent confidence level.
+X Not applicable.
+Z Rounds to zero.
+1 A margin of error (MOE) is a measure of an estimate’s variability. The larger the MOE in relation to the size of the estimate, the less reliable
+the estimate. This number, when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table
+are based on standard errors calculated using replicate weights.
+2 Federal surveys give respondents the option of reporting more than one race. Therefore, two basic ways of defining a race group are
+possible. A group, such as Asian, may be defined as those who reported Asian and no other race (the race-alone or single-race concept) or as
+those who reported Asian regardless of whether they also reported another race (the race-alone-or-in-combination concept). This table shows
+data using the first approach (race alone). The use of the single-race population does not imply that it is the preferred method of presenting
+or analyzing data. The Census Bureau uses a variety of approaches. Data for American Indians and Alaska Natives, Native Hawaiians and Other
+Pacific Islanders, and those reporting Two or More Races are not shown separately.
+Source: U.S. Census Bureau, Current Population Survey, 2023 and 2024 Annual Social and Economic Supplements (CPS ASEC).
+40 Income in the United States: 2023 U.S. Census Bureau

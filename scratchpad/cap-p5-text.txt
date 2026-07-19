@@ -1,0 +1,97 @@
+CapitolPolice 17
+LEGISLATIVE BRANCH FederalFunds
+CAPITOL POLICE nel for the Federal Law Enforcement Training Centers, and not more than $7,500
+to be expended on the certification of the Chief of the Capitol Police in connection
+Federal Funds
+with official representation and reception expenses, [$198,928,000] $289,091,000,
+SALARIES to be disbursed by the Chief of the Capitol Police or a duly authorized designee[:
+], of which $7,920,000 shall remain available until September 30, 2029 and
+For salaries of employees of the Capitol Police, including overtime, hazardous
+$7,800,000 shall remain available until September 30, 2028:Provided, That, not-
+duty pay, and Government contributions for health, retirement, social security, pro-
+withstanding any other provision of law, the cost of basic training for the Capitol
+fessional liability insurance, tuition reimbursement, recruitment and retention bo-
+Police at the Federal Law Enforcement Training Centers for fiscal year [2026]
+nuses, and other applicable employee benefits, [$653,422,000] $733,584,000, of
+2027 shall be paid by the Secretary of Homeland Security from funds available to
+which overtime shall not exceed [$80,067,000] $80,837,000 unless the Committees
+the Department of Homeland Security: Provided further, That none of the amounts
+on Appropriations of the House and Senate are notified, to be disbursed by the Chief
+made available under this heading may be used to purchase a drone manufactured
+of the Capitol Police or a duly authorized designee. (Legislative Branch Appropri-
+in the People's Republic of China or by a business affiliated with the People's Re-
+ations Act, 2026.)
+public of China except for national security purposes. (Legislative Branch Appropri-
+ProgramandFinancing(inmillionsofdollars) ations Act, 2026.)
+Identificationcode002–0477–0–1–801 2025actual 2026est. 2027est. ProgramandFinancing(inmillionsofdollars)
+Identificationcode002–0476–0–1–801 2025actual 2026est. 2027est.
+Obligationsbyprogramactivity:
+0001 Salaries(Direct)........................................................................ 602 653 734
+Obligationsbyprogramactivity:
+0001 GeneralExpenses(Direct)......................................................... 215 199 289
+Budgetaryresources: 0801 Reimbursableprogramactivity................................................. 6 ................. .................
+Unobligatedbalance:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 4 4 4 0900 Totalnewobligations,unexpiredaccounts.................................... 221 199 289
+1001 Discretionaryunobligatedbalancebroughtfwd,Oct1...... 4 ................. .................
+Budgetauthority:
+Appropriations,discretionary: Budgetaryresources:
+1100 Appropriation.................................................................... 604 653 734 Unobligatedbalance:
+1930 Totalbudgetaryresourcesavailable.............................................. 608 657 738 1000 Unobligatedbalancebroughtforward,Oct1......................... 46 28 27
+Memorandum(non-add)entries: 1001 Discretionaryunobligatedbalancebroughtfwd,Oct1...... 46 ................. .................
+1940 Unobligatedbalanceexpiring................................................ -2 ................. ................. Budgetauthority:
+1941 Unexpiredunobligatedbalance,endofyear.......................... 4 4 4 Appropriations,discretionary:
+1100 Appropriation.................................................................... 203 199 289
+Spendingauthorityfromoffsettingcollections,discretionary:
+Changeinobligatedbalance: 1700 Collected........................................................................... 5 ................. .................
+Unpaidobligations: 1701 Changeinuncollectedpayments,Federalsources............ -1 ................. .................
+3000 Unpaidobligations,broughtforward,Oct1.......................... 20 36 33
+3010 Newobligations,unexpiredaccounts.................................... 602 653 734 1750 Spendingauthfromoffsettingcollections,disc(total)......... 4 ................. .................
+3011 Obligations("upwardadjustments"),expiredaccounts........ 1 ................. ................. 1900 Budgetauthority(total)............................................................. 207 199 289
+3020 Outlays(gross)...................................................................... -587 -656 -730 1930 Totalbudgetaryresourcesavailable.............................................. 253 227 316
+Memorandum(non-add)entries:
+3050 Unpaidobligations,endofyear................................................. 36 33 37 1940 Unobligatedbalanceexpiring................................................ -4 -1 -1
+Memorandum(non-add)entries: 1941 Unexpiredunobligatedbalance,endofyear.......................... 28 27 26
+3100 Obligatedbalance,startofyear............................................ 20 36 33
+3200 Obligatedbalance,endofyear.............................................. 36 33 37
+Changeinobligatedbalance:
+Unpaidobligations:
+Budgetauthorityandoutlays,net: 3000 Unpaidobligations,broughtforward,Oct1.......................... 173 170 149
+Discretionary: 3010 Newobligations,unexpiredaccounts.................................... 221 199 289
+4000 Budgetauthority,gross......................................................... 604 653 734 3011 Obligations("upwardadjustments"),expiredaccounts........ 7 ................. .................
+Outlays,gross: 3020 Outlays(gross)...................................................................... -220 -220 -262
+4010 Outlaysfromnewdiscretionaryauthority.......................... 574 620 697 3041 Recoveriesofprioryearunpaidobligations,expired............. -11 ................. .................
+4011 Outlaysfromdiscretionarybalances................................. 13 36 33
+3050 Unpaidobligations,endofyear................................................. 170 149 176
+4020 Outlays,gross(total)............................................................. 587 656 730 Uncollectedpayments:
+4180 Budgetauthority,net(total).......................................................... 604 653 734 3060 Uncollectedpymts,Fedsources,broughtforward,Oct1........ -2 -1 -1
+4190 Outlays,net(total)........................................................................ 587 656 730 3070 Changeinuncollectedpymts,Fedsources,unexpired.......... 1 ................. .................
+3090 Uncollectedpymts,Fedsources,endofyear............................. -1 -1 -1
+ObjectClassification(inmillionsofdollars)
+Memorandum(non-add)entries:
+3100 Obligatedbalance,startofyear............................................ 171 169 148
+Identificationcode002–0477–0–1–801 2025actual 2026est. 2027est. 3200 Obligatedbalance,endofyear.............................................. 169 148 175
+Directobligations:
+11.1 Personnelcompensation:Full-timepermanent......................... 407 444 486 Budgetauthorityandoutlays,net:
+12.1 Civilianpersonnelbenefits........................................................ 195 209 248 Discretionary:
+4000 Budgetauthority,gross......................................................... 207 199 289
+99.9 Totalnewobligations,unexpiredaccounts............................ 602 653 734 Outlays,gross:
+4010 Outlaysfromnewdiscretionaryauthority.......................... 70 139 202
+4011 Outlaysfromdiscretionarybalances................................. 150 81 60
+EmploymentSummary
+4020 Outlays,gross(total)............................................................. 220 220 262
+Identificationcode002–0477–0–1–801 2025actual 2026est. 2027est. Offsetsagainstgrossbudgetauthorityandoutlays:
+Offsettingcollections(collected)from:
+1001 Directcivilianfull-timeequivalentemployment............................ 2,744 2,903 3,044 4030 Federalsources............................................................. -5 ................. .................
+Additionaloffsetsagainstgrossbudgetauthorityonly:
+4050 Changeinuncollectedpymts,Fedsources,unexpired....... 1 ................. .................
+✦
+4070 Budgetauthority,net(discretionary)......................................... 203 199 289
+4080 Outlays,net(discretionary)....................................................... 215 220 262
+GENERAL EXPENSES
+4180 Budgetauthority,net(total).......................................................... 203 199 289
+For necessary expenses of the Capitol Police, including motor vehicles, commu- 4190 Outlays,net(total)........................................................................ 215 220 262
+nications and other equipment, security equipment and installation, uniforms,
+weapons, supplies, materials, training, medical services, forensic services, Member
+protection-related activities and equipment, stenographic services, personal and
+professional services, the employee assistance program, the awards program, postage,
+communication services, travel advances, relocation of instructor and liaison person-

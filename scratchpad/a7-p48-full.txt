@@ -1,0 +1,77 @@
+Table A-7.
+Number and Real Median Earnings of Total Workers and Full-Time, Year-Round Workers
+With Earnings by Sex and Female-to-Male Earnings Ratio: 1960 to 2023—Con.
+(Earnings in 2023 dollars, adjusted using the C-CPI-U (2000-2023) and R-CPI-U-RS (pre-2000). People 15 years and older as of
+March of the following year beginning in 1980, and people 14 years old and older as of March of the following year for previous
+years. Before 1989, earnings are for civilian workers only. Information on confidentiality protection, sampling error, nonsampling
+error, and definitions is available at <https://www2.census.gov/programs-surveys/cps/techdocs/cpsmar24.pdf>)
+Total workers Full-time, year-round workers
+Male Female Male Female
+Median earnings Median earnings Median earnings Median earnings
+Year (dollars) (dollars) (dollars) (dollars)
+Number Number Number Number Female-
+of workers of workers Margin of workers of workers to-male
+(thou- Margin of (thou- of error1 (thou- Margin of (thou- Margin of earnings
+sands) Estimate error1 (±) sands) Estimate (±) sands) Estimate error1 (±) sands) Estimate error1 (±) ratio
+197420, 21 .  . . 59,870 47,890 N 42,850 18,710 N 37,920 62,280 440 16,950 36,590 294 0.588
+1973 .  . . . . . 59,440 50,060 N 41,580 18,840 N 39,580 64,500 N 17,200 36,530 N 0.566
+197222 .  . . . . 57,770 48,890 N 39,470 19,470 N 38,180 62,420 N 16,680 36,120 N 0.579
+197123 .  . . . . 56,890 46,720 N 38,490 18,880 N 36,820 59,430 N 16,000 35,370 N 0.595
+1970 .  . . . . . 55,820 47,150 N 38,270 18,000 N 36,130 59,110 N 15,480 35,090 N 0.594
+1969 .  . . . . . 55,270 47,700 N 37,740 17,730 N 37,010 56,890 N 15,370 34,410 N 0.605
+1968 .  . . . . . 54,030 46,430 N 35,700 18,110 N 37,070 55,240 N 15,010 32,120 N 0.582
+196724 .  . . . . 53,220 45,110 N 34,390 17,620 N 36,650 53,820 N 14,850 31,100 N 0.578
+196625 .  . . . . N 45,640 N N 18,280 N N 53,010 N N 30,510 N 0.576
+196526 .  . . . . N 42,950 N N 18,430 N N 50,780 N N 30,430 N 0.599
+1964 .  . . . . . N 42,700 N N 17,330 N N 50,240 N N 29,720 N 0.591
+1963 .  . . . . . N 45,240 N N 16,630 N N 48,900 N N 28,830 N 0.589
+196227 .  . . . . N 40,770 N N 16,280 N N 47,740 N N 28,310 N 0.593
+196128 .  . . . . N 39,520 N N 15,680 N N 46,880 N N 27,780 N 0.592
+1960 .  . . . . . N 38,080 N N 15,480 N N 45,430 N N 27,560 N 0.607
+N Not available.
+1 A margin of error (MOE) is a measure of an estimate’s variability. The larger the MOE in relation to the size of the estimate, the less reliable the estimate. This number,
+when added to and subtracted from the estimate, forms the 90 percent confidence interval. MOEs shown in this table are based on standard errors calculated using
+replicate weights beginning with 2010. Before 2010, standard errors were calculated using the generalized variance function.
+2 Implementation of 2020 Census-based population controls.
+3 Estimates reflect the implementation of an updated processing system and should be used to make comparisons to 2018 and subsequent years.
+4 The 2014 CPS ASEC included redesigned questions for income and health insurance coverage. All of the approximately 98,000 addresses were eligible to receive
+the redesigned set of health insurance coverage questions. The redesigned income questions were implemented to a subsample of these 98,000 addresses using a
+probability split panel design. Approximately 68,000 addresses were eligible to receive a set of income questions similar to those used in the 2013 CPS ASEC, and the
+remaining 30,000 addresses were eligible to receive the redesigned income questions. The source of these 2013 estimates is the portion of the CPS ASEC sample that
+received the redesigned income questions, approximately 30,000 addresses.
+5 The source of these 2013 estimates is the portion of the CPS ASEC sample that received the income questions consistent with the 2013 CPS ASEC, approximately
+68,000 addresses.
+6 Implementation of 2010 Census-based population controls. Beginning with 2010, standard errors in this table were calculated using replicate weights. Before 2010,
+standard errors were calculated using the generalized variance function.
+7 Beginning with 2009 income data, the Census Bureau expanded the upper income intervals used to calculate medians to $250,000 or more. Medians falling in the
+upper open-ended interval are plugged with “$250,000.” Before 2009, the upper open-ended interval was $100,000 and a plug of “$100,000” was used.
+8 Data have been revised to reflect a correction to the weights in the 2005 CPS ASEC.
+9 Implementation of a 28,000-household sample expansion.
+10 Implementation of 2000 Census-based population controls.
+11 Full implementation of 1990 Census-based sample design and metropolitan definitions, 7,000 household sample reduction, and revised editing of responses on race.
+12 Introduction of 1990 Census-based sample design.
+13 Data collection method changed from paper and pencil to computer-assisted interviewing. In addition, the 1994 CPS ASEC was revised to allow for the coding of
+different income amounts on selected questionnaire items. Limits either increased or decreased in the following categories: earnings limits increased to $999,999; Social
+Security limits increased to $49,999; Supplemental Security Income and public assistance limits increased to $24,999; veterans’ benefits limits increased to $99,999; child
+support and alimony limits decreased to $49,999.
+14 Implementation of 1990 Census-based population controls.
+15 Implementation of a new CPS ASEC processing system.
+16 Recording of amounts for earnings from longest job increased to $299,999. Full implementation of 1980 Census-based sample design.
+17 Implementation of Hispanic population weighting controls and introduction of 1980 Census-based sample design.
+18 Implementation of 1980 Census-based population controls. Questionnaire expanded to show 27 possible values from 51 possible sources of income.
+19 First year medians were derived using both Pareto and linear interpolation. Before this year, all medians were derived using linear interpolation.
+20 Some of these estimates were derived using Pareto interpolation and may differ from published data, which were derived using linear interpolation.
+21 Implementation of a new CPS ASEC processing system. Questionnaire expanded to ask 11 income questions.
+22 Full implementation of 1970 Census-based sample design.
+23 Introduction of 1970 Census-based sample design and population controls.
+24 Implementation of a new CPS ASEC processing system.
+25 Questionnaire expanded to ask eight income questions.
+26 Implementation of new procedures to impute missing data only.
+27 Full implementation of 1960 Census-based sample design and population controls.
+28 Introduction of 1960 Census-based sample design. Implementation of first hotdeck procedure to impute missing income entries.
+Note: Median earnings estimates are currently calculated using linear interpolation and $2,500 intervals. Between 1976 and 1987, some median earnings estimates
+were also calculated using Pareto interpolation. More details on the different methods used can be found in “Money Income and Poverty Status in the United States:
+1988 (Advance Report)” at <https://www2.census.gov/library/publications/1989/demographics/p60-166.pdf>. Inflation-adjusted estimates may differ slightly from other
+published data due to rounding.
+Source: U.S. Census Bureau, Current Population Survey, 1961 to 2024 Annual Social and Economic Supplements (CPS ASEC).
+42 Income in the United States: 2023 U.S. Census Bureau

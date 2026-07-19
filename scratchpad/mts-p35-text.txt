@@ -1,0 +1,63 @@
+Table 7. Receipts and Outlays of the U.S. Government by Month, Fiscal Year 2026 - Continued
+[$ millions]
+Com-
+Fiscal parable
+Classification Oct. Nov. Dec. Jan. Feb. March April May June July Aug. Sept. Year to Period
+Date Prior F.Y.
+Outlays: - Continued
+    Compensation and Pensions 32,631 1,115 33,448 19,055 17,887 8,867 18,149 18,132 149,284 144,809
+    National Service Life 13 8 13 12 13 12 14 14 100 139
+    Other 16,792 13,187 16,765 16,392 16,702 8,450 17,472 15,089 120,849 114,682
+  Corps of Engineers 1,343 1,055 1,159 -84 975 1,188 1,053 1,113 7,801 9,114
+  Other Defense Civil Programs 10,519 898 13,119 9,473 5,627 401 4,423 3,763 48,223 57,449
+  Environmental Protection Agency 1,543 1,295 1,628 1,128 1,504 1,332 1,235 1,249 10,914 30,681
+  Executive Office of the President 19 -145 -972 48 -62 38 63 50 -961 -137
+  General Services Administration 1,283 93 -609 -662 -311 59 -136 -260 -544 -70
+  International Assistance Programs:
+    International Security Assistance 1,540 565 3,449 476 314 1,908 666 804 9,722 12,586
+    Multilateral Assistance 4 3 3 2 2 93 61 228 395 747
+    Agency for International Development 439 594 221 407 511 2,186 582 857 5,796 8,532
+    Other -2,002 19,827 -23,277 1,622 2,362 -1,721 1,711 2,710 1,232 -2,684
+  National Aeronautics and Space Administration 1,559 2,427 2,635 1,952 1,807 1,909 1,454 1,779 15,523 16,233
+  National Science Foundation 723 674 677 674 678 707 648 687 5,468 6,227
+  Office of Personnel Management 12,704 10,775 11,175 10,802 10,119 10,777 13,356 11,862 91,570 85,973
+  Small Business Administration 125 106 135 144 127 -150 122 53 662 1,535
+  Social Security Administration:
+    Federal Old-Age and Survivors Insurance Trust
+      Fund (Off-Budget) 121,041 120,264 120,669 124,256 124,690 125,454 125,973 126,495 988,843 933,143
+    Federal Disability Insurance Trust Fund
+      (Off-Budget) 13,096 13,716 13,348 13,689 13,714 13,867 13,532 13,561 108,522 106,930
+    Other 10,402 298 10,882 5,604 5,377 124 5,466 5,803 43,956 48,916
+      Deposit Insurance Fund -171 -99 -5,451 267 -2,740 -5,318 -214 208 -13,516 -14,546
+      FSLIC Resolution Fund -4 -3 -4 -3 -3 -3 -3 -3 -26 -35
+    Postal Service:
+      Off-Budget:
+        Public Enterprise Funds 1,397 -229 -1,638 1,800 437 -44 -135 55 1,642 322
+        Other (**) 90 ...... (**) (**) (**) (**) (**) 90 270
+      Other 32 ...... ...... ...... ...... 86 ...... ...... 117 81
+    Tennessee Valley Authority 494 -1,181 484 59 144 -47 -4 -1,349 -1,401 1,479
+    Other 2,080 2,833 3,203 2,452 2,679 3,042 4,196 1,877 22,362 26,424
+  Undistributed Offsetting Receipts:
+    Employer Share, Employee Retirement -45,488 -9,764 -9,253 -9,021 -8,984 -9,281 -8,489 -8,150 -108,431 -105,363
+    Interest Received by Trust Funds -9,923 -6,476 -62,150 3,439 -12,246 -6,463 -12,929 -18,922 -125,670 -102,766
+    Rents and Royalties on the Outer Continental
+      Shelf Lands -407 -423 -601 -381 -644 -884 -876 -988 -5,206 -3,658
+    Sale of Major Assets ...... ...... ...... ...... ...... -1 ...... ...... -1 ......
+    Other ...... ...... (**) -1 -1 -1 -1 -1 -4 -5
+  Totals This Year:
+    Total Outlays 688,704 509,279 629,136 654,667 620,623 548,963 622,319 628,161 4,901,851 ......
+      (On-Budget) 567,688 377,575 531,372 529,781 484,129 412,180 501,959 490,896 3,895,582 ......
+      (Off-Budget) 121,016 131,703 97,764 124,886 136,494 136,783 120,359 137,265 1,006,270 ......
+    Total-Surplus (+) or Deficit (-) -284,333-173,277-144,752 -94,615-307,501-164,100 215,024-292,648 -1,246,203 ......
+      (On-Budget) -254,862-140,734-151,814 -98,197-279,169-146,870 194,874-265,456 -1,142,226 ......
+      (Off-Budget) -29,471 -32,543 7,061 3,582 -28,333 -17,230 20,150 -27,193 -103,977 ......
+    Total Borrowing from the Public 295,826 141,587 73,413 70,901 266,903 244,023-160,234 241,002 1,173,420 648,351
+Total-Outlays Prior Year 584,220 668,517 541,146 641,935 603,441 528,174 591,769 686,881 ...... 4,846,083
+(On-Budget) 475,361 546,637 453,675 530,261 477,773 384,754 476,629 556,466 ...... 3,901,556
+(Off-Budget) 108,859 121,880 87,471 111,673 125,668 143,419 115,141 130,415 ...... 944,527
+Total-Surplus (+) or Deficit (-) Prior Year -257,450-366,763 -86,732-128,640-307,017-160,528 258,400-315,652 ......-1,364,382
+(On-Budget) -236,202-339,601 -98,069-138,000-283,367-129,904 241,583-288,570 ......-1,272,130
+(Off-Budget) -21,248 -27,162 11,337 9,360 -23,650 -30,625 16,817 -27,082 ...... -92,252
+Note: Details may not add to totals due to rounding. (**) Less than absolute value of $500,000
+... No Transactions
+35

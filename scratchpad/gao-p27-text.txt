@@ -1,0 +1,97 @@
+GovernmentPublishingOffice—Continued 39
+LEGISLATIVE BRANCH FederalFunds—Continued
+libraries as well as increasing public use of the FDLP content. As the FDLP ProgramandFinancing(inmillionsofdollars)
+continues its transition to a primarily electronic program, the costs of the
+Identificationcode004–4505–0–4–808 2025actual 2026est. 2027est.
+program are increasingly related to identifying, acquiring, cataloging,
+linking to, authenticating, modernizing, and providing permanent public
+Obligationsbyprogramactivity:
+access to digital Government information. 0801 BusinessOperations................................................................. 1,276 1,268 1,268
+0811 Capitalinvestment.................................................................... 26 26 26
+Cataloging and indexing.—The Public Information Programs of the Su-
+perintendent of Documents are charged with preparing catalogs and indexes 0900 Totalnewobligations,unexpiredaccounts.................................... 1,302 1,294 1,294
+of all publications issued by the Federal Government that are not confiden-
+tial in character. The principal publication is the web-based "Catalog of Budgetaryresources:
+Unobligatedbalance:
+U.S. Government Publications (CGP)" (https://catalog.gpo.gov/). GPO's 1000 Unobligatedbalancebroughtforward,Oct1......................... 372 404 319
+goal is to expand the CGP to a more comprehensive title listing of public 1012 Unobligatedbalancetransfersbetweenexpiredandunexpired
+accounts........................................................................... 10 ................. .................
+documents, both historic and electronic, to increase the visibility and use
+of Government information products. 1070 Unobligatedbalance(total)........................................................... 382 404 319
+Budgetauthority:
+International Exchange Service (IES).—Under the direction of the Library
+Appropriations,discretionary:
+of Congress (LC), the Public Information Programs of the Superintendent 1100 Appropriation.................................................................... 12 9 9
+of Documents distributes tangible Government publications to foreign Spendingauthorityfromoffsettingcollections,mandatory:
+1800 Collected........................................................................... 1,343 1,179 1,179
+governments that agree to send the United States similar publications of 1801 Changeinuncollectedpayments,Federalsources............ -31 21 21
+their governments for LC collections.
+1850 Spendingauthfromoffsettingcollections,mand(total)....... 1,312 1,200 1,200
+ObjectClassification(inmillionsofdollars) 1900 Budgetauthority(total)............................................................. 1,324 1,209 1,209
+1930 Totalbudgetaryresourcesavailable.............................................. 1,706 1,613 1,528
+Memorandum(non-add)entries:
+Identificationcode004–0201–0–1–808 2025actual 2026est. 2027est. 1941 Unexpiredunobligatedbalance,endofyear.......................... 404 319 234
+Directobligations:
+11.1 Personnelcompensation:Full-timepermanent......................... 13 14 14 Changeinobligatedbalance:
+12.1 Civilianpersonnelbenefits........................................................ 5 5 5 Unpaidobligations:
+22.0 Transportationofthings............................................................ 1 1 1 3000 Unpaidobligations,broughtforward,Oct1.......................... 692 580 655
+24.0 Printingandreproduction......................................................... 4 6 6 3010 Newobligations,unexpiredaccounts.................................... 1,302 1,294 1,294
+25.2 Otherservicesfromnon-Federalsources.................................. 14 17 17 3020 Outlays(gross)...................................................................... -1,414 -1,219 -1,241
+99.9 Totalnewobligations,unexpiredaccounts............................ 37 43 43 3050 Unpaidobligations,endofyear................................................. 580 655 708
+Uncollectedpayments:
+3060 Uncollectedpymts,Fedsources,broughtforward,Oct1........ -244 -213 -234
+EmploymentSummary
+3070 Changeinuncollectedpymts,Fedsources,unexpired.......... 31 -21 -21
+Identificationcode004–0201–0–1–808 2025actual 2026est. 2027est. 3090 Uncollectedpymts,Fedsources,endofyear............................. -213 -234 -255
+Memorandum(non-add)entries:
+1001 Directcivilianfull-timeequivalentemployment............................ 81 81 93 3100 Obligatedbalance,startofyear............................................ 448 367 421
+3200 Obligatedbalance,endofyear.............................................. 367 421 453
+✦
+Budgetauthorityandoutlays,net:
+Discretionary:
+GOVERNMENT PUBLISHING OFFICE BUSINESS OPERATIONS REVOLVING FUND 4000 Budgetauthority,gross......................................................... 12 9 9
+Outlays,gross:
+For payment to the Government Publishing Office Business Operations Revolving
+4010 Outlaysfromnewdiscretionaryauthority.......................... ................. 4 4
+Fund, $9,148,000, to remain available until expended, for information technology 4011 Outlaysfromdiscretionarybalances................................. 14 23 19
+development and facilities repair: Provided, That the Government Publishing Office
+4020 Outlays,gross(total)............................................................. 14 27 23
+is hereby authorized to make such expenditures, within the limits of funds available
+Mandatory:
+and in accordance with law, and to make such contracts and commitments without 4090 Budgetauthority,gross......................................................... 1,312 1,200 1,200
+regard to fiscal year limitations as provided by section 9104 of title 31, United States Outlays,gross:
+Code, as may be necessary in carrying out the programs and purposes set forth in 4100 Outlaysfromnewmandatoryauthority............................. 1,028 960 960
+4101 Outlaysfrommandatorybalances.................................... 372 232 258
+the budget for the current fiscal year for the Government Publishing Office Business
+Operations Revolving Fund: Provided further, That not more than $7,500 may be 4110 Outlays,gross(total)............................................................. 1,400 1,192 1,218
+expended on the certification of the Director of the Government Publishing Office Offsetsagainstgrossbudgetauthorityandoutlays:
+in connection with official representation and reception expenses: Provided further, Offsettingcollections(collected)from:
+4120 Federalsources............................................................. -1,343 -1,155 -1,155
+That the Business Operations Revolving Fund shall be available for the hire or
+4123 Non-Federalsources..................................................... ................. -24 -24
+purchase of not more than 12 passenger motor vehicles: Provided further, That ex-
+penditures in connection with travel expenses of the advisory councils to the Director 4130 Offsetsagainstgrossbudgetauthorityandoutlays(total).... -1,343 -1,179 -1,179
+Additionaloffsetsagainstgrossbudgetauthorityonly:
+of the Government Publishing Office shall be deemed necessary to carry out the
+4140 Changeinuncollectedpymts,Fedsources,unexpired....... 31 -21 -21
+provisions of title 44, United States Code: Provided further, That the Business Op-
+erations Revolving Fund shall be available for temporary or intermittent services 4160 Budgetauthority,net(mandatory)............................................ ................. ................. .................
+4170 Outlays,net(mandatory)........................................................... 57 13 39
+under section 3109(b) of title 5, United States Code, but at rates for individuals not
+4180 Budgetauthority,net(total).......................................................... 12 9 9
+more than the daily equivalent of the annual rate of basic pay for level V of the Ex- 4190 Outlays,net(total)........................................................................ 71 40 62
+ecutive Schedule under section 5316 of such title: Provided further, That activities
+financed through the Business Operations Revolving Fund may provide information All GPO activities are financed through the agency's Business Operations
+in any format: Provided further, That the Business Operations Revolving Fund and
+Revolving Fund, established by section 309 of Title 44, U.S.C. This busi-
+the funds provided under the heading "Public Information Programs of the Superin-
+ness-like fund is used to pay all GPO costs in performing congressional
+tendent of Documents" may not be used for contracted security services at Govern-
+and agency publishing, printing and information product procurement,
+ment Publishing Office's passport facility in the District of Columbia. (Legislative
+Branch Appropriations Act, 2026.) publications dissemination and space sharing activities. It is reimbursed
+from payments from customer agencies, sales to the public, and transfers
+from GPO's two annual appropriations: the Congressional Publishing Ap-
+propriation and the Public Information Programs of the Superintendent of
+Documents Appropriation. GPO pays its expenses from the Fund and the
+Fund is reimbursed when the Treasury Department transfers money from

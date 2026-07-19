@@ -1,0 +1,54 @@
+Table B-5.
+Selected Measures of Household Post-Tax Income Dispersion: 2009 to 2023
+(Income in 2023 dollars, adjusted using the C-CPI-U. Further explanation of income inequality measures is available at “The
+Changing Shape of the Nation’s Income Distribution: 1947–1998,” Current Population Reports, Series P60-204. Information on
+confidentiality protection, sampling error, nonsampling error, and definitions is available at <https://www2.census.gov/programs-
+surveys/cps/techdocs/cpsmar24.pdf>)
+Measures of post-tax income dispersion1
+Post-tax income ratios at
+Post-tax income at selected percentiles
+selected percentiles
+Year
+50th
+10th 20th 30th 40th percentile 60th 70th 80th 90th 95th per-
+percentile percentile percentile percentile (median) percentile percentile percentile percentile centile 90th/10th 90th/50th 50th/10th
+2023 .  . . . . 18,780 31,830 43,840 55,550 69,240 85,400 105,500 132,600 181,800 237,200 9.68 2.63 3.69
+2022 .  . . . . 17,840 30,410 42,270 53,770 66,800 82,430 101,600 126,700 172,500 228,500 9.67 2.58 3.74
+2021 .  . . . . 20,720 33,800 46,840 59,530 73,170 89,790 110,700 138,600 185,200 241,300 8.94 2.53 3.53
+20202  . . . . 21,120 34,450 47,280 59,860 73,780 90,120 110,700 139,000 185,100 242,600 8.77 2.51 3.49
+2019 .  . . . . 18,970 32,250 44,490 56,750 70,440 87,150 107,400 134,900 184,300 241,200 9.72 2.62 3.71
+2018 .  . . . . 17,450 30,090 41,750 53,310 66,240 81,150 100,300 125,700 171,600 226,200 9.84 2.59 3.80
+20173  . . . . 17,420 29,280 40,290 51,370 63,950 79,190 97,790 123,500 168,200 220,700 9.65 2.63 3.67
+2017 .  . . . . 17,350 29,230 40,210 51,520 64,240 79,330 97,320 122,600 165,000 213,300 9.51 2.57 3.70
+2016 .  . . . . 16,950 29,090 39,970 50,930 63,350 78,120 95,910 118,000 161,600 207,400 9.54 2.55 3.74
+2015 .  . . . . 16,710 28,110 38,470 49,360 61,470 74,860 90,490 111,600 154,100 198,700 9.22 2.51 3.68
+2014 .  . . . . 15,760 26,500 36,850 47,340 59,220 72,230 87,500 108,800 150,100 194,900 9.52 2.53 3.76
+20134  . . . . 15,900 26,250 36,680 46,850 58,040 71,150 87,070 109,000 148,300 187,000 9.33 2.55 3.65
+20135  . . . . 15,770 26,430 36,850 47,680 59,790 72,330 87,210 108,300 149,900 195,200 9.50 2.51 3.79
+2012 .  . . . . 16,150 26,670 36,510 46,930 58,200 71,420 87,840 110,400 149,800 186,800 9.28 2.57 3.60
+2011 .  . . . . 15,820 26,700 36,700 46,760 57,760 70,780 87,360 110,000 149,600 186,700 9.46 2.59 3.65
+20106  . . . . 16,190 26,720 37,170 47,370 58,530 71,700 88,100 110,100 146,000 183,700 9.02 2.49 3.61
+20097  . . . . 17,000 28,080 38,310 48,490 59,670 72,900 89,180 111,100 147,000 185,500 8.64 2.46 3.51
+1 Post-tax income is defined as money income net of federal and state income taxes and credits, payroll taxes (FICA), economic impact pay-
+ments (EIP), and state stimulus and rebate payments. Information on money income collected in the CPS ASEC is available in Appendix A, section
+“How Income Is Measured.”
+2 Implementation of 2020 Census-based population controls.
+3 Estimates reflect the implementation of an updated processing system and should be used to make comparisons to 2018 and subsequent
+years.
+4 The 2014 CPS ASEC included redesigned questions for income and health insurance coverage. All of the approximately 98,000 addresses
+were eligible to receive the redesigned set of health insurance coverage questions. The redesigned income questions were implemented to a sub-
+sample of these 98,000 addresses using a probability split panel design. Approximately 68,000 addresses were eligible to receive a set of income
+questions similar to those used in the 2013 CPS ASEC, and the remaining 30,000 addresses were eligible to receive the redesigned income ques-
+tions. The source of these 2013 estimates is the portion of the CPS ASEC sample that received the redesigned income questions, approximately
+30,000 addresses.
+5 The source of these 2013 estimates is the portion of the CPS ASEC sample that received the income questions consistent with the 2013 CPS
+ASEC, approximately 68,000 addresses.
+6 Implementation of 2010 Census-based population controls. Beginning with 2010, standard errors in this table were calculated using replicate
+weights. Before 2010, standard errors were calculated using the generalized variance function.
+7 Beginning with 2009 income data, the Census Bureau expanded the upper income intervals used to calculate medians to $250,000 or more.
+Medians falling in the upper open-ended interval are plugged with “$250,000.” Before 2009, the upper open-ended interval was $100,000 and a
+plug of “$100,000” was used.
+Note: Median income estimates are calculated using linear interpolation and $2,500 intervals. Inflation-adjusted estimates may differ slightly
+from other published data due to rounding. Margins of error are available via email at <sehsd.isb.list@census.gov>.
+Source: U.S. Census Bureau, Current Population Survey, 2010 to 2024 Annual Social and Economic Supplements (CPS ASEC).
+U.S. Census Bureau Income in the United States: 2023 49

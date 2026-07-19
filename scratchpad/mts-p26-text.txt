@@ -1,0 +1,69 @@
+Table 6. Schedule C (Memorandum)-Federal Agency Borrowing Financed Through the Issue of Treasury Securities,
+               May 2026 and Other Periods
+[$ millions]
+Transactions Account Balances
+Current Fiscal Year
+Classification Fiscal Year to Date Beginning of Close of
+This Month This Year Prior Year This Year This Month This Month
+Borrowing from the US Treasury:
+  Department of Agriculture:
+    Office of the Secretary:
+      Food Supply Chain and Agriculture Pandemic Response ...... -6 26 27 22 22
+    Farm Service Agency:
+      Commodity Credit Corporation -193 -11,128 1,182 26,849 15,914 15,721
+      Agricultural Credit Insurance Fund 323 -925 914 21,821 20,573 20,896
+      Farm Storage Facility Loans 5 -135 -1 1,900 1,759 1,764
+    Rural Housing Service:
+      Rural Housing Insurance 55 -2,213 -771 21,129 18,861 18,916
+      Rural Community Facility Loans Fund 80 -201 335 13,561 13,281 13,360
+    Rural Business - Cooperative Service:
+      Rural Business and Industry Loans ...... -154 173 381 228 228
+      Rural Development Loan Fund (**) -16 -17 256 239 239
+      Rural Economic Development Loan Fund 3 -26 2 277 248 251
+      Renewable Energy Guaranteed Loan Account 2 -15 9 43 26 28
+      Rural Microenterprise Investment Loans (**) -2 -2 41 39 39
+      Biorefinery Assistance Loan Account ...... -40 -90 140 100 100
+    Rural Utilities Service:
+      Rural Water and Waste Disposal Fund 123 -164 55 15,704 15,416 15,540
+      Rural Electrification and Telecommunications Fund 238 555 2,130 16,016 16,334 16,572
+      Rural Telephone Bank ...... -5 -14 42 37 37
+      Distance Learning and Telemedicine Program 12 38 14 722 749 761
+    Foreign Agricultural Service ...... ...... ...... 175 175 175
+  Department of Commerce:
+    Economic Development Administration ...... ...... 220 220 220 220
+    National Oceanic and Atmospheric Administration:
+      Fisheries Finance 32 40 8 556 563 595
+  Department of Defense--Military Programs:
+    Family Housing Improvement Loans ...... ...... ...... 1,666 1,666 1,666
+    Defense Agencies ...... 1,288 ...... 376 1,665 1,665
+  Department of Education:
+    College Housing and Academic Facilities Loans ...... (**) (**) 1 1 1
+    Historically Black College and University Capital Financing
+      Fund ...... ...... ...... 67 67 67
+    Federal Direct Student Loans -36,308 35,749 56,844 1,297,312 1,369,368 1,333,060
+    Teach Grant Loans ...... 30 25 628 658 658
+    Temporary Student Loan Purchase Authority ...... -81 -27 18,558 18,478 18,478
+    Federal Family Education Loans ...... ...... ...... 28,355 28,355 28,355
+  Department of Energy:
+    Bonneville Power Administration Fund 206 466 374 6,246 6,505 6,711
+    Western Area Power Administration - Recovery Act ...... ...... ...... 76 76 76
+    Advanced Technology Vehicles Manufacturing Loans 169 169 ...... 82 82 252
+    Title 17 Innovative Technology Loans 2 56 16 769 824 826
+  Department of Health and Human Services:
+    Consumer Operated and Oriented Plan ...... ...... ...... 290 290 290
+    Consumer Operated and Oriented Plan Program Contingency Fund ...... ...... ...... 68 68 68
+  Department of Homeland Security:
+    National Flood Insurance Fund ...... ...... 2,000 22,525 22,525 22,525
+    Disaster Assistance Loan Fund 1 2 5 8 9 10
+  Department of Housing and Urban Development:
+    Public and Indian Housing Programs:
+      Low-Rent Public Housing - Loans and Other Expenses ...... (**) (**) 36 36 36
+      Native Hawaiian Housing Loans ...... (**) (**) 6 6 6
+    Housing Programs:
+      Emergency Homeowners' Relief Fund ...... ...... ...... 3 3 3
+      Federal Housing Administration ...... ...... ...... 143,968 143,968 143,968
+      Home Ownership Preservation Equity Fund ...... ...... ...... 6 6 6
+      Green Retrofit Program for Multifamily Housing-Recovery Act (**) -20 71 336 317 317
+  Department of the Interior:
+    Bureau of Indian Affairs and Bureau of Indian Education ...... ...... ...... (**) (**) (**)
+26

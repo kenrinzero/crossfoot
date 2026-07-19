@@ -1,0 +1,69 @@
+Table 7. Receipts and Outlays of the U.S. Government by Month, Fiscal Year 2026
+[$ millions]
+Com-
+Fiscal parable
+Classification Oct. Nov. Dec. Jan. Feb. March April May June July Aug. Sept. Year to Period
+Date Prior F.Y.
+Receipts:
+  Individual Income Taxes 216,953 146,957 242,337 317,304 133,389 188,500 515,120 151,979 1,912,539 1,823,171
+  Corporation Income Taxes 15,068 7,169 59,448 30,695 -3,187 6,856 82,593 11,161 209,804 298,187
+  Social Insurance and Retirement Receipts:
+    Employment and General Retirement 123,852 134,288 141,682 166,306 138,425 152,896 184,192 142,094 1,183,735 1,122,016
+    Unemployment Insurance 3,401 2,762 783 2,682 5,301 -1,906 11,349 14,540 38,911 38,463
+    Other Retirement 539 739 695 815 655 733 702 646 5,525 5,657
+  Excise Taxes 5,983 8,454 7,584 8,527 7,346 7,300 13,397 8,702 67,293 67,762
+  Estate and Gift Taxes 3,721 2,993 1,578 3,855 2,657 4,995 4,695 3,457 27,951 19,855
+  Customs Duties 31,354 30,756 27,892 27,742 26,594 22,155 22,124 -42 188,575 81,386
+  Miscellaneous Receipts 3,501 1,884 2,385 2,124 1,942 3,332 3,172 2,975 21,316 25,203
+  Total--Receipts This Year 404,371 336,002 484,384 560,052 313,122 384,863 837,343 335,512 3,655,648 ......
+    (On-Budget) 312,826 236,842 379,559 431,584 204,961 265,310 696,834 225,440 2,753,355 ......
+    (Off-Budget) 91,545 99,160 104,825 128,468 108,161 119,552 140,509 110,072 902,293 ......
+Total--Receipts Prior Year 326,770 301,754 454,415 513,294 296,424 367,645 850,169 371,229 ...... 3,481,701
+(On-Budget) 239,159 207,036 355,606 392,261 194,406 254,851 718,211 267,896 ...... 2,629,427
+(Off-Budget) 87,611 94,718 98,809 121,033 102,018 112,795 131,958 103,333 ...... 852,274
+Outlays:
+  Legislative Branch 311 840 551 605 568 665 548 556 4,644 4,755
+  Judicial Branch 653 676 1,024 955 794 874 636 960 6,572 6,485
+  Department of Agriculture:
+    Commodity Credit Corporation 960 3,854 4,092 869 -474 -756 -251 -266 8,027 7,138
+    Foreign Agricultural Service 74 146 183 105 202 68 87 158 1,023 1,326
+    Other 16,300 14,384 15,824 13,632 13,267 33,830 17,129 22,734 147,099 149,891
+  Department of Commerce 478 1,192 1,383 1,187 1,165 1,506 1,045 728 8,684 17,626
+  Department of Defense--Military Programs:
+    Military Personnel 48,020 15,447 24,955 15,091 15,330 9,040 15,035 15,570 158,489 150,295
+    Operation and Maintenance 18,235 26,392 29,418 28,198 26,871 28,700 31,004 26,559 215,378 223,820
+    Procurement 12,372 12,079 24,323 12,182 12,413 13,558 13,479 12,858 113,263 107,649
+    Research, Development, Test, and Evaluation 13,176 7,684 16,709 11,962 11,875 13,141 12,799 12,009 99,357 89,270
+    Military Construction 1,378 1,039 1,524 985 1,084 1,210 1,097 990 9,307 8,782
+    Family Housing 119 126 168 147 120 154 130 113 1,076 1,019
+    Revolving and Management Funds 2,140 -680 1,147 2,074 -700 -492 -298 1,037 4,229 1,799
+    Other 105 -224 53 112 -124 -210 -422 -58 -768 -974
+    Total Department of Defense--Military Programs 95,546 61,863 98,297 70,751 66,870 65,102 72,825 69,078 600,331 581,661
+  Department of Education 18,857 6,724 5,892 19,262 10,874 8,364 6,932 5,836 82,742 92,918
+  Department of Energy 5,070 3,590 5,014 4,185 3,722 4,100 4,256 3,892 33,829 34,838
+  Department of Health and Human Services:
+    National Institutes of Health 3,314 3,598 4,638 3,559 3,411 4,039 3,682 3,604 29,846 29,603
+    Centers for Medicare and Medicaid Services:
+      Grants to States for Medicaid 55,783 55,147 65,349 51,779 57,142 67,828 56,010 62,672 471,709 436,300
+      Federal Hospital Insurance Trust Fund 53,153 17,942 38,774 55,121 35,244 24,750 37,409 36,954 299,347 307,272
+      Federal Supplementary Medical Insurance
+        Trust Fund 111,702 23,048 56,486 111,024 54,724 23,087 67,616 66,654 514,340 514,702
+      Other 35,459 76,457 55,935 66,978 45,568 57,411 79,402 53,116 470,325 410,315
+    Administration for Children and Families 5,626 4,898 6,113 6,253 5,766 6,536 6,234 5,830 47,257 50,333
+    Other -36,954 -84,587 -65,237 -77,626 -53,960 -74,855 -90,743 -63,701 -547,662 -467,509
+  Department of Homeland Security 5,513 6,346 7,512 12,964 6,189 7,765 8,497 9,421 64,208 78,830
+  Department of Housing and Urban Development 5,850 5,520 5,561 5,479 5,553 5,794 6,002 6,441 46,202 46,527
+  Department of the Interior 771 1,670 1,406 1,357 1,097 1,522 819 1,711 10,351 14,009
+  Department of Justice 2,085 5,977 3,821 3,271 3,410 4,697 3,196 3,385 29,842 29,608
+  Department of Labor:
+    Unemployment Trust Fund 2,772 3,733 4,718 4,175 4,294 2,095 3,589 3,098 28,475 30,787
+    Other -165 1,449 1,878 27 1,369 599 4,120 1,319 10,596 8,524
+  Department of State 2,179 2,000 2,328 2,061 2,546 2,581 1,069 2,339 17,103 19,789
+  Department of Transportation:
+    Highway Trust Fund 5,560 3,775 5,120 3,232 3,127 4,334 3,606 4,205 32,958 32,115
+    Other 4,305 5,154 5,042 5,313 4,739 5,636 5,077 4,672 39,939 42,572
+  Department of the Treasury:
+    Interest on Treasury Debt Securities (Gross) 104,404 96,255 153,922 71,888 93,483 102,644 111,601 132,623 866,820 776,340
+    Other 17,314 16,123 14,456 12,661 69,256 32,157 24,537 13,427 199,931 212,319
+  Department of Veterans Affairs:
+34

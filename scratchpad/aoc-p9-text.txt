@@ -1,0 +1,92 @@
+ArchitectoftheCapitol—Continued 21
+LEGISLATIVE BRANCH FederalFunds—Continued
+1900 Budgetauthority(total)............................................................. 49 74 55 Budgetauthority:
+1930 Totalbudgetaryresourcesavailable.............................................. 163 177 152 Appropriations,discretionary:
+Memorandum(non-add)entries: 1100 Appropriation.................................................................... 22 19 34
+1941 Unexpiredunobligatedbalance,endofyear.......................... 103 97 64 1120 Appropriationstransferredtootheracct[001–0161]........ -1 ................. .................
+1120 Appropriationstransferredtootheracct[009–0200]........ -2 ................. .................
+Changeinobligatedbalance: 1160 Appropriation,discretionary(total)....................................... 19 19 34
+Unpaidobligations: 1930 Totalbudgetaryresourcesavailable.............................................. 30 27 42
+3000 Unpaidobligations,broughtforward,Oct1.......................... 22 26 34 Memorandum(non-add)entries:
+3010 Newobligations,unexpiredaccounts.................................... 60 80 88 1941 Unexpiredunobligatedbalance,endofyear.......................... 8 8 14
+3011 Obligations("upwardadjustments"),expiredaccounts........ 2 ................. .................
+3020 Outlays(gross)...................................................................... -56 -72 -58
+3040 Recoveriesofprioryearunpaidobligations,unexpired......... -1 ................. ................. Changeinobligatedbalance:
+3041 Recoveriesofprioryearunpaidobligations,expired............. -1 ................. ................. Unpaidobligations:
+3000 Unpaidobligations,broughtforward,Oct1.......................... 6 10 6
+3050 Unpaidobligations,endofyear................................................. 26 34 64 3010 Newobligations,unexpiredaccounts.................................... 22 19 28
+Memorandum(non-add)entries: 3020 Outlays(gross)...................................................................... -18 -23 -21
+3100 Obligatedbalance,startofyear............................................ 22 26 34
+3200 Obligatedbalance,endofyear.............................................. 26 34 64 3050 Unpaidobligations,endofyear................................................. 10 6 13
+Memorandum(non-add)entries:
+3100 Obligatedbalance,startofyear............................................ 6 10 6
+Budgetauthorityandoutlays,net: 3200 Obligatedbalance,endofyear.............................................. 10 6 13
+Discretionary:
+4000 Budgetauthority,gross......................................................... 49 74 55
+Outlays,gross: Budgetauthorityandoutlays,net:
+4010 Outlaysfromnewdiscretionaryauthority.......................... 32 33 22 Discretionary:
+4011 Outlaysfromdiscretionarybalances................................. 24 39 36 4000 Budgetauthority,gross......................................................... 19 19 34
+Outlays,gross:
+4020 Outlays,gross(total)............................................................. 56 72 58 4010 Outlaysfromnewdiscretionaryauthority.......................... 13 13 15
+Offsetsagainstgrossbudgetauthorityandoutlays: 4011 Outlaysfromdiscretionarybalances................................. 5 10 6
+Offsettingcollections(collected)from:
+4033 Non-Federalsources..................................................... -1 ................. ................. 4020 Outlays,gross(total)............................................................. 18 23 21
+Additionaloffsetsagainstgrossbudgetauthorityonly: 4180 Budgetauthority,net(total).......................................................... 19 19 34
+4052 Offsettingcollectionscreditedtoexpiredaccounts........... 1 ................. ................. 4190 Outlays,net(total)........................................................................ 18 23 21
+4070 Budgetauthority,net(discretionary)......................................... 49 74 55
+4080 Outlays,net(discretionary)....................................................... 55 72 58
+ObjectClassification(inmillionsofdollars)
+4180 Budgetauthority,net(total).......................................................... 49 74 55
+4190 Outlays,net(total)........................................................................ 55 72 58 Identificationcode001–0108–0–1–801 2025actual 2026est. 2027est.
+Directobligations:
+This presentation includes the Flag Office Revolving fund. Personnelcompensation:
+11.1 Full-timepermanent............................................................. 7 7 8
+ObjectClassification(inmillionsofdollars) 11.5 Otherpersonnelcompensation.............................................. 1 1 1
+Identificationcode001–0105–0–1–801 2025actual 2026est. 2027est. 11.9 Totalpersonnelcompensation........................................... 8 8 9
+12.1 Civilianpersonnelbenefits........................................................ 3 3 3
+Directobligations: 23.2 Rentalpaymentstoothers........................................................ 1 1 1
+Personnelcompensation: 25.1 Advisoryandassistanceservices.............................................. 5 4 10
+11.1 Full-timepermanent............................................................. 18 18 19 25.4 Operationandmaintenanceoffacilities................................... 2 1 1
+11.3 Otherthanfull-timepermanent............................................ 1 1 1 26.0 Suppliesandmaterials............................................................. 1 1 2
+11.5 Otherpersonnelcompensation.............................................. 3 3 3 31.0 Equipment................................................................................. 1 1 2
+32.0 Landandstructures.................................................................. 1 ................. .................
+11.9 Totalpersonnelcompensation........................................... 22 22 23
+12.1 Civilianpersonnelbenefits........................................................ 9 9 10 99.9 Totalnewobligations,unexpiredaccounts............................ 22 19 28
+25.1 Advisoryandassistanceservices.............................................. 5 20 25
+25.4 Operationandmaintenanceoffacilities................................... 3 3 3 EmploymentSummary
+26.0 Suppliesandmaterials............................................................. 2 4 4
+32.0 Landandstructures.................................................................. 19 22 23
+Identificationcode001–0108–0–1–801 2025actual 2026est. 2027est.
+99.9 Totalnewobligations,unexpiredaccounts............................ 60 80 88
+1001 Directcivilianfull-timeequivalentemployment............................ 83 84 85
+EmploymentSummary
+✦
+Identificationcode001–0105–0–1–801 2025actual 2026est. 2027est.
+1001 Directcivilianfull-timeequivalentemployment............................ 232 225 227
+SENATE OFFICE BUILDINGS
+For all necessary expenses for the maintenance, care and operation of Senate office
+buildings; and furniture and furnishings to be expended under the control and super-
+✦
+vision of the Architect of the Capitol, [$122,635,000] $252,846,000, of which
+[$16,900,000] $112,600,000 shall remain available until September 30, [2030]
+CAPITOL GROUNDS
+2031, and of which [$20,000,000] $44,600,000 shall remain available until expen-
+For all necessary expenses for care and improvement of grounds surrounding the ded. (Legislative Branch Appropriations Act, 2026.)
+Capitol, the Senate and House office buildings, and the Capitol Power Plant,
+[$19,385,000] $33,878,000, of which [$3,000,000] $16,331,000 shall remain
+ProgramandFinancing(inmillionsofdollars)
+available until September 30, [2030] 2031. (Legislative Branch Appropriations
+Identificationcode001–0123–0–1–801 2025actual 2026est. 2027est.
+Act, 2026.)
+ProgramandFinancing(inmillionsofdollars) Obligationsbyprogramactivity:
+0001 SenateOfficeBuildings(Direct)................................................ 115 160 170
+Identificationcode001–0108–0–1–801 2025actual 2026est. 2027est.
+Budgetaryresources:
+Unobligatedbalance:
+Obligationsbyprogramactivity:
+0001 CapitolGrounds(Direct)............................................................ 22 19 28 1000 Unobligatedbalancebroughtforward,Oct1......................... 100 129 96
+1011 Unobligatedbalancetransferfromotheracct[000–5509].... ................. 4 .................
+1021 Recoveriesofprioryearunpaidobligations........................... 5 ................. .................
+Budgetaryresources:
+Unobligatedbalance: 1070 Unobligatedbalance(total)........................................................... 105 133 96
+1000 Unobligatedbalancebroughtforward,Oct1......................... 11 8 8

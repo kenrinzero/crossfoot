@@ -1,0 +1,46 @@
+Table 6. Schedule A-Analysis of Change in Excess of Liabilities of the U.S. Government, May 2026 and Other Periods
+[$ millions]
+Fiscal Year to Date
+Classification This Month
+This Year Prior Year
+Excess of Liabilities Beginning of Period:
+  Based on Composition of Unified Budget in Preceding Period 28,459,705 27,516,113 25,719,457
+    Adjustments During Current Fiscal Year for Changes in Composition of
+      Unified Budget:
+      Revisions by Federal Agencies to the Prior Budget Results (**) ...... 35,205
+  Excess of Liabilities Beginning of Period (Current Basis) 28,459,705 27,516,113 25,754,662
+  Budget Surplus (-) or Deficit:
+    Based on Composition of Unified Budget in Prior Fiscal Year 292,648 1,246,203 1,364,382
+  Total Surplus (-) or Deficit (Table 2) 292,648 1,246,203 1,364,382
+    Total-On-Budget (Table 2) 265,456 1,142,226 1,272,130
+    Total-Off-Budget (Table 2) 27,193 103,977 92,252
+  Transactions Not Applied to Current Year's Surplus or Deficit:
+    Premium/Discount on Buyback of U.S. Treasury Securities -472 -10,412 -8,861
+    Other 76 54 -23
+    Total-Transactions Not Applied to Current Year's Surplus or Deficit -396 -10,359 -8,884
+  Excess of Liabilities Close of Period 28,751,957 28,751,957 27,110,160
+Note: Details may not add to totals due to rounding. (**) Less than absolute value of $500,000
+... No Transactions
+Table 6. Schedule B-Securities Issued by Federal Agencies Under Special Financing Authorities, May 2026 and Other Periods
+[$ millions]
+Net Transactions
+(-) denotes net reduction of Account Balances
+liability accounts Current Fiscal Year
+Classification
+This Month Fiscal Year to Date Beginning of Close of
+This Year Prior Year This Year This Month This Month
+Agency Securities, Issued Under Special Financing Authorities:
+  Obligations Guaranteed by the United States, Issued By:
+    Department of Housing and Urban Development:
+      Federal Housing Administration ...... ...... ...... 19 19 19
+  Obligations Not Guaranteed by the United States, Issued By:
+    Legislative Branch:
+      Architect of the Capitol ...... ...... ...... (**) (**) (**)
+    Independent Agencies:
+      Federal Communications Commission ...... ...... ...... (**) (**) (**)
+      National Archives and Records Administration ...... ...... ...... (**) (**) (**)
+      Tennessee Valley Authority -1,351 -1,350 701 22,057 22,057 20,706
+  Total Agency Securities -1,351 -1,350 701 22,075 22,076 20,725
+Note: Details may not add to totals due to rounding. (**) Less than absolute value of $500,000
+... No Transactions
+25

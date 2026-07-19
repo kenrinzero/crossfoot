@@ -1,0 +1,70 @@
+Table 6. Schedule E-Net Activity, Guaranteed and Direct Loan Financing, May 2026 and Other Periods
+[$ millions]
+Net Transactions
+Account Balances
+(-) denotes net reduction of Current Fiscal Year
+Classification asset accounts
+Fiscal Year to Date Beginning of Close of
+This Month This Month
+This Year Prior Year This Year This Month
+Guaranteed Loan Financing Activity:
+  Department of Agriculture:
+    Office of the Secretary:
+      Food Supply Chain and Agriculture Pandemic Response ...... 1 25 6 7 7
+    Farm Service Agency:
+      Commodity Credit Corporation Export Fund 10 -1 -37 -1 -12 -2
+      Agricultural Credit Insurance Fund -301 -308 307 202 194 -107
+    Natural Resources Conservation Service:
+      Agricultural Resource Conservation Demonstration Program ...... ...... ...... (**) (**) (**)
+    Rural Housing Service:
+      Rural Community Facility Loans (**) -1 -2 -4 -5 -5
+      Rural Housing Insurance Fund -24 -62 -92 1,869 1,831 1,807
+    Rural Business - Cooperative Service:
+      Rural Business and Industry Loans -6 44 106 171 220 214
+      Renewable Energy Guaranteed Loan Account 2 3 3 15 17 19
+      Biorefinery Assistance Loan Account (**) -1 -8 21 20 20
+    Rural Utilities Service:
+      Rural Water and Waste Disposal Fund ...... ...... (**) -25 -25 -25
+    National Forest System ...... -2 ...... -3 -4 -4
+  Department of Commerce:
+    General Administration:
+      Emergency Oil, Gas, and Steel Account ...... ...... ...... 5 5 5
+  Department of Defense--Military Programs ...... ...... ...... -25 -25 -25
+  Department of Education:
+    Office of Student Financial Assistance:
+      Federal Family Education Loans 112 2,233 2,384 -14,238 -12,116 -12,004
+  Department of Energy:
+    Title 17 Innovative Technology Loans 11 11 -1 -81 -81 -70
+    Tribal Energy Direct Loan Financing Account (**) (**) -1 -3 -3 -2
+  Department of Health and Human Services:
+    Health Resources and Services Administration:
+      Health Center Loans ...... ...... ...... -3 -3 -3
+      Health Education Assitance Loans ...... ...... ...... -70 -70 -70
+  Department of Housing and Urban Development:
+    Public and Indian Housing Programs:
+      Indian Housing Loans -1 -5 (**) -29 -33 -34
+      Native Hawaiian Housing Loans (**) (**) -1 -1 -1 -1
+    Community Planning and Development:
+      Community Development Loans (**) (**) (**) -1 -2 -2
+    Housing Programs:
+      FHA-Mutual Mortgage Insurance Loans -80 -1,436 388 91,844 90,488 90,408
+      FHA-General and Special Risk Fund -50 -831 -625 12,343 11,562 11,513
+      Home Ownership Preservation Entity Fund (**) (**) (**) 3 3 3
+    Government National Mortgage Association:
+      Guarantees of Mortgage-Backed Securities -176 -1,413 -1,096 -4,411 -5,648 -5,824
+  Department of the Interior:
+    Bureau of Indian Affairs and Bureau of Indian Education (**) -1 -3 -45 -46 -46
+  Department of Transportation:
+    Federal Highway Administration:
+      Transportation Infrastructure Finance and Innovation Fund ...... ...... ...... (**) (**) (**)
+    Maritime Administration:
+      Maritime Guaranteed Loan (Title XI) Fund ...... 2 (**) -217 -215 -215
+  Department of the Treasury:
+    Departmental Offices:
+      Air Transportation Stabilization Fund ...... ...... ...... (**) (**) (**)
+      Troubled Assets Insurance Financing Fund ...... ...... ...... (**) (**) (**)
+  Department of Veterans Affairs:
+    Veterans Benefits Administration:
+      Veterans Housing Benefit Program Fund -73 -1,356 4,181 -7,826 -9,109 -9,182
+  International Assistance Programs:
+31

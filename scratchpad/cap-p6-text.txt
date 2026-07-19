@@ -1,0 +1,88 @@
+18 CapitolPolice—Continued
+FederalFunds—Continued THE BUDGET FOR FISCAL YEAR 2027
+GENERAL EXPENSES—Continued 4190 Outlays,net(total)........................................................................ 10 11 9
+ObjectClassification(inmillionsofdollars)
+✦
+Identificationcode002–0476–0–1–801 2025actual 2026est. 2027est.
+Directobligations: ADMINISTRATIVE PROVISIONS
+21.0 Travelandtransportationofpersons......................................... 27 26 40
+23.3 Communications,utilities,andmiscellaneouscharges............ 13 12 16
+[AUTHORIZATIONSREGARDINGINTERNATIONALTRAINING
+24.0 Printingandreproduction......................................................... 1 1 ................. SEC. 118. (a) Section 4120 of title 5, United States Code, is amended by adding
+25.2 Otherservicesfromnon-Federalsources.................................. 127 120 163 at the end the following new subsection:
+26.0 Suppliesandmaterials............................................................. 14 12 12 "(c) An employee of the Capitol Police may receive training under this section
+31.0 Equipment................................................................................. 33 28 58
+outside of the United States only with the prior approval of the Capitol Police
+99.0 Directobligations.................................................................. 215 199 289 Board. In this subsection, the term "United States" means each of the several States
+99.0 Reimbursableobligations..................................................... 6 ................. ................. of the United States, the District of Columbia, and the territories and possessions
+99.9 Totalnewobligations,unexpiredaccounts............................ 221 199 289 of the United States.".
+(b) The amendment made by subsection (a) shall apply with respect to fiscal year
+2026 and each succeeding fiscal year.]
+✦
+[MUTUALAIDTRANSFERAUTHORITY
+SECURITY ENHANCEMENTS (INCLUDINGTRANSFEROFFUNDS)
+SEC. 119. Of the amounts made available under the heading "Capitol Police" in
+ProgramandFinancing(inmillionsofdollars) this Act, up to $10,000,000 may be transferred to "Capitol Police—United States
+Capitol Police Mutual Aid Reimbursements" on September 30, 2026, and, once
+Identificationcode002–0461–0–1–801 2025actual 2026est. 2027est.
+transferred, shall remain available until September 30, 2030, to be used for reim-
+bursements for mutual aid and related training, including mutual aid and training
+Budgetaryresources:
+Unobligatedbalance: provided under the agreements described in section 7302 of Public Law 108–458:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 1 1 1 Provided, That obligation of the funds transferred pursuant to this section shall be
+1930 Totalbudgetaryresourcesavailable.............................................. 1 1 1 subject to notification to the Chairmen and Ranking Members of the Committees
+Memorandum(non-add)entries: on Appropriations of both Houses of Congress, the Senate Committee on Rules and
+1941 Unexpiredunobligatedbalance,endofyear.......................... 1 1 1
+Administration and the Committee on House Administration of the amount and
+4180 Budgetauthority,net(total).......................................................... ................. ................. .................
+4190 Outlays,net(total)........................................................................ ................. ................. ................. purpose of the expense within 15 days of obligation.] (Legislative Branch Appro-
+priations Act, 2026.)
+✦ ✦
+OFFICE OF CONGRESSIONAL WORKPLACE RIGHTS
+UNITED STATES CAPITOL POLICE MUTUAL AID REIMBURSEMENTS
+Federal Funds
+ProgramandFinancing(inmillionsofdollars)
+SALARIESAND EXPENSES
+Identificationcode002–0478–0–1–801 2025actual 2026est. 2027est. For salaries and expenses necessary for the operation of the Office of Congressional
+Workplace Rights, [$8,350,000] $9,081,045, of which not more than [$1,000]
+Obligationsbyprogramactivity: $5,000 may be expended on the certification of the Executive Director in connection
+0001 Directprogramactivity.............................................................. 9 30 .................
+with official representation and reception expenses. (Legislative Branch Appropri-
+0900 Totalnewobligations,unexpiredaccounts(objectclass25.2)....... 9 30 ................. ations Act, 2026.)
+ProgramandFinancing(inmillionsofdollars)
+Budgetaryresources:
+Unobligatedbalance:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 15 6 6 Identificationcode009–1600–0–1–801 2025actual 2026est. 2027est.
+Budgetauthority:
+Appropriations,discretionary: Obligationsbyprogramactivity:
+1100 Appropriation.................................................................... ................. 30 ................. 0001 SalariesandExpenses(Direct).................................................. 8 8 9
+1930 Totalbudgetaryresourcesavailable.............................................. 15 36 6
+Memorandum(non-add)entries:
+1941 Unexpiredunobligatedbalance,endofyear.......................... 6 6 6 Budgetaryresources:
+Budgetauthority:
+Appropriations,discretionary:
+Changeinobligatedbalance: 1100 Appropriation.................................................................... 8 8 9
+Unpaidobligations: 1930 Totalbudgetaryresourcesavailable.............................................. 8 8 9
+3000 Unpaidobligations,broughtforward,Oct1.......................... 3 2 21
+3010 Newobligations,unexpiredaccounts.................................... 9 30 .................
+3020 Outlays(gross)...................................................................... -10 -11 -9 Changeinobligatedbalance:
+Unpaidobligations:
+3050 Unpaidobligations,endofyear................................................. 2 21 12 3010 Newobligations,unexpiredaccounts.................................... 8 8 9
+Memorandum(non-add)entries: 3020 Outlays(gross)...................................................................... -8 -8 -9
+3100 Obligatedbalance,startofyear............................................ 3 2 21
+3200 Obligatedbalance,endofyear.............................................. 2 21 12 Budgetauthorityandoutlays,net:
+Discretionary:
+4000 Budgetauthority,gross......................................................... 8 8 9
+Budgetauthorityandoutlays,net:
+Discretionary: Outlays,gross:
+4000 Budgetauthority,gross......................................................... ................. 30 ................. 4010 Outlaysfromnewdiscretionaryauthority.......................... 8 8 9
+Outlays,gross: 4180 Budgetauthority,net(total).......................................................... 8 8 9
+4010 Outlaysfromnewdiscretionaryauthority.......................... ................. 9 ................. 4190 Outlays,net(total)........................................................................ 8 8 9
+4011 Outlaysfromdiscretionarybalances................................. 10 2 9
+The Congressional Accountability Act (CAA) established the Office of
+4020 Outlays,gross(total)............................................................. 10 11 9
+4180 Budgetauthority,net(total).......................................................... ................. 30 ................. Congressional Workplace Rights (OCWR) to apply the rights and protec-
+tions of the following labor and employment statutes to covered employees
+within the Legislative Branch: the Fair Labor Standards Act, Title VII of
+the Civil Rights Act, the Americans with Disabilities Act, the Age Discrim-
+ination in Employment Act, the Family and Medical Leave Act, the Occu-

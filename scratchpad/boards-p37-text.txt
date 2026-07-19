@@ -1,0 +1,86 @@
+49
+LEGISLATIVE BRANCH GENERALFUNDRECEIPTACCOUNTS
+The principal for this fund was established by the transfer of $7,500,000 ProgramandFinancing(inmillionsofdollars)
+from the appropriation "Payment to the John C. Stennis Center''. The
+Identificationcode009–8148–0–7–154 2025actual 2026est. 2027est.
+principal for the Stennis Center Fund is a non-expendable corpus invested
+in Special Issue Certificates of Indebtedness with the U.S. Treasury. The
+Obligationsbyprogramactivity:
+Center's operations are funded by the interest on these Treasury investments 0001 OpenWorldLeadershipCenterTrustFund(Direct).................... 7 6 7
+as well as by other funds and contributions provided by outside sources.
+Budgetaryresources:
+EmploymentSummary Unobligatedbalance:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 1 1 1
+Identificationcode009–8275–0–7–801 2025actual 2026est. 2027est. 1021 Recoveriesofprioryearunpaidobligations........................... 1 ................. .................
+1070 Unobligatedbalance(total)........................................................... 2 1 1
+1001 Directcivilianfull-timeequivalentemployment............................ ................. 5 .................
+Budgetauthority:
+Appropriations,discretionary:
+1101 Appropriation(specialortrust)......................................... 6 6 7
+✦
+1930 Totalbudgetaryresourcesavailable.............................................. 8 7 8
+Memorandum(non-add)entries:
+U.S. CAPITOL PRESERVATION COMMISSION
+1941 Unexpiredunobligatedbalance,endofyear.......................... 1 1 1
+SpecialandTrustFundReceipts(inmillionsofdollars)
+Changeinobligatedbalance:
+Identificationcode009–8300–0–7–801 2025actual 2026est. 2027est. Unpaidobligations:
+3000 Unpaidobligations,broughtforward,Oct1.......................... 3 3 1
+0100 Balance,startofyear.................................................................... ................. ................. ................. 3010 Newobligations,unexpiredaccounts.................................... 7 6 7
+Receipts: 3020 Outlays(gross)...................................................................... -6 -8 -7
+Currentlaw: 3040 Recoveriesofprioryearunpaidobligations,unexpired......... -1 ................. .................
+1140 Interest on Investments, U.S. Capitol Preservation
+3050 Unpaidobligations,endofyear................................................. 3 1 1
+Commission...................................................................... 1 ................. .................
+Memorandum(non-add)entries:
+2000 Total:Balancesandreceipts..................................................... 1 ................. ................. 3100 Obligatedbalance,startofyear............................................ 3 3 1
+Appropriations: 3200 Obligatedbalance,endofyear.............................................. 3 1 1
+Currentlaw:
+2101 U.S.CapitolPreservationCommission.................................. -1 ................. .................
+Budgetauthorityandoutlays,net:
+Discretionary:
+5099 Balance,endofyear.................................................................. ................. ................. .................
+4000 Budgetauthority,gross......................................................... 6 6 7
+Outlays,gross:
+ProgramandFinancing(inmillionsofdollars) 4010 Outlaysfromnewdiscretionaryauthority.......................... 6 5 6
+4011 Outlaysfromdiscretionarybalances................................. ................. 3 1
+Identificationcode009–8300–0–7–801 2025actual 2026est. 2027est.
+4020 Outlays,gross(total)............................................................. 6 8 7
+4180 Budgetauthority,net(total).......................................................... 6 6 7
+Budgetaryresources: 4190 Outlays,net(total)........................................................................ 6 8 7
+Unobligatedbalance:
+1000 Unobligatedbalancebroughtforward,Oct1......................... 12 13 13
+Budgetauthority: Memorandum(non-add)entries:
+Appropriations,mandatory: 5000 Totalinvestments,SOY:Federalsecurities:Parvalue............... 3 3 3
+1201 Appropriation(specialortrustfund)................................. 1 ................. ................. 5001 Totalinvestments,EOY:Federalsecurities:Parvalue............... 3 3 3
+1900 Budgetauthority(total)............................................................. 1 ................. .................
+1930 Totalbudgetaryresourcesavailable.............................................. 13 13 13 ObjectClassification(inmillionsofdollars)
+Memorandum(non-add)entries:
+1941 Unexpiredunobligatedbalance,endofyear.......................... 13 13 13
+Identificationcode009–8148–0–7–154 2025actual 2026est. 2027est.
+Budgetauthorityandoutlays,net: Directobligations:
+Mandatory: 11.1 Personnelcompensation:Full-timepermanent......................... 1 1 1
+4090 Budgetauthority,gross......................................................... 1 ................. ................. 25.1 Advisoryandassistanceservices.............................................. ................. 1 2
+4180 Budgetauthority,net(total).......................................................... 1 ................. ................. 25.3 OthergoodsandservicesfromFederalsources........................ 1 1 2
+4190 Outlays,net(total)........................................................................ ................. ................. ................. 41.0 Grants,subsidies,andcontributions........................................ 3 2 2
+99.0 Directobligations.................................................................. 5 5 7
+Memorandum(non-add)entries: 99.5 Adjustmentforrounding........................................................... 2 1 .................
+5000 Totalinvestments,SOY:Federalsecurities:Parvalue............... 12 13 13
+5001 Totalinvestments,EOY:Federalsecurities:Parvalue............... 13 13 13 99.9 Totalnewobligations,unexpiredaccounts............................ 7 6 7
+EmploymentSummary
+✦
+INTERNATIONAL LEADERSHIP FUND Identificationcode009–8148–0–7–154 2025actual 2026est. 2027est.
+SpecialandTrustFundReceipts(inmillionsofdollars) 1001 Directcivilianfull-timeequivalentemployment............................ 8 8 9
+Identificationcode009–8148–0–7–154 2025actual 2026est. 2027est. ✦
+0100 Balance,startofyear.................................................................... ................. ................. .................
+Receipts: GENERAL FUND RECEIPT ACCOUNTS
+Currentlaw:
+1140 PaymentfromtheGeneralFund,OpenWorldLeadershipCenter (inmillionsofdollars)
+TrustFund......................................................................... 6 6 7
+2025actual 2026est. 2027est.
+2000 Total:Balancesandreceipts..................................................... 6 6 7
+Appropriations: Offsettingreceiptsfromthepublic:
+Currentlaw: 001–322000 AllOtherGeneralFundProprietaryReceiptsIncluding
+2101 InternationalLeadershipFund.............................................. -6 -6 -7 BudgetClearingAccounts.......................................... 1 ................. .................
+5099 Balance,endofyear.................................................................. ................. ................. ................. GeneralFundOffsettingreceiptsfromthepublic..................................... 1 ................. .................
+✦

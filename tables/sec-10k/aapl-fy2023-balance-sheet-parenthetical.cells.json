@@ -1,0 +1,31 @@
+{
+  "table_id": "sec-10k/aapl-fy2023-balance-sheet-parenthetical",
+  "source": {
+    "path": "sources/sec-10k/aapl-fy2023-balance-sheet-parenthetical-R6.htm",
+    "table": "CONSOLIDATED BALANCE SHEETS (Parenthetical)",
+    "title": "Apple Inc. consolidated balance sheets (parenthetical)",
+    "period": "September 30, 2023 and September 24, 2022"
+  },
+  "unit_note": "USD ($). Parenthetical balance sheet items: par value and share counts. All values are single-source, no cross-foot identities.",
+  "columns": [
+    { "index": 1, "label": "Sep. 30, 2023" },
+    { "index": 2, "label": "Sep. 24, 2022" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Common stock, par value (in dollars per share)" },
+    { "index": 2, "label": "Common stock, shares authorized (in shares)" },
+    { "index": 3, "label": "Common stock, shares issued (in shares)" },
+    { "index": 4, "label": "Common stock, shares outstanding (in shares)" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "0.00001", "role": "standalone", "why": "Par value per share is a single-source statutory value" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "0.00001", "role": "standalone", "why": "Par value per share is a single-source statutory value" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "50400000000", "role": "standalone", "why": "Shares authorized are a fixed corporate authorization" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "50400000000", "role": "standalone", "why": "Shares authorized are a fixed corporate authorization" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "15550061000", "role": "standalone", "why": "Shares issued are a single-source count with no multi-source identity under minItems: 2" },
+    { "id": "r3c2", "row": 3, "col": 2, "value": "15943425000", "role": "standalone", "why": "Shares issued are a single-source count with no multi-source identity under minItems: 2" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "15550061000", "role": "standalone", "why": "Shares outstanding equal issued shares this period; each is single-source under minItems: 2" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "15943425000", "role": "standalone", "why": "Shares outstanding equal issued shares this period; each is single-source under minItems: 2" }
+  ],
+  "relations": []
+}
