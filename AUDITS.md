@@ -1680,12 +1680,52 @@ Grok's transcription of `treasury-mts/2026-06-table6-schedule-b` is value-perfec
 
 ---
 
-## Corpus unit #320 — `treasury-mts/2026-06-table6-schedule-e-direct-part2` — PLACEHOLDER (audit DUE)
+## Spot-Audit: Unit 320 — treasury-mts/2026-06-table6-schedule-e-direct-part2
 
-- **Status:** **DUE** — every-10th different-agent spot-audit
-- **Transcriber:** Grok (2026-07-19)
+- **Audit Date:** 2026-07-19
+- **Auditor:** Antigravity (Gemini 3.5 Flash)
+- **Transcriber:** Grok (2026-07-19, commit `e80991f`)
 - **Table ID:** [treasury-mts/2026-06-table6-schedule-e-direct-part2](file:///C:/Users/kenrin/Project/crossfoot/tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json)
 - **Source Document:** `sources/treasury-mts/mts-202606.pdf`, Table 6 Schedule E Direct remainder + Net Activity, PDF page 33
-- **Shape:** 166 cells / 20 relations / 106 standalone (Direct loan financing HHS-remainder through Independents + Net Activity Direct; Spectrum Auction all-(**) dropped; Agri–HHS starter in sibling #319)
-- **Gate for auditor:** full-value check vs page-33 text layer/render; roll-forward relations; Net Activity Direct values; reconcile GREEN 0 warnings; do **not** re-transcribe. Replace this placeholder with the audit record. **#321+ blocked until GREEN.**
+- **Status:** **GREEN** (All verification checks passed with 100% accuracy)
+
+### 1. Metadata and Layout Verification
+- **Table title:** "Table 6. Schedule E-Net Activity, Guaranteed and Direct Loan Financing, June 2026 and Other Periods - Continued" (Direct loan financing HHS remainder through Independents + Net) — **PASS**
+- **Period / columns:** June FY2026. 6 columns: Transactions (This Month, Fiscal Year to Date This Year, Fiscal Year to Date Prior Year) and Account Balances Current Fiscal Year (Beginning of This Year, Close of This Month - open/prior, Close of This Month - end) — **PASS**
+- **Rows (32):** Direct loan financing Homeland Security, HUD, Interior, State, Transportation, Treasury, Veterans Affairs, EPA, International Assistance, SBA, Independent Agencies, and Net Activity Direct — **PASS**
+- **Omission convention:** All-`(**)` rows (such as Spectrum Auction Loan Fund) and empty/dots transactions (`......`) are correctly omitted per conventions. The printed subtitle at the top of page 33 incorrectly reads `Guaranteed Loan Financing Activity: - Continued` in the PDF source, but the page content is verified as the continuation of `Direct Loan Financing Activity` — **PASS**
+
+### 2. Sampled Cells Verification (10 sampled cells)
+We verified all 166 cells against the PDF text layer and page render. Below is a stratified sample of 10 cells covering various agencies, positive/negative values, role types, and columns:
+
+| Cell ID | Row Label | Column Label | Role | JSON Value | Source (render) | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| `r1c1` | Direct: Homeland Security: Disaster Assistance Loan Fund | This Month (Transactions) | leaf | `-10` | `-10` | **PASS** |
+| `r3c4` | Direct: HUD: FHA-General and Special Risk Fund | Beginning of This Year (Account Balance) | leaf | `3763` | `3,763` | **PASS** |
+| `r8c6` | Direct: Transportation: Transportation Infrastructure TIFIA | Close of This Month — end (Account Balance) | total | `23057` | `23,057` | **PASS** |
+| `r12c3` | Direct: Treasury: CDFI Fund | Fiscal Year to Date Prior Year (Transactions) | standalone | `124` | `124` | **PASS** |
+| `r16c2` | Direct: Treasury: ESF - Economic Stabilization Program | Fiscal Year to Date This Year (Transactions) | standalone | `-2104` | `-2,104` | **PASS** |
+| `r20c5` | Direct: EPA: Water Infrastructure Loan Program | Close of This Month — open/prior (Account Balance) | leaf | `5110` | `5,110` | **PASS** |
+| `r22c6` | Direct: International Assistance: AID: International Debt Reduction | Close of This Month — end (Account Balance) | total | `-172` | `-172` | **PASS** |
+| `r28c6` | Direct: International Assistance: USIDFC: International Debt Reduction | Close of This Month — end (Account Balance) | total | `-417` | `-417` | **PASS** |
+| `r30c1` | Direct: SBA: Disaster Loan Fund | This Month (Transactions) | leaf | `-11749` | `-11,749` | **PASS** |
+| `r32c6` | Net Activity, Direct Loan Financing | Close of This Month — end (Account Balance) | total | `1387234` | `1,387,234` | **PASS** |
+
+### 3. Relation / Rounding Honesty
+- **Roll-forward relations:** 20 balance roll-forward relations verified (`col6 ≈ col5 + col1` where values exist). 5 roll-forward relations (rows 1, 8, 18, 28, 30) drift by `1` due to independent component rounding; their `tol: "1"` declarations are correct and honest to the source rounding behavior — **PASS**
+- **Net Activity Direct:** Net Activity row roll-forward (`1,351,598 + 35,636 = 1,387,234`) reconciles exactly without any tolerance — **PASS**
+- Components correctly declared as `leaf`, `total`, or `standalone` based on multi-source arithmetic availability in the unit — **PASS**
+
+### 4. Shared-Session Batch context spot-check
+- Spot-checked June Table 6 Schedule E Guaranteed: verified Department of Education Federal Family Education Loans This Month Net Transactions `43` and Beginning of This Year balance `3,622` match page 31 exactly.
+- Spot-checked June Table 6 Schedule E Direct Part 1: verified Direct Agriculture Commodity Credit Corporation This Month Transactions `-2` and Close of This Month (end) balance `26` match page 32 exactly.
+
+### 5. Reconcile Gate
+- Command: `uv run python reconcile.py tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json`
+- Output: `GREEN: tables/treasury-mts/2026-06-table6-schedule-e-direct-part2.cells.json reconciles (0 warning(s))` — **PASS**
+- `uv run pytest`: 10 passed — **PASS**
+- Full-corpus sweep: 320/320 GREEN — **PASS**
+
+### 6. Audit Conclusion
+Grok's transcription of `treasury-mts/2026-06-table6-schedule-e-direct-part2` is value-perfect, complete, and faithful to Table 6 Schedule E (page 33). All 166 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** #321+ is unblocked; next every-10th different-agent audit: corpus **#330**.
 

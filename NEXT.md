@@ -85,7 +85,7 @@ completeness repair (the printed 1001 memo row was missing; added,
 values untouched; see `AUDITS.md`). That audit satisfies the #130
 slot. **#139 (Table 7 Receipts Totals, Antigravity) audited ONE EARLY
 by Grok** per Kenrin's 2026-07-18 call — full-coverage 54/54 exact
-(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 is audited and GREEN by Antigravity**; #291+ is unblocked. Corpus **#300 is audited and GREEN by Claude Fable 5** (render-anchored 27/27 exact + all 18 relations hand-recomputed; different-agent rule — transcriber Grok; `AUDITS.md`). Corpus **#310 is audited and GREEN by Antigravity**; #311+ unblocked. Corpus **#320 is audit-DUE** (transcriber Grok; `AUDITS.md` placeholder); #321+ blocked until GREEN. Next every-10th audit after that fires at **#330**.
+(satisfies the #140 slot); **#150 every-10th audit completed GREEN by Antigravity** (satisfies the #150 slot); **#160 every-10th audit completed GREEN after completeness repair by Grok** (Antigravity transcribed #152–160; different-agent rule; two missing standalone rows repaired — see `AUDITS.md`). Corpus **#170 is audited and GREEN by Antigravity**. Corpus **#180 is audited and GREEN by Antigravity**; #181 is unblocked. Corpus **#190 is audited and GREEN by Antigravity**; #191 is unblocked. Corpus **#200 is audited and GREEN by Claude Fable 5** (render-anchored full-value audit, 44/44 exact; closes Table A-2). Corpus **#210 is audited and GREEN by Grok** (full-coverage 111/111 exact vs p51; different-agent rule; `AUDITS.md`). Corpus **#220 is audited and GREEN by Antigravity**; #221+ is unblocked. Corpus **#230 is audited and GREEN by Antigravity**; #231+ is unblocked. Corpus **#240 is audited and GREEN by Antigravity**; #241+ is unblocked. Corpus **#250 is audited and GREEN by Antigravity**; #251+ is unblocked. Corpus **#260 is audited and GREEN by Antigravity**; #261+ is unblocked. Corpus **#270 is audited and GREEN by Antigravity**; #271+ is unblocked. Corpus **#280 is audited and GREEN by Antigravity**; #281+ is unblocked. Corpus **#290 is audited and GREEN by Antigravity**; #291+ is unblocked. Corpus **#300 is audited and GREEN by Claude Fable 5** (render-anchored 27/27 exact + all 18 relations hand-recomputed; different-agent rule — transcriber Grok; `AUDITS.md`). Corpus **#310 is audited and GREEN by Antigravity**; #311+ unblocked. Corpus **#320 is audited and GREEN by Antigravity**; #321+ is unblocked. Next every-10th audit after that fires at **#330**.
 Lesson for transcribers: cross-check row COUNTS against the print — a
 missing standalone-class row is invisible to strict coverage. In the OMB
 chapter, Senate + House (pp1–4) carry **zero** P&F schedules (pure
@@ -198,8 +198,8 @@ audited and GREEN by Antigravity** (unblocking #171).
   pytest 10/10.
 
   **AUDIT GATE:** the different-agent audit of unit **#320**
-  (`treasury-mts/2026-06-table6-schedule-e-direct-part2`) is **DUE** before #321+.
-  After GREEN: Tables 7–8 (monthly receipts/outlays + trust fund impact).
+  (`treasury-mts/2026-06-table6-schedule-e-direct-part2`) is **GREEN** (Antigravity). #321+ is unblocked.
+  Next: Tables 7–8 (monthly receipts/outlays + trust fund impact).
 
 
 - **D1/web vendoring options (browser-capable agents; content-gate per
@@ -236,7 +236,7 @@ audited and GREEN by Antigravity** (unblocking #171).
 One line per shipped unit/batch, newest first. Full specs in
 `BACKLOG.md`; session narrative in the control-plane project log.
 
-- 2026-07-19 · `treasury-mts/2026-06-table6-schedule-e-direct-part2` — #320 (Grok). Schedule E Direct remainder+Net; 166c/20r; strict-default GREEN. **Different-agent audit DUE before #321. Schedule E complete.**
+- 2026-07-19 · `treasury-mts/2026-06-table6-schedule-e-direct-part2` — #320 (Grok). Schedule E Direct remainder+Net; 166c/20r; strict-default GREEN. **Different-agent audit GREEN (Antigravity), #321+ unblocked. Schedule E complete.**
 - 2026-07-19 · `treasury-mts/2026-06-table6-schedule-e-direct-part1` — #319 (Grok). Schedule E Direct Agri–HHS; 150c/19r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-table6-schedule-e-guaranteed` — #318 (Grok). Schedule E Guaranteed; 187c/20r; strict-default GREEN.
 - 2026-07-19 · `treasury-mts/2026-06-table6-schedule-d-trust-funds` — #317 (Grok). Schedule D Trust+Grand; 232c/44r; strict-default GREEN. **Schedule D complete.**
