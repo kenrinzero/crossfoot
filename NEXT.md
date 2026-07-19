@@ -59,12 +59,34 @@ in this repo always means a stage, never difficulty.
   parenthetical statement, NOT this unit. Follow the Apple #2 seed
   conventions (BACKLOG rows for both).
 
-- **D1/web vendoring (later):**
-  - Treasury MTS **July 2026** — probed 2026-07-19: not yet published
-    (503 + HTML body, caught by the magic-byte check). Expected
-    ~mid-August at the fiscaldata static path; re-probe then.
-  - Further MSFT FY2025 statements (income R2, cash flows R6, same
-    accession dir) — available as follow-ons; need vendoring + sizing.
+- **sec-10k statement-set runway — 10 more units, ALL HTML / no
+  vision** (vendored + sized 2026-07-19; sha256s in SOURCES.md, specs
+  in BACKLOG.md; good first units for trial agents, easiest first):
+  1. `msft-fy2025-balance-sheet-parenthetical` — 8c/0r, all standalone (D3)
+  2. `aapl-fy2023-balance-sheet-parenthetical` — 8c/0r, all standalone (D3)
+  3. `msft-fy2025-comprehensive-income` — 18c/6r (D3)
+  4. `aapl-fy2023-comprehensive-income` — 30c/12r, nested subtotals (D3)
+  5. `msft-fy2025-income` — 57c/18r + 12 standalone EPS/shares (D3)
+  6. `aapl-fy2023-operations` — 57c/21r + 12 standalone (D3)
+  7. `aapl-fy2023-cash-flows` — 90c/15r + 6 standalone supplemental (D3)
+  8. `msft-fy2025-cash-flows` — 102c/15r; printed 0s are real (D3)
+  9. `msft-fy2025-stockholders-equity` — 50c, XBRL matrix (**D2**)
+  10. `aapl-fy2023-shareholders-equity` — 50c, XBRL matrix (**D2**)
+
+  Every headline identity in all 10 was pre-verified EXACT at vendoring
+  — a transcription that doesn't reconcile exactly is a transcription
+  error, not a source feature (single exception: the equity statements'
+  Total-vs-RE dividend/repurchase deltas, documented in BACKLOG).
+  Duplicate printed row labels (product/service blocks, 'Other' rows)
+  get keyed rows per the Stennis precedent. Cross-unit ties (NI across
+  income/comprehensive/cash-flows/equity; ending cash to balance sheet)
+  are re-read, never copied. The every-10th audit fires mid-runway at
+  **#340** — plan transcriber rotation accordingly.
+
+- **D1/web vendoring (later):** Treasury MTS **July 2026** — probed
+  2026-07-19: not yet published (503 + HTML body, caught by the
+  magic-byte check). Expected ~mid-August at the fiscaldata static
+  path; re-probe then.
 
 - **FEC footnote pages pp7–9** stay a Tier-3 stage concern (DESIGN §8)
   — not yet in scope.
