@@ -47,19 +47,12 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- 🛑 **BLOCKED — #351 cannot ship until the #350 audit closes.** The
-  every-10th cadence fired at `outlays-judicial` (#350). It needs a
-  **different agent**: #342–#350 were all transcribed by Claude Opus 5,
-  which cannot audit any of them. Placeholder + the three specific
-  judgement calls to scrutinise are in `AUDITS.md`. Note the auditor is
-  asked to prefer a **whole-file multiset check across all nine units**
-  over a deep sample of #350 alone — nine consecutive units from one
-  agent is a wider surface than one ten-cell sample can defend (the
-  #340 precedent).
+- **Unblocked 2026-08-17:** the #350 every-10th audit closed **GREEN** (Qoder, different
+  agent; whole-family positional check of all nine units #342–#350, 592/592 cells, three
+  judgement calls upheld — AUDITS.md). #351+ may ship; next audit fires at **#360**.
 
-- **Treasury MTS July 2026 — 71 of 80 units remain, D-tiered** (after
-  the audit clears). The D1 vendoring is DONE (2026-08-17): published
-  2026-08-12, vendored, gated, ledgered. **#342–#350 shipped**:
+- **Treasury MTS July 2026 — 71 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#350 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
   outlays-judicial — every one matching its June twin's row/cell/relation
   counts exactly, table1 aside (+1 month, as intended). **`BACKLOG.md`
@@ -78,9 +71,9 @@ in this repo always means a stage, never difficulty.
   - **Floors are provisional** (inherited from the June twins). A floor
     you cannot reach honestly is a finding — stop and log; never pad,
     and never invent a row to match June (#340 defect class).
-  - **Audit:** corpus is 341, so this family is #342–#421 and the
-    every-10th audit fires at **#350**, the 9th unit out of this family.
-    Don't run the family to completion unaudited.
+  - **Audit:** #350 (9th unit of this family) closed **GREEN** 2026-08-17
+    (Qoder; whole-family check, AUDITS.md). Next every-10th audit fires
+    at **#360** — don't run past it unaudited.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -89,10 +82,12 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#330** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#350** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
-#340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped without audit per cadence; next fires at **#350**.
+#340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
+without audit per cadence; **#342–#350 audited GREEN together 2026-08-17 (Qoder,
+whole-family positional check)**; next fires at **#360**.
 
 ---
 

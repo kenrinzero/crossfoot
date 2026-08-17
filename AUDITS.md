@@ -1938,43 +1938,88 @@ standard practice for sec-10k audits alongside the label check.
 
 ---
 
-## PENDING — Unit 350: treasury-mts/2026-07-outlays-judicial (opened 2026-08-17, Claude Opus 5)
+## Unit 350: treasury-mts/2026-07-outlays-judicial — every-10th audit (2026-08-17, Qoder)
 
-**Status: awaiting a different-agent audit. Corpus is BLOCKED at #350 until this closes.**
+**Verdict: GREEN. Corpus unblocked; cadence GREEN through #350; next every-10th audit fires at #360.**
 
-Every-10th cadence fires here. The transcriber of #350 — and of #342 through #349 — was
-Claude Opus 5, so it cannot audit any of them; this entry is the placeholder the runbook
-requires, not an audit.
+Auditor is not the transcriber: #342–#350 were shipped by Claude Opus 5; this audit was
+performed by Qoder at Kenrin's direction. Scope follows the placeholder's request — not a
+deep sample of #350 alone, but a whole-file check of **all nine units #342–#350** against
+pages 5, 8, 9, 10 and 37 (plus page 23 for the Table 5 footnote).
 
-**Read this before sampling.** The usual every-10th audit checks the 10th unit alone. That
-is weaker than usual here, for a reason worth stating: **#342–#350 are nine consecutive
-units from a single agent**, where the family's normal pattern is a rotating fleet. The
-#340 precedent is the argument — its spot-audit came back GREEN and a *separate* full
-review pass later found six fabricated cells, because the sample never landed on them.
-Recommend the auditor spend its budget on a **whole-file value multiset comparison of all
-nine units against pages 5, 8, 9, 10 and 37**, rather than a deep sample of #350 alone.
-The cheap version: extract every printed number per page and diff it against the union of
-the units' cell values. Nine units is a wide surface for one sample of ten to defend.
+### 1. Method — independent extraction, positional cell check
 
-**Three specific things to scrutinise, all judgement calls this session made:**
+Own extraction, never the transcriber's builder: pdfplumber text layer with the repo's
+`(cid:NN)` → `chr(NN+29)` decode, a purpose-built row parser, and pypdfium2 2.5x renders of
+pages 5/8/9/10/23/37 that were visually inspected and cross-checked against the text layer
+(scripts kept in `scratchpad/audit350/`, gitignored). For each of the 152 unit rows the
+label was anchored on its page by monotonic scan, then every declared column was checked
+positionally: a cell must exist iff the printed token at that column position is numeric,
+and its value must equal the print modulo thousands separators; `......` / `(**)` positions
+must carry no cell. **All 592 cells of the nine units checked this way — zero mismatches,
+zero missing cells, zero fabricated cells.** This is strictly stronger than a value
+multiset: it also pins each value to its row and column, so a transposed or invented row
+(#340 defect class) cannot pass.
 
-1. **`outlays-legislative` r14c9 carries `tol: "2"`, not 1.** The Prior-FYTD Outlays
-   roll-up sums to 5,907 against a printed 5,905. Thirteen independently-rounded
-   components make a 2 explicable, the corpus has 72 prior `tol=2` relations, and Table 5's
-   rounding footnote does exist — but on **page 23**, Table 5's last page, not on page 10
-   where the section prints. Verify that footnote is real and that 2 is not slack. Every
-   other non-zero delta in these nine units is exactly 1.
-2. **`receipts-major` is cited to page 9 (Table 4), where the shipped June twin cites page
-   8 (Table 3).** Page 8's "Social Insurance and Retirement Receipts:" is a heading with no
-   values; page 9 prints `Total -- Social Insurance and Retirement Receipts` explicitly
-   (139,067 this month). The July unit therefore transcribes printed lines rather than
-   deriving the SI row. If this is right, the June twin's citation wants the same fix.
-3. **`outlays-legislative` omits the printed "Offsetting Governmental Receipts" row**
-   entirely, because every one of its nine cells is `......` or `(**)`. The row exists on
-   the page. This follows the June twin, and is recorded in the unit's `unit_note` — but it
-   is a row-count question of exactly the #129/#160 class, so confirm the call rather than
-   inherit it.
+Four rows the matcher could not anchor were verified by hand and MATCH exactly: table2's
+`Total On-Budget and Off-Budget Financing` (printed above its `Means of Financing:` heading:
+432,308 / 1,798,816 / ...... / 1,628,515 / ......) and table3-outlays-remainder's three
+`Surplus (+) or Deficit (-)` rows (printed as `(On-Budget)` / `(Off-Budget)` continuations:
+-432,308 / -1,798,816 / -1,628,515 etc.).
 
-State reached: 350/350 sweep GREEN, 0 warnings; pytest 10/10; each of the nine units
-matches its June twin's row/cell/relation counts exactly, with `table1` the sole intended
-difference (+1 month: 24/72/30 against 23/69/29).
+Row COUNTS cross-checked against the renders: every printed data row in each unit's span is
+either a unit row or a documented omission (below). Printed rows on these pages outside the
+nine units' spans belong to same-page sibling units or to the remaining 71-unit family
+(Table 4 detail, Table 5 departmental detail) — consistent with the June family's scope
+(June's `receipts-major` carries the identical 10-row scope).
+
+### 2. Per-unit results
+
+| unit | rows matched | cells checked | result |
+|---|---|---|---|
+| 2026-07-table1 | 24/24 | 72 | PASS |
+| 2026-07-table2 | 13/13 (12 auto + 1 manual) | 51 | PASS |
+| 2026-07-table3-receipts | 13/13 | 52 | PASS |
+| 2026-07-table3-outlays-departments | 28/28 | 112 | PASS |
+| 2026-07-table3-outlays-remainder | 14/14 (11 auto + 3 manual) | 50 | PASS |
+| 2026-07-receipts-major | 10/10 | 30 | PASS |
+| 2026-07-outlays-legislative | 14/14 | 96 | PASS |
+| 2026-07-outlays-judicial | 6/6 | 39 | PASS |
+| 2026-07-table9 | 30/30 | 90 | PASS |
+
+### 3. The three judgement calls
+
+1. **`outlays-legislative` r14c9 `tol: "2"` — confirmed, not slack.** Recomputed in Decimal:
+   the 13 Prior-FYTD-Outlays components sum to 5,907 against the printed 5,905; delta exactly
+   2 == tol. The licensing footnote "Note: Details may not add to totals due to rounding."
+   was verified both in the text layer and on the 2.5x render of **page 23**, Table 5's last
+   page (it is not repeated on page 10); the relation's `why` quotes it and names the
+   component count. All other non-zero deltas across the nine units are ±1 with `tol: "1"`
+   (40 such relations), each `why` quoting the same printed note.
+2. **`receipts-major` cited to page 9 — confirmed correct.** All ten lines print as explicit
+   `Total --` rows on page 9, visually confirmed, including `Total -- Social Insurance and
+   Retirement Receipts` at 139,144 / 77 / 139,067 (This Month Gross/Refunds/Receipts); page
+   8's "Social Insurance and Retirement Receipts:" is a bare heading with no values. The
+   unit's `unit_note` records the correction. The June twin's page-8 citation and its
+   "SI line is the sum of ..." note remain suspect and want the same fix — already tracked
+   in NEXT.md and the brief; not silently propagated here.
+3. **Omitted `Offsetting Governmental Receipts` row — confirmed.** The row prints on page 10
+   with all nine cells `......` or `(**)` (verified on the render); it carries no
+   transcribable value, so omitting it as a row is correct and is documented in the unit's
+   `unit_note`. This is the only printed row inside any unit's span not covered by a unit.
+
+### 4. Reconcile gate
+`uv run python reconcile.py` on each of the nine units: **GREEN, 0 warnings** each; all
+declared relations re-derived in exact Decimal; every non-zero `tol` equals the observed
+delta and quotes a printed rounding note.
+
+### 5. Test suite and sweep
+`uv run pytest -q`: **10 passed**. Full-corpus sweep: **350/350 GREEN**.
+
+### 6. Audit conclusion
+The nine consecutive Claude Opus 5 units #342–#350 are faithful to the print: 592/592 cells
+positionally verified against an independent extraction, row counts and the single
+documented omission confirmed against renders, all three flagged judgement calls upheld,
+tolerances exactly as wide as the observed deltas and no wider. No defects found; nothing
+repaired. **GREEN.** Audit cadence GREEN through #350; next every-10th different-agent audit
+fires at #360. Corpus unblocked for the remaining 71 July-MTS units.
