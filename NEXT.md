@@ -47,15 +47,17 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Unblocked 2026-08-17:** the #350 every-10th audit closed **GREEN** (Qoder, different
-  agent; whole-family positional check of all nine units #342–#350, 592/592 cells, three
-  judgement calls upheld — AUDITS.md). #351+ may ship; next audit fires at **#360**.
+- **BLOCKED at #360 (2026-08-17):** the #360 every-10th audit is OPEN —
+  Qoder transcribed #351–#360, so a DIFFERENT agent must close it. No #361+
+  may ship until AUDITS.md records it GREEN.
 
-- **Treasury MTS July 2026 — 66 of 80 units remain, D-tiered.** The D1 vendoring is DONE
-  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#350 shipped**:
+- **Treasury MTS July 2026 — 61 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#360 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
-  outlays-judicial — every one matching its June twin's row/cell/relation
-  counts exactly, table1 aside (+1 month, as intended). **`BACKLOG.md`
+  outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
+  education ×2 — every one matching its June twin's row/cell/relation
+  counts exactly, table1 and the two capstones with printed-month deltas
+  aside (noted per unit in BACKLOG). **`BACKLOG.md`
   § *Treasury MTS July 2026* carries the full unit table with a D level
   and a `needs` tag per unit** — take the topmost row that fits your
   harness.
@@ -72,8 +74,8 @@ in this repo always means a stage, never difficulty.
     you cannot reach honestly is a finding — stop and log; never pad,
     and never invent a row to match June (#340 defect class).
   - **Audit:** #350 (9th unit of this family) closed **GREEN** 2026-08-17
-    (Qoder; whole-family check, AUDITS.md). Next every-10th audit fires
-    at **#360** — don't run past it unaudited.
+    (Qoder; whole-family check, AUDITS.md). The #360 every-10th audit has
+    **FIRED and is PENDING** a different agent — corpus blocked.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -87,7 +89,8 @@ real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
 without audit per cadence; **#342–#350 audited GREEN together 2026-08-17 (Qoder,
-whole-family positional check)**; next fires at **#360**.
+whole-family positional check)**; **#360 fired 2026-08-17, PENDING a different
+agent — corpus BLOCKED**.
 
 ---
 
@@ -97,6 +100,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-17 · **treasury-mts July 2026 batch #356–#360 (5 units)** — defense-programs (88c/18r), defense-rdte (84c/12r, 24 FH standalones), defense-departmental capstone (155c/12r, +4 printed cells over June, ties-siblings byte-match machine-checked), education-bureaus (92c/22r), education-departmental capstone (93c/13r, ties-siblings byte-match). All strict-default GREEN 0 warnings; sweep 360/360. Max tol 2 (24-component capstone grand roll-ups). **#360 fires the every-10th audit — corpus blocked, see AUDITS.md.**
 - 2026-08-17 · **treasury-mts July 2026 batch #352–#355 (4 units)** — agriculture-programs (126c/22r), agriculture-fns (80c/14r), agriculture-departmental capstone (208c/37r, ties-siblings byte-match machine-checked), commerce (75c/20r). All strict-default GREEN 0 warnings; sweep 355/355. Notable: the capstone's Prior-FYTD Outlays grand roll-up carries an adjudicated tol=3 (25 components, 196,013 vs printed 196,010, page-23 note quoted).
 - 2026-08-17 · **treasury-mts/2026-07-outlays-eop** — #351 (D3/PDF/vision; 43c/9r, strict-default GREEN 0 warnings; 6 tol-1 computed against the p23 footnote, two net identities + col-3 roll-up exact; +2 printed cells over the June twin on Unanticipated Needs)
 - 2026-08-17 · **treasury-mts July 2026 batch #343–#350 (8 units)** — table2, table3-receipts, table3-outlays-departments, table3-outlays-remainder, table9, receipts-major, outlays-legislative, outlays-judicial. All strict-default GREEN 0 warnings; sweep 350/350. Every unit matches its June twin's row/cell/relation counts *and* role distribution. Notables: `receipts-major` re-cited to page 9 (Table 4) where its lines are printed rather than derived — the June twin's page-8 citation looks wrong; `outlays-legislative` carries the family's only tol=2 (13-component roll-up, Table 5's footnote is on p23 not p10). **#350 opens the every-10th audit — corpus blocked, see AUDITS.md.**

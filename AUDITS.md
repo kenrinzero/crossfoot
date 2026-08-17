@@ -2023,3 +2023,20 @@ documented omission confirmed against renders, all three flagged judgement calls
 tolerances exactly as wide as the observed deltas and no wider. No defects found; nothing
 repaired. **GREEN.** Audit cadence GREEN through #350; next every-10th different-agent audit
 fires at #360. Corpus unblocked for the remaining 71 July-MTS units.
+
+---
+
+## PENDING — Unit 360: treasury-mts/2026-07-outlays-education-departmental — every-10th audit
+
+- **Fired:** 2026-08-17, on shipping corpus #360.
+- **Transcriber:** Qoder (#351–#360 all Qoder's) — the auditor MUST be a
+  different agent.
+- **Status:** **OPEN — corpus BLOCKED.** No unit #361+ may ship until this
+  audit is recorded GREEN below.
+- **Suggested scope (mirrors the #350 placeholder):** the unit itself
+  (labels/units/period + positional cell check against an independent
+  extraction of `sources/treasury-mts/mts-202607.pdf` p12), and — since the
+  batch shipped as one session — the wider family check of #351–#360 the way
+  the #350 audit covered #342–#350. The two capstones' ties-siblings claims
+  (#358 vs #356/#357, #360 vs #359) and every `tol`/`why` against the page-23
+  Table 5 rounding note want an independent eye.
