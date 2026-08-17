@@ -388,7 +388,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 
 | unit | table | D | needs | min relations (prov.) | types | size cap | standalone waivers (June) | status |
 |---|---|---|---|---|---|---|---|---|
-| treasury-mts/2026-07-table1 | Table 1 monthly receipts/outlays/deficit through July | D2 | vision, cross-table | 29 | sum | ≤ 150 cells (June: 69) | 0 | READY |
+| treasury-mts/2026-07-table1 | Table 1 monthly receipts/outlays/deficit through July | D2 | vision, cross-table | 29 | sum | ≤ 150 cells (June: 69) | 0 | SHIPPED 2026-08-17 (corpus #342; 72c/30r; strict-default GREEN, 0 warnings; 24 rows = FY2025 12+YTD and FY2026 10+YTD, one month more than the June twin. 24 row identities + 6 column sums; 8 carry tol-1 with the page's rounding note quoted, computed per relation rather than copied from June — and the six FY2025 ones land on exactly the June twin's relations. Cross-checks beyond reconcile: all 39 FY2025 values byte-identical to the June unit, June YTD + July month = July YTD exact in all 3 columns, and Table 1's July/YTD tie Table 2 on the same page in all 6 figures. Table 2 prints the deficit with the opposite sign; both transcribed as printed, noted in unit_note) |
 | treasury-mts/2026-07-table2 | Table 2 budget/off-budget results and financing | D2 | vision, cross-table | 25 | sum | ≤ 150 cells (June: 51) | 0 | READY |
 | treasury-mts/2026-07-table3-receipts | Table 3 budget receipts block | D3 | vision, cross-table | 12 | sum | ≤ 150 cells (June: 52) | 4 | READY |
 | treasury-mts/2026-07-table3-outlays-departments | Table 3 department outlay lines | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (June: 112) | 112 | READY |

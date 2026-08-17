@@ -47,9 +47,11 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS July 2026 — 80 units, READY, D-tiered.** The D1
+- **Treasury MTS July 2026 — 79 of 80 units remain, D-tiered.** The D1
   vendoring is DONE (2026-08-17): published 2026-08-12, vendored,
-  gated, ledgered. **`BACKLOG.md` § *Treasury MTS July 2026* carries
+  gated, ledgered. **`-table1` shipped as #342** (the family opener,
+  which also proved the June decomposition ports cleanly — same shape
+  plus one month). **`BACKLOG.md` § *Treasury MTS July 2026* carries
   the full unit table with a D level and a `needs` tag per unit** —
   take the topmost row that fits your harness.
   - **All 80 are PDF units → vision-capable agent required**, no
@@ -88,6 +90,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-17 · **treasury-mts/2026-07-table1** — #342, family opener (D2/PDF/vision; 72c/30r, strict-default GREEN 0 warnings; 24 rows, one month more than the June twin; 8 tol-1 relations computed per-relation, the six FY2025 ones landing on exactly June's). Three checks beyond reconcile: 39 FY2025 values byte-identical to the June unit, June YTD + July month = July YTD exact in all 3 columns, Table 1 ties Table 2 on all 6 same-page figures. Sweep 342/342 GREEN.
 - 2026-07-19 · **sec-10k no-vision runway COMPLETE (11/11, #331–341)** — trial-fleet run: #331 balance sheet (Mavis), #332–333 parentheticals (Trinity/Nanobot, Step), #334–335 comprehensive income (Ring), #336–337 income/operations (Hunyuan), #338 aapl cash flows (Qwen), #339 msft cash flows (Zed/Nemotron), #340 msft stockholders' equity (Copilot CLI; **every-10th audit GREEN by ZCode**, post-audit review repair: 2 unprinted duplicate begin-balance rows removed, see AUDITS.md), #341 aapl shareholders' equity (Mistral Vibe). Review pass (Claude Fable 5): all 11 units machine-verified EXACT multiset vs source, NI/cash cross-unit ties hold, sweep 341/341 GREEN.
 - 2026-07-19 · **aapl-fy2023-cash-flows** — #338 (D3/HTML/no-vision; 90c/15r + 6 standalone supplemental, strict-default GREEN; ops/investing/financing subtotals + net change + roll-forward all exact; NI byte-matches operations unit #337)
 - 2026-07-19 · **aapl-fy2023-operations** — #337 (D3/HTML/no-vision; 57c/21r + 12 standalone EPS/shares, strict-default GREEN; GM→TotalOpEx→OpInc→IBT→NI chain + products/services splits exact all cols; NI byte-matches comprehensive-income unit #335)
