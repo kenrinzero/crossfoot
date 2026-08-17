@@ -50,14 +50,15 @@ in this repo always means a stage, never difficulty.
 - **UNBLOCKED (2026-08-17):** the #360 every-10th audit closed **GREEN**
   (Claude Opus 5; whole-batch positional check of #351–#360, 1,485 cell
   positions vs an independent parse, plus a Table 3 cross-table tie on all
-  four departmental capstones — AUDITS.md). #361 may ship. **Next
-  every-10th audit fires at #370.**
+  four departmental capstones — AUDITS.md). #361 may ship.
+  **2026-08-18: #361–#370 shipped; corpus now BLOCKED at #370 for the
+  every-10th different-agent audit.**
 
-- **Treasury MTS July 2026 — 56 of 80 units remain, D-tiered.** The D1 vendoring is DONE
-  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#360 shipped**:
+- **Treasury MTS July 2026 — 51 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#370 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
   outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
-  education ×2 — every one matching its June twin's row/cell/relation
+  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice — every one matching its June twin's row/cell/relation
   counts exactly, table1 and the two capstones with printed-month deltas
   aside (noted per unit in BACKLOG). **`BACKLOG.md`
   § *Treasury MTS July 2026* carries the full unit table with a D level
@@ -111,6 +112,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-18 · **treasury-mts July 2026 batch #366–#370 (5 units)** — hud-bureaus (82c/12r), hud-departmental capstone (141c/33r), interior-bureaus (130c/40r), interior-departmental capstone (73c/22r, 6 standalones), justice (120c/15r). All strict-default GREEN 0 warnings; sweep 370/370. Max tol 2 (HUD and Interior grand roll-ups). July prints one extra HUD row (G&SR Program Account) and drops one computable net identity — hud-departmental ships 33 relations vs the June-derived floor of 34, adjudicated and flagged for the audit. Ties-siblings and Table 3 capstone ties byte-match machine-checked. **#370 fires the every-10th audit — corpus blocked, see AUDITS.md.** 51 July-MTS units remain.
 - 2026-08-18 · **treasury-mts July 2026 batch #362–#365 (4 units)** — hhs-cms (84c/18r), hhs-acf (135c/9r, 54 standalones), hhs-departmental capstone (108c/15r, ties-siblings byte-match machine-checked), homeland-security (126c/27r). All strict-default GREEN 0 warnings; sweep 365/365. Max tol 2 (CMS and HHS grand roll-ups); June's tol-2/tol-3 spots close at 1/exact in July. 56 July-MTS units remain.
 - 2026-08-18 · **treasury-mts/2026-07-outlays-energy** — #361 (D2/PDF/vision; 132c/27r, strict-default GREEN 0 warnings; 8 tol-1 all delta exactly 1 quoting the p23 footnote, 12 net identities exact; same shape as the June twin; section spans p12-13; Table 3 tie holds). 60 July-MTS units remain.
 - 2026-08-17 · **treasury-mts July 2026 batch #356–#360 (5 units)** — defense-programs (88c/18r), defense-rdte (84c/12r, 24 FH standalones), defense-departmental capstone (155c/12r, +4 printed cells over June, ties-siblings byte-match machine-checked), education-bureaus (92c/22r), education-departmental capstone (93c/13r, ties-siblings byte-match). All strict-default GREEN 0 warnings; sweep 360/360. Max tol 2 (24-component capstone grand roll-ups). **#360 fires the every-10th audit — corpus blocked, see AUDITS.md.**
