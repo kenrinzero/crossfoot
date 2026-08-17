@@ -2026,17 +2026,74 @@ fires at #360. Corpus unblocked for the remaining 71 July-MTS units.
 
 ---
 
-## PENDING — Unit 360: treasury-mts/2026-07-outlays-education-departmental — every-10th audit
+## Unit 360 — treasury-mts/2026-07-outlays-education-departmental (2026-08-17, Claude Opus 5)
 
-- **Fired:** 2026-08-17, on shipping corpus #360.
-- **Transcriber:** Qoder (#351–#360 all Qoder's) — the auditor MUST be a
-  different agent.
-- **Status:** **OPEN — corpus BLOCKED.** No unit #361+ may ship until this
-  audit is recorded GREEN below.
-- **Suggested scope (mirrors the #350 placeholder):** the unit itself
-  (labels/units/period + positional cell check against an independent
-  extraction of `sources/treasury-mts/mts-202607.pdf` p12), and — since the
-  batch shipped as one session — the wider family check of #351–#360 the way
-  the #350 audit covered #342–#350. The two capstones' ties-siblings claims
-  (#358 vs #356/#357, #360 vs #359) and every `tol`/`why` against the page-23
-  Table 5 rounding note want an independent eye.
+**Transcriber:** Qoder (#351–#360). **Auditor:** Claude Opus 5, which transcribed #342–#350
+and none of this batch — eligible. Independent by construction: every expected value below
+was read off the PDF by the auditor first, and the units were only ever the right-hand side
+of a comparison.
+
+**Preflight finding (fixed, not a corpus defect).** The `.venv/lib64 -> lib` symlink breaker
+was present — a POSIX-side session had left it. Removed per the runbook *before* any gate was
+run, since a sweep through a broken venv reports every unit red and would have made this audit
+meaningless. Working tree was otherwise clean at `ae9f8a4`; no orphaned transcriber work.
+
+### The unit itself
+
+- **Rows:** 15 printed, 15 in the unit, every label matching the print exactly.
+- **Cells:** all **93 checked positionally** against the auditor's own parse of page 12 —
+  0 missing, 0 extra, 0 value mismatches. Render inspected directly; the Education block's
+  layout, the `......`/`(**)` omissions, and the three `Total--` bureau rows all confirmed.
+- **Relations:** all 13 recomputed in exact Decimal. Five carry `tol: "1"`, and **each equals
+  its observed delta exactly** — no over-declared slack — each with a `why`.
+- **ties-siblings:** the capstone's three bureau totals byte-match unit 1/2
+  (`outlays-education-bureaus`) across all 9 columns, 20 populated cell pairs.
+
+### Batch-wide check of #351–#360
+
+The #350 placeholder's argument applies again and was followed: ten consecutive units from one
+agent is a wider surface than a single unit audit defends, which is exactly how #340 passed a
+ten-cell sample and failed a later review. So the whole batch was checked, not just #360.
+
+- **1,485 cell positions** compared across all ten units against an independent parse of pages
+  10, 11, 12 and 19 — **zero mismatches, zero unmatched rows**. This checks *presence and
+  absence*: every omitted cell is confirmed omitted in print and every present cell matches, so
+  a fabricated, duplicated or dropped row would surface. (Two label conventions cost a parser
+  pass: unit labels qualify a printed leaf with its parent using either `/` or `:`, and a
+  capstone legitimately re-anchors bureau rows printed on the *previous* page. Both are
+  matching artifacts, not defects.)
+- **Tolerances, all 179 relations:** 113 exact, 59 `tol=1`, 6 `tol=2`, 1 `tol=3`. **Every
+  single one equals its observed delta** — not one relation anywhere in the batch carries slack
+  wider than the arithmetic needs. Every `tol` carries a `why` citing the Table 5 rounding
+  footnote **on page 23**, the provenance established at #349; Qoder adopted it consistently.
+- **The widest tolerance is defensible.** `#354 outlays-agriculture-departmental` r10c9 carries
+  `tol=3` on the Prior-FYTD grand roll-up: 25 independently-rounded components, 196,013 against
+  a printed 196,010. Twenty-five components at ±0.5 admit up to ±12.5, so 3 is comfortably
+  inside what the footnote accounts for. Its three sibling `tol=2` relations are the same
+  24–25-component roll-up in the other period columns.
+- **Both capstones' ties-siblings claims verified:** #358 vs #356/#357 (48 populated cell
+  pairs) and #360 vs #359 (20) all byte-match.
+
+### Cross-table check (not declared by any unit)
+
+Table 5's departmental capstone totals were tied to **Table 3's department outlay lines on
+page 8** — a structural check independent of both the units and Table 5 itself. All four hold
+across all three period columns:
+
+| Department | Table 5 capstone (month / FYTD / prior) | Table 3 p8 |
+|---|---|---|
+| Agriculture | 14,677 / 188,233 / 196,010 | identical |
+| Commerce | 1,297 / 11,469 / 20,819 | identical |
+| Defense--Military Programs | 86,049 / 764,710 / 718,944 | identical |
+| Education | 7,107 / 52,938 / 131,466 | identical |
+
+### Gates
+
+`reconcile.py` on #360 GREEN with 0 warnings; `pytest` 10/10; full-corpus sweep **360/360
+GREEN**; all ten batch files strict UTF-8 with LF and no BOM; no illegal roles and no
+standalone cell without a `why`.
+
+**Verdict: GREEN.** No defects found, nothing repaired. Qoder's batch is accurate, its
+tolerances are honest, and its capstone re-anchoring is exact. Audit cadence GREEN through
+**#360**; next every-10th different-agent audit fires at **#370**. Corpus unblocked — #361 may
+ship, with 61 July-MTS units remaining.

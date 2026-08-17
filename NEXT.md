@@ -47,9 +47,11 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **BLOCKED at #360 (2026-08-17):** the #360 every-10th audit is OPEN —
-  Qoder transcribed #351–#360, so a DIFFERENT agent must close it. No #361+
-  may ship until AUDITS.md records it GREEN.
+- **UNBLOCKED (2026-08-17):** the #360 every-10th audit closed **GREEN**
+  (Claude Opus 5; whole-batch positional check of #351–#360, 1,485 cell
+  positions vs an independent parse, plus a Table 3 cross-table tie on all
+  four departmental capstones — AUDITS.md). #361 may ship. **Next
+  every-10th audit fires at #370.**
 
 - **Treasury MTS July 2026 — 61 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#360 shipped**:
@@ -73,9 +75,10 @@ in this repo always means a stage, never difficulty.
   - **Floors are provisional** (inherited from the June twins). A floor
     you cannot reach honestly is a finding — stop and log; never pad,
     and never invent a row to match June (#340 defect class).
-  - **Audit:** #350 (9th unit of this family) closed **GREEN** 2026-08-17
-    (Qoder; whole-family check, AUDITS.md). The #360 every-10th audit has
-    **FIRED and is PENDING** a different agent — corpus blocked.
+  - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check)
+    and #360 closed **GREEN** the same day (Claude Opus 5; whole-batch
+    positional check of #351–#360 + Table 3 cross-table ties). Both in
+    AUDITS.md. Corpus unblocked; next every-10th fires at **#370**.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -84,13 +87,21 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#350** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#360** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
 without audit per cadence; **#342–#350 audited GREEN together 2026-08-17 (Qoder,
-whole-family positional check)**; **#360 fired 2026-08-17, PENDING a different
-agent — corpus BLOCKED**.
+whole-family positional check)**; **#351–#360 audited GREEN together 2026-08-17
+(Claude Opus 5, 1,485 positions + cross-table ties)**. Next fires at **#370**.
+
+**Standing note for the next auditor:** the last two every-10th audits both
+widened scope from the 10th unit to the whole ten-unit batch, because both
+batches came from a single agent. That is now the family's working practice —
+one unit audited alone is thin cover when ten consecutive units share a
+transcriber (the #340 precedent). Whole-batch positional checking is cheap here:
+Table 5's text layer parses into `(label, 9 values)` records, so the auditor can
+compare presence *and* absence for every cell rather than sample.
 
 ---
 
