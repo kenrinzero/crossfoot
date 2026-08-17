@@ -53,7 +53,7 @@ in this repo always means a stage, never difficulty.
   four departmental capstones — AUDITS.md). #361 may ship. **Next
   every-10th audit fires at #370.**
 
-- **Treasury MTS July 2026 — 61 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+- **Treasury MTS July 2026 — 60 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#360 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
   outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
@@ -111,6 +111,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-18 · **treasury-mts/2026-07-outlays-energy** — #361 (D2/PDF/vision; 132c/27r, strict-default GREEN 0 warnings; 8 tol-1 all delta exactly 1 quoting the p23 footnote, 12 net identities exact; same shape as the June twin; section spans p12-13; Table 3 tie holds). 60 July-MTS units remain.
 - 2026-08-17 · **treasury-mts July 2026 batch #356–#360 (5 units)** — defense-programs (88c/18r), defense-rdte (84c/12r, 24 FH standalones), defense-departmental capstone (155c/12r, +4 printed cells over June, ties-siblings byte-match machine-checked), education-bureaus (92c/22r), education-departmental capstone (93c/13r, ties-siblings byte-match). All strict-default GREEN 0 warnings; sweep 360/360. Max tol 2 (24-component capstone grand roll-ups). **#360 fires the every-10th audit — corpus blocked, see AUDITS.md.**
 - 2026-08-17 · **treasury-mts July 2026 batch #352–#355 (4 units)** — agriculture-programs (126c/22r), agriculture-fns (80c/14r), agriculture-departmental capstone (208c/37r, ties-siblings byte-match machine-checked), commerce (75c/20r). All strict-default GREEN 0 warnings; sweep 355/355. Notable: the capstone's Prior-FYTD Outlays grand roll-up carries an adjudicated tol=3 (25 components, 196,013 vs printed 196,010, page-23 note quoted).
 - 2026-08-17 · **treasury-mts/2026-07-outlays-eop** — #351 (D3/PDF/vision; 43c/9r, strict-default GREEN 0 warnings; 6 tol-1 computed against the p23 footnote, two net identities + col-3 roll-up exact; +2 printed cells over the June twin on Unanticipated Needs)
