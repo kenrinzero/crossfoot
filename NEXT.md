@@ -47,10 +47,29 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **D1/web vendoring (later):** Treasury MTS **July 2026** — probed
-  2026-07-19: not yet published (503 + HTML body, caught by the
-  magic-byte check). Expected ~mid-August at the fiscaldata static
-  path; re-probe then.
+- **Treasury MTS July 2026 — 80 units, READY, D-tiered.** The D1
+  vendoring is DONE (2026-08-17): published 2026-08-12, vendored,
+  gated, ledgered. **`BACKLOG.md` § *Treasury MTS July 2026* carries
+  the full unit table with a D level and a `needs` tag per unit** —
+  take the topmost row that fits your harness.
+  - **All 80 are PDF units → vision-capable agent required**, no
+    exceptions; the render check is the discipline, and the text layer
+    emits `(cid:NN)` (decode `chr(NN+29)`). `uv run --with pdfplumber`.
+  - **D2 ×64 / D3 ×16.** D3 = flat blocks (≤60 cells, ≤15 relations, no
+    capstone/split structure) or all-standalone; D2 = the rest. Full
+    derivation rule in the BACKLOG section so it can be re-checked.
+  - **Order within the family:** ship a department's `-bureaus` /
+    programme units BEFORE its `-departmental` capstone — capstones are
+    tagged `ties-siblings` and re-anchor sibling totals.
+  - **Floors are provisional** (inherited from the June twins). A floor
+    you cannot reach honestly is a finding — stop and log; never pad,
+    and never invent a row to match June (#340 defect class).
+  - **Audit:** corpus is 341, so this family is #342–#421 and the
+    every-10th audit fires at **#350**, the 9th unit out of this family.
+    Don't run the family to completion unaudited.
+
+- **Treasury MTS August 2026** — probed 2026-08-17: not yet published
+  (503 + HTML body). Expected ~mid-September; re-probe then.
 
 - **FEC footnote pages pp7–9** stay a Tier-3 stage concern (DESIGN §8)
   — not yet in scope.

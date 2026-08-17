@@ -346,6 +346,129 @@ NEXT.md.)
 | treasury-mts/2026-05-table6-schedule-e-direct-part1 | `sources/treasury-mts/mts-202605.pdf` | Table 6 Schedule E — Direct Loan Financing Activity (Agriculture through Energy) | 20 | sum | ≤ 140 cells (136 actual) | 0 | SHIPPED 2026-07-18 (136c/18r balance roll-forwards; corpus #159) |
 | treasury-mts/2026-05-table6-schedule-e-direct-part2 | `sources/treasury-mts/mts-202605.pdf` | Table 6 Schedule E — Direct Loan Financing Activity (HHS through Independent Agencies & Totals) | 23 | sum | ≤ 180 cells (179 actual post-audit) | 110 | SHIPPED 2026-07-18 (originally 175c/23r; corpus #160 — **every-10th audit GREEN after completeness repair — Grok, 2026-07-18, `AUDITS.md`**: 175/175 present values exact; inserted Transitional Housing Loans (c4=−1) + AID International Debt Reduction (c4–c6=−172); post-repair 34 rows / 179 cells / 23 relations). |
 
+## Treasury MTS July 2026 — READY (80 units, D-tiered)
+
+Source vendored 2026-08-17: `sources/treasury-mts/mts-202607.pdf`, 1,997,184 bytes,
+sha256 `c6a45e10…f14b7ee` (full hash in `sources/SOURCES.md`). Content-gate PASS —
+`%PDF-1.6`, 39pp, Tables 1–9 all present, period line *Through July 31, 2026*. The July
+statement is **structurally identical to June** (same page count, same table pagination:
+T1/T2 p5, T3 p8, T4 p9, T5 pp10–15, T6 pp24–29, T7 pp34–35, T8 p36, T9 p37), so the June
+decomposition ports 1:1 and the unit list below mirrors it exactly.
+
+**Corpus numbering:** this family is #342–#421 against a corpus of 341. The next every-10th
+different-agent audit fires at **#350** — the 9th unit shipped from this family, whichever
+that turns out to be. Do not let the family run to completion unaudited.
+
+**Floors are PROVISIONAL.** `min relations` and the `(June: N)` sizes are inherited from
+the shipped June twins. MTS line items are stable month to month but not guaranteed: a
+month can add or drop a program row. If your unit cannot reach its floor honestly, that is
+a **finding — stop and log it**, exactly as with a total that does not foot. Never pad
+relations to clear a floor, and never invent a row to match June (the #340 defect class).
+Conversely, a July table with *more* rows than June is fine — ship the higher count and
+note it.
+
+**Every unit in this family is a PDF unit, so vision is mandatory** — the pypdfium2 render
+check is the discipline that catches what the text layer drops, and the text layer here
+emits `(cid:NN)` tokens that decode as `chr(NN+29)`. Use `uv run --with pdfplumber`.
+
+**How the D column was derived** (stated so it can be re-checked, not trusted): **D3**
+requires all three of ≤ 60 cells, ≤ 15 declared relations, and no capstone/split/remainder
+structure — or zero declared relations, which means an all-standalone block. **D2** is
+everything else. Relation count is weighted deliberately: Table 2 is only 51 cells but
+carries 25 relations, and a cell-count-only rule tiered the family's 4th-densest unit as
+D3. There are no D1 units here — D1 in this repo is vendoring and sizing, which this
+session already did.
+
+**`needs` tags.** `vision` = mandatory render check (all units). `ties-siblings` = a
+capstone that re-anchors bureau totals from its sibling units, so those must ship first and
+their values must match byte-for-byte. `cross-table` = carries totals that must tie to
+another table's unit (T1↔T2↔T3, receipts). `row-count-check` = all-standalone block where
+strict coverage cannot see a missing row — cross-check row COUNTS against the print (the
+#129 and #160 defect class).
+
+| unit | table | D | needs | min relations (prov.) | types | size cap | standalone waivers (June) | status |
+|---|---|---|---|---|---|---|---|---|
+| treasury-mts/2026-07-table1 | Table 1 monthly receipts/outlays/deficit through July | D2 | vision, cross-table | 29 | sum | ≤ 150 cells (June: 69) | 0 | READY |
+| treasury-mts/2026-07-table2 | Table 2 budget/off-budget results and financing | D2 | vision, cross-table | 25 | sum | ≤ 150 cells (June: 51) | 0 | READY |
+| treasury-mts/2026-07-table3-receipts | Table 3 budget receipts block | D3 | vision, cross-table | 12 | sum | ≤ 150 cells (June: 52) | 4 | READY |
+| treasury-mts/2026-07-table3-outlays-departments | Table 3 department outlay lines | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (June: 112) | 112 | READY |
+| treasury-mts/2026-07-table3-outlays-remainder | Table 3 totals/SSA/UOR/deficit remainder | D2 | vision, cross-table | 14 | sum | ≤ 150 cells (June: 50) | 17 | READY |
+| treasury-mts/2026-07-table9 | Table 9 receipts by source / outlays by function | D2 | vision, cross-table | 6 | sum | ≤ 150 cells (June: 90) | 0 | READY |
+| treasury-mts/2026-07-receipts-major | Major receipts classifications (net) | D3 | vision, cross-table | 6 | sum | ≤ 150 cells (June: 30) | 0 | READY |
+| treasury-mts/2026-07-outlays-legislative | Table 5 Legislative Branch | D2 | vision | 23 | sum | ≤ 150 cells (June: 96) | 0 | READY |
+| treasury-mts/2026-07-outlays-judicial | Table 5 Judicial Branch | D3 | vision | 9 | sum | ≤ 150 cells (June: 39) | 6 | READY |
+| treasury-mts/2026-07-outlays-eop | Table 5 Executive Office of the President | D3 | vision | 9 | sum | ≤ 150 cells (June: 41) | 6 | READY |
+| treasury-mts/2026-07-outlays-agriculture-programs | Table 5 Agriculture programs (unit 1/3) | D2 | vision | 22 | sum | ≤ 250 cells (June: 124) | 60 | READY |
+| treasury-mts/2026-07-outlays-agriculture-fns | Table 5 Agriculture FNS and Rural (unit 2/3) | D2 | vision | 14 | sum | ≤ 250 cells (June: 80) | 26 | READY |
+| treasury-mts/2026-07-outlays-agriculture-departmental | Table 5 Agriculture departmental capstone (unit 3/3) | D2 | vision, ties-siblings | 37 | sum | ≤ 250 cells (June: 208) | 0 | READY |
+| treasury-mts/2026-07-outlays-commerce | Table 5 Department of Commerce | D2 | vision | 20 | sum | ≤ 250 cells (June: 75) | 0 | READY |
+| treasury-mts/2026-07-outlays-defense-programs | Table 5 DoD Military Personnel/O&M/Procurement (unit 1/3) | D2 | vision | 18 | sum | ≤ 250 cells (June: 88) | 0 | READY |
+| treasury-mts/2026-07-outlays-defense-rdte | Table 5 DoD RDT&E/MilCon/Family Housing (unit 2/3) | D2 | vision | 12 | sum | ≤ 250 cells (June: 84) | 24 | READY |
+| treasury-mts/2026-07-outlays-defense-departmental | Table 5 DoD Military departmental capstone (unit 3/3) | D2 | vision, ties-siblings | 12 | sum | ≤ 250 cells (June: 151) | 0 | READY |
+| treasury-mts/2026-07-outlays-education-bureaus | Table 5 Education bureaus (unit 1/2) | D2 | vision | 22 | sum | ≤ 250 cells (June: 92) | 0 | READY |
+| treasury-mts/2026-07-outlays-education-departmental | Table 5 Education departmental capstone (unit 2/2) | D2 | vision, ties-siblings | 13 | sum | ≤ 250 cells (June: 93) | 1 | READY |
+| treasury-mts/2026-07-outlays-energy | Table 5 Department of Energy | D2 | vision | 27 | sum | ≤ 250 cells (June: 132) | 0 | READY |
+| treasury-mts/2026-07-outlays-hhs-cms | Table 5 HHS CMS (unit 1/3) | D2 | vision | 18 | sum | ≤ 250 cells (June: 84) | 0 | READY |
+| treasury-mts/2026-07-outlays-hhs-acf | Table 5 HHS ACF and small agencies (unit 2/3) | D2 | vision | 9 | sum | ≤ 250 cells (June: 135) | 54 | READY |
+| treasury-mts/2026-07-outlays-hhs-departmental | Table 5 HHS departmental capstone (unit 3/3) | D2 | vision, ties-siblings | 15 | sum | ≤ 250 cells (June: 108) | 0 | READY |
+| treasury-mts/2026-07-outlays-homeland-security | Table 5 Department of Homeland Security | D2 | vision | 27 | sum | ≤ 250 cells (June: 126) | 0 | READY |
+| treasury-mts/2026-07-outlays-hud-bureaus | Table 5 HUD bureaus (unit 1/2) | D2 | vision | 12 | sum | ≤ 250 cells (June: 82) | 0 | READY |
+| treasury-mts/2026-07-outlays-hud-departmental | Table 5 HUD departmental capstone (unit 2/2) | D2 | vision, ties-siblings | 34 | sum | ≤ 250 cells (June: 138) | 0 | READY |
+| treasury-mts/2026-07-outlays-interior-bureaus | Table 5 Interior bureaus (unit 1/2) | D2 | vision | 40 | sum | ≤ 250 cells (June: 130) | 0 | READY |
+| treasury-mts/2026-07-outlays-interior-departmental | Table 5 Interior departmental capstone (unit 2/2) | D2 | vision, ties-siblings | 22 | sum | ≤ 250 cells (June: 73) | 6 | READY |
+| treasury-mts/2026-07-outlays-justice | Table 5 Department of Justice | D2 | vision | 15 | sum | ≤ 250 cells (June: 120) | 0 | READY |
+| treasury-mts/2026-07-outlays-labor-bureaus | Table 5 Labor ETA bureaus (unit 1/2) | D2 | vision | 12 | sum | ≤ 250 cells (June: 86) | 0 | READY |
+| treasury-mts/2026-07-outlays-labor-departmental | Table 5 Labor departmental capstone (unit 2/2) | D2 | vision, ties-siblings | 15 | sum | ≤ 250 cells (June: 102) | 0 | READY |
+| treasury-mts/2026-07-outlays-state | Table 5 Department of State | D2 | vision | 15 | sum | ≤ 250 cells (June: 91) | 3 | READY |
+| treasury-mts/2026-07-outlays-transportation-bureaus | Table 5 Transportation FAA/FHA/FTA (unit 1/2) | D2 | vision | 30 | sum | ≤ 250 cells (June: 104) | 0 | READY |
+| treasury-mts/2026-07-outlays-transportation-departmental | Table 5 Transportation departmental capstone (unit 2/2) | D2 | vision, ties-siblings | 20 | sum | ≤ 250 cells (June: 93) | 6 | READY |
+| treasury-mts/2026-07-outlays-treasury-bureaus | Table 5 Treasury bureaus excl. IRS (unit 1/3) | D2 | vision | 10 | sum | ≤ 250 cells (June: 98) | 58 | READY |
+| treasury-mts/2026-07-outlays-treasury-irs | Table 5 Treasury IRS (unit 2/3) | D2 | vision | 10 | sum | ≤ 250 cells (June: 76) | 0 | READY |
+| treasury-mts/2026-07-outlays-treasury-departmental | Table 5 Treasury departmental capstone (unit 3/3) | D2 | vision, ties-siblings | 30 | sum | ≤ 250 cells (June: 153) | 0 | READY |
+| treasury-mts/2026-07-outlays-veterans-affairs | Table 5 Department of Veterans Affairs | D2 | vision | 36 | sum | ≤ 250 cells (June: 138) | 0 | READY |
+| treasury-mts/2026-07-outlays-corps-engineers | Table 5 Corps of Engineers | D3 | vision | 9 | sum | ≤ 250 cells (June: 53) | 3 | READY |
+| treasury-mts/2026-07-outlays-other-defense-civil | Table 5 Other Defense Civil Programs | D3 | vision | 9 | sum | ≤ 250 cells (June: 53) | 3 | READY |
+| treasury-mts/2026-07-outlays-epa | Table 5 Environmental Protection Agency | D2 | vision | 15 | sum | ≤ 250 cells (June: 62) | 0 | READY |
+| treasury-mts/2026-07-outlays-gsa | Table 5 General Services Administration | D3 | vision | 9 | sum | ≤ 250 cells (June: 37) | 3 | READY |
+| treasury-mts/2026-07-outlays-international-assistance-bureaus | Table 5 International Assistance ISA/AID (unit 1/2) | D2 | vision | 21 | sum | ≤ 250 cells (June: 80) | 2 | READY |
+| treasury-mts/2026-07-outlays-international-assistance-departmental | Table 5 International Assistance capstone (unit 2/2) | D2 | vision, ties-siblings | 33 | sum | ≤ 250 cells (June: 102) | 2 | READY |
+| treasury-mts/2026-07-outlays-nasa | Table 5 NASA | D3 | vision | 8 | sum | ≤ 250 cells (June: 52) | 2 | READY |
+| treasury-mts/2026-07-outlays-nsf | Table 5 National Science Foundation | D3 | vision | 9 | sum | ≤ 250 cells (June: 33) | 3 | READY |
+| treasury-mts/2026-07-outlays-opm | Table 5 Office of Personnel Management | D2 | vision | 18 | sum | ≤ 250 cells (June: 67) | 0 | READY |
+| treasury-mts/2026-07-outlays-sba | Table 5 Small Business Administration | D2 | vision | 16 | sum | ≤ 250 cells (June: 49) | 0 | READY |
+| treasury-mts/2026-07-outlays-social-security | Table 5 Social Security Administration | D2 | vision | 24 | sum | ≤ 250 cells (June: 93) | 0 | READY |
+| treasury-mts/2026-07-outlays-grand-total-capstone | Table 5 grand-total On/Off/Total Outlays capstone | D2 | vision, ties-siblings, cross-table | 18 | sum | ≤ 250 cells (June: 27) | 0 | READY |
+| treasury-mts/2026-07-outlays-independent-a-n | Table 5 Independent Agencies Global Media through NRC (incl. nested FDIC total) | D2 | vision | 15 | sum | ≤ 250 cells (June: 163) | 88 | READY |
+| treasury-mts/2026-07-outlays-postal | Table 5 Postal Service (Off-Budget PEF + Other) | D3 | vision | 3 | sum | ≤ 250 cells (June: 19) | 10 | READY |
+| treasury-mts/2026-07-outlays-railroad-retirement | Table 5 Railroad Retirement Board (full nested trust funds + Total) | D2 | vision | 9 | sum | ≤ 250 cells (June: 97) | 3 | READY |
+| treasury-mts/2026-07-outlays-independent-remainder | Table 5 Independent Agencies remainder (SEC/Smithsonian/TVA/Other) + Total | D2 | vision | 9 | sum | ≤ 250 cells (June: 39) | 12 | READY |
+| treasury-mts/2026-07-outlays-uor-employer-share | Table 5 UOR Employer Share, Employee Retirement | D3 | vision | 6 | sum | ≤ 250 cells (June: 56) | 0 | READY |
+| treasury-mts/2026-07-outlays-uor-departmental | Table 5 UOR Interest Received + Rents/Sale + departmental total (Employer Share re-anchored) | D2 | vision, ties-siblings | 12 | sum | ≤ 250 cells (June: 161) | 2 | READY |
+| treasury-mts/2026-07-table6-liabilities | Table 6 Means of Financing — Liability Accounts | D2 | vision | 30 | sum | ≤ 250 cells (June: 102) | 6 | READY |
+| treasury-mts/2026-07-table6-assets-financing | Table 6 Means of Financing — Asset Accounts + Financing totals | D2 | vision | 30 | sum | ≤ 250 cells (June: 125) | 5 | READY |
+| treasury-mts/2026-07-table6-schedule-a | Table 6 Schedule A — Change in Excess of Liabilities | D3 | vision | 8 | sum | ≤ 250 cells (June: 31) | 5 | READY |
+| treasury-mts/2026-07-table6-schedule-b | Table 6 Schedule B — Agency Securities Under Special Financing Authorities | D3 | vision | 3 | sum | ≤ 250 cells (June: 15) | 4 | READY |
+| treasury-mts/2026-07-table6-schedule-c-agri | Table 6 Schedule C Agriculture borrowing | D2 | vision | 8 | sum | ≤ 250 cells (June: 94) | 61 | READY |
+| treasury-mts/2026-07-table6-schedule-c-comm-energy | Table 6 Schedule C Commerce through Energy | D2 | vision | 5 | sum | ≤ 250 cells (June: 68) | 44 | READY |
+| treasury-mts/2026-07-table6-schedule-c-hhs-interior | Table 6 Schedule C HHS through Interior | D3 | vision | 1 | sum | ≤ 250 cells (June: 43) | 40 | READY |
+| treasury-mts/2026-07-table6-schedule-c-labor-vets | Table 6 Schedule C Labor through Veterans Affairs | D2 | vision | 3 | sum | ≤ 250 cells (June: 66) | 51 | READY |
+| treasury-mts/2026-07-table6-schedule-c-epa-ind | Table 6 Schedule C EPA through Totals + FFB | D2 | vision | 10 | sum | ≤ 250 cells (June: 127) | 85 | READY |
+| treasury-mts/2026-07-table6-schedule-d-federal-funds | Table 6 Schedule D Federal Funds investments | D2 | vision | 20 | sum | ≤ 250 cells (June: 164) | 3 | READY |
+| treasury-mts/2026-07-table6-schedule-d-trust-funds | Table 6 Schedule D Trust Funds + Grand Total | D2 | vision | 20 | sum | ≤ 250 cells (June: 232) | 116 | READY |
+| treasury-mts/2026-07-table6-schedule-e-guaranteed | Table 6 Schedule E Guaranteed Loan Financing | D2 | vision | 15 | sum | ≤ 250 cells (June: 187) | 127 | READY |
+| treasury-mts/2026-07-table6-schedule-e-direct-part1 | Table 6 Schedule E Direct Loan Financing (Agri–HHS) | D2 | vision | 12 | sum | ≤ 250 cells (June: 150) | 93 | READY |
+| treasury-mts/2026-07-table6-schedule-e-direct-part2 | Table 6 Schedule E Direct Loan Financing remainder + Net | D2 | vision | 12 | sum | ≤ 250 cells (June: 166) | 106 | READY |
+| treasury-mts/2026-07-table7-receipts-detail | Table 7 receipts classification detail (Oct–June + YTD + Prior) | D2 | vision | 9 | sum | ≤ 150 cells (June: 99) | 9 | READY |
+| treasury-mts/2026-07-table7-receipts-totals | Table 7 receipts totals On/Off-Budget | D2 | vision | 18 | sum | ≤ 100 cells (June: 60) | 0 | READY |
+| treasury-mts/2026-07-table7-outlays-leg-def | Table 7 outlays Legislative through Defense Military | D2 | vision | 20 | sum | ≤ 200 cells (June: 165) | 6 | READY |
+| treasury-mts/2026-07-table7-outlays-edu-labor | Table 7 outlays Education through Labor | D2 | vision | 15 | sum | ≤ 200 cells (June: 165) | 15 | READY |
+| treasury-mts/2026-07-table7-outlays-state-gsa | Table 7 outlays State through GSA (incl. VA) | D2 | vision | 13 | sum | ≤ 200 cells (June: 143) | 13 | READY |
+| treasury-mts/2026-07-table7-outlays-intl-sba | Table 7 outlays International Assistance through SBA | D2 | vision | 8 | sum | ≤ 120 cells (June: 88) | 8 | READY |
+| treasury-mts/2026-07-table7-outlays-ssa-independents | Table 7 outlays SSA + Independent Agencies | D2 | vision | 8 | sum | ≤ 150 cells (June: 96) | 12 | READY |
+| treasury-mts/2026-07-table7-outlays-uor-totals | Table 7 UOR + monthly Totals this/prior year | D2 | vision | 30 | sum | ≤ 200 cells (June: 174) | 7 | READY |
+| treasury-mts/2026-07-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) | D2 | vision | 40 | sum | ≤ 150 cells (June: 132) | 0 | READY |
+| treasury-mts/2026-07-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (June: 45) | 0 | READY |
+
 ## Queued (need vendoring or sizing first)
 
 | unit | standalone waivers (est.) | note |
