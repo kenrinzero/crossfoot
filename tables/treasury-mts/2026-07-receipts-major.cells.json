@@ -1,0 +1,354 @@
+{
+  "table_id": "treasury-mts/2026-07-receipts-major",
+  "source": {
+    "path": "sources/treasury-mts/mts-202607.pdf",
+    "table": "Table 4. Receipts of the U.S. Government, July 2026 and Other Periods",
+    "page": 9,
+    "title": "Receipts of the U.S. Government",
+    "period": "July FY2026"
+  },
+  "unit_note": "USD millions. Net receipts by major classification, taken from Table 4's 'Receipts' (net) column — every line here is a printed 'Total --' row on page 9, including Social Insurance and Retirement Receipts (139,067 this month), which is printed and NOT derived. Source page corrected to 9: the shipped June twin cites page 8 (Table 3), whose Social Insurance line is a heading with no values.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Fiscal Year to Date"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Individual Income Taxes"
+    },
+    {
+      "index": 2,
+      "label": "Corporation Income Taxes"
+    },
+    {
+      "index": 3,
+      "label": "Social Insurance and Retirement Receipts"
+    },
+    {
+      "index": 4,
+      "label": "Excise Taxes"
+    },
+    {
+      "index": 5,
+      "label": "Estate and Gift Taxes"
+    },
+    {
+      "index": 6,
+      "label": "Customs Duties"
+    },
+    {
+      "index": 7,
+      "label": "Miscellaneous Receipts"
+    },
+    {
+      "index": 8,
+      "label": "Total -- Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Total -- On-Budget"
+    },
+    {
+      "index": 10,
+      "label": "Total -- Off-Budget"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "173271",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "2368957",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "2204487",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "13569",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "292909",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "387108",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "139067",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "1522746",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1480318",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "9624",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "84622",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "84933",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "3852",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "34007",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "24093",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "-8546",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "154473",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "135688",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "3174",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "27706",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "30012",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "334010",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "4485420",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "4346638",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "231465",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "3359630",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "3261897",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "102545",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "1125790",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "1084741",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r8c1",
+      "note": "major categories sum to Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r8c1",
+      "note": "On-Budget + Off-Budget = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2"
+      ],
+      "target": "r8c2",
+      "note": "major categories sum to Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r10c2"
+      ],
+      "target": "r8c2",
+      "note": "On-Budget + Off-Budget = Total Receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r8c3",
+      "note": "major categories sum to Total Receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r10c3"
+      ],
+      "target": "r8c3",
+      "note": "On-Budget + Off-Budget = Total Receipts"
+    }
+  ]
+}

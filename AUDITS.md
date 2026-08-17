@@ -1935,3 +1935,46 @@ units, a whole-file value **multiset comparison** against the source is cheap an
 catches fabricated-row defects that label checks and cell samples structurally cannot —
 sampled values only prove each value exists *somewhere* in the source. Recommend it as
 standard practice for sec-10k audits alongside the label check.
+
+---
+
+## PENDING — Unit 350: treasury-mts/2026-07-outlays-judicial (opened 2026-08-17, Claude Opus 5)
+
+**Status: awaiting a different-agent audit. Corpus is BLOCKED at #350 until this closes.**
+
+Every-10th cadence fires here. The transcriber of #350 — and of #342 through #349 — was
+Claude Opus 5, so it cannot audit any of them; this entry is the placeholder the runbook
+requires, not an audit.
+
+**Read this before sampling.** The usual every-10th audit checks the 10th unit alone. That
+is weaker than usual here, for a reason worth stating: **#342–#350 are nine consecutive
+units from a single agent**, where the family's normal pattern is a rotating fleet. The
+#340 precedent is the argument — its spot-audit came back GREEN and a *separate* full
+review pass later found six fabricated cells, because the sample never landed on them.
+Recommend the auditor spend its budget on a **whole-file value multiset comparison of all
+nine units against pages 5, 8, 9, 10 and 37**, rather than a deep sample of #350 alone.
+The cheap version: extract every printed number per page and diff it against the union of
+the units' cell values. Nine units is a wide surface for one sample of ten to defend.
+
+**Three specific things to scrutinise, all judgement calls this session made:**
+
+1. **`outlays-legislative` r14c9 carries `tol: "2"`, not 1.** The Prior-FYTD Outlays
+   roll-up sums to 5,907 against a printed 5,905. Thirteen independently-rounded
+   components make a 2 explicable, the corpus has 72 prior `tol=2` relations, and Table 5's
+   rounding footnote does exist — but on **page 23**, Table 5's last page, not on page 10
+   where the section prints. Verify that footnote is real and that 2 is not slack. Every
+   other non-zero delta in these nine units is exactly 1.
+2. **`receipts-major` is cited to page 9 (Table 4), where the shipped June twin cites page
+   8 (Table 3).** Page 8's "Social Insurance and Retirement Receipts:" is a heading with no
+   values; page 9 prints `Total -- Social Insurance and Retirement Receipts` explicitly
+   (139,067 this month). The July unit therefore transcribes printed lines rather than
+   deriving the SI row. If this is right, the June twin's citation wants the same fix.
+3. **`outlays-legislative` omits the printed "Offsetting Governmental Receipts" row**
+   entirely, because every one of its nine cells is `......` or `(**)`. The row exists on
+   the page. This follows the June twin, and is recorded in the unit's `unit_note` — but it
+   is a row-count question of exactly the #129/#160 class, so confirm the call rather than
+   inherit it.
+
+State reached: 350/350 sweep GREEN, 0 warnings; pytest 10/10; each of the nine units
+matches its June twin's row/cell/relation counts exactly, with `table1` the sole intended
+difference (+1 month: 24/72/30 against 23/69/29).
