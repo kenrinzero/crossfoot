@@ -47,21 +47,18 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **UNBLOCKED (2026-08-18):** the #380 every-10th audit closed **GREEN**
-  (Claude Fable 5; whole-batch positional check of #371–#380, 986 cells /
-  1,449 positions vs an independent parse, all 182 tolerances equal to their
-  deltas, the four floor misses #372/#374/#375/#379 upheld against the
-  print, 18 shared rows byte-match, Table 3 ties on all six blocks incl.
-  Treasury = Interest + Other — AUDITS.md). #381 may ship; next dispatch is
-  `outlays-other-defense-civil` (D3).
+- **BLOCKED (2026-08-18):** #390 (`outlays-social-security`) is the every-10th
+  audit slot. Transcriber of #381–#390 (Grok 4.6) cannot audit. Placeholder
+  in AUDITS.md asks the next agent for a whole-batch positional check of
+  those ten units (Other Defense Civil through SSA). #391 must not ship first.
 
-- **Treasury MTS July 2026 — 41 of 80 units remain, D-tiered.** The D1 vendoring is DONE
-  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#380 shipped**:
+- **Treasury MTS July 2026 — 31 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#390 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
   outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
-  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice, labor ×2, state, transportation ×2, treasury ×3, veterans-affairs, corps-engineers — every one matching its June twin's row/cell/relation
+  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice, labor ×2, state, transportation ×2, treasury ×3, veterans-affairs, corps-engineers, other-defense-civil, epa, gsa, international-assistance ×2, nasa, nsf, opm, sba, social-security — every one matching its June twin's row/cell/relation
   counts exactly, table1 and the capstones with printed-month deltas
-  aside (noted per unit in BACKLOG; #372/#374/#375/#379 ship under their June floors where July omits a cell). **`BACKLOG.md`
+  aside (noted per unit in BACKLOG; #372/#374/#375/#379/#384/#385/#387 ship under their June floors where July omits a cell). **`BACKLOG.md`
   § *Treasury MTS July 2026* carries the full unit table with a D level
   and a `needs` tag per unit** — take the topmost row that fits your
   harness.
@@ -84,7 +81,7 @@ in this repo always means a stage, never difficulty.
     check of #361–#370 + ties + Table 3), and #380 closed **GREEN**
     2026-08-18 (Claude Fable 5; whole-batch positional check of #371–#380
     + ties + Table 3, four floor misses upheld). All in AUDITS.md. Corpus
-    unblocked; next every-10th fires at **#390**.
+    **BLOCKED** at **#390** pending a different-agent whole-batch audit of #381–#390.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -102,8 +99,9 @@ whole-family positional check)**; **#351–#360 audited GREEN together 2026-08-1
 (Claude Opus 5, 1,485 positions + cross-table ties)**; **#361–#370 audited GREEN
 together 2026-08-18 (Claude Fable 5, 1,593 positions + ties + cross-table ties)**;
 **#371–#380 audited GREEN together 2026-08-18 (Claude Fable 5, 1,449 positions +
-ties + cross-table ties, four floor misses upheld)**. Next fires at **#390**.
-Reminder for later multiples of 10: write the AUDITS.md placeholder (as #380 did).
+ties + cross-table ties, four floor misses upheld)**. **#381–#390 shipped; #390
+audit PENDING** (AUDITS.md placeholder). Reminder for later multiples of 10: write
+the AUDITS.md placeholder (as #390 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
 widened scope from the 10th unit to the whole ten-unit batch, because both
@@ -121,6 +119,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-18 · **treasury-mts July 2026 batch #381–#390 (10 units)** — other-defense-civil (53c/9r), epa (62c/15r), gsa (39c/9r, +2 Intra This-Month), international-assistance-bureaus (81c/20r vs floor 21 — ISA This-Month receipts omitted), international-assistance-departmental (107c/32r vs floor 33 — IDA This-Month omitted; OPIC Prior newly printed), nasa (52c/8r), nsf (30c/8r vs floor 9 — Prop This-Month (**)), opm (65c/18r), sba (45c/16r), social-security (89c/24r). All strict-default GREEN 0 warnings; ties-siblings and Table 3 capstone ties byte-match. Floor misses are printed-cell deltas, not padding. **#390 fires the every-10th audit — corpus blocked, see AUDITS.md.** 31 July-MTS units remain.
 - 2026-08-18 · **treasury-mts July 2026 batch #376–#380 (5 units)** — treasury-bureaus (98c/10r, 56 sa), treasury-irs (76c/10r), treasury-departmental capstone (151c/30r, ties-siblings + Table 3 Interest+Other), veterans-affairs (141c/35r vs floor 36 — VSL This-Month receipts (**)), corps-engineers (51c/9r). All strict-default GREEN 0 warnings. **#380 fires the every-10th audit — corpus blocked, see AUDITS.md.** 41 July-MTS units remain.
 - 2026-08-18 · **treasury-mts July 2026 batch #372–#375 (4 units)** — labor-departmental capstone (100c/14r vs floor 15 — This-Month proprietary omitted, col-2 roll-up not declarable), state (91c/15r), transportation-bureaus (100c/28r vs floor 30 — two This-Month FAA net identities not computable), transportation-departmental capstone (92c/19r vs floor 20 — FAA This-Month receipts omitted). All strict-default GREEN 0 warnings; ties-siblings and Table 3 capstone ties byte-match. Floor misses are printed-cell deltas, not padding. 46 July-MTS units remain.
 - 2026-08-18 · **treasury-mts/2026-07-outlays-labor-bureaus** — #371 (D2/PDF/vision; 86c/12r, strict-default GREEN 0 warnings; 4 tol-1 computed per-relation, all delta exactly 1, quoting the Table 5 footnote; June's tol-1 sat on Prior-FYTD, July's sit on This-Month UTF + ETA roll-ups; same 15-row shape as the June twin; p16). 50 July-MTS units remain.

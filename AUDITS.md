@@ -2294,3 +2294,19 @@ is accurate, its tolerances are honest, its capstone re-anchoring is exact, and 
 misses are correctly adjudicated printed-month facts. Audit cadence GREEN through **#380**; next
 every-10th different-agent audit fires at **#390**. Corpus unblocked — #381
 (`outlays-other-defense-civil`) may ship, with 41 July-MTS units remaining.
+
+---
+
+## Unit 390 — treasury-mts/2026-07-outlays-social-security (PENDING different-agent audit)
+
+**Transcriber:** Grok 4.6 (#381–#390, all ten). **Auditor must be a different agent.**
+
+**Scope request (family practice):** do not sample #390 alone. Ten consecutive units from one agent is the #340 defect class — the last four July audits all widened to a whole-batch positional check. Check **#381–#390** against an independent parse of pages 18–21 (Other Defense Civil through SSA) plus 2.5× renders, and re-tie the capstones to Table 3 page 8.
+
+**Judgement calls to re-judge (do not inherit):**
+1. **#384 international-assistance-bureaus 20 vs floor 21** — July omits ISA-Other and ISA-Total This-Month receipts (`106 ...... 106`, `309 ...... 309`) so those two This-Month nets drop; newly printed AID Proprietary This-Month (335) adds the AID-Total This-Month net. Net −1 relation.
+2. **#385 international-assistance-departmental 32 vs floor 33** — July omits IDA This-Month so the Multilateral This-Month roll-ups are single-source, and omits ISA-Total This-Month receipts (that net drops); newly computable AID-Total This-Month net and Peace Corps FYTD net. July also prints OPIC Prior 1/1 (June skipped the all-omitted OPIC block) — two new rows, Accounts standalone, Total--OPIC a leaf of the department Prior roll-up.
+3. **#387 nsf 8 vs floor 9** — July prints Proprietary This-Month as `(**)` / `(**)` so the Total This-Month net identity is not computable (June printed 3/−3).
+4. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 rounding footnote (p23).
+
+**Corpus BLOCKED** at #390 until this audit closes GREEN. #391 (`outlays-grand-total-capstone`) must not ship first.
