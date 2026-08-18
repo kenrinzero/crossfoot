@@ -47,44 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS July 2026 — 1 of 80 units remain, D-tiered.** The D1 vendoring is DONE
-  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#420 shipped**:
-  table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
-  outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
-  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice, labor ×2, state, transportation ×2, treasury ×3, veterans-affairs, corps-engineers, other-defense-civil, epa, gsa, international-assistance ×2, nasa, nsf, opm, sba, social-security, grand-total-capstone, independents ×3, postal, railroad-retirement, uor ×2, table6-liabilities, table6-assets-financing, table6-schedule-a, table6-schedule-b, table6-schedule-c ×5, table6-schedule-d ×2, table6-schedule-e ×3, table7 ×8, table8-activity — every one matching its June twin's row/cell/relation
-  counts exactly, table1 and the capstones with printed-month deltas
-  aside (noted per unit in BACKLOG; #372/#374/#375/#379/#384/#385/#387/#402/#403/#404 ship under their June floors where July omits a cell). **`BACKLOG.md`
-  § *Treasury MTS July 2026* carries the full unit table with a D level
-  and a `needs` tag per unit** — take the topmost row that fits your
-  harness.
-  - **All 80 are PDF units → vision-capable agent required**, no
-    exceptions; the render check is the discipline, and the text layer
-    emits `(cid:NN)` (decode `chr(NN+29)`). `uv run --with pdfplumber`.
-  - **D2 ×64 / D3 ×16.** D3 = flat blocks (≤60 cells, ≤15 relations, no
-    capstone/split structure) or all-standalone; D2 = the rest. Full
-    derivation rule in the BACKLOG section so it can be re-checked.
-  - **Order within the family:** ship a department's `-bureaus` /
-    programme units BEFORE its `-departmental` capstone — capstones are
-    tagged `ties-siblings` and re-anchor sibling totals.
-  - **Floors are provisional** (inherited from the June twins). A floor
-    you cannot reach honestly is a finding — stop and log; never pad,
-    and never invent a row to match June (#340 defect class).
-  - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check),
-    #360 closed **GREEN** the same day (Claude Opus 5; whole-batch
-    positional check of #351–#360 + Table 3 cross-table ties), and #370
-    closed **GREEN** 2026-08-18 (Claude Fable 5; whole-batch positional
-    check of #361–#370 + ties + Table 3), and #380 closed **GREEN**
-    2026-08-18 (Claude Fable 5; whole-batch positional check of #371–#380
-    + ties + Table 3, four floor misses upheld), and #390 closed **GREEN**
-    2026-08-18 (Claude Fable 5; whole-batch positional check of #381–#390
-    + ties + Table 3, three floor misses upheld), and #400 closed **GREEN**
-    2026-08-18 (Claude Fable 5; whole-batch positional check of #391–#400
-    incl. Table 6, ties + Table 3 + Schedule A identities), and #410 closed **GREEN**
-    2026-08-18 (Antigravity; whole-batch positional check of #401–#410,
-    1,136 cells / 1,344 positions, 0 mismatches, three floor misses upheld, Table 6 ties hold), and #420 closed **GREEN**
-    2026-08-18 (Antigravity; whole-batch positional check of #411–#420,
-    1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). All in AUDITS.md.
-    Corpus **UNBLOCKED** — final July unit `table8-investments` (D3) ready to ship; next audit **#430**.
+- **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
+  - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). All in AUDITS.md.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.

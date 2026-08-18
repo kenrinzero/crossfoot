@@ -467,7 +467,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-07-table7-outlays-ssa-independents | Table 7 outlays SSA + Independent Agencies | D2 | vision | 8 | sum | ≤ 150 cells (June: 96) | 12 | SHIPPED 2026-08-18 (corpus #418; 104c/9r; 12 standalones; strict-default GREEN, 0 warnings; OASDI July 127,095 / 1,249,201; Postal Other sparse; p35) |
 | treasury-mts/2026-07-table7-outlays-uor-totals | Table 7 UOR + monthly Totals this/prior year | D2 | vision | 30 | sum | ≤ 200 cells (June: 174) | 7 | SHIPPED 2026-08-18 (corpus #419; 191c/55r; 7 standalones; strict-default GREEN, 0 warnings; Total Outlays July 766,318 / 6,284,236; deficit −432,308 / −1,798,816 byte-match Table 8 / Table 3; p35) |
 | treasury-mts/2026-07-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) | D2 | vision | 40 | sum | ≤ 150 cells (June: 132) | 0 | SHIPPED 2026-08-18 (corpus #420; 132c/60r; same 23-row/132-cell shape as June; strict-default GREEN, 0 warnings; Net Budget 334,010 / 766,318 / −432,308 byte-matches Table 7; p36; **audit closed GREEN 2026-08-18** by Antigravity). |
-| treasury-mts/2026-07-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (June: 45) | 0 | READY |
+| treasury-mts/2026-07-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (June: 45) | 0 | SHIPPED 2026-08-18 (corpus #421; 45c/15r; 3 relations; strict-default GREEN, 0 warnings; Table 8 Investments complete; July MTS family 80/80 COMPLETE!; p36). |
 
 ## Queued (need vendoring or sizing first)
 
