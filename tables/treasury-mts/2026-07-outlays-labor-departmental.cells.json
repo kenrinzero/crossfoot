@@ -890,7 +890,7 @@
       "target": "r16c1",
       "note": "section roll-up col 1",
       "tol": "2",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -913,7 +913,7 @@
       "target": "r16c3",
       "note": "section roll-up col 3",
       "tol": "2",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -988,7 +988,7 @@
       "target": "r16c7",
       "note": "section roll-up col 7",
       "tol": "2",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -1021,7 +1021,7 @@
       "target": "r16c9",
       "note": "section roll-up col 9",
       "tol": "2",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     }
   ]
 }

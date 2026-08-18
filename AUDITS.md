@@ -2516,4 +2516,13 @@ Corpus unblocked — #411 (`table6-schedule-e-direct-part2`) may ship, with 11 J
 Audit cadence GREEN through **#420**; next every-10th different-agent audit fires at **#430**.
 Corpus unblocked — #421 (`table8-investments`) may ship, with 1 unit remaining in the July 2026 MTS family.
 
+---
 
+## PENDING - fiscal-year roll-forward rollout (2026-08-18)
+
+Not an every-10th slot: 40 shipped Table 6 units were modified outside the cadence
+(673 new relations, 1,163 cells `standalone` -> verified, commit `a699834`), plus one
+verified transcription repair in `2026-06-table7-outlays-intl-sba`. **The full auditor
+brief - what to check, the two source-side findings to re-verify, and the 64
+unadjudicated `census-p60` tolerances - is in `BACKLOG.md` under *PENDING AUDIT*.**
+Needs an agent other than Claude Opus 5. Corpus is GREEN and unblocked meanwhile.

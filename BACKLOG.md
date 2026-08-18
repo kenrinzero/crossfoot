@@ -469,6 +469,87 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-07-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) | D2 | vision | 40 | sum | ≤ 150 cells (June: 132) | 0 | SHIPPED 2026-08-18 (corpus #420; 132c/60r; same 23-row/132-cell shape as June; strict-default GREEN, 0 warnings; Net Budget 334,010 / 766,318 / −432,308 byte-matches Table 7; p36; **audit closed GREEN 2026-08-18** by Antigravity). |
 | treasury-mts/2026-07-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (June: 45) | 0 | SHIPPED 2026-08-18 (corpus #421; 45c/15r; 3 relations; strict-default GREEN, 0 warnings; Table 8 Investments complete; July MTS family 80/80 COMPLETE!; p36). |
 
+## PENDING AUDIT - fiscal-year roll-forward rollout (2026-08-18)
+
+**Status: OPEN. Needs a different agent than Claude Opus 5, who made the change.**
+Commits `a699834` (rollout) and the follow-up cleanup commit. Nothing is blocked on
+this audit - the corpus is GREEN and pushed - but 40 shipped units were modified
+outside the every-10th cadence, so it has had no independent eye.
+
+### What changed and why
+
+Table 6 prints two independent roll-forwards per row. Only the first was ever declared:
+
+| identity | columns | status before |
+|---|---|---|
+| monthly | `Beginning of This Month + This Month = Close of This Month` | 544 declared |
+| fiscal-year | `Beginning of This Year + Fiscal Year to Date = Close of This Month` | **0 declared** |
+
+673 fiscal-year relations were added across 40 units (corpus 6,845 -> 7,518), moving
+**1,163 cells from `standalone` to `leaf`/`total`**. Each converted cell had its
+`why` ("No multi-source arithmetic partner in this unit") deleted, because the
+statement became false. **No cell value was changed by the rollout.**
+
+### What the auditor should actually check
+
+1. **Is the identity real, or did 673 coincidences get declared?** The claimed evidence
+   is a bimodal delta distribution: 473 exact, 199 at delta 1, nothing between 2 and 89.
+   Re-derive that distribution independently. A genuine `$ millions` rounding identity
+   cannot produce deltas of 2-5 on two-component sums; if you find any, the premise is
+   wrong.
+2. **Column semantics.** Verified against p27 of `mts-202605.pdf` only: c4 = Beginning of
+   This Year, c5 = Beginning of This Month, c6 = Close of This Month. Confirm on a June
+   and a July page too. Note the unit column label for c5 reads `Close of This Month -
+   open/prior`, which is a family wording quirk, not the column's meaning.
+3. **Three column shapes exist.** 31 standard, 9 worded `(Net Transactions)` with
+   identical semantics, 3 `schedule-a` units with no balance columns (correctly excluded).
+   Confirm the 9 really do share semantics and were not swept in by pattern-matching.
+4. **Role changes.** Every `standalone -> leaf/total` flip should be justified by exactly
+   the new relation. Check none were flipped without gaining a relation, and that no
+   pre-existing `leaf`/`total` was reclassified (the rollout deliberately touched only
+   `standalone`).
+5. **Dropped `why` fields.** 1,163 were deleted. Confirm every deletion sits on a cell that
+   genuinely gained a relation, and that no `standalone` cell anywhere lost its required
+   `why` (schema would catch it, but check the intent).
+6. **Red-test independently.** Pick a c4 or c2 cell that carried no relation before
+   `a699834`, mutate it, and confirm RED. The rollout's own red-test used `r1c4` of
+   `2026-07-table6-schedule-c-epa-ind`; use a different one.
+
+### Two source-side findings to re-verify
+
+- **June Schedule E, SBA Business Loan Fund (`2026-06-table6-schedule-e-guaranteed` r37).**
+  p32 prints `-53,892`; both identities independently compute `-53,982`. All six cells
+  were checked against the print and match, so this is recorded as a **source-side**
+  non-closure, not a transcription defect. Both its relations carry `tol=90` with a why
+  that says exactly that. **Re-verify against p32** - if the transcription is actually
+  wrong, this conclusion inverts.
+- **`2026-06-table7-outlays-intl-sba` r7c2 - REPAIRED, verify the repair.** The unit read
+  `10,826` for Office of Personnel Management November outlays; p35 prints `10,775`. The
+  wrong value inflated the row-YTD sum by 51 and that was absorbed as `tol=50` quoting a
+  rounding footnote. Value corrected, tolerance reduced to the true delta of 1. **This is
+  the only cell value changed in the whole session** - check it against p35.
+
+### Open lead the auditor should take further
+
+A corpus-wide scan for `tol > source count` (rounding cannot explain it) returns **66**
+relations. Two were Treasury and are resolved above. The other **64 are all
+`census-p60` income tables** and are **unadjudicated, not known-wrong**: their `why`
+cites a real source footnote ("Calculated estimate may be different due to rounded
+components"), which authorises *a* discrepancy but does not bound it. Tolerances there
+run to 70 on two-component sums. Someone should read `sources/census/p60-282.pdf` and
+decide whether those are source-authorised or, like the OPM row, tolerances masking
+transcription defects. Reproduce the list with a scan for `Decimal(tol) > len(sources)`.
+
+### The audit-standard gap this exposed
+
+Eight consecutive different-agent audits passed over the missing identity, because each
+verified that every *declared* relation holds and that every tolerance equals its
+observed delta - never that every *available* identity is declared, nor that a tolerance
+is **plausible for the reason it cites**. Both the delta-90 and the OPM defects satisfied
+"tol equals delta" perfectly. See `DESIGN.md` 4a. An audit of this rollout should
+apply the new question, not the old checklist.
+
+
 ## Queued (need vendoring or sizing first)
 
 | unit | standalone waivers (est.) | note |

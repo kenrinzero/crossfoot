@@ -7,7 +7,7 @@
     "title": "Table 7. Receipts and Outlays by Month \u2014 Outlays International Assistance through SBA",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June (printed) + Year to Date + Comparable Period Prior F.Y. (July\u2013Sept headers empty). International Assistance through SBA.",
+  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June (printed) + Year to Date + Comparable Period Prior F.Y. (July\u2013Sept headers empty). International Assistance through SBA. REPAIR 2026-08-18: r7c2 (Office of Personnel Management, November outlays) read 10,826; p35 prints 10,775. The wrong value inflated the row-YTD sum to 101,888 against a printed 101,838, and that 50 was absorbed as a declared tolerance quoting the rounding footnote - a nine-component sum in $ millions cannot round past about 5, so the tolerance was masking a data defect rather than describing rounding. Value corrected against p35 and the tolerance reduced to the true delta of 1.",
   "columns": [
     {
       "index": 1,
@@ -568,7 +568,7 @@
       "id": "r7c2",
       "row": 7,
       "col": 2,
-      "value": "10826",
+      "value": "10775",
       "role": "leaf"
     },
     {
@@ -828,7 +828,7 @@
       ],
       "target": "r7c10",
       "note": "row YTD: Oct..June sum to Year to Date (r7)",
-      "tol": "50",
+      "tol": "1",
       "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     },
     {

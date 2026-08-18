@@ -7,7 +7,7 @@
     "title": "Department of Housing and Urban Development (departmental capstone)",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... and (**) cells omitted (not zero). Unit 2/2 of HUD; re-anchors bureau totals.",
+  "unit_note": "USD millions. ...... and (**) cells omitted (not zero). Unit 2/2 of HUD; re-anchors bureau totals. All-omitted rows carry no cells by family rule; in this section that is HUD's Home Ownership Preservation Equity Fund, printed with every column omitted (...... or (**)). Recorded 2026-08-18 per the #370 audit, which flagged its absence from this unit_note as the only outstanding nit.",
   "columns": [
     {
       "index": 1,

@@ -2,12 +2,12 @@
   "table_id": "treasury-mts/2026-06-receipts-major",
   "source": {
     "path": "sources/treasury-mts/mts-202606.pdf",
-    "table": "Table 4 / Table 3 major receipts classifications (net receipts)",
-    "page": 8,
+    "table": "Table 4. Receipts of the U.S. Government, June 2026 and Other Periods",
+    "page": 9,
     "title": "Major revenue classifications net receipts",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Net receipts by major classification (aligned with Table 3 Budget Receipts). SI line is the sum of employment on/off + unemployment + other retirement.",
+  "unit_note": "USD millions. Net receipts by major classification (aligned with Table 3 Budget Receipts). SI line is the sum of employment on/off + unemployment + other retirement.RE-CITED 2026-08-18: page 8 to page 9. Every value in this unit is printed verbatim in the Receipts columns of Table 4 on p9; the lines are not derived from Table 3 on p8, and the old `Table 4 / Table 3` wording carried that ambiguity. Verified cell-by-cell against p9; no value changed. Matches the July twin, which cites p9.",
   "columns": [
     {
       "index": 1,

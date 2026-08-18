@@ -392,7 +392,7 @@
       "target": "r6c1",
       "note": "section roll-up col 1",
       "tol": "1",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table — it is NOT repeated on page 10, so it must be read there. This relation has 4 independently-rounded components, each carrying up to +/-0.5, so the observed difference is within what the note accounts for."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -406,7 +406,7 @@
       "target": "r6c3",
       "note": "section roll-up col 3",
       "tol": "1",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table — it is NOT repeated on page 10, so it must be read there. This relation has 5 independently-rounded components, each carrying up to +/-0.5, so the observed difference is within what the note accounts for."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -442,7 +442,7 @@
       "target": "r6c7",
       "note": "section roll-up col 7",
       "tol": "1",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table — it is NOT repeated on page 10, so it must be read there. This relation has 4 independently-rounded components, each carrying up to +/-0.5, so the observed difference is within what the note accounts for."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     },
     {
       "type": "sum",
@@ -456,7 +456,7 @@
       "target": "r6c9",
       "note": "section roll-up col 9",
       "tol": "1",
-      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table — it is NOT repeated on page 10, so it must be read there. This relation has 5 independently-rounded components, each carrying up to +/-0.5, so the observed difference is within what the note accounts for."
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
     }
   ]
 }
