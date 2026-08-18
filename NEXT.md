@@ -57,7 +57,7 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#410**, **#420 PENDING** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#420** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -71,9 +71,10 @@ together 2026-08-18 (Claude Fable 5, 909 positions + ties + cross-table ties, th
 floor misses upheld)**; **#391–#400 audited GREEN together 2026-08-18 (Claude Fable 5,
 1,068 positions incl. Table 6 + ties + Table 3 + Schedule A identities)**;
 **#401–#410 audited GREEN together 2026-08-18 (Antigravity, 1,344 positions,
-three floor misses upheld, Table 6 ties)**. Next fires at **#420** (placeholder
-written). Reminder for later multiples of 10: write the AUDITS.md placeholder (as
-#380–#420 did).
+three floor misses upheld, Table 6 ties)**; **#411–#420 audited GREEN together
+2026-08-18 (Antigravity, 1,480 positions, no floor misses, Table 7 ↔ Table 8
+ties byte-match)**. Next fires at **#430**. Reminder for later multiples of 10:
+write the AUDITS.md placeholder (as #380–#420 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
 widened scope from the 10th unit to the whole ten-unit batch, because both

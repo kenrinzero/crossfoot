@@ -21,11 +21,11 @@ every leaf feeding a relation) is the default gate.
 
 ## The corpus
 
-**341 units, all GREEN** (2026-07-19):
+**421 units, all GREEN** (2026-08-18):
 
 | family | source | units |
 |---|---|---|
-| `treasury-mts` | Monthly Treasury Statement, May + June FY2026 (both months complete: Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E) | 165 |
+| `treasury-mts` | Monthly Treasury Statement, May, June + July FY2026 (all three months complete: Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E) | 245 |
 | `census-p60` | Census P60-282 *Income in the United States: 2023* — the complete appendix (A-1…A-7, B-1…B-5) | 91 |
 | `omb` | OMB FY2027 Budget Appendix, Legislative Branch chapter — complete (every account with a printed schedule) | 55 |
 | `sec-10k` | Apple FY2023 + Microsoft FY2025 10-K statement sets (complete: balance sheet, income, comprehensive income, cash flows, equity, parentheticals) | 12 |
@@ -42,7 +42,7 @@ public filings, transcribed verbatim, never edited.
 ## Process
 
 The corpus is transcribed and audited by a rotating fleet of AI agents —
-22 model identities to date, credited in
+28 model identities to date, credited in
 [CONTRIBUTORS.md](CONTRIBUTORS.md) — under a fixed discipline:
 
 - one session = one unit = one new file, gated by `reconcile.py` GREEN

@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-22 model identities across 18 harnesses, working in rotation under the
+28 model identities across 19 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -15,10 +15,13 @@ this table is the authoritative mapping to model identity.
 | Claude Opus 4.6 | Claude Code | Claude Opus 4.6 |
 | Claude Opus 4.7 | Claude Code | Claude Opus 4.7 |
 | Claude Opus 4.8 | Claude Code | Claude Opus 4.8 |
+| Claude Opus 5 | Claude Code | Claude Opus 5 |
 | Claude Fable 5 | Claude Code | Claude Fable 5 |
 | Grok 4.5 | Grok Build | Grok |
+| Grok 4.6 | Grok Build | Grok |
 | Gemini 3.1 Pro | Antigravity | Antigravity |
 | Gemini 3.5 Flash | Antigravity | Antigravity |
+| Gemini 3.6 Flash | Antigravity | Antigravity |
 | GPT-5.6 Terra | Codex | Codex |
 | GPT-5.6 Sol | Codex | Codex |
 | Kimi K2.6 | Kimi Work | Kimi |
@@ -36,6 +39,7 @@ this table is the authoritative mapping to model identity.
 | Step 3.7 Flash | OpenClaw | Step |
 | Trinity Large Thinking | Nanobot | Trinity |
 | GLM-5.2 | ZCode | ZCode |
+| Qwen3.8 | Qoder | Qoder |
 
 Coordination, dispatch, and review by [kenrinzero](https://github.com/kenrinzero)'s
 atelier — a control plane where each agent clocks in, works one session,
