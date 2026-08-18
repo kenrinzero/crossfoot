@@ -1,0 +1,1308 @@
+{
+  "table_id": "treasury-mts/2026-07-table6-liabilities",
+  "source": {
+    "path": "sources/treasury-mts/mts-202607.pdf",
+    "table": "Table 6. Means of Financing \u2014 Liability Accounts",
+    "page": 24,
+    "title": "Table 6. Means of Financing \u2014 Liability Accounts",
+    "period": "July FY2026"
+  },
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6\u2248col5+col1. Cap-fit split of full Table 6.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month \u2014 end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Debt Held by the Public"
+    },
+    {
+      "index": 2,
+      "label": "Intragovernmental Holdings"
+    },
+    {
+      "index": 3,
+      "label": "Total Treasury Securities Outstanding"
+    },
+    {
+      "index": 4,
+      "label": "Plus Premium on Treasury Securities"
+    },
+    {
+      "index": 5,
+      "label": "Less Discount on Treasury Securities"
+    },
+    {
+      "index": 6,
+      "label": "Total Treasury Securities Net of Premium and Discount"
+    },
+    {
+      "index": 7,
+      "label": "Agency Securities, Issued Under Special Financing Authorities"
+    },
+    {
+      "index": 8,
+      "label": "Total Federal Securities"
+    },
+    {
+      "index": 9,
+      "label": "Federal Securities Held as Investments of Government Accounts"
+    },
+    {
+      "index": 10,
+      "label": "Less Discount on Federal Securities Held as Investments of Government Accounts"
+    },
+    {
+      "index": 11,
+      "label": "Net Federal Securities Held as Investments of Government Accounts"
+    },
+    {
+      "index": 12,
+      "label": "Total Borrowing from the Public"
+    },
+    {
+      "index": 13,
+      "label": "Accrued Interest Payable to the Public"
+    },
+    {
+      "index": 14,
+      "label": "Allocations of Special Drawing Rights"
+    },
+    {
+      "index": 15,
+      "label": "Uninvested Balances, Deposit Funds"
+    },
+    {
+      "index": 16,
+      "label": "Miscellaneous Liability Accounts (Includes Checks Outstanding Etc.)"
+    },
+    {
+      "index": 17,
+      "label": "Total Liability Accounts"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "364555",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "1768097",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "1224028",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "30277766",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "31681307",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "32045863",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-55337",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "365966",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "228285",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "7359787",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "7781090",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "7725753",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "309219",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "2134064",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1452313",
+      "role": "total"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "37637553",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "39462398",
+      "role": "total"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "39771617",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "-639",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "-5027",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-4488",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "66448",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "62060",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "61421",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "3722",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "201383",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "28857",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "352825",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "550486",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "554208",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "304858",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1927654",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "1418968",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "37351175",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "38973972",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "39278829",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-250",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-1120",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "959",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "22075",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "21205",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "20955",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "304608",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1926534",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1419927",
+      "role": "total"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "37373251",
+      "role": "total"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "38995177",
+      "role": "total"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "39299784",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-55952",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "361636",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "223833",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "7339271",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "7756860",
+      "role": "total"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "7700907",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "646",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "135828",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "28234",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "138423",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "273605",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "274251",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "-56598",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "225808",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "195599",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "7200848",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "7483254",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "7426656",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "361206",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "1700726",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "1224328",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "30172402",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "31511922",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "31873128",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "21195",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "34416",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "36621",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "159782",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "173003",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "194198",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "871",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-837",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-168",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "157472",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "155764",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "156635",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "4332",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "5557",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "-3514",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "33157",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "34381",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "38713",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-995",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "60233",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "6446",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "41715",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "102942",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "101948",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "386608",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "1800094",
+      "role": "total"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "1263714",
+      "role": "total"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "30564528",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "31978013",
+      "role": "total"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "32364622",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "roll-forward close = open + this-month r1",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "roll-forward close = open + this-month r2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "roll-forward close = open + this-month r3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "roll-forward close = open + this-month r4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "roll-forward close = open + this-month r5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r6c1"
+      ],
+      "target": "r6c6",
+      "note": "roll-forward close = open + this-month r6",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r7c1"
+      ],
+      "target": "r7c6",
+      "note": "roll-forward close = open + this-month r7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "roll-forward close = open + this-month r8",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c1"
+      ],
+      "target": "r9c6",
+      "note": "roll-forward close = open + this-month r9",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "roll-forward close = open + this-month r10"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c1"
+      ],
+      "target": "r11c6",
+      "note": "roll-forward close = open + this-month r11"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c1"
+      ],
+      "target": "r12c6",
+      "note": "roll-forward close = open + this-month r12"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r13c1"
+      ],
+      "target": "r13c6",
+      "note": "roll-forward close = open + this-month r13"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c1"
+      ],
+      "target": "r14c6",
+      "note": "roll-forward close = open + this-month r14"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "roll-forward close = open + this-month r15"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c1"
+      ],
+      "target": "r16c6",
+      "note": "roll-forward close = open + this-month r16",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "roll-forward close = open + this-month r17",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1"
+      ],
+      "target": "r3c1",
+      "note": "Total Treasury Securities Outstanding col 1",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2"
+      ],
+      "target": "r3c2",
+      "note": "Total Treasury Securities Outstanding col 2",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "target": "r3c3",
+      "note": "Total Treasury Securities Outstanding col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4"
+      ],
+      "target": "r3c4",
+      "note": "Total Treasury Securities Outstanding col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5"
+      ],
+      "target": "r3c5",
+      "note": "Total Treasury Securities Outstanding col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6"
+      ],
+      "target": "r3c6",
+      "note": "Total Treasury Securities Outstanding col 6",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r8c1",
+      "note": "Total Federal Securities col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r7c2"
+      ],
+      "target": "r8c2",
+      "note": "Total Federal Securities col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r8c3",
+      "note": "Total Federal Securities col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r7c4"
+      ],
+      "target": "r8c4",
+      "note": "Total Federal Securities col 4",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r7c5"
+      ],
+      "target": "r8c5",
+      "note": "Total Federal Securities col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r7c6"
+      ],
+      "target": "r8c6",
+      "note": "Total Federal Securities col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r10c1"
+      ],
+      "target": "r9c1",
+      "note": "Investments = Net + Discount col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r10c2"
+      ],
+      "target": "r9c2",
+      "note": "Investments = Net + Discount col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r10c3"
+      ],
+      "target": "r9c3",
+      "note": "Investments = Net + Discount col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r10c4"
+      ],
+      "target": "r9c4",
+      "note": "Investments = Net + Discount col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r10c5"
+      ],
+      "target": "r9c5",
+      "note": "Investments = Net + Discount col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c6",
+        "r10c6"
+      ],
+      "target": "r9c6",
+      "note": "Investments = Net + Discount col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r11c1"
+      ],
+      "target": "r8c1",
+      "note": "Total Federal = Borrowing + Net Held col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r11c2"
+      ],
+      "target": "r8c2",
+      "note": "Total Federal = Borrowing + Net Held col 2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c3",
+        "r11c3"
+      ],
+      "target": "r8c3",
+      "note": "Total Federal = Borrowing + Net Held col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r11c4"
+      ],
+      "target": "r8c4",
+      "note": "Total Federal = Borrowing + Net Held col 4",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r11c5"
+      ],
+      "target": "r8c5",
+      "note": "Total Federal = Borrowing + Net Held col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c6",
+        "r11c6"
+      ],
+      "target": "r8c6",
+      "note": "Total Federal = Borrowing + Net Held col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1"
+      ],
+      "target": "r17c1",
+      "note": "Total Liability Accounts col 1",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c2",
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2"
+      ],
+      "target": "r17c2",
+      "note": "Total Liability Accounts col 2",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ],
+      "target": "r17c3",
+      "note": "Total Liability Accounts col 3",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4"
+      ],
+      "target": "r17c4",
+      "note": "Total Liability Accounts col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r13c5",
+        "r14c5",
+        "r15c5",
+        "r16c5"
+      ],
+      "target": "r17c5",
+      "note": "Total Liability Accounts col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6"
+      ],
+      "target": "r17c6",
+      "note": "Total Liability Accounts col 6"
+    }
+  ]
+}

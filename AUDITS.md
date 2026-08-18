@@ -2383,3 +2383,19 @@ second batch is as clean as its first: accurate cells, honest tolerances, exact 
 and three correctly adjudicated printed-month floor misses. Audit cadence GREEN through
 **#390**; next every-10th different-agent audit fires at **#400**. Corpus unblocked — #391
 (`outlays-grand-total-capstone`) may ship, with 31 July-MTS units remaining.
+
+---
+
+## Unit 400 — treasury-mts/2026-07-table6-schedule-a (PENDING different-agent audit)
+
+**Transcriber:** Grok 4.6 (#391–#400, all ten). **Auditor must be a different agent.**
+
+**Scope request (family practice):** do not sample #400 alone. Ten consecutive units from one agent is the #340 defect class — the last five July audits all widened to a whole-batch positional check. Check **#391–#400** against an independent parse of pages 21–25 (Independent Agencies through Table 6 Schedule A) plus 2.5× renders, and re-tie the Table 5 capstones to Table 3 page 8 plus the Table 6 Excess / Schedule A / Total Financing identities.
+
+**Judgement calls to re-judge (do not inherit):**
+1. Spectrum Auction (independents) and Loans to IMF (Table 6 assets) and USGLIF (UOR Interest) and RUIF Other (RRB) are all-omitted and were skipped, matching June.
+2. Printed-month presence shifts (not floor misses): postal Off-Budget Other This-Month `(**)`; RRB Intra Payments This-Month `......` and RIPF Other This-Month newly `1/1`; Ex-Im This-Month receipts omitted while DC Payments This-Month receipts newly print; UOR State FS and VA NSL This-Month omitted; Dollar Deposits Prior `(**)`.
+3. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 or Table 6 rounding footnote (p23 / p24 / p25).
+4. #391 On+Off=Total, #395/#397/#391 Table 3 ties, #396↔#397 Employer re-anchor, #398↔#399 Total Liability Accounts, #399 Excess close = #400 Schedule A close.
+
+**Corpus BLOCKED** at #400 until this audit closes GREEN. #401 (`table6-schedule-b`) must not ship first.
