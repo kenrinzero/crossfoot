@@ -2518,11 +2518,81 @@ Corpus unblocked — #421 (`table8-investments`) may ship, with 1 unit remaining
 
 ---
 
-## PENDING - fiscal-year roll-forward rollout (2026-08-18)
+## Special audit — fiscal-year roll-forward rollout (closed GREEN 2026-08-18)
 
-Not an every-10th slot: 40 shipped Table 6 units were modified outside the cadence
-(673 new relations, 1,163 cells `standalone` -> verified, commit `a699834`), plus one
-verified transcription repair in `2026-06-table7-outlays-intl-sba`. **The full auditor
-brief - what to check, the two source-side findings to re-verify, and the 64
-unadjudicated `census-p60` tolerances - is in `BACKLOG.md` under *PENDING AUDIT*.**
-Needs an agent other than Claude Opus 5. Corpus is GREEN and unblocked meanwhile.
+Not an every-10th slot. **Changer:** Claude Opus 5 (`a699834` rollout + `ad71ccc` OPM repair). **Auditor:** Grok 4.6. Grok 4.6 transcribed some July Table 6 *values* in #391–#420; this audit is of Opus 5's structural change (relations / roles), and every check below was re-derived from the units and the print, not from the rollout's claims.
+
+**Preflight:** `main == origin` at `ad71ccc`. Working tree had only pre-existing scratchpad CRLF noise (`scratchpad/backlog-mine.md`, `scratchpad/next-mine.md`) — not landed. `uv` rebuilt `.venv` with a `lib64 -> lib` symlink; removed before the sweep.
+
+### 1. Is the identity real?
+
+Independently recomputed every declared fiscal-year relation (`c4 + c2 = c6` on the same row) from leaf values in exact Decimal.
+
+- **673 / 673** FY relations declared; **0** computable-but-undeclared (every row where c2, c4 and c6 all print has the identity).
+- Monthly identity still **544**. No other 2-source same-row → c6 shape exists.
+- Delta distribution: **473 exact / 199 at 1 / 1 at 90 / nothing in (1, 89)**. Matches the claimed bimodal signature of independently rounded `$ millions`. The single 90 is the June SBA row below.
+
+### 2. Column semantics (May + June + July)
+
+Printed headers checked on renders of `mts-202605.pdf` p24 and p27, `mts-202606.pdf` p24 / p31 / p32, `mts-202607.pdf` p27:
+
+| printed group | printed subhead | unit column |
+|---|---|---|
+| Transactions (or Net Transactions) | This Month | c1 |
+| | Fiscal Year to Date / This Year | c2 |
+| | Fiscal Year to Date / Prior Year | c3 |
+| Account Balances / Beginning of | This Year | c4 |
+| Account Balances / Beginning of | This Month | c5 |
+| Account Balances | Close of This Month | c6 |
+
+c5's unit label `Close of This Month — open/prior` is the family wording quirk; the print says **Beginning of This Month**. Worked example on May p27, SBA Business Loan Fund: 3,503 + 718 = 4,221 exactly (This-Month omitted, so only the FY identity is computable). Same identity on July p27: 3,503 + 778 = 4,281.
+
+### 3. Three column shapes
+
+43 Table 6 files: **31 standard / 9 Net Transactions / 3 schedule-a**. The 9 Net Transactions units (assets-financing, liabilities, schedule-b × May/June/July) print the same six columns as the standard shape; only the left group is headed `Net Transactions (-) denotes net reduction…` instead of `Transactions`. Confirmed on May p24 and June p24. Schedule A has no balance columns and was correctly excluded (0 FY relations).
+
+### 4–5. Role flips and dropped `why`s vs `a699834^`
+
+- **1,163** `standalone → leaf/total` conversions. **0** flipped without gaining a relation. **0** pre-existing `leaf`/`total` reclassified. **0** `why` deleted on a cell that did not gain a relation. **0** `why` kept after gaining a relation. **0** remaining `standalone` without `why`. **0** cell values changed by the rollout.
+- Coverage: every `leaf` feeds a relation; every `total` is targeted.
+
+### 6. Independent red-test
+
+Mutated `r6c4` of `2026-05-table6-schedule-c-epa-ind` (May SBA Business Loan Fund, begin-year `3503` → `3510`). That cell had no monthly partner (This-Month omitted) and carried no relation before `a699834`. Reconcile went **RED** (`relation[12] … |delta| 7 > tol 0`). Original file remains GREEN. Different cell from the rollout's own `r1c4` of the July twin.
+
+### Two source-side findings, re-verified
+
+**June Schedule E, SBA Business Loan Fund** (`2026-06-table6-schedule-e-guaranteed` r37) against `mts-202606.pdf` **p32** (the guaranteed continuation; the unit cites p31 where the schedule starts):
+
+| col | print | unit |
+|---|---|---|
+| This Month | −524 | −524 |
+| FYTD This Year | −320 | −320 |
+| FYTD Prior Year | 1,361 | 1,361 |
+| Beginning of This Year | −53,662 | −53662 |
+| Beginning of This Month | −53,458 | −53458 |
+| Close of This Month | −53,892 | −53892 |
+
+Both identities compute **−53,982**. Delta **90** on both. Transcription matches the print on all six cells. Source-side non-closure, `tol=90` with a why that says so: **upheld**.
+
+**OPM November repair** (`2026-06-table7-outlays-intl-sba` r7c2) against `mts-202606.pdf` **p35**: Office of Personnel Management Nov. prints **10,775**. Unit now `10775`; parent of `ad71ccc` was `10826`. Nine-month sum 101,837 vs printed YTD 101,838; `tol=1` equals that delta. Repair **upheld**. The old `tol=50` was absorbing a bad cell, not rounding.
+
+### Open lead — 64 census-p60 `tol > source count`
+
+Reproduced: 66 relations with `Decimal(tol) > len(sources)` — the 2 Treasury ones above, and **64 census-p60**. Every one of the 64 has `tol == observed delta` (no over-declared slack). Largest: `2023-income-a6-people-2022` Under-65 + 65+ = Total, `tol=70`.
+
+Read `sources/census/p60-282.pdf`. Table A-1 p21 footnote 2 is exactly *"Calculated estimate may be different due to rounded components"* (attached to the percent-change column; figures use the same sentence for percent change). The household-count partitions themselves were checked against the print:
+
+- A-1 2022: All 131,400; Family 84,330 + Nonfamily 47,100 = 131,430 (δ=30); Native 110,300 + Foreign 21,140 = 131,440 (δ=40); Inside metro 113,500 + Outside 17,950 = 131,450 (δ=50); Under 65 94,300 + 65+ 37,130 = 131,430 (δ=30). All twelve sampled count cells match p21.
+- A-6 people 2022 p45: Total 170,900; Male 90,380 + Female 80,490 = 170,870 (δ=30); Under 65 157,900 + 65+ 12,930 = 170,830 (δ=70). All five match p45.
+
+These are **source-side**. Census publishes independently weighted, independently rounded thousands (mixed precision: 131,400 / 84,330 / 7,128). The `tol > n_sources` bound is the right test for Treasury `$ millions` (max honest rounding ≈ 0.5 per addend) and the wrong test here. Not the OPM class — the cells are right and the printed identity does not close. No repair.
+
+### Gates
+
+- pytest 12/12
+- sweep 421/421 GREEN, 0 warnings (in-process `reconcile.check`, after `rm .venv/lib64`)
+- no corpus file touched
+
+**Verdict: GREEN.** The fiscal-year identity is real, complete, and cleanly applied. Both source-side findings hold. The 64 census-p60 tolerances are source-authorised count-rounding, not masked transcription defects. Next every-10th audit still fires at **#430**.
+

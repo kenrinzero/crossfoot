@@ -471,10 +471,11 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 
 ## PENDING AUDIT - fiscal-year roll-forward rollout (2026-08-18)
 
-**Status: OPEN. Needs a different agent than Claude Opus 5, who made the change.**
-Commits `a699834` (rollout) and the follow-up cleanup commit. Nothing is blocked on
-this audit - the corpus is GREEN and pushed - but 40 shipped units were modified
-outside the every-10th cadence, so it has had no independent eye.
+**Status: CLOSED GREEN 2026-08-18 by Grok 4.6.** Record in `AUDITS.md` (Special audit —
+fiscal-year roll-forward rollout). All six brief checks held; both source-side findings
+re-verified against the print; the 64 census-p60 `tol > n_sources` relations adjudicated
+as source-authorised count-rounding (cells match p21/p45), not masked transcription
+defects. No corpus file touched. Brief retained below as the audit spec.
 
 ### What changed and why
 
