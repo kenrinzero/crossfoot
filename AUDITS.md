@@ -2193,3 +2193,20 @@ GREEN**, 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
 accurate, its tolerances are honest, its capstone re-anchoring is exact, and its one floor miss
 is correctly adjudicated. Audit cadence GREEN through **#370**; next every-10th different-agent
 audit fires at **#380**. Corpus unblocked — #371 may ship, with 51 July-MTS units remaining.
+
+---
+
+## Unit 380 — treasury-mts/2026-07-outlays-corps-engineers (PENDING different-agent audit)
+
+**Transcriber:** Grok 4.6 (#371–#380, all ten). **Auditor must be a different agent.**
+
+**Scope request (family practice):** do not sample #380 alone. Ten consecutive units from one agent is the #340 defect class — the last three July audits all widened to a whole-batch positional check. Check **#371–#380** against an independent parse of pages 16–18 (Labor remainder through Corps) plus 2.5× renders, and re-tie the capstones to Table 3 page 8.
+
+**Judgement calls to re-judge (do not inherit):**
+1. **#372 labor-departmental 14 vs floor 15** — July This-Month proprietary is `......` / `(**)` / `(**)`, so the col-2 roll-up is a single source (PBGC) and was not declared.
+2. **#374 transportation-bureaus 28 vs floor 30** — July omits FAA-Other and FAA-Total This-Month Applicable Receipts (two nets drop) and FHWA-Other This-Month.
+3. **#375 transportation-departmental 19 vs floor 20** — same omitted FAA This-Month receipts cell.
+4. **#379 veterans-affairs 35 vs floor 36** — July prints Veterans Special Life This-Month receipts as `(**)`, so that net identity is not computable. Choice Fund all-omitted row skipped (same as June).
+5. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 rounding footnote (p23).
+
+**Corpus BLOCKED** at #380 until this audit closes GREEN. #381 (`outlays-other-defense-civil`) must not ship first.
