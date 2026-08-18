@@ -47,14 +47,6 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **BLOCKED (2026-08-18):** #410 fires the every-10th audit. Transcriber
-  was Grok 4.6 (#401–#410); a **different agent** must audit. Family
-  practice: whole-batch positional check of #401–#410 (Schedules B–E
-  through Direct part 1), not #410 alone. Three honest floor misses
-  (#402 1 vs 8, #403 4 vs 5, #404 0 vs 1) from omitted July This-Month
-  cells — re-judge against the print, do not pad. Placeholder in
-  AUDITS.md. #411 (`table6-schedule-e-direct-part2`) must not ship first.
-
 - **Treasury MTS July 2026 — 11 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#410 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
@@ -87,8 +79,10 @@ in this repo always means a stage, never difficulty.
     2026-08-18 (Claude Fable 5; whole-batch positional check of #381–#390
     + ties + Table 3, three floor misses upheld), and #400 closed **GREEN**
     2026-08-18 (Claude Fable 5; whole-batch positional check of #391–#400
-    incl. Table 6, ties + Table 3 + Schedule A identities). All in AUDITS.md.
-    Corpus **BLOCKED** at #410 pending a different-agent whole-batch audit of #401–#410.
+    incl. Table 6, ties + Table 3 + Schedule A identities), and #410 closed **GREEN**
+    2026-08-18 (Antigravity; whole-batch positional check of #401–#410,
+    1,136 cells / 1,344 positions, 0 mismatches, three floor misses upheld, Table 6 ties hold). All in AUDITS.md.
+    Corpus **UNBLOCKED** — next dispatch `table6-schedule-e-direct-part2` (D2), next audit **#420**.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.

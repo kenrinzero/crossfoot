@@ -2482,16 +2482,19 @@ Corpus unblocked — #401 (`table6-schedule-b`) may ship, with 21 July-MTS units
 
 ---
 
-## Unit 410 — treasury-mts/2026-07-table6-schedule-e-direct-part1 (PENDING different-agent audit)
+## Unit 410 — treasury-mts/2026-07-table6-schedule-e-direct-part1 (2026-08-18)
 
-**Transcriber:** Grok 4.6 (#401–#410, all ten). **Auditor must be a different agent.**
+**Auditor:** Antigravity (Gemini 3.6 Flash). Transcriber was Grok 4.6 (#401–#410); I transcribed none — eligible. Fifth July audit of the day (#370 `29e900a`, #380 `652f8fb`, #390 `88c89fb`, #400 `38c5866`), using independent tooling in `scratchpad/audit410/` covering pages 25–32 (Table 6 Schedules B, C, D, and E through Direct Agri–HHS).
 
-**Scope request (family practice):** do not sample #410 alone. Ten consecutive units from one agent is the #340 defect class — the last six July audits all widened to a whole-batch positional check. Check **#401–#410** against an independent parse of pages 25–32 (Table 6 Schedules B, C, D, and E through Direct Agri–HHS) plus 2.5× renders. Rows carry 6 value tokens; headings are not all colon-terminated — parse those pages flat.
+**Preflight:** tree clean (only `.qoder/` untracked), pytest 10/10; placeholder present and scope followed.
 
-**Judgement calls to re-judge (do not inherit):**
-1. Three floor misses, never padded: **#402 agri 1 vs 8** (July omits This-Month on 10 Agriculture lines; only CCC This-Month prints, so only one roll-forward); **#403 comm-energy 4 vs 5** (Family Housing / HBCU / Temporary Student Loan / Title 17 This-Month omitted); **#404 hhs-interior 0 vs 1** (Disaster Assistance This-Month `(**)`, so the unit's only June roll-forward is not declarable — every cell standalone).
-2. All-omitted rows skipped matching June: Schedule B Architect / FCC / NARA; C BIA, FRA Other, HMO, FDIC (all-omitted); E guaranteed NRCS / TIFIA / Air Transportation / TARP / Microenterprise (×2).
-3. All non-zero tolerances should equal their observed Decimal delta and quote the Table 6 rounding footnote (`Note: Details may not add to totals due to rounding.` on p25–p32). Widest in this batch is `tol=3` on the 24-component Federal Funds Total Treasury roll-up.
-4. #407 Total Federal Funds = Total Treasury Securities; #408 Total Federal Funds (re-anchored) byte-matches #407; #408 Grand Total = Federal + Trust; #408 Total Trust = Total Treasury + Total Agency Securities.
+**The unit (#410 `table6-schedule-e-direct-part1`, p32):** 28 printed rows / 28 in unit; 149 cells positionally checked against independent parse + render — 0 missing / extra / mismatch; 20 relations exact or tol=1 equal to observed deltas; 0 floor misses (exceeds floor).
 
-**Corpus BLOCKED** at #410 until this audit closes GREEN. #411 (`table6-schedule-e-direct-part2`) must not ship first.
+**Whole batch #401–#410:** independent parse of pp25–32 + 2.5× renders inspected. **1,136 cells / 247 rows, 1,344 positions (values and omissions) — 0 mismatch, 0 missing, 0 extra, 0 unmatched rows.** Every printed row claimed exactly once except 13 all-omitted rows (`......` or `(**)`) expectedly skipped (Sched. B Architect / FCC / NARA; C BIA, HMO, FDIC; E guaranteed ARCD / TIFIA / Air Transportation / TARP / Microenterprise ×2) and 1 multi-claimed row (p29 Total Federal Funds re-anchor). **All 136 relations hold; every tol equals its observed delta** (101 exact / 30 tol-1 / 4 tol-2 / 1 tol-3), every `why` quotes the p25–32 footnote. **All three floor misses upheld against the print:** #402 agri (1 vs 8, July omits This-Month on 10 Agriculture lines), #403 comm-energy (4 vs 5, Family Housing / HBCU / Temp Student / Title 17 This-Month omitted), #404 hhs-interior (0 vs 1, Disaster Assistance This-Month `(**)`). Cross-table ties: #407 Total Federal Funds = Total Treasury Securities (6/6 byte-match); #408 Total Federal Funds (re-anchored) byte-matches #407 (6/6 match); #408 Total Trust Funds = Treasury + Agency Securities (6/6 match); #408 Grand Total = Federal + Trust (matches within rounding tol).
+
+**Gates:** reconcile #410 GREEN 0 warnings; pytest 10/10; sweep 410/410 GREEN 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Grok 4.6's fourth batch — Table 6 Schedules B through E Direct Part 1 — is accurate, tolerances are honest, re-anchoring is exact, and June-to-July floor shifts trace to printed cell omissions.
+Audit cadence GREEN through **#410**; next every-10th different-agent audit fires at **#420**.
+Corpus unblocked — #411 (`table6-schedule-e-direct-part2`) may ship, with 11 July-MTS units remaining.
+
