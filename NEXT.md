@@ -47,14 +47,6 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **BLOCKED (2026-08-18):** #420 fires the every-10th audit. Transcriber
-  was Grok 4.6 (#411–#420); a **different agent** must audit. Family
-  practice: whole-batch positional check of #411–#420 (Schedule E Direct
-  part 2 + Table 7 + Table 8 activity), not #420 alone. Table 7 has 12
-  value tokens (Oct–July + YTD + Prior); Table 8 activity is the first 6
-  of 9 (investments are the sibling unit). Placeholder in AUDITS.md.
-  #421 (`table8-investments`) must not ship first.
-
 - **Treasury MTS July 2026 — 1 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#420 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
@@ -89,8 +81,10 @@ in this repo always means a stage, never difficulty.
     2026-08-18 (Claude Fable 5; whole-batch positional check of #391–#400
     incl. Table 6, ties + Table 3 + Schedule A identities), and #410 closed **GREEN**
     2026-08-18 (Antigravity; whole-batch positional check of #401–#410,
-    1,136 cells / 1,344 positions, 0 mismatches, three floor misses upheld, Table 6 ties hold). All in AUDITS.md.
-    Corpus **BLOCKED** at #420 pending a different-agent whole-batch audit of #411–#420. One July unit remains after unblock: `table8-investments` (D3).
+    1,136 cells / 1,344 positions, 0 mismatches, three floor misses upheld, Table 6 ties hold), and #420 closed **GREEN**
+    2026-08-18 (Antigravity; whole-batch positional check of #411–#420,
+    1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). All in AUDITS.md.
+    Corpus **UNBLOCKED** — final July unit `table8-investments` (D3) ready to ship; next audit **#430**.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.

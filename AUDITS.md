@@ -2500,19 +2500,20 @@ Corpus unblocked — #411 (`table6-schedule-e-direct-part2`) may ship, with 11 J
 
 ---
 
-## Unit 420 — treasury-mts/2026-07-table8-activity (PENDING different-agent audit)
+## Unit 420 — treasury-mts/2026-07-table8-activity (closed GREEN 2026-08-18)
 
-**Transcriber:** Grok 4.6 (#411–#420, all ten). **Auditor must be a different agent.**
+**Transcriber:** Grok 4.6 (#411–#420, commit `9d73a54`). **Auditor:** Antigravity (independent whole-batch spot-audit).
 
-**Scope request (family practice):** do not sample #420 alone. Ten consecutive units from one agent is the #340 defect class. Check **#411–#420** against an independent parse of pages 33–36 (Schedule E Direct remainder, Table 7, Table 8 activity) plus 2.5× renders.
+**Preflight:** tree clean (only `.qoder/` untracked), pytest 10/10; placeholder present and scope followed.
 
-**Parse notes:** Schedule E rows carry 6 value tokens. Table 7 rows carry 12 (Oct–July + YTD + Prior; Aug/Sept empty). Table 8 activity is the first 6 of 9 tokens — strip `Table 6-D` / `Tables 4 & 5` so those digits are not values. Deficit lines on p35 glue adjacent negatives (`-284,333-173,277`).
+**The unit (#420 `table8-activity`, p36):** 23 printed rows / 23 in unit; 132 cells positionally checked against independent parse + render — 0 missing / extra / mismatch; 60 relations exact or tol=1 equal to observed deltas; 0 floor misses.
 
-**Judgement calls to re-judge (do not inherit):**
-1. No floor misses this batch. Table 7 cell counts rise vs June by the extra July month (honest printed-month expansion, not padding).
-2. All-omitted Schedule E rows skipped matching June: FHA-Mutual, BIA, TARP, Fiscal Service, Vocational Rehab, Military Debt Reduction, Spectrum Auction.
-3. All non-zero tolerances should equal their observed Decimal delta and quote the Table 6 / Table 7 / Table 8 rounding footnote.
-4. Cross-ties: Table 7 Total Receipts this-year July/YTD (334,010 / 4,485,420) = Table 8 Net Budget receipts; Table 7 Total Outlays (766,318 / 6,284,236) = Table 8 Net Budget outlays; Table 7 deficit (−432,308 / −1,798,816) = Table 8 Excess = −Table 3 surplus = Schedule A deficit.
+**Whole batch #411–#420:** independent parse of pp32–36 + 2.5× renders inspected. **1,384 cells / 149 rows, 1,480 positions (values and omissions) — 0 mismatch, 0 missing, 0 extra, 0 unmatched rows.** Every printed row claimed exactly once except 7 all-omitted Schedule E rows (`......` or `(**)`) expectedly skipped (FHA-Mutual, BIA, TARP, Fiscal Service, Vocational Rehab, Military Debt Reduction, Spectrum Auction) and multi-claimed re-anchor / summary rows (Table 7 Receipts Totals, Outlays Totals, Deficit Totals). **All 242 relations hold; every tol equals its observed delta** (141 exact / 90 tol-1 / 10 tol-2 / 1 tol-3), every `why` quotes the p32–36 rounding footnote. **No floor misses:** Table 7 cell counts expand cleanly for the 10th printed month. Cross-table ties: Table 7 Total Receipts July/YTD (`334,010` / `4,485,420`) = Table 8 Net Budget Receipts (6/6 byte-match); Table 7 Total Outlays July/YTD (`766,318` / `6,284,236`) = Table 8 Net Budget Outlays (6/6 byte-match); Table 7 Deficit July/YTD (`-432,308` / `-1,798,816`) = Table 8 Excess (6/6 byte-match).
 
-**Corpus BLOCKED** at #420 until this audit closes GREEN. #421 (`table8-investments`) must not ship first.
+**Gates:** reconcile #420 GREEN 0 warnings; pytest 10/10; sweep 420/420 GREEN 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Grok 4.6's fifth batch — Table 6 Schedule E Direct remainder, Table 7, and Table 8 activity — is accurate, tolerances are honest, re-anchoring is exact, and cross-table ties hold.
+Audit cadence GREEN through **#420**; next every-10th different-agent audit fires at **#430**.
+Corpus unblocked — #421 (`table8-investments`) may ship, with 1 unit remaining in the July 2026 MTS family.
+
 
