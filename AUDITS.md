@@ -2498,3 +2498,21 @@ Corpus unblocked — #401 (`table6-schedule-b`) may ship, with 21 July-MTS units
 Audit cadence GREEN through **#410**; next every-10th different-agent audit fires at **#420**.
 Corpus unblocked — #411 (`table6-schedule-e-direct-part2`) may ship, with 11 July-MTS units remaining.
 
+---
+
+## Unit 420 — treasury-mts/2026-07-table8-activity (PENDING different-agent audit)
+
+**Transcriber:** Grok 4.6 (#411–#420, all ten). **Auditor must be a different agent.**
+
+**Scope request (family practice):** do not sample #420 alone. Ten consecutive units from one agent is the #340 defect class. Check **#411–#420** against an independent parse of pages 33–36 (Schedule E Direct remainder, Table 7, Table 8 activity) plus 2.5× renders.
+
+**Parse notes:** Schedule E rows carry 6 value tokens. Table 7 rows carry 12 (Oct–July + YTD + Prior; Aug/Sept empty). Table 8 activity is the first 6 of 9 tokens — strip `Table 6-D` / `Tables 4 & 5` so those digits are not values. Deficit lines on p35 glue adjacent negatives (`-284,333-173,277`).
+
+**Judgement calls to re-judge (do not inherit):**
+1. No floor misses this batch. Table 7 cell counts rise vs June by the extra July month (honest printed-month expansion, not padding).
+2. All-omitted Schedule E rows skipped matching June: FHA-Mutual, BIA, TARP, Fiscal Service, Vocational Rehab, Military Debt Reduction, Spectrum Auction.
+3. All non-zero tolerances should equal their observed Decimal delta and quote the Table 6 / Table 7 / Table 8 rounding footnote.
+4. Cross-ties: Table 7 Total Receipts this-year July/YTD (334,010 / 4,485,420) = Table 8 Net Budget receipts; Table 7 Total Outlays (766,318 / 6,284,236) = Table 8 Net Budget outlays; Table 7 deficit (−432,308 / −1,798,816) = Table 8 Excess = −Table 3 surplus = Schedule A deficit.
+
+**Corpus BLOCKED** at #420 until this audit closes GREEN. #421 (`table8-investments`) must not ship first.
+

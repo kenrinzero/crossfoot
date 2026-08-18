@@ -47,11 +47,19 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS July 2026 — 11 of 80 units remain, D-tiered.** The D1 vendoring is DONE
-  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#410 shipped**:
+- **BLOCKED (2026-08-18):** #420 fires the every-10th audit. Transcriber
+  was Grok 4.6 (#411–#420); a **different agent** must audit. Family
+  practice: whole-batch positional check of #411–#420 (Schedule E Direct
+  part 2 + Table 7 + Table 8 activity), not #420 alone. Table 7 has 12
+  value tokens (Oct–July + YTD + Prior); Table 8 activity is the first 6
+  of 9 (investments are the sibling unit). Placeholder in AUDITS.md.
+  #421 (`table8-investments`) must not ship first.
+
+- **Treasury MTS July 2026 — 1 of 80 units remain, D-tiered.** The D1 vendoring is DONE
+  (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#420 shipped**:
   table1, table2, table3 ×3, table9, receipts-major, outlays-legislative,
   outlays-judicial, outlays-eop, agriculture ×3, commerce, defense ×3,
-  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice, labor ×2, state, transportation ×2, treasury ×3, veterans-affairs, corps-engineers, other-defense-civil, epa, gsa, international-assistance ×2, nasa, nsf, opm, sba, social-security, grand-total-capstone, independents ×3, postal, railroad-retirement, uor ×2, table6-liabilities, table6-assets-financing, table6-schedule-a, table6-schedule-b, table6-schedule-c ×5, table6-schedule-d ×2, table6-schedule-e-guaranteed, table6-schedule-e-direct-part1 — every one matching its June twin's row/cell/relation
+  education ×2, energy, hhs ×3, homeland-security, hud ×2, interior ×2, justice, labor ×2, state, transportation ×2, treasury ×3, veterans-affairs, corps-engineers, other-defense-civil, epa, gsa, international-assistance ×2, nasa, nsf, opm, sba, social-security, grand-total-capstone, independents ×3, postal, railroad-retirement, uor ×2, table6-liabilities, table6-assets-financing, table6-schedule-a, table6-schedule-b, table6-schedule-c ×5, table6-schedule-d ×2, table6-schedule-e ×3, table7 ×8, table8-activity — every one matching its June twin's row/cell/relation
   counts exactly, table1 and the capstones with printed-month deltas
   aside (noted per unit in BACKLOG; #372/#374/#375/#379/#384/#385/#387/#402/#403/#404 ship under their June floors where July omits a cell). **`BACKLOG.md`
   § *Treasury MTS July 2026* carries the full unit table with a D level
@@ -82,7 +90,7 @@ in this repo always means a stage, never difficulty.
     incl. Table 6, ties + Table 3 + Schedule A identities), and #410 closed **GREEN**
     2026-08-18 (Antigravity; whole-batch positional check of #401–#410,
     1,136 cells / 1,344 positions, 0 mismatches, three floor misses upheld, Table 6 ties hold). All in AUDITS.md.
-    Corpus **UNBLOCKED** — next dispatch `table6-schedule-e-direct-part2` (D2), next audit **#420**.
+    Corpus **BLOCKED** at #420 pending a different-agent whole-batch audit of #411–#420. One July unit remains after unblock: `table8-investments` (D3).
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -91,7 +99,7 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#400**, **#410 PENDING** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#410**, **#420 PENDING** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -103,9 +111,11 @@ together 2026-08-18 (Claude Fable 5, 1,593 positions + ties + cross-table ties)*
 ties + cross-table ties, four floor misses upheld)**; **#381–#390 audited GREEN
 together 2026-08-18 (Claude Fable 5, 909 positions + ties + cross-table ties, three
 floor misses upheld)**; **#391–#400 audited GREEN together 2026-08-18 (Claude Fable 5,
-1,068 positions incl. Table 6 + ties + Table 3 + Schedule A identities)**. Next fires
-at **#410** (placeholder written). Reminder for later multiples of 10: write the AUDITS.md placeholder (as
-#380–#410 did).
+1,068 positions incl. Table 6 + ties + Table 3 + Schedule A identities)**;
+**#401–#410 audited GREEN together 2026-08-18 (Antigravity, 1,344 positions,
+three floor misses upheld, Table 6 ties)**. Next fires at **#420** (placeholder
+written). Reminder for later multiples of 10: write the AUDITS.md placeholder (as
+#380–#420 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
 widened scope from the 10th unit to the whole ten-unit batch, because both
@@ -114,8 +124,10 @@ one unit audited alone is thin cover when ten consecutive units share a
 transcriber (the #340 precedent). Whole-batch positional checking is cheap here:
 Table 5's text layer parses into `(label, 9 values)` records and Table 6
 Schedules B–E into `(label, 6 values)` (headings are not all colon-terminated —
-parse those pages flat), so the auditor can compare presence *and* absence for
-every cell rather than sample.
+parse those pages flat), Table 7 into `(label, 12 values)` (Oct–July + YTD + Prior;
+Aug/Sept headers empty), and Table 8 activity as the first 6 of 9 tokens
+(strip `Table 6-D` / `Tables 4 & 5` so those digits are not values), so the
+auditor can compare presence *and* absence for every cell rather than sample.
 
 ---
 
@@ -125,6 +137,7 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
+- 2026-08-18 · **treasury-mts July 2026 batch #411–#420 (10 units)** — table6-schedule-e-direct-part2 (171c/21r), table7-receipts-detail (108c/9r), table7-receipts-totals (66c/25r), table7-outlays-leg-def (180c/27r), table7-outlays-edu-labor (180c/15r), table7-outlays-state-gsa (156c/13r), table7-outlays-intl-sba (96c/8r), table7-outlays-ssa-independents (104c/9r), table7-outlays-uor-totals (191c/55r), table8-activity (132c/60r). All strict-default GREEN 0 warnings; Table 7 adds the July month vs June; T7↔T8 Net Budget ties byte-match. No floor misses. **#420 fires the every-10th audit — corpus blocked, see AUDITS.md.** 1 July-MTS unit remains (`table8-investments`).
 - 2026-08-18 · **treasury-mts July 2026 batch #401–#410 (10 units)** — table6-schedule-b (15c/5r), schedule-c-agri (84c/1r vs floor 8), schedule-c-comm-energy (66c/4r vs floor 5), schedule-c-hhs-interior (44c/0r vs floor 1), schedule-c-labor-vets (68c/5r), schedule-c-epa-ind (126c/13r), schedule-d-federal-funds (164c/28r), schedule-d-trust-funds (231c/43r), schedule-e-guaranteed (189c/17r), schedule-e-direct-part1 (149c/20r). All strict-default GREEN 0 warnings; Federal Funds re-anchor byte-matches. Three honest floor misses from omitted July This-Month cells, never padded. **#410 fires the every-10th audit — corpus blocked, see AUDITS.md.** 11 July-MTS units remain.
 - 2026-08-18 · **treasury-mts July 2026 batch #391–#400 (10 units)** — grand-total-capstone (27c/18r, Table 3 On/Off/Total), independent-a-n (164c/27r), postal (17c/3r), railroad-retirement (99c/9r), independent-remainder (39c/9r), uor-employer-share (56c/6r), uor-departmental (157c/16r), table6-liabilities (102c/47r), table6-assets-financing (124c/52r), table6-schedule-a (31c/10r). All strict-default GREEN 0 warnings; sibling re-anchors and Table 3/T6 cross-ties byte-match. No floor misses. **#400 fires the every-10th audit — corpus blocked, see AUDITS.md.** 21 July-MTS units remain.
 - 2026-08-18 · **treasury-mts July 2026 batch #381–#390 (10 units)** — other-defense-civil (53c/9r), epa (62c/15r), gsa (39c/9r, +2 Intra This-Month), international-assistance-bureaus (81c/20r vs floor 21 — ISA This-Month receipts omitted), international-assistance-departmental (107c/32r vs floor 33 — IDA This-Month omitted; OPIC Prior newly printed), nasa (52c/8r), nsf (30c/8r vs floor 9 — Prop This-Month (**)), opm (65c/18r), sba (45c/16r), social-security (89c/24r). All strict-default GREEN 0 warnings; ties-siblings and Table 3 capstone ties byte-match. Floor misses are printed-cell deltas, not padding. **#390 fires the every-10th audit — corpus blocked, see AUDITS.md.** 31 July-MTS units remain.
