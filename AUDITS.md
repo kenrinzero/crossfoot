@@ -2297,16 +2297,89 @@ every-10th different-agent audit fires at **#390**. Corpus unblocked — #381
 
 ---
 
-## Unit 390 — treasury-mts/2026-07-outlays-social-security (PENDING different-agent audit)
+## Unit 390 — treasury-mts/2026-07-outlays-social-security (2026-08-18, Claude Fable 5)
 
-**Transcriber:** Grok 4.6 (#381–#390, all ten). **Auditor must be a different agent.**
+**Transcriber:** Grok 4.6 (#381–#390, all ten). **Auditor:** Claude Fable 5, which transcribed
+none of the batch — eligible (third July audit of the day after #370 and #380). Independent by
+construction: the printed side is the auditor's own pdfplumber parse of pages 18–21 (word
+x-positions giving heading depth, `(cid:NN)` → `chr(NN+29)` decode) plus 2.5× pypdfium2 renders
+of pp18–21, p8 and p23, each inspected; the units were only ever the right-hand side of a
+comparison. Scripts and reports in `scratchpad/audit370/` (gitignored, kept locally). Two
+parser wrinkles this span cost a pass and are worth knowing: non-"Department" blocks carry the
+same `X: - Continued` page-top heading (Other Defense Civil, International Assistance, SSA),
+and the SSA text layer glues the footnote superscript to `Off-Budget1`; neither is a defect.
 
-**Scope request (family practice):** do not sample #390 alone. Ten consecutive units from one agent is the #340 defect class — the last four July audits all widened to a whole-batch positional check. Check **#381–#390** against an independent parse of pages 18–21 (Other Defense Civil through SSA) plus 2.5× renders, and re-tie the capstones to Table 3 page 8.
+**Preflight.** Working tree clean at `0cdd5e4`, `main` == `origin/main`; no `.venv/lib64`
+breaker; the only untracked item is still `.qoder/settings.local.json`. Placeholder present —
+its scope request was followed.
 
-**Judgement calls to re-judge (do not inherit):**
-1. **#384 international-assistance-bureaus 20 vs floor 21** — July omits ISA-Other and ISA-Total This-Month receipts (`106 ...... 106`, `309 ...... 309`) so those two This-Month nets drop; newly printed AID Proprietary This-Month (335) adds the AID-Total This-Month net. Net −1 relation.
-2. **#385 international-assistance-departmental 32 vs floor 33** — July omits IDA This-Month so the Multilateral This-Month roll-ups are single-source, and omits ISA-Total This-Month receipts (that net drops); newly computable AID-Total This-Month net and Peace Corps FYTD net. July also prints OPIC Prior 1/1 (June skipped the all-omitted OPIC block) — two new rows, Accounts standalone, Total--OPIC a leaf of the department Prior roll-up.
-3. **#387 nsf 8 vs floor 9** — July prints Proprietary This-Month as `(**)` / `(**)` so the Total This-Month net identity is not computable (June printed 3/−3).
-4. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 rounding footnote (p23).
+### The unit itself (#390, pp20–21)
 
-**Corpus BLOCKED** at #390 until this audit closes GREEN. #391 (`outlays-grand-total-capstone`) must not ship first.
+- **Rows:** 15 printed data rows (10 on p20, 5 on p21), 15 in the unit, labels exact — the
+  wrapped `Federal Old-Age and Survivors Insurance Trust Fund (Off-Budget)` heading and the two
+  wrapped `Total--…(Off-Budget)` rows read correctly, and `Intrabudgetary Transactions /
+  Off-Budget` carries the print's footnote-1 row.
+- **Cells:** all **89 checked positionally** — 0 missing, 0 extra, 0 mismatches; both `Payment
+  to Railroad Retirement Account` This-Month omissions (`......`, printed in June) confirmed.
+- **Relations:** all 24 recomputed in exact Decimal — 20 exact, 4 `tol=1` each equal to its
+  delta with the rounding note quoted. Both trust-fund roll-ups run on 2 sources in July where
+  June had 3 (the omitted RRA payments), which is exactly what the print says.
+- **Table 3 tie:** capstone Outlays 151,562 / 1,444,994 / 1,368,380 = Table 3's SSA line.
+
+### Batch-wide check of #381–#390
+
+- **623 cells / 101 rows across all ten units — 909 positions (values *and* omissions)
+  compared against the auditor's parse of pp18–21: 0 mismatches, 0 missing, 0 extra, 0
+  unmatched rows.** Every printed data row in the nine blocks (ODC, EPA, GSA, International
+  Assistance, NASA, NSF, OPM, SBA, SSA) is claimed by exactly one unit, except the two
+  `Total--` rows re-anchored by the International Assistance capstone (ISA, AID) — both
+  byte-equal (17 populated pairs). No all-omitted rows in this span; the newly printed OPIC
+  pair (`Accounts` 1 / 1 standalone, `Total--OPIC` 1 / 1 leaf) is present in #385 as the
+  placeholder describes.
+- **Tolerances, all 159 relations:** 104 exact, 50 `tol=1`, 5 `tol=2`, none wider. **Every one
+  equals its observed delta**; every `tol` carries a `why` quoting the p23 rounding note (June
+  twins' phrasing, as in #361–#380). Widest: ODC's This-Month roll-ups (5–6 components) and
+  OPM's This-Month / FYTD Outlays roll-ups (7–9 components), all `tol=2`.
+- **The three floor misses, re-judged against the print — all upheld, none padded.** Verified
+  at cell level (June twin vs July, keyed by row label + column):
+  1. **#384 international-assistance-bureaus 20 vs 21.** June-only relations: the ISA `Other`
+     c1 and `Total--ISA` c1 net identities — July prints `106 ...... 106` and `309 ...... 309`
+     (no This-Month receipts). July-only: the `Total--AID` c1 net identity — AID Proprietary
+     Receipts newly prints `335 / −335` This-Month, so `Total--AID` reads `464 335 129`. Cells
+     80 → 81 (−2 +3). Net −1 relation, exactly the printed delta.
+  2. **#385 international-assistance-departmental 32 vs 33.** June-only: `Total--ISA` c1 net
+     (same cell) and the `Total--Multilateral Assistance` c1/c3 roll-ups — IDA This-Month is
+     `......` in July, leaving `Other` (5) as the single source (`minItems: 2`). July-only:
+     `Total--AID` c1 net and a `Peace Corps` FYTD net (`336 1 336`, `tol=1`). Department
+     roll-ups gain a source each on c1/c3 (`International Monetary Programs` newly prints
+     `1 ...... 1`), c5 (Peace Corps' new receipt) and c7/c9 (`Total--OPIC` 1 / 1). Cells 102 →
+     107: −IDA c1/c3, −Total--ISA c2; +IMP c1/c3, +Peace Corps c5, +Total--AID c2, +OPIC
+     Accounts c7/c9 (standalone), +Total--OPIC c7/c9. Every one a printed-month fact.
+  3. **#387 nsf 8 vs 9.** June-only: the `Total--NSF` c1 net identity — July prints
+     Proprietary Receipts This-Month as `(**) (**)` and the total row as `870 (**) 870`; the
+     c3 roll-up drops from 4 to 3 sources. Cells 33 → 30.
+  Also traced, no floor missed: GSA gains Intrabudgetary This-Month `−5 / −5`; OPM loses
+  Postal Service Contributions This-Month (`(**)`); SBA loses Business Loans This-Month (all
+  `(**)`) and Intrabudgetary FYTD (`(**)`); SSA loses both RRA payments This-Month; EPA, NASA
+  and ODC are shape-identical to June.
+- **Roles / standalone:** no illegal roles; every standalone (3 ODC, 3 GSA, 3 #384, 6 #385,
+  2 NASA, 2 NSF) carries a `why`; coverage clean under an independent re-implementation.
+
+### Cross-table check (not declared by any unit)
+
+Table 5 block Outlays (c3 / c6 / c9) tied to Table 3's lines on **page 8**, all three period
+columns — all nine hold: ODC 12,467 / 58,407 / 65,335; EPA 1,466 / 13,939 / 33,360; GSA
+−363 / −837 / 44; International Assistance 1,062 / 17,341 / 27,189; NASA 2,014 / 19,408 /
+19,900; NSF 870 / 7,044 / 7,922; OPM 11,850 / 113,688 / 108,205; SBA 95 / 11,509 / 1,920; SSA
+151,562 / 1,444,994 / 1,368,380.
+
+### Gates
+
+`reconcile.py` on #390 GREEN with 0 warnings; `pytest` 10/10; full-corpus sweep **390/390
+GREEN**, 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Grok 4.6's
+second batch is as clean as its first: accurate cells, honest tolerances, exact re-anchoring,
+and three correctly adjudicated printed-month floor misses. Audit cadence GREEN through
+**#390**; next every-10th different-agent audit fires at **#400**. Corpus unblocked — #391
+(`outlays-grand-total-capstone`) may ship, with 31 July-MTS units remaining.

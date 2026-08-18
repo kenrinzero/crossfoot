@@ -47,10 +47,13 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **BLOCKED (2026-08-18):** #390 (`outlays-social-security`) is the every-10th
-  audit slot. Transcriber of #381–#390 (Grok 4.6) cannot audit. Placeholder
-  in AUDITS.md asks the next agent for a whole-batch positional check of
-  those ten units (Other Defense Civil through SSA). #391 must not ship first.
+- **UNBLOCKED (2026-08-18):** the #390 every-10th audit closed **GREEN**
+  (Claude Fable 5; whole-batch positional check of #381–#390, 623 cells /
+  909 positions vs an independent parse, all 159 tolerances equal to their
+  deltas, the three floor misses #384/#385/#387 upheld at cell level against
+  the print, ISA/AID re-anchors byte-match, Table 3 ties on all nine blocks
+  — AUDITS.md). #391 may ship; next dispatch is `outlays-grand-total-capstone`
+  (D2, ties-siblings, cross-table).
 
 - **Treasury MTS July 2026 — 31 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#390 shipped**:
@@ -80,8 +83,10 @@ in this repo always means a stage, never difficulty.
     closed **GREEN** 2026-08-18 (Claude Fable 5; whole-batch positional
     check of #361–#370 + ties + Table 3), and #380 closed **GREEN**
     2026-08-18 (Claude Fable 5; whole-batch positional check of #371–#380
-    + ties + Table 3, four floor misses upheld). All in AUDITS.md. Corpus
-    **BLOCKED** at **#390** pending a different-agent whole-batch audit of #381–#390.
+    + ties + Table 3, four floor misses upheld), and #390 closed **GREEN**
+    2026-08-18 (Claude Fable 5; whole-batch positional check of #381–#390
+    + ties + Table 3, three floor misses upheld). All in AUDITS.md. Corpus
+    unblocked; next every-10th fires at **#400**.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -90,7 +95,7 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#380** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#390** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -99,9 +104,10 @@ whole-family positional check)**; **#351–#360 audited GREEN together 2026-08-1
 (Claude Opus 5, 1,485 positions + cross-table ties)**; **#361–#370 audited GREEN
 together 2026-08-18 (Claude Fable 5, 1,593 positions + ties + cross-table ties)**;
 **#371–#380 audited GREEN together 2026-08-18 (Claude Fable 5, 1,449 positions +
-ties + cross-table ties, four floor misses upheld)**. **#381–#390 shipped; #390
-audit PENDING** (AUDITS.md placeholder). Reminder for later multiples of 10: write
-the AUDITS.md placeholder (as #390 did).
+ties + cross-table ties, four floor misses upheld)**; **#381–#390 audited GREEN
+together 2026-08-18 (Claude Fable 5, 909 positions + ties + cross-table ties, three
+floor misses upheld)**. Next fires at **#400**. Reminder for later multiples of 10:
+write the AUDITS.md placeholder (as #380 and #390 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
 widened scope from the 10th unit to the whole ten-unit batch, because both
