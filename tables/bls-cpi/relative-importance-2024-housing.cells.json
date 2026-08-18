@@ -1002,7 +1002,7 @@
         "r22c1"
       ],
       "target": "r1c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1069,7 +1069,7 @@
         "r9c2"
       ],
       "target": "r7c2",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1137,7 +1137,7 @@
         "r18c2"
       ],
       "target": "r16c2",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1168,7 +1168,7 @@
         "r49c1"
       ],
       "target": "r22c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1236,7 +1236,7 @@
         "r35c1"
       ],
       "target": "r32c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1320,7 +1320,7 @@
         "r54c1"
       ],
       "target": "r49c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page: \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {

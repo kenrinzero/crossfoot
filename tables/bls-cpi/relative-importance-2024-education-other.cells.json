@@ -898,7 +898,7 @@
         "r23c1"
       ],
       "target": "r14c1",
-      "tol": "0.01",
+      "tol": "0.009",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information and information processing (r14) children's sum deviates by 0.009 from the declared parent in both columns; absorbed under tol-0.01."
     },
     {
@@ -909,7 +909,7 @@
         "r23c2"
       ],
       "target": "r14c2",
-      "tol": "0.01",
+      "tol": "0.009",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information and information processing (r14) children's sum deviates by 0.009 from the declared parent in both columns; absorbed under tol-0.01."
     },
     {
@@ -937,7 +937,7 @@
         "r22c1"
       ],
       "target": "r18c1",
-      "tol": "0.01",
+      "tol": "0.008",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information technology, hardware and services (r18) children's sum deviates by up to 0.009 from the declared parent; absorbed under tol-0.01."
     },
     {
@@ -949,7 +949,7 @@
         "r22c2"
       ],
       "target": "r18c2",
-      "tol": "0.01",
+      "tol": "0.009",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" The Information technology, hardware and services (r18) children's sum deviates by up to 0.009 from the declared parent; absorbed under tol-0.01."
     },
     {

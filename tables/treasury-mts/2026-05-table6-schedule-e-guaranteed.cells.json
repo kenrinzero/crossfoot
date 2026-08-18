@@ -1,5 +1,5 @@
 {
-  "table_id": "2026-05-table6-schedule-e-guaranteed",
+  "table_id": "treasury-mts/2026-05-table6-schedule-e-guaranteed",
   "source": {
     "path": "sources/treasury-mts/mts-202605.pdf",
     "table": "Table 6. Schedule E — Guaranteed Loan Financing Activity (all agencies)",

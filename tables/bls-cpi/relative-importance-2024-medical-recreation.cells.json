@@ -974,7 +974,7 @@
         "r17c1"
       ],
       "target": "r7c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1010,7 +1010,7 @@
         "r48c1"
       ],
       "target": "r18c1",
-      "tol": "0.002",
+      "tol": "0.001",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1046,7 +1046,7 @@
         "r33c1"
       ],
       "target": "r30c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1088,7 +1088,7 @@
         "r51c1"
       ],
       "target": "r48c1",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1098,7 +1098,7 @@
         "r7c2"
       ],
       "target": "r1c2",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1137,7 +1137,7 @@
         "r12c2"
       ],
       "target": "r8c2",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {
@@ -1176,7 +1176,7 @@
         "r26c2"
       ],
       "target": "r19c2",
-      "tol": "0.001",
+      "tol": "0.000",
       "why": "BLS cost-weights page (sources/bls-cpi/relative-importance-cost-weights.htm) states \"just as with the officially published relative importance, due to rounding error these weights do not perfectly sum up to the total.\" Components independently rounded to 3 d.p."
     },
     {

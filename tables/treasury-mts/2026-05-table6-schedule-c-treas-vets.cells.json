@@ -1,5 +1,5 @@
 {
-  "table_id": "2026-05-table6-schedule-c-treas-vets",
+  "table_id": "treasury-mts/2026-05-table6-schedule-c-treas-vets",
   "source": {
     "path": "sources/treasury-mts/mts-202605.pdf",
     "table": "Table 6. Schedule C — Federal Agency Borrowing (Treasury, Veterans)",

@@ -533,7 +533,7 @@
       ],
       "target": "r3c2",
       "note": "column decomposition: On-Budget + Off-Budget Deficit = Budget Deficit",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 5 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {

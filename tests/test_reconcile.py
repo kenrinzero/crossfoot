@@ -1,6 +1,7 @@
 """Oracle self-tests: the green fixture reconciles, the typo bites, the
 coverage rules flag under-declaration, schema + referential integrity
-reject malformed files, and Decimal semantics are locked."""
+reject malformed files, Decimal semantics are locked, and the corpus itself
+holds its keying and encoding contract."""
 
 import copy
 import json
@@ -98,3 +99,35 @@ def test_cli_exit_codes(capsys):
     assert main([str(UNCOVERED)]) == 1  # strict by default
     assert main([str(UNCOVERED), "--no-strict-coverage"]) == 0  # lenient passes
     capsys.readouterr()
+
+def test_corpus_table_ids_match_their_path():
+    # AUDIT 2026-08-18 finding 2: 19 of 421 units carried a bare slug while
+    # the manifest and the other 402 used <family>/<slug>, and the schema's
+    # minLength:1 could not see it. The schema now requires a prefix; this
+    # asserts the stronger property a pattern cannot express - that the
+    # prefix is the unit's actual family directory.
+    units = sorted((ROOT / "tables").glob("**/*.cells.json"))
+    assert units, "corpus not found"
+    mismatched = [
+        p.relative_to(ROOT).as_posix()
+        for p in units
+        if json.loads(p.read_bytes().decode("utf-8"))["table_id"]
+        != f"{p.parent.name}/{p.name[: -len('.cells.json')]}"
+    ]
+    assert mismatched == []
+
+
+def test_corpus_is_utf8_lf_without_bom():
+    # AUDIT 2026-08-18 finding 3: 78 of 421 units were committed CRLF while
+    # the audit records assert "strict UTF-8 with LF and no BOM" as a gate.
+    # .gitattributes pins it going forward; this is what fails if it drifts.
+    # Byte literals are built numerically so this file can never itself be
+    # mangled by an escape-interpreting edit - the defect class it guards.
+    cr, bom = bytes([13]), bytes([239, 187, 191])
+    offenders = []
+    for p in sorted((ROOT / "tables").glob("**/*.cells.json")):
+        raw = p.read_bytes()
+        raw.decode("utf-8")  # strict - mojibake or stray bytes raise here
+        if cr in raw or raw.startswith(bom):
+            offenders.append(p.relative_to(ROOT).as_posix())
+    assert offenders == []

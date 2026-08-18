@@ -547,7 +547,7 @@
       ],
       "target": "r12c2",
       "note": "column decomposition: On-Budget + Off-Budget Deficit = Total Deficit",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -596,7 +596,7 @@
       ],
       "target": "r1c2",
       "note": "row identity: Outlays + Deficit = Receipts (Budget)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -627,7 +627,7 @@
       ],
       "target": "r1c3",
       "note": "row identity: Outlays + Deficit = Receipts (Budget)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 8 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {

@@ -1379,7 +1379,7 @@
       ],
       "target": "r20c1",
       "note": "row identity: Outlays + Excess = Receipts for row 20 (Month)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1479,7 +1479,7 @@
       ],
       "target": "r17c2",
       "note": "column roll-up: trust outlays sum to Total Trust Outlays (Month)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1504,7 +1504,7 @@
       ],
       "target": "r17c3",
       "note": "column roll-up: trust excess sum to Total Trust Excess (Month)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1528,7 +1528,7 @@
       ],
       "target": "r17c4",
       "note": "column roll-up: trust receipts sum to Total Trust Receipts (YTD)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1553,7 +1553,7 @@
       ],
       "target": "r17c5",
       "note": "column roll-up: trust outlays sum to Total Trust Outlays (YTD)",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1669,7 +1669,7 @@
       ],
       "target": "r23c1",
       "note": "Net Budget = Net Trust + Net Federal",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {
@@ -1680,7 +1680,7 @@
       ],
       "target": "r23c2",
       "note": "Net Budget = Net Trust + Net Federal",
-      "tol": "1",
+      "tol": "0",
       "why": "Page 36 prints: \"Note: Details may not add to totals due to rounding.\""
     },
     {

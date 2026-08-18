@@ -1,5 +1,5 @@
 {
-  "table_id": "budget-appendix-fy2027-leg-loc-salaries",
+  "table_id": "omb/budget-appendix-fy2027-leg-loc-salaries",
   "source": {
     "path": "sources/omb/budget-2027-app-2-3-legislative.pdf",
     "table": "Library of Congress - Salaries and Expenses",

@@ -1,0 +1,16 @@
+# Corpus units are LF by contract — the audit records assert "strict UTF-8
+# with LF and no BOM" as a gate, and 78 of 421 units had drifted to CRLF
+# before this file existed (AUDIT 2026-08-18, finding 3).
+*.cells.json  text eol=lf
+
+# Ordinary repo text.
+*.py          text eol=lf
+*.md          text eol=lf
+*.json        text eol=lf
+*.toml        text eol=lf
+*.lock        text eol=lf
+
+# Vendored sources are byte-exact and sha256-ledgered in sources/SOURCES.md.
+# Two BLS .htm files are CRLF on purpose; normalising them would break the
+# ledger. Last rule wins in gitattributes, so this must stay at the bottom.
+sources/**    -text
