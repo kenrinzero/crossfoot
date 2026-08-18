@@ -2479,3 +2479,19 @@ batch — the Table 5 wrap and the first three Table 6 units — is accurate, it
 honest, its re-anchoring is exact, and every June-to-July shape change is a printed-month fact.
 Audit cadence GREEN through **#400**; next every-10th different-agent audit fires at **#410**.
 Corpus unblocked — #401 (`table6-schedule-b`) may ship, with 21 July-MTS units remaining.
+
+---
+
+## Unit 410 — treasury-mts/2026-07-table6-schedule-e-direct-part1 (PENDING different-agent audit)
+
+**Transcriber:** Grok 4.6 (#401–#410, all ten). **Auditor must be a different agent.**
+
+**Scope request (family practice):** do not sample #410 alone. Ten consecutive units from one agent is the #340 defect class — the last six July audits all widened to a whole-batch positional check. Check **#401–#410** against an independent parse of pages 25–32 (Table 6 Schedules B, C, D, and E through Direct Agri–HHS) plus 2.5× renders. Rows carry 6 value tokens; headings are not all colon-terminated — parse those pages flat.
+
+**Judgement calls to re-judge (do not inherit):**
+1. Three floor misses, never padded: **#402 agri 1 vs 8** (July omits This-Month on 10 Agriculture lines; only CCC This-Month prints, so only one roll-forward); **#403 comm-energy 4 vs 5** (Family Housing / HBCU / Temporary Student Loan / Title 17 This-Month omitted); **#404 hhs-interior 0 vs 1** (Disaster Assistance This-Month `(**)`, so the unit's only June roll-forward is not declarable — every cell standalone).
+2. All-omitted rows skipped matching June: Schedule B Architect / FCC / NARA; C BIA, FRA Other, HMO, FDIC (all-omitted); E guaranteed NRCS / TIFIA / Air Transportation / TARP / Microenterprise (×2).
+3. All non-zero tolerances should equal their observed Decimal delta and quote the Table 6 rounding footnote (`Note: Details may not add to totals due to rounding.` on p25–p32). Widest in this batch is `tol=3` on the 24-component Federal Funds Total Treasury roll-up.
+4. #407 Total Federal Funds = Total Treasury Securities; #408 Total Federal Funds (re-anchored) byte-matches #407; #408 Grand Total = Federal + Trust; #408 Total Trust = Total Treasury + Total Agency Securities.
+
+**Corpus BLOCKED** at #410 until this audit closes GREEN. #411 (`table6-schedule-e-direct-part2`) must not ship first.

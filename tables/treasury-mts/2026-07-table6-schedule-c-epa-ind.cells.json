@@ -1,0 +1,1233 @@
+{
+  "table_id": "treasury-mts/2026-07-table6-schedule-c-epa-ind",
+  "source": {
+    "path": "sources/treasury-mts/mts-202607.pdf",
+    "table": "Table 6. Schedule C \u2014 Federal Agency Borrowing (EPA through Totals + FFB)",
+    "page": 27,
+    "title": "Table 6. Schedule C \u2014 Federal Agency Borrowing (EPA through Totals + FFB)",
+    "period": "July FY2026"
+  },
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. EPA, International Assistance, SBA, Independents, Other, Total Borrowing from US Treasury, then FFB lines + Total FFB. HMO all-(**) and FDIC all-omitted dropped.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month \u2014 end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program"
+    },
+    {
+      "index": 2,
+      "label": "International Assistance Programs: International Security Assistance: Foreign Military Loan Program"
+    },
+    {
+      "index": 3,
+      "label": "International Assistance Programs: Agency for International Development: Development Credit Authority Loan Fund"
+    },
+    {
+      "index": 4,
+      "label": "International Assistance Programs: International Monetary Programs"
+    },
+    {
+      "index": 5,
+      "label": "International Assistance Programs: United States International Development Finance Corporation"
+    },
+    {
+      "index": 6,
+      "label": "Small Business Administration: Business Loan Fund"
+    },
+    {
+      "index": 7,
+      "label": "Small Business Administration: Disaster Loan Fund"
+    },
+    {
+      "index": 8,
+      "label": "Independent Agencies: Export-Import Bank of the United States"
+    },
+    {
+      "index": 9,
+      "label": "Independent Agencies: Federal Communications Commission: Spectrum Auction Loan Fund"
+    },
+    {
+      "index": 10,
+      "label": "Independent Agencies: Presidio Trust"
+    },
+    {
+      "index": 11,
+      "label": "Independent Agencies: Railroad Retirement Board: Social Security Equivalent Benefit Account"
+    },
+    {
+      "index": 12,
+      "label": "Other: Borrowing from the US Treasury - Other"
+    },
+    {
+      "index": 13,
+      "label": "Total Borrowing from the US Treasury"
+    },
+    {
+      "index": 14,
+      "label": "FFB: Department of Agriculture: Rural Utilities Service: Rural Electrification and Telecommunications Fund"
+    },
+    {
+      "index": 15,
+      "label": "FFB: Department of Education: Historically Black College and University Capital Financing Fund"
+    },
+    {
+      "index": 16,
+      "label": "FFB: Department of Energy: Advanced Technology Vehicles Manufacturing Loans"
+    },
+    {
+      "index": 17,
+      "label": "FFB: Department of Energy: Title 17 Innovative Technology Loans"
+    },
+    {
+      "index": 18,
+      "label": "FFB: Department of Housing and Urban Development: Federal Housing Administration"
+    },
+    {
+      "index": 19,
+      "label": "FFB: Department of Transportation: Maritime Guaranteed Loan (Title XI) FFB Financing Account"
+    },
+    {
+      "index": 20,
+      "label": "FFB: Department of the Treasury: Community Development Financial Institutions Fund"
+    },
+    {
+      "index": 21,
+      "label": "FFB: Department of Veterans Affairs: Guaranteed Transitional Housing Loans for Homeless Veterans"
+    },
+    {
+      "index": 22,
+      "label": "FFB: International Assistance Programs: Agency for International Development: Sovereign Credit Direct Loan Financing Account"
+    },
+    {
+      "index": 23,
+      "label": "FFB: Independent Agencies: FDIC (acting in its capacity as Receiver)"
+    },
+    {
+      "index": 24,
+      "label": "FFB: Independent Agencies: Postal Service"
+    },
+    {
+      "index": 25,
+      "label": "Total Borrowing from the Federal Financing Bank"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "211",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "2743",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "3105",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "9721",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "12253",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "12463",
+      "role": "total"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "5884",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "7852",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "7852",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "7852",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "-189",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "502",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "781",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "592",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "592",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "977",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "8754",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "4827",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "4892",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "12669",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "13646",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "179",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "2572",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "1511",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "12678",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "15071",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "15250",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "778",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "481",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "3503",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "4281",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "4281",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-10795",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-2169",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "245833",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "235038",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "235038",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "761",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "89",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "9236",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "9992",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "9997",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "3080",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "3080",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "3080",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "3080",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "245",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "245",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "245",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "506",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "-855",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-684",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "4748",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "3387",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "3892",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "1",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "2",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-8167",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "88456",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "161633",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "2201239",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "2297862",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "2289695",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-40",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-636",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "424",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "54866",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "54269",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "54229",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "331",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "234",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "816",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "1144",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "1147",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-161",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "1466",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "8832",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "10908",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "12535",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "12374",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-29",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "1731",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "2785",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "17907",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "19667",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "19638",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "487",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "12",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "3136",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "3624",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "3623",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "-56",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "-12",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "301",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "245",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "245",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "-18",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "152",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "1482",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "1458",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "1464",
+      "role": "total"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "4",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "4",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "4",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "20000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "20000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "20000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "20000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "93333",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "93333",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "93333",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "15000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r24c5",
+      "row": 24,
+      "col": 5,
+      "value": "15000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "15000",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "-221",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "3304",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "32426",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "217753",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "value": "221279",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "221058",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r1)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r5)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c1"
+      ],
+      "target": "r11c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r11)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r13c1"
+      ],
+      "target": "r13c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r13)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c1"
+      ],
+      "target": "r14c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r14)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r15)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c1"
+      ],
+      "target": "r16c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r16)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r17)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c5",
+        "r18c1"
+      ],
+      "target": "r18c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r18)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c1"
+      ],
+      "target": "r20c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r20)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c5",
+        "r25c1"
+      ],
+      "target": "r25c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r25)"
+    }
+  ]
+}

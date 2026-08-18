@@ -1,0 +1,215 @@
+{
+  "table_id": "treasury-mts/2026-07-table6-schedule-b",
+  "source": {
+    "path": "sources/treasury-mts/mts-202607.pdf",
+    "table": "Table 6. Schedule B \u2014 Agency Securities Under Special Financing Authorities",
+    "page": 25,
+    "title": "Table 6. Schedule B",
+    "period": "July FY2026"
+  },
+  "unit_note": "USD millions. Architect of the Capitol / FCC / NARA all-(**) rows dropped. FHA stationary balances; TVA drives Total Agency Securities.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month \u2014 end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Department of Housing and Urban Development: Federal Housing Administration"
+    },
+    {
+      "index": 2,
+      "label": "Tennessee Valley Authority"
+    },
+    {
+      "index": 3,
+      "label": "Total Agency Securities"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-250",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "-1120",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "959",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "22057",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "21187",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "20937",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "-250",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "-1120",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "959",
+      "role": "standalone",
+      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "22075",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "21205",
+      "role": "total"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "20955",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4"
+      ],
+      "target": "r3c4",
+      "note": "Total Agency Securities col 4",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5"
+      ],
+      "target": "r3c5",
+      "note": "Total Agency Securities col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6"
+      ],
+      "target": "r3c6",
+      "note": "Total Agency Securities col 6",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}
