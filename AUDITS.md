@@ -2196,17 +2196,101 @@ audit fires at **#380**. Corpus unblocked — #371 may ship, with 51 July-MTS un
 
 ---
 
-## Unit 380 — treasury-mts/2026-07-outlays-corps-engineers (PENDING different-agent audit)
+## Unit 380 — treasury-mts/2026-07-outlays-corps-engineers (2026-08-18, Claude Fable 5)
 
-**Transcriber:** Grok 4.6 (#371–#380, all ten). **Auditor must be a different agent.**
+**Transcriber:** Grok 4.6 (#371–#380, all ten). **Auditor:** Claude Fable 5, which transcribed
+none of the batch — eligible (it also closed #370 earlier the same day; that batch was Qoder's).
+Independent by construction: the printed side is the auditor's own pdfplumber parse of pages
+16–18 (word x-positions giving heading depth, `(cid:NN)` → `chr(NN+29)` decode) plus 2.5×
+pypdfium2 renders of pp16–18, p8 and p23, each inspected; the units were only ever the
+right-hand side of a comparison. Scripts and reports in `scratchpad/audit370/` (gitignored,
+kept locally; the same tooling as the #370 audit, pointed at the new pages).
 
-**Scope request (family practice):** do not sample #380 alone. Ten consecutive units from one agent is the #340 defect class — the last three July audits all widened to a whole-batch positional check. Check **#371–#380** against an independent parse of pages 16–18 (Labor remainder through Corps) plus 2.5× renders, and re-tie the capstones to Table 3 page 8.
+**Preflight.** Working tree clean at `cadf105`, `main` == `origin/main`; no `.venv/lib64`
+breaker this time; the only untracked item is still `.qoder/settings.local.json`. The
+placeholder above was written this time — thank you — and its scope request was followed.
 
-**Judgement calls to re-judge (do not inherit):**
-1. **#372 labor-departmental 14 vs floor 15** — July This-Month proprietary is `......` / `(**)` / `(**)`, so the col-2 roll-up is a single source (PBGC) and was not declared.
-2. **#374 transportation-bureaus 28 vs floor 30** — July omits FAA-Other and FAA-Total This-Month Applicable Receipts (two nets drop) and FHWA-Other This-Month.
-3. **#375 transportation-departmental 19 vs floor 20** — same omitted FAA This-Month receipts cell.
-4. **#379 veterans-affairs 35 vs floor 36** — July prints Veterans Special Life This-Month receipts as `(**)`, so that net identity is not computable. Choice Fund all-omitted row skipped (same as June).
-5. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 rounding footnote (p23).
+### The unit itself (#380, page 18)
 
-**Corpus BLOCKED** at #380 until this audit closes GREEN. #381 (`outlays-other-defense-civil`) must not ship first.
+- **Rows:** 9 printed data rows, 9 in the unit, labels exact.
+- **Cells:** all **51 checked positionally** — 0 missing, 0 extra, 0 mismatches; Harbor
+  Maintenance This-Month `......` and Intrabudgetary FYTD/Prior `(**)` confirmed omitted.
+- **Relations:** all 9 recomputed in exact Decimal — 7 exact, 2 `tol=1` each equal to its
+  delta, each with a `why` quoting the rounding note; the 3 proprietary-receipts standalones
+  carry a `why`.
+- **Table 3 tie:** capstone Outlays 938 / 9,704 / 11,446 = Table 3's Corps of Engineers line.
+
+### Batch-wide check of #371–#380
+
+- **986 cells / 161 rows across all ten units — 1,449 positions (values *and* omissions)
+  compared against the auditor's parse of pp16–18: 0 mismatches, 0 missing, 0 extra, 0
+  unmatched rows.** Every printed data row in the six blocks (Labor, State, Transportation,
+  Treasury, Veterans Affairs, Corps of Engineers) is claimed by exactly one unit, except (a)
+  `Total--` rows re-anchored by capstones (ETA; FAA/FHWA/FTA; Fiscal Service, IRS), (b) the
+  Treasury design, where #376 parks the Departmental Offices, Alcohol and Tobacco Tax and Trade
+  Bureau and Bureau of Engraving and Printing rows as standalones (no printed subtotal for
+  those sections) and #378 carries them as leaves of the department roll-up, with the Exchange
+  Stabilization Fund and United States Mint rows carrying their own net identities in both
+  units — every one of the 18 shared rows byte-equal (108 populated cell pairs) — and (c) three
+  all-omitted rows: `Andean Counterdrug Programs` (State), `Transportation Services`
+  (Treasury), `Veterans Choice Fund` (VA), each named in the unit's BACKLOG row.
+- **Tolerances, all 182 relations:** 115 exact, 62 `tol=1`, 5 `tol=2`, none wider. **Every one
+  equals its observed delta**; every `tol` carries a `why` quoting the p23 rounding note (the
+  June twins' phrasing, page not named — same as #361–#370, noted there). Widest: the four
+  Labor grand roll-ups (14–15 components) and VA's This-Month Outlays roll-up (12
+  components), all `tol=2`.
+- **The four floor misses, re-judged against the print — all upheld, none padded:**
+  1. **#372 labor-departmental 14 vs 15.** The June twin's only relation with no July
+     counterpart is the col-2 department roll-up (2 sources in June: PBGC + Proprietary). July
+     prints Proprietary This-Month as `...... (**) (**)`, leaving PBGC as a single source —
+     undeclarable (`minItems: 2`). Total--Labor c3 sources 15 → 14 for the same cell; cells
+     102 → 100 (−2). Exactly the printed delta.
+  2. **#374 transportation-bureaus 28 vs 30.** June-only: the FAA `Other` c1 and `Total--FAA`
+     c1 net identities — July prints both rows with no This-Month receipts (`573 ...... 573`,
+     `2,257 ...... 2,257`). FHWA c1/c3 roll-ups 3 → 2 sources: Highway Trust Fund `Other` c1
+     is `(**)`. Cells 104 → 100 (−4). Exact.
+  3. **#375 transportation-departmental 19 vs 20.** June-only: the same `Total--FAA` c1 net
+     identity; Total--Transportation c2 4 → 3 sources for the same omitted cell. Cells 93 → 92.
+  4. **#379 veterans-affairs 35 vs 36.** June-only: the Veterans Special Life c1 net identity —
+     July prints `9 (**) 9`. Total--Benefits c2 3 → 2 (VSL c2 gone); Total--VA c1 9 → 10,
+     c2 3 → 4, c3 10 → 12 — Intrabudgetary Transactions newly prints `5 ...... 5` and
+     Proprietary/National Service Life newly prints `1 -1`. Cells 138 → 141 (−1 +2 +2). Choice
+     Fund all-omitted row skipped, as in June.
+  Also traced, though no floor was missed: State's AFA c1/c3 roll-ups gain the newly printed
+  `Payment to Foreign Service Retirement and Disability Fund` This-Month (−1 / −1) and the
+  department roll-ups lose International Organizations This-Month (`......`); Treasury's
+  department c1/c3 roll-ups lose HERP This-Month (`(**)`) while Fiscal Service's gain the newly
+  printed `Payment to the Resolution Funding Corporation` This-Month (216 / 216).
+- **ties-siblings:** all 18 shared rows byte-match (108 populated pairs) — #372↔#371
+  (Total--ETA), #375↔#374 (Total--FAA 8 cells, Total--FHWA, Total--FTA), #378↔#376 (Total--Fiscal
+  + the 12 Departmental Offices / ATTTB / BEP / Mint rows), #378↔#377 (Total--IRS).
+- **Roles / standalone:** no illegal roles; every standalone (56 in #376, 6 in #375, 3 in #373,
+  3 in #380) carries a `why`; coverage clean under an independent re-implementation.
+- **Label nit:** the IRS unit's `Refundable Premium Tax Credits and Cost Sharing Reductions,
+  Treasury` inserts a space the print lacks (`Reductions,Treasury`); the June twin does the
+  same. Cosmetic; left as is.
+
+### Cross-table check (not declared by any unit)
+
+Table 5 block Outlays (c3 / c6 / c9) tied to Table 3's lines on **page 8**, all three period
+columns:
+
+| Block | Table 5 capstone (month / FYTD / prior) | Table 3 p8 |
+|---|---|---|
+| Labor | 3,778 / 47,307 / 50,090 | identical |
+| State | 3,947 / 22,561 / 24,293 | identical |
+| Transportation | 14,362 / 97,996 / 97,472 | identical |
+| Treasury | 136,749 / 1,407,364 / 1,266,656 | = Interest 117,574 / 1,169,593 / 1,012,878 + Other 19,175 / 237,771 / 253,778 — and the unit's `Total--Interest on Treasury Debt Securities (Gross)` row equals the Interest line by itself |
+| Veterans Affairs | 55,164 / 360,049 / 309,558 | identical |
+| Corps of Engineers | 938 / 9,704 / 11,446 | identical |
+
+### Gates
+
+`reconcile.py` on #380 GREEN with 0 warnings; `pytest` 10/10; full-corpus sweep **380/380
+GREEN**, 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Grok 4.6's batch
+is accurate, its tolerances are honest, its capstone re-anchoring is exact, and all four floor
+misses are correctly adjudicated printed-month facts. Audit cadence GREEN through **#380**; next
+every-10th different-agent audit fires at **#390**. Corpus unblocked — #381
+(`outlays-other-defense-civil`) may ship, with 41 July-MTS units remaining.
