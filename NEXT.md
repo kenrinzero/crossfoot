@@ -47,12 +47,12 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **UNBLOCKED (2026-08-17):** the #360 every-10th audit closed **GREEN**
-  (Claude Opus 5; whole-batch positional check of #351–#360, 1,485 cell
-  positions vs an independent parse, plus a Table 3 cross-table tie on all
-  four departmental capstones — AUDITS.md). #361 may ship.
-  **2026-08-18: #361–#370 shipped; corpus now BLOCKED at #370 for the
-  every-10th different-agent audit.**
+- **UNBLOCKED (2026-08-18):** the #370 every-10th audit closed **GREEN**
+  (Claude Fable 5; whole-batch positional check of #361–#370, 1,131 cells /
+  1,593 positions vs an independent parse, all 218 tolerances equal to their
+  deltas, ties-siblings byte-match, Table 3 cross-table ties on all six
+  departments, the #367 33-vs-34 adjudication upheld — AUDITS.md). #371 may
+  ship; next dispatch is `outlays-labor-bureaus` (D2).
 
 - **Treasury MTS July 2026 — 51 of 80 units remain, D-tiered.** The D1 vendoring is DONE
   (2026-08-17): published 2026-08-12, vendored, gated, ledgered. **#342–#370 shipped**:
@@ -76,10 +76,12 @@ in this repo always means a stage, never difficulty.
   - **Floors are provisional** (inherited from the June twins). A floor
     you cannot reach honestly is a finding — stop and log; never pad,
     and never invent a row to match June (#340 defect class).
-  - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check)
-    and #360 closed **GREEN** the same day (Claude Opus 5; whole-batch
-    positional check of #351–#360 + Table 3 cross-table ties). Both in
-    AUDITS.md. Corpus unblocked; next every-10th fires at **#370**.
+  - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check),
+    #360 closed **GREEN** the same day (Claude Opus 5; whole-batch
+    positional check of #351–#360 + Table 3 cross-table ties), and #370
+    closed **GREEN** 2026-08-18 (Claude Fable 5; whole-batch positional
+    check of #361–#370 + ties + Table 3). All in AUDITS.md. Corpus
+    unblocked; next every-10th fires at **#380**.
 
 - **Treasury MTS August 2026** — probed 2026-08-17: not yet published
   (503 + HTML body). Expected ~mid-September; re-probe then.
@@ -88,13 +90,17 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#360** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#370** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
 without audit per cadence; **#342–#350 audited GREEN together 2026-08-17 (Qoder,
 whole-family positional check)**; **#351–#360 audited GREEN together 2026-08-17
-(Claude Opus 5, 1,485 positions + cross-table ties)**. Next fires at **#370**.
+(Claude Opus 5, 1,485 positions + cross-table ties)**; **#361–#370 audited GREEN
+together 2026-08-18 (Claude Fable 5, 1,593 positions + ties + cross-table ties)**.
+Next fires at **#380**. Reminder for the transcriber who lands on a multiple of
+10: write the AUDITS.md placeholder (RUNBOOK-transcriber § Special cases) — #370
+shipped without one.
 
 **Standing note for the next auditor:** the last two every-10th audits both
 widened scope from the 10th unit to the whole ten-unit batch, because both

@@ -2097,3 +2097,99 @@ standalone cell without a `why`.
 tolerances are honest, and its capstone re-anchoring is exact. Audit cadence GREEN through
 **#360**; next every-10th different-agent audit fires at **#370**. Corpus unblocked — #361 may
 ship, with 61 July-MTS units remaining.
+
+---
+
+## Unit 370 — treasury-mts/2026-07-outlays-justice (2026-08-18, Claude Fable 5)
+
+**Transcriber:** Qoder (#361–#370). **Auditor:** Claude Fable 5, which transcribed none of this
+batch (its last transcription work was the P60-282 seeds #201–#210) — eligible. Independent by
+construction: the printed side is the auditor's own pdfplumber parse of pages 12–15 (word
+x-positions giving heading depth, `(cid:NN)` → `chr(NN+29)` decode) plus 2.5× pypdfium2 renders
+of pp12–15, p8 and p23, each inspected; the units were only ever the right-hand side of a
+comparison. Scripts and reports in `scratchpad/audit370/` (gitignored, kept locally).
+
+**Preflight.** The `.venv/lib64 -> lib` symlink breaker was present again (POSIX-side sessions
+leave it) — removed before any gate; uv rebuilt the venv cleanly. Working tree clean at
+`d558608`; the only untracked item is `.qoder/settings.local.json` (harness settings, not unit
+work). **No AUDITS.md placeholder had been written at #370** — the transcriber runbook's
+every-10th special case asks for one; the block notice went to NEXT/BACKLOG/brief instead.
+Process nit, not a corpus defect; this entry is written directly.
+
+### The unit itself (#370, page 15)
+
+- **Rows:** 19 printed data rows under two headings, 19 in the unit, labels exact (the heading
+  levels carried as `Legal Activities and U.S. Marshals / …` and `Office of Justice Programs / …`
+  qualifiers).
+- **Cells:** all **120 checked positionally** — 0 missing, 0 extra, 0 mismatches; every
+  `......` / `(**)` omission confirmed omitted in print. Render inspected directly.
+- **Relations:** all 15 recomputed in exact Decimal — three net identities on Federal Prison
+  System, three on the total row, nine department roll-ups; 11 exact, 4 `tol=1`, **each equal
+  to its observed delta**, each with a `why` quoting the rounding note.
+- **Table 3 tie:** capstone Outlays 3,289 / 36,670 / 36,712 = Table 3's Department of Justice
+  line on p8.
+
+### Batch-wide check of #361–#370
+
+Family practice (#350, #360) followed: ten consecutive units from one agent, so the whole batch
+was checked, not the 10th unit alone.
+
+- **1,131 cells / 177 rows across all ten units — 1,593 positions (values *and* omissions)
+  compared against the auditor's parse of pp12–15: 0 mismatches, 0 missing, 0 extra, 0
+  unmatched rows.** Presence and absence are both checked, so a fabricated, duplicated or
+  dropped row would surface. Every printed data row in the six department blocks is claimed by
+  exactly one unit, except (a) `Total--` rows re-anchored by capstones (2 HHS, 2 HUD, 4
+  Interior), (b) the ten HHS small-agency/departmental rows carried by #363 as standalones and
+  re-anchored by #364 as leaves — the June design — and (c) two all-omitted rows, `Defense
+  Nuclear Waste Disposal` (Energy; noted in `unit_note`) and `Home Ownership Preservation Equity
+  Fund` (HUD; not mentioned in #367's `unit_note`, nor in the June twin's — nit).
+- **Tolerances, all 218 relations:** 139 exact, 71 `tol=1`, 8 `tol=2`, none wider. **Every one
+  equals its observed delta** — no relation in the batch carries slack wider than the arithmetic
+  needs — and every `tol` carries a `why` quoting the p23 rounding note. Widest are the HUD and
+  Interior grand roll-ups (`tol=2`). Tightest case worth recording: #367 `r22c2` (Total--HUD
+  Applicable Receipts), 4 printed components (5 + 55 + 4 + 1 = 65) against a printed 67 — the
+  column also carries three `(**)` cells (GNMA, and two inside Housing Programs), each hiding a
+  non-zero sub-$0.5M amount, which is exactly what the note covers.
+- **`why` phrasing:** this batch uses the June twins' shorter form (footnote quoted, page not
+  named), where #342–#360 named page 23 explicitly. AGENTS.md § 4 asks for the note to be
+  quoted — satisfied; the page is a nicety. Left as is (consistent with the 80 June units); a
+  docs pass could harmonize.
+- **#367 adjudication upheld (33 relations vs the June-derived floor of 34).** The June twin's
+  only relation with no July counterpart is the This-Month net identity on `Housing Programs:
+  Other` — July prints `1 (**) 1`, so the identity has one declarable source and cannot be
+  declared (schema `minItems: 2`); the row's c1/c3 are correctly demoted to leaves feeding the
+  Housing Programs roll-ups. No July-only relations. Every source-count change on the common
+  relations traces to a printed-cell delta: `FHA-General and Special Risk Fund, Program Account`
+  newly prints 393 / 393 (c7/c9 roll-ups gain a source), Intrabudgetary Transactions newly
+  prints c1/c3 = 1, `FHA-General and Special Risk Fund, Liquidating Account` newly prints c1 = 1
+  and drops c3 to `(**)`. Cell count 138 → 141 reconciles (+2 +2 +1 −1 −1). Not padded, not
+  invented — the floor miss is a printed-month fact and `unit_note` says so.
+- **ties-siblings:** all 18 re-anchor rows byte-match, 119 populated cell pairs — #364↔#362
+  (Total--CMS), #364↔#363 (Total--ACF plus the ten agency rows), #367↔#366 (Total--PIH,
+  Total--CPD), #369↔#368 (four bureau totals).
+- **Roles / standalone:** no illegal roles; every standalone cell (54 in #363, 6 in #369)
+  carries a `why`; coverage clean under an independent re-implementation of the rule.
+
+### Cross-table check (not declared by any unit)
+
+Table 5 departmental Outlays (c3 / c6 / c9) tied to Table 3's department lines on **page 8**,
+all three period columns:
+
+| Department | Table 5 capstone (month / FYTD / prior) | Table 3 p8 |
+|---|---|---|
+| Energy | 4,781 / 42,979 / 43,803 | identical |
+| Health and Human Services | 250,586 / 1,724,888 / 1,557,015 | identical |
+| Homeland Security | 12,244 / 87,524 / 94,931 | identical |
+| Housing and Urban Development | 5,738 / 56,814 / 40,314 | identical |
+| Interior | 5,712 / 13,678 / 17,419 | identical |
+| Justice | 3,289 / 36,670 / 36,712 | identical |
+
+### Gates
+
+`reconcile.py` on #370 GREEN with 0 warnings; `pytest` 10/10; full-corpus sweep **370/370
+GREEN**, 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Qoder's batch is
+accurate, its tolerances are honest, its capstone re-anchoring is exact, and its one floor miss
+is correctly adjudicated. Audit cadence GREEN through **#370**; next every-10th different-agent
+audit fires at **#380**. Corpus unblocked — #371 may ship, with 51 July-MTS units remaining.
