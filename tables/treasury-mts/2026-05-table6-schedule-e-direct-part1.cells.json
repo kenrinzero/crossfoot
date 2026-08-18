@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E — Direct Loan Financing Activity (Agriculture through Energy)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Direct Loan Financing Activity under Agriculture through Energy. Blank and less-than-500k (**) cells omitted.",
+  "unit_note": "USD millions. Direct Loan Financing Activity under Agriculture through Energy. Blank and less-than-500k (**) cells omitted. Ships 18 relations against a sizing floor of 20: the unit declares the family-standard monthly roll-forward (Beginning of This Month + This Month = Close of This Month) on every row where all three cells print, and 7 row(s) print account balances but omit the This-Month transaction (...... or (**)), so no monthly identity is computable there. Adjudicated 2026-08-18 against p32: the floor was optimistic at sizing time; no relation was padded and no cell invented. Separately, the fiscal-year roll-forward (Beginning of This Year + Fiscal Year to Date This Year = Close of This Month) is computable on 3 further row(s) here and is not declared - a family-wide gap across all 36 Table 6 units, not specific to this one; see the 2026-08-18 project log.",
   "columns": [
     {
       "index": 1,
