@@ -129,8 +129,7 @@
       "row": 2,
       "col": 2,
       "value": "2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r2c3",
@@ -145,8 +144,7 @@
       "row": 2,
       "col": 4,
       "value": "7",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r2c5",
@@ -174,8 +172,7 @@
       "row": 3,
       "col": 2,
       "value": "2106",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r3c3",
@@ -190,8 +187,7 @@
       "row": 3,
       "col": 4,
       "value": "25389",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r3c5",
@@ -219,8 +215,7 @@
       "row": 4,
       "col": 2,
       "value": "550",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -235,8 +230,7 @@
       "row": 4,
       "col": 4,
       "value": "3027",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -264,16 +258,14 @@
       "row": 5,
       "col": 2,
       "value": "2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r5c4",
       "row": 5,
       "col": 4,
       "value": "6",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r5c5",
@@ -318,8 +310,7 @@
       "row": 7,
       "col": 2,
       "value": "9",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r7c3",
@@ -334,8 +325,7 @@
       "row": 7,
       "col": 4,
       "value": "117",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r7c5",
@@ -350,16 +340,14 @@
       "row": 7,
       "col": 6,
       "value": "126",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r8c2",
       "row": 8,
       "col": 2,
       "value": "-7",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r8c3",
@@ -374,8 +362,7 @@
       "row": 8,
       "col": 4,
       "value": "898",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r8c5",
@@ -390,16 +377,14 @@
       "row": 8,
       "col": 6,
       "value": "891",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r9c2",
       "row": 9,
       "col": 2,
       "value": "2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r9c3",
@@ -414,8 +399,7 @@
       "row": 9,
       "col": 4,
       "value": "33",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r9c5",
@@ -430,16 +414,14 @@
       "row": 9,
       "col": 6,
       "value": "35",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r10c2",
       "row": 10,
       "col": 2,
       "value": "-1208",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r10c3",
@@ -454,8 +436,7 @@
       "row": 10,
       "col": 4,
       "value": "2714",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r10c5",
@@ -470,8 +451,7 @@
       "row": 10,
       "col": 6,
       "value": "1507",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r11c1",
@@ -485,8 +465,7 @@
       "row": 11,
       "col": 2,
       "value": "4595",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c3",
@@ -501,8 +480,7 @@
       "row": 11,
       "col": 4,
       "value": "210939",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c5",
@@ -523,8 +501,7 @@
       "row": 12,
       "col": 2,
       "value": "-219",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c3",
@@ -539,8 +516,7 @@
       "row": 12,
       "col": 4,
       "value": "8948",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c5",
@@ -555,16 +531,14 @@
       "row": 12,
       "col": 6,
       "value": "8729",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r13c2",
       "row": 13,
       "col": 2,
       "value": "10",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r13c3",
@@ -579,8 +553,7 @@
       "row": 13,
       "col": 4,
       "value": "99",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r13c5",
@@ -595,8 +568,7 @@
       "row": 13,
       "col": 6,
       "value": "108",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r14c2",
@@ -670,6 +642,111 @@
       ],
       "target": "r11c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (r11)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of State: Repatriation Loans)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Transportation: Federal Hi)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Transportation: Federal Ra)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Transportation: Maritime A)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of the Treasury: Community De)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of the Treasury: Temporary Cr)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of the Treasury: Small Busine)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of the Treasury: ESF - Econom)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of the Treasury: Federal Fina)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Veterans Affairs: Veterans)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Veterans Affairs: Native A)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     }
   ]
 }

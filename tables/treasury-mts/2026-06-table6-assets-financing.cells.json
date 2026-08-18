@@ -137,8 +137,7 @@
       "row": 1,
       "col": 2,
       "value": "28320",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r1c3",
@@ -153,8 +152,7 @@
       "row": 1,
       "col": 4,
       "value": "890825",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r1c5",
@@ -224,8 +222,7 @@
       "row": 3,
       "col": 2,
       "value": "-3459",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r3c3",
@@ -946,8 +943,7 @@
       "row": 21,
       "col": 4,
       "value": "27516113",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r21c5",
@@ -1534,6 +1530,185 @@
       ],
       "target": "r21c6",
       "note": "Total Financing col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (U.S. Treasury Operating Cash: Federal Re)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (U.S. Treasury Operating Cash: Balance)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Special Drawing Rights: Total Holdings)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Special Drawing Rights: Balance)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (IMF: Maintenance of Value Adjustments)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (IMF: Letter of Credit Issued to IMF)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (IMF: Dollar Deposits with the IMF)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (IMF: Receivable/Payable (-) for Interim )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (IMF: Balance)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Other Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Non-Federal Securities of the National R)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Guaranteed Loan Financing)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Direct Loan Financing)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Miscellaneous Asset Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Asset Accounts)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r19c2"
+      ],
+      "target": "r19c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Excess of Liabilities (+) or Assets (-))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c4",
+        "r21c2"
+      ],
+      "target": "r21c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Budget and Off-Budget Federal Enti)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c4",
+        "r22c2"
+      ],
+      "target": "r22c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Liability Accounts (re-anchored))",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     }
   ]
 }

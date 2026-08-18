@@ -1275,8 +1275,7 @@
       "row": 30,
       "col": 2,
       "value": "140549",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r30c3",
@@ -1291,8 +1290,7 @@
       "row": 30,
       "col": 4,
       "value": "1064480",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r30c5",
@@ -1741,6 +1739,247 @@
       "note": "Federal Funds Total Treasury Securities roll-up col 6",
       "tol": "2",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Agriculture)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Energy)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of the Interio)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Justice)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Labor)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of State: Fore)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Transportat)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of the Treasur)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Veterans Af)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Veterans Af)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Veterans Af)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r19c2"
+      ],
+      "target": "r19c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Other Defense Civil Progr)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c4",
+        "r20c2"
+      ],
+      "target": "r20c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: International Assistance )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c4",
+        "r21c2"
+      ],
+      "target": "r21c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Office of Personnel Manag)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c4",
+        "r22c2"
+      ],
+      "target": "r22c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Independent Agencies: Fed)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c4",
+        "r23c2"
+      ],
+      "target": "r23c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Independent Agencies: Fed)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c4",
+        "r24c2"
+      ],
+      "target": "r24c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Independent Agencies: Fed)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c4",
+        "r25c2"
+      ],
+      "target": "r25c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Independent Agencies: Nat)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r26c4",
+        "r26c2"
+      ],
+      "target": "r26c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Independent Agencies: Pos)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r27c4",
+        "r27c2"
+      ],
+      "target": "r27c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Other: Treasury Securitie)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c4",
+        "r28c2"
+      ],
+      "target": "r28c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Other: Other)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c4",
+        "r29c2"
+      ],
+      "target": "r29c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Treasury Securities (Federal Funds)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c4",
+        "r30c2"
+      ],
+      "target": "r30c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Federal Funds)"
     }
   ]
 }

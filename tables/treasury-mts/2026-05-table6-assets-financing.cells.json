@@ -179,8 +179,7 @@
       "row": 2,
       "col": 2,
       "value": "13056",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r2c3",
@@ -195,8 +194,7 @@
       "row": 2,
       "col": 4,
       "value": "890825",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r2c5",
@@ -266,8 +264,7 @@
       "row": 4,
       "col": 2,
       "value": "-1849",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -400,8 +397,7 @@
       "row": 8,
       "col": 2,
       "value": "-184",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r8c3",
@@ -444,8 +440,7 @@
       "row": 9,
       "col": 2,
       "value": "2085",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r9c3",
@@ -488,8 +483,7 @@
       "row": 10,
       "col": 2,
       "value": "3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r10c4",
@@ -524,8 +518,7 @@
       "row": 11,
       "col": 2,
       "value": "131",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r11c3",
@@ -995,8 +988,7 @@
       "row": 22,
       "col": 4,
       "value": "27516113",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r22c5",
@@ -1514,6 +1506,183 @@
       ],
       "target": "r22c6",
       "note": "Excess of Liabilities + Transactions Not Applied = Total Financing (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Total Liability Acco)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Cash and Monetary Assets)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Non-Federal Securities o)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Net Activity, Guaranteed)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Net Activity, Direct Loa)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Miscellaneous Asset Acco)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r19c2"
+      ],
+      "target": "r19c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Asset Accounts: Total Asset Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c4",
+        "r20c2"
+      ],
+      "target": "r20c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Excess of Liabilities (+) or Assets (-))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r22c4",
+        "r22c2"
+      ],
+      "target": "r22c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Budget and Off-Budget Federal Enti)"
     }
   ]
 }

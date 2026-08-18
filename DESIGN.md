@@ -69,6 +69,35 @@ settled deviation from the plan: exact equality is brittle because
 legitimate alternative decompositions exist; a floor plus the coverage
 rules gives the same anti-laziness teeth without false rejections).
 
+### 4a. Coverage cannot see a missing *identity class* (added 2026-08-18)
+
+Both rules above are about cells that are already typed: a `total` must be
+targeted, a `leaf` must feed. Neither asks whether the source prints an
+identity that nobody declared - because an undeclared identity leaves its
+cells `standalone`, and `standalone` is exempt by design.
+`expected_relations_min` was meant to be the backstop, but the Table 6 floors
+were themselves derived from the prevailing convention, so they encoded the
+gap rather than exposing it. Eight consecutive different-agent audits passed
+over it, because each verified that every *declared* relation holds, never
+that every *available* identity is declared.
+
+Found in Table 6: the source prints **two** independent roll-forwards per row
+and the corpus declared only the first.
+
+- monthly: `Beginning of This Month + This Month = Close of This Month`
+- fiscal-year: `Beginning of This Year + Fiscal Year to Date = Close of This Month`
+
+They draw on disjoint source columns, so the fiscal-year identity catches
+errors the monthly one structurally cannot. 673 instances across 40 units were
+undeclared; declaring them moved 1,163 cells from `standalone` to verified.
+**Both are declared for every Table 6 row where all three cells print** - new
+months inherit this.
+
+Generalisation for future families: when a table prints more columns than one
+identity consumes, ask what the *remaining* columns close against before
+sizing the floor.
+
+
 ## 5. Manifest steering policy (settled)
 
 A source qualifies iff **no official machine-readable file of the same

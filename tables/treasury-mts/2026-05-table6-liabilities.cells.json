@@ -243,8 +243,7 @@
       "row": 4,
       "col": 2,
       "value": "-3864",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -259,8 +258,7 @@
       "row": 4,
       "col": 4,
       "value": "66448",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -288,8 +286,7 @@
       "row": 5,
       "col": 2,
       "value": "98200",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r5c3",
@@ -304,8 +301,7 @@
       "row": 5,
       "col": 4,
       "value": "352825",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r5c5",
@@ -459,8 +455,7 @@
       "row": 9,
       "col": 2,
       "value": "330517",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r9c3",
@@ -475,8 +470,7 @@
       "row": 9,
       "col": 4,
       "value": "7339271",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r9c5",
@@ -504,8 +498,7 @@
       "row": 10,
       "col": 2,
       "value": "37146",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r10c3",
@@ -520,8 +513,7 @@
       "row": 10,
       "col": 4,
       "value": "138423",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r10c5",
@@ -1249,6 +1241,169 @@
       "note": "Borrowing + Accrued Interest + SDR Alloc + Deposit Funds + Misc = Total Liability Accounts (col 6)",
       "tol": "1",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Borrowing from the P)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Accrued Interest Pay)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Allocations of Speci)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Uninvested Balances,)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Miscellaneous Liabil)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Liability Accounts: Total Liability Acco)"
     }
   ]
 }

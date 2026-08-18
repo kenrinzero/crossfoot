@@ -170,8 +170,7 @@
       "row": 4,
       "col": 2,
       "value": "3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -186,8 +185,7 @@
       "row": 4,
       "col": 4,
       "value": "8",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -202,8 +200,7 @@
       "row": 4,
       "col": 6,
       "value": "10",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r5c3",
@@ -354,8 +351,7 @@
       "row": 10,
       "col": 2,
       "value": "-20",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r10c3",
@@ -370,8 +366,7 @@
       "row": 10,
       "col": 4,
       "value": "336",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r10c5",
@@ -386,8 +381,7 @@
       "row": 10,
       "col": 6,
       "value": "317",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r11c4",
@@ -438,5 +432,28 @@
       "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
     }
   ],
-  "relations": []
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Homeland Security: Disaste)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Housing and Urban Developm)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
 }

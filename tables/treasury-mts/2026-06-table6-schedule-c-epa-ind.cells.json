@@ -149,8 +149,7 @@
       "row": 1,
       "col": 2,
       "value": "2532",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r1c3",
@@ -165,8 +164,7 @@
       "row": 1,
       "col": 4,
       "value": "9721",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r1c5",
@@ -219,8 +217,7 @@
       "row": 3,
       "col": 2,
       "value": "-189",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r3c3",
@@ -235,8 +232,7 @@
       "row": 3,
       "col": 4,
       "value": "781",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r3c5",
@@ -251,8 +247,7 @@
       "row": 3,
       "col": 6,
       "value": "592",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r4c1",
@@ -266,8 +261,7 @@
       "row": 4,
       "col": 2,
       "value": "7777",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -282,8 +276,7 @@
       "row": 4,
       "col": 4,
       "value": "4892",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -311,8 +304,7 @@
       "row": 5,
       "col": 2,
       "value": "2393",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r5c3",
@@ -327,8 +319,7 @@
       "row": 5,
       "col": 4,
       "value": "12678",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r5c5",
@@ -356,8 +347,7 @@
       "row": 6,
       "col": 2,
       "value": "778",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r6c3",
@@ -372,8 +362,7 @@
       "row": 6,
       "col": 4,
       "value": "3503",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r6c5",
@@ -401,8 +390,7 @@
       "row": 7,
       "col": 2,
       "value": "-10795",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r7c3",
@@ -417,8 +405,7 @@
       "row": 7,
       "col": 4,
       "value": "245833",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r7c5",
@@ -439,8 +426,7 @@
       "row": 8,
       "col": 2,
       "value": "757",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r8c3",
@@ -455,8 +441,7 @@
       "row": 8,
       "col": 4,
       "value": "9236",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r8c5",
@@ -471,8 +456,7 @@
       "row": 8,
       "col": 6,
       "value": "9992",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r9c3",
@@ -542,8 +526,7 @@
       "row": 11,
       "col": 2,
       "value": "-1361",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c3",
@@ -558,8 +541,7 @@
       "row": 11,
       "col": 4,
       "value": "4748",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c5",
@@ -580,16 +562,14 @@
       "row": 12,
       "col": 2,
       "value": "1",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c4",
       "row": 12,
       "col": 4,
       "value": "1",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c5",
@@ -604,8 +584,7 @@
       "row": 12,
       "col": 6,
       "value": "2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r13c1",
@@ -619,8 +598,7 @@
       "row": 13,
       "col": 2,
       "value": "96623",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r13c3",
@@ -635,8 +613,7 @@
       "row": 13,
       "col": 4,
       "value": "2201239",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r13c5",
@@ -664,8 +641,7 @@
       "row": 14,
       "col": 2,
       "value": "-597",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r14c3",
@@ -680,8 +656,7 @@
       "row": 14,
       "col": 4,
       "value": "54866",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r14c5",
@@ -709,8 +684,7 @@
       "row": 15,
       "col": 2,
       "value": "328",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r15c3",
@@ -725,8 +699,7 @@
       "row": 15,
       "col": 4,
       "value": "816",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r15c5",
@@ -754,8 +727,7 @@
       "row": 16,
       "col": 2,
       "value": "1627",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r16c3",
@@ -770,8 +742,7 @@
       "row": 16,
       "col": 4,
       "value": "10908",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r16c5",
@@ -799,8 +770,7 @@
       "row": 17,
       "col": 2,
       "value": "1759",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r17c3",
@@ -815,8 +785,7 @@
       "row": 17,
       "col": 4,
       "value": "17907",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r17c5",
@@ -844,8 +813,7 @@
       "row": 18,
       "col": 2,
       "value": "488",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r18c3",
@@ -860,8 +828,7 @@
       "row": 18,
       "col": 4,
       "value": "3136",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r18c5",
@@ -882,8 +849,7 @@
       "row": 19,
       "col": 2,
       "value": "-56",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r19c3",
@@ -898,8 +864,7 @@
       "row": 19,
       "col": 4,
       "value": "301",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r19c5",
@@ -914,8 +879,7 @@
       "row": 19,
       "col": 6,
       "value": "245",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "total"
     },
     {
       "id": "r20c1",
@@ -929,8 +893,7 @@
       "row": 20,
       "col": 2,
       "value": "-24",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r20c3",
@@ -945,8 +908,7 @@
       "row": 20,
       "col": 4,
       "value": "1482",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r20c5",
@@ -1078,8 +1040,7 @@
       "row": 25,
       "col": 2,
       "value": "3525",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r25c3",
@@ -1094,8 +1055,7 @@
       "row": 25,
       "col": 4,
       "value": "217753",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r25c5",
@@ -1246,6 +1206,174 @@
       ],
       "target": "r25c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (r25)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Environmental Protection Agency: Water I)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs: Agenc)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs: Inter)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs: Unite)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Small Business Administration: Business )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Small Business Administration: Disaster )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Independent Agencies: Export-Import Bank)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Independent Agencies: Railroad Retiremen)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Other: Borrowing from the US Treasury - )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Borrowing from the US Treasury)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Agriculture: Rural Ut)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Education: Historical)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Energy: Advanced Tech)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Energy: Title 17 Inno)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Housing and Urban Dev)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r19c2"
+      ],
+      "target": "r19c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Transportation: Marit)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c4",
+        "r20c2"
+      ],
+      "target": "r20c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of the Treasury: Communi)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c4",
+        "r25c2"
+      ],
+      "target": "r25c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Borrowing from the Federal Financi)",
       "tol": "1",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
     }

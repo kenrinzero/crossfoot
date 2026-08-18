@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C — Federal Agency Borrowing (Treasury, Veterans)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Borrowing from the US Treasury under Treasury and Veterans Affairs. Blank and less-than-500k (**) cells omitted. Ships 1 relations against a sizing floor of 8: the unit declares the family-standard monthly roll-forward (Beginning of This Month + This Month = Close of This Month) on every row where all three cells print, and 7 row(s) print account balances but omit the This-Month transaction (...... or (**)), so no monthly identity is computable there. Adjudicated 2026-08-18 against p27: the floor was optimistic at sizing time; no relation was padded and no cell invented. Separately, the fiscal-year roll-forward (Beginning of This Year + Fiscal Year to Date This Year = Close of This Month) is computable on 4 further row(s) here and is not declared - a family-wide gap across all 36 Table 6 units, not specific to this one; see the 2026-08-18 project log.",
+  "unit_note": "USD millions. Borrowing from the US Treasury under Treasury and Veterans Affairs. Blank and less-than-500k (**) cells omitted. Ships 6 relations (1 monthly + 5 fiscal-year) against a sizing floor of 8 and remains under it: 3 of 8 rows print account balances with no transaction cell in either the This-Month or the Fiscal-Year-to-Date column, so neither roll-forward identity is computable there. Adjudicated 2026-08-18 against p27 - the floor was optimistic at sizing; nothing padded and no cell invented.",
   "columns": [
     {
       "index": 1,
@@ -74,8 +74,7 @@
       "row": 1,
       "col": 2,
       "value": "8",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r1c3",
@@ -90,8 +89,7 @@
       "row": 1,
       "col": 4,
       "value": "117",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r1c5",
@@ -106,8 +104,7 @@
       "row": 1,
       "col": 6,
       "value": "125",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r2c4",
@@ -162,8 +159,7 @@
       "row": 4,
       "col": 2,
       "value": "-1208",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -178,8 +174,7 @@
       "row": 4,
       "col": 4,
       "value": "2714",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -194,8 +189,7 @@
       "row": 4,
       "col": 6,
       "value": "1507",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r5c1",
@@ -209,8 +203,7 @@
       "row": 5,
       "col": 2,
       "value": "4127",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r5c3",
@@ -225,8 +218,7 @@
       "row": 5,
       "col": 4,
       "value": "210939",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r5c5",
@@ -247,8 +239,7 @@
       "row": 6,
       "col": 2,
       "value": "-219",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r6c3",
@@ -263,8 +254,7 @@
       "row": 6,
       "col": 4,
       "value": "8948",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r6c5",
@@ -279,16 +269,14 @@
       "row": 6,
       "col": 6,
       "value": "8729",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r7c2",
       "row": 7,
       "col": 2,
       "value": "10",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r7c3",
@@ -303,8 +291,7 @@
       "row": 7,
       "col": 4,
       "value": "99",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r7c5",
@@ -319,8 +306,7 @@
       "row": 7,
       "col": 6,
       "value": "108",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r8c2",
@@ -356,6 +342,55 @@
       ],
       "target": "r5c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (Borrowing from the US Treasury: Departme)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Borrowing from the US Treasury: Departme)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Borrowing from the US Treasury: Departme)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Borrowing from the US Treasury: Departme)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Borrowing from the US Treasury: Departme)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Borrowing from the US Treasury: Departme)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     }
   ]
 }

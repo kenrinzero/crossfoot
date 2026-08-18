@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D — Investments of Federal Government Accounts (Federal Funds: Agriculture through Justice)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Investments of Federal Funds under Agriculture through Justice. Blank and less-than-500k (**) cells omitted. Ships 6 relations against a sizing floor of 10: the unit declares the family-standard monthly roll-forward (Beginning of This Month + This Month = Close of This Month) on every row where all three cells print, and 3 row(s) print account balances but omit the This-Month transaction (...... or (**)), so no monthly identity is computable there. Adjudicated 2026-08-18 against p29: the floor was optimistic at sizing time; no relation was padded and no cell invented. Separately, the fiscal-year roll-forward (Beginning of This Year + Fiscal Year to Date This Year = Close of This Month) is computable on 1 further row(s) here and is not declared - a family-wide gap across all 36 Table 6 units, not specific to this one; see the 2026-08-18 project log.",
+  "unit_note": "USD millions. Investments of Federal Funds under Agriculture through Justice. Blank and less-than-500k (**) cells omitted. Ships 12 relations (6 monthly + 6 fiscal-year) against a sizing floor of 10, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p29 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented.",
   "columns": [
     {
       "index": 1,
@@ -82,8 +82,7 @@
       "row": 1,
       "col": 2,
       "value": "11",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r1c3",
@@ -98,8 +97,7 @@
       "row": 1,
       "col": 4,
       "value": "409",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r1c5",
@@ -114,8 +112,7 @@
       "row": 1,
       "col": 6,
       "value": "419",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r2c2",
@@ -185,8 +182,7 @@
       "row": 4,
       "col": 2,
       "value": "6270",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -201,8 +197,7 @@
       "row": 4,
       "col": 4,
       "value": "80096",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -275,8 +270,7 @@
       "row": 7,
       "col": 2,
       "value": "9771",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r7c3",
@@ -291,8 +285,7 @@
       "row": 7,
       "col": 4,
       "value": "185047",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r7c5",
@@ -320,8 +313,7 @@
       "row": 8,
       "col": 2,
       "value": "1211",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r8c3",
@@ -336,8 +328,7 @@
       "row": 8,
       "col": 4,
       "value": "29516",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r8c5",
@@ -365,8 +356,7 @@
       "row": 9,
       "col": 2,
       "value": "13",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r9c3",
@@ -381,8 +371,7 @@
       "row": 9,
       "col": 4,
       "value": "32218",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r9c5",
@@ -410,8 +399,7 @@
       "row": 10,
       "col": 2,
       "value": "-2777",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r10c3",
@@ -426,8 +414,7 @@
       "row": 10,
       "col": 4,
       "value": "3102",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r10c5",
@@ -498,6 +485,64 @@
       ],
       "target": "r10c6",
       "note": "balance roll-forward: begin-month + this-month = end-month (Federal Funds: Department of Justice)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Agriculture)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Energy)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Housing and)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of the Interio)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Funds: Department of Justice)"
     }
   ]
 }

@@ -82,8 +82,7 @@
       "row": 2,
       "col": 2,
       "value": "-1350",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r2c3",
@@ -126,8 +125,7 @@
       "row": 3,
       "col": 2,
       "value": "-1350",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "leaf"
     },
     {
       "id": "r3c3",
@@ -206,6 +204,26 @@
       ],
       "target": "r3c6",
       "note": "FHA + TVA = Total Agency Securities (balance cols) (col 6)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Obligations Not Guaranteed by the United)",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Agency Securities)"
     }
   ]
 }
