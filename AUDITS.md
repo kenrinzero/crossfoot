@@ -2386,16 +2386,96 @@ and three correctly adjudicated printed-month floor misses. Audit cadence GREEN 
 
 ---
 
-## Unit 400 — treasury-mts/2026-07-table6-schedule-a (PENDING different-agent audit)
+## Unit 400 — treasury-mts/2026-07-table6-schedule-a (2026-08-18, Claude Fable 5)
 
-**Transcriber:** Grok 4.6 (#391–#400, all ten). **Auditor must be a different agent.**
+**Transcriber:** Grok 4.6 (#391–#400, all ten). **Auditor:** Claude Fable 5, which transcribed
+none of the batch — eligible (fourth July audit of the day, after #370/#380/#390). Independent
+by construction: the printed side is the auditor's own pdfplumber parse of pages 21–25 (word
+x-positions giving heading depth, `(cid:NN)` → `chr(NN+29)` decode) plus 2.5× pypdfium2 renders
+of pp21–25 and p8, each inspected; the units were only ever the right-hand side of a
+comparison. Scripts and reports in `scratchpad/audit370/` (gitignored, kept locally). This
+span needed two parser extensions worth recording for the next auditor: **Table 6 rows carry
+6 value tokens (Schedule A: 3), not Table 5's 9**, and its headings are not all
+colon-terminated (`Asset Accounts (Deduct)`) — so pp24–25 were matched flat per page rather
+than by depth-0 blocks; and the Table 5 wrap adds `Independent Agencies - Continued ......`
+(a depth-0 continuation line carrying omission tokens) plus p23's mixed-width tail (3-token
+surplus rows, 2-token memorandum). None are defects.
 
-**Scope request (family practice):** do not sample #400 alone. Ten consecutive units from one agent is the #340 defect class — the last five July audits all widened to a whole-batch positional check. Check **#391–#400** against an independent parse of pages 21–25 (Independent Agencies through Table 6 Schedule A) plus 2.5× renders, and re-tie the Table 5 capstones to Table 3 page 8 plus the Table 6 Excess / Schedule A / Total Financing identities.
+**Preflight.** Working tree clean at `236259c`, `main` == `origin/main`; no `.venv/lib64`
+breaker; the only untracked item is still `.qoder/settings.local.json`. Placeholder present —
+its scope request was followed.
 
-**Judgement calls to re-judge (do not inherit):**
-1. Spectrum Auction (independents) and Loans to IMF (Table 6 assets) and USGLIF (UOR Interest) and RUIF Other (RRB) are all-omitted and were skipped, matching June.
-2. Printed-month presence shifts (not floor misses): postal Off-Budget Other This-Month `(**)`; RRB Intra Payments This-Month `......` and RIPF Other This-Month newly `1/1`; Ex-Im This-Month receipts omitted while DC Payments This-Month receipts newly print; UOR State FS and VA NSL This-Month omitted; Dollar Deposits Prior `(**)`.
-3. All non-zero tolerances in the batch should equal their observed Decimal delta and quote the Table 5 or Table 6 rounding footnote (p23 / p24 / p25).
-4. #391 On+Off=Total, #395/#397/#391 Table 3 ties, #396↔#397 Employer re-anchor, #398↔#399 Total Liability Accounts, #399 Excess close = #400 Schedule A close.
+### The unit itself (#400, page 25)
 
-**Corpus BLOCKED** at #400 until this audit closes GREEN. #401 (`table6-schedule-b`) must not ship first.
+- **Rows:** 11 printed data rows, 11 in the unit, labels exact (the wrapped `Adjustments During
+  Current Fiscal Year … Unified Budget:` heading read correctly; `Revisions by Federal Agencies`
+  is a 1-cell row, This-Month and FYTD `......`).
+- **Cells:** all **31 checked positionally** over the 3-column layout — 0 missing, 0 extra, 0
+  mismatches.
+- **Relations:** all 10 recomputed in exact Decimal, **all exact** (Close = Beginning (Current
+  Basis) + Deficit + Transactions Not Applied in all three columns; On + Off = Total; the
+  Transactions Not Applied roll-up); 5 standalones with a `why`.
+- **Cross-table:** deficit 432,308 / 1,798,816 / 1,628,515 = −Table 3 surplus; On/Off = −Table 3
+  (On-Budget)/(Off-Budget); close 29,300,034 = #399's Excess close-of-month; beginning
+  28,870,331 / 27,516,113 = #399's Excess beginning-of-month / beginning-of-year.
+
+### Batch-wide check of #391–#400
+
+- **816 cells / 139 rows across all ten units — 1,068 positions (values *and* omissions)
+  compared against the auditor's parse of pp21–25: 0 mismatches, 0 missing, 0 extra, 0
+  unmatched rows.** Every printed data row is claimed by exactly one unit, except the two
+  re-anchors (`Total--Employer Share, Employee Retirement` #396↔#397; `Total Liability Accounts`
+  #398↔#399, both byte-equal) and the documented all-omitted rows (`Spectrum Auction Program
+  Account`, Postal `Other`, `United States Government Life Insurance Fund`, `Loans to
+  International Monetary Fund`, the two `Independent Agencies` block lines). p23's surplus and
+  memorandum rows and p25's Schedule B rows are outside this batch (the June grand-total twin
+  is the same 3 rows / 27 cells; Schedule B is #401).
+- **Label shapes, all June-consistent (verified against the twins):** the Table 6 units drop the
+  printed `(See Schedule …)` cross-references; #399 tags its re-anchor `Total Liability Accounts
+  (re-anchored)`; #397 labels the re-anchored `Total--Employer Share, Employee Retirement` plainly
+  as `Employer Share, Employee Retirement`; the Table 6 balance columns keep the family's
+  `Close of This Month — open/prior` wording for the print's `Beginning of … This Month` (the
+  `unit_note` spells it out). Not defects.
+- **Tolerances, all 197 relations:** 135 exact, 60 `tol=1`, 2 `tol=2`, none wider. **Every one
+  equals its observed delta**; every `tol` carries a `why` quoting the rounding note (Table 5's
+  on p23, Table 6's on p24). Widest: the two UOR Interest This-Month roll-ups (19 components,
+  `tol=2`). #392, #397, #398, #399, #400 exceed their provisional floors by exactly June's counts
+  (27/16/47/52/10 vs 15/12/30/30/8); no floor missed.
+- **Presence shifts, verified at cell level (June twin vs July, keyed by row + column) and on
+  the print:** #392 Ex-Im This-Month receipts gone (`5 ...... 5`), DC General and Special Payments
+  This-Month receipts new (`73 25 48`), EEOC FYTD receipts new (`352 1 351`) — net +1 relation;
+  #393 Postal Off-Budget Other This-Month `(**)` (−2 cells); #394 RRB Intra Payments This-Month
+  `......` (−2), RIPF Other newly `1 ...... 1 … 1 ...... 1` (+4; the RRB Prior roll-ups gain a
+  source); #397 UOR Interest: State FS and VA NSL This-Month omitted (−4; roll-ups 21 → 19
+  sources); #399 Dollar Deposits Prior `(**)` (−1; IMF Balance c3 roll-up 4 → 3). #391, #395,
+  #396, #398, #400 are shape-identical to June.
+- **Roles / standalone:** no illegal roles; every standalone (86 in #392, 8 in #393, 3 in #394,
+  12 in #395, 2 in #397, 6 in #398, 5 in #399, 5 in #400) carries a `why`; coverage clean under
+  an independent re-implementation.
+
+### Cross-table checks (not declared by any unit)
+
+| Check | Result |
+|---|---|
+| #391 Total Outlays c3/c6/c9 vs Table 3 p8 Total Outlays | 766,318 / 6,284,236 / 5,975,153 — identical |
+| #391 Total On-Budget / Off-Budget vs Table 3 (On-Budget) / (Off-Budget) | 643,209 / 5,042,324 / 4,809,658 and 123,109 / 1,241,911 / 1,165,495 — identical |
+| #395 Total--Independent Agencies vs Table 3 | 2,392 / 4,203 / 7,294 — identical |
+| #397 Total--UOR vs Table 3 UOR Interest + Other | −25,129 / −343,317 / −294,694 — identical |
+| #397 Total--Interest Received by Trust Funds vs Table 3 UOR Interest | −11,343 / −206,689 / −166,787 — identical |
+| #399 Excess close (c6) vs #400 close | 29,300,034 (this month and FYTD) — identical |
+| #399 Excess beginning-of-month / -year vs #400 beginning | 28,870,331 / 27,516,113 — identical |
+| #399 Financing of deficit vs #400 deficit vs −Table 3 surplus | 432,308 / 1,798,816 / 1,628,515 — all three identical |
+| #399 Excess + Transactions Not Applied = Financing (net cols) | holds in all three columns |
+| #399 Transactions Not Applied vs −#400 total | 2,605 / 14,895 / 10,846 — identical |
+| #400 On + Off = deficit; On/Off vs −Table 3 (On-Budget)/(Off-Budget) [surplus block] | hold |
+
+### Gates
+
+`reconcile.py` on #400 GREEN with 0 warnings; `pytest` 10/10; full-corpus sweep **400/400
+GREEN**, 0 warnings; all ten batch files strict UTF-8 with LF and no BOM.
+
+**Verdict: GREEN.** No defects found, nothing repaired, no corpus file touched. Grok 4.6's third
+batch — the Table 5 wrap and the first three Table 6 units — is accurate, its tolerances are
+honest, its re-anchoring is exact, and every June-to-July shape change is a printed-month fact.
+Audit cadence GREEN through **#400**; next every-10th different-agent audit fires at **#410**.
+Corpus unblocked — #401 (`table6-schedule-b`) may ship, with 21 July-MTS units remaining.
