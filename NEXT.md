@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 3/80 SHIPPED (2026-09-16).** `2026-08-table1`–`table2` are #422–#423; `2026-08-table3-receipts` is #424. Next: `treasury-mts/2026-08-table3-outlays-departments` (D3, vision, cross-table, row-count-check). 77 remain. All PDF → vision. Floors provisional.
-  - **Audit:** next every-10th is **#430** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #430 ships; #431+ blocked until a different agent closes it.
+- **Treasury MTS August 2026 — VENDORED; 9/80 SHIPPED (2026-09-16).** #422–#430 shipped. **#431+ blocked** until a different agent closes the #430 every-10th audit (placeholder in AUDITS.md; whole-batch positional check of #422–#430 requested). After unblock, next is `treasury-mts/2026-08-outlays-eop`. 71 remain. All PDF → vision. Floors provisional.
+  - **Audit:** **#430 DUE** (9th unit of this family; transcriber Cursor Grok 4.6 ineligible). Whole-batch positional checking remains the working practice when consecutive units share a transcriber.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). Special FY-rollout audit closed **GREEN** 2026-08-18 (Grok 4.6). All in AUDITS.md.
@@ -75,8 +75,7 @@ three floor misses upheld, Table 6 ties)**; **#411–#420 audited GREEN together
 2026-08-18 (Antigravity, 1,480 positions, no floor misses, Table 7 ↔ Table 8
 ties byte-match)**. Special (off-cadence) FY-rollout audit of 40 Table 6 units + the
 OPM repair closed **GREEN** 2026-08-18 (Grok 4.6; 673 FY relations re-derived 473/199/1,
-both source findings upheld, 64 census-p60 tols adjudicated source-side). Next every-10th
-fires at **#430**. Reminder for later multiples of 10:
+both source findings upheld, 64 census-p60 tols adjudicated source-side). **#430 audit DUE** (placeholder in AUDITS.md; #431+ blocked). Reminder for later multiples of 10:
 write the AUDITS.md placeholder (as #380–#420 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
@@ -98,6 +97,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts August 2026 batch #425–#430 (6 units)** — table3-outlays-departments (112c/0r; HUD/State footnote-glue render-resolved), table3-outlays-remainder (50c/14r), table9 (90c/6r), receipts-major (30c/6r, Table 4 p9), outlays-legislative (96c/23r), outlays-judicial (39c/9r). All strict-default GREEN 0 warnings. Table 3 Legislative/Judicial nets tie Table 5 totals. **#430 fires the every-10th audit — corpus blocked, see AUDITS.md.** 71 August-MTS units remain.
 
 - 2026-09-16 · **treasury-mts/2026-08-table3-receipts** — #424 (D3/PDF/vision; 52c/12r, strict-default GREEN 0 warnings; same shape as the July twin; 4 tol-1 computed per-relation; 4 Off-Budget standalones. Table 2 receipts ties hold on 12 mapped figures. 13 full-year estimate cells byte-identical to July). Sweep n/a this session (one new file). 77 August-MTS units remain.
 

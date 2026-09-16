@@ -2596,3 +2596,29 @@ These are **source-side**. Census publishes independently weighted, independentl
 
 **Verdict: GREEN.** The fiscal-year identity is real, complete, and cleanly applied. Both source-side findings hold. The 64 census-p60 tolerances are source-authorised count-rounding, not masked transcription defects. Next every-10th audit still fires at **#430**.
 
+---
+
+## Unit 430 — treasury-mts/2026-08-outlays-judicial (PENDING different-agent audit)
+
+**Transcriber:** Cursor Grok 4.6 (#422–#430). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible.
+
+#430 is the 9th unit of the August 2026 MTS family. Consecutive units from one transcriber: whole-batch positional checking is the family's working practice (the #340/#350–#420 precedent). **#431+ is blocked** until this audit closes GREEN.
+
+**Requested scope** (replace this placeholder with the audit record):
+
+1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 5, 8, 9, 10, 37 (and p23 for the Table 5 rounding footnote). Do not audit the units against their own claims.
+2. Positional check of **#422–#430** as a batch: every cell value and every `......` / `(**)` omission. Row COUNT on #425 (28 department lines; all-standalone, so a missing row is invisible to strict coverage).
+3. Recompute every declared relation; every `tol` must equal its observed delta; every `why` must quote the page's own rounding note.
+4. Cross-table ties (none of these are declared inside a unit):
+   - Table 1 August/YTD ↔ Table 2 This-Month/FYTD (6 figures; opposite deficit sign)
+   - Table 3 receipts Totals/On/Off ↔ Table 2 (12 mapped figures)
+   - Table 3 Total Outlays / On / Off / Surplus ↔ Table 2
+   - Table 3 Legislative / Judicial net columns ↔ Table 5 `Total--Legislative Branch` / `Total--Judicial Branch` c3/c6/c9 (634 / 6,471 / 6,420 and 765 / 9,140 / 8,875)
+   - Table 9 Receipts/Outlays totals ↔ Table 1 / Table 3
+   - Table 4 major-classification net totals ↔ Table 3 receipts
+5. Footnote-glue rows (text layer prepends the marker; render wins): Table 1 FY2026 July Outlays **766,296** (not 1,766,296); Table 3 HUD FYTD **61,687** (not 161,687); Table 3 State FYTD **24,892** (not 224,892).
+
+**The unit (#430 `outlays-judicial`, p10):** 6 rows / 39 cells / 9 relations / 6 standalones in the file as shipped. Floor 9.
+
+---
+

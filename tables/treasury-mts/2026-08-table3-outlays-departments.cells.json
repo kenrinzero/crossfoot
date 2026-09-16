@@ -1,0 +1,1042 @@
+{
+  "table_id": "treasury-mts/2026-08-table3-outlays-departments",
+  "source": {
+    "path": "sources/treasury-mts/mts-202608.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, August 2026 and Other Periods",
+    "page": 8,
+    "title": "Summary of Receipts and Outlays of the U.S. Government",
+    "period": "August FY2026"
+  },
+  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (the sibling remainder unit holds the totals, and the department detail itself is Table 5's). Row COUNT is the check that matters here: strict coverage cannot see a missing standalone row. HUD FYTD prints 61,687 with footnote 1 (\"Amount increased by $14 million due to additional reporting for the month of July 2026.\"); State FYTD prints 24,892 with footnote 2 (\"Amount decreased by $36 million due to additional reporting for the month of July 2026.\"). The text layer glues those markers as 161,687 and 224,892; both resolved against the page-8 render.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Outlays / Legislative Branch"
+    },
+    {
+      "index": 2,
+      "label": "Budget Outlays / Judicial Branch"
+    },
+    {
+      "index": 3,
+      "label": "Budget Outlays / Department of Agriculture"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Department of Commerce"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Department of Defense--Military Programs"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Department of Education"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Department of Energy"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Department of Health and Human Services"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Department of Homeland Security"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Department of Housing and Urban Development"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Department of the Interior"
+    },
+    {
+      "index": 12,
+      "label": "Budget Outlays / Department of Justice"
+    },
+    {
+      "index": 13,
+      "label": "Budget Outlays / Department of Labor"
+    },
+    {
+      "index": 14,
+      "label": "Budget Outlays / Department of State"
+    },
+    {
+      "index": 15,
+      "label": "Budget Outlays / Department of Transportation"
+    },
+    {
+      "index": 16,
+      "label": "Budget Outlays / Department of the Treasury: Interest on Treasury Debt Securities (Gross)"
+    },
+    {
+      "index": 17,
+      "label": "Budget Outlays / Department of the Treasury: Other"
+    },
+    {
+      "index": 18,
+      "label": "Budget Outlays / Department of Veterans Affairs"
+    },
+    {
+      "index": 19,
+      "label": "Budget Outlays / Corps of Engineers"
+    },
+    {
+      "index": 20,
+      "label": "Budget Outlays / Other Defense Civil Programs"
+    },
+    {
+      "index": 21,
+      "label": "Budget Outlays / Environmental Protection Agency"
+    },
+    {
+      "index": 22,
+      "label": "Budget Outlays / Executive Office of the President"
+    },
+    {
+      "index": 23,
+      "label": "Budget Outlays / General Services Administration"
+    },
+    {
+      "index": 24,
+      "label": "Budget Outlays / International Assistance Programs"
+    },
+    {
+      "index": 25,
+      "label": "Budget Outlays / National Aeronautics and Space Administration"
+    },
+    {
+      "index": 26,
+      "label": "Budget Outlays / National Science Foundation"
+    },
+    {
+      "index": 27,
+      "label": "Budget Outlays / Office of Personnel Management"
+    },
+    {
+      "index": 28,
+      "label": "Budget Outlays / Small Business Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "634",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "6471",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "6420",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "8499",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "765",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "9140",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "8875",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "10375",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "14046",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "202293",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "214194",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "238841",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "1531",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "13000",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "28245",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "21170",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "67923",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "832633",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "796964",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "913705",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "8389",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "61327",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "139997",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "62188",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "4488",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "47467",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "47634",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "59641",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "97490",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1822378",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1769786",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "2035980",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "10698",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "98222",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "104520",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "116341",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "4873",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "61687",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "46197",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "76031",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "-846",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "12832",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "18921",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "24292",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "4637",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "41307",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "40311",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "51516",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "4051",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "51358",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "54306",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "71579",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "2367",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "24892",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "26192",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "35351",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "11599",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "109595",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "109250",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "131545",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "97769",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "1267362",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "1124344",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1301255",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "15185",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "252956",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "271953",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "221428",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "35010",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "395059",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "359333",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "439752",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1196",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "10900",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "12005",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "8099",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-949",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "57458",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "75637",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "76950",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "2045",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "15983",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "35505",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "22323",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "73",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "-1166",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "-505",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "-327",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "-227",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "-1064",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "-243",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "1760",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "3854",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "21195",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "19061",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "24477",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "1809",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "21216",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "22264",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "24629",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "907",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "7952",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "8880",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "10473",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "10600",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "124287",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "117011",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "132542",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "171",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "11680",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "741",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "12142",
+      "role": "standalone",
+      "why": "Department outlay line; this unit declares no roll-up, so the cell participates in no relation here. The full outlay total is in the sibling remainder unit."
+    }
+  ],
+  "relations": []
+}
