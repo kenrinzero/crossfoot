@@ -47,7 +47,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED + 80 READY (2026-09-16).** Published 2026-09-11 (`MonthlyTreasuryStatement_202608.pdf`, `%PDF-1.6`, 39pp, 3,241,289 bytes, sha256 `99c1aeb0…508c849b`). Structurally identical to July (same first-page table locations), so the July decomposition ports 1:1: **#422–#501**. All PDF → vision. Floors provisional. Starter: `treasury-mts/2026-08-table1` (D2, vision, cross-table).
+- **Treasury MTS August 2026 — VENDORED; 1/80 SHIPPED (2026-09-16).** `2026-08-table1` is #422. Next: `treasury-mts/2026-08-table2` (D2, vision, cross-table). 79 remain. All PDF → vision. Floors provisional.
   - **Audit:** next every-10th is **#430** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #430 ships; #431+ blocked until a different agent closes it.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
@@ -98,6 +98,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts/2026-08-table1** — #422, August MTS family opener (D2/PDF/vision; 75c/31r, strict-default GREEN 0 warnings; 25 rows, one month more than the July twin; 10 tol-1 computed per-relation. FY2026 July Outlays restated 766,296 with footnote 1. Table 1 ties Table 2 on all 6 August/YTD figures). Sweep n/a this session (one new file). 79 August-MTS units remain.
 
 - 2026-08-18 · **special audit GREEN: fiscal-year rollout + OPM repair + census-p60 lead** — Grok 4.6, different agent from Claude Opus 5. 673 FY relations independently recomputed (473 exact / 199 δ=1 / 1 δ=90 / none in (1,89)); 0 undeclared computable identities; 1,163 role flips all justified; 0 values changed by the rollout; red-test on May `r6c4` (SBA begin-year) went RED. June SBA p32 all six cells match (source-side δ=90 upheld); OPM Nov. p35 is 10,775 (repair upheld). 64 census-p60 `tol > n_sources` relations: cells match p21/p45, printed partitions do not close, source-authorised. Sweep 421/421, pytest 12/12, no corpus file touched.
 - 2026-08-18 · **table cleared: re-citation, docs pass, and a real transcription repair** — (1) June `2026-06-receipts-major` re-cited p8 → p9 after verifying every value against Table 4 on p9; the old `Table 4 / Table 3` wording carried the ambiguity and is gone. (2) Docs pass: 309 tolerance `why` strings across 47 July outlays units collapsed from 8 near-identical variants to one canonical form, and the all-omitted HUD Home Ownership Preservation Equity Fund row noted in #367 and its June twin, closing the last #370-audit nit. (3) **Corpus repair:** `2026-06-table7-outlays-intl-sba` r7c2 read 10,826 where p35 prints **10,775** — the bad value inflated the row-YTD sum by 51, absorbed as `tol=50` quoting a rounding footnote that cannot cover it. Corrected against p35; tolerance now the true delta of 1. **The only cell value changed.** A pending-audit brief for the whole fiscal-year rollout is now in BACKLOG, including 64 unadjudicated `census-p60` tolerances as an open lead. Sweep 421/421 GREEN 0 warn, pytest 12/12, ledger 20/20.
