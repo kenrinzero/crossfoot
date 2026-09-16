@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 9/80 SHIPPED (2026-09-16).** #422–#430 shipped. **#430 every-10th audit CLOSED GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches; record in AUDITS.md). #431+ unblocked.** Next is `treasury-mts/2026-08-outlays-eop`. 71 remain. All PDF → vision. Floors provisional.
-  - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). Next every-10th audit at **#440**. Whole-batch positional checking remains the working practice when consecutive units share a transcriber.
+- **Treasury MTS August 2026 — VENDORED; 14/80 SHIPPED (2026-09-16).** #422–#435 shipped. **#430 every-10th audit CLOSED GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches; record in AUDITS.md).** Next is `treasury-mts/2026-08-outlays-defense-programs`. 66 remain. All PDF → vision. Floors provisional.
+  - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). Next every-10th audit at **#440** — Qoder transcribed #431–#435, so it is ineligible to audit #440; dispatch a different agent. Whole-batch positional checking remains the working practice when consecutive units share a transcriber.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). Special FY-rollout audit closed **GREEN** 2026-08-18 (Grok 4.6). All in AUDITS.md.
@@ -97,6 +97,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts August 2026 batch #431–#435 (5 units)** — outlays-eop (36c/8r vs floor 9 — printed-cell omission, logged not padded), agriculture-programs (125c/24r, 60 standalones = waiver), agriculture-fns (80c/14r = floor), agriculture-departmental capstone (209c/38r, ties-siblings byte-match machine-checked vs #432/#433), commerce (75c/20r = floor). All strict-default GREEN 0 warnings; sweep 435/435; pytest 12/12. Roles graph-consistent (audit-U1 defect class not replicated). 66 August-MTS units remain.
 
 - 2026-09-16 · **treasury-mts August 2026 batch #425–#430 (6 units)** — table3-outlays-departments (112c/0r; HUD/State footnote-glue render-resolved), table3-outlays-remainder (50c/14r), table9 (90c/6r), receipts-major (30c/6r, Table 4 p9), outlays-legislative (96c/23r), outlays-judicial (39c/9r). All strict-default GREEN 0 warnings. Table 3 Legislative/Judicial nets tie Table 5 totals. **#430 fires the every-10th audit — corpus blocked, see AUDITS.md.** 71 August-MTS units remain.
 
