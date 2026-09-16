@@ -2720,3 +2720,23 @@ Graph-consistent across the batch: a cell that only feeds a relation is `leaf`, 
 
 ---
 
+## Unit 450 — treasury-mts/2026-08-outlays-justice (PENDING different-agent audit)
+
+**Transcriber:** Cursor Grok 4.6 (#441–#450). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible (and also closed the #440 audit).
+
+#450 is the 29th unit of the August 2026 MTS family. Consecutive units from one transcriber: whole-batch positional checking is the family's working practice (the #340 / #350–#440 precedent). **#451+ is blocked** until this audit closes GREEN.
+
+**Requested scope** (replace this placeholder with the audit record):
+
+1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 12, 13, 14, 15 (Table 5 Energy through Justice) plus p23 for the Table 5 rounding footnote; `(cid:NN)` decoded `chr(NN+29)`. Parse Table 5 flat into `(label, 9 values)` records (headings are not all colon-terminated). Whole-batch positional check of **#441–#450** (1,139 present cells / 1,602 occupancy slots). Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
+2. Row COUNTs on the standalone-heavy units: #443 hhs-acf (22 rows / 54 sa), #449 interior-departmental (10 rows / 6 Indian-Affairs sa). Confirm dropped all-omitted rows: #441 Defense Nuclear Waste Disposal.
+3. Recompute every declared relation in exact Decimal. Every non-zero `tol` must equal its observed delta, be `≤ len(sources)`, and quote the p23 footnote. Plausibility scan: 0 relations with `tol > n_sources`.
+4. Re-derive ties-siblings: #444 ← #442/#443 (75 cells); #447 ← #446 (12 PIH/CPD total cells); #449 ← #448 (31 L&M/W&S/F&W/Departmental Offices total cells).
+5. Floor misses to uphold or reject: **#448** 38 vs 40 — L&M Other and Total--L&M This-Month Applicable print `(**)` in the source, dropping two This-Month net identities. Printed-cell omission, never padded.
+6. Source-side oddities to render-confirm: #447 Home Ownership Preservation Equity Fund newly prints 7/7 This-Month and Current-FYTD (July all-omitted and dropped); #447 Housing Programs Other This-Month Applicable prints 1 (July `(**)`, which left that twin one under its floor); #443 ACF Prior-FYTD Gross/Outlays reopen at tol-2 (July closed at 1).
+7. Roles / U1: a `standalone` must feed nothing. This batch claims graph-consistent roles (ACF FDA r1c1 is `total` because its net identity is declared).
+
+**Pages:** 12 (Energy start), 13 (Energy Total + HHS CMS/ACF), 14 (HHS Total + DHS + HUD bureaus + Housing Programs), 15 (HUD Total + Interior + Justice), 23 (rounding footnote).
+
+---
+
