@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 19/80 SHIPPED (2026-09-16).** #422–#440 shipped. **#440 fires the every-10th audit — CORPUS BLOCKED: the placeholder and full requested scope are in `AUDITS.md`; #441+ cannot ship until it closes GREEN.** Next visible unit after the audit is `treasury-mts/2026-08-outlays-energy`. 61 remain. All PDF → vision. Floors provisional.
-  - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). **#440 is DUE and unassigned — it must be a different agent: Qoder transcribed all of #431–#440 and also closed #430, so it is doubly ineligible.** Whole-batch positional checking of #431–#440 (1,033 cells over pp10/11/12/19 + the p23 footnote) remains the working practice when consecutive units share a transcriber.
+- **Treasury MTS August 2026 — VENDORED; 19/80 SHIPPED (2026-09-16).** #422–#440 shipped. **#440 every-10th audit closed GREEN 2026-09-16 (Cursor Grok 4.6; whole-batch positional check of #431–#440).** Next visible unit is `treasury-mts/2026-08-outlays-energy` (#441). 61 remain. All PDF → vision. Floors provisional. Next every-10th audit fires at **#450**.
+  - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). **#440 closed GREEN 2026-09-16 (Cursor Grok 4.6; 1,033 cells / 1,476 occupancy slots, 0 mismatches; #431 floor miss upheld; three source-side oddities render-confirmed).** #441+ unblocked.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). Special FY-rollout audit closed **GREEN** 2026-08-18 (Grok 4.6). All in AUDITS.md.
@@ -57,7 +57,7 @@ in this repo always means a stage, never difficulty.
   — not yet in scope.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#430** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#440** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -75,7 +75,7 @@ three floor misses upheld, Table 6 ties)**; **#411–#420 audited GREEN together
 2026-08-18 (Antigravity, 1,480 positions, no floor misses, Table 7 ↔ Table 8
 ties byte-match)**. Special (off-cadence) FY-rollout audit of 40 Table 6 units + the
 OPM repair closed **GREEN** 2026-08-18 (Grok 4.6; 673 FY relations re-derived 473/199/1,
-both source findings upheld, 64 census-p60 tols adjudicated source-side). **#430 audit closed GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches, all six cross-table tie sets hold; record in AUDITS.md). #431+ unblocked.** **#440 is now DUE: the placeholder and requested scope are in `AUDITS.md`, and #441+ is blocked until a different agent closes it GREEN — Qoder transcribed #431–#440 and audited #430, so it is ineligible.** Reminder for later multiples of 10:
+both source findings upheld, 64 census-p60 tols adjudicated source-side). **#430 audit closed GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches, all six cross-table tie sets hold; record in AUDITS.md).** **#440 audit closed GREEN 2026-09-16 (Cursor Grok 4.6; whole-batch positional check of #431–#440, 1,033 cells / 1,476 occupancy slots, 0 mismatches; #431 floor miss upheld; record in AUDITS.md). #441+ unblocked. Next every-10th audit fires at #450.** Reminder for later multiples of 10:
 write the AUDITS.md placeholder (as #380–#440 did).
 
 **Standing note for the next auditor:** the last three every-10th audits all
@@ -98,7 +98,9 @@ Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
 
-- 2026-09-16 · **treasury-mts August 2026 batch #436–#440 (5 units)** — defense-programs (88c/18r = floor, same shape as July), defense-rdte (84c/12r = floor, 24 Family-Housing standalones = waiver), defense-departmental capstone (153c/12r = floor, ties-siblings 54 cells byte-match machine-checked vs #436/#437; grand roll-ups span pp11–12, Proprietary signs reversed vs July), education-bureaus (90c/22r = floor), education-departmental capstone (93c/13r = floor, 1 standalone = waiver, ties-siblings 20 cells byte-match vs #439). All strict-default GREEN 0 warnings; max tol 2 on the 18–25-component grand roll-ups; sweep 440/440; pytest 12/12. Roles graph-consistent (audit-U1 defect class not replicated). **#440 fires the every-10th audit — corpus blocked, see AUDITS.md.** 61 August-MTS units remain.
+- 2026-09-16 · **audit GREEN: #440 every-10th (whole-batch #431–#440)** — Cursor Grok 4.6, different agent from Qoder. Independent parse + render of mts-202608.pdf pp10/11/12/19 + p23; 1,033 present cells / 1,476 occupancy slots, 0 mismatches; 181 relations re-derived (every non-zero tol = delta ≤ n_sources, p23 footnote quoted); ties-siblings 138/54/20 hold (label-union occupancy 143/54/20, 0 mismatches); #431 floor miss 8 vs 9 upheld; U1 clean (0 hits); three source-side oddities render-confirmed; p11 `¹22,650` glue render-resolved. Sweep 440/440, pytest 12/12, no corpus value changed. **#441+ unblocked.** Next audit #450.
+
+- 2026-09-16 · **treasury-mts August 2026 batch #436–#440 (5 units)** — defense-programs (88c/18r = floor, same shape as July), defense-rdte (84c/12r = floor, 24 Family-Housing standalones = waiver), defense-departmental capstone (153c/12r = floor, ties-siblings 54 cells byte-match machine-checked vs #436/#437; grand roll-ups span pp11–12, Proprietary signs reversed vs July), education-bureaus (90c/22r = floor), education-departmental capstone (93c/13r = floor, 1 standalone = waiver, ties-siblings 20 cells byte-match vs #439). All strict-default GREEN 0 warnings; max tol 2 on the 18–25-component grand roll-ups; sweep 440/440; pytest 12/12. Roles graph-consistent (audit-U1 defect class not replicated). **#440 every-10th audit closed GREEN 2026-09-16 (Cursor Grok 4.6).** 61 August-MTS units remain.
 
 - 2026-09-16 · **treasury-mts August 2026 batch #431–#435 (5 units)** — outlays-eop (36c/8r vs floor 9 — printed-cell omission, logged not padded), agriculture-programs (125c/24r, 60 standalones = waiver), agriculture-fns (80c/14r = floor), agriculture-departmental capstone (209c/38r, ties-siblings byte-match machine-checked vs #432/#433), commerce (75c/20r = floor). All strict-default GREEN 0 warnings; sweep 435/435; pytest 12/12. Roles graph-consistent (audit-U1 defect class not replicated). 66 August-MTS units remain.
 
