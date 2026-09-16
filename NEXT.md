@@ -47,7 +47,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 2/80 SHIPPED (2026-09-16).** `2026-08-table1` is #422, `2026-08-table2` is #423. Next: `treasury-mts/2026-08-table3-receipts` (D3, vision, cross-table). 78 remain. All PDF → vision. Floors provisional.
+- **Treasury MTS August 2026 — VENDORED; 3/80 SHIPPED (2026-09-16).** `2026-08-table1`–`table2` are #422–#423; `2026-08-table3-receipts` is #424. Next: `treasury-mts/2026-08-table3-outlays-departments` (D3, vision, cross-table, row-count-check). 77 remain. All PDF → vision. Floors provisional.
   - **Audit:** next every-10th is **#430** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #430 ships; #431+ blocked until a different agent closes it.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
@@ -98,6 +98,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts/2026-08-table3-receipts** — #424 (D3/PDF/vision; 52c/12r, strict-default GREEN 0 warnings; same shape as the July twin; 4 tol-1 computed per-relation; 4 Off-Budget standalones. Table 2 receipts ties hold on 12 mapped figures. 13 full-year estimate cells byte-identical to July). Sweep n/a this session (one new file). 77 August-MTS units remain.
 
 - 2026-09-16 · **treasury-mts/2026-08-table2** — #423 (D2/PDF/vision; 51c/25r, strict-default GREEN 0 warnings; same shape as the July twin; 6 tol-1 computed per-relation. Table 1 August/YTD ties hold with opposite deficit sign. 12 full-year estimate cells byte-identical to July). Sweep n/a this session (one new file). 78 August-MTS units remain.
 
