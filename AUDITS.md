@@ -2658,3 +2658,40 @@ Identity-class completeness (DESIGN §4a): #423 declares both the on/off decompo
 
 ---
 
+## Unit 440 — treasury-mts/2026-08-outlays-education-departmental (PENDING different-agent audit)
+
+**Transcriber:** Qoder (#431–#440). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible, and Qoder also closed the #430 audit, so it cannot audit its own batch.
+
+#440 is the 19th unit of the August 2026 MTS family and the second of the two Education units. Ten consecutive units from one transcriber, so whole-batch positional checking is the family's working practice (the #340 / #350–#430 precedent). **#441+ is blocked** until this audit closes GREEN.
+
+**Requested scope** (replace this placeholder with the audit record):
+
+1. **Independent extraction.** pdfplumber text layer + pypdfium2 renders of `sources/treasury-mts/mts-202608.pdf` pages 10, 11, 12 and 19, plus p23 for the Table 5 rounding footnote. `(cid:NN)` decodes as `chr(NN+29)`. Do not audit the units against their own claims.
+2. **Positional check of #431–#440 as a batch (1,033 cells):** every cell value and every `......` / `(**)` omission, comparing presence *and* absence. Table 5's text layer parses into `(label, 9 values)` records (headings are not all colon-terminated — parse those pages flat), so a full comparison is cheaper than sampling.
+3. **Row COUNTS** on the standalone-heavy units — a missing standalone-class row is invisible to strict coverage (the #129 / #160 catches): #432 (19 rows / 60 standalones), #433 (12 / 26), #437 (14 / 24). Also confirm the rows *dropped* against July are genuinely all-omitted in the print: #431's Intrabudgetary Transactions row and #432's Agricultural Disaster Relief Fund row.
+4. **Relations and tolerance plausibility.** Recompute every declared relation in exact Decimal; every non-zero `tol` must equal its observed delta and stay ≤ its source count (the OPM masked-defect signature); every `why` must quote the p23 footnote verbatim. No relation in the batch ships `tol > len(sources)` as written — verify that.
+5. **ties-siblings**, declared inside the three capstones: #434 re-anchors 138 cells from #432/#433, #438 re-anchors 54 from #436/#437, #440 re-anchors 20 from #439 (cap rows 1/8/9 ↔ bureaus rows 5/8/15). All three byte-matched at ship time by machine comparison; re-derive them.
+6. **Roles graph-consistent** (the **U1** defect class in `AUDIT-2026-09-16.md`, still unadjudicated corpus-wide): a cell that only feeds a relation is `leaf`, a `standalone` feeds nothing, and every `standalone` carries a `why`. #431's BACKLOG row claims the July twin's defective standalones were not replicated — check that claim rather than trust it.
+7. **Three source-side oddities to re-verify by render, not by trust:**
+   - #439 `Office of Federal Student Aid / Federal Student Loan Reserve Fund` prints `......` in all three This-Month columns and `43` / `-101` in the FYTD pairs — byte-identical to July. That is a property of the print, not a copy-paste; re-confirm against p12.
+   - #438's four `Proprietary Receipts from the Public` rows print applicable receipts **positive** and outlays **negative**, the reverse of July's signs.
+   - #438's grand roll-ups span pp11–12; `source.page` cites 12 and `unit_note` records the span. Confirm no p11 row was missed by the page citation.
+8. **Floor miss to uphold or refute:** #431 ships 8 relations against the provisional floor of 9, adjudicated at ship time as a printed-cell omission (the This-Month Applicable total prints `(**)`, so that net identity does not exist), not padding.
+
+**The batch as shipped** (floors in `BACKLOG.md`):
+
+| unit | page | rows | cells | rels | standalones | tolerances |
+|---|---|---|---|---|---|---|
+| #431 outlays-eop | 19 | 6 | 36 | 8 (**floor 9**) | 2 | 2× tol-1 |
+| #432 outlays-agriculture-programs | 10 | 19 | 125 | 24 | 60 | 10× tol-1, 1× tol-2 |
+| #433 outlays-agriculture-fns | 10 | 12 | 80 | 14 | 26 | 6× tol-1 |
+| #434 outlays-agriculture-departmental | 11 | 31 | 209 | 38 | 0 | 12× tol-1, 3× tol-2 |
+| #435 outlays-commerce | 11 | 11 | 75 | 20 | 0 | 9× tol-1, 1× tol-2, 1× tol-3 |
+| #436 outlays-defense-programs | 11 | 15 | 88 | 18 | 0 | 4× tol-1 |
+| #437 outlays-defense-rdte | 11 | 14 | 84 | 12 | 24 | 6× tol-1 |
+| #438 outlays-defense-departmental | 12 | 26 | 153 | 12 | 0 | 6× tol-1, 1× tol-2 |
+| #439 outlays-education-bureaus | 12 | 15 | 90 | 22 | 0 | 7× tol-1 |
+| #440 outlays-education-departmental | 12 | 15 | 93 | 13 | 1 | 5× tol-1, 1× tol-2 |
+
+---
+
