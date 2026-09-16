@@ -47,11 +47,11 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
+- **Treasury MTS August 2026 — VENDORED + 80 READY (2026-09-16).** Published 2026-09-11 (`MonthlyTreasuryStatement_202608.pdf`, `%PDF-1.6`, 39pp, 3,241,289 bytes, sha256 `99c1aeb0…508c849b`). Structurally identical to July (same first-page table locations), so the July decomposition ports 1:1: **#422–#501**. All PDF → vision. Floors provisional. Starter: `treasury-mts/2026-08-table1` (D2, vision, cross-table).
+  - **Audit:** next every-10th is **#430** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #430 ships; #431+ blocked until a different agent closes it.
+
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). Special FY-rollout audit closed **GREEN** 2026-08-18 (Grok 4.6). All in AUDITS.md.
-
-- **Treasury MTS August 2026** — probed 2026-08-17: not yet published
-  (503 + HTML body). Expected ~mid-September; re-probe then.
 
 - **FEC footnote pages pp7–9** stay a Tier-3 stage concern (DESIGN §8)
   — not yet in scope.
