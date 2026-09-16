@@ -2720,23 +2720,65 @@ Graph-consistent across the batch: a cell that only feeds a relation is `leaf`, 
 
 ---
 
-## Unit 450 — treasury-mts/2026-08-outlays-justice (PENDING different-agent audit)
+## Unit 450 — treasury-mts/2026-08-outlays-justice (CLOSED GREEN 2026-09-16, whole-batch #441–#450)
 
-**Transcriber:** Cursor Grok 4.6 (#441–#450). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible (and also closed the #440 audit).
+**Transcriber:** Cursor Grok 4.6 (#441–#450). **Auditor:** Qoder (different agent — the transcriber closed the #440 audit, and Qoder transcribed #431–#440, not this batch). Whole-batch positional check of #441–#450 per family practice (#340 / #350–#440 precedent).
 
-#450 is the 29th unit of the August 2026 MTS family. Consecutive units from one transcriber: whole-batch positional checking is the family's working practice (the #340 / #350–#440 precedent). **#451+ is blocked** until this audit closes GREEN.
+**Method.** Independent pdfplumber text layer + pypdfium2 renders of `sources/treasury-mts/mts-202608.pdf` pages 12, 13, 14, 15 (Table 5 Energy through Justice) plus p23 for the Table 5 rounding footnote; `(cid:NN)` decoded as `chr(NN+29)`. Table 5 parsed flat into `(label, 9 values)` records (headings are not all colon-terminated) with a hard assertion that every data line yields exactly nine value tokens — a glued footnote digit would surface as a ten-token line and be flagged rather than absorbed (the #434 `¹22,650` class); 0 such lines on pp12–15. 204 data rows parsed across pp12–15; the audit range holds 161. Every unit cell compared positionally against that extraction, including omission slots (`......` / `(**)` = absent, not 0). The four unit-bearing pages plus p23 render-verified by eye (full-page p14 plus targeted crops of the three oddities and all ten department/section Total rows). Units were not audited against their own claims.
 
-**Requested scope** (replace this placeholder with the audit record):
+### 1. Positional check, #441–#450 (1,139 present cells / 1,602 occupancy slots)
 
-1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 12, 13, 14, 15 (Table 5 Energy through Justice) plus p23 for the Table 5 rounding footnote; `(cid:NN)` decoded `chr(NN+29)`. Parse Table 5 flat into `(label, 9 values)` records (headings are not all colon-terminated). Whole-batch positional check of **#441–#450** (1,139 present cells / 1,602 occupancy slots). Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
-2. Row COUNTs on the standalone-heavy units: #443 hhs-acf (22 rows / 54 sa), #449 interior-departmental (10 rows / 6 Indian-Affairs sa). Confirm dropped all-omitted rows: #441 Defense Nuclear Waste Disposal.
-3. Recompute every declared relation in exact Decimal. Every non-zero `tol` must equal its observed delta, be `≤ len(sources)`, and quote the p23 footnote. Plausibility scan: 0 relations with `tol > n_sources`.
-4. Re-derive ties-siblings: #444 ← #442/#443 (75 cells); #447 ← #446 (12 PIH/CPD total cells); #449 ← #448 (31 L&M/W&S/F&W/Departmental Offices total cells).
-5. Floor misses to uphold or reject: **#448** 38 vs 40 — L&M Other and Total--L&M This-Month Applicable print `(**)` in the source, dropping two This-Month net identities. Printed-cell omission, never padded.
-6. Source-side oddities to render-confirm: #447 Home Ownership Preservation Equity Fund newly prints 7/7 This-Month and Current-FYTD (July all-omitted and dropped); #447 Housing Programs Other This-Month Applicable prints 1 (July `(**)`, which left that twin one under its floor); #443 ACF Prior-FYTD Gross/Outlays reopen at tol-2 (July closed at 1).
-7. Roles / U1: a `standalone` must feed nothing. This batch claims graph-consistent roles (ACF FDA r1c1 is `total` because its net identity is declared).
+| unit | page | cells | rows | result |
+|---|---|---|---|---|
+| #441 outlays-energy | 12–13 | 132 | 20 | matches; Defense Nuclear Waste Disposal all-omitted in the print and correctly absent |
+| #442 outlays-hhs-cms | 13 | 84 | 14 | matches |
+| #443 outlays-hhs-acf | 13 | 135 | **22** / 54 sa | row COUNT confirmed; the small-agency rows print no local total |
+| #444 outlays-hhs-departmental | 13–14 | 108 | 17 | matches; grand roll-ups span p13–14 |
+| #445 outlays-homeland-security | 14 | 126 | 19 | matches |
+| #446 outlays-hud-bureaus | 14 | 82 | 15 | matches; Housing Certificate Fund and Hope VI carry only their printed FYTD/Prior cells |
+| #447 outlays-hud-departmental | 14–15 | 151 | 23 | matches; HOPE Fund and Housing Other newly printed (see §6) |
+| #448 outlays-interior-bureaus | 15 | 128 | 19 | matches; the Indian Affairs rows correctly belong to the capstone |
+| #449 outlays-interior-departmental | 15 | 73 | **10** / 6 sa | row COUNT confirmed; the single-line Indian Affairs row admits no multi-source roll-up |
+| #450 outlays-justice | 15 | 120 | 19 | matches |
 
-**Pages:** 12 (Energy start), 13 (Energy Total + HHS CMS/ACF), 14 (HHS Total + DHS + HUD bureaus + Housing Programs), 15 (HUD Total + Interior + Justice), 23 (rounding footnote).
+0 value mismatches, 0 omission mismatches, 0 missing/extra rows across all 1,139 present cells (1,602 occupancy slots; 463 omission slots confirmed absent). Coverage proof: every one of the 161 printed data rows in the Energy→Justice range is claimed by a unit (capstones re-anchor their siblings' rows), except Defense Nuclear Waste Disposal, which prints `(**) ...... (**)` in all three periods and is dropped per family convention.
+
+### 2. Footnote-glue
+
+None on pp12–15 — the nine-token assertion would have flagged any glued superscript digit as a ten-token line, and none appeared. p23 prints footnotes 1/2/3 (July restatements / FICA-SECA) plus `Note: Details may not add to totals due to rounding.`, `...... No Transactions`, `(**) Less than absolute value of $500,000` — render-confirmed verbatim.
+
+### 3. Relations and tolerance plausibility
+
+All 218 declared relations recomputed in exact Decimal: every one holds (`|delta| ≤ tol`). Every non-zero `tol` equals its observed delta, is `≤ len(sources)`, and quotes the p23 Table 5 footnote verbatim. **Plausibility scan: 0 relations with `Decimal(tol) > len(sources)`** — the OPM masked-defect signature is absent. tol seats match the ship notes: #441 ×4, #442 ×6, #443 ×4 + 2 tol-2, #444 ×2, #445 ×10, #446 ×2, #447 ×13, #448 ×14, #449 ×9, #450 ×2 + 2 tol-2.
+
+**Floor miss upheld (#448, 38 relations vs the July-derived floor of 40).** The July twin declares 16 net identities (This-Month on rows 2/5/7/10; Current- and Prior-FYTD on rows 2/5/7/10/12/13) plus 24 roll-ups = 40. August declares 14 net identities plus the same 24 roll-ups = 38: the two lost relations are exactly the This-Month (col-1) net identities on BLM `Other` and `Total--Land and Minerals Management`, and both rows print This-Month Applicable as `(**)` in August (render-confirmed on the Total--L&M row). Printed-cell omission, never padded.
+
+### 4. ties-siblings (re-derived from the printed-row anchoring)
+
+- #444 ← #442/#443: 12 overlapping printed rows (the seven small agencies, Total--CMS, Total--ACF, Administration for Community Living, Departmental Management, Other); all **75** tied cells byte-match.
+- #447 ← #446: 2 overlapping printed rows (Total--PIH, Total--CPD); all **12** tied cells byte-match.
+- #449 ← #448: 4 overlapping printed rows (Total--L&M, Total--W&S, Total--F&W&P, Total--Departmental Offices); all **31** tied cells byte-match.
+
+No printed row is claimed by three or more units.
+
+### 5. Roles (U1)
+
+Graph-consistent across the batch: **0 U1 hits** — no `standalone` cell feeds or targets a relation; all 60 standalones (#443 54, #449 6) carry a `why`; every `total` is a relation target; every `leaf` feeds at least one relation and is never a target.
+
+### 6. Three source-side oddities (render-confirmed)
+
+- #447 `Home Ownership Preservation Equity Fund` prints `7 / ...... / 7 / 7 / ...... / 7 / (**) / ...... / (**)` — newly present in August where July was all-omitted and dropped.
+- #447 Housing Programs `Other` prints This-Month Applicable **1** (`2 / 1 / 1 / 36 / 13 / 23 / 79 / 13 / 66`), where July printed `(**)` and lost that net identity (leaving the July twin one under its floor).
+- #443 ACF Prior-FYTD Gross/Outlays reopen at tol-2: printed total 68,684 against a component sum of 68,686 (delta exactly 2), where July's same roll-ups closed at 1. The render shows the printed total; the delta is arithmetic in the source, not transcription.
+
+### Gates
+
+- reconcile exit 0 on all 10 units, 0 warnings
+- pytest 12/12
+- full sweep 450/450 GREEN, 0 failures (failure-aggregating loop)
+- no corpus value changed
+
+**Verdict: GREEN.** The August MTS batch #441–#450 is a faithful, arithmetically-reconciled transcription of mts-202608.pdf pp12/13/14/15, with the #448 floor miss upheld as a printed-cell omission and no tolerance masking a defect. **#451+ unblocked.** Next every-10th audit fires at **#460**.
 
 ---
 
