@@ -47,7 +47,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 19/80 SHIPPED (2026-09-16).** #422–#440 shipped. **#440 every-10th audit closed GREEN 2026-09-16 (Cursor Grok 4.6; whole-batch positional check of #431–#440).** Next visible unit is `treasury-mts/2026-08-outlays-energy` (#441). 61 remain. All PDF → vision. Floors provisional. Next every-10th audit fires at **#450**.
+- **Treasury MTS August 2026 — VENDORED; 24/80 SHIPPED (2026-09-16).** #422–#445 shipped. **#440 every-10th audit closed GREEN 2026-09-16 (Cursor Grok 4.6; whole-batch positional check of #431–#440).** Next visible unit is `treasury-mts/2026-08-outlays-hud-bureaus` (#446). 56 remain. All PDF → vision. Floors provisional. Next every-10th audit fires at **#450**.
   - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). **#440 closed GREEN 2026-09-16 (Cursor Grok 4.6; 1,033 cells / 1,476 occupancy slots, 0 mismatches; #431 floor miss upheld; three source-side oddities render-confirmed).** #441+ unblocked.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
@@ -97,6 +97,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts August 2026 batch #441–#445 (5 units)** — energy (132c/27r = floor, same 20-row shape as July, Waste Disposal all-omitted dropped, section spans p12-13), hhs-cms (84c/18r = floor), hhs-acf (135c/9r = floor, 54 small-agency standalones = waiver; Prior ACF roll-ups reopen at tol-2 vs July's 1), hhs-departmental capstone (108c/15r = floor, ties-siblings 75 cells byte-match machine-checked vs #442/#443; grand roll-ups span p13-14), homeland-security (126c/27r = floor). All strict-default GREEN 0 warnings; max tol 2 on the 11-component ACF Prior roll-ups; sweep 445/445; pytest 12/12. Roles graph-consistent (audit-U1 defect class not replicated). 56 August-MTS units remain. Next audit #450.
 
 - 2026-09-16 · **audit GREEN: #440 every-10th (whole-batch #431–#440)** — Cursor Grok 4.6, different agent from Qoder. Independent parse + render of mts-202608.pdf pp10/11/12/19 + p23; 1,033 present cells / 1,476 occupancy slots, 0 mismatches; 181 relations re-derived (every non-zero tol = delta ≤ n_sources, p23 footnote quoted); ties-siblings 138/54/20 hold (label-union occupancy 143/54/20, 0 mismatches); #431 floor miss 8 vs 9 upheld; U1 clean (0 hits); three source-side oddities render-confirmed; p11 `¹22,650` glue render-resolved. Sweep 440/440, pytest 12/12, no corpus value changed. **#441+ unblocked.** Next audit #450.
 
