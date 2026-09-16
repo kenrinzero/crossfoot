@@ -47,7 +47,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 1/80 SHIPPED (2026-09-16).** `2026-08-table1` is #422. Next: `treasury-mts/2026-08-table2` (D2, vision, cross-table). 79 remain. All PDF → vision. Floors provisional.
+- **Treasury MTS August 2026 — VENDORED; 2/80 SHIPPED (2026-09-16).** `2026-08-table1` is #422, `2026-08-table2` is #423. Next: `treasury-mts/2026-08-table3-receipts` (D3, vision, cross-table). 78 remain. All PDF → vision. Floors provisional.
   - **Audit:** next every-10th is **#430** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #430 ships; #431+ blocked until a different agent closes it.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
@@ -98,6 +98,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-16 · **treasury-mts/2026-08-table2** — #423 (D2/PDF/vision; 51c/25r, strict-default GREEN 0 warnings; same shape as the July twin; 6 tol-1 computed per-relation. Table 1 August/YTD ties hold with opposite deficit sign. 12 full-year estimate cells byte-identical to July). Sweep n/a this session (one new file). 78 August-MTS units remain.
 
 - 2026-09-16 · **treasury-mts/2026-08-table1** — #422, August MTS family opener (D2/PDF/vision; 75c/31r, strict-default GREEN 0 warnings; 25 rows, one month more than the July twin; 10 tol-1 computed per-relation. FY2026 July Outlays restated 766,296 with footnote 1. Table 1 ties Table 2 on all 6 August/YTD figures). Sweep n/a this session (one new file). 79 August-MTS units remain.
 
