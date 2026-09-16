@@ -2598,27 +2598,63 @@ These are **source-side**. Census publishes independently weighted, independentl
 
 ---
 
-## Unit 430 — treasury-mts/2026-08-outlays-judicial (PENDING different-agent audit)
+## Unit 430 — treasury-mts/2026-08-outlays-judicial (CLOSED GREEN 2026-09-16, whole-batch #422–#430)
 
-**Transcriber:** Cursor Grok 4.6 (#422–#430). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible.
+**Transcriber:** Cursor Grok 4.6 (#422–#430). **Auditor:** Qoder (different agent; the transcriber is ineligible). Whole-batch positional check of #422–#430 per family practice (#340 / #350–#420 precedent).
 
-#430 is the 9th unit of the August 2026 MTS family. Consecutive units from one transcriber: whole-batch positional checking is the family's working practice (the #340/#350–#420 precedent). **#431+ is blocked** until this audit closes GREEN.
+**Method.** Independent pdfplumber text layer + pypdfium2 renders of `sources/treasury-mts/mts-202608.pdf` pages 5 (T1/T2), 8 (T3), 9 (T4), 10 (T5 Legislative/Judicial), 37 (T9), and p23 for the Table 5 rounding footnote; `(cid:NN)` decoded as `chr(NN+29)`. Every unit cell compared positionally against the extraction; the five unit-bearing pages render-verified by eye. Units were not audited against their own claims.
 
-**Requested scope** (replace this placeholder with the audit record):
+### 1. Positional check, #422–#430 (595 cells)
 
-1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 5, 8, 9, 10, 37 (and p23 for the Table 5 rounding footnote). Do not audit the units against their own claims.
-2. Positional check of **#422–#430** as a batch: every cell value and every `......` / `(**)` omission. Row COUNT on #425 (28 department lines; all-standalone, so a missing row is invisible to strict coverage).
-3. Recompute every declared relation; every `tol` must equal its observed delta; every `why` must quote the page's own rounding note.
-4. Cross-table ties (none of these are declared inside a unit):
-   - Table 1 August/YTD ↔ Table 2 This-Month/FYTD (6 figures; opposite deficit sign)
-   - Table 3 receipts Totals/On/Off ↔ Table 2 (12 mapped figures)
-   - Table 3 Total Outlays / On / Off / Surplus ↔ Table 2
-   - Table 3 Legislative / Judicial net columns ↔ Table 5 `Total--Legislative Branch` / `Total--Judicial Branch` c3/c6/c9 (634 / 6,471 / 6,420 and 765 / 9,140 / 8,875)
-   - Table 9 Receipts/Outlays totals ↔ Table 1 / Table 3
-   - Table 4 major-classification net totals ↔ Table 3 receipts
-5. Footnote-glue rows (text layer prepends the marker; render wins): Table 1 FY2026 July Outlays **766,296** (not 1,766,296); Table 3 HUD FYTD **61,687** (not 161,687); Table 3 State FYTD **24,892** (not 224,892).
+| unit | page | cells | rows | result |
+|---|---|---|---|---|
+| #422 table1 | 5 | 75 | 25 | every value + omission matches |
+| #423 table2 | 5 | 51 | 13 | matches; `......` omitted, not 0 |
+| #424 table3-receipts | 8 | 52 | 13 | matches; Off-Budget standalone convention holds |
+| #425 table3-outlays-departments | 8 | 112 | **28** | row COUNT confirmed against the print (all-standalone, invisible to strict coverage) |
+| #426 table3-outlays-remainder | 8 | 50 | 14 | matches SSA→surplus block; Allowances c4-only `-26` |
+| #427 table9 | 37 | 90 | 30 | 9 receipts + 19 function rows + 2 totals match |
+| #428 receipts-major | 9 | 30 | 10 | Table 4 net "Receipts" column of the printed `Total --` rows |
+| #429 outlays-legislative | 10 | 96 | 14 | all-omitted Offsetting Governmental Receipts row correctly absent |
+| #430 outlays-judicial | 10 | 39 | 6 | hand-verified exact |
 
-**The unit (#430 `outlays-judicial`, p10):** 6 rows / 39 cells / 9 relations / 6 standalones in the file as shipped. Floor 9.
+0 value mismatches, 0 omission mismatches, 0 missing/extra rows across all 595 cells.
+
+### 2. Footnote-glue (render wins over the glued text layer)
+
+- T1 FY2026 July Outlays: text `1766,296` → render `¹766,296` → **766,296** ✓ (#422 r23c2)
+- T3 HUD FYTD: text `161,687` → render `¹61,687` → **61,687** ✓ (#425 r10c2)
+- T3 State FYTD: text `224,892` → render `²24,892` → **24,892** ✓ (#425 r14c2)
+
+Footnote 1 ($22M decrease, USDA + State) on p5; footnotes 1 ($14M increase) / 2 ($36M decrease) on p8.
+
+### 3. Relations and tolerance plausibility
+
+All 126 declared relations recomputed in exact Decimal: every one holds (|delta| ≤ tol). Every non-zero `tol` equals its observed delta and quotes the page's own rounding note (Table 5's sits on p23 and is quoted as such). **Plausibility scan: 0 relations with `Decimal(tol) > len(sources)`** — the OPM masked-defect signature is absent. tol-1/tol-2 seats: #422 ×10, #423 ×6, #424 ×4, #426 ×2, #427 ×2, #428 ×3, #429 ×7 (one tol-2 on a 13-source roll-up), #430 ×4; all deltas 1 or 2, all ≤ source count.
+
+Identity-class completeness (DESIGN §4a): #423 declares both the on/off decomposition *and* the Outlays+Surplus=Receipts identity per column where surplus prints; #429/#430 declare both the per-row net identity (Outlays+Applicable=Gross) and the per-column section roll-up. No available identity left undeclared.
+
+### 4. Cross-table ties (undeclared in units; verified here)
+
+- T1 Aug/YTD ↔ T2 This-Month/FYTD, 6 figures, opposite deficit sign: 360,033 / 526,830 / ±166,797 and 4,845,452 / 6,811,043 / ±1,965,591 ✓
+- T3 receipts Total/On/Off ↔ T2, 12 mapped figures ✓
+- T3 Total Outlays / On / Off / Surplus ↔ T2 ✓
+- T3 Legislative/Judicial net ↔ T5 `Total--Legislative` / `Total--Judicial` c3/c6/c9: 634 / 6,471 / 6,420 and 765 / 9,140 / 8,875 ✓
+- T9 Receipts/Outlays totals ↔ T1/T3: 360,033 / 4,845,452 / 4,690,953 and 526,830 / 6,811,043 / 6,664,260 ✓
+- T4 major-classification net ↔ T3 receipts, incl. Social Insurance 140,534 / 1,663,281 / 1,614,358 = T3's four social-insurance lines summed ✓
+
+### 5. Known non-blocking observation
+
+#430's `r6c2/r6c5/r6c8` are labelled `standalone` yet feed the total net-identity relations. The values are correct and the arithmetic is checked; this is the corpus-wide role-metadata defect already filed as **U1** in `AUDIT-2026-09-16.md`, not an August transcription defect. Not repaired here (a scoped harness unit per DESIGN); recorded for that follow-up.
+
+### Gates
+
+- reconcile exit 0 on all 9 units, 0 warnings
+- pytest 12/12
+- full sweep 430/430 GREEN, 0 failures (failure-aggregating loop)
+- no corpus value changed
+
+**Verdict: GREEN.** The August MTS batch #422–#430 is a faithful, arithmetically-reconciled transcription of mts-202608.pdf pp5/8/9/10/37, with the three footnote-glue values correctly render-resolved and no tolerance masking a defect. **#431+ unblocked.** Next every-10th audit fires at **#440**.
 
 ---
 

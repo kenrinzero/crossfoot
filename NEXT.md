@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS August 2026 — VENDORED; 9/80 SHIPPED (2026-09-16).** #422–#430 shipped. **#431+ blocked** until a different agent closes the #430 every-10th audit (placeholder in AUDITS.md; whole-batch positional check of #422–#430 requested). After unblock, next is `treasury-mts/2026-08-outlays-eop`. 71 remain. All PDF → vision. Floors provisional.
-  - **Audit:** **#430 DUE** (9th unit of this family; transcriber Cursor Grok 4.6 ineligible). Whole-batch positional checking remains the working practice when consecutive units share a transcriber.
+- **Treasury MTS August 2026 — VENDORED; 9/80 SHIPPED (2026-09-16).** #422–#430 shipped. **#430 every-10th audit CLOSED GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches; record in AUDITS.md). #431+ unblocked.** Next is `treasury-mts/2026-08-outlays-eop`. 71 remain. All PDF → vision. Floors provisional.
+  - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). Next every-10th audit at **#440**. Whole-batch positional checking remains the working practice when consecutive units share a transcriber.
 
 - **Treasury MTS July 2026 — ALL 80 UNITS SHIPPED (2026-08-18).** Published 2026-08-12, vendored, gated, ledgered, and transcribed (#342–#421). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #350 closed **GREEN** 2026-08-17 (Qoder; whole-family check), #360 closed **GREEN** 2026-08-17 (Claude Opus 5), #370 closed **GREEN** 2026-08-18 (Claude Fable 5), #380 closed **GREEN** 2026-08-18 (Claude Fable 5), #390 closed **GREEN** 2026-08-18 (Claude Fable 5), #400 closed **GREEN** 2026-08-18 (Claude Fable 5), #410 closed **GREEN** 2026-08-18 (Antigravity), and #420 closed **GREEN** 2026-08-18 (Antigravity; whole-batch positional check of #411–#420, 1,384 cells / 1,480 positions, 0 mismatches, Table 7 & 8 ties hold). Special FY-rollout audit closed **GREEN** 2026-08-18 (Grok 4.6). All in AUDITS.md.
@@ -75,7 +75,7 @@ three floor misses upheld, Table 6 ties)**; **#411–#420 audited GREEN together
 2026-08-18 (Antigravity, 1,480 positions, no floor misses, Table 7 ↔ Table 8
 ties byte-match)**. Special (off-cadence) FY-rollout audit of 40 Table 6 units + the
 OPM repair closed **GREEN** 2026-08-18 (Grok 4.6; 673 FY relations re-derived 473/199/1,
-both source findings upheld, 64 census-p60 tols adjudicated source-side). **#430 audit DUE** (placeholder in AUDITS.md; #431+ blocked). Reminder for later multiples of 10:
+both source findings upheld, 64 census-p60 tols adjudicated source-side). **#430 audit closed GREEN 2026-09-16 (Qoder; whole-batch positional check of #422–#430, 595 cells, 0 mismatches, all six cross-table tie sets hold; record in AUDITS.md). #431+ unblocked.** Next every-10th audit fires at **#440**. Reminder for later multiples of 10:
 write the AUDITS.md placeholder (as #380–#420 did).
 
 **Standing note for the next auditor:** the last two every-10th audits both
