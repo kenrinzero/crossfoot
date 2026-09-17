@@ -2954,24 +2954,99 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 ---
 
-## Unit 480 — treasury-mts/2026-08-table6-schedule-a (PENDING different-agent audit)
+## Spot-Audit: Unit 480 — treasury-mts/2026-08-table6-schedule-a (and whole-batch #471–#480)
 
-**Transcriber:** Cursor Grok 4.6 (#471–#480 in the commit carrying this placeholder). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible (it also transcribed #461–#470 and closed the #440 and #460 audits).
+- **Audit Date:** 2026-09-17
+- **Auditor:** Antigravity (Google DeepMind) — eligible different agent (transcriber was Cursor Grok 4.6 in commit `74044c2`)
+- **Scope:** Whole-batch positional audit across units #471–#480 (Table 5 wrap + Table 6 start: 816 present cells / 140 rows / 1,077 occupancy slots / 200 relations)
+- **Source Documents:** `sources/treasury-mts/mts-202608.pdf` (printed pp21–25, plus p8 for Table 3 cross-ties)
+- **Status:** **GREEN** (Whole-batch positional verification passed; 1 transcriber omission found in #474 and repaired mechanically per #129/#160 precedent).
 
-#480 is the 59th unit of the August 2026 MTS family. Ten consecutive units from one transcriber since the #470 audit closed, so the scope is the whole batch **#471–#480**: 812 present cells / 139 rows / 1,068 occupancy slots / 200 declared relations. Whole-batch positional checking is the family's working practice (the #340 / #350–#470 precedent). **#481+ is blocked** until this audit closes GREEN.
+### 1. Verification Methodology & Coverage
+- Independent raster renders generated at 150 DPI via `pypdfium2` for pages 8, 21, 22, 23, 24, and 25.
+- Text layer parsed via `pdfplumber` with `(cid:NN)` tokens decoded as `chr(NN+29)`.
+- Tokens clustered to column centers via right-edge coordinates:
+  - Table 5 (pp21–23): 9 columns on a 40pt grid (274, 314, 354, 394, 434, 474, 514, 554, 594).
+  - Table 6 (p24): 6 columns on a 57pt grid (309, 366, 423, 480, 537, 594).
+  - Table 6 Schedule A (p25): 3 columns on a 54pt grid (324, 378, 432).
+- Zero-token / all-omitted rows (`......` and `(**)`) mapped explicitly. Presence and absence verified for every cell in the 10 units.
 
-**Requested scope** (replace this placeholder with the audit record):
+### 2. Defect Found & Repaired in Unit #474 (`2026-08-outlays-railroad-retirement`)
+- **Finding:** Under `Rail Industry Pension Fund:`, the printed row `Other` was dropped by the transcriber. In `BACKLOG.md` and the audit placeholder, the transcriber claimed: *"RUIF Other, RIPF Other, and Advances from FOASDI all-(**) dropped (July printed RIPF Other 1/1)"*.
+- **Ground Truth from Print (`mts-202608.pdf` p21 top=610.6, visually confirmed against crop):**
+  The printed row is: `Other ...... (**) ...... (**) 2 ...... 2 1 ...... 1`
+  - This-Month: `(**)` / `......` / `(**)` (omitted)
+  - Current FYTD: Gross `2` (col 4) / `......` / Outlays `2` (col 6)
+  - Prior FYTD: Gross `1` (col 7) / `......` / Outlays `1` (col 9)
+  The transcriber saw `(**)` in This-Month and erroneously assumed the entire row was all-`(**)`, missing the printed values in Current and Prior FYTD.
+- **Mechanical Completeness Repair Applied:**
+  - Followed `RUNBOOK-auditor.md` §5 citing the #129 (AoC Botanic Garden missing 1001 memo row) and #160 (Schedule E missing two rows) precedent for mechanical, value-preserving repair of a dropped printed row.
+  - Inserted row 8: `"index": 8, "label": "Rail Industry Pension Fund: Other"`.
+  - Shifted subsequent rows 8..16 to 9..17 (table now 17 rows, matching July's 17 rows).
+  - Added the 4 printed leaf cells: `r8c4` ("2"), `r8c6` ("2"), `r8c7` ("1"), `r8c9` ("1") (cells increased from 87 to 91).
+  - Shifted subsequent cell coordinate IDs (`r8*` -> `r9*`, ..., `r16*` -> `r17*`).
+  - Added `r8c4`, `r8c6`, `r8c7`, `r8c9` to the respective RRB roll-ups:
+    - Col 4 roll-up: sum=7570, target=7569 (delta 1, tol 1 held).
+    - Col 6 roll-up: sum=4472, target=4471 (delta 1, tol 1 held).
+    - Col 7 roll-up: sum=7839, target=7838 (delta 1, added `tol: "1"` quoting p23 footnote, matching July).
+    - Col 9 roll-up: sum=5828, target=5827 (delta 1, added `tol: "1"` quoting p23 footnote, matching July).
+  - Updated `unit_note` documenting the repair.
+  - Reconciles strict-GREEN with 0 warnings.
 
-1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` printed pages 21 (Independent Agencies through RRB start), 22 (RRB remainder, Independent remainder, UOR Employer Share, Interest Received start), 23 (UOR remainder, grand totals, Table 5 rounding footnote), 24 (Table 6 liabilities + assets), 25 (Table 6 Schedule A) plus p8 for Table 3 Outlays; `(cid:NN)` decoded `chr(NN+29)`. Parse Table 5 into `(label, 9 values)` records and assert nine value tokens per data line. Parse Table 6 body into `(label, 6 values)` and Schedule A into `(label, 3 values)`. **Map Table 5 tokens to columns by right-edge clustering, not by order** — the nine columns sit on a 40pt grid (x1 ≈ 274/314/354/394/434/474/514/554/594). Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims. Schedule B on p25 is out of scope (next unit).
-2. Row COUNTs. All-omitted rows correctly dropped: Spectrum Auction Program Account; RUIF Other; RIPF Other (July printed 1/1 This-Month); Advances from FOASDI; US Government Life Insurance Fund; Loans to IMF. Continuation-header wraps (`Independent Agencies: - Continued`, `Undistributed Offsetting Receipts: - Continued Other`) must not produce extra rows. August newly prints a UOR `Spectrum Auction Proceeds` line (−3,571 This-Month and Current-FYTD; Prior omitted) — it must be present in #477 and in the UOR total roll-up.
-3. Recompute all 200 declared relations in exact Decimal. Every non-zero `tol` must equal its observed delta, be `≤ len(sources)`, and quote the relevant footnote verbatim (`Note: Details may not add to totals due to rounding.` — Table 5's on p23, Table 6's on pp24–25). Plausibility scan: 0 relations with `tol > n_sources`. Widest seats claimed: #477 Interest Prior roll-ups tol-2; #478 Total Liability col-3 tol-2; #479 Total Assets col-6 tol-2.
-4. Re-derive ties-siblings: #477 ← #476 overlapping Employer Share, Employee Retirement (6 cells); #479 ← #478 overlapping Total Liability Accounts (6 cells). Excess of Liabilities close 29,465,566 byte-matches Schedule A Close of Period.
-5. Floor misses: **none in this batch.** All ten meet or exceed the July-derived floor: #471 18/18, #472 27 vs 15, #473 3/3, #474 9/9, #475 9/9, #476 6/6, #477 17 vs 12, #478 47 vs 30, #479 53 vs 30, #480 11 vs 8. Occupancy shrinks that are not floor misses: #474 87 cells vs July 99 (RIPF Other dropped; NRRIT Transfers and Intra Other This-Month omitted); #477 163 vs July 157 (Spectrum + Sale Prior added); #479 125 vs July 124; #480 32 vs July 31 (Revisions This-Month newly prints 2).
-6. Source-side oddities to render-confirm: #472 IMLS Current Gross 215 vs Outlays 214 and NEA Prior 218 vs 217 (no applicable receipts, nets not computable); #477 Other Interest Current Gross −5 vs Outlays −6 with receipts omitted; #477 Rents This-Month prints applicable −3,295 / outlays +3,295 (FYTD signs are the usual rec-positive / outlays-negative); #479 Dollar Deposits This-Month −3, Current `(**)`, Prior −7 (July omitted Prior and printed Current 3); #480 Revisions This-Month 2. **Table 5 Independent Outlays 3,360/7,563/15,165 vs Table 3 Independent −211/3,992/15,165**: the 3,571 This-Month and Current-FYTD difference equals Spectrum Auction Proceeds, which Table 5 classifies under UOR and Table 3 parks on Independent; Prior matches (Spectrum Prior omitted). This is a source classification difference, not a transcription defect.
-7. Roles / U1: a `standalone` must feed nothing and target nothing. The batch claims graph-consistent roles (125 standalones, all with `why`).
-8. Cross-table ties against Table 3 (printed p8; already in corpus as `2026-08-table3-outlays-remainder`): Total Outlays 526,830 / 6,811,043 / 6,664,260; On-Budget 387,917 / 5,430,219 / 5,365,229; Off-Budget 138,913 / 1,380,824 / 1,299,031; UOR Interest −9,252 / −215,941 / −182,938. The transcriber claims byte-match on those triples. Schedule A deficit 166,797 / 1,965,591 / 1,973,307 = −Table 3 surplus.
+### 3. Positional Verification across Batch #471–#480 (Post-Repair)
 
-**Pages:** 21 (Independent A–N, Postal, RRB start), 22 (RRB remainder, Independent remainder, UOR Employer, Interest start), 23 (UOR remainder including Spectrum Auction Proceeds, grand totals, Table 5 footnote), 24 (Table 6), 25 (Schedule A), 8 (Table 3). Sections spanning a page boundary cite the later page per the family convention: #474 spans pp21–22 and cites 21; #477 spans pp22–23 and cites 23.
+| Unit | Table ID | Page | Rows | Present Cells | Omissions | Relations | Standalones | Status |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| #471 | `2026-08-outlays-grand-total-capstone` | 23 | 3 | 27 | 0 | 18 | 0 | **PASS (0 mismatches)** |
+| #472 | `2026-08-outlays-independent-a-n` | 21 | 24 | 164 | 52 | 27 | 86 | **PASS (0 mismatches)** |
+| #473 | `2026-08-outlays-postal` | 21 | 3 | 17 | 10 | 3 | 8 | **PASS (0 mismatches)** |
+| #474 | `2026-08-outlays-railroad-retirement` | 21 | 17 | 91 | 62 | 9 | 3 | **PASS (repaired; 0 mismatches)** |
+| #475 | `2026-08-outlays-independent-remainder` | 22 | 5 | 39 | 6 | 9 | 12 | **PASS (0 mismatches)** |
+| #476 | `2026-08-outlays-uor-employer-share` | 22 | 10 | 56 | 34 | 6 | 0 | **PASS (0 mismatches)** |
+| #477 | `2026-08-outlays-uor-departmental` | 23 | 28 | 163 | 89 | 17 | 1 | **PASS (0 mismatches)** |
+| #478 | `2026-08-table6-liabilities` | 24 | 17 | 102 | 0 | 47 | 6 | **PASS (0 mismatches)** |
+| #479 | `2026-08-table6-assets-financing` | 24 | 22 | 125 | 7 | 53 | 5 | **PASS (0 mismatches)** |
+| #480 | `2026-08-table6-schedule-a` | 25 | 11 | 32 | 1 | 11 | 4 | **PASS (0 mismatches)** |
+| **Total** | **Batch #471–#480** | **21–25** | **140** | **816** | **261** | **200** | **125** | **PASS (0 mismatches)** |
+
+- Row count verification: All 89 non-omitted printed Table 5 rows, all 38 non-omitted Table 6 rows, and all 11 Schedule A rows accounted for.
+- Genuinely all-omitted rows correctly omitted:
+  - Table 5: Spectrum Auction Program Account (all `(**)` / `......`), RUIF Other (all `(**)` / `......`), Advances from FOASDI (all `(**)` / `......`), US Government Life Insurance Fund (all `(**)` / `......`).
+  - Table 6: Loans to International Monetary Fund (all `......` / `(**)`).
+
+### 4. Mathematical Reconciliation & Tolerance Discipline
+- All 200 declared relations recomputed in exact Decimal arithmetic: all 200 hold with `delta <= tol`.
+- Every non-zero `tol` equals its observed delta (0 over-slack tolerances).
+- Zero relations have `tol > len(sources)`.
+- Every non-zero tolerance quotes the source rounding footnote verbatim (`Note: Details may not add to totals due to rounding.` on p23 or pp24–25).
+- All 125 standalone cells have explicit `why` explanations and participate in 0 relations (graph-consistent U1).
+
+### 5. Sibling Ties & Cross-Table Crossfooting
+- **Sibling Re-anchors:**
+  - #477 row 27 ← #476 row 10 (`Total--Employer Share, Employee Retirement`): 6 cells byte-match.
+  - #479 row 22 ← #478 row 17 (`Total Liability Accounts`): 6 cells byte-match.
+  - Table 6 Excess of Liabilities Close of Period (`29,465,566` in #479 row 19 col 6) byte-matches Schedule A Close of Period (#480 row 11 col 1).
+- **Cross-Table Ties Against Table 3 Outlays (printed p8):**
+  - Total Outlays: `526,830` / `6,811,043` / `6,664,260` (byte-match #471 row 1).
+  - On-Budget Outlays: `387,917` / `5,430,219` / `5,365,229` (byte-match #471 row 2).
+  - Off-Budget Outlays: `138,913` / `1,380,824` / `1,299,031` (byte-match #471 row 3).
+  - UOR Interest Received: `-9,252` / `-215,941` / `-182,938` (byte-match #477 row 23).
+  - Schedule A Deficit: `166,797` / `1,965,591` / `1,973,307` equals `-Table 3 surplus` (`-166,797` / `-1,965,591` / `-1,973,307`).
+  - **Adjudicated Classification Difference:** Table 5 Independent Outlays `3,360` / `7,563` / `15,165` (#475 row 5) vs Table 3 Independent Outlays `-211` / `3,992` / `15,165` (p8): the `3,571` difference in This-Month and Current-FYTD matches `Spectrum Auction Proceeds` (classified under UOR in Table 5 on p23, parked on Independent Agencies in Table 3 on p8; Prior omitted). Confirmed source classification variance, not a defect.
+
+### 6. Source-Side Oddities Render-Confirmed
+- #472 IMLS Current Gross 215 vs Outlays 214 and NEA Prior 218 vs 217 (applicable receipts omitted, nets not computable).
+- #477 Other Interest Current Gross -5 vs Outlays -6 with receipts omitted.
+- #477 Rents This-Month prints applicable -3,295 / outlays +3,295 (FYTD signs are the standard rec-positive / outlays-negative).
+- #479 Dollar Deposits This-Month -3, Current `(**)`, Prior -7.
+- #480 Revisions This-Month 2.
+
+### 7. Regression & Corpus Gates
+- `uv run pytest` passes 12/12 (including strict UTF-8 LF no-BOM guard).
+- In-process sweep across all 480 tables in corpus: 480/480 strictly GREEN with 0 errors and 0 warnings.
+- Scratchpad artifacts quarantined in `scratchpad/` (gitignored).
+
+**Verdict: GREEN.** The August MTS batch #471–#480 is fully verified and reconciled. Unit #474 was mechanically repaired per the #129/#160 precedent by restoring the dropped printed row 8 (`Rail Industry Pension Fund: Other`, 4 cells). Sibling ties, Table 3 cross-ties, and source oddities all hold. **#481+ unblocked.** Next every-10th audit fires at **#490**.
 
 ---
 
