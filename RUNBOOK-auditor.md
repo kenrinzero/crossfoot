@@ -1,7 +1,10 @@
 # Auditor runbook — every-10th different-agent spot-audit
 
-You were dispatched to audit **one** corpus unit (a multiple of 10, or
-as directed). This file is your whole orientation.
+You were dispatched to audit a cadence unit (a multiple of 10, or
+as directed). If the last ten shipped units share one transcriber, the
+working practice is a **whole-batch positional check**, not a 10-cell
+sample of the 10th unit alone (`NEXT.md` standing note; lesson from
+unit #340). This file is your whole orientation.
 
 **Hard rule:** you must NOT be the unit's transcriber (check the
 AUDITS.md placeholder / project log for who shipped it). If you are,
@@ -39,7 +42,14 @@ read the rest of AUDITS.md or the log archives.
 3. **Relations:** recompute every declared relation in exact Decimal
    from the unit's own leaf cells. Every non-zero `tol` must equal the
    observed delta AND quote a printed rounding note — flag
-   over-declared slack.
+   over-declared slack. Also ask whether that slack is **plausible for
+   the reason it cites**: rounding cannot explain `tol` larger than the
+   source count (the OPM Table 6-C November cell was a 51-unit typo
+   absorbed as `tol=50`; `tol == delta` is not enough). Inventory
+   identity classes the source prints (DESIGN §4a) — do not only verify
+   declared relations. Unused columns that could close against a second
+   identity are a missing-class smell (Table 6 has both a monthly and a
+   fiscal-year roll-forward).
 4. **Gates:** unit reconcile GREEN 0 warnings; `uv run pytest` green;
    full-corpus sweep (`for f in tables/*/*.cells.json; ...`) all GREEN.
 5. **Record:** replace the AUDITS.md placeholder with your audit entry

@@ -33,8 +33,10 @@
    printed (strip thousands separators; keep sign); row/col labels are
    required; parenthesized accounting negatives become `-`; a cell that
    genuinely participates in no arithmetic is `role: standalone` with a
-   `why`. A non-default tolerance requires quoting the source's own
-   rounding note in `why` — never invent slack to make a sum close. If a
+   `why`. A cell that feeds or is targeted by a relation is `leaf` or
+   `total`, even when a column has no multi-source vertical sum. A
+   non-default tolerance requires quoting the source's own rounding
+   note in `why` — never invent slack to make a sum close. If a
    published total truly doesn't foot and the source doesn't say why, STOP
    and log it (that's a finding, not a tolerance).
 5. **Do not re-derive sources.** If a table looks wrong in the vendored

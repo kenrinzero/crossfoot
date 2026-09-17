@@ -39,7 +39,11 @@ there is for reviewers, not you.
    - Duplicate printed row labels get distinct keyed rows (year prefix
      or section suffix) — never merged.
    - A relation needs ≥ 2 sources (schema `minItems`); a printed
-     equality with one source becomes `standalone` + `why`.
+     equality with one source is not itself a sum. That cell is
+     `standalone` + `why` **only if it participates in no other
+     relation**. If it feeds a net identity or roll-forward, it is a
+     `leaf` (DESIGN: standalone = no arithmetic, not "no vertical
+     total").
    - Tolerances only with the source's own rounding note quoted in
      `why`; on sec-10k HTML units expect EXACT — a sum that doesn't
      foot is YOUR error until proven otherwise.
@@ -47,7 +51,7 @@ there is for reviewers, not you.
    - `uv run python reconcile.py tables/<family>/<id>.cells.json`
      → `GREEN ... (0 warning(s))`, relation count ≥ your BACKLOG
      row's minimum.
-   - `uv run pytest` → 10 passed.
+   - `uv run pytest` → 12 passed.
    - `git status --short` shows exactly your one new file (+ the doc
      edits from step 5).
 5. **Docs.** Update your BACKLOG row (`QUEUED` → `SHIPPED` with corpus

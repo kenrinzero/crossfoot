@@ -47,6 +47,11 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
+- **AUDIT-2026-09-16 repairs (scoped 2026-09-17; do not mix with Japan).** Adjudication landed in the memo; remaining corpus/harness work is separate sessions, suggested order:
+  1. **U1 role repair** (D2): 15 units / 55 cells, `standalone` → `leaf` where the cell already feeds a relation; values untouched; add an oracle regression forbidding standalone-in-relation.
+  2. **Harness unit** (D2): U2 label-index uniqueness + membership, U3 reject self-target relations, U5/D6 nonempty failure-aggregating sweep gate, D4 genuine JSON-float regression.
+  Scratchpad U7/U8/U9/U10/D2/D3/D5/D7 stay do-not-run historical hazards — no dedicated session unless a named builder is reused.
+
 - **Treasury MTS August 2026 — ALL 80 UNITS SHIPPED (2026-09-17).** Published 2026-09-11, vendored, gated, ledgered, and transcribed (#422–#501). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). **#440 closed GREEN 2026-09-16 (Cursor Grok 4.6; 1,033 cells / 1,476 occupancy slots, 0 mismatches; #431 floor miss upheld; three source-side oddities render-confirmed).** **#450 closed GREEN 2026-09-16 (Qoder; 1,139 cells / 1,602 occupancy slots, 0 mismatches; #448 floor miss upheld; three source-side oddities render-confirmed). #451+ unblocked.** **#460 closed GREEN 2026-09-17 (Cursor Grok 4.6; 989 cells / 1,449 occupancy slots, 0 mismatches; #458 source lists re-derived 14/16 on col-1/col-3; #459 floor miss 35 vs 36 upheld; Table 3 residual-*Other* adjudicated Table 3 rounding). #461+ unblocked.** **#470 closed GREEN 2026-09-17 (Antigravity; whole-batch #461–#470, 624 cells / 909 occupancy slots, 0 mismatches; #464 and #465 floor misses upheld; ties-siblings 17/17 byte-match; 9 Table 3 Outlays triples byte-match). #471+ unblocked.** **#480 closed GREEN 2026-09-17 (Antigravity; whole-batch #471–#480: 816 cells / 140 rows, 0 mismatches; #474 repaired per #129/#160 precedent; ties-siblings 6/6 and Excess close 29,465,566 byte-match; 5 Table 3 Outlays triples byte-match). #481+ unblocked.** **#490 closed GREEN 2026-09-17 (Antigravity; whole-batch #481–#490: 1,167 cells / 225 rows / 1,350 occupancy slots / 343 relations, 0 mismatches; ties-siblings 6/6 and Table 6 liabilities cross-tie byte-match; source oddities confirmed). #491+ unblocked.** **#500 closed GREEN 2026-09-17 (Antigravity; whole-batch #491–#500: 1,472 cells / 150 rows / 266 relations, 0 mismatches; T7↔T8 and Table 3 Outlays triples byte-match; source oddities confirmed). #501+ unblocked.** Next audit #510.
 
@@ -97,6 +102,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-17 · **AUDIT-2026-09-16 adjudicated** — Cursor Grok 4.6. Checklist classifications accepted; U1 re-scan still 15 units / 55 cells (values untouched). Applied this session: U5 documented sweep, U6 auditor runbook (identity classes + tol-plausibility + whole-batch), U11 README 501/325 + BACKLOG delimiters, U1 prevention in AGENTS/transcriber runbook, contributor roster (Grok 4.6/Cursor, Gemini 3.8 Flash, Qwen 3.8-Max). Corpus/harness repairs queued separately. pytest 12/12.
 
 - 2026-09-17 · **treasury-mts/2026-08-table8-investments** — #501 (D3/PDF/vision; 45c/3r = floor, same 15-row shape as July; Black Lung and Military Advances all-`......` dropped; Total 6,274,791/6,492,831/6,519,041 byte-match Table 6-D; close-prior = July close-this-month). Sweep 501/501; pytest 12/12. **August MTS family 80/80 COMPLETE.** Next cadence #510.
 
