@@ -709,8 +709,7 @@
       "row": 26,
       "col": 1,
       "value": "12",
-      "role": "standalone",
-      "why": "Single-source"
+      "role": "leaf"
     },
     {
       "id": "r26c2",

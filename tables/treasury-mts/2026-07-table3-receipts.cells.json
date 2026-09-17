@@ -422,32 +422,28 @@
       "row": 13,
       "col": 1,
       "value": "102545",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c2",
       "row": 13,
       "col": 2,
       "value": "1125790",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c3",
       "row": 13,
       "col": 3,
       "value": "1084741",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c4",
       "row": 13,
       "col": 4,
       "value": "1367655",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     }
   ],
   "relations": [

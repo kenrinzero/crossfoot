@@ -8,7 +8,10 @@ Usage: reconcile.py <file.cells.json> [--no-strict-coverage]
 Checks, in order: JSON Schema validity; referential integrity (cell ids
 unique + consistent with row/col, relation refs exist); every declared
 relation re-derived from leaf values in exact Decimal arithmetic; coverage
-(DESIGN.md § 4 — errors by default, warnings under --no-strict-coverage).
+(DESIGN.md § 4 — totals targeted, leaves feed, standalone participates in
+no relation; the first two are errors by default and warnings under
+--no-strict-coverage; a standalone-in-relation contradiction is always
+an error).
 Exit 0 = green; non-zero = red. Importable: check(path, strict_coverage).
 """
 
@@ -91,7 +94,10 @@ def check(path: str | Path, strict_coverage: bool = True):
                     f"expected {expected} ±{tol}, |delta| {delta}"
                 )
 
-    # coverage (DESIGN.md § 4): totals must be targeted, leaves must feed
+    # coverage (DESIGN.md § 4): totals targeted, leaves feed, standalone
+    # participates in no relation. The first two follow strict_coverage;
+    # a standalone cell used as a source or target is always a violation
+    # (AUDIT-2026-09-16 U1 — role contradiction, not under-declaration).
     for cid, cell in cells.items():
         if cell["role"] == "total" and cid not in targets:
             (violations if strict_coverage else warnings).append(
@@ -100,6 +106,12 @@ def check(path: str | Path, strict_coverage: bool = True):
         if cell["role"] == "leaf" and cid not in sources_used:
             (violations if strict_coverage else warnings).append(
                 f"coverage: leaf cell {cid} feeds no relation"
+            )
+        if cell["role"] == "standalone" and (
+            cid in sources_used or cid in targets
+        ):
+            violations.append(
+                f"coverage: standalone cell {cid} participates in a relation"
             )
     return violations, warnings
 

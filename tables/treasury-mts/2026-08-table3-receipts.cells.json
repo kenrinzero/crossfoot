@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Four period columns as printed on Table 3. This unit is the Budget Receipts block only (13 rows). Off-Budget total restates the single Employment and General Retirement (Off-Budget) line, so those four cells stay standalone.",
+  "unit_note": "USD millions. Four period columns as printed on Table 3. This unit is the Budget Receipts block only (13 rows). Off-Budget total restates the single Employment and General Retirement (Off-Budget) line; those four cells are leaves of the On-Budget + Off-Budget = Total identity. U1 role repair 2026-09-17: values untouched.",
   "columns": [
     {
       "index": 1,
@@ -422,32 +422,28 @@
       "row": 13,
       "col": 1,
       "value": "103747",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c2",
       "row": 13,
       "col": 2,
       "value": "1229537",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c3",
       "row": 13,
       "col": 3,
       "value": "1183607",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     },
     {
       "id": "r13c4",
       "row": 13,
       "col": 4,
       "value": "1367655",
-      "role": "standalone",
-      "why": "Total Receipts (Off-Budget) restates the single Employment and General Retirement (Off-Budget) line above it; a one-source identity is not a declarable relation."
+      "role": "leaf"
     }
   ],
   "relations": [

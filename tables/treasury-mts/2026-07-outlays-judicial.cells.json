@@ -298,8 +298,7 @@
       "row": 6,
       "col": 2,
       "value": "10",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible."
+      "role": "leaf"
     },
     {
       "id": "r6c3",
@@ -320,8 +319,7 @@
       "row": 6,
       "col": 5,
       "value": "113",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible."
+      "role": "leaf"
     },
     {
       "id": "r6c6",
@@ -342,8 +340,7 @@
       "row": 6,
       "col": 8,
       "value": "124",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible."
+      "role": "leaf"
     },
     {
       "id": "r6c9",

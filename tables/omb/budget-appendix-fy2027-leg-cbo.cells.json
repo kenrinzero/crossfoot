@@ -455,16 +455,14 @@
       "row": 15,
       "col": 2,
       "value": "74",
-      "role": "standalone",
-      "why": "Single-source gross outlays column due to missing offsets"
+      "role": "total"
     },
     {
       "id": "r15c3",
       "row": 15,
       "col": 3,
       "value": "75",
-      "role": "standalone",
-      "why": "Single-source gross outlays column due to missing offsets"
+      "role": "total"
     },
     {
       "id": "r16c1",

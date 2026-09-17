@@ -316,8 +316,7 @@
       "row": 7,
       "col": 2,
       "value": "201",
-      "role": "standalone",
-      "why": "Total cell in sparse applicable column covered by net identity on sibling columns or single-source."
+      "role": "leaf"
     },
     {
       "id": "r7c3",
@@ -338,8 +337,7 @@
       "row": 7,
       "col": 5,
       "value": "1201",
-      "role": "standalone",
-      "why": "Total cell in sparse applicable column covered by net identity on sibling columns or single-source."
+      "role": "leaf"
     },
     {
       "id": "r7c6",
@@ -360,8 +358,7 @@
       "row": 7,
       "col": 8,
       "value": "1000",
-      "role": "standalone",
-      "why": "Total cell in sparse applicable column covered by net identity on sibling columns or single-source."
+      "role": "leaf"
     },
     {
       "id": "r7c9",

@@ -47,9 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **AUDIT-2026-09-16 repairs (scoped 2026-09-17; do not mix with Japan).** Adjudication landed in the memo; remaining corpus/harness work is separate sessions, suggested order:
-  1. **U1 role repair** (D2): 15 units / 55 cells, `standalone` → `leaf` where the cell already feeds a relation; values untouched; add an oracle regression forbidding standalone-in-relation.
-  2. **Harness unit** (D2): U2 label-index uniqueness + membership, U3 reject self-target relations, U5/D6 nonempty failure-aggregating sweep gate, D4 genuine JSON-float regression.
+- **AUDIT-2026-09-16 remaining (do not mix with Japan).**
+  - **Harness unit** (D2): U2 label-index uniqueness + membership, U3 reject self-target relations, U5/D6 nonempty failure-aggregating sweep gate, D4 genuine JSON-float regression.
   Scratchpad U7/U8/U9/U10/D2/D3/D5/D7 stay do-not-run historical hazards — no dedicated session unless a named builder is reused.
 
 - **Treasury MTS August 2026 — ALL 80 UNITS SHIPPED (2026-09-17).** Published 2026-09-11, vendored, gated, ledgered, and transcribed (#422–#501). All 80 units strict-default GREEN 0 warnings.
@@ -102,6 +101,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-09-17 · **U1 role repair** — 15 units / 55 cells: 53 source-only `standalone` → `leaf`; CBO r15c2/r15c3 (targets) → `total`; values untouched. Oracle rejects standalone-in-relation (DESIGN §4 rule 3). pytest 15/15; sweep 501/501 GREEN 0 warnings.
 
 - 2026-09-17 · **AUDIT-2026-09-16 adjudicated** — Cursor Grok 4.6. Checklist classifications accepted; U1 re-scan still 15 units / 55 cells (values untouched). Applied this session: U5 documented sweep, U6 auditor runbook (identity classes + tol-plausibility + whole-batch), U11 README 501/325 + BACKLOG delimiters, U1 prevention in AGENTS/transcriber runbook, contributor roster (Grok 4.6/Cursor, Gemini 3.8 Flash, Qwen 3.8-Max). Corpus/harness repairs queued separately. pytest 12/12.
 

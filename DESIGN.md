@@ -57,10 +57,16 @@ Consistency ≠ completeness — a lazy transcription could under-declare
 relations and pass. Two rules, both implemented in `reconcile.py` NOW:
 
 1. every `role: total` cell must be the **target** of ≥ 1 relation;
-2. every `role: leaf` cell must appear as a **source** in ≥ 1 relation.
+2. every `role: leaf` cell must appear as a **source** in ≥ 1 relation;
+3. every `role: standalone` cell must appear in **no** relation
+   (added 2026-09-17, AUDIT-2026-09-16 U1). The first two rules did not
+   ask this converse, so a cell could be labelled standalone, feed a
+   net identity, and still pass. This is always an error, including
+   under `--no-strict-coverage` — it is a role contradiction, not
+   under-declaration.
 
-At seed time violations are **warnings**; `--strict-coverage` makes them
-errors. The Tier-1 unit flips strict to the default (with a fixture
+At seed time violations of (1) and (2) are **warnings**; `--strict-coverage`
+makes them errors. The Tier-1 unit flips strict to the default (with a fixture
 proving an under-declared table fails). Schema-level `standalone`+`why` is
 the pressure valve for genuinely relation-free numbers.
 
@@ -136,7 +142,7 @@ wrong labels) that arithmetic cannot catch.
 
 | Plan decision | Resolution |
 |---|---|
-| Coverage-enforcement design | § 4 — both rules; warnings now, strict at Tier 1; `standalone`+`why` valve |
+| Coverage-enforcement design | § 4 — three rules (totals targeted, leaves feed, standalone participates in none); (1)(2) warnings historically, strict at Tier 1; standalone-in-relation always an error (U1 2026-09-17); `standalone`+`why` valve |
 | Per-relation tolerances | § 3 — sum exact, percent ±0.05; overrides need quoted `why` |
 | Spot-audit cadence | § 6 — every 10th unit, different agent, AUDITS.md |
 | Manifest steering policy | § 5 — same-shape rule + blocklist |

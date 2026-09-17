@@ -274,16 +274,14 @@
       "row": 3,
       "col": 2,
       "value": "8",
-      "role": "standalone",
-      "why": "Single-source this column; no reconciliation adjustment (0198) this period, equals 0100 exactly"
+      "role": "leaf"
     },
     {
       "id": "r3c3",
       "row": 3,
       "col": 3,
       "value": "59",
-      "role": "standalone",
-      "why": "Single-source this column; no reconciliation adjustment (0198) this period, equals 0100 exactly"
+      "role": "leaf"
     },
     {
       "id": "r4c1",
@@ -430,24 +428,21 @@
       "row": 11,
       "col": 1,
       "value": "54",
-      "role": "standalone",
-      "why": "Single-source, equals 1199 Total current law receipts exactly, no other-law receipts"
+      "role": "leaf"
     },
     {
       "id": "r11c2",
       "row": 11,
       "col": 2,
       "value": "77",
-      "role": "standalone",
-      "why": "Single-source, equals 1199 Total current law receipts exactly, no other-law receipts"
+      "role": "leaf"
     },
     {
       "id": "r11c3",
       "row": 11,
       "col": 3,
       "value": "80",
-      "role": "standalone",
-      "why": "Single-source, equals 1199 Total current law receipts exactly, no other-law receipts"
+      "role": "leaf"
     },
     {
       "id": "r12c1",

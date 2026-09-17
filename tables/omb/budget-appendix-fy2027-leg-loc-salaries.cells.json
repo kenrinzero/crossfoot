@@ -787,24 +787,21 @@
       "row": 28,
       "col": 1,
       "value": "606",
-      "role": "standalone",
-      "why": "Single-source"
+      "role": "leaf"
     },
     {
       "id": "r28c2",
       "row": 28,
       "col": 2,
       "value": "612",
-      "role": "standalone",
-      "why": "Single-source"
+      "role": "leaf"
     },
     {
       "id": "r28c3",
       "row": 28,
       "col": 3,
       "value": "634",
-      "role": "standalone",
-      "why": "Single-source"
+      "role": "leaf"
     },
     {
       "id": "r29c1",
@@ -924,8 +921,7 @@
       "row": 34,
       "col": 3,
       "value": "-18",
-      "role": "standalone",
-      "why": "Single-source offset column"
+      "role": "leaf"
     },
     {
       "id": "r35c1",

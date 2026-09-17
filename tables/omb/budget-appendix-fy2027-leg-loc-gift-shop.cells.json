@@ -472,16 +472,14 @@
       "row": 18,
       "col": 2,
       "value": "-12",
-      "role": "standalone",
-      "why": "Single-source, equals 4030 Federal sources exactly; no Non-Federal offset this column"
+      "role": "leaf"
     },
     {
       "id": "r18c3",
       "row": 18,
       "col": 3,
       "value": "-12",
-      "role": "standalone",
-      "why": "Single-source, equals 4030 Federal sources exactly; no Non-Federal offset this column"
+      "role": "leaf"
     },
     {
       "id": "r19c2",

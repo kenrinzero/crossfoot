@@ -93,6 +93,31 @@ def test_unknown_relation_ref_rejected(tmp_path):
     assert any("unknown cell ref" in v for v in violations)
 
 
+def test_standalone_source_is_always_red(tmp_path):
+    # AUDIT-2026-09-16 U1: DESIGN standalone means no arithmetic, but the
+    # oracle only obligated totals and leaves. A source labelled standalone
+    # must go red even under --no-strict-coverage.
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["cells"][0]["role"] = "standalone"
+    doc["cells"][0]["why"] = "synthetic standalone that still feeds a relation"
+    path = _write(tmp_path, doc)
+    violations, warnings = check(path)
+    assert warnings == []
+    assert any("standalone cell r1c1" in v for v in violations)
+    lenient, _ = check(path, strict_coverage=False)
+    assert any("standalone cell r1c1" in v for v in lenient)
+
+
+def test_standalone_target_is_always_red(tmp_path):
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    total = next(c for c in doc["cells"] if c["id"] == "r3c1")
+    total["role"] = "standalone"
+    total["why"] = "synthetic standalone that is a relation target"
+    path = _write(tmp_path, doc)
+    violations, _ = check(path)
+    assert any("standalone cell r3c1" in v for v in violations)
+
+
 def test_cli_exit_codes(capsys):
     assert main([str(GREEN)]) == 0
     assert main([str(TYPO)]) == 1
@@ -130,4 +155,23 @@ def test_corpus_is_utf8_lf_without_bom():
         raw.decode("utf-8")  # strict - mojibake or stray bytes raise here
         if cr in raw or raw.startswith(bom):
             offenders.append(p.relative_to(ROOT).as_posix())
+    assert offenders == []
+
+
+def test_corpus_standalone_cells_do_not_participate():
+    # AUDIT-2026-09-16 U1: 55 cells were standalone while feeding a relation.
+    # The oracle now rejects that; this scan is the corpus-wide lock.
+    offenders = []
+    for p in sorted((ROOT / "tables").glob("**/*.cells.json")):
+        doc = json.loads(p.read_bytes().decode("utf-8"))
+        used: set[str] = set()
+        for rel in doc.get("relations", []):
+            used.update(rel.get("sources", []))
+            if "target" in rel:
+                used.add(rel["target"])
+        for cell in doc["cells"]:
+            if cell.get("role") == "standalone" and cell["id"] in used:
+                offenders.append(
+                    f"{p.relative_to(ROOT).as_posix()}:{cell['id']}"
+                )
     assert offenders == []
