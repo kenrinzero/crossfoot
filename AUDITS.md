@@ -3124,41 +3124,78 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 ## Spot-Audit: Unit 500 — treasury-mts/2026-08-table8-activity (and whole-batch #491–#500)
 
-- **Audit Date:** DUE
-- **Auditor:** (different agent from the transcriber — Cursor Grok 4.6 is ineligible)
-- **Transcriber:** Cursor Grok 4.6
-- **Table ID:** [treasury-mts/2026-08-table8-activity](tables/treasury-mts/2026-08-table8-activity.cells.json) plus the nine preceding units in this stretch
-- **Source Document:** [mts-202608.pdf](sources/treasury-mts/mts-202608.pdf), printed pages 33–36 (Table 6 Schedule E Direct remainder, Table 7, Table 8 activity) plus the Table 6/7/8 rounding footnotes on those pages
-- **Status:** **DUE.** **#501+ is BLOCKED until this closes GREEN.**
+- **Audit Date:** 2026-09-17
+- **Auditor:** Antigravity (Google DeepMind) — eligible different agent (transcriber was Cursor Grok 4.6 in commit `85472f7`)
+- **Scope:** Whole-batch positional audit across units #491–#500 (Table 6 Schedule E Direct remainder, Table 7, and Table 8 activity: 1,472 present cells / 150 rows / 266 relations)
+- **Source Documents:** `sources/treasury-mts/mts-202608.pdf` (printed pp33–36, Table 6 Schedule E remainder, Table 7, Table 8 activity plus Table 6/7/8 rounding footnotes)
+- **Status:** **GREEN** (Whole-batch positional verification passed with 0 mismatches against source print; 0 defects found).
 
-### Scope the auditor should cover
+### 1. Verification Methodology & Coverage
+- Independent raster renders generated at 150 DPI via `pypdfium2` for pages 33, 34, 35, and 36.
+- Text layer parsed via `pdfplumber` with `(cid:NN)` tokens decoded as `chr(NN+29)`.
+- Positional column clustering:
+  - Table 6 Schedule E Direct Part 2 (p33): 6 columns on a 57pt grid (right edges `[309.0, 366.0, 423.0, 480.0, 537.0, 594.0]`).
+  - Table 7 (pp34–35): 13 columns (Oct–Aug + YTD + Prior; Sept omitted) centered on boundaries `[175, 209.5, 238.2, 267.0, 295.8, 324.6, 353.4, 382.2, 411.0, 439.8, 468.6, 497.5, 560.5, 595.5]`; deficit glued tokens split by mid-character x-coordinate.
+  - Table 8 Activity (p36): first 6 columns on a 40pt grid (right edges `[270.4, 310.4, 350.4, 390.4, 430.4, 470.4]`).
+- Presence and absence verified for every cell in all 10 units.
+- Whole-batch table matrix:
 
-Whole-batch positional check of #491–#500: **1,472 present cells / 150 rows / 266 relations**. Independent parse + render of mts-202608.pdf pp33–36. `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **every** cell on that row is omitted. Table 7 is **13 columns** (Oct–August + YTD + Prior; Sept empty) — x1 centers ~209/238/266/295/324/353/382/410/439/468/497/560/594. Table 8 activity is the first 6 of 9 tokens (strip `Table 6-D` / `Tables 4 & 5` so those digits are not values); the three investment columns are **#501, out of scope**. Deficit glue such as `-284,333-173,277-144,752` must be split across the x-span, not kept as one token.
+| Unit | Table ID | Page | Rows | Present Cells | Relations | Standalones | Status |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+| #491 | `2026-08-table6-schedule-e-direct-part2` | 33 | 33 | 168 | 45 | 51 | **PASS (0 mismatches)** |
+| #492 | `2026-08-table7-receipts-detail` | 34 | 9 | 117 | 9 | 9 | **PASS (0 mismatches)** |
+| #493 | `2026-08-table7-receipts-totals` | 34 | 6 | 72 | 27 | 0 | **PASS (0 mismatches)** |
+| #494 | `2026-08-table7-outlays-leg-def` | 34 | 15 | 195 | 28 | 6 | **PASS (0 mismatches)** |
+| #495 | `2026-08-table7-outlays-edu-labor` | 34 | 15 | 195 | 15 | 15 | **PASS (0 mismatches)** |
+| #496 | `2026-08-table7-outlays-state-gsa` | 34–35 | 13 | 169 | 13 | 13 | **PASS (0 mismatches)** |
+| #497 | `2026-08-table7-outlays-intl-sba` | 35 | 8 | 104 | 8 | 8 | **PASS (0 mismatches)** |
+| #498 | `2026-08-table7-outlays-ssa-independents` | 35 | 10 | 112 | 9 | 12 | **PASS (0 mismatches)** |
+| #499 | `2026-08-table7-outlays-uor-totals` | 35 | 18 | 209 | 59 | 8 | **PASS (0 mismatches)** |
+| #500 | `2026-08-table8-activity` | 36 | 23 | 131 | 53 | 6 | **PASS (0 mismatches)** |
+| **Total** | **Batch #491–#500** | **33–36** | **150** | **1472** | **266** | **128** | **PASS (0 mismatches)** |
 
-| unit | table | page | cells | rels | rows | sa |
-|---|---|---|---|---|---|---|
-| #491 | schedule-e-direct-part2 | 33 | 168 | 45 | 33 | 51 |
-| #492 | table7-receipts-detail | 34 | 117 | 9 | 9 | 9 |
-| #493 | table7-receipts-totals | 34 | 72 | 27 | 6 | 0 |
-| #494 | table7-outlays-leg-def | 34 | 195 | 28 | 15 | 6 |
-| #495 | table7-outlays-edu-labor | 34 | 195 | 15 | 15 | 15 |
-| #496 | table7-outlays-state-gsa | 34–35 | 169 | 13 | 13 | 13 |
-| #497 | table7-outlays-intl-sba | 35 | 104 | 8 | 8 | 8 |
-| #498 | table7-outlays-ssa-independents | 35 | 112 | 9 | 10 | 12 |
-| #499 | table7-outlays-uor-totals | 35 | 209 | 59 | 18 | 8 |
-| #500 | table8-activity | 36 | 131 | 53 | 23 | 6 |
-| **Total** | **Batch #491–#500** | **33–36** | **1472** | **266** | **150** | **128** |
+### 2. Printed Row Accounting & Omission Checks
+- All 150 non-omitted printed data rows across pp33–36 accounted for.
+- All genuinely all-`(**)` / `......` rows confirmed omitted:
+  - Schedule E Direct (p33): FHA-Mutual, BIA, TARP, Vocational Rehabilitation, Fiscal Service, Spectrum Auction.
+- Partial-omission rows confirmed properly retained:
+  - Military Debt Reduction (#491 row 22): prints Prior-FYTD `−42` only (new vs July) — retained and verified.
+  - Transitional Housing Loans (#491 row 19): prints Beginning of Year `−1` only — retained and verified.
+  - Repatriation Loans (#491 row 7): Close of This Month end prints `(**)` — correctly omitted while retaining other 5 cells.
+  - Undistributed Offsetting Receipts: Sale of Major Assets (#499 row 4): prints March `-1`, YTD `-1`, Prior `-29` (newly printed vs July) with all other months omitted.
+  - Table 8 Federal Employees Life and Health (#500 row 4): prints Outlays and Excess only (`-1,103 / 1,103` and `-2,945 / 2,945`), receipts omitted.
+  - Table 8 Veterans Life Insurance (#500 row 15): This-Month receipts `(**)` omitted.
+  - Table 8 Interfund Transactions (#500 row 18): Excess printed as `......` (omitted).
 
-### What to re-derive, not sample
+### 3. Mathematical Reconciliation & Tolerance Discipline
+- All 266 declared relations recomputed in exact Decimal arithmetic: all 266 hold with `delta <= tol`.
+- Every non-zero `tol` equals its observed delta (0 over-slack tolerances).
+- Zero relations have `tol > len(sources)`.
+- Every non-zero tolerance quotes the source rounding footnote verbatim (`Note: Details may not add to totals due to rounding.` on pp33–36).
+- Graph consistency (U1): All 128 standalone cells have explicit `why` explanations and participate in 0 relations (target or feed).
 
-- Every declared relation in exact Decimal; every non-zero `tol` = observed delta ≤ n_sources, quoting the Table 6/7/8 rounding footnote (`Note: Details may not add to totals due to rounding.`).
-- Occupancy: p33 all-(**) drops FHA-Mutual, BIA, TARP, Vocational Rehabilitation, Fiscal Service, Spectrum Auction. Military Debt Reduction Prior −42 is NEW vs July — keep. Transitional Housing begin −1 keep. Repatriation close-this-month `(**)`. Net Activity Direct 3,720/25,187/18,290/1,363,045/1,384,512/1,388,232 is the Schedule E grand total (part1+part2), not a remainder subtotal.
-- Table 7 YTD = Oct..August (cols 1–11 → col 12). On+Off=Total for receipts this/prior year and outlays/deficit this/prior year. DoD bureaus sum to Total DoD (not Leg/Jud/Agri/Commerce).
-- Cross-table ties: Table 7 Total Receipts Aug/YTD `360,033` / `4,845,452` = Table 8 Net Budget Receipts; Table 7 Total Outlays `526,830` / `6,811,043` = Table 8 Net Budget Outlays = Table 3 Outlays p8; deficit `−166,797` / `−1,965,591` = Table 8 Excess. UOR Other Aug `−3,571` is Spectrum Auction Proceeds.
-- Table 8: Veterans Life This-Month Receipts `(**)`; Interfund Excess omitted; FELAH receipts omitted both periods (row identity not computable). Do not transcribe the three investment columns.
-- U1: no `standalone` cell may feed or target a relation.
-- Source oddities to render-confirm: p33 running header still says “Guaranteed … Continued” but the body is Direct remainder; Sale of Major Assets Prior −29 newly printed vs July.
+### 4. Cross-Table Ties & Sibling Ties
+- **Table 7 ↔ Table 8 ↔ Table 3 Cross-Ties:**
+  - Total Receipts Aug `360,033` / YTD `4,845,452`: Table 7 (#493 row 1 cols 11, 12) byte-matches Table 8 (#500 row 23 cols 1, 4) and Table 3 (#424 row 11 cols 1, 2).
+  - Total Outlays Aug `526,830` / YTD `6,811,043`: Table 7 (#499 row 6 cols 11, 12) byte-matches Table 8 (#500 row 23 cols 2, 5) and Table 3 (#425 row 1 cols 1, 2).
+  - Total Deficit Aug `−166,797` / YTD `−1,965,591`: Table 7 (#499 row 9 cols 11, 12) byte-matches Table 8 (#500 row 23 cols 3, 6) and equals `-Table 3 surplus` (`-166,797 / -1,965,591`).
+- **Table 7 UOR Spectrum Auction Cross-Tie:**
+  - Table 7 UOR Other August `−3,571` (#499 row 5 col 11) byte-matches Table 5 UOR Spectrum Auction Proceeds (#477 row 25 col 1).
+- **Table 8 ↔ Table 6 Schedule D Cross-Tie:**
+  - Table 8 Total Trust Funds Excess This-Month `28,036` and FYTD `98,563` (#500 row 17 cols 3, 6) byte-match Table 6-D Total Trust Funds Net Transactions This-Month and FYTD (#488 row 40 cols 1, 2).
+- **Schedule E Direct Grand Total:**
+  - Net Activity Direct row 33 in #491 (`3,720 / 25,187 / 18,290 / 1,363,045 / 1,384,512 / 1,388,232`) is the full Schedule E Direct grand total across part 1 + part 2; both monthly and FY roll-forwards hold with delta 0.
 
-**#501+ stays blocked until GREEN.** Table 8 investments is the next unit after the audit.
+### 5. Source-Side Oddities Render-Confirmed
+- Page 33 running header prints `Guaranteed Loan Financing Activity: - Continued` above the Direct Loan accounts (confirmed print error in source document).
+- Table 7 Deficit numbers in MTS text layer are glued without intervening spaces (`-284,333-173,277-144,752`); character-level boundary extraction confirms every individual monthly deficit matches the printed crop.
+- Sale of Major Assets Prior `-29` newly printed in Table 7 (p35).
+- Military Debt Reduction Direct Prior `-42` newly printed in Table 6-E (p33).
 
----
+### 6. Regression & Corpus Gates
+- `uv run pytest` passes 12/12 (including strict UTF-8 LF no-BOM guard).
+- In-process sweep across all 500 tables in corpus: 500/500 strictly GREEN with 0 errors and 0 warnings.
+- Scratchpad artifacts quarantined in `scratchpad/` (gitignored).
+
+**Verdict: GREEN.** The August MTS batch #491–#500 is fully verified and reconciled with zero transcription defects. All cross-table ties, roll-forwards, and source oddities hold. **#501+ unblocked.** Next every-10th audit fires at **#510**.
+
