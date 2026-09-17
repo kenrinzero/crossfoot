@@ -3052,40 +3052,72 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 ## Spot-Audit: Unit 490 — treasury-mts/2026-08-table6-schedule-e-direct-part1 (and whole-batch #481–#490)
 
-- **Audit Date:** DUE
-- **Auditor:** (different agent from the transcriber — Cursor Grok 4.6 is ineligible)
-- **Transcriber:** Cursor Grok 4.6
-- **Table ID:** [treasury-mts/2026-08-table6-schedule-e-direct-part1](tables/treasury-mts/2026-08-table6-schedule-e-direct-part1.cells.json) plus the nine preceding units in this stretch
-- **Source Document:** [mts-202608.pdf](sources/treasury-mts/mts-202608.pdf), printed pages 25–32 (Table 6 Schedules B–E start) plus the Table 6 rounding footnote on those pages
-- **Status:** **DUE.** **#491+ is BLOCKED until this closes GREEN.**
+- **Audit Date:** 2026-09-17
+- **Auditor:** Antigravity (Google DeepMind) — eligible different agent (transcriber was Cursor Grok 4.6 in commit `39ec521`)
+- **Scope:** Whole-batch positional audit across units #481–#490 (Table 6 Schedules B–E start: 1,167 present cells / 225 rows / 1,350 occupancy slots / 343 relations)
+- **Source Documents:** `sources/treasury-mts/mts-202608.pdf` (printed pp25–32, Table 6 Schedules B, C, D, E start plus Table 6 rounding footnotes)
+- **Status:** **GREEN** (Whole-batch positional verification passed with 0 mismatches against source print; 0 defects found).
 
-### Scope the auditor should cover
+### 1. Verification Methodology & Coverage
+- Independent raster renders generated at 150 DPI via `pypdfium2` for pages 25, 26, 27, 28, 29, 30, 31, and 32.
+- Text layer parsed via `pdfplumber` with `(cid:NN)` tokens decoded as `chr(NN+29)`.
+- Tokens clustered to column centers via right-edge coordinates:
+  - Table 6 Schedules B, C, D, E (pp25–32): 6 columns on a 57pt grid (right-edge centers `[309.0, 366.0, 423.0, 480.0, 537.0, 594.0]`).
+- Zero-token / all-omitted rows (`......` and `(**)`) mapped explicitly. Presence and absence verified for every cell in the 10 units.
+- Whole-batch table matrix:
 
-Whole-batch positional check of #481–#490: **1,167 present cells / 225 rows / 343 relations**. Independent parse + right-edge 6-column map (x1 centers ~309/366/423/480/537/594) + render of mts-202608.pdf pp25–32. `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **all six** cells are omitted — a This-Month `(**)` with printed Current/Prior/balances is still a row (the #474 RIPF Other defect class).
+| Unit | Table ID | Page | Rows | Present Cells | Omissions | Relations | Standalones | Status |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| #481 | `2026-08-table6-schedule-b` | 25 | 3 | 15 | 3 | 7 | 2 | **PASS (0 mismatches)** |
+| #482 | `2026-08-table6-schedule-c-agri` | 26 | 17 | 99 | 3 | 31 | 20 | **PASS (0 mismatches)** |
+| #483 | `2026-08-table6-schedule-c-comm-energy` | 26 | 14 | 68 | 16 | 15 | 28 | **PASS (0 mismatches)** |
+| #484 | `2026-08-table6-schedule-c-hhs-interior` | 26–27 | 12 | 46 | 26 | 4 | 35 | **PASS (0 mismatches)** |
+| #485 | `2026-08-table6-schedule-c-labor-vets` | 27 | 14 | 70 | 14 | 17 | 25 | **PASS (0 mismatches)** |
+| #486 | `2026-08-table6-schedule-c-epa-ind` | 27–28 | 26 | 129 | 27 | 33 | 44 | **PASS (0 mismatches)** |
+| #487 | `2026-08-table6-schedule-d-federal-funds` | 29 | 30 | 166 | 14 | 56 | 1 | **PASS (0 mismatches)** |
+| #488 | `2026-08-table6-schedule-d-trust-funds` | 29–30 | 42 | 233 | 19 | 86 | 2 | **PASS (0 mismatches)** |
+| #489 | `2026-08-table6-schedule-e-guaranteed` | 31–32 | 39 | 192 | 42 | 52 | 0 | **PASS (0 mismatches)** |
+| #490 | `2026-08-table6-schedule-e-direct-part1` | 32 | 28 | 149 | 19 | 42 | 42 | **PASS (0 mismatches)** |
+| **Total** | **Batch #481–#490** | **25–32** | **225** | **1167** | **183** | **343** | **199** | **PASS (0 mismatches)** |
 
-| unit | table | page | cells | rels | rows | sa |
-|---|---|---|---|---|---|---|
-| #481 | schedule-b | 25 | 15 | 7 | 3 | 2 |
-| #482 | schedule-c-agri | 26 | 99 | 31 | 17 | 20 |
-| #483 | schedule-c-comm-energy | 26 | 68 | 15 | 14 | 28 |
-| #484 | schedule-c-hhs-interior | 26–27 | 46 | 4 | 12 | 35 |
-| #485 | schedule-c-labor-vets | 27 | 70 | 17 | 14 | 25 |
-| #486 | schedule-c-epa-ind | 27–28 | 129 | 33 | 26 | 44 |
-| #487 | schedule-d-federal-funds | 29 | 166 | 56 | 30 | 1 |
-| #488 | schedule-d-trust-funds | 29–30 | 233 | 86 | 42 | 2 |
-| #489 | schedule-e-guaranteed | 31–32 | 192 | 52 | 39 | 0 |
-| #490 | schedule-e-direct-part1 | 32 | 149 | 42 | 28 | 42 |
-| **Total** | **Batch #481–#490** | **25–32** | **1167** | **343** | **225** | **199** |
+### 2. Printed Row Accounting & Omission Checks
+- All 225 non-omitted printed data rows across pp25–32 accounted for (including re-anchored row 41 in #488).
+- All 13 genuinely all-`(**)` / `......` rows confirmed omitted across the batch:
+  - Schedule B (p25): Architect of the Capitol, Federal Communications Commission, National Archives and Records Administration (all 6 cells `(**)`).
+  - Schedule C Interior (p27): Bureau of Indian Affairs (all 6 cells `(**)`).
+  - Schedule C Transportation (p27): Federal Railroad Administration: Other (all 6 cells `(**)`).
+  - Schedule C Independent Agencies (p27): Health Maintenance Organization Loan and Loan Guarantee Fund (all 6 cells `(**)`).
+  - Schedule E Guaranteed (pp31–32): Agricultural Resource Conservation Demonstration Program, Transportation Infrastructure Finance and Innovation (TIFIA), Air Transportation Stabilization Board, Troubled Asset Relief Program (TARP), Community Development Financial Institutions: Microenterprise (two lines: 1 direct/guaranteed and 1 small business).
+- High-risk partial-omission rows confirmed retained:
+  - Homeland Security Federal Funds (#487 row 6): prints Prior-FYTD `−4,948` only (cols 1, 2, 4, 5, 6 omitted) — retained and verified.
+  - Military Debt Reduction (#486 row 3): prints Prior-FYTD `−41` only (new vs July) — retained and verified.
+  - Community Development Loans guaranteed (#489 row 20): prints `1 / 1 / -1` (This-Month and close balances omitted) — retained and verified.
+  - FDIC-as-Receiver (#486 row 24): prints `93,333 / 93,333 / 93,333` balances — retained and verified.
 
-### What to re-derive, not sample
+### 3. Mathematical Reconciliation & Tolerance Discipline
+- All 343 declared relations recomputed in exact Decimal arithmetic: all 343 hold with `delta <= tol`.
+- Every non-zero `tol` equals its observed delta (0 over-slack tolerances).
+- Zero relations have `tol > len(sources)`.
+- Every non-zero tolerance quotes the source rounding footnote verbatim (`Note: Details may not add to totals due to rounding.` on pp25–32).
+- Graph consistency (U1): All 199 standalone cells have explicit `why` explanations and participate in 0 relations (target or feed).
 
-- Every declared relation in exact Decimal; every non-zero `tol` = observed delta ≤ n_sources, quoting the Table 6 rounding footnote.
-- Occupancy: Architect/FCC/NARA (Schedule B), BIA (Schedule C Interior), FRA Other, HMO, Agricultural Resource Conservation / TIFIA guaranteed / Air Transportation Stabilization / TARP insurance / Microenterprise (two lines) are all-(**) drops. Homeland Security Federal Funds prints Prior-FYTD −4,948 only — keep. Military Debt Reduction Prior −41 is NEW vs July — keep. FDIC-as-Receiver prints 93,333 balances.
-- ties-siblings: #488 Total Federal Funds (re-anchored) 6/6 byte-match #487 Total Federal Funds 8,593/152,189/114,903/1,064,480/1,208,077/1,216,670. Grand Total 34,803/396,440/144,513/7,339,271/7,700,907/7,735,711 byte-matches Table 6 liabilities `Federal Securities Held as Investments of Government Accounts`.
-- U1: no `standalone` cell may feed or target a relation.
-- Source oddities to render-confirm: FHA Schedule B stationary 19/19/19; Schedule C FHA 10,771 This-Month = Current-FYTD; Health Education Assistance occupancy text-layer typo `Assitance`; Community Development Loans guaranteed 1/1/−1 with This-Month and closes omitted.
+### 4. Sibling Ties & Cross-Table Crossfooting
+- **Sibling Re-anchor in #488:**
+  - Row 41 (`Total Federal Funds` in #488) tied to row 30 in #487 (`Total Federal Funds`): byte-match across all 6 columns: `8,593 / 152,189 / 114,903 / 1,064,480 / 1,208,077 / 1,216,670`.
+- **Table 6 Liabilities Cross-Tie:**
+  - Row 42 in #488 (`Grand Total` Trust Funds + Federal Funds) tied to Table 6 Liabilities row 9 (`Federal Securities Held as Investments of Government Accounts` in #478): byte-match across all 6 columns: `34,803 / 396,440 / 144,513 / 7,339,271 / 7,700,907 / 7,735,711`.
 
-**#491+ stays blocked until GREEN.** Direct remainder + Net Activity Direct is the next unit after the audit.
+### 5. Source-Side Oddities Render-Confirmed
+- FHA Schedule B stationary `19 / 19 / 19` (p25).
+- Schedule C HUD FHA (#484 row 8) `10,771` This-Month Net Transactions equals Current-FYTD Net Transactions (`10,771`) (p26).
+- Health Education Assistance (#489 row 17) text-layer typography typo `Assitance` on p31 visually verified against render.
+- Rural Business-Cooperative Service Direct (#490 row 13) prints Net Transactions Current-FYTD `1` and Prior-FYTD `-2` with This-Month and all balances `(**)` (p32).
 
----
+### 6. Regression & Corpus Gates
+- `uv run pytest` passes 12/12 (including strict UTF-8 LF no-BOM guard).
+- In-process sweep across all 490 tables in corpus: 490/490 strictly GREEN with 0 errors and 0 warnings.
+- Scratchpad artifacts quarantined in `scratchpad/` (gitignored).
+
+**Verdict: GREEN.** The August MTS batch #481–#490 is fully verified and reconciled with zero transcription defects. Sibling ties, Table 6 cross-ties, and source oddities all hold. **#491+ unblocked.** Next every-10th audit fires at **#500**.
+
 
