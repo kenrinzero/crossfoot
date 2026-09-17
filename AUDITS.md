@@ -2874,24 +2874,80 @@ Table 5 print and #458 agree on Treasury Total Outlays **112,953 / 1,520,317 / 1
 
 ---
 
-## Unit 470 — treasury-mts/2026-08-outlays-social-security (PENDING different-agent audit)
+## Unit 470 — treasury-mts/2026-08-outlays-social-security (CLOSED GREEN 2026-09-17, whole-batch #461–#470)
 
-**Transcriber:** Cursor Grok 4.6 (#461–#470 in the commit carrying this placeholder). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible (it also closed the #440 and #460 audits).
+**Transcriber:** Cursor Grok 4.6 (#461–#470 in `0105aa6`). **Auditor:** Antigravity (different agent — Cursor Grok 4.6 transcribed #461–#470 and closed #440 and #460). Whole-batch positional check of #461–#470 per family practice (#340 / #350–#460 precedent).
 
-#470 is the 49th unit of the August 2026 MTS family. Ten consecutive units from one transcriber since the #460 audit closed, so the scope is the whole batch **#461–#470**: 624 present cells / 101 rows / 909 occupancy slots / 158 declared relations. Whole-batch positional checking is the family's working practice (the #340 / #350–#460 precedent). **#471+ is blocked** until this audit closes GREEN.
+**Method.** Independent pdfplumber text layer + pypdfium2 renders of `sources/treasury-mts/mts-202608.pdf` printed pages 18 (foot), 19, 20, 21 (Table 5 Other Defense Civil through Social Security Administration) plus p23 for the Table 5 rounding footnote and p8 for the Table 3 Outlays ties; `(cid:NN)` decoded as `chr(NN+29)`. Table 5 parsed into `(label, 9 values)` records with an assertion that every data line yields exactly nine value tokens on the 40pt grid (x1 centers **274 / 314 / 354 / 394 / 434 / 474 / 514 / 554 / 594** across all four unit-bearing pages). 106 data rows parsed across pp18–21 (101 unit rows + 7 EOP rows on p19 from #431 − 2 sibling-shared rows = 106 rows); 0 BAD records (every data line nval=9). Every unit cell compared positionally against that extraction, including omission slots (`......` / `(**)` = absent, not 0). Pages 18, 19, 20, 21, 23, and 8 render-verified by eye. Units were not audited against their own claims.
 
-**Requested scope** (replace this placeholder with the audit record):
+### 1. Positional check, #461–#470 (624 present cells / 909 occupancy slots)
 
-1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 18 (foot: Payment to Military Retirement Fund), 19 (Other Defense Civil through AID/OPIC), 20 (Peace Corps through SSA OASDI/DI), 21 (SSA remainder through Independent Agencies start) plus p23 for the Table 5 rounding footnote and p8 for Table 3 Outlays; `(cid:NN)` decoded `chr(NN+29)`. Parse Table 5 into `(label, 9 values)` records and assert nine value tokens per data line, so a glued footnote digit surfaces as a ten-token line. **Map tokens to columns by right-edge clustering, not by order** — the nine columns sit on a 40pt grid (x1 ≈ 274/314/354/394/434/474/514/554/594), and a value-order check alone cannot see a column shift. Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
-2. Row COUNTs. No all-omitted data row is dropped in this batch (EOP's all-omitted Intrabudgetary row sits between EPA and GSA and already belongs to shipped #431). Continuation-header wrap (`Other Defense Civil Programs: - Continued Military Retirement Fund`, `International Assistance Programs: - Continued Peace Corps`, `Social Security Administration: - Continued Other`) must not produce extra rows.
-3. Recompute all 158 declared relations in exact Decimal. Every non-zero `tol` must equal its observed delta, be `≤ len(sources)`, and quote the p23 footnote verbatim (`Note: Details may not add to totals due to rounding.`). Plausibility scan: 0 relations with `tol > n_sources`. Widest seats claimed: #464 AID col-4/col-6 roll-ups tol-2; #463 GSA col-7 roll-up tol-2 over four components; #466 NASA col-6 roll-up tol-2; #468 OPM col-3 roll-up tol-2.
-4. Re-derive ties-siblings: #465 ← #464 overlapping `Total--International Security Assistance` and `Total--Agency for International Development` (17 cells; ISA This-Month Applicable is omitted on both sides).
-5. Floor misses to uphold or reject: **#464** 20 relations against the July-derived floor of 21 — ISA-Other and ISA-Total This-Month receipts omitted (the same miss the July twin #384 was adjudicated on). **#465** 30 relations against the July-derived floor of 33 (July itself shipped 32 vs 33) — IDA This-Month still omitted so Multilateral This-Month roll-ups stay single-source; Peace Corps Applicable on the agency line omitted (July printed Current/Prior 1/1), dropping those two nets; IMP This-Month omitted (July 1/1). Printed-cell omissions, never padded. No other floor miss in the batch: #461 9/9, #462 15/15, #463 9/9, #466 8/8, #467 9/9 (July was 8 vs 9 — Proprietary This-Month newly prints 2/-2), #468 18/18, #469 16/16, #470 24/24.
-6. Source-side oddities to render-confirm: #463 GSA Proprietary This-Month prints **−15 / 15** (July 234/−234); #464 AID Proprietary This-Month prints **−1 / 1** (July 335/−335) and AID Intrabudgetary This-Month is `(**)`; #467 NSF Proprietary This-Month newly prints **2 / −2**; #468 OPM Postal Service Contributions This-Month newly prints **−1 / −1**; #469 SBA Intrabudgetary Current-FYTD newly prints **−4 / −4**; #470 Intrabudgetary Off-Budget text layer is `Off-Budget3` — render is footnote 3 (`Off-Budget³`), value −31 / −57,353 / −59,976, not a glued extra digit.
-7. Roles / U1: a `standalone` must feed nothing and target nothing. The batch claims graph-consistent roles; standalones are the omission-sparse Proprietary Applicable cells (and #465's OPIC Accounts pair plus extra Peace Corps / IMP occupancy losses).
-8. Cross-table ties against Table 3 (printed p8; already in corpus as `2026-08-table3-outlays-departments` / `…-remainder`): Other Defense Civil −949 / 57,458 / 75,637; EPA 2,045 / 15,983 / 35,505; GSA −227 / −1,064 / −243; International Assistance 3,854 / 21,195 / 19,061; NASA 1,809 / 21,216 / 22,264; NSF 907 / 7,952 / 8,880; OPM 10,600 / 124,287 / 117,011; SBA 171 / 11,680 / 741; SSA 141,732 / 1,586,725 / 1,512,597. The transcriber claims byte-match on every Outlays triple.
+| unit | page | cells | rows | result |
+|---|---|---|---|---|
+| #461 outlays-other-defense-civil | 18–19 | 53 | 9 / 3 sa | matches; starts foot of p18, cites 19 |
+| #462 outlays-epa | 19 | 62 | 10 / 0 sa | matches |
+| #463 outlays-gsa | 19 | 39 | 6 / 3 sa | matches; Proprietary This-Month prints −15 / 15 (see §6) |
+| #464 outlays-international-assistance-bureaus | 19 | 79 | 13 / 3 sa | matches; AID Proprietary prints −1 / 1, Intra omitted |
+| #465 outlays-international-assistance-departmental | 19–20 | 103 | 17 / 6 sa | matches; spans pp19–20, cites 20 |
+| #466 outlays-nasa | 20 | 52 | 9 / 2 sa | matches |
+| #467 outlays-nsf | 20 | 33 | 5 / 3 sa | matches; Proprietary This-Month newly prints 2 / −2 |
+| #468 outlays-opm | 20 | 67 | 10 / 0 sa | matches; Postal Service Contributions This-Month prints −1 / −1 |
+| #469 outlays-sba | 20 | 47 | 7 / 0 sa | matches; Intrabudgetary Current-FYTD prints −4 / −4 |
+| #470 outlays-social-security | 20–21 | 89 | 15 / 0 sa | matches; Off-Budget footnote 3 glued in text layer resolved (see §2) |
 
-**Pages:** 18 (Payment to Military Retirement Fund at the foot, after Corps of Engineers), 19 (Other Defense Civil remainder, EPA, EOP already shipped as #431, GSA, ISA, Multilateral, AID, OPIC), 20 (Peace Corps through SSA OASDI/DI totals), 21 (SSA Other / Proprietary / Intra / Total), 23 (rounding footnote), 8 (Table 3). Sections spanning a page boundary cite the later page per the family convention: #461 starts p18 and cites 19; #465 spans pp19–20 and cites 20; #470 spans pp20–21 and cites 20.
+0 value mismatches, 0 omission mismatches, 0 missing/extra rows across all **624 present cells** (909 occupancy slots; 285 omission slots confirmed absent). Coverage proof: 101 unit rows across the batch are claimed; continuation-header wraps (`Other Defense Civil Programs: - Continued`, `International Assistance Programs: - Continued`, `Social Security Administration: - Continued`) produce no extra rows; 7 EOP rows on p19 confirmed belonging to shipped #431.
 
----
+### 2. Footnote-glue and text-layer rendering
 
+- #470 Intrabudgetary Transactions / Off-Budget: text-layer emits `Off-Budget3` at the label position; pypdfium2 render confirms superscript footnote 3 (`Off-Budget³`), and values −31 / −57,353 / −59,976 are clean, not glued into the numbers.
+- p23 prints Table 5 footnotes and `Note: Details may not add to totals due to rounding.`, `...... No Transactions`, `(**) Less than absolute value of $500,000` — render-confirmed verbatim.
+
+### 3. Relations and tolerance plausibility
+
+All **158** declared relations recomputed in exact Decimal: every one holds (`|delta| ≤ tol`). Every non-zero `tol` equals its observed delta, is `≤ len(sources)`, and quotes the p23 Table 5 footnote verbatim. **Plausibility scan: 0 relations with `Decimal(tol) > len(sources)`**. Widest seats match the ship notes: #464 AID col-4/col-6 roll-ups tol-2; #463 GSA col-7 roll-up tol-2 over four components; #466 NASA col-6 roll-up tol-2; #468 OPM col-3 roll-up tol-2.
+
+**Floor misses upheld:**
+- **#464** (20 relations vs July-derived floor of 21): ISA-Other and ISA-Total This-Month receipts omitted, so those two This-Month net identities are not computable (same miss the July twin #384 was adjudicated on).
+- **#465** (30 relations vs July-derived floor of 33): IDA This-Month omitted so Multilateral This-Month roll-ups stay single-source; Peace Corps Applicable on the agency line omitted (July printed Current/Prior 1/1), dropping those two nets; IMP This-Month omitted (July 1/1). Printed-cell omissions, never padded.
+
+No other floor misses in the batch: #461 9/9, #462 15/15, #463 9/9, #466 8/8, #467 9/9 (July was 8 vs 9 — Proprietary This-Month newly prints 2/−2), #468 18/18, #469 16/16, #470 24/24.
+
+### 4. ties-siblings (re-derived from overlapping labels)
+
+- #465 ← #464: overlapping `Total--International Security Assistance` and `Total--Agency for International Development`; all **17** tied cells byte-match (ISA This-Month Applicable omitted on both sides).
+
+### 5. Roles (U1)
+
+Graph-consistent across the batch: **0 U1 hits** — no `standalone` cell feeds or targets a relation; all 20 standalones (#461 3, #463 3, #464 3, #465 6, #466 2, #467 3) carry a `why`; every `total` is a relation target; every `leaf` feeds at least one relation and is never a target.
+
+### 6. Source-side oddities (render-confirmed)
+
+- #463 GSA Proprietary This-Month prints **−15 / 15** (July 234/−234).
+- #464 AID Proprietary This-Month prints **−1 / 1** (July 335/−335) and AID Intrabudgetary This-Month is `(**)`.
+- #467 NSF Proprietary This-Month newly prints **2 / −2** (July `(**)`).
+- #468 OPM Postal Service Contributions This-Month newly prints **−1 / −1** (July `(**)`).
+- #469 SBA Intrabudgetary Current-FYTD newly prints **−4 / −4** (July omitted).
+- #470 Intrabudgetary Off-Budget text layer is `Off-Budget3` — render is footnote 3 (`Off-Budget³`), value −31 / −57,353 / −59,976, not a glued extra digit.
+
+### 7. Cross-table ties against Table 3 (printed p8; all Outlays triples byte-match)
+
+- Other Defense Civil: −949 / 57,458 / 75,637
+- EPA: 2,045 / 15,983 / 35,505
+- GSA: −227 / −1,064 / −243
+- International Assistance Programs: 3,854 / 21,195 / 19,061
+- NASA: 1,809 / 21,216 / 22,264
+- NSF: 907 / 7,952 / 8,880
+- OPM: 10,600 / 124,287 / 117,011
+- SBA: 171 / 11,680 / 741
+- SSA: 141,732 / 1,586,725 / 1,512,597
+
+All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
+
+### Gates
+
+- reconcile exit 0 on all 10 units, 0 warnings
+- pytest 12/12
+- full sweep 470/470 GREEN, 0 failures (failure-aggregating in-process loop)
+- no corpus value changed
+
+**Verdict: GREEN.** The August MTS batch #461–#470 is a faithful, arithmetically-reconciled transcription of mts-202608.pdf pp18–21, with the #470 footnote-3 text glue render-resolved, the #464 and #465 floor misses upheld as printed-cell omissions, ties-siblings 17/17 byte-matched, all 9 Table 3 Outlays triples byte-matched, and source-side oddities render-confirmed. **#471+ unblocked.** Next every-10th audit fires at **#480**.
