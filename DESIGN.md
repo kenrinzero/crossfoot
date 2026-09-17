@@ -36,8 +36,12 @@ BACKLOG.md                 the unit manifest
   schema from day one. Optional `unit` per cell; table-level
   `unit_note`/`scale` for "in millions" style disclosures.
 - **Row and column labels are REQUIRED** (v1 schema scope decision):
-  cheap to transcribe, and they make the corpus usable. Footnote capture
-  is deferred to the Tier-3 second pass.
+  cheap to transcribe, and they make the corpus usable. Label `index`
+  values are unique; every cell `row`/`col` must name a labelled index
+  (sparse/non-contiguous indices are allowed; unused labels are allowed).
+  Direct self-target sums (`target` ∈ `sources`) are rejected — they
+  manufacture coverage without independent inputs (AUDIT-2026-09-16 U2/U3).
+  Footnote capture is deferred to the Tier-3 second pass.
 
 ## 3. Relations v1 (settled)
 
@@ -54,7 +58,7 @@ nested closure → Tier-4 harness units.
 ## 4. Coverage (settled design; enforcement staged)
 
 Consistency ≠ completeness — a lazy transcription could under-declare
-relations and pass. Two rules, both implemented in `reconcile.py` NOW:
+relations and pass. Three rules, all implemented in `reconcile.py` NOW:
 
 1. every `role: total` cell must be the **target** of ≥ 1 relation;
 2. every `role: leaf` cell must appear as a **source** in ≥ 1 relation;

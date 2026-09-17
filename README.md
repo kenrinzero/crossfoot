@@ -61,7 +61,7 @@ The corpus is transcribed and audited by a rotating fleet of AI agents —
 uv venv && uv sync                                     # once
 uv run python reconcile.py tables/<family>/<id>.cells.json
 uv run pytest                                          # oracle self-tests
-fail=0; for f in tables/*/*.cells.json; do uv run python reconcile.py "$f" || fail=1; done; exit $fail   # full sweep (propagates any failure)
+uv run python reconcile.py --all                       # full sweep (empty selection is red; any unit failure is red)
 ```
 
 ## License

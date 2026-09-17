@@ -51,7 +51,7 @@ read the rest of AUDITS.md or the log archives.
    identity are a missing-class smell (Table 6 has both a monthly and a
    fiscal-year roll-forward).
 4. **Gates:** unit reconcile GREEN 0 warnings; `uv run pytest` green;
-   full-corpus sweep (`for f in tables/*/*.cells.json; ...`) all GREEN.
+   full-corpus sweep (`uv run python reconcile.py --all`) all GREEN.
 5. **Record:** replace the AUDITS.md placeholder with your audit entry
    (mirror the previous entry's section structure; verdict GREEN or the
    defect list). Real defects: repair only if mechanical and

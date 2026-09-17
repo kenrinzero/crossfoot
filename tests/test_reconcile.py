@@ -9,7 +9,7 @@ from pathlib import Path
 
 import pytest
 
-from reconcile import check, main
+from reconcile import check, main, sweep
 
 ROOT = Path(__file__).resolve().parent.parent
 GREEN = ROOT / "fixtures" / "mini-green.cells.json"
@@ -65,6 +65,15 @@ def test_schema_rejects_float_values(tmp_path):
     assert violations and violations[0].startswith("schema:")
 
 
+def test_schema_rejects_json_float_values(tmp_path):
+    # AUDIT-2026-09-16 D4: the exponent-string case above is not a JSON
+    # number. A bare 2.0 must be rejected as a schema type error.
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["cells"][0]["value"] = 2.0
+    violations, _ = check(_write(tmp_path, doc))
+    assert violations and violations[0].startswith("schema:")
+
+
 def test_schema_requires_why_on_standalone(tmp_path):
     doc = json.loads(GREEN.read_text(encoding="utf-8"))
     doc["cells"][0]["role"] = "standalone"  # no why -> schema error
@@ -91,6 +100,38 @@ def test_unknown_relation_ref_rejected(tmp_path):
     doc["relations"][0]["sources"] = ["r1c1", "r9c9"]
     violations, _ = check(_write(tmp_path, doc))
     assert any("unknown cell ref" in v for v in violations)
+
+
+def test_duplicate_row_index_rejected(tmp_path):
+    # AUDIT-2026-09-16 U2: label arrays were not uniqueness-checked.
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["rows"].append({"index": 1, "label": "dup"})
+    violations, _ = check(_write(tmp_path, doc))
+    assert any("duplicate row index 1" in v for v in violations)
+
+
+def test_cell_row_without_label_rejected(tmp_path):
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["rows"] = [{"index": 99, "label": "only"}]
+    violations, _ = check(_write(tmp_path, doc))
+    assert any("has no label" in v for v in violations)
+
+
+def test_sparse_label_indices_are_green(tmp_path):
+    # U2 does not require contiguous indices.
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["rows"].append({"index": 10, "label": "unused sparse"})
+    violations, warnings = check(_write(tmp_path, doc))
+    assert violations == []
+    assert warnings == []
+
+
+def test_self_target_relation_rejected(tmp_path):
+    # AUDIT-2026-09-16 U3: a sum may not list its target as a source.
+    doc = json.loads(GREEN.read_text(encoding="utf-8"))
+    doc["relations"][0]["sources"] = ["r3c1", "r1c1"]
+    violations, _ = check(_write(tmp_path, doc))
+    assert any("also a source" in v for v in violations)
 
 
 def test_standalone_source_is_always_red(tmp_path):
@@ -175,3 +216,32 @@ def test_corpus_standalone_cells_do_not_participate():
                     f"{p.relative_to(ROOT).as_posix()}:{cell['id']}"
                 )
     assert offenders == []
+
+
+def _tiny_corpus(tmp_path, *files: Path):
+    dest = tmp_path / "tables" / "t"
+    dest.mkdir(parents=True)
+    for src in files:
+        (dest / src.name).write_bytes(src.read_bytes())
+    return tmp_path
+
+
+def test_sweep_empty_selection_is_red(tmp_path, capsys):
+    # AUDIT-2026-09-16 D6: an empty glob must not print ALL GREEN.
+    (tmp_path / "tables").mkdir()
+    assert sweep(tmp_path) == 1
+    captured = capsys.readouterr()
+    assert "no corpus files" in captured.out
+    assert "GREEN" not in captured.out
+
+
+def test_sweep_aggregates_failure(tmp_path, capsys):
+    # AUDIT-2026-09-16 U5: a red unit followed by a green unit is still red.
+    root = _tiny_corpus(tmp_path, GREEN, TYPO)
+    assert sweep(root) == 1
+    captured = capsys.readouterr()
+    assert "of 2 unit(s) failed" in captured.out
+
+
+def test_cli_all_rejects_extra_path():
+    assert main(["--all", str(GREEN)]) == 2

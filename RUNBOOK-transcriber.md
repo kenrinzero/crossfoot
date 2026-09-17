@@ -51,7 +51,7 @@ there is for reviewers, not you.
    - `uv run python reconcile.py tables/<family>/<id>.cells.json`
      → `GREEN ... (0 warning(s))`, relation count ≥ your BACKLOG
      row's minimum.
-   - `uv run pytest` → 15 passed.
+   - `uv run pytest` → 23 passed.
    - `git status --short` shows exactly your one new file (+ the doc
      edits from step 5).
 5. **Docs.** Update your BACKLOG row (`QUEUED` → `SHIPPED` with corpus
