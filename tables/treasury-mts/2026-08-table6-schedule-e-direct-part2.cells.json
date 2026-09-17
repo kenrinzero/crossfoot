@@ -1,0 +1,1829 @@
+{
+  "table_id": "treasury-mts/2026-08-table6-schedule-e-direct-part2",
+  "source": {
+    "path": "sources/treasury-mts/mts-202608.pdf",
+    "table": "Table 6. Schedule E — Direct Loan Financing Activity remainder + Net",
+    "page": 33,
+    "title": "Table 6. Schedule E — Direct remainder + Net",
+    "period": "August FY2026"
+  },
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. All-(**) dropped: FHA-Mutual; BIA; TARP; Vocational Rehabilitation; Fiscal Service; Spectrum Auction. NEW Military Debt Reduction Prior-FYTD -42. Net Activity Direct 3,720/25,187/18,290/1,363,045/1,384,512/1,388,232.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month — open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Direct: Homeland Security: Disaster Assistance Loan Fund"
+    },
+    {
+      "index": 2,
+      "label": "Direct: HUD: Emergency Homeowners' Relief Fund"
+    },
+    {
+      "index": 3,
+      "label": "Direct: HUD: FHA-General and Special Risk Fund"
+    },
+    {
+      "index": 4,
+      "label": "Direct: HUD: Green Retrofit Program for Multifamily Housing Fund"
+    },
+    {
+      "index": 5,
+      "label": "Direct: Interior: Bureau of Reclamation"
+    },
+    {
+      "index": 6,
+      "label": "Direct: Interior: Assistance to American Samoa Loan Fund"
+    },
+    {
+      "index": 7,
+      "label": "Direct: State: Repatriation Loans"
+    },
+    {
+      "index": 8,
+      "label": "Direct: Transportation: Transportation Infrastructure Finance and Innovation Fund"
+    },
+    {
+      "index": 9,
+      "label": "Direct: Transportation: Tiger Tifia Loan Fund"
+    },
+    {
+      "index": 10,
+      "label": "Direct: Transportation: Railroad Rehabilitation and Improvement Loan Fund"
+    },
+    {
+      "index": 11,
+      "label": "Direct: Transportation: Maritime Guaranteed Loan (Title XI) FFB Financing Account"
+    },
+    {
+      "index": 12,
+      "label": "Direct: Treasury: Community Development Financial Institutions Fund"
+    },
+    {
+      "index": 13,
+      "label": "Direct: Treasury: GSE Mortgage-Backed Securities Purchase Program"
+    },
+    {
+      "index": 14,
+      "label": "Direct: Treasury: Temporary Credit and Liquidity Program"
+    },
+    {
+      "index": 15,
+      "label": "Direct: Treasury: Small Business Lending Program"
+    },
+    {
+      "index": 16,
+      "label": "Direct: Treasury: ESF - Economic Stabilization Program"
+    },
+    {
+      "index": 17,
+      "label": "Direct: Veterans Affairs: Veterans Housing Benefit Program Fund"
+    },
+    {
+      "index": 18,
+      "label": "Direct: Veterans Affairs: Native American Veteran Housing Fund"
+    },
+    {
+      "index": 19,
+      "label": "Direct: Veterans Affairs: Transitional Housing Loans"
+    },
+    {
+      "index": 20,
+      "label": "Direct: EPA: Water Infrastructure Finance and Innovation Loan Program"
+    },
+    {
+      "index": 21,
+      "label": "Direct: International Assistance: Foreign Military Loan Program"
+    },
+    {
+      "index": 22,
+      "label": "Direct: International Assistance: Military Debt Reduction"
+    },
+    {
+      "index": 23,
+      "label": "Direct: International Assistance: Agency for International Development: International Debt Reduction"
+    },
+    {
+      "index": 24,
+      "label": "Direct: International Assistance: Development Credit Authority Loan Fund"
+    },
+    {
+      "index": 25,
+      "label": "Direct: International Assistance: Sovereign Credit Direct Loan Financing Account"
+    },
+    {
+      "index": 26,
+      "label": "Direct: International Assistance: Overseas Private Investment Corporation"
+    },
+    {
+      "index": 27,
+      "label": "Direct: International Assistance: International Monetary Programs"
+    },
+    {
+      "index": 28,
+      "label": "Direct: International Assistance: United States International Development Finance Corporation"
+    },
+    {
+      "index": 29,
+      "label": "Direct: International Assistance: International Debt Reduction"
+    },
+    {
+      "index": 30,
+      "label": "Direct: Small Business Administration: Business Loan Fund"
+    },
+    {
+      "index": 31,
+      "label": "Direct: Small Business Administration: Disaster Loan Fund"
+    },
+    {
+      "index": 32,
+      "label": "Direct: Independent Agencies: Export-Import Bank of the United States"
+    },
+    {
+      "index": 33,
+      "label": "Net Activity, Direct Loan Financing"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "-37",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-60",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "-188",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "-224",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-225",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "3",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "552",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "274",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "3763",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "4284",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "4315",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "25",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "13",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "50",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "52",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "20",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "20",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "5",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "5",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1177",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "4993",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "21855",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "23015",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "23032",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "-3",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "60",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "57",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "57",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "357",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "533",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "2553",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "2900",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "2910",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "-55",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-12",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "299",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "245",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "244",
+      "role": "total"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-17",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "179",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "1575",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "1556",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "1558",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "4613",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "4613",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "4613",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-119",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-59",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "876",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "757",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "757",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "-105",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "-106",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "-107",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-238",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "-2341",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-2769",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "2371",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-55",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "-700",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "8409",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "8475",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "7830",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "7775",
+      "role": "total"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "73",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "71",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "71",
+      "role": "total"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "-1",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "-749",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "-890",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "-950",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "5207",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "5066",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "4317",
+      "role": "total"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "1104",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "846",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "-37",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "-60",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "-318",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "786",
+      "role": "total"
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "-42",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "-172",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "-172",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "-172",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "-195",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "498",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "781",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c5",
+      "row": 24,
+      "col": 5,
+      "value": "586",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "586",
+      "role": "total"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "-110",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "-376",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "19465",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "19606",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "value": "19340",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "19230",
+      "role": "total"
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "2902",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r26c5",
+      "row": 26,
+      "col": 5,
+      "value": "2902",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r26c6",
+      "row": 26,
+      "col": 6,
+      "value": "2902",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "-90",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "8513",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "4743",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "4615",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c5",
+      "row": 27,
+      "col": 5,
+      "value": "13217",
+      "role": "leaf"
+    },
+    {
+      "id": "r27c6",
+      "row": 27,
+      "col": 6,
+      "value": "13128",
+      "role": "total"
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "-257",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "-371",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "95",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "8169",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c5",
+      "row": 28,
+      "col": 5,
+      "value": "8055",
+      "role": "leaf"
+    },
+    {
+      "id": "r28c6",
+      "row": 28,
+      "col": 6,
+      "value": "7799",
+      "role": "total"
+    },
+    {
+      "id": "r29c2",
+      "row": 29,
+      "col": 2,
+      "value": "-56",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c3",
+      "row": 29,
+      "col": 3,
+      "value": "-68",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r29c4",
+      "row": 29,
+      "col": 4,
+      "value": "-360",
+      "role": "leaf"
+    },
+    {
+      "id": "r29c5",
+      "row": 29,
+      "col": 5,
+      "value": "-417",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r29c6",
+      "row": 29,
+      "col": 6,
+      "value": "-417",
+      "role": "total"
+    },
+    {
+      "id": "r30c1",
+      "row": 30,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c2",
+      "row": 30,
+      "col": 2,
+      "value": "-22",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c3",
+      "row": 30,
+      "col": 3,
+      "value": "-9",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r30c4",
+      "row": 30,
+      "col": 4,
+      "value": "64",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c5",
+      "row": 30,
+      "col": 5,
+      "value": "43",
+      "role": "leaf"
+    },
+    {
+      "id": "r30c6",
+      "row": 30,
+      "col": 6,
+      "value": "42",
+      "role": "total"
+    },
+    {
+      "id": "r31c1",
+      "row": 31,
+      "col": 1,
+      "value": "-1667",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c2",
+      "row": 31,
+      "col": 2,
+      "value": "-28429",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c3",
+      "row": 31,
+      "col": 3,
+      "value": "-16137",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r31c4",
+      "row": 31,
+      "col": 4,
+      "value": "229683",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c5",
+      "row": 31,
+      "col": 5,
+      "value": "202922",
+      "role": "leaf"
+    },
+    {
+      "id": "r31c6",
+      "row": 31,
+      "col": 6,
+      "value": "201254",
+      "role": "total"
+    },
+    {
+      "id": "r32c1",
+      "row": 32,
+      "col": 1,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c2",
+      "row": 32,
+      "col": 2,
+      "value": "-1165",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c3",
+      "row": 32,
+      "col": 3,
+      "value": "-1090",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r32c4",
+      "row": 32,
+      "col": 4,
+      "value": "3650",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c5",
+      "row": 32,
+      "col": 5,
+      "value": "2489",
+      "role": "leaf"
+    },
+    {
+      "id": "r32c6",
+      "row": 32,
+      "col": 6,
+      "value": "2484",
+      "role": "total"
+    },
+    {
+      "id": "r33c1",
+      "row": 33,
+      "col": 1,
+      "value": "3720",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c2",
+      "row": 33,
+      "col": 2,
+      "value": "25187",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c3",
+      "row": 33,
+      "col": 3,
+      "value": "18290",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r33c4",
+      "row": 33,
+      "col": 4,
+      "value": "1363045",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c5",
+      "row": 33,
+      "col": 5,
+      "value": "1384512",
+      "role": "leaf"
+    },
+    {
+      "id": "r33c6",
+      "row": 33,
+      "col": 6,
+      "value": "1388232",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r1)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Homeland Security: Disaster Assi)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: HUD: FHA-General and Special Ris)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r4)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: HUD: Green Retrofit Program for )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Interior: Bureau of Reclamation)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Interior: Assistance to American)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r8)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Transportation: Transportation I)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Transportation: Tiger Tifia Loan)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r10)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Transportation: Railroad Rehabil)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Transportation: Maritime Guarant)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c1"
+      ],
+      "target": "r12c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r12)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Treasury: Community Development )"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Treasury: Temporary Credit and L)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r15)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Treasury: Small Business Lending)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c1"
+      ],
+      "target": "r16c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r16)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Treasury: ESF - Economic Stabili)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r17)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Veterans Affairs: Veterans Housi)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Veterans Affairs: Native America)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c1"
+      ],
+      "target": "r20c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r20)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c4",
+        "r20c2"
+      ],
+      "target": "r20c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: EPA: Water Infrastructure Financ)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c5",
+        "r21c1"
+      ],
+      "target": "r21c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r21)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c4",
+        "r21c2"
+      ],
+      "target": "r21c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: Foreig)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c4",
+        "r24c2"
+      ],
+      "target": "r24c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: Develo)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c5",
+        "r25c1"
+      ],
+      "target": "r25c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r25)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c4",
+        "r25c2"
+      ],
+      "target": "r25c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: Sovere)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r27c5",
+        "r27c1"
+      ],
+      "target": "r27c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r27)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r27c4",
+        "r27c2"
+      ],
+      "target": "r27c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: Intern)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c5",
+        "r28c1"
+      ],
+      "target": "r28c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r28)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r28c4",
+        "r28c2"
+      ],
+      "target": "r28c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: United)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r29c4",
+        "r29c2"
+      ],
+      "target": "r29c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: International Assistance: Intern)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c5",
+        "r30c1"
+      ],
+      "target": "r30c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r30)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r30c4",
+        "r30c2"
+      ],
+      "target": "r30c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Small Business Administration: B)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c5",
+        "r31c1"
+      ],
+      "target": "r31c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r31)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r31c4",
+        "r31c2"
+      ],
+      "target": "r31c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Small Business Administration: D)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r32c5",
+        "r32c1"
+      ],
+      "target": "r32c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r32)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r32c4",
+        "r32c2"
+      ],
+      "target": "r32c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Direct: Independent Agencies: Export-Imp)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r33c5",
+        "r33c1"
+      ],
+      "target": "r33c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r33)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r33c4",
+        "r33c2"
+      ],
+      "target": "r33c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Direct Loan Financing)"
+    }
+  ]
+}

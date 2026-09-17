@@ -3120,4 +3120,45 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 **Verdict: GREEN.** The August MTS batch #481–#490 is fully verified and reconciled with zero transcription defects. Sibling ties, Table 6 cross-ties, and source oddities all hold. **#491+ unblocked.** Next every-10th audit fires at **#500**.
 
+---
 
+## Spot-Audit: Unit 500 — treasury-mts/2026-08-table8-activity (and whole-batch #491–#500)
+
+- **Audit Date:** DUE
+- **Auditor:** (different agent from the transcriber — Cursor Grok 4.6 is ineligible)
+- **Transcriber:** Cursor Grok 4.6
+- **Table ID:** [treasury-mts/2026-08-table8-activity](tables/treasury-mts/2026-08-table8-activity.cells.json) plus the nine preceding units in this stretch
+- **Source Document:** [mts-202608.pdf](sources/treasury-mts/mts-202608.pdf), printed pages 33–36 (Table 6 Schedule E Direct remainder, Table 7, Table 8 activity) plus the Table 6/7/8 rounding footnotes on those pages
+- **Status:** **DUE.** **#501+ is BLOCKED until this closes GREEN.**
+
+### Scope the auditor should cover
+
+Whole-batch positional check of #491–#500: **1,472 present cells / 150 rows / 266 relations**. Independent parse + render of mts-202608.pdf pp33–36. `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **every** cell on that row is omitted. Table 7 is **13 columns** (Oct–August + YTD + Prior; Sept empty) — x1 centers ~209/238/266/295/324/353/382/410/439/468/497/560/594. Table 8 activity is the first 6 of 9 tokens (strip `Table 6-D` / `Tables 4 & 5` so those digits are not values); the three investment columns are **#501, out of scope**. Deficit glue such as `-284,333-173,277-144,752` must be split across the x-span, not kept as one token.
+
+| unit | table | page | cells | rels | rows | sa |
+|---|---|---|---|---|---|---|
+| #491 | schedule-e-direct-part2 | 33 | 168 | 45 | 33 | 51 |
+| #492 | table7-receipts-detail | 34 | 117 | 9 | 9 | 9 |
+| #493 | table7-receipts-totals | 34 | 72 | 27 | 6 | 0 |
+| #494 | table7-outlays-leg-def | 34 | 195 | 28 | 15 | 6 |
+| #495 | table7-outlays-edu-labor | 34 | 195 | 15 | 15 | 15 |
+| #496 | table7-outlays-state-gsa | 34–35 | 169 | 13 | 13 | 13 |
+| #497 | table7-outlays-intl-sba | 35 | 104 | 8 | 8 | 8 |
+| #498 | table7-outlays-ssa-independents | 35 | 112 | 9 | 10 | 12 |
+| #499 | table7-outlays-uor-totals | 35 | 209 | 59 | 18 | 8 |
+| #500 | table8-activity | 36 | 131 | 53 | 23 | 6 |
+| **Total** | **Batch #491–#500** | **33–36** | **1472** | **266** | **150** | **128** |
+
+### What to re-derive, not sample
+
+- Every declared relation in exact Decimal; every non-zero `tol` = observed delta ≤ n_sources, quoting the Table 6/7/8 rounding footnote (`Note: Details may not add to totals due to rounding.`).
+- Occupancy: p33 all-(**) drops FHA-Mutual, BIA, TARP, Vocational Rehabilitation, Fiscal Service, Spectrum Auction. Military Debt Reduction Prior −42 is NEW vs July — keep. Transitional Housing begin −1 keep. Repatriation close-this-month `(**)`. Net Activity Direct 3,720/25,187/18,290/1,363,045/1,384,512/1,388,232 is the Schedule E grand total (part1+part2), not a remainder subtotal.
+- Table 7 YTD = Oct..August (cols 1–11 → col 12). On+Off=Total for receipts this/prior year and outlays/deficit this/prior year. DoD bureaus sum to Total DoD (not Leg/Jud/Agri/Commerce).
+- Cross-table ties: Table 7 Total Receipts Aug/YTD `360,033` / `4,845,452` = Table 8 Net Budget Receipts; Table 7 Total Outlays `526,830` / `6,811,043` = Table 8 Net Budget Outlays = Table 3 Outlays p8; deficit `−166,797` / `−1,965,591` = Table 8 Excess. UOR Other Aug `−3,571` is Spectrum Auction Proceeds.
+- Table 8: Veterans Life This-Month Receipts `(**)`; Interfund Excess omitted; FELAH receipts omitted both periods (row identity not computable). Do not transcribe the three investment columns.
+- U1: no `standalone` cell may feed or target a relation.
+- Source oddities to render-confirm: p33 running header still says “Guaranteed … Continued” but the body is Direct remainder; Sale of Major Assets Prior −29 newly printed vs July.
+
+**#501+ stays blocked until GREEN.** Table 8 investments is the next unit after the audit.
+
+---
