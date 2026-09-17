@@ -2782,25 +2782,95 @@ Graph-consistent across the batch: **0 U1 hits** — no `standalone` cell feeds 
 
 ---
 
-## Unit 460 — treasury-mts/2026-08-outlays-corps-engineers (PENDING different-agent audit)
+## Unit 460 — treasury-mts/2026-08-outlays-corps-engineers (CLOSED GREEN 2026-09-17, whole-batch #451–#460)
 
-**Transcriber:** Qoder (#451–#455 in `cba37da`, #456–#460 in the commit carrying this placeholder). **Auditor:** unassigned — must be a different agent; this transcriber is ineligible (it also closed the #430 and #450 audits).
+**Transcriber:** Qoder (#451–#455 in `cba37da`, #456–#460 in `493a5b2`). **Auditor:** Cursor Grok 4.6 (different agent — this auditor transcribed #422–#430 and #441–#450 and closed #440, not this batch; Qoder transcribed #451–#460 and closed #430 and #450). Whole-batch positional check of #451–#460 per family practice (#340 / #350–#450 precedent).
 
-#460 is the 39th unit of the August 2026 MTS family. Ten consecutive units from one transcriber since the #450 audit closed, so the scope is the whole batch **#451–#460**: 989 present cells / 161 rows / 1,449 occupancy slots / 186 declared relations. Whole-batch positional checking is the family's working practice (the #340 / #350–#450 precedent). **#461+ is blocked** until this audit closes GREEN.
+**Method.** Independent pdfplumber text layer + pypdfium2 renders of `sources/treasury-mts/mts-202608.pdf` printed pages 16, 17, 18 (Table 5 Labor through Corps of Engineers) plus p23 for the Table 5 rounding footnote and p8 for the Table 3 ties; `(cid:NN)` decoded as `chr(NN+29)`. Table 5 parsed flat into `(label, 9 values)` records with a hard assertion that every data line yields exactly nine value tokens — a glued footnote digit as a *separate* token would surface as a ten-token line (the #434 `¹22,650` class). **Tokens were mapped to columns by right-edge clustering, not by order**: the nine value columns sit on a 40pt grid with x1 centers **274 / 314 / 354 / 394 / 434 / 474 / 514 / 554 / 594** on all three unit-bearing pages (measured, not copied). 146 data rows parsed across pp16–18; 0 BAD records (every data line nval=9). Every unit cell compared positionally against that extraction, including omission slots (`......` / `(**)` = absent, not 0). The three unit-bearing pages plus p23 and p8 render-verified by eye (full-page plus targeted crops of the glue line, the three dropped all-omit rows, FAA Other, Emergency Capital, IRS Other, VA Housing/Special Life, Corps Intrabudgetary, and the Table 3 Treasury/VA/Corps block). Units were not audited against their own claims.
 
-**Requested scope** (replace this placeholder with the audit record):
+### 1. Positional check, #451–#460 (989 present cells / 1,449 occupancy slots)
 
-1. Independent pdfplumber text-layer + pypdfium2 render of `sources/treasury-mts/mts-202608.pdf` pages 16, 17, 18 (Table 5 Labor through Corps of Engineers) plus p23 for the Table 5 rounding footnote; `(cid:NN)` decoded `chr(NN+29)`. Parse Table 5 into `(label, 9 values)` records and assert nine value tokens per data line, so a glued footnote digit surfaces as a ten-token line (the #434 `¹22,650` class). **Map tokens to columns by right-edge clustering, not by order** — the nine columns sit on a 40pt grid (x1 ≈ 274/314/354/394/434/474/514/554/594 on pp17–18), and a value-order check alone cannot see a column shift. Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
-2. Row COUNTs on the standalone-heavy units: #456 treasury-bureaus (17 rows / 54 sa), #455 transportation-departmental (14 rows / 6 sa), #453 state (15 rows / 3 sa), #460 corps-engineers (9 rows / 3 sa). Dropped all-omitted rows to confirm: #453 Andean Counterdrug Program, #456 Departmental Offices: Transportation Services, #459 Veterans Choice Fund.
-3. Recompute all 186 declared relations in exact Decimal. Every non-zero `tol` must equal its observed delta, be `≤ len(sources)`, and quote the p23 footnote verbatim. Plausibility scan: 0 relations with `tol > n_sources`. Widest seats claimed: #455 grand col-1/col-3 tol-3 over 10/12 components and col-9 tol-2; #458 grand col-7 tol-3 over 19 components, col-9 tol-2 over 20, cols 1/3/4/5 tol-1; #459 grand cols 1/3/4/6 tol-2 over 10–13 components; #451 two ETA Prior-FYTD roll-ups tol-2.
-4. **Where to look hardest — #458 treasury-departmental.** The transcriber's first pass mis-coded this unit and the errors were caught only by machine checks run before commit: five tolerances were over-slack (coded 1 against an observed delta of 0), five were too tight (coded 0 against a delta of 1), one roll-up was missing its tolerance entirely, and the grand col-1/col-3 source lists included Emergency Capital Investment Program, whose This-Month cells print `(**)` and therefore do not exist. All six classes were corrected; the shipped source lists are 14 (col-1) and 16 (col-3). Please re-derive every #458 source list from the print rather than reading the shipped one.
-5. Re-derive ties-siblings: #452 ← #451 (6 ETA total cells); #455 ← #454 (21 FAA/FHA/FTA total cells); #458 ← #456/#457 (80 cells over 14 re-anchored rows — Total--IRS, Total--Bureau of the Fiscal Service, the eight Departmental Offices lines, TTB ×2, BEP, Mint).
-6. Floor miss to uphold or reject: **#459** 35 relations against the June-derived floor of 36 — Veterans Special Life This-Month Applicable prints `(**)`, so that net identity is not computable. This is the *same* cause the July twin was adjudicated on (#379 shipped at 35 vs 36); August repeats it. Printed-cell omission, never padded. No other floor miss in the batch: #451 12/12, #452 15/15, #453 15/15, #454 30/30, #455 20/20, #456 10/10, #457 10/10, #458 30/30, #460 9/9.
-7. Source-side oddities to render-confirm: #453 footnote-glue (the text layer prints Global Health Current-FYTD Applicable as `25,749`; the leading 2 is footnote 2's superscript and the value is 5,749 — the col-4/col-6 roll-ups close only at 5,749); #452 Proprietary This-Month newly prints `...... / 1 / -1`, making the departmental col-2 roll-up two-source and eligible under schema `minItems:2`; #454 FAA Other This-Month Applicable prints 22, restoring two net identities July lost; #457 IRS Other Applicable prints 1 (Current-FYTD) and 2 (Prior-FYTD) with This-Month omitted; #458 Emergency Capital This-Month `(**)` where July printed 1/1; #459 Proprietary NSL This-Month reverts to omission (July printed 1/-1), dropping the grand col-2 roll-up to three sources; #460 Corps Intrabudgetary Prior-FYTD newly prints 5/5 (July omitted), joining the col-7/col-9 roll-ups.
-8. Roles / U1: a `standalone` must feed nothing and target nothing. The batch claims graph-consistent roles; #456's 54 standalones are the omission-sparse Departmental Offices / Fiscal Service detail cells, each carrying the family `why`.
-9. Cross-table ties against Table 3 (printed p8; the August Table 3 outlays side is not yet a corpus unit, so check the PDF): Veterans Affairs Outlays 35,010 / 395,059 / 359,333 and Corps of Engineers 1,196 / 10,900 / 12,005 byte-match #459/#460 exactly; Treasury Interest on Treasury Debt Securities (Gross) 97,769 / 1,267,362 / 1,124,344 byte-matches #458 rows 4/5, while the Table 3 residual `Other` line prints 15,185 / 252,956 / 271,953 against capstone residuals of 15,184 / 252,955 / 271,953 — a one-unit independent-rounding difference in two periods, Prior exact. Please adjudicate whether that is Table 3's own rounding (the transcriber's reading) or a #458 defect.
+| unit | page | cells | rows | result |
+|---|---|---|---|---|
+| #451 outlays-labor-bureaus | 16 | 86 | 15 / 0 sa | matches |
+| #452 outlays-labor-departmental | 16 | 102 | 16 / 0 sa | matches; Proprietary This-Month newly prints (see §6) |
+| #453 outlays-state | 16 | 93 | **15** / 3 sa | row COUNT confirmed; Andean Counterdrug all-omitted in the print and correctly absent |
+| #454 outlays-transportation-bureaus | 16–17 | 102 | 17 / 0 sa | matches; FAA Other This-Month Applicable prints 22 |
+| #455 outlays-transportation-departmental | 16–17 | 95 | **14** / 6 sa | row COUNT confirmed; FRA Other standalones = waiver |
+| #456 outlays-treasury-bureaus | 17 | 94 | **17** / 54 sa | row COUNT confirmed; Transportation Services all-omitted and correctly absent |
+| #457 outlays-treasury-irs | 17–18 | 76 | 12 / 0 sa | matches; cites 17 per the July twin |
+| #458 outlays-treasury-departmental | 17–18 | 149 | 24 / 0 sa | matches; grand roll-ups span pp17–18, cite 18 |
+| #459 outlays-veterans-affairs | 18 | 139 | 22 / 0 sa | matches; Veterans Choice Fund all-omitted and correctly absent |
+| #460 outlays-corps-engineers | 18 | 53 | **9** / 3 sa | row COUNT confirmed |
 
-**Pages:** 16 (Labor bureaus + Labor capstone + State), 17 (Transportation bureaus + Transportation capstone + Treasury Departmental Offices/Fiscal Service/TTB/BEP/Mint + IRS detail), 18 (IRS payments + Total--IRS + Comptroller + Interest + Total--Treasury + Veterans Affairs + Corps of Engineers), 23 (rounding footnote). Sections spanning a page boundary cite the later page per the family convention: #454/#455 span pp16–17 and cite 17; #457 spans pp17–18 and cites 17 (per the July twin); #458 spans pp17–18 and cites 18.
+0 value mismatches, 0 omission mismatches, 0 missing/extra rows across all **989 present cells** (1,449 occupancy slots; 460 omission slots confirmed absent). Coverage proof: 143 printed non-omit data rows in the Labor→Corps range are each claimed by at least one unit (capstones re-anchor 18 sibling rows: 1 ETA total + 3 Transportation bureau totals + 14 Treasury rows = 161 unit-rows); unclaimed non-omit list empty. The three all-omitted printed rows (Andean Counterdrug Programs, Transportation Services, Veterans Choice Fund, Veterans Health Administration) are correctly unclaimed.
+
+The one text-layer/unit disagreement is footnote-glue, not a defect — see §2.
+
+### 2. Footnote-glue (render wins over the glued text layer)
+
+- #453 Global Health and Child Survival, Current-FYTD Outlays: text-layer `25,749` at x0=455.35 / x1=475.06 (col-6 center 474) → render `²5,749` → **5749** ✓ (`r9c6`). The leading 2 is footnote 2's superscript ("Amount decreased due to additional reporting for the month of July 2026"). A true five-digit 25,749 would start further left; the nine-token assertion did **not** catch this because the superscript was glued into the number token rather than emitted as a tenth token. Render + right-edge x0 caught it. Col-4 Gross is a clean `5,749`; Applicable is `......`.
+
+p23 prints footnotes 1/2/3 (July restatements / FICA-SECA) plus `Note: Details may not add to totals due to rounding.`, `...... No Transactions`, `(**) Less than absolute value of $500,000` — render-confirmed verbatim.
+
+### 3. Relations and tolerance plausibility
+
+All **186** declared relations recomputed in exact Decimal: every one holds (`|delta| ≤ tol`). Every non-zero `tol` equals its observed delta, is `≤ len(sources)`, and quotes the p23 Table 5 footnote verbatim. **Plausibility scan: 0 relations with `Decimal(tol) > len(sources)`** — the OPM masked-defect signature is absent. Widest seats match the ship notes: #455 grand col-1/col-3 tol-3 over 10/12 components and col-9 tol-2; #458 grand col-7 tol-3 over 19 (delta 3), col-9 tol-2 over 20, cols 1/3/4/5 tol-1; #459 grand cols 1/3/4/6 tol-2 over 10–13; #451 two ETA Prior-FYTD roll-ups tol-2.
+
+**Floor miss upheld (#459, 35 relations vs the June-derived floor of 36).** Veterans Special Life This-Month Applicable prints `(**)` (render-confirmed; no `r12c2`), so the This-Month net identity is not computable. Same cause and same count as the already-adjudicated July twin (#379). Printed-cell omission, never padded. No other floor miss: #451 12/12, #452 15/15, #453 15/15, #454 30/30, #455 20/20, #456 10/10, #457 10/10, #458 30/30, #460 9/9.
+
+### 4. #458 source lists (re-derived from the print, not read from the shipped unit)
+
+Independent keep-list: every printed Treasury row that is not absorbed into an intermediate Total-- (Fiscal Service components, IRS components, Interest components) and is not the all-omitted Transportation Services row. Per-column sources are that keep-list restricted to rows whose printed cell in that column is present. **All nine grand columns match the shipped lists as sets** (order differs; counts identical):
+
+| col | n | Emergency Capital in list? |
+|---|---|---|
+| 1 This-Month Gross | **14** | no — This-Month prints `(**)` |
+| 2 This-Month Applicable | 5 | no |
+| 3 This-Month Outlays | **16** | no — This-Month prints `(**)` |
+| 4 Current-FYTD Gross | 17 | yes (26 is printed) |
+| 5 Current-FYTD Applicable | 6 | no (Applicable omitted) |
+| 6 Current-FYTD Outlays | 19 | yes |
+| 7 Prior-FYTD Gross | 19 | yes |
+| 8 Prior-FYTD Applicable | 6 | no |
+| 9 Prior-FYTD Outlays | 20 | yes |
+
+The pre-commit defect class (Emergency Capital cited on col-1/col-3 though the cells do not exist) is **not present in the shipped unit**. Over-slack / too-tight / missing tols are also absent: every non-zero #458 tol equals its observed delta.
+
+### 5. ties-siblings (re-derived from the overlapping labels)
+
+- #452 ← #451: overlapping `Total--Employment and Training Administration`; all **6** tied cells byte-match.
+- #455 ← #454: overlapping `Total--Federal Aviation Administration`, `Total--Federal Highway Administration`, `Total--Federal Transit Administration`; all **21** tied cells byte-match.
+- #458 ← #456/#457: 14 overlapping printed rows (Total--IRS, Total--Bureau of the Fiscal Service, eight Departmental Offices lines, TTB ×2, BEP, Mint); all **80** tied cells byte-match.
+
+No printed row is claimed by three or more units.
+
+### 6. Roles (U1)
+
+Graph-consistent across the batch: **0 U1 hits** — no `standalone` cell feeds or targets a relation; all 66 standalones (#453 3, #455 6, #456 54, #460 3) carry a `why`; every `total` is a relation target; every `leaf` feeds at least one relation and is never a target.
+
+### 7. Source-side oddities (render-confirmed)
+
+- #453 footnote-glue: Global Health Current-FYTD Outlays is `²5,749`, not 25,749 (§2).
+- #452 Proprietary This-Month newly prints `...... / 1 / -1`, making the departmental col-2 roll-up two-source and eligible under schema `minItems:2`.
+- #454 FAA Other This-Month Applicable prints **22** (511 / 22 / 489), restoring both FAA This-Month net identities July lost.
+- #457 IRS Other Applicable prints 1 (Current-FYTD) and 2 (Prior-FYTD) with This-Month omitted.
+- #458 Emergency Capital This-Month `(**)` / `......` / `(**)` where July printed 1/1; Transportation Services all-`(**)` and dropped.
+- #459 Veterans Special Life This-Month Applicable `(**)` (the floor-miss cause); Proprietary NSL This-Month reverts to omission (July printed 1/−1), so the grand col-2 roll-up closes on three sources.
+- #460 Corps Intrabudgetary Prior-FYTD newly prints **5 / 5** (July omitted), joining the col-7/col-9 roll-ups; Harbor Maintenance This-Month omitted.
+
+### 8. Table 3 p8 residual-*Other* (adjudicated: Table 3's own rounding, not a #458 defect)
+
+Table 5 print and #458 agree on Treasury Total Outlays **112,953 / 1,520,317 / 1,396,297** and Interest Outlays **97,769 / 1,267,362 / 1,124,344** (the Interest figures also byte-match Table 3). Capstone residual Total−Interest = **15,184 / 252,955 / 271,953**. Table 3's residual `Other` prints **15,185 / 252,956 / 271,953**. Table 3 Interest+Other = 112,954 / 1,520,318 / 1,396,297, which **overshoots** Table 5's independently-rounded departmental total by 1 in This-Month and Current FYTD (Prior exact). Table 3 itself prints `Note: Details may not add to totals due to rounding.` Veterans Affairs Outlays 35,010 / 395,059 / 359,333 and Corps of Engineers 1,196 / 10,900 / 12,005 byte-match #459/#460 exactly. The 1-unit Other residual is Table 3 independently rounding a split line, not a #458 transcription defect — do not edit the shipped unit to chase it.
+
+### Gates
+
+- reconcile exit 0 on all 10 units, 0 warnings
+- pytest 12/12
+- full sweep 460/460 GREEN, 0 failures (failure-aggregating in-process loop)
+- no corpus value changed
+
+**Verdict: GREEN.** The August MTS batch #451–#460 is a faithful, arithmetically-reconciled transcription of mts-202608.pdf pp16/17/18, with the #453 footnote-glue correctly render-resolved, the #459 floor miss upheld as a printed-cell omission, every #458 grand source list re-derived from the print, and the Table 3 residual-*Other* 1-unit difference adjudicated as Table 3's own rounding. **#461+ unblocked.** Next every-10th audit fires at **#470**.
 
 ---
 
