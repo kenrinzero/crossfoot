@@ -1,0 +1,231 @@
+{
+  "table_id": "treasury-mts/2026-08-table6-schedule-b",
+  "source": {
+    "path": "sources/treasury-mts/mts-202608.pdf",
+    "table": "Table 6. Schedule B — Agency Securities Under Special Financing Authorities",
+    "page": 25,
+    "title": "Table 6. Schedule B",
+    "period": "August FY2026"
+  },
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. Architect of the Capitol / FCC / NARA all-(**) dropped. FHA stationary 19/19/19; TVA drives Total.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Close of This Month — open/prior (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Department of Housing and Urban Development: Federal Housing Administration"
+    },
+    {
+      "index": 2,
+      "label": "Tennessee Valley Authority"
+    },
+    {
+      "index": 3,
+      "label": "Total Agency Securities"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "250",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "-870",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "2060",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "22057",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "20937",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "21187",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "250",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "-870",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "2060",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "22075",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "20955",
+      "role": "total"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "21205",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r2)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Tennessee Valley Authority)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (r3)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Agency Securities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4"
+      ],
+      "target": "r3c4",
+      "note": "Total Agency Securities = FHA + TVA col 4",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5"
+      ],
+      "target": "r3c5",
+      "note": "Total Agency Securities = FHA + TVA col 5",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6"
+      ],
+      "target": "r3c6",
+      "note": "Total Agency Securities = FHA + TVA col 6",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

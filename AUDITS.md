@@ -3050,3 +3050,42 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 ---
 
+## Spot-Audit: Unit 490 — treasury-mts/2026-08-table6-schedule-e-direct-part1 (and whole-batch #481–#490)
+
+- **Audit Date:** DUE
+- **Auditor:** (different agent from the transcriber — Cursor Grok 4.6 is ineligible)
+- **Transcriber:** Cursor Grok 4.6
+- **Table ID:** [treasury-mts/2026-08-table6-schedule-e-direct-part1](tables/treasury-mts/2026-08-table6-schedule-e-direct-part1.cells.json) plus the nine preceding units in this stretch
+- **Source Document:** [mts-202608.pdf](sources/treasury-mts/mts-202608.pdf), printed pages 25–32 (Table 6 Schedules B–E start) plus the Table 6 rounding footnote on those pages
+- **Status:** **DUE.** **#491+ is BLOCKED until this closes GREEN.**
+
+### Scope the auditor should cover
+
+Whole-batch positional check of #481–#490: **1,167 present cells / 225 rows / 343 relations**. Independent parse + right-edge 6-column map (x1 centers ~309/366/423/480/537/594) + render of mts-202608.pdf pp25–32. `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **all six** cells are omitted — a This-Month `(**)` with printed Current/Prior/balances is still a row (the #474 RIPF Other defect class).
+
+| unit | table | page | cells | rels | rows | sa |
+|---|---|---|---|---|---|---|
+| #481 | schedule-b | 25 | 15 | 7 | 3 | 2 |
+| #482 | schedule-c-agri | 26 | 99 | 31 | 17 | 20 |
+| #483 | schedule-c-comm-energy | 26 | 68 | 15 | 14 | 28 |
+| #484 | schedule-c-hhs-interior | 26–27 | 46 | 4 | 12 | 35 |
+| #485 | schedule-c-labor-vets | 27 | 70 | 17 | 14 | 25 |
+| #486 | schedule-c-epa-ind | 27–28 | 129 | 33 | 26 | 44 |
+| #487 | schedule-d-federal-funds | 29 | 166 | 56 | 30 | 1 |
+| #488 | schedule-d-trust-funds | 29–30 | 233 | 86 | 42 | 2 |
+| #489 | schedule-e-guaranteed | 31–32 | 192 | 52 | 39 | 0 |
+| #490 | schedule-e-direct-part1 | 32 | 149 | 42 | 28 | 42 |
+| **Total** | **Batch #481–#490** | **25–32** | **1167** | **343** | **225** | **199** |
+
+### What to re-derive, not sample
+
+- Every declared relation in exact Decimal; every non-zero `tol` = observed delta ≤ n_sources, quoting the Table 6 rounding footnote.
+- Occupancy: Architect/FCC/NARA (Schedule B), BIA (Schedule C Interior), FRA Other, HMO, Agricultural Resource Conservation / TIFIA guaranteed / Air Transportation Stabilization / TARP insurance / Microenterprise (two lines) are all-(**) drops. Homeland Security Federal Funds prints Prior-FYTD −4,948 only — keep. Military Debt Reduction Prior −41 is NEW vs July — keep. FDIC-as-Receiver prints 93,333 balances.
+- ties-siblings: #488 Total Federal Funds (re-anchored) 6/6 byte-match #487 Total Federal Funds 8,593/152,189/114,903/1,064,480/1,208,077/1,216,670. Grand Total 34,803/396,440/144,513/7,339,271/7,700,907/7,735,711 byte-matches Table 6 liabilities `Federal Securities Held as Investments of Government Accounts`.
+- U1: no `standalone` cell may feed or target a relation.
+- Source oddities to render-confirm: FHA Schedule B stationary 19/19/19; Schedule C FHA 10,771 This-Month = Current-FYTD; Health Education Assistance occupancy text-layer typo `Assitance`; Community Development Loans guaranteed 1/1/−1 with This-Month and closes omitted.
+
+**#491+ stays blocked until GREEN.** Direct remainder + Net Activity Direct is the next unit after the audit.
+
+---
+
