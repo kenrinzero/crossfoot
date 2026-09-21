@@ -35,9 +35,12 @@ every leaf feeding a relation) is the default gate.
 Per-unit specs live in [BACKLOG.md](BACKLOG.md), the authoritative
 manifest.
 
+The corpus is **US sources only** (US government publications and SEC
+public filings). Non-US families are out of scope.
+
 Every vendored source in `sources/` is sha256-ledgered with provenance in
-[sources/SOURCES.md](sources/SOURCES.md) — US government material and SEC
-public filings, transcribed verbatim, never edited.
+[sources/SOURCES.md](sources/SOURCES.md) — transcribed verbatim, never
+edited.
 
 ## Process
 

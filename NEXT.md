@@ -47,6 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
+- **Paused until Treasury MTS September 2026 is published** (expected ~mid-October). Then vendor (`%PDF` magic, not HTTP 200), size 1:1 from the August twins, transcribe. Next audit #510. Corpus stays US-only; Japan-family is stopped.
+
 - **Treasury MTS August 2026 — ALL 80 UNITS SHIPPED (2026-09-17).** Published 2026-09-11, vendored, gated, ledgered, and transcribed (#422–#501). All 80 units strict-default GREEN 0 warnings.
   - **Audit:** #430 closed GREEN 2026-09-16 (Qoder). **#440 closed GREEN 2026-09-16 (Cursor Grok 4.6; 1,033 cells / 1,476 occupancy slots, 0 mismatches; #431 floor miss upheld; three source-side oddities render-confirmed).** **#450 closed GREEN 2026-09-16 (Qoder; 1,139 cells / 1,602 occupancy slots, 0 mismatches; #448 floor miss upheld; three source-side oddities render-confirmed). #451+ unblocked.** **#460 closed GREEN 2026-09-17 (Cursor Grok 4.6; 989 cells / 1,449 occupancy slots, 0 mismatches; #458 source lists re-derived 14/16 on col-1/col-3; #459 floor miss 35 vs 36 upheld; Table 3 residual-*Other* adjudicated Table 3 rounding). #461+ unblocked.** **#470 closed GREEN 2026-09-17 (Antigravity; whole-batch #461–#470, 624 cells / 909 occupancy slots, 0 mismatches; #464 and #465 floor misses upheld; ties-siblings 17/17 byte-match; 9 Table 3 Outlays triples byte-match). #471+ unblocked.** **#480 closed GREEN 2026-09-17 (Antigravity; whole-batch #471–#480: 816 cells / 140 rows, 0 mismatches; #474 repaired per #129/#160 precedent; ties-siblings 6/6 and Excess close 29,465,566 byte-match; 5 Table 3 Outlays triples byte-match). #481+ unblocked.** **#490 closed GREEN 2026-09-17 (Antigravity; whole-batch #481–#490: 1,167 cells / 225 rows / 1,350 occupancy slots / 343 relations, 0 mismatches; ties-siblings 6/6 and Table 6 liabilities cross-tie byte-match; source oddities confirmed). #491+ unblocked.** **#500 closed GREEN 2026-09-17 (Antigravity; whole-batch #491–#500: 1,472 cells / 150 rows / 266 relations, 0 mismatches; T7↔T8 and Table 3 Outlays triples byte-match; source oddities confirmed). #501+ unblocked.** Next audit #510.
 
@@ -55,6 +57,11 @@ in this repo always means a stage, never difficulty.
 
 - **FEC footnote pages pp7–9** stay a Tier-3 stage concern (DESIGN §8)
   — not yet in scope.
+
+- **Japan-family pilot STOPPED 2026-09-17.** Do not vendor MOF sources or
+  open `tables/japan-mof/`. The corpus stays US-only; the next family is
+  whatever US source the user names. Plan record:
+  `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
 **#500**; next audit **#510** (records + batch-numbering tie-break rule in `AUDITS.md`;

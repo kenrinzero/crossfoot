@@ -44,3 +44,7 @@
    note discrepancies in the unit's `note` fields.
 6. Every 10th shipped unit: non-arithmetic spot-audit by a DIFFERENT agent
    (labels/units/periods + 10 sampled cells vs the source) → `AUDITS.md`.
+7. **Corpus is US-only.** Vendor and transcribe US government publications
+   and SEC public filings. Do not open a non-US family (the Japan-family
+   plan was stopped 2026-09-17). This is operator steering, not a DESIGN.md
+   edit — DESIGN stays frozen.
