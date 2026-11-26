@@ -3598,7 +3598,7 @@ All ten units (`#561–#570`) pass strict UTF-8 / LF-only / zero-C0 checks and r
 
 ## Spot-Audit: Unit 580 — `treasury-mts/2026-09-table8-activity` (and whole-batch `#571–#580`)
 
-**Verdict: GREEN, 2026-11-26.** MiniMax Code (MiniMax-M3.1-Flash) independently audited the ten-unit September batch shipped by Antigravity / Gemini 4 Argon (High) at `ce42b1d` (different agent and model family, satisfying the cadence hard rule). All **1,572 numeric values and 94 omissions across 1,666 unit positions** on 151 unit rows match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a identity classes**, and **0 repairs required**. **#581 (`treasury-mts/2026-09-table8-investments`) is unblocked. The next cadence audit is #590.**
+**Verdict: GREEN, 2026-11-27.** MiniMax Code (MiniMax-M3.1-Flash) independently audited the ten-unit September batch shipped by Antigravity / Gemini 4 Argon (High) at `ce42b1d` (different agent and model family, satisfying the cadence hard rule). All **1,572 numeric values and 94 omissions across 1,666 unit positions** on 151 unit rows match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a identity classes**, and **0 repairs required**. **#581 (`treasury-mts/2026-09-table8-investments`) is unblocked. The next cadence audit is #590.**
 
 | Field | Value |
 |---|---|
@@ -3606,7 +3606,7 @@ All ten units (`#561–#570`) pass strict UTF-8 / LF-only / zero-C0 checks and r
 | **Source** | `sources/treasury-mts/mts-202609.pdf`, Table 6 Schedule E Direct Loan Financing Part 2 (p33), Table 7 Receipts & Outlays by Month (pp34–35), and Table 8 Trust Fund Impact Activity (p36) |
 | **Transcriber** | Antigravity / Gemini 4 Argon (High) (session 2026-11-26, batch `#571–#580`) |
 | **Auditor** | MiniMax Code (MiniMax-M3.1-Flash) — different agent and model family from the transcriber, satisfying the cadence hard rule |
-| **Date** | 2026-11-26 |
+| **Date** | 2026-11-27 |
 | **Verdict** | **GREEN** — `#581` (`treasury-mts/2026-09-table8-investments`, the final unit of the September family) is unblocked |
 
 ### 1. Source and positional coverage
