@@ -3199,3 +3199,49 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 **Verdict: GREEN.** The August MTS batch #491–#500 is fully verified and reconciled with zero transcription defects. All cross-table ties, roll-forwards, and source oddities hold. **#501+ unblocked.** Next every-10th audit fires at **#510**.
 
+---
+
+## Spot-Audit: Unit 510 — treasury-mts/2026-09-outlays-judicial (and whole-batch #502–#510)
+
+- **Audit Date:** DUE
+- **Auditor:** (different agent from the transcriber — Antigravity / Gemini 4 Neon (XHigh) is ineligible)
+- **Transcriber:** Antigravity (Gemini 4 Neon (XHigh))
+- **Table ID:** [treasury-mts/2026-09-outlays-judicial](tables/treasury-mts/2026-09-outlays-judicial.cells.json) plus the eight preceding September units (`#502–#509`; `#501` was August `2026-08-table8-investments` by Cursor Grok 4.6)
+- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), printed pages 5, 8, 9, 10, 37 plus the Table 5 rounding footnote on page 23
+- **Status:** **DUE.** **#511+ is BLOCKED until this closes GREEN.**
+
+### Scope the auditor should cover
+
+Whole-batch positional check of the 9-unit September opener stretch `#502–#510`: **597 present cells / 154 rows / 126 relations / 132 standalones**. Independent parse + render of `mts-202609.pdf` pp5, 8, 9, 10, 37 (+ p23 Table 5 rounding note). `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **every** cell on that row is omitted.
+
+| unit | table | page | cells | rels | rows | sa |
+|---|---|---|---:|---:|---:|---:|
+| #502 | 2026-09-table1 | 5 | 78 | 32 | 26 | 0 |
+| #503 | 2026-09-table2 | 5 | 51 | 25 | 13 | 0 |
+| #504 | 2026-09-table3-receipts | 8 | 52 | 12 | 13 | 0 |
+| #505 | 2026-09-table3-outlays-departments | 8 | 112 | 0 | 28 | 112 |
+| #506 | 2026-09-table3-outlays-remainder | 8 | 50 | 14 | 14 | 17 |
+| #507 | 2026-09-table9 | 37 | 90 | 6 | 30 | 0 |
+| #508 | 2026-09-receipts-major | 9 | 30 | 6 | 10 | 0 |
+| #509 | 2026-09-outlays-legislative | 10 | 95 | 22 | 14 | 0 |
+| #510 | 2026-09-outlays-judicial | 10 | 39 | 9 | 6 | 3 |
+| **Total** | **Batch #502–#510** | **5,8–10,37** | **597** | **126** | **154** | **132** |
+
+### What to re-derive, not sample
+
+- Every declared relation in exact `Decimal`; every non-zero `tol` = observed delta ≤ `len(sources)`, quoting the page rounding footnote (`Note: Details may not add to totals due to rounding.` on pp5/8/9/37 and p23 for Table 5).
+- **Footnote-glue render resolutions:**
+  - `#502` Table 1 p5: FY2026 August Outlays prints `¹526,812` (text layer glues `1526,812`; footnote 1: −$18M DoD – Air Force; restated from August's `526,830`, deficit `166,797 → 166,779`).
+  - `#505` Table 3 p8: Department of Defense--Military Programs FYTD prints `¹916,836` (text layer glues `1916,836`; footnote 1: −$18M August reporting).
+- **Provisional floor miss to adjudicate (`#509` `outlays-legislative`):** 95c / **22r vs provisional floor 23** — House of Representatives This-Month Applicable Receipts prints `(**)` (r2c2 omitted), dropping that This-Month net identity. Confirm on p10 render that `r2c2` is `(**)` and Offsetting Governmental Receipts is all-`......`/`(**)` (dropped).
+- **Standalone row-count check (`#505`):** verify all 28 printed department outlay rows on p8 (Legislative Branch through SBA) are present with zero omissions, and cross-check `#505 + #506` outlay roll-ups against Table 3 `Total Outlays` across all 4 columns (observed deltas: −1, −4, +1, 0).
+- **Cross-table ties:**
+  - Table 1 ↔ Table 2 ↔ Table 3 ↔ Table 4 ↔ Table 9 Total Receipts (`557,875` / `5,403,327` / `5,234,616`), Total Outlays (`584,775` / `7,395,800` / `7,009,986`), and Surplus/Deficit (`-26,900` / `-1,992,473` / `-1,775,369`, opposite sign in Table 1).
+  - Table 5 Legislative Net Outlays (`577` / `7,049` / `7,227`) and Judicial Net Outlays (`845` / `9,985` / `9,759`) byte-match Table 3 p8.
+  - Full-year estimates in Table 2 (12 cells) and Table 3 Receipts/Departments byte-match August twins.
+- **U1 graph consistency:** no `standalone` cell participates in any relation (3 standalones on `#510` `r4c2/r4c5/r4c8`; `r6c2/r6c5/r6c8` are `leaf` feeding row 6's net identities).
+
+**#511+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-eop` is the next unit after the audit.
+
+---
+

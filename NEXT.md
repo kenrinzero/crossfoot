@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 1/80 SHIPPED, 79 READY (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August (same first-page table locations; closes FY2026 with all 12 months populated in Table 1 and Table 7), so the August decomposition ports 1:1: **#502–#581** (`#502` `2026-09-table1` shipped). All PDF → vision. Floors provisional. Next up: `treasury-mts/2026-09-table2` (D2, vision, cross-table).
-  - **Audit:** next every-10th is **#510** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #510 ships; #511+ blocked until a different agent closes it.
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 9/80 SHIPPED (#502–#510), 71 READY — #511+ BLOCKED pending #510 every-10th audit (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Next transcription unit once `#510` closes GREEN: `treasury-mts/2026-09-outlays-eop` (D3, vision).
+  - **Audit:** **#510 every-10th audit DUE** (whole-batch `#502–#510`, 597c/126r/154 rows/132 sa; placeholder in `AUDITS.md`; Antigravity / Gemini 4 Neon (XHigh) is ineligible). **#511+ is BLOCKED until a different agent closes #510 GREEN.**
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
 - **Treasury MTS August 2026 — ALL 80 UNITS SHIPPED (2026-09-17).** Published 2026-09-11, vendored, gated, ledgered, and transcribed (#422–#501). All 80 units strict-default GREEN 0 warnings.
@@ -106,6 +106,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-26 · **treasury-mts September 2026 batch #503–#510 (8 units; #510 audit DUE, #511+ BLOCKED)** — table2 (51c/25r), table3-receipts (52c/12r), table3-outlays-departments (112c/0r; DoD FYTD `¹916,836` footnote-glue render-resolved; cross-unit sum closes within [-4..+1]), table3-outlays-remainder (50c/14r), table9 (90c/6r; 1 tol-2 on 19-component FYTD Net Outlays), receipts-major (30c/6r, Table 4 p9), outlays-legislative (95c/**22r vs floor 23** — House This-Month Applicable `(**)` omission, logged not padded), outlays-judicial (39c/9r). All strict-default GREEN 0 warnings; cross-table ties T1↔T2↔T3↔T4↔T5↔T9 byte-match; roles U1-consistent; sweep 510/510; pytest 23/23. **#510 fires the every-10th audit — #511+ blocked, placeholder in `AUDITS.md` (Antigravity ineligible).** 71 September-MTS units remain.
 
 - 2026-11-26 · **treasury-mts/2026-09-table1** — #502, September MTS family opener (D2/PDF/vision; 78c/32r, strict-default GREEN 0 warnings; 26 rows closing FY2026; 10 tol-1 computed per-relation. FY2026 August Outlays restated 526,830 → 526,812 with footnote 1, text-layer `1526,812` render-resolved. Aug YTD + Sep − 18 = Sep YTD exact on all 3 cols; Table 1 ties Table 2 on all 9 Sept/FY2026/FY2025 figures). Sweep 502/502; pytest 23/23. 79 September-MTS units remain; next audit #510.
 
