@@ -37,6 +37,12 @@ in this repo always means a stage, never difficulty.
   MTS PDF text layer emits `(cid:NN)` tokens — decode `chr(NN+29)`.
   PDF units want a **vision-capable** agent (the render check is
   mandatory discipline); HTML units do not.
+- ⚠ **Word-level extraction is unsafe on MTS Schedule E (pp31–33):**
+  `extract_words` splits negatives/thousands (`-6,` + `324`) and can drop
+  a whole row, shifting a section by one (caught at #561–#570 ship).
+  Assign chars to columns by x-position and join per cell; the render
+  readback is the tie-breaker. Reconcile alone cannot catch a shifted
+  section in a unit with no total row.
 - The gate for every transcription: `uv run python reconcile.py <file>`
   GREEN with 0 warnings (strict coverage default), relations ≥ manifest
   minimum, `uv run pytest` green, one new file only.
