@@ -3257,3 +3257,36 @@ The page 5 render separates the superscript 1 from August outlays of 526,812. Au
 All nine units reconcile with zero warnings. The full strict sweep passes **510/510**, and **23/23 tests pass**. The September corrections preserve every cell ID, position and value. Earlier Table 2 files (May–August) carry the same estimate-label wording. The June–August Table 3 remainder files also declare only 14 relations. A separate historical check is queued in NEXT.md.
 
 ---
+
+## Spot-Audit: Unit 520 — treasury-mts/2026-09-outlays-education-departmental (and whole-batch #511–#520)
+
+**DUE. #521 is blocked pending an independent GREEN verdict.** OpenAI Codex transcribed all ten units on 2026-11-26. Assign a different agent. The figures below are the transcriber's handoff.
+
+**Source.** [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 10–12 and 19, with the rounding and omission notes on page 23. Table 3 on page 8 supplies the department net-outlay cross-check.
+
+| Unit | Table 5 section | Pages | Unit rows | Cells | Relations | Standalones |
+|---|---|---:|---:|---:|---:|---:|
+| #511 | `eop` | 19 | 7 | 42 | 8 | 2 |
+| #512 | `agriculture-programs` | 10 | 19 | 125 | 24 | 60 |
+| #513 | `agriculture-fns` | 10 | 12 | 80 | 14 | 26 |
+| #514 | `agriculture-departmental` | 10–11 | 31 | 209 | 38 | 0 |
+| #515 | `commerce` | 11 | 11 | 74 | 21 | 0 |
+| #516 | `defense-programs` | 11 | 15 | 88 | 18 | 0 |
+| #517 | `defense-rdte` | 11 | 14 | 84 | 12 | 24 |
+| #518 | `defense-departmental` | 11–12 | 26 | 153 | 12 | 0 |
+| #519 | `education-bureaus` | 12 | 15 | 90 | 22 | 0 |
+| #520 | `education-departmental` | 12 | 15 | 93 | 13 | 1 |
+| **Total** | | | **165** | **1,038** | **182** | **113** |
+
+### Checks for the auditor
+
+- Re-read the printed labels, numeric values and omissions across 1,485 unit positions. The 165 unit rows cover 132 distinct numeric source rows because three departmental units repeat 33 rows. The Agricultural Disaster Relief Fund line on page 10 contains nine omission marks. Check the wrapped WIC label and the Defense section that continues onto page 12.
+- Adjudicate the **#511 provisional floor miss (8 vs 9)** on page 19. The Executive Office prints `(**)` for September applicable receipts on both the proprietary line and the department total. Intrabudgetary Transactions prints −14 / −14 / −15 for gross and net. The total supports six vertical sums and two fiscal-year gross/net identities. The only standalones are the proprietary line's two fiscal-year applicable-receipts cells.
+- Resolve the four superscripts on **Air Force current-FYTD gross**. Page 11 marks 80,831 (O&M), 59,301 (Procurement) and 65,971 (RDT&E). Page 12 marks −37 (Intrabudgetary Transactions). Page 23 lists the August reporting adjustments in order as −2, +1, +6 and −23 million, summing to −18 million.
+- Match Agriculture's 143 values over 189 shared positions, Defense's 54 over 81, and Education's 20 over 27. Check that departmental sums count a bureau once wherever a printed subtotal exists. The Education department has one standalone, September proprietary applicable receipts of 3,400. The total-row applicable receipts feed a gross/net identity.
+- Compare Table 5 net outlays to Table 3 for September / FY2026 / FY2025. The expected triples in $ millions are Executive Office −67 / −1,234 / −508, Agriculture 14,377 / 216,670 / 227,452, Commerce 1,837 / 14,837 / 29,712, Defense 84,221 / 916,836 / 868,412 and Education 13,899 / 75,226 / 34,718.
+- Rebuild relation membership from print and verify roles. The transcriber's 182 sums give 112 exact, 64 at $1 million and six at $2 million. Each nonzero tolerance quotes the printed Table 5 rounding note. Run the unit gates, full strict sweep and pytest before entering a verdict.
+
+The next queued transcription is `treasury-mts/2026-09-outlays-energy` (#521).
+
+---

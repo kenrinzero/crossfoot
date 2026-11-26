@@ -1,0 +1,843 @@
+{
+  "table_id": "treasury-mts/2026-09-outlays-agriculture-fns",
+  "source": {
+    "path": "sources/treasury-mts/mts-202609.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
+    "page": 10,
+    "title": "Department of Agriculture (FNS and Rural)",
+    "period": "September FY2026 (Final)"
+  },
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The Rural Electrification and Telecommunications Fund shows (**) for September applicable receipts. The Food and Nutrition Service subtotal includes the four printed program lines, including the WIC label that wraps across two lines.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Rural Development"
+    },
+    {
+      "index": 2,
+      "label": "Rural Housing Service: Rural Housing Insurance Fund"
+    },
+    {
+      "index": 3,
+      "label": "Rural Housing Service: Rental Assistance Program"
+    },
+    {
+      "index": 4,
+      "label": "Rural Housing Service: Other"
+    },
+    {
+      "index": 5,
+      "label": "Rural Utilities Service: Rural Electrification and Telecommunications Fund"
+    },
+    {
+      "index": 6,
+      "label": "Rural Utilities Service: Other"
+    },
+    {
+      "index": 7,
+      "label": "Foreign Agricultural Service"
+    },
+    {
+      "index": 8,
+      "label": "Food and Nutrition Service: Supplemental Nutrition Assistance Program"
+    },
+    {
+      "index": 9,
+      "label": "Food and Nutrition Service: Child Nutrition Programs"
+    },
+    {
+      "index": 10,
+      "label": "Food and Nutrition Service: Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)"
+    },
+    {
+      "index": 11,
+      "label": "Food and Nutrition Service: Other"
+    },
+    {
+      "index": 12,
+      "label": "Total--Food and Nutrition Service"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "48",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "48",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "239",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "239",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "380",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "380",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "13",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "37",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-24",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "1495",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "286",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1208",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "1991",
+      "role": "total"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "281",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "1710",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "158",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "158",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1916",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1916",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1780",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1780",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "38",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "38",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "663",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "663",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "654",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "654",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "6",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "6",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "613",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "604",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "673",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "663",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "132",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "131",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "1443",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "1424",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "1414",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "1388",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "155",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "155",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "1580",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "1580",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "2011",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "2011",
+      "role": "standalone",
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "7502",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "7502",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "95393",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "95393",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "106335",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "106335",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1623",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1623",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "33344",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "33344",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "33375",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "33375",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "646",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "646",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "7698",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "7698",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "7961",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "7961",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "606",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "606",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "648",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "648",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "9820",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "9820",
+      "role": "total"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "137040",
+      "role": "total"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "137040",
+      "role": "total"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "148318",
+      "role": "total"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "148318",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r2c2"
+      ],
+      "target": "r2c1",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r2c5"
+      ],
+      "target": "r2c4",
+      "note": "Net outlays plus applicable receipts equal gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r2c8"
+      ],
+      "target": "r2c7",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c6",
+        "r5c5"
+      ],
+      "target": "r5c4",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c9",
+        "r5c8"
+      ],
+      "target": "r5c7",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "Net outlays plus applicable receipts equal gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r12c1",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r12c3",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r12c4",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6"
+      ],
+      "target": "r12c6",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r11c7"
+      ],
+      "target": "r12c7",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9"
+      ],
+      "target": "r12c9",
+      "note": "Total--Food and Nutrition Service column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    }
+  ]
+}

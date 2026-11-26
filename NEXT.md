@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 9/80 SHIPPED (#502–#510), 71 READY — #510 audit GREEN, #511 unblocked (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Next transcription unit: `treasury-mts/2026-09-outlays-eop` (D3, vision).
-  - **Audit:** #510 closed GREEN after repair on 2026-11-26. Codex verified all 597 values and the #509 floor exception, corrected period headers and added six missing #506 checks. Next audit **#520**. See `AUDITS.md`.
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 19/80 SHIPPED (#502–#520), 61 READY — #520 audit DUE, #521 blocked (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. First unit after audit #520 closes GREEN: `treasury-mts/2026-09-outlays-energy` (D2, vision).
+  - **Audit:** #510 closed GREEN after repair on 2026-11-26. Codex verified all 597 values and the #509 floor exception, corrected period headers and added six missing #506 checks. **Audit #520 is DUE.** A different agent must check the ten-unit batch (#511–#520) before #521. See the handoff in `AUDITS.md`.
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
 - **Historical follow-up from audit #510 (independent of #511).** Compare May–August Table 2 and Table 3 period headers with those months’ PDFs. Check June–August Table 3 remainder files for the six on/off-budget balances present in the May and repaired September units.
@@ -68,7 +68,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#510**; next audit **#520** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#510**; **#520 is DUE** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -108,6 +108,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-26 · **September MTS #511–#520 shipped. Audit #520 DUE.** Executive Office, Agriculture, Commerce, Defense and Education in Table 5. The 1,038 numeric cells and 182 relations pass strict reconciliation. #511 has eight relations against the provisional nine due to a printed (**) on page 19. Department totals tie to Table 3 across all three periods. Full sweep 520/520, pytest 23/23. #521 is blocked pending independent audit.
 
 - 2026-11-26 · **Audit #510 GREEN after repair (Codex).** All 597 printed values matched. Corrected September period headers and added six balance checks in #506. The #509 floor exception stands. Strict sweep 510/510, pytest 23/23. Next unit #511, next audit #520.
 
