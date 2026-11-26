@@ -3260,33 +3260,67 @@ All nine units reconcile with zero warnings. The full strict sweep passes **510/
 
 ## Spot-Audit: Unit 520 — treasury-mts/2026-09-outlays-education-departmental (and whole-batch #511–#520)
 
-**DUE. #521 is blocked pending an independent GREEN verdict.** OpenAI Codex transcribed all ten units on 2026-11-26. Assign a different agent. The figures below are the transcriber's handoff.
+**Verdict: GREEN, 2026-11-26.** Antigravity (Gemini 4 Neon, XHigh) audited the ten-unit Table 5 batch independently of the transcriber, OpenAI Codex, who shipped `cc27928`. All 1,038 numeric values and 447 omissions across 1,485 unit positions match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with zero defects and zero repairs needed. **#521 (`treasury-mts/2026-09-outlays-energy`) is unblocked. The next cadence audit is #530.**
 
-**Source.** [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 10–12 and 19, with the rounding and omission notes on page 23. Table 3 on page 8 supplies the department net-outlay cross-check.
+### 1. Source and positional coverage
 
-| Unit | Table 5 section | Pages | Unit rows | Cells | Relations | Standalones |
-|---|---|---:|---:|---:|---:|---:|
-| #511 | `eop` | 19 | 7 | 42 | 8 | 2 |
-| #512 | `agriculture-programs` | 10 | 19 | 125 | 24 | 60 |
-| #513 | `agriculture-fns` | 10 | 12 | 80 | 14 | 26 |
-| #514 | `agriculture-departmental` | 10–11 | 31 | 209 | 38 | 0 |
-| #515 | `commerce` | 11 | 11 | 74 | 21 | 0 |
-| #516 | `defense-programs` | 11 | 15 | 88 | 18 | 0 |
-| #517 | `defense-rdte` | 11 | 14 | 84 | 12 | 24 |
-| #518 | `defense-departmental` | 11–12 | 26 | 153 | 12 | 0 |
-| #519 | `education-bureaus` | 12 | 15 | 90 | 22 | 0 |
-| #520 | `education-departmental` | 12 | 15 | 93 | 13 | 1 |
-| **Total** | | | **165** | **1,038** | **182** | **113** |
+The vendored PDF matches the SHA-256 in [sources/SOURCES.md](sources/SOURCES.md) (`fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`), and `git status` started clean at `cc27928` (`main == origin/main`). Independently extracted every character and right-edge column position on printed pages 10, 11, 12, 19, and 23 via `pdfplumber`, and visually inspected 3.5× `pypdfium2` renders of all five pages. Every cell across all ten units was checked position-by-position for exact string equality (sign preserved, thousands commas stripped) and omission discipline (`......` and `(**)` omitted, never `0`).
 
-### Checks for the auditor
+| Unit | Table 5 section | Pages | Rows | Positions | Values | Omissions | Relations | Standalones | Mismatches |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| #511 | `eop` | 19 | 7 | 63 | 42 | 21 | 8 | 2 | 0 |
+| #512 | `agriculture-programs` | 10 | 19 | 171 | 125 | 46 | 24 | 60 | 0 |
+| #513 | `agriculture-fns` | 10 | 12 | 108 | 80 | 28 | 14 | 26 | 0 |
+| #514 | `agriculture-departmental` | 10–11 | 31 | 279 | 209 | 70 | 38 | 0 | 0 |
+| #515 | `commerce` | 11 | 11 | 99 | 74 | 25 | 21 | 0 | 0 |
+| #516 | `defense-programs` | 11 | 15 | 135 | 88 | 47 | 18 | 0 | 0 |
+| #517 | `defense-rdte` | 11 | 14 | 126 | 84 | 42 | 12 | 24 | 0 |
+| #518 | `defense-departmental` | 11–12 | 26 | 234 | 153 | 81 | 12 | 0 | 0 |
+| #519 | `education-bureaus` | 12 | 15 | 135 | 90 | 45 | 22 | 0 | 0 |
+| #520 | `education-departmental` | 12 | 15 | 135 | 93 | 42 | 13 | 1 | 0 |
+| **Total** | | **10–12, 19** | **165** | **1,485** | **1,038** | **447** | **182** | **113** | **0** |
 
-- Re-read the printed labels, numeric values and omissions across 1,485 unit positions. The 165 unit rows cover 132 distinct numeric source rows because three departmental units repeat 33 rows. The Agricultural Disaster Relief Fund line on page 10 contains nine omission marks. Check the wrapped WIC label and the Defense section that continues onto page 12.
-- Adjudicate the **#511 provisional floor miss (8 vs 9)** on page 19. The Executive Office prints `(**)` for September applicable receipts on both the proprietary line and the department total. Intrabudgetary Transactions prints −14 / −14 / −15 for gross and net. The total supports six vertical sums and two fiscal-year gross/net identities. The only standalones are the proprietary line's two fiscal-year applicable-receipts cells.
-- Resolve the four superscripts on **Air Force current-FYTD gross**. Page 11 marks 80,831 (O&M), 59,301 (Procurement) and 65,971 (RDT&E). Page 12 marks −37 (Intrabudgetary Transactions). Page 23 lists the August reporting adjustments in order as −2, +1, +6 and −23 million, summing to −18 million.
-- Match Agriculture's 143 values over 189 shared positions, Defense's 54 over 81, and Education's 20 over 27. Check that departmental sums count a bureau once wherever a printed subtotal exists. The Education department has one standalone, September proprietary applicable receipts of 3,400. The total-row applicable receipts feed a gross/net identity.
-- Compare Table 5 net outlays to Table 3 for September / FY2026 / FY2025. The expected triples in $ millions are Executive Office −67 / −1,234 / −508, Agriculture 14,377 / 216,670 / 227,452, Commerce 1,837 / 14,837 / 29,712, Defense 84,221 / 916,836 / 868,412 and Education 13,899 / 75,226 / 34,718.
-- Rebuild relation membership from print and verify roles. The transcriber's 182 sums give 112 exact, 64 at $1 million and six at $2 million. Each nonzero tolerance quotes the printed Table 5 rounding note. Run the unit gates, full strict sweep and pytest before entering a verdict.
+### 2. Row accounting, labels, and the #511 floor exception
 
-The next queued transcription is `treasury-mts/2026-09-outlays-energy` (#521).
+- **Complete source row coverage:** The five Table 5 sections print 133 data rows in total: 132 rows with at least one numeric entry and 1 all-omission row (`Farm Service Agency / Agricultural Disaster Relief Fund` on page 10, printing `...... / ...... / ...... / (**) / ...... / (**) / (**) / ...... / (**)`), which is properly dropped. All 132 distinct numeric rows (7 EOP, 41 Agriculture, 11 Commerce, 46 Defense, 27 Education) appear across the 165 unit rows (33 repeated across departmental capstones) with zero missing or fabricated rows.
+- **Labels and continuations:** All column headers match the corpus-wide Table 5 template and printed page headers. Wrapped row label `Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)` occupies one row (`#513` r10). Both multi-page continuations (`Department of Agriculture: - Continued` onto page 11; `Department of Defense--Military Programs: - Continued` across pages 11–12 with `Revolving and Management Funds / Defense Agencies` splitting across the page break) preserve exact hierarchy and labels matching the August twins.
+- **#511 provisional floor exception upheld (8 vs 9):** On page 19, `Proprietary Receipts from the Public` prints `...... / (**) / (**)` in September and `Total--Executive Office of the President` prints `-67 / (**) / -67`. Because September Applicable Receipts is `(**)`, there is no September gross-to-net identity; Current FYTD (`1,202`) and Prior FYTD (`1,001`) each have a single numeric applicable-receipts component (`r5`). `Intrabudgetary Transactions` is newly populated (`-14 / -14 / -15` gross and net, expanding EOP from 6 rows / 36 cells in August to 7 rows / 42 cells). The section legitimately supports six vertical sums and two FYTD gross-to-net identities = **8 relations** (2 standalones `r5c5/r5c8` under waiver 6).
+- **Source-side `(**)` gross-vs-net differences render-confirmed:** `#511` EOP `Other` Prior FYTD (`274` gross / `(**)` applicable / `273` net), `#519/#520` `Total--Office of Postsecondary Education` Prior FYTD (`3,936` / `(**)` / `3,935`), and `#519/#520` `Total--Office of Federal Student Aid` This Month (`12,373` / `(**)` / `12,372`).
+
+### 3. Arithmetic, relation membership, and role checks
+
+Independently reconstructed every printable Table 5 identity class (all three-cell horizontal `Applicable + Net = Gross` identities and all multi-source vertical bureau/departmental sums) from the page layouts and recomputed all **182 declared relations** in exact `Decimal`:
+
+- **Exactness and tolerance plausibility:** **112** relations close exactly, **64** carry `tol="1"`, and **6** carry `tol="2"` (`#514` `r10c9` over 25 sources; `#518` `r26c3`/`r26c4`/`r26c6` over 22/20/25 sources; `#520` `r15c1`/`r15c9` over 12/14 sources). Every nonzero tolerance equals the exact observed residual, satisfies `tol <= len(sources)` (all `tol="2"` relations span 12–25 sources), and quotes page 23's printed rounding note (`"Note: Details may not add to totals due to rounding."`).
+- **No missing classes or double-counting:** Every three-cell row-period has its horizontal identity declared, and every multi-source subtotal/total column is declared with exact non-overlapping component membership. Departmental capstones (`#514`, `#518`, `#520`) sum each bureau once at its printed subtotal (Agriculture: Forest Service, FSA, FNS; Defense: Military Personnel, O&M, Procurement, RDT&E, MilCon; Education: OESE, OPE, OFSA) and include non-subtotaled lines individually.
+- **U1 role consistency:** All **113 standalones** (`#511` 2, `#512` 60, `#513` 26, `#517` 24, `#520` 1) have accurate `why` justifications, sit within their manifest waivers, and are strictly disjoint from the relation graph. In `#520`, `r13c2` (`3,400`, Proprietary Receipts) is the sole September applicable-receipts component and stays `standalone`, while `r15c2` (`3,400`) is `leaf` feeding `r15`'s September horizontal identity (`3,400 + 13,899 = 17,299`).
+
+### 4. Shared-position and Table 3 cross-checks
+
+- **Cross-unit shared rows (33 rows / 297 positions / 217 numeric values, 0 mismatches):** Agriculture (`#512/#513/#514`) matches byte-for-byte on 21 shared rows (189 positions, 143 values); Defense (`#516/#517/#518`) matches on 9 shared rows (81 positions, 54 values); Education (`#519/#520`) matches on 3 shared rows (27 positions, 20 values).
+- **Table 5 ↔ Table 3 (`#505`) net outlays:** all five department triples byte-match across September / FY2026 / FY2025:
+
+| Department ($ millions) | September 2026 | Current FYTD (FY2026) | Prior FYTD (FY2025) | Match vs Table 3 (#505) |
+|---|---:|---:|---:|---|
+| Executive Office of the President | −67 | −1,234 | −508 | exact |
+| Department of Agriculture | 14,377 | 216,670 | 227,452 | exact |
+| Department of Commerce | 1,837 | 14,837 | 29,712 | exact |
+| Department of Defense--Military Programs | 84,221 | 916,836 | 868,412 | exact |
+| Department of Education | 13,899 | 75,226 | 34,718 | exact |
+
+### 5. Footnotes 1–4 and the August reporting adjustment
+
+Scanning all characters below 6.5pt across pages 10, 11, 12, and 19 detects exactly four superscripts (all 4.0pt, visually verified on the renders), all on Department of the Air Force Current FYTD Gross Outlays:
+
+1. Page 11, Operation and Maintenance (`#516` r8c4): `¹ 80,831` — page 23 footnote 1: *Amount decreased by $2 million due to additional reporting for the month of August 2026.*
+2. Page 11, Procurement (`#516` r13c4): `² 59,301` — page 23 footnote 2: *Amount increased by $1 million due to additional reporting for the month of August 2026.*
+3. Page 11, RDT&E (`#517` r3c4): `³ 65,971` — page 23 footnote 3: *Amount increased by $6 million due to additional reporting for the month of August 2026.*
+4. Page 12, Intrabudgetary Transactions (`#518` r23c4): `⁴ -37` — page 23 footnote 4: *Amount decreased by $23 million due to additional reporting for the month of August 2026.*
+
+These four adjustments sum to `−2 + 1 + 6 − 23 = −$18 million`, reconciling exactly with Table 1 page 5 and Table 3 page 8 footnote 1. Zero superscript digits leaked into transcribed values.
+
+### 6. Regression gates
+
+All ten units (`#511–#520`) pass strict UTF-8 / LF-only / zero-C0-byte checks and reconcile individually with **0 warnings**. Full corpus sweep passes **520/520 GREEN**, and **23/23 pytest tests pass**. **#521+ unblocked.** Next every-10th audit fires at **#530**.
 
 ---
