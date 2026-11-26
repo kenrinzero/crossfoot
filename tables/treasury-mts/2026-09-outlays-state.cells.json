@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 16,
-    "title": "Outlays of the U.S. Government — Department of State",
+    "title": "Outlays of the U.S. Government \u2014 Department of State",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Three standalones are the proprietary-receipt amounts, the only numeric cell in each period. The all-omission International Narcotics Control and Law Enforcement row is dropped. Net outlays 3,937/28,828/28,362 match Table 3. Page 16.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. The three proprietary applicable-receipts amounts are the sole numeric components of their respective column sums. Andean Counterdrug Programs prints only omission marks. International Narcotics Control and Law Enforcement prints net outlays of 145 / 1,151 / 1,427. Net outlays 3,937/28,828/28,362 match Table 3. Page 16. Audit #540 removed 3 repeated gross/net identities counted twice with their operands reversed.",
   "columns": [
     {
       "index": 1,
@@ -957,32 +957,6 @@
       "target": "r15c9",
       "tol": "1",
       "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r15c2",
-        "r15c3"
-      ],
-      "target": "r15c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r15c5",
-        "r15c6"
-      ],
-      "target": "r15c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r15c8",
-        "r15c9"
-      ],
-      "target": "r15c7"
     }
   ]
 }

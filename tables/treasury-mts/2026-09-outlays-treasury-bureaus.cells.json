@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 17,
-    "title": "Outlays of the U.S. Government — Department of the Treasury, bureaus excluding IRS",
+    "title": "Outlays of the U.S. Government \u2014 Department of the Treasury, bureaus excluding IRS",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Interest Paid to Credit Financing Accounts prints 10,492 this month and is inside the Fiscal Service total (new versus August). All-omission Transportation Services is dropped. 60 standalones, two above the August waiver of 58, on lines that roll up only in the departmental unit. Page 17.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Interest Paid to Credit Financing Accounts prints 10,492 this month and is inside the Fiscal Service total (new versus August). All-omission Transportation Services is dropped. 60 standalones, two above the August waiver of 58, on lines that roll up only in the departmental unit. Page 17. Audit #540 removed 4 repeated gross/net identities counted twice with their operands reversed. Page 17 prints the interest line (r13) between Financial Agent Services and Claims, Judgements, and Relief Acts. Its six numeric cells enter the Fiscal Service subtotal. The 60 standalone cells appear in the departmental unit as components of Treasury totals.",
   "columns": [
     {
       "index": 1,
@@ -97,7 +97,7 @@
     },
     {
       "index": 13,
-      "label": "Interest Paid to Credit Financing Accounts"
+      "label": "Bureau of the Fiscal Service: Interest Paid to Credit Financing Accounts"
     },
     {
       "index": 14,
@@ -127,7 +127,7 @@
       "col": 2,
       "value": "99",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r1c3",
@@ -135,7 +135,7 @@
       "col": 3,
       "value": "-99",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r1c5",
@@ -143,7 +143,7 @@
       "col": 5,
       "value": "1686",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r1c6",
@@ -151,7 +151,7 @@
       "col": 6,
       "value": "-1686",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r1c7",
@@ -180,7 +180,7 @@
       "col": 4,
       "value": "8",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r2c6",
@@ -188,7 +188,7 @@
       "col": 6,
       "value": "8",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r2c7",
@@ -196,7 +196,7 @@
       "col": 7,
       "value": "2",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r2c9",
@@ -204,7 +204,7 @@
       "col": 9,
       "value": "2",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c1",
@@ -212,7 +212,7 @@
       "col": 1,
       "value": "32",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c3",
@@ -220,7 +220,7 @@
       "col": 3,
       "value": "32",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c4",
@@ -228,7 +228,7 @@
       "col": 4,
       "value": "32",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c6",
@@ -236,7 +236,7 @@
       "col": 6,
       "value": "32",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c7",
@@ -244,7 +244,7 @@
       "col": 7,
       "value": "20",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r3c9",
@@ -252,7 +252,7 @@
       "col": 9,
       "value": "20",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r4c4",
@@ -260,7 +260,7 @@
       "col": 4,
       "value": "-7",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r4c6",
@@ -268,7 +268,7 @@
       "col": 6,
       "value": "-7",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r4c7",
@@ -276,7 +276,7 @@
       "col": 7,
       "value": "-9",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r4c9",
@@ -284,7 +284,7 @@
       "col": 9,
       "value": "-9",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c1",
@@ -292,7 +292,7 @@
       "col": 1,
       "value": "246",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c3",
@@ -300,7 +300,7 @@
       "col": 3,
       "value": "246",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c4",
@@ -308,7 +308,7 @@
       "col": 4,
       "value": "2649",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c6",
@@ -316,7 +316,7 @@
       "col": 6,
       "value": "2649",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c7",
@@ -324,7 +324,7 @@
       "col": 7,
       "value": "1462",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r5c9",
@@ -332,7 +332,7 @@
       "col": 9,
       "value": "1462",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c1",
@@ -340,7 +340,7 @@
       "col": 1,
       "value": "4",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c3",
@@ -348,7 +348,7 @@
       "col": 3,
       "value": "4",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c4",
@@ -356,7 +356,7 @@
       "col": 4,
       "value": "29",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c6",
@@ -364,7 +364,7 @@
       "col": 6,
       "value": "29",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c7",
@@ -372,7 +372,7 @@
       "col": 7,
       "value": "157",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r6c9",
@@ -380,7 +380,7 @@
       "col": 9,
       "value": "157",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c1",
@@ -388,7 +388,7 @@
       "col": 1,
       "value": "-60",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c3",
@@ -396,7 +396,7 @@
       "col": 3,
       "value": "-60",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c4",
@@ -404,7 +404,7 @@
       "col": 4,
       "value": "-104",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c6",
@@ -412,7 +412,7 @@
       "col": 6,
       "value": "-104",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c7",
@@ -420,7 +420,7 @@
       "col": 7,
       "value": "-103",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r7c9",
@@ -428,7 +428,7 @@
       "col": 9,
       "value": "-103",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c1",
@@ -436,7 +436,7 @@
       "col": 1,
       "value": "-54",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c3",
@@ -444,7 +444,7 @@
       "col": 3,
       "value": "-54",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c4",
@@ -452,7 +452,7 @@
       "col": 4,
       "value": "3056",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c6",
@@ -460,7 +460,7 @@
       "col": 6,
       "value": "3056",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c7",
@@ -468,7 +468,7 @@
       "col": 7,
       "value": "4828",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r8c9",
@@ -476,7 +476,7 @@
       "col": 9,
       "value": "4828",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r9c4",
@@ -722,7 +722,7 @@
       "col": 1,
       "value": "12",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r15c3",
@@ -730,7 +730,7 @@
       "col": 3,
       "value": "12",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r15c4",
@@ -738,7 +738,7 @@
       "col": 4,
       "value": "148",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r15c6",
@@ -746,7 +746,7 @@
       "col": 6,
       "value": "148",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r15c7",
@@ -754,7 +754,7 @@
       "col": 7,
       "value": "154",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r15c9",
@@ -762,7 +762,7 @@
       "col": 9,
       "value": "154",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c1",
@@ -770,7 +770,7 @@
       "col": 1,
       "value": "29",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c3",
@@ -778,7 +778,7 @@
       "col": 3,
       "value": "29",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c4",
@@ -786,7 +786,7 @@
       "col": 4,
       "value": "406",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c6",
@@ -794,7 +794,7 @@
       "col": 6,
       "value": "406",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c7",
@@ -802,7 +802,7 @@
       "col": 7,
       "value": "395",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r16c9",
@@ -810,7 +810,7 @@
       "col": 9,
       "value": "395",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c1",
@@ -818,7 +818,7 @@
       "col": 1,
       "value": "86",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c3",
@@ -826,7 +826,7 @@
       "col": 3,
       "value": "86",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c4",
@@ -834,7 +834,7 @@
       "col": 4,
       "value": "95",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c6",
@@ -842,7 +842,7 @@
       "col": 6,
       "value": "95",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c7",
@@ -850,7 +850,7 @@
       "col": 7,
       "value": "-55",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r17c9",
@@ -858,7 +858,7 @@
       "col": 9,
       "value": "-55",
       "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "why": "This period has no complete gross/net identity for this line. The line enters the Department of the Treasury total in the departmental unit."
     },
     {
       "id": "r18c1",
@@ -1032,42 +1032,6 @@
       "target": "r14c9",
       "tol": "1",
       "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c8",
-        "r1c9"
-      ],
-      "target": "r1c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r18c2",
-        "r18c3"
-      ],
-      "target": "r18c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r18c5",
-        "r18c6"
-      ],
-      "target": "r18c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r18c8",
-        "r18c9"
-      ],
-      "target": "r18c7"
     }
   ]
 }

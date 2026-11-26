@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 16,
-    "title": "Outlays of the U.S. Government — Department of Labor, Employment and Training Administration",
+    "title": "Outlays of the U.S. Government \u2014 Department of Labor, Employment and Training Administration",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. This-month gross and net on Payments to the Unemployment Trust Fund (-219) and the ETA Other after the trust-fund subtotal (+219) are in the ETA total; they cancel, and that total still closes at tol 1. Page 16.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. This-month gross and net on Payments to the Unemployment Trust Fund (-219) and the ETA Other after the trust-fund subtotal (+219) are in the ETA total; they cancel, and that total still closes at tol 1. Page 16. Audit #540 qualified the two Other labels by their printed sections.",
   "columns": [
     {
       "index": 1,
@@ -93,7 +93,7 @@
     },
     {
       "index": 12,
-      "label": "Other"
+      "label": "Unemployment Trust Fund / Other"
     },
     {
       "index": 13,
@@ -101,7 +101,7 @@
     },
     {
       "index": 14,
-      "label": "Other"
+      "label": "Employment and Training Administration / Other"
     },
     {
       "index": 15,

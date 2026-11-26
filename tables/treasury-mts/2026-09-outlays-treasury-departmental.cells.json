@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 18,
-    "title": "Outlays of the U.S. Government — Department of the Treasury",
+    "title": "Outlays of the U.S. Government \u2014 Department of the Treasury",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Net outlays print 60,646/1,580,964/1,458,910. Table 3 splits Treasury into Interest on Treasury Debt Securities (Gross) and Other; those two lines sum to 60,647/1,580,963/1,458,910, off by 1 from Table 5 on September and the current year. Pages 17-18.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Net outlays print 60,646/1,580,964/1,458,910. Table 3 splits Treasury into Interest on Treasury Debt Securities (Gross) and Other; those two lines sum to 60,647/1,580,963/1,458,910, off by 1 from Table 5 on September and the current year. Pages 17-18. Audit #540 removed 15 repeated gross/net identities counted twice with their operands reversed.",
   "columns": [
     {
       "index": 1,
@@ -1607,136 +1607,6 @@
       "target": "r9c9",
       "tol": "2",
       "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c2",
-        "r1c3"
-      ],
-      "target": "r1c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c5",
-        "r1c6"
-      ],
-      "target": "r1c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c8",
-        "r1c9"
-      ],
-      "target": "r1c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r6c2",
-        "r6c3"
-      ],
-      "target": "r6c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r6c5",
-        "r6c6"
-      ],
-      "target": "r6c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r6c8",
-        "r6c9"
-      ],
-      "target": "r6c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c2",
-        "r9c3"
-      ],
-      "target": "r9c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c5",
-        "r9c6"
-      ],
-      "target": "r9c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c8",
-        "r9c9"
-      ],
-      "target": "r9c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r11c5",
-        "r11c6"
-      ],
-      "target": "r11c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r11c8",
-        "r11c9"
-      ],
-      "target": "r11c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r13c8",
-        "r13c9"
-      ],
-      "target": "r13c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r24c2",
-        "r24c3"
-      ],
-      "target": "r24c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r24c5",
-        "r24c6"
-      ],
-      "target": "r24c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r24c8",
-        "r24c9"
-      ],
-      "target": "r24c7"
     }
   ]
 }

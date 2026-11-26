@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 17,
-    "title": "Outlays of the U.S. Government — Department of Transportation",
+    "title": "Outlays of the U.S. Government \u2014 Department of Transportation",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Federal Railroad Administration Other prints the same six numbers as Total--Federal Railroad Administration, so that Other row is standalone (waiver 6). Net outlays 14,676/124,271/127,583 match Table 3. Page 17.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Federal Railroad Administration Other prints the same six numbers as Total--Federal Railroad Administration, so that Other row is standalone (waiver 6). Net outlays 14,676/124,271/127,583 match Table 3. Page 17. Audit #540 removed 10 repeated gross/net identities counted twice with their operands reversed. Page 17 prints (**) for September Maritime Administration applicable receipts. This leaves 19 distinct relations against the provisional floor of 20.",
   "columns": [
     {
       "index": 1,
@@ -73,7 +73,7 @@
     },
     {
       "index": 7,
-      "label": "Other"
+      "label": "Federal Railroad Administration / Other"
     },
     {
       "index": 8,
@@ -85,7 +85,7 @@
     },
     {
       "index": 10,
-      "label": "Other"
+      "label": "Department of Transportation / Other"
     },
     {
       "index": 11,
@@ -979,92 +979,6 @@
       "target": "r14c9",
       "tol": "1",
       "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c2",
-        "r1c3"
-      ],
-      "target": "r1c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c5",
-        "r1c6"
-      ],
-      "target": "r1c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r1c8",
-        "r1c9"
-      ],
-      "target": "r1c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c5",
-        "r9c6"
-      ],
-      "target": "r9c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c8",
-        "r9c9"
-      ],
-      "target": "r9c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r10c5",
-        "r10c6"
-      ],
-      "target": "r10c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r10c8",
-        "r10c9"
-      ],
-      "target": "r10c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c2",
-        "r14c3"
-      ],
-      "target": "r14c1",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c5",
-        "r14c6"
-      ],
-      "target": "r14c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c8",
-        "r14c9"
-      ],
-      "target": "r14c7"
     }
   ]
 }

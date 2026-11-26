@@ -3389,39 +3389,59 @@ All ten units pass strict UTF-8 / LF-only / zero-C0 checks and reconcile individ
 
 ## Spot-Audit: Unit 540 — treasury-mts/2026-09-outlays-corps-engineers (and whole-batch #531–#540)
 
-- **Audit Date:** DUE
-- **Auditor:** (different agent from the transcriber — Cursor Grok 4.7 is ineligible)
-- **Transcriber:** Cursor Grok 4.7
-- **Table ID:** [treasury-mts/2026-09-outlays-corps-engineers](tables/treasury-mts/2026-09-outlays-corps-engineers.cells.json) plus the nine preceding September units (`#531–#539`)
-- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 16–19 plus the rounding and omission notes on page 23; Table 3 on page 8 supplies the department net-outlay cross-checks.
-- **Status:** **DUE.** **#541+ (`treasury-mts/2026-09-outlays-other-defense-civil`) is BLOCKED until this closes GREEN.**
+**GREEN after repair, 2026-11-26.** OpenAI Codex independently audited the September Table 5 batch shipped by Cursor Grok 4.7 at `b783f72`. All **1,012 numeric values and 446 omissions** match the vendored statement. The 253 shipped relation records contained **185 distinct equations**. The audit removed the 68 repeated records, corrected the State omission note and clarified row labels and documentation. **#541 is unblocked. The next cadence audit is #550.**
 
-### Scope the auditor should cover
+### 1. Source and positional coverage
 
-Whole-batch positional check of September Table 5 units `#531–#540`: **162 unit rows / 144 distinct numeric source rows / 1,458 positions (1,012 values + 446 omissions) / 253 relations / 72 standalones**. Independent parse and render of printed pages 16–19. `......` and `(**)` are omitted, not 0. Drop a row only when every cell on that row is omitted.
+Checked the [September statement](sources/treasury-mts/mts-202609.pdf) against the [source ledger](sources/SOURCES.md), SHA-256 `fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`. Read the printed Table 5 grids on pages 16–19 using character positions in pdfplumber, compared the same 1,458 boxes with a separate PDFium text extraction, and inspected the page renders including Table 3 (page 8) and the Table 5 legend (page 23). The two readers agree on the signs, numbers and omission marks. The 162 unit rows cover 144 distinct numeric source rows plus 18 repeated rows shared between units.
 
-| Unit | Section | Pages | Rows | Positions | Values | Omissions | Relations | Standalones |
+| Unit | Section | Rows | Values | Omissions | Shipped relations | Duplicate copies removed | Verified relations | Provisional minimum |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| #531 | `labor-bureaus` | 16 | 15 | 135 | 90 | 45 | 12 | 0 |
-| #532 | `labor-departmental` | 16 | 16 | 144 | 102 | 42 | 21 | 0 |
-| #533 | `state` | 16 | 15 | 135 | 93 | 42 | 18 | 3 |
-| #534 | `transportation-bureaus` | 17 | 17 | 153 | 102 | 51 | 36 | 0 |
-| #535 | `transportation-departmental` | 17 | 14 | 126 | 92 | 34 | 29 | 6 |
-| #536 | `treasury-bureaus` | 17 | 18 | 162 | 106 | 56 | 14 | 60 |
-| #537 | `treasury-irs` | 17–18 | 12 | 108 | 76 | 32 | 14 | 0 |
-| #538 | `treasury-departmental` | 17–18 | 24 | 216 | 155 | 61 | 45 | 0 |
-| #539 | `veterans-affairs` | 18 | 22 | 198 | 139 | 59 | 52 | 0 |
-| #540 | `corps-engineers` | 18–19 | 9 | 81 | 57 | 24 | 12 | 3 |
-| **Total** | | **16–19** | **162** | **1,458** | **1,012** | **446** | **253** | **72** |
+| #531 | Labor bureaus | 15 | 90 | 45 | 12 | 0 | 12 | 12 |
+| #532 | Labor departmental | 16 | 102 | 42 | 21 | 6 | 15 | 15 |
+| #533 | State | 15 | 93 | 42 | 18 | 3 | 15 | 15 |
+| #534 | Transportation bureaus | 17 | 102 | 51 | 36 | 6 | 30 | 30 |
+| #535 | Transportation departmental | 14 | 92 | 34 | 29 | 10 | **19** | **20** |
+| #536 | Treasury bureaus | 18 | 106 | 56 | 14 | 4 | 10 | 10 |
+| #537 | IRS | 12 | 76 | 32 | 14 | 4 | 10 | 10 |
+| #538 | Treasury departmental | 24 | 155 | 61 | 45 | 15 | 30 | 30 |
+| #539 | Veterans Affairs | 22 | 139 | 59 | 52 | 17 | **35** | **36** |
+| #540 | Corps of Engineers | 9 | 57 | 24 | 12 | 3 | 9 | 9 |
+| **Total** | | **162** | **1,012** | **446** | **253** | **68** | **185** | |
 
-### What to re-derive, not sample
+### 2. Repeated equations and provisional minimums
 
-- **Positional coverage.** Confirm every numeric row on Labor, State, Transportation, Treasury, Veterans Affairs, and Corps of Engineers, including the new Fiscal Service line `Interest Paid to Credit Financing Accounts` (September `10,492`). Confirm the dropped all-omission rows: State `International Narcotics Control and Law Enforcement`, Treasury `Transportation Services`, and VA `Veterans Choice`.
-- **Known source quirks.** FRA `Other` prints the same six numbers as `Total--Federal Railroad Administration`. Labor this-month `Payments to the Unemployment Trust Fund` is `-219` and the following ETA `Other` is `+219`; both are in the ETA total. Joint DOD-VA prints `49 / 755 / 751`. Corps proprietary receipts are the three standalones.
-- **Treasury standalones.** `#536` has 60 standalones against an August waiver of 58. Check that the two extra cells are real printed amounts that do not enter a Fiscal Service sum, and that the departmental unit (`#538`) still rolls the same lines up once.
-- **Table 3.** Labor `3,826 / 55,184 / 50,383`, State `3,937 / 28,828 / 28,362`, Transportation `14,676 / 124,271 / 127,583`, VA `20,515 / 415,575 / 376,591`, Corps `-116 / 10,784 / 12,124`. Treasury Table 5 nets are `60,646 / 1,580,964 / 1,458,910`. Table 3 prints Treasury as Interest plus Other, which sum to `60,647 / 1,580,963 / 1,458,910`.
-- **Arithmetic.** Recompute all 253 relations. Nonzero tolerances must equal the residual, stay within the source count, and quote the page 23 rounding note. No bureau double-counting. The 72 standalones must sit outside the relation graph.
+Every horizontal gross-outlay equation in the batch appeared twice, with the order of applicable receipts and net outlays reversed. For example, #540 declared both `r9c3 + r9c2 = r9c1` and `r9c2 + r9c3 = r9c1`. Grouping by target and sorted source IDs identified 68 pairs across nine units. Each pair had identical tolerance and rounding evidence. Kept the first copy of each equation under the value-preserving repair rule (#129/#160/#340 precedent).
 
-**#541+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-other-defense-civil` is the next unit after the audit.
+Rebuilt the expected row identities and column subtotals directly from the numeric operands and the printed hierarchy. These give **68 horizontal and 117 vertical sums**, with each bureau subtotal counted once in its parent. All 185 distinct equations match that inventory. Exact Decimal recomputation gives **113 exact, 66 at $1 million and six at $2 million**. Each nonzero tolerance equals the observed absolute difference, stays within its number of components and quotes the page 23 rounding note.
+
+- **#535, 19 vs 20.** Maritime Administration prints September gross 87, applicable receipts `(**)`, and net 87 on page 17. The August statement printed 131 / 1 / 130. Losing this numeric operand removes the September row equation. The six figures on Federal Railroad Administration's sole detail row equal its printed subtotal and correctly remain standalone within the unit.
+- **#539, 35 vs 36.** Veterans Special Life prints September gross 9, applicable receipts `(**)`, and net 9 on page 18. Both fiscal-year identities have three numeric operands. August also printed an omission in that column (7 / `(**)` / 7). Both September exceptions are accepted at their observed counts.
+
+### 3. Source rows and standalones
+
+- **State.** The all-omission line is **Andean Counterdrug Programs**. The preceding International Narcotics Control and Law Enforcement row is present and prints net outlays of 145 / 1,151 / 1,427. Corrected the unit note and manifest. Treasury Transportation Services and Veterans Choice Fund are also all-omission lines.
+- **Treasury.** Interest Paid to Credit Financing Accounts prints 10,492 / 10,492 / 12,356 in both gross and net. All six values enter the Fiscal Service subtotal. The 60 standalone cells in #536 are on other lines that feed the departmental totals in #538. The provisional allowance was 58, while the August unit actually had 54. The six additional positions are ESF – Economic Stabilization Program's September and current-FYTD gross/net (four cells, each 32), and Emergency Capital Investment Program's September gross/net (two cells, each 4). All six are supported by the print. The audit accepts 60 and preserves the original provisional allowance for comparison.
+- **Labels.** Qualified repeated “Other” labels in Labor and Transportation with their printed sections, identified the Fiscal Service parent of the Treasury interest line, and corrected which refundable-credit and tax-credit labels wrap in the IRS unit. All cell IDs, row indices, roles and values are preserved.
+- **Role checks.** All 72 standalones are outside the relation graph. They comprise three State and three Corps proprietary applicable receipts, six Federal Railroad detail values and the 60 Treasury bureau cells. Labor's September −219 payment to the Unemployment Trust Fund and +219 on the ETA “Other” line after the trust-fund subtotal both enter the ETA total. The VA Joint DOD-VA Medical Facility Demonstration Fund prints 49 / 755 / 751.
+
+### 4. Shared rows and Table 3
+
+All shared positions agree, including omissions. Labor repeats one row with six values, Transportation repeats three rows with 21 values, and Treasury repeats 14 rows with 86 values. Table 5 department net totals were compared to an independent reading of page 8 and the existing Table 3 unit.
+
+| Department | September | FY2026 to date | FY2025 to date | Table 5 minus Table 3 ($ millions) |
+|---|---:|---:|---:|---|
+| Labor | 3,826 | 55,184 | 50,383 | 0 / 0 / 0 |
+| State | 3,937 | 28,828 | 28,362 | 0 / 0 / 0 |
+| Transportation | 14,676 | 124,271 | 127,583 | 0 / 0 / 0 |
+| Treasury | 60,646 | 1,580,964 | 1,458,910 | −1 / +1 / 0 |
+| Veterans Affairs | 20,515 | 415,575 | 376,591 | 0 / 0 / 0 |
+| Corps of Engineers | −116 | 10,784 | 12,124 | 0 / 0 / 0 |
+
+Table 3 splits Treasury into interest and other outlays. The two printed lines sum to 60,647 / 1,580,963 / 1,458,910. The $1 million differences are in the published tables and are consistent with their rounding notes.
+
+### 5. Regression gates
+
+All ten repaired units reconcile individually with zero warnings. The full strict sweep passes **540/540** and **23/23 tests pass**. Next transcription is `treasury-mts/2026-09-outlays-other-defense-civil` (#541).
 
 ---

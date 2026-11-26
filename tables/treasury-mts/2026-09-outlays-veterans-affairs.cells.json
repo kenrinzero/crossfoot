@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 18,
-    "title": "Outlays of the U.S. Government — Department of Veterans Affairs",
+    "title": "Outlays of the U.S. Government \u2014 Department of Veterans Affairs",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Joint DOD-VA Medical Facility Demonstration Fund prints 49/755/751. All-omission Veterans Choice is dropped. Net outlays 20,515/415,575/376,591 match Table 3. Page 18.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Joint DOD-VA Medical Facility Demonstration Fund prints 49/755/751. All-omission Veterans Choice is dropped. Net outlays 20,515/415,575/376,591 match Table 3. Page 18. Audit #540 removed 17 repeated gross/net identities counted twice with their operands reversed. Page 18 prints (**) for September Veterans Special Life applicable receipts. This leaves 35 distinct relations against the provisional floor of 36.",
   "columns": [
     {
       "index": 1,
@@ -1505,150 +1505,6 @@
         "r21c9"
       ],
       "target": "r22c9"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r5c2",
-        "r5c3"
-      ],
-      "target": "r5c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r5c5",
-        "r5c6"
-      ],
-      "target": "r5c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r5c8",
-        "r5c9"
-      ],
-      "target": "r5c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r7c2",
-        "r7c3"
-      ],
-      "target": "r7c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r7c5",
-        "r7c6"
-      ],
-      "target": "r7c4",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r7c8",
-        "r7c9"
-      ],
-      "target": "r7c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r12c5",
-        "r12c6"
-      ],
-      "target": "r12c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r12c8",
-        "r12c9"
-      ],
-      "target": "r12c7",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r13c2",
-        "r13c3"
-      ],
-      "target": "r13c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r13c5",
-        "r13c6"
-      ],
-      "target": "r13c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r13c8",
-        "r13c9"
-      ],
-      "target": "r13c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c2",
-        "r14c3"
-      ],
-      "target": "r14c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c5",
-        "r14c6"
-      ],
-      "target": "r14c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r14c8",
-        "r14c9"
-      ],
-      "target": "r14c7"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r22c2",
-        "r22c3"
-      ],
-      "target": "r22c1",
-      "tol": "1",
-      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r22c5",
-        "r22c6"
-      ],
-      "target": "r22c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r22c8",
-        "r22c9"
-      ],
-      "target": "r22c7"
     }
   ]
 }

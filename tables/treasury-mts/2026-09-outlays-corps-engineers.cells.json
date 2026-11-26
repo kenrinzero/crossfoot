@@ -4,10 +4,10 @@
     "path": "sources/treasury-mts/mts-202609.pdf",
     "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
     "page": 19,
-    "title": "Outlays of the U.S. Government — Corps of Engineers",
+    "title": "Outlays of the U.S. Government \u2014 Corps of Engineers",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Three standalones are the proprietary-receipt amounts (waiver 3). Net outlays -116/10,784/12,124 match Table 3. Pages 18-19.",
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Three standalones are the proprietary-receipt amounts (waiver 3). Net outlays -116/10,784/12,124 match Table 3. Pages 18-19. Audit #540 removed 3 repeated gross/net identities counted twice with their operands reversed.",
   "columns": [
     {
       "index": 1,
@@ -597,30 +597,6 @@
         "r8c9"
       ],
       "target": "r9c9"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c2",
-        "r9c3"
-      ],
-      "target": "r9c1"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c5",
-        "r9c6"
-      ],
-      "target": "r9c4"
-    },
-    {
-      "type": "sum",
-      "sources": [
-        "r9c8",
-        "r9c9"
-      ],
-      "target": "r9c7"
     }
   ]
 }
