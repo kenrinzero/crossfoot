@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 49/80 SHIPPED (#502–#550), 31 READY — #550 audit DUE before #551 (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. After audit #550 closes GREEN, resume at `treasury-mts/2026-09-outlays-grand-total-capstone` (#551, D2, vision and cross-table checks).
-  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **Audit #550 is DUE.** A different agent must review September #541–#550, including the #544 and #545 relation counts and the #546 standalone count. See the handoff in `AUDITS.md`.
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 49/80 SHIPPED (#502–#550), 31 READY — #550 audit closed GREEN 2026-11-26, #551 unblocked.** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Resume at `treasury-mts/2026-09-outlays-grand-total-capstone` (#551, D2, vision and cross-table checks).
+  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** #551 unblocked; next audit #560. See `AUDITS.md`.
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
 - **Historical follow-up from audit #510 (independent of #511).** Compare May–August Table 2 and Table 3 period headers with those months’ PDFs. Check June–August Table 3 remainder files for the six on/off-budget balances present in the May and repaired September units.
@@ -68,7 +68,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#540**; **#550 is DUE before #551** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#550** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped

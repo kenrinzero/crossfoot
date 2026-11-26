@@ -607,7 +607,7 @@ September closes FY2026, Table 1 gains its 12th FY2026 month row (26 rows total)
 Table 7 populates all 12 months (Oct–Sept + YTD + Prior = 14 columns); three dense
 Table 7 caps are bumped from `≤ 200` to `≤ 250 cells` accordingly.
 
-**Corpus numbering:** this family is #502–#581 against a corpus of 501. September audits are GREEN through **#540**. **Audit #550 is DUE** for the shipped batch #541–#550. Transcription resumes at **#551** after an independent GREEN verdict.
+**Corpus numbering:** this family is #502–#581 against a corpus of 501. September audits are GREEN through **#550** (closed 2026-11-26, Mistral Vibe). Transcription has resumed at **#551** (grand-total capstone). Next audit **#560**.
 
 **Floors are PROVISIONAL.** `min relations` carry forward the August family's READY floors,
 and every Table 6 unit inherits DESIGN § 4a (declare both monthly and fiscal-year
@@ -685,7 +685,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-09-outlays-nsf | Table 5 National Science Foundation | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 33) | 3 | SHIPPED 2026-11-26 (corpus #547, 5 rows, 33 cells, 9 relations, 3 standalone). Proprietary receipts supply the sole applicable-receipts component in each period. |
 | treasury-mts/2026-09-outlays-opm | Table 5 Office of Personnel Management | D2 | vision | 18 | sum | ≤ 250 cells (Aug: 67) | 0 | SHIPPED 2026-11-26 (corpus #548, 12 rows, 79 cells, 18 relations, 0 standalone). The retirement fund payment and its offsetting General Fund Contributions each print in all three periods. Both rows enter the total. |
 | treasury-mts/2026-09-outlays-sba | Table 5 Small Business Administration | D2 | vision | 16 | sum | ≤ 250 cells (Aug: 47) | 0 | SHIPPED 2026-11-26 (corpus #549, 7 rows, 49 cells, 16 relations, 0 standalone). Current-year Business Loans Program prints 1,378 gross, 1 applicable and 1,377 net. |
-| treasury-mts/2026-09-outlays-social-security | Table 5 Social Security Administration | D2 | vision | 24 | sum | ≤ 250 cells (Aug: 89) | 0 | SHIPPED 2026-11-26 (corpus #550, 15 rows, 89 cells, 24 relations, 0 standalone). Both trust fund subtotals enter the agency total. Footnote 5 qualifies off-budget intrabudgetary transactions. Pages 20–21. **Independent audit #550 DUE before #551.** |
+| treasury-mts/2026-09-outlays-social-security | Table 5 Social Security Administration | D2 | vision | 24 | sum | ≤ 250 cells (Aug: 89) | 0 | SHIPPED 2026-11-26 (corpus #550, 15 rows, 89 cells, 24 relations, 0 standalone). Both trust fund subtotals enter the agency total. Footnote 5 qualifies off-budget intrabudgetary transactions. Pages 20–21. **Audit #550 closed GREEN 2026-11-26 (Mistral Vibe); #551 unblocked. Next audit #560.** |
 | treasury-mts/2026-09-outlays-grand-total-capstone | Table 5 grand-total On/Off/Total Outlays capstone | D2 | vision, ties-siblings, cross-table | 18 | sum | ≤ 250 cells (Aug: 27) | 0 | READY |
 | treasury-mts/2026-09-outlays-independent-a-n | Table 5 Independent Agencies Global Media through NRC (incl. nested FDIC total) | D2 | vision | 15 | sum | ≤ 250 cells (Aug: 164) | 88 | READY |
 | treasury-mts/2026-09-outlays-postal | Table 5 Postal Service (Off-Budget PEF + Other) | D3 | vision | 3 | sum | ≤ 250 cells (Aug: 17) | 10 | READY |

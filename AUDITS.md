@@ -3448,34 +3448,26 @@ All ten repaired units reconcile individually with zero warnings. The full stric
 
 ## Spot-Audit: Unit 550 — treasury-mts/2026-09-outlays-social-security (and whole-batch #541–#550)
 
-**DUE. #551 awaits a GREEN verdict from a different agent.** OpenAI Codex transcribed these units on 2026-11-26. The following counts and source checks are the transcriber's handoff.
+**GREEN, 2026-11-26.** Mistral Vibe independently audited the September Table 5 batch shipped by OpenAI Codex at `e957888`. All **642 numeric values and 285 omissions across 927 positions** on 103 unit rows match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with zero defects and zero repairs. **#551 (`treasury-mts/2026-09-outlays-grand-total-capstone`) is unblocked. The next cadence audit is #560.**
 
-The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints these Table 5 sections on pages 19–21. Page 8 gives the corresponding agency net outlays in Table 3. Page 23 gives the rounding and omission conventions and Social Security footnote 5.
+### 1. Source and positional coverage
 
-| Unit | Table 5 section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
-|---|---|---:|---:|---:|---:|---:|
-| #541 | Other Defense Civil Programs | 19 | 9 | 53 | 9 / 9 | 3 / 3 |
-| #542 | Environmental Protection Agency | 19 | 10 | 62 | 15 / 15 | 0 / 0 |
-| #543 | General Services Administration | 19 | 6 | 39 | 9 / 9 | 3 / 3 |
-| #544 | International Assistance bureaus | 19–20 | 13 | 80 | 20 / 21 | 2 / 3 |
-| #545 | International Assistance departmental total | 19–20 | 17 | 103 | 30 / 33 | 6 / 6 |
-| #546 | NASA | 20 | 9 | 55 | 9 / 8 | 3 / 2 |
-| #547 | National Science Foundation | 20 | 5 | 33 | 9 / 9 | 3 / 3 |
-| #548 | Office of Personnel Management | 20 | 12 | 79 | 18 / 18 | 0 / 0 |
-| #549 | Small Business Administration | 20 | 7 | 49 | 16 / 16 | 0 / 0 |
-| #550 | Social Security Administration | 20–21 | 15 | 89 | 24 / 24 | 0 / 0 |
-| **Total** | | | **103** | **642** | **159** | **20** |
+Checked the [September statement](sources/treasury-mts/mts-202609.pdf) against the [source ledger](sources/SOURCES.md), SHA-256 `fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`. Rebuilt the printed Table 5 grids on pages 19–21 from pdfplumber character positions (nine numeric columns, 40pt pitch) and inspected 3.0× pypdfium2 renders of those pages plus page 8 (Table 3) and page 23 (rounding legend, footnotes). A second reader (pypdfium2 text layer) contains all 642 unit values. Every unit row label was matched to its printed line — including the wrapped labels (OPM annuitants line, IDA contribution line, the FOASI/FDI total rows spanning pages 20–21) — and all nine columns compared position by position: values, `......` no-transaction dots, and `(**)` marks. **0 mismatches.** Row counts check: the 103 unit rows cover 101 distinct printed rows (the two bureau subtotals repeat in #544/#545); printed rows carrying numeric values that no unit consumes are confined to the foreign sections sharing those pages (Corps of Engineers continued, Executive Office of the President, Independent Agencies from page 21), so no printed row is silently dropped.
 
-The 103 unit rows cover 101 distinct printed rows. Two readings of the PDF agreed on all 927 positions, including 285 omissions. The International Security Assistance and Agency for International Development subtotals repeat in #544 and #545. All 18 shared positions agree, including the two omitted September applicable receipts. The 159 distinct equations comprise 60 gross/net identities and 99 column sums. Of these, 88 reconcile exactly and 71 differ by $1 million, within the rounding stated on page 23.
+### 2. Relations and tolerances
 
-**Items for the independent reviewer**
+All **159 declared relations** re-derived in exact Decimal from the leaf cells: **60 horizontal gross/net identities and 99 vertical column sums; 88 exact, 71 at $1 million**. Every nonzero tolerance equals the observed |delta|, stays within its source count, and quotes the page 23 note "Details may not add to totals due to rounding." No over-declared slack, no missing identity classes (rows whose applicable-receipts cell is omitted carry a two-cell gross=net that is not declarable under the ≥2-source rule — same treatment as earlier batches). All 20 standalones sit outside the relation graph; every leaf feeds a relation and every total is targeted.
 
-- **#544 has 20 relations against a provisional 21.** Page 19 shows dots for September applicable receipts on International Security Assistance / Other and its bureau subtotal. Page 20 prints `(**)` for the September Agency for International Development subtotal's applicable receipts. Its two fiscal-year applicable-receipts subtotals each have just one numeric component. The available operands support six gross/net identities and 14 column sums.
-- **#545 has 30 relations against a provisional 33.** The only numeric September detail line under Multilateral Assistance is Other (−9 gross and −9 net). Peace Corps prints 44 / −1 / 45 in September and `(**)` for applicable receipts in both fiscal-year periods. Overseas Private Investment Corporation's only numeric detail repeats its prior-year subtotal (1 gross and 1 net). The inventory is 17 gross/net identities and 13 column sums, including all nine departmental columns.
-- **#546 has three standalones against a provisional allowance of two.** NASA prints proprietary applicable receipts of 1 / 2 / 2. Each is the sole numeric component of that period's applicable-receipts total. The September 1 also completes the agency row's 2,141 + 1 = 2,142 identity. The unit has nine relations against its provisional eight.
-- **#548 and #550.** OPM adds two printed rows relative to August. The retirement fund payment and General Fund Contributions have opposite gross/net values of 48,295 in September, 48,295 in FY2026 and 51,630 in FY2025. In Social Security, the superscript 5 on page 21 belongs to the Off-Budget row label. That line's net amounts are −36 / −57,389 / −60,007.
+### 3. Provisional exceptions — all upheld against the print
 
-The following Table 5 net totals match both the printed Table 3 and the September Table 3 corpus units, in millions of dollars.
+- **#544, 20 vs 21.** Page 19 prints dots for September applicable receipts on International Security Assistance / Other and on Total--International Security Assistance; page 20 prints `(**)` for the September applicable receipts of Total--Agency for International Development, and each fiscal-year applicable-receipts subtotal has a single numeric component. The available operands support exactly 6 horizontal + 14 vertical = 20 relations.
+- **#545, 30 vs 33.** Peace Corps prints `(**)` for applicable receipts in both fiscal-year periods; Overseas Private Investment Corporation's only numeric detail is its prior-year subtotal (1 / 1); the sole numeric September line under Multilateral Assistance is Other (−9 / −9). Inventory: 17 horizontal + 13 vertical = 30, including all nine departmental column sums.
+- **#546, standalones 3 vs 2; relations 9 vs floor 8.** NASA's proprietary applicable receipts print 1 / 2 / 2, each the sole numeric component of its period's applicable-receipts total, hence standalone; the September 1 completes the agency-row identity 2,141 + 1 = 2,142. Nine relations exceed the provisional floor of eight.
+- **#548 and #550 oddities render-confirmed.** OPM's two added rows — Payment to Civil Service Retirement and Disability Fund (48,295 in all three periods) and General Fund Contributions (−48,295 / −48,295 / −51,630) — print on page 20 and both enter the OPM total. On page 21 the superscript 5 attaches to the Intrabudgetary Transactions **Off-Budget** label; that line's nets −36 / −57,389 / −60,007 are as transcribed.
+
+### 4. Shared rows and Table 3
+
+The Total--International Security Assistance and Total--Agency for International Development rows shared by #544 and #545 agree in all **18 shared positions** (16 numeric + the two omitted September applicable receipts). All nine agency net-outlay triples byte-match both the printed Table 3 on page 8 and the September Table 3 corpus unit (#505):
 
 | Agency | September | FY2026 to date | FY2025 to date |
 |---|---:|---:|---:|
@@ -3489,6 +3481,8 @@ The following Table 5 net totals match both the printed Table 3 and the Septembe
 | Small Business Administration | 147 | 11,827 | 837 |
 | Social Security Administration | 147,128 | 1,733,853 | 1,646,515 |
 
-All ten strict unit checks passed with zero warnings. The full corpus sweep passed 550/550 and pytest passed 23/23. The next transcription after independent audit is #551, the Table 5 grand-total capstone.
+### 5. Regression gates
+
+All ten units reconcile individually with **0 warnings**. The full strict sweep passes **550/550 GREEN**, and **23/23 pytest tests pass**. No repairs were needed. Next transcription is #551, the Table 5 grand-total capstone.
 
 ---
