@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 49/80 SHIPPED (#502–#550), 31 READY — #550 audit closed GREEN 2026-11-26, #551 unblocked.** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Resume at `treasury-mts/2026-09-outlays-grand-total-capstone` (#551, D2, vision and cross-table checks).
-  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** #551 unblocked; next audit #560. See `AUDITS.md`.
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 59/80 SHIPPED (#502–#560), 21 READY — #560 audit DUE before #561 (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. #561 (`treasury-mts/2026-09-table6-schedule-b`, D3, vision) is blocked until audit #560 closes GREEN.
+  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** **Audit #560 is DUE** (whole-batch #551–#560 transcribed by Mistral Vibe; handoff in `AUDITS.md`: FDIC OIG new row, RRB new This-Month cells, Sale-of-Assets new vertical, footnote-1 glue 130,465→30,465). #561+ blocked. Next audit after #560: #570. See `AUDITS.md`.
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
 - **Historical follow-up from audit #510 (independent of #511).** Compare May–August Table 2 and Table 3 period headers with those months’ PDFs. Check June–August Table 3 remainder files for the six on/off-budget balances present in the May and repaired September units.
@@ -68,7 +68,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#550** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#550**; **#560 is DUE before #561** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -108,6 +108,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-26 · **September MTS #551–#560 shipped (Mistral Vibe). Independent audit #560 DUE; #561+ blocked.** Grand-total capstone through Table 6 Schedule A: 141 rows / 831 cells / 205 relations / 128 standalones, all ten units strict-default GREEN 0 warnings, sweep 560/560, pytest 23/23. Cross-ties hold: #551 Outlays and On/Off triples byte-match Table 3 (#506); #555 net triple byte-matches Table 3 p8; #556↔#557 Employer Share and #558↔#559 Total Liability Accounts byte-match; #560 close 29,489,163 = #559 excess; Schedule A deficit = −Table 2. Notables: FDIC OIG new row folded into all six FDIC sums; Export-Import Sep applicable 17 restores its net identity; RRB new This-Month cells folded into Total--RRB sums; Sale of Major Assets newly prints 1/−1 (new r28c2 vertical in #557); Spectrum Auction This-Month omitted; p24 footnote-1 glue `130,465` render-resolved to 30,465; IMF Dollar Deposits FYTD 1 folded into IMF Balance col 2; Schedule A Revisions This-Month −18 (footnote 1). Handoff in AUDITS.md.
 
 - 2026-11-26 · **September MTS #541–#550 shipped. Independent audit #550 DUE.** All ten units reconcile with zero warnings. Verified 642 values, 285 omissions and 159 distinct equations. All nine agency net-outlay triples match Table 3. The handoff records two provisional relation-floor misses and NASA’s additional standalone receipt. Sweep 550/550, tests 23/23. #551 awaits the audit.
 

@@ -3486,3 +3486,38 @@ The Total--International Security Assistance and Total--Agency for International
 All ten units reconcile individually with **0 warnings**. The full strict sweep passes **550/550 GREEN**, and **23/23 pytest tests pass**. No repairs were needed. Next transcription is #551, the Table 5 grand-total capstone.
 
 ---
+
+## Spot-Audit: Unit 560 — treasury-mts/2026-09-table6-schedule-a (and whole-batch #551–#560)
+
+**DUE. #561 awaits a GREEN verdict from a different agent.** Mistral Vibe transcribed these units on 2026-11-26. The following counts and source checks are the transcriber's handoff.
+
+The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints the Table 5 grand totals and UOR block on pages 22–23, the Independent Agencies on pages 21–22, Table 6 on page 24, and Table 6 Schedule A on page 25 (Schedule B starts lower on the same page). Page 8 gives Table 3 cross-totals.
+
+| Unit | Section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
+|---|---|---:|---:|---:|---:|---:|
+| #551 | Table 5 grand-total capstone (Outlays / On / Off) | 23 | 3 | 27 | 18 / 18 | 0 / 0 |
+| #552 | Independent Agencies Global Media–NRC (incl. FDIC total) | 21 | 25 | 171 | 31 / 15 | 84 / 88 |
+| #553 | Postal Service Off-Budget | 21 | 3 | 19 | 3 / 3 | 10 / 10 |
+| #554 | Railroad Retirement Board | 21–22 | 17 | 97 | 9 / 9 | 3 / 3 |
+| #555 | Independent Agencies remainder + Total | 22 | 5 | 39 | 9 / 9 | 12 / 12 |
+| #556 | UOR Employer Share, Employee Retirement | 22 | 10 | 56 | 6 / 6 | 0 / 0 |
+| #557 | UOR Interest Received + Rents/Sale + Total | 22–23 | 28 | 162 | 18 / 12 | 3 / 2 |
+| #558 | Table 6 Liability Accounts | 24 | 17 | 102 | 47 / 30 | 6 / 6 |
+| #559 | Table 6 Asset Accounts + Financing totals | 24 | 22 | 126 | 53 / 30 | 6 / 5 |
+| #560 | Table 6 Schedule A | 25 | 11 | 32 | 11 / 8 | 4 / 5 |
+| **Total** | | | **141** | **831** | **205** | **128** |
+
+**Items for the independent reviewer**
+
+- **#552.** September newly prints the FDIC Office of Inspector General row (47 / 47 / 48 in the three gross+net pairs, p21): added as r25 and folded into all six Total--FDIC column sums; col 7 is off by 1 (rounding). Export-Import Bank now prints September applicable receipts 17, restoring its This-Month net identity 25 = 17 + 8.
+- **#554.** September newly prints Transfers-from-NRRIT This-Month 169/169, Intrabudgetary Other This-Month −170/−170, and RSEBA Other FYTD 1/1; all folded into the Total--RRB column sums (col 1 off by 1 over 11 sources, rounding).
+- **#557.** Sale of Major Assets newly prints This-Month 1/−1 (new r28c2 vertical); Spectrum Auction Proceeds This-Month is now omitted (FYTD −3,571/−3,571 only); Other Interest prints FYTD applicable 1. Employer Share re-anchored byte-match with #556.
+- **#558.** The text layer glues footnote 1 onto the Deposit Funds close-prior-month cell as `130,465`; the p24 render resolves it to 30,465 (superscript 1).
+- **#559.** IMF Dollar Deposits prints FYTD 1 (was `(**)` in August), folded into the IMF Balance col-2 sum (4 sources, exact). Total Liability Accounts re-anchored byte-match with #558 r17.
+- **#560.** Revisions This-Month prints −18 (footnote 1, the −$18M DoD–Air Force August reporting) with FYTD omitted; Prior prints 35,230.
+
+Cross-table ties: #551 Total Outlays 584,775/7,395,800/7,009,986 and On/Off-Budget triples byte-match Table 3 (#506, p8); #555 net triple −4,535/3,028/6,788 byte-matches Table 3 p8; #560 close of period 29,489,163 = #559 Excess of Liabilities r19c6; Schedule A deficit 26,900/1,992,473/1,775,369 = −Table 2 totals.
+
+All ten strict unit checks passed with zero warnings. The full corpus sweep passed 560/560 and pytest passed 23/23. The next transcription after independent audit is #561, Table 6 Schedule B.
+
+---

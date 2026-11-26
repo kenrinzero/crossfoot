@@ -1,0 +1,1738 @@
+{
+  "table_id": "treasury-mts/2026-09-outlays-independent-a-n",
+  "source": {
+    "path": "sources/treasury-mts/mts-202609.pdf",
+    "table": "Table 5. Outlays \u2014 Independent Agencies (Global Media through NRC)",
+    "page": 21,
+    "title": "Independent Agencies A\u2013N (Global Media through Nuclear Regulatory Commission)",
+    "period": "September FY2026 (Final)"
+  },
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Independent Agencies Global Media through NRC, p21. September newly prints FDIC Office of Inspector General (47/47/48 in the three gross+net pairs) \u2014 added as r25 and folded into all six Total--FDIC column sums (c7 off by 1, rounding); Export-Import Bank now prints September applicable receipts 17, restoring its This-Month net identity (25 = 17 + 8). 84 standalones under the provisional waiver 88.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "United States Agency for Global Media"
+    },
+    {
+      "index": 2,
+      "label": "Bureau of Consumer Financial Protection"
+    },
+    {
+      "index": 3,
+      "label": "Corporation for National and Community Service"
+    },
+    {
+      "index": 4,
+      "label": "Corporation for Public Broadcasting"
+    },
+    {
+      "index": 5,
+      "label": "District of Columbia: Courts"
+    },
+    {
+      "index": 6,
+      "label": "District of Columbia: General and Special Payments"
+    },
+    {
+      "index": 7,
+      "label": "Equal Employment Opportunity Commission"
+    },
+    {
+      "index": 8,
+      "label": "Export-Import Bank of the United States"
+    },
+    {
+      "index": 9,
+      "label": "Federal Communications Commission: Universal Service Fund"
+    },
+    {
+      "index": 10,
+      "label": "Federal Communications Commission: Other"
+    },
+    {
+      "index": 11,
+      "label": "Federal Deposit Insurance Corporation: Deposit Insurance Fund"
+    },
+    {
+      "index": 12,
+      "label": "Federal Deposit Insurance Corporation: FSLIC Resolution Fund"
+    },
+    {
+      "index": 13,
+      "label": "Total--Federal Deposit Insurance Corporation"
+    },
+    {
+      "index": 14,
+      "label": "Federal Drug Control Programs"
+    },
+    {
+      "index": 15,
+      "label": "Federal Housing Finance Agency"
+    },
+    {
+      "index": 16,
+      "label": "Institute of Museum and Library Services"
+    },
+    {
+      "index": 17,
+      "label": "Intelligence Community Management Account"
+    },
+    {
+      "index": 18,
+      "label": "Legal Services Corporation"
+    },
+    {
+      "index": 19,
+      "label": "National Archives and Records Administration"
+    },
+    {
+      "index": 20,
+      "label": "National Credit Union Administration"
+    },
+    {
+      "index": 21,
+      "label": "National Endowment for the Arts"
+    },
+    {
+      "index": 22,
+      "label": "National Endowment for the Humanities"
+    },
+    {
+      "index": 23,
+      "label": "National Labor Relations Board"
+    },
+    {
+      "index": 24,
+      "label": "Nuclear Regulatory Commission"
+    },
+    {
+      "index": 25,
+      "label": "Federal Deposit Insurance Corporation: Office of Inspector General"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "52",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "52",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "570",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "570",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "764",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "764",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "141",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "141",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "545",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "545",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "2737",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "2737",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "77",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "77",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1020",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1018",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1361",
+      "role": "total"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1359",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "8",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "8",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "586",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "586",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "33",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "33",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "342",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "342",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "347",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "347",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "52",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "52",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "717",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "50",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "668",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "795",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "67",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "728",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "30",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "30",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "412",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "411",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "451",
+      "role": "total"
+    },
+    {
+      "id": "r7c8",
+      "row": 7,
+      "col": 8,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "448",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "25",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "242",
+      "role": "total"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "267",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-25",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "133",
+      "role": "total"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "246",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-113",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "681",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "681",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "8616",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "8616",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "8643",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "8643",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-7",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "1960",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "28",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "1931",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "2097",
+      "role": "total"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "2071",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "-3278",
+      "role": "leaf",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-3278",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "-22199",
+      "role": "leaf",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-22199",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "-31162",
+      "role": "leaf",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "-31162",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "3",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "40",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "-40",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "49",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-50",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-3231",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-3234",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "-22152",
+      "role": "total"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "40",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-22192",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "-31115",
+      "role": "total"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "49",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-31164",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "27",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "376",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "376",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "383",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "383",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "23",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "23",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "276",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "276",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "360",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "360",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "32",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "32",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "246",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "246",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "337",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "337",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "530",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "530",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "613",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "613",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "540",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "540",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "560",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "560",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "19",
+      "role": "total"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "452",
+      "role": "total"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "425",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c7",
+      "row": 19,
+      "col": 7,
+      "value": "526",
+      "role": "total"
+    },
+    {
+      "id": "r19c8",
+      "row": 19,
+      "col": 8,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "value": "509",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "80",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "644",
+      "role": "total"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "1785",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "-1141",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c7",
+      "row": 20,
+      "col": 7,
+      "value": "629",
+      "role": "total"
+    },
+    {
+      "id": "r20c8",
+      "row": 20,
+      "col": 8,
+      "value": "1611",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "value": "-982",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "16",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "16",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "152",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "152",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "value": "233",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "value": "233",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "12",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "12",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "73",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "73",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "value": "197",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "value": "197",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "28",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "28",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "282",
+      "role": "total"
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "282",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c7",
+      "row": 23,
+      "col": 7,
+      "value": "309",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r23c9",
+      "row": 23,
+      "col": 9,
+      "value": "309",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "70",
+      "role": "total"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "149",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "-79",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "914",
+      "role": "total"
+    },
+    {
+      "id": "r24c5",
+      "row": 24,
+      "col": 5,
+      "value": "806",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "108",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c7",
+      "row": 24,
+      "col": 7,
+      "value": "983",
+      "role": "total"
+    },
+    {
+      "id": "r24c8",
+      "row": 24,
+      "col": 8,
+      "value": "813",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c9",
+      "row": 24,
+      "col": 9,
+      "value": "171",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "47",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c7",
+      "row": 25,
+      "col": 7,
+      "value": "48",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c9",
+      "row": 25,
+      "col": 9,
+      "value": "48",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r3c6",
+        "r3c5"
+      ],
+      "target": "r3c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c9",
+        "r3c8"
+      ],
+      "target": "r3c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ],
+      "target": "r7c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c9",
+        "r7c8"
+      ],
+      "target": "r7c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c6",
+        "r8c5"
+      ],
+      "target": "r8c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c9",
+        "r8c8"
+      ],
+      "target": "r8c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r10c2"
+      ],
+      "target": "r10c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r10c5"
+      ],
+      "target": "r10c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r10c8"
+      ],
+      "target": "r10c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r13c2"
+      ],
+      "target": "r13c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c6",
+        "r13c5"
+      ],
+      "target": "r13c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c9",
+        "r13c8"
+      ],
+      "target": "r13c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c3",
+        "r19c2"
+      ],
+      "target": "r19c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5 footnote prints: \"Note: Details may not add to totals due to rounding.\" The footnote sits on page 23, Table 5's last page, and covers the whole table; it is not repeated on the section pages, so it must be read there. Components are independently rounded to $ millions, each carrying up to +/-0.5."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c6",
+        "r19c5"
+      ],
+      "target": "r19c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c9",
+        "r19c8"
+      ],
+      "target": "r19c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c3",
+        "r20c2"
+      ],
+      "target": "r20c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c6",
+        "r20c5"
+      ],
+      "target": "r20c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c9",
+        "r20c8"
+      ],
+      "target": "r20c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r23c6",
+        "r23c5"
+      ],
+      "target": "r23c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c3",
+        "r24c2"
+      ],
+      "target": "r24c1",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c6",
+        "r24c5"
+      ],
+      "target": "r24c4",
+      "note": "net identity: Outlays(net)+Applicable=Gross"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c9",
+        "r24c8"
+      ],
+      "target": "r24c7",
+      "note": "net identity: Outlays(net)+Applicable=Gross",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r12c3",
+        "r25c3"
+      ],
+      "target": "r13c3",
+      "note": "FDIC roll-up col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c6",
+        "r12c6",
+        "r25c6"
+      ],
+      "target": "r13c6",
+      "note": "FDIC roll-up col 6"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c9",
+        "r12c9",
+        "r25c9"
+      ],
+      "target": "r13c9",
+      "note": "FDIC roll-up col 9"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r8c2"
+      ],
+      "target": "r8c1",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r25c1"
+      ],
+      "target": "r13c1",
+      "note": "Total--Federal Deposit Insurance Corporation column sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r25c4"
+      ],
+      "target": "r13c4",
+      "note": "Total--Federal Deposit Insurance Corporation column sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c7",
+        "r25c7"
+      ],
+      "target": "r13c7",
+      "note": "Total--Federal Deposit Insurance Corporation column sum.",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\" The entries are rounded to millions of dollars."
+    }
+  ]
+}
