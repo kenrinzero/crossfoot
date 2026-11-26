@@ -3203,45 +3203,57 @@ All 9 capstone Outlays triples byte-match Table 3 p8 exactly.
 
 ## Spot-Audit: Unit 510 — treasury-mts/2026-09-outlays-judicial (and whole-batch #502–#510)
 
-- **Audit Date:** DUE
-- **Auditor:** (different agent from the transcriber — Antigravity / Gemini 4 Neon (XHigh) is ineligible)
-- **Transcriber:** Antigravity (Gemini 4 Neon (XHigh))
-- **Table ID:** [treasury-mts/2026-09-outlays-judicial](tables/treasury-mts/2026-09-outlays-judicial.cells.json) plus the eight preceding September units (`#502–#509`; `#501` was August `2026-08-table8-investments` by Cursor Grok 4.6)
-- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), printed pages 5, 8, 9, 10, 37 plus the Table 5 rounding footnote on page 23
-- **Status:** **DUE.** **#511+ is BLOCKED until this closes GREEN.**
+**Verdict: GREEN after repair, 2026-11-26.** OpenAI Codex audited the September opener independently of the transcriber, Antigravity (Gemini 4 Neon, XHigh), who shipped `a5b1216` and `3e3ddca`. All 597 cell values match the [vendored September statement](sources/treasury-mts/mts-202609.pdf). The audit corrected period labels and added six missing balance checks. **#511 is unblocked. The next cadence audit is #520.**
 
-### Scope the auditor should cover
+### 1. Source and positional coverage
 
-Whole-batch positional check of the 9-unit September opener stretch `#502–#510`: **597 present cells / 154 rows / 126 relations / 132 standalones**. Independent parse + render of `mts-202609.pdf` pp5, 8, 9, 10, 37 (+ p23 Table 5 rounding note). `(cid:NN)` → `chr(NN+29)`. `......` and `(**)` are omitted, not 0. Drop a row only when **every** cell on that row is omitted.
+The PDF matches the SHA-256 in [the source ledger](sources/SOURCES.md). Read the PDF character positions with pdfplumber and inspected independent pypdfium2 renders of printed pages 5, 8, 9, 10, 23 and 37. Compared numeric strings by printed row and column, retaining signs and distinguishing omission marks from zero. The 663 positions below include 66 omissions on retained rows. The three receipt-total rows on page 8 appear in both Table 3 units that use them and count in each unit.
 
-| unit | table | page | cells | rels | rows | sa |
-|---|---|---|---:|---:|---:|---:|
-| #502 | 2026-09-table1 | 5 | 78 | 32 | 26 | 0 |
-| #503 | 2026-09-table2 | 5 | 51 | 25 | 13 | 0 |
-| #504 | 2026-09-table3-receipts | 8 | 52 | 12 | 13 | 0 |
-| #505 | 2026-09-table3-outlays-departments | 8 | 112 | 0 | 28 | 112 |
-| #506 | 2026-09-table3-outlays-remainder | 8 | 50 | 14 | 14 | 17 |
-| #507 | 2026-09-table9 | 37 | 90 | 6 | 30 | 0 |
-| #508 | 2026-09-receipts-major | 9 | 30 | 6 | 10 | 0 |
-| #509 | 2026-09-outlays-legislative | 10 | 95 | 22 | 14 | 0 |
-| #510 | 2026-09-outlays-judicial | 10 | 39 | 9 | 6 | 3 |
-| **Total** | **Batch #502–#510** | **5,8–10,37** | **597** | **126** | **154** | **132** |
+| Unit | Table | Page | Rows | Positions | Values | Relations after audit | Standalones |
+|---|---|---:|---:|---:|---:|---:|---:|
+| #502 | Table 1 | 5 | 26 | 78 | 78 | 32 | 0 |
+| #503 | Table 2 | 5 | 13 | 65 | 51 | 25 | 0 |
+| #504 | Table 3 receipts | 8 | 13 | 52 | 52 | 12 | 0 |
+| #505 | Table 3 department outlays | 8 | 28 | 112 | 112 | 0 | 112 |
+| #506 | Table 3 outlay remainder and balances | 8 | 14 | 56 | 50 | 20 | 17 |
+| #507 | Table 9 | 37 | 30 | 90 | 90 | 6 | 0 |
+| #508 | Table 4 major receipts, net columns | 9 | 10 | 30 | 30 | 6 | 0 |
+| #509 | Table 5 Legislative Branch | 10 | 14 | 126 | 95 | 22 | 0 |
+| #510 | Table 5 Judicial Branch | 10 | 6 | 54 | 39 | 9 | 3 |
+| **Total** | | | **154** | **663** | **597** | **132** | **132** |
 
-### What to re-derive, not sample
+### 2. Row accounting and period labels
 
-- Every declared relation in exact `Decimal`; every non-zero `tol` = observed delta ≤ `len(sources)`, quoting the page rounding footnote (`Note: Details may not add to totals due to rounding.` on pp5/8/9/37 and p23 for Table 5).
-- **Footnote-glue render resolutions:**
-  - `#502` Table 1 p5: FY2026 August Outlays prints `¹526,812` (text layer glues `1526,812`; footnote 1: −$18M DoD – Air Force; restated from August's `526,830`, deficit `166,797 → 166,779`).
-  - `#505` Table 3 p8: Department of Defense--Military Programs FYTD prints `¹916,836` (text layer glues `1916,836`; footnote 1: −$18M August reporting).
-- **Provisional floor miss to adjudicate (`#509` `outlays-legislative`):** 95c / **22r vs provisional floor 23** — House of Representatives This-Month Applicable Receipts prints `(**)` (r2c2 omitted), dropping that This-Month net identity. Confirm on p10 render that `r2c2` is `(**)` and Offsetting Governmental Receipts is all-`......`/`(**)` (dropped).
-- **Standalone row-count check (`#505`):** verify all 28 printed department outlay rows on p8 (Legislative Branch through SBA) are present with zero omissions, and cross-check `#505 + #506` outlay roll-ups against Table 3 `Total Outlays` across all 4 columns (observed deltas: −1, −4, +1, 0).
-- **Cross-table ties:**
-  - Table 1 ↔ Table 2 ↔ Table 3 ↔ Table 4 ↔ Table 9 Total Receipts (`557,875` / `5,403,327` / `5,234,616`), Total Outlays (`584,775` / `7,395,800` / `7,009,986`), and Surplus/Deficit (`-26,900` / `-1,992,473` / `-1,775,369`, opposite sign in Table 1).
-  - Table 5 Legislative Net Outlays (`577` / `7,049` / `7,227`) and Judicial Net Outlays (`845` / `9,985` / `9,759`) byte-match Table 3 p8.
-  - Full-year estimates in Table 2 (12 cells) and Table 3 Receipts/Departments byte-match August twins.
-- **U1 graph consistency:** no `standalone` cell participates in any relation (3 standalones on `#510` `r4c2/r4c5/r4c8`; `r6c2/r6c5/r6c8` are `leaf` feeding row 6's net identities).
+- All 28 department rows from Legislative Branch through Small Business Administration are present, including both indented Treasury rows. The Judicial Branch's wrapped Courts of Appeals label occupies one row. Table 4's three net columns print the Social Insurance and Retirement figures 148,514 / 1,811,795 / 1,748,294.
+- **#503 header repair.** Page 5 places “Current” over Fiscal Year to Date and “Comparable” over Prior Period Year to Date (2025). The shipped labels attached both qualifiers to estimates. Restored all four affected headers to the printed wording and restored “Comparable” to the prior-period header in each Table 3 unit (#504–#506).
+- **#509 provisional floor upheld.** The House row prints gross 176, applicable receipts `(**)`, and net 176 for September. Page 23 defines `(**)` as less than $500,000 in absolute value. The missing numeric operand removes one net identity. All nine positions on the separate Offsetting Governmental Receipts row contain omission marks. The section supports 13 row identities and nine column sums, giving 22 against the provisional 23.
 
-**#511+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-eop` is the next unit after the audit.
+### 3. Arithmetic and role checks
+
+Rebuilt the expected relation source and target sets from the table layout, including monthly and fiscal totals, budget splits, financing, receipt and function totals, and Table 5 gross/net identities and section sums. All 126 originally declared relations passed exact Decimal recomputation within their stated tolerances.
+
+**#506 coverage repair.** The source gives receipts, outlays and signed surplus/deficit for the on-budget and off-budget portions separately. The unit encoded the combined balance only. Added both balances for September, current FYTD and prior FYTD, the same layout used in the May Table 3 remainder. Two close exactly. The other four differ by $1 million and quote the page 8 rounding note. The six receipt targets now carry the total role. These mechanical, value-preserving repairs follow the #129/#160/#340 audit precedent.
+
+After repair, 79 relations close exactly, 52 differ by $1 million, and one differs by $2 million (Table 9 FYTD net outlays, 19 components). Each nonzero tolerance equals the absolute residual, stays within the source count and cites the printed rounding note. All 132 standalones have explanations and are disjoint from the relation graph. In Judicial, `r4c2/r4c5/r4c8` are standalone while `r6c2/r6c5/r6c8` feed the three total-row net identities.
+
+### 4. Cross-table and prior-month checks
+
+| $ millions | September 2026 | FY2026 to date | FY2025 to date |
+|---|---:|---:|---:|
+| Total receipts (Tables 1, 2, 3, 4, 9) | 557,875 | 5,403,327 | 5,234,616 |
+| Total outlays (Tables 1, 2, 3, 9) | 584,775 | 7,395,800 | 7,009,986 |
+| Surplus (+) or deficit (−), Tables 2 and 3 | −26,900 | −1,992,473 | −1,775,369 |
+| Legislative net outlays (Tables 3 and 5) | 577 | 7,049 | 7,227 |
+| Judicial net outlays (Tables 3 and 5) | 845 | 9,985 | 9,759 |
+
+Table 1 uses the opposite deficit sign in all three periods. All 27 actual receipts, outlays and balance figures in #506 match Table 2, including the on/off-budget splits. The 12 Table 2 estimates and 41 Table 3 receipt and department estimates match their August counterparts. Summing the department and remainder outlay components gives signed differences from the printed total of −1, −4, +1 and 0, across 32, 32, 32 and 33 components respectively. Only the estimate column prints an Allowances value (−26).
+
+### 5. Footnotes and the August restatement
+
+The page 5 render separates the superscript 1 from August outlays of 526,812. August had reported 526,830. Receipts stayed at 360,033 and the deficit moved from 166,797 to 166,779. Consequently the August-YTD-plus-September bridge needs adjustments of **0 / −18 / −18** for receipts / outlays / deficit in Table 1. The audit corrected the bridge description in the manifest. Page 8 separately prints a superscript 1 before Defense's current FYTD outlays of 916,836 and attributes the $18 million decrease to additional August reporting.
+
+### 6. Regression gates and follow-up
+
+All nine units reconcile with zero warnings. The full strict sweep passes **510/510**, and **23/23 tests pass**. The September corrections preserve every cell ID, position and value. Earlier Table 2 files (May–August) carry the same estimate-label wording. The June–August Table 3 remainder files also declare only 14 relations. A separate historical check is queued in NEXT.md.
 
 ---
-

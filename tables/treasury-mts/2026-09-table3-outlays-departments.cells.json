@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (the sibling remainder unit holds the totals, and the department detail itself is Table 5's). Row COUNT is the check that matters here: strict coverage cannot see a missing standalone row. Department of Defense--Military Programs FYTD prints 916,836 with footnote 1 (\"Amount decreased by $18 million due to additional reporting for the month of August 2026.\"); the text layer glues the marker as 1916,836, resolved against the page-8 render.",
+  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (the sibling remainder unit holds the totals, and the department detail itself is Table 5's). Row COUNT is the check that matters here: strict coverage cannot see a missing standalone row. Department of Defense--Military Programs FYTD prints 916,836 with footnote 1 (\"Amount decreased by $18 million due to additional reporting for the month of August 2026.\"); the text layer glues the marker as 1916,836, resolved against the page-8 render. Audit #510 restored the full comparison-period header from page 8.",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,

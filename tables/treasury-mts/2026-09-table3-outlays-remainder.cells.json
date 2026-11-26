@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. '......' cells are No Transactions and are omitted, not 0. SSA / Independent Agencies / Allowances / Undistributed Offsetting Receipts are standalone (their roll-up into Total Outlays runs through the department lines held by the sibling unit); the On/Off-Budget decompositions and the Outlays + Surplus/Deficit = Receipts identity are declared. Surplus rows keep the printed sign, negative for a deficit.",
+  "unit_note": "USD millions. '......' cells are No Transactions and are omitted, not 0. SSA / Independent Agencies / Allowances / Undistributed Offsetting Receipts are standalone (their roll-up into Total Outlays runs through the department lines held by the sibling unit); the On/Off-Budget decompositions and the Outlays + Surplus/Deficit = Receipts identity are declared. Surplus rows keep the printed sign, negative for a deficit. Audit #510 restored the full comparison-period header from page 8. The on-budget and off-budget balances also reconcile separately for each of the three actual periods.",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,
@@ -118,21 +118,21 @@
       "row": 2,
       "col": 1,
       "value": "445927",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c2",
       "row": 2,
       "col": 2,
       "value": "4061843",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c3",
       "row": 2,
       "col": 3,
       "value": "3950881",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c4",
@@ -146,21 +146,21 @@
       "row": 3,
       "col": 1,
       "value": "111947",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c2",
       "row": 3,
       "col": 2,
       "value": "1341484",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c3",
       "row": 3,
       "col": 3,
       "value": "1283736",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c4",
@@ -591,6 +591,68 @@
       ],
       "target": "r9c4",
       "note": "On-Budget + Off-Budget = Total Outlays"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r13c1"
+      ],
+      "target": "r2c1",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "target": "r3c1",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r13c2"
+      ],
+      "target": "r2c2",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "target": "r3c2",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r13c3"
+      ],
+      "target": "r2c3",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r14c3"
+      ],
+      "target": "r3c3",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts",
+      "tol": "1",
+      "why": "Page prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     }
   ]
 }
