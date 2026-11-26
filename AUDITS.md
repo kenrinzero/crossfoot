@@ -3595,3 +3595,50 @@ All three declared cross-ties match byte-for-byte across all six columns:
 All ten units (`#561–#570`) pass strict UTF-8 / LF-only / zero-C0 checks and reconcile individually with **0 warnings**. Full corpus sweep (`uv run python reconcile.py --all`) passes **570/570 GREEN**, and `uv run pytest` passes **23/23**. **#571+ unblocked.** Next every-10th audit fires at **#580**.
 
 ---
+
+## Spot-Audit: Unit 580 — `treasury-mts/2026-09-table8-activity` (and whole-batch `#571–#580`)
+
+| Field | Value |
+|---|---|
+| **Unit** | `tables/treasury-mts/2026-09-table8-activity.cells.json` (corpus #580) — whole-batch scope `#571–#580` |
+| **Source** | `sources/treasury-mts/mts-202609.pdf`, Table 6 Schedule E Direct Loan Financing Part 2 (p33), Table 7 Receipts & Outlays by Month (pp34–35), and Table 8 Trust Fund Impact Activity (p36) |
+| **Transcriber** | Antigravity / Gemini 4 Argon (High) (session 2026-11-26, batch `#571–#580`) |
+| **Auditor** | *(PENDING — must be a different agent from Antigravity / Gemini 4 Argon (High))* |
+| **Date** | *(PENDING)* |
+| **Verdict** | **PENDING** — `#581` (`treasury-mts/2026-09-table8-investments`, the final unit of the September family) blocked until this audit closes GREEN |
+
+### Handoff notes for the `#580` auditor
+
+1. **Batch scope (`#571–#580`, 10 units across printed pages 33–36):**
+   - **151 active unit rows** (+ **6 all-omission rows** dropped on p33 = **157 printed rows**), **1,666 positions** (**1,572 numeric values** + **94 omitted `......`/`(**)` slots**), **278 relations** (**166 exact**, **100 `tol="1"`**, **12 `tol="2"`**), **127 standalones**.
+   - Every unit clears its provisional relation floor (`49/12`, `9/9`, `29/18`, `29/20`, `15/15`, `13/13`, `8/8`, `9/8`, `64/30`, `53/40`).
+   - All 10 units reconcile individually with `0 warning(s)`, full sweep `580/580 GREEN`, `pytest` `23/23`.
+
+| Unit | Slug | Page(s) | Rows | Cols | Positions | Values | Omissions | Relations / floor | Standalones / waiver |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| #571 | `2026-09-table6-schedule-e-direct-part2` | 33 | 33 | 6 | 198 | 172 | 26 | 49 / 12 | 49 / 106 |
+| #572 | `2026-09-table7-receipts-detail` | 34 | 9 | 14 | 126 | 126 | 0 | 9 / 9 | 9 / 9 |
+| #573 | `2026-09-table7-receipts-totals` | 34 | 6 | 14 | 84 | 78 | 6 | 29 / 18 | 0 / 0 |
+| #574 | `2026-09-table7-outlays-leg-def` | 34 | 15 | 14 | 210 | 210 | 0 | 29 / 20 | 6 / 6 |
+| #575 | `2026-09-table7-outlays-edu-labor` | 34 | 15 | 14 | 210 | 210 | 0 | 15 / 15 | 15 / 15 |
+| #576 | `2026-09-table7-outlays-state-gsa` | 34–35 | 13 | 14 | 182 | 182 | 0 | 13 / 13 | 13 / 13 |
+| #577 | `2026-09-table7-outlays-intl-sba` | 35 | 8 | 14 | 112 | 112 | 0 | 8 / 8 | 8 / 8 |
+| #578 | `2026-09-table7-outlays-ssa-independents` | 35 | 11 | 14 | 154 | 124 | 30 | 9 / 8 | 15 / 12* |
+| #579 | `2026-09-table7-outlays-uor-totals` | 35 | 18 | 14 | 252 | 227 | 25 | 64 / 30 | 6 / 8 |
+| #580 | `2026-09-table8-activity` | 36 | 23 | 6 | 138 | 131 | 7 | 53 / 40 | 6 / 6 |
+| **Total** | | **33–36** | **151** | | **1,666** | **1,572** | **94** | **278** | **127** |
+
+2. **Source-side items and September FY2026 changes to verify on pp33–36 renders:**
+   - **#571 (Table 6 Schedule E Direct Part 2, p33):** Same 6 all-omission drops as August `#491` (`FHA-Mutual Mortgage Insurance Loans`, `Bureau of Indian Affairs and Bureau of Indian Education`, `Troubled Asset Relief Program`, `Bureau of the Fiscal Service`, `Vocational Rehabilitation Loan Fund`, `Spectrum Auction Loan Fund`). Note the p33 continuation header typo `Guaranteed Loan Financing Activity: - Continued` at `y=100.7` above Direct Loan Financing rows concluding with `Net Activity, Direct Loan Financing` (`51,139 / 77,322 / 186,212 / 1,363,045 / 1,389,228 / 1,440,367`). Both DESIGN §4a roll-forward classes (`c5 + c1 = c6` and `c4 + c2 = c6`) declared wherever all three cells print. Cross-unit vertical sum `#570` (`r1..r28`) + `#571` (`r1..r32`) closes to `#571` `r33` within rounding across all 6 columns (`51,135 vs 51,139`, `77,322 exact`, `186,213 vs 186,212`, `1,363,046 vs 1,363,045`, `1,389,230 vs 1,389,228`, `1,440,370 vs 1,440,367`).
+   - **Table 7 14-column layout (`#572–#579`, pp34–35):** Closing FY2026, all 12 monthly columns (`c1..c12`: `October`..`September`) plus `c13` (`Year to Date`) and `c14` (`Comparable Period Prior F.Y.`) are populated. Note that on p35 lines `y=530.2..636.4`, negative values in `Oct.` and `Nov.` touch without whitespace in raw text dumps (e.g. `-284,333-173,277`); regex `-?\d[\d,]*|\.\.\.\.\.\.|\(\*\*\)` or column `x1` coordinates split all 14 columns cleanly.
+   - **August DoD restatement reflected in Table 7 (`#574` and `#579` col 11):** Matching Table 1 (`#502`) and Table 5 (`#517/#519`) footnote 1 (−$18M Air Force restatement), August (`col 11`) prints `28,107` on O&M (`#574 r8c11`), `14,767` on Procurement (`r9c11`), `13,899` on RDT&E (`r10c11`), `-904` on DoD Other (`r14c11`), `67,905` on Total DoD (`r15c11`), `526,812` on Total Outlays (`#579 r6c11`), `387,899` on On-Budget Outlays (`r7c11`), `-166,779` on Total Deficit (`r9c11`), and `-131,613` on On-Budget Deficit (`r10c11`).
+   - **Newly active row in `#578` (`r6`, `Outlays / Independent Agencies: Office of Inspector General`, p35 `y=336.0`):** Below `FSLIC Resolution Fund`, FDIC `Office of Inspector General` newly prints `......` in cols 1–11 and `47 / 47 / 48` in cols 12–14 (matching Table 5 `#552` `r6`). Because only a single monthly cell (`c12 = 47`) is present, `r6c12`, `r6c13`, and `r6c14` are `standalone` under `minItems: 2`, bringing `#578` to 11 rows and 15 standalones (vs the August-sized provisional waiver of 12).
+   - **Newly multi-source `Sale of Major Assets` in `#579` (`r4`, p35 `y=463.4`):** Prints `-1` in March (`c6`) and `-1` in September (`c12`) with YTD `c13 = -3` (`tol="1"`) and Prior `c14 = -31`, promoting `r4c6` and `r4c12` to `leaf` and `r4c13` to `total` and reducing `#579` standalones from 8 to 6.
+   - **Cross-table ties:**
+     - `#572` detail sums to `#573` Totals across all 14 columns within `[-1..+2]`.
+     - `#574–#579` outlay detail sums to `#579` Total Outlays across all 14 columns within `[-7..+4]`.
+     - `#573` Receipts − `#579` Outlays = `#579` Surplus/Deficit across all 14 columns (Total, On-Budget, Off-Budget, This Year & Prior Year) within `1`.
+     - `#573`, `#579`, and `#580 r23` (`Net Budget Receipts & Outlays`: `557,875 / 584,775 / -26,900 / 5,403,327 / 7,395,800 / -1,992,473`) byte-match Table 1 (`#502`), Table 2 (`#503`), and Table 3 (`#504/#506`).
+     - `#580 r17` (`Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D`) Excess (`c3 = 14,444`, `c6 = 113,070`) byte-matches `#568 r40` (`Total Trust Funds`).
+
+---
