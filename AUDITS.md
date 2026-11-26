@@ -3324,3 +3324,47 @@ These four adjustments sum to `−2 + 1 + 6 − 23 = −$18 million`, reconcilin
 All ten units (`#511–#520`) pass strict UTF-8 / LF-only / zero-C0-byte checks and reconcile individually with **0 warnings**. Full corpus sweep passes **520/520 GREEN**, and **23/23 pytest tests pass**. **#521+ unblocked.** Next every-10th audit fires at **#530**.
 
 ---
+
+## Spot-Audit: Unit 530 — treasury-mts/2026-09-outlays-justice (and whole-batch #521–#530)
+
+- **Audit Date:** DUE
+- **Auditor:** (different agent from the transcriber — Antigravity / Gemini 4 Neon (XHigh) is ineligible)
+- **Transcriber:** Antigravity (Gemini 4 Neon (XHigh))
+- **Table ID:** [treasury-mts/2026-09-outlays-justice](tables/treasury-mts/2026-09-outlays-justice.cells.json) plus the nine preceding September units (`#521–#529`)
+- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 12–16 plus the rounding and omission notes on page 23; Table 3 on page 8 (`#505`) supplies the six department net-outlay cross-checks.
+- **Status:** **DUE.** **#531+ (`treasury-mts/2026-09-outlays-labor-bureaus`) is BLOCKED until this closes GREEN.**
+
+### Scope the auditor should cover
+
+Whole-batch positional check of the 10-unit September Table 5 batch `#521–#530`: **179 unit rows / 161 distinct numeric source rows / 1,611 unit positions (1,143 numeric values + 468 omissions) / 220 relations / 60 standalones**. Zero provisional floor misses across all ten units. Independent parse + render of `mts-202609.pdf` printed pages 12–16 (+ p23 rounding note). `......` and `(**)` are omitted, not 0; drop a row only when **every** cell on that row is omitted.
+
+| Unit | Table 5 section | Pages | Unit rows | Positions | Values | Omissions | Relations | Standalones |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| #521 | `energy` | 12–13 | 21 | 189 | 138 | 51 | 27 | 0 |
+| #522 | `hhs-cms` | 13 | 14 | 126 | 84 | 42 | 18 | 0 |
+| #523 | `hhs-acf` | 13–14 | 22 | 198 | 135 | 63 | 9 | 54 |
+| #524 | `hhs-departmental` | 13–14 | 17 | 153 | 108 | 45 | 15 | 0 |
+| #525 | `homeland-security` | 14 | 19 | 171 | 126 | 45 | 27 | 0 |
+| #526 | `hud-bureaus` | 14 | 15 | 135 | 82 | 53 | 12 | 0 |
+| #527 | `hud-departmental` | 14–15 | 23 | 207 | 147 | 60 | 35 | 0 |
+| #528 | `interior-bureaus` | 15 | 19 | 171 | 130 | 41 | 40 | 0 |
+| #529 | `interior-departmental` | 15 | 10 | 90 | 73 | 17 | 22 | 6 |
+| #530 | `justice` | 15–16 | 19 | 171 | 120 | 51 | 15 | 0 |
+| **Total** | **Batch #521–#530** | **12–16** | **179** | **1,611** | **1,143** | **468** | **220** | **60** |
+
+### What to re-derive, not sample
+
+- **Positional and row accounting (1,611 positions across 161 distinct numeric source rows):** verify all 162 printed data rows across Energy (22 printed: 21 numeric + 1 all-omission `Defense Nuclear Waste Disposal` on p12, dropped), HHS (41), Homeland Security (19), HUD (36), Interior (25), and Justice (19). Check zero superscripts on Energy–Justice (only Defense Air Force `⁴` appears earlier on p12).
+- **Notable September-specific rows and source-side quirks:**
+  - `#521` Energy: `Offsetting Governmental Receipts` prints numeric amounts (`4/-4`, `4/-4`, `68/-68`) on p13 (21 rows vs August's 20); `Proprietary Receipts from the Public` prints `-205` applicable / `205` net in September.
+  - `#523` HHS ACF: `Food and Drug Administration` prints negative September Gross Outlays (`-830` gross / `1` applicable / `-831` net). Check wrapped labels across HHS CMS (`Total--Federal Supplementary Medical Insurance Trust Fund`), HHS ACF (three `Payments to States for ...` rows), and HUD (Hope VI, FHA Liquidating Accounts).
+  - `#527` HUD Departmental: `Housing Programs: Other` prints `3` gross / `(**)` applicable / `2` net in September (sole source-side `(**)` Gross≠Net pair in the batch); `Home Ownership Preservation Equity Fund` prints numeric `7/7` in Current FYTD only (`......` September, `(**)` Prior FYTD).
+  - `#528` Interior Bureaus: `Bureau of Land Management: Other` and `Total--Land and Minerals Management` print `5` in September Applicable Receipts (restoring both September net identities and reaching floor 40 vs August's 38); `National Park Service` and `Total--Fish and Wildlife and Parks` print `(**)` in September Applicable Receipts; the three bureau `Other` labels are prefixed by parent heading for label uniqueness.
+- **Arithmetic, relation membership, and U1 roles (220 relations, 60 standalones):** recompute every relation in exact `Decimal` (**135** exact, **78** `tol="1"`, **7** `tol="2"`: `#521` `r21c9` [12 srcs], `#524` `r17c4`/`r17c6` [15/16 srcs], `#529` `r10c8` [5 numeric + 1 `(**)`], `#530` `r19c4`/`r19c6`/`r19c7` [16/18/16 srcs]). Confirm every nonzero `tol == delta <= len(sources)` quoting p23's rounding note, no missing identity classes, no bureau double-counting (Energy Programs, FHI/FSMI/CMS, ACF, FEMA, PIH/CPD/Housing Programs, Interior's four bureau totals + Indian Affairs), and U1 disjointness for all 60 standalones (`#523` 54 non-subtotaled HHS lines, `#529` 6 single-line Indian Affairs cells).
+- **Shared-row and Table 3 (`#505`) cross-checks:**
+  - Cross-unit shared rows (18 rows / 162 positions / 119 numeric values): HHS 12 rows (108 positions / 75 values), HUD 2 rows (18 positions / 12 values), Interior 4 rows (36 positions / 32 values).
+  - Table 5 ↔ Table 3 (`#505`) net outlays ($ millions, September / FY2026 / FY2025): Energy `4,534 / 52,001 / 52,292`, HHS `181,435 / 2,003,813 / 1,884,277`, Homeland Security `11,306 / 109,528 / 115,306`, HUD `6,576 / 68,263 / 50,533`, Interior `2,735 / 15,567 / 22,402`, Justice `4,030 / 45,336 / 44,948`.
+
+**#531+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-labor-bureaus` is the next unit after the audit.
+
+---
