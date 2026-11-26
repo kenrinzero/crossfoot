@@ -7,7 +7,7 @@
     "title": "Table 6. Means of Financing \u2014 Liability Accounts",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6 = col5 + col1. Text layer glued footnote 1 onto Uninvested Balances Deposit Funds close-prior-month as '130,465'; render-resolved to 30,465 (p24 crop). Total Liability Accounts 38,291/2,153,728/2,003,253/30,564,552/32,679,989/32,718,280. p24.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6 = col5 + col1. Text layer glued footnote 1 onto Uninvested Balances Deposit Funds close-prior-month as '130,465'; render-resolved to 30,465 (p24 crop). Total Liability Accounts 38,291/2,153,728/2,003,253/30,564,552/32,679,989/32,718,280. p24. Audit #560 repair (2026-11-26, Qwen 4 Max): declared 17 fiscal-year roll-forward relations (c4+c2=c6) per DESIGN 4a, which August's twin units missed; 4 standalones reclassified leaf/total. No cell value changed. See AUDITS.md.",
   "columns": [
     {
       "index": 1,
@@ -243,8 +243,7 @@
       "row": 4,
       "col": 2,
       "value": "-6221",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "role": "leaf"
     },
     {
       "id": "r4c3",
@@ -259,8 +258,7 @@
       "row": 4,
       "col": 4,
       "value": "66448",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "role": "leaf"
     },
     {
       "id": "r4c5",
@@ -288,8 +286,7 @@
       "row": 5,
       "col": 2,
       "value": "208907",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "role": "leaf"
     },
     {
       "id": "r5c3",
@@ -304,8 +301,7 @@
       "row": 5,
       "col": 4,
       "value": "352825",
-      "role": "standalone",
-      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+      "role": "leaf"
     },
     {
       "id": "r5c5",
@@ -1299,6 +1295,161 @@
       "note": "Total Liability Accounts col 6",
       "tol": "1",
       "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Debt Held by the Public)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Intragovernmental Holdings)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Treasury Securities Outstanding)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Plus Premium on Treasury Securities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Less Discount on Treasury Securities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Treasury Securities Net of Premium and Discount)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Agency Securities, Issued Under Special Financing Authorities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Federal Securities)",
+      "tol": "1",
+      "why": "Table 6 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c4",
+        "r9c2"
+      ],
+      "target": "r9c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Federal Securities Held as Investments of Government Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Less Discount on Federal Securities Held as Investments of Government Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r11c2"
+      ],
+      "target": "r11c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Federal Securities Held as Investments of Government Accounts)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Borrowing from the Public)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Accrued Interest Payable to the Public)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Allocations of Special Drawing Rights)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Uninvested Balances, Deposit Funds)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Miscellaneous Liability Accounts (Includes Checks Outstanding Etc.))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Liability Accounts)"
     }
   ]
 }

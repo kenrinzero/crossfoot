@@ -3489,35 +3489,39 @@ All ten units reconcile individually with **0 warnings**. The full strict sweep 
 
 ## Spot-Audit: Unit 560 — treasury-mts/2026-09-table6-schedule-a (and whole-batch #551–#560)
 
-**DUE. #561 awaits a GREEN verdict from a different agent.** Mistral Vibe transcribed these units on 2026-11-26. The following counts and source checks are the transcriber's handoff.
+**GREEN after repair, 2026-11-26.** Qwen 4 Max (Hermes `qwen` profile) independently audited the September grand-total / UOR / Table 6 batch shipped by Mistral Vibe at `bc22a57`. All **831 numeric values and 255 omissions across 1,086 positions** on 141 unit rows match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with **0 positional mismatches**. The repair declared **36 missing fiscal-year roll-forward relations** (DESIGN §4a) in #558/#559 and corrected stale handoff counts; no cell value changed. **#561 (`treasury-mts/2026-09-table6-schedule-b`) is unblocked. The next cadence audit is #570.**
 
-The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints the Table 5 grand totals and UOR block on pages 22–23, the Independent Agencies on pages 21–22, Table 6 on page 24, and Table 6 Schedule A on page 25 (Schedule B starts lower on the same page). Page 8 gives Table 3 cross-totals.
+### 1. Source and positional coverage
 
-| Unit | Section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
-|---|---|---:|---:|---:|---:|---:|
-| #551 | Table 5 grand-total capstone (Outlays / On / Off) | 23 | 3 | 27 | 18 / 18 | 0 / 0 |
-| #552 | Independent Agencies Global Media–NRC (incl. FDIC total) | 21 | 25 | 171 | 31 / 15 | 84 / 88 |
-| #553 | Postal Service Off-Budget | 21 | 3 | 19 | 3 / 3 | 10 / 10 |
-| #554 | Railroad Retirement Board | 21–22 | 17 | 97 | 9 / 9 | 3 / 3 |
-| #555 | Independent Agencies remainder + Total | 22 | 5 | 39 | 9 / 9 | 12 / 12 |
-| #556 | UOR Employer Share, Employee Retirement | 22 | 10 | 56 | 6 / 6 | 0 / 0 |
-| #557 | UOR Interest Received + Rents/Sale + Total | 22–23 | 28 | 162 | 18 / 12 | 3 / 2 |
-| #558 | Table 6 Liability Accounts | 24 | 17 | 102 | 47 / 30 | 6 / 6 |
-| #559 | Table 6 Asset Accounts + Financing totals | 24 | 22 | 126 | 53 / 30 | 6 / 5 |
-| #560 | Table 6 Schedule A | 25 | 11 | 32 | 11 / 8 | 4 / 5 |
-| **Total** | | | **141** | **831** | **205** | **128** |
+SHA-256 `fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db` re-verified against `sources/SOURCES.md`. Rebuilt the printed grids independently from pdfplumber character positions (Table 5 pp21–23: nine columns at 40pt pitch; Table 6 p24: six at 57pt; Schedule A p25: three at 54pt) and inspected 3.0× pypdfium2 renders of pp8, 21, 22, 23, 24, 25. Whole-batch positional comparison of every unit cell AND every omitted position (blank / `......` / `(**)`) against the print: **0 mismatches**. Row counts: 141 unit rows = 139 printed rows + 2 re-anchors (#557 r27 ← #556 r10; #559 r22 ← #558 r17, both byte-match); #552 r25 (FDIC OIG) is keyed after NRC but matches its printed line at p21 y434. Unconsumed printed rows accounted for: the 13 SSA-continuation numeric rows on p21 all belong to #550 (every value present there); six all-omission rows dropped per the upheld convention (FCC Spectrum Auction Program Account, RUITF Other, Advances from FOASDI Fund, US Government Life Insurance Fund, Loans to IMF, and the all-dots Independent Agencies heading). The p23 Total Surplus/Deficit rows and the MEMORANDUM Receipts-Offset block are untranscribed corpus-wide (May–September alike) and have no queued unit — see §6.
 
-**Items for the independent reviewer**
+### 2. Relations, tolerances, and the §4a repair
 
-- **#552.** September newly prints the FDIC Office of Inspector General row (47 / 47 / 48 in the three gross+net pairs, p21): added as r25 and folded into all six Total--FDIC column sums; col 7 is off by 1 (rounding). Export-Import Bank now prints September applicable receipts 17, restoring its This-Month net identity 25 = 17 + 8.
-- **#554.** September newly prints Transfers-from-NRRIT This-Month 169/169, Intrabudgetary Other This-Month −170/−170, and RSEBA Other FYTD 1/1; all folded into the Total--RRB column sums (col 1 off by 1 over 11 sources, rounding).
-- **#557.** Sale of Major Assets newly prints This-Month 1/−1 (new r28c2 vertical); Spectrum Auction Proceeds This-Month is now omitted (FYTD −3,571/−3,571 only); Other Interest prints FYTD applicable 1. Employer Share re-anchored byte-match with #556.
-- **#558.** The text layer glues footnote 1 onto the Deposit Funds close-prior-month cell as `130,465`; the p24 render resolves it to 30,465 (superscript 1).
-- **#559.** IMF Dollar Deposits prints FYTD 1 (was `(**)` in August), folded into the IMF Balance col-2 sum (4 sources, exact). Total Liability Accounts re-anchored byte-match with #558 r17.
-- **#560.** Revisions This-Month prints −18 (footnote 1, the −$18M DoD–Air Force August reporting) with FYTD omitted; Prior prints 35,230.
+Pre-repair, all **206 declared relations** re-derived in exact Decimal from the leaf cells: 141 exact, 65 with tol (63 at 1, 2 at 2 in #559 Total Cash col 2 / Total Assets col 5). Every nonzero tol equals the observed |delta|, stays within its source count, and quotes the page's printed rounding note (p23 for Table 5, p24 for Table 6, p25 for Schedule A). No duplicate equations, no over-declared slack, role graph clean (every leaf feeds, every total targeted, every standalone outside the graph with a `why`).
 
-Cross-table ties: #551 Total Outlays 584,775/7,395,800/7,009,986 and On/Off-Budget triples byte-match Table 3 (#506, p8); #555 net triple −4,535/3,028/6,788 byte-matches Table 3 p8; #560 close of period 29,489,163 = #559 Excess of Liabilities r19c6; Schedule A deficit 26,900/1,992,473/1,775,369 = −Table 2 totals.
+**Defect (real, repeat): missing identity class.** DESIGN §4a requires both roll-forwards for every Table 6 row where c2, c4, c6 all print. #558 declared only the monthly class (17 computable FY identities undeclared); #559 likewise (19). July's twins carry the FY class from the 2026-08-18 special rollout; **August #478/#479 shipped without it and audit #480 verified the identities hold but never that they are declared** — September ported August 1:1 and inherited the gap. Repair (mechanical, value-preserving, special-rollout precedent): +17 relations in #558 (16 exact, 1 at tol 1), +19 in #559 (15 exact, 4 at tol 1); 8 `standalone → leaf` flips (#558 r4c2/r4c4/r5c2/r5c4; #559 r1c2/r1c4/r3c2/r21c4); 0 cell values changed; 0 pre-existing leaf/total reclassified. Post-repair: **242 relations (172 exact / 70 tol), 113 standalones**; #558 64r/2sa, #559 72r/1sa. Schedule A correctly declares 0 FY relations (no balance columns).
 
-All ten strict unit checks passed with zero warnings. The full corpus sweep passed 560/560 and pytest passed 23/23. The next transcription after independent audit is #561, Table 6 Schedule B.
+### 3. Handoff items — all upheld against the print
+
+- **#552** FDIC OIG row prints 47/47/48 pairs (p21) and enters all six Total--FDIC sums; col 7 off by 1 (rounding). Export-Import September applicable 17 restores 25 = 17 + 8.
+- **#554** new This-Month 169/169 (NRRIT transfers), −170/−170 (Intrabudgetary Other), FYTD 1/1 (RSEBA Other) all fold into Total--RRB; col 1 off by 1 over 11 sources.
+- **#557** Sale of Major Assets This-Month 1/−1 feeds the new r28c2 vertical (630 + 1 = 631); Spectrum Auction This-Month omitted; Other Interest FYTD applicable 1 gives −6 = 1 + (−7).
+- **#558** text-layer footnote glue resolved on render: the c5 cell is **¹30,465** — superscript 1 precedes 30,465; value 30,465 as transcribed.
+- **#559** IMF Dollar Deposits FYTD 1 folds into IMF Balance col 2 (4 sources, exact).
+- **#560** Revisions prints −18 / `......` / 35,230. **Correction to the handoff:** no superscript is printed on the p25 Revisions row; the −$18M DoD–Air Force note is **p24 footnote 1, whose marker sits on Deposit Funds c5**. The handoff's "(footnote 1)" is an interpretive cross-reference, not a printed marker; the value and the rounding tols stand as printed.
+
+### 4. Shared rows and cross-table ties
+
+#556 r10 ↔ #557 r27 Employer Share and #558 r17 ↔ #559 r22 Total Liability Accounts byte-match. #551 Outlays 584,775/7,395,800/7,009,986 and On/Off-Budget triples byte-match Table 3 p8 and #506; #555 net triple −4,535/3,028/6,788 byte-matches Table 3 p8 and #506; #559 Excess r19c6 = #560 Close r11c1 = 29,489,163 and r19c5 = #560 Beginning (Current Basis) r3c1 = 29,465,548; #560 deficit 26,900/1,992,473 = −Table 2 This-Month/FYTD and 1,775,369 = −Table 3 prior-FYTD surplus.
+
+### 5. Documentation corrections and regression gates
+
+Handoff/BACKLOG counts were stale against the shipped files: #552 84→**81** standalones; #557 18→**19** relations and 3→**0** standalones; #559 6→**5** standalones (pre-repair). BACKLOG rows and the NEXT.md shipped line corrected; post-repair batch totals 242 relations / 113 standalones. Gates after repair: all ten units reconcile **GREEN 0 warnings**, full strict sweep **560/560**, **pytest 23/23** (the repair's first write introduced CRLF on Windows; caught by `test_corpus_is_utf8_lf_without_bom` and rewritten LF before the verdict).
+
+### 6. Observations (outside the defect taxonomy)
+
+- Column-5 label `Close of This Month — open/prior` remains the family wording quirk; the print says **Beginning of This Month** (adjudicated in the 2026-08-18 special FY audit §2). Left unchanged for family consistency.
+- p23 Table 5 surplus/deficit rows and the MEMORANDUM block are outside every month's unit specs; their values are cross-available via Table 2/3. Recommend an explicit scope note or a future memorandum unit.
+- **Follow-up queued in NEXT.md:** August #478/#479 lack the §4a FY class (their Schedule B–E siblings have it); declare and re-gate per the special-rollout precedent.
 
 ---
