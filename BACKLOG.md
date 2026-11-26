@@ -594,7 +594,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-08-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (July: 45) | 0 | SHIPPED 2026-09-17 (corpus #501; 45c/3r = floor; Black Lung and Military Advances all-`......` dropped; Total 6,274,791/6,492,831/6,519,041 byte-match Table 6-D Total Trust Funds; close-prior byte-matches July close-this-month; p36). **August MTS family 80/80 COMPLETE.** |
 
 
-## Treasury MTS September 2026 — 59 shipped, 21 READY (80 units, D-tiered)
+## Treasury MTS September 2026 — 69 shipped, 11 READY (80 units, D-tiered)
 
 Source vendored 2026-11-26: `sources/treasury-mts/mts-202609.pdf`, 2,309,827 bytes,
 sha256 `fcabeccd…0585e7db` (full hash in `sources/SOURCES.md`). Content-gate PASS —
@@ -607,7 +607,7 @@ September closes FY2026, Table 1 gains its 12th FY2026 month row (26 rows total)
 Table 7 populates all 12 months (Oct–Sept + YTD + Prior = 14 columns); three dense
 Table 7 caps are bumped from `≤ 200` to `≤ 250 cells` accordingly.
 
-**Corpus numbering:** this family is #502–#581 against a corpus of 570. September audits are GREEN through **#560** (closed 2026-11-26 after repair, Qwen 4 Max). **Audit #570 is DUE** for the shipped batch #561–#570; transcription resumes at **#571** (table6-schedule-e-direct-part2) after an independent GREEN verdict. Next audit after that: **#580**.
+**Corpus numbering:** this family is #502–#581 against a corpus of 570. September audits are GREEN through **#570** (closed 2026-11-26, Antigravity / Gemini 4 Argon (High); 0 mismatches, 0 repairs). **#571** (`table6-schedule-e-direct-part2`) is **UNBLOCKED**; next audit: **#580**.
 
 **Floors are PROVISIONAL.** `min relations` carry forward the August family's READY floors,
 and every Table 6 unit inherits DESIGN § 4a (declare both monthly and fiscal-year
@@ -705,7 +705,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-09-table6-schedule-d-federal-funds | Table 6 Schedule D Federal Funds investments | D2 | vision | 20 | sum | ≤ 250 cells (Aug: 166) | 3 | SHIPPED 2026-11-26 (corpus #567; 30 rows / 160c / 54r; 1sa ≤ waiver 3; strict-default GREEN, 0 warnings; Commerce/HHS FYTD omissions; p29) |
 | treasury-mts/2026-09-table6-schedule-d-trust-funds | Table 6 Schedule D Trust Funds + Grand Total | D2 | vision | 20 | sum | ≤ 250 cells (Aug: 233) | 116 | SHIPPED 2026-11-26 (corpus #568; 42 rows / 235c / 88r; 2sa ≤ waiver 116; strict-default GREEN, 0 warnings; Grand Total byte-matches #558 r9; Total Federal Funds re-anchored r42; pp29-30) |
 | treasury-mts/2026-09-table6-schedule-e-guaranteed | Table 6 Schedule E Guaranteed Loan Financing | D2 | vision | 15 | sum | ≤ 250 cells (Aug: 192) | 127 | SHIPPED 2026-11-26 (corpus #569; 39 rows / 198c / 57r; 0sa ≤ waiver 127; strict-default GREEN, 0 warnings; Net Activity col3/col4 tol 3/4 over 30/38 sources; pp31-32) |
-| treasury-mts/2026-09-table6-schedule-e-direct-part1 | Table 6 Schedule E Direct Loan Financing (Agri–HHS) | D2 | vision | 12 | sum | ≤ 250 cells (Aug: 149) | 93 | SHIPPED 2026-11-26 (corpus #570; 28 rows / 150c / 44r; 39sa ≤ waiver 93; strict-default GREEN, 0 warnings; section continues #571 p33; p32. **Audit #570 DUE; #571+ blocked.**) |
+| treasury-mts/2026-09-table6-schedule-e-direct-part1 | Table 6 Schedule E Direct Loan Financing (Agri–HHS) | D2 | vision | 12 | sum | ≤ 250 cells (Aug: 149) | 93 | SHIPPED 2026-11-26 (corpus #570; 28 rows / 150c / 44r; 39sa ≤ waiver 93; strict-default GREEN, 0 warnings; section continues #571 p33; p32. **Audit #570 closed GREEN 2026-11-26 (Antigravity / Gemini 4 Argon (High)); #571 unblocked. Next audit #580.**) |
 | treasury-mts/2026-09-table6-schedule-e-direct-part2 | Table 6 Schedule E Direct Loan Financing remainder + Net | D2 | vision | 12 | sum | ≤ 250 cells (Aug: 168) | 106 | READY |
 | treasury-mts/2026-09-table7-receipts-detail | Table 7 receipts classification detail (Oct–September + YTD + Prior) | D2 | vision | 9 | sum | ≤ 150 cells (Aug: 117) | 9 | READY |
 | treasury-mts/2026-09-table7-receipts-totals | Table 7 receipts totals On/Off-Budget | D2 | vision | 18 | sum | ≤ 100 cells (Aug: 72) | 0 | READY |

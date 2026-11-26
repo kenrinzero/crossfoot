@@ -3528,37 +3528,70 @@ Handoff/BACKLOG counts were stale against the shipped files: #552 84→**81** st
 
 ## Spot-Audit: Unit 570 — treasury-mts/2026-09-table6-schedule-e-direct-part1 (and whole-batch #561–#570)
 
-**DUE. #571 awaits a GREEN verdict from a different agent.** Qwen 4 Max transcribed these units on 2026-11-26, porting the August twins 1:1 and re-anchoring every value to char-level positional grids of the September print (pp25–32), with 3.0× pypdfium2 renders of pp26–33 inspected. The following counts and source checks are the transcriber's handoff.
+**Verdict: GREEN, 2026-11-26.** Antigravity (Gemini 4 Argon (High)) independently audited the ten-unit September Table 6 Schedules B–E (part 1) batch shipped by Qwen 4 Max at `e371e62` (different agent and model family, satisfying the cadence hard rule). All **1,192 numeric values and 164 omissions across 1,356 unit positions** on 226 unit rows match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a roll-forward identities**, and **0 repairs required**. **#571 (`treasury-mts/2026-09-table6-schedule-e-direct-part2`) is unblocked. The next cadence audit is #580.**
 
-The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints Schedule B on p25 (lower), Schedule C on pp26–28, Schedule D on pp29–30, and Schedule E on pp31–33 (Guaranteed pp31–32, Direct pp32–33; part 2 = #571). Rounding notes: p25 (B), p28 (C), p30 (D), p33 (E).
+### 1. Source and positional coverage
 
-| Unit | Section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
-|---|---|---:|---:|---:|---:|---:|
-| #561 | Schedule B Agency Securities | 25 | 3 | 15 | 7 / 3 | 2 / 4 |
-| #562 | Schedule C Agriculture | 26 | 17 | 94 | 26 / 8 | 25 / 61 |
-| #563 | Schedule C Commerce–Energy | 26 | 14 | 72 | 18 / 5 | 26 / 44 |
-| #564 | Schedule C HHS–Interior (+ new BIA row) | 26–27 | 13 | 61 | 14 / 1 | 26 / 40 |
-| #565 | Schedule C Labor–Veterans Affairs | 27 | 14 | 71 | 18 / 3 | 24 / 51 |
-| #566 | Schedule C EPA–Totals + FFB | 27–28 | 26 | 136 | 38 / 10 | 40 / 85 |
-| #567 | Schedule D Federal Funds | 29 | 30 | 160 | 54 / 20 | 1 / 3 |
-| #568 | Schedule D Trust Funds + Grand Total | 29–30 | 42 | 235 | 88 / 20 | 2 / 116 |
-| #569 | Schedule E Guaranteed | 31–32 | 39 | 198 | 57 / 15 | 0 / 127 |
-| #570 | Schedule E Direct part 1 (Agri–HHS) | 32 | 28 | 150 | 44 / 12 | 39 / 93 |
-| **Total** | | | **226** | **1,192** | **364** | **185** |
+Re-verified `sources/treasury-mts/mts-202609.pdf` against [sources/SOURCES.md](sources/SOURCES.md) (`fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`; 2,309,827 bytes) with a clean starting working tree at `9dcdb38`. Because `extract_words` splits negatives/thousands on Schedule E (pp31–32), rebuilt the six-column grids on printed pages 25 (lower)–32 directly from `pdfplumber` character positions (six right-aligned numeric columns at ~57pt pitch, decoding `(cid:NN)` → `chr(NN+29)`), cross-checked against `pypdfium2` text extraction, and visually inspected 3.0× `pypdfium2` renders of printed pages 24–33.
 
-**Items for the independent reviewer**
+Across printed pages 25 (lower)–32, the schedules print **237 six-column data rows**:
+- **12 all-omission rows** (`......` and/or `(**)` across all six columns) are properly dropped per corpus convention:
+  - Schedule B (p25): `Architect of the Capitol`, `Federal Communications Commission`, `National Archives and Records Administration` (all `......` × 3, `(**)` × 3).
+  - Schedule C (p27): Federal Railroad Administration `Other` and FFB HHS `Health Maintenance Organization Loan and Loan Guarantee Fund` (both `......` × 3, `(**)` × 3).
+  - Schedule C FFB (p28): `Federal Deposit Insurance Corporation` parent line (`......` × 6 above its populated `FDIC (acting in its capacity as Receiver)` child row).
+  - Schedule E Guaranteed (pp31–32): `Agricultural Resource Conservation Demonstration Program`, `Transportation Infrastructure Finance and Innovation Fund`, `Air Transportation Stabilization Fund`, `Troubled Assets Insurance Financing Fund`, AID `Microenterprise and Small Enterprise Development`, and USIDFC `Microenterprise and Small Enterprise Development` (all `......` × 3, `(**)` × 3).
+- **225 active printed rows** (each carrying at least one numeric cell) map 1:1 in exact print sequence to the 225 non-re-anchored unit rows across `#561–#570`, plus 1 re-anchored row (`#568` r42 `Total Federal Funds (re-anchored)` ← `#567` r30 `Total Federal Funds`) = **226 unit rows**.
+- Position-by-position comparison across all **1,356 positions (1,192 numeric cells + 164 omitted `......`/`(**)` slots)**: **0 mismatches**. Zero sub-6.2pt superscript glyphs appear on pages 25–33.
 
-- **Extraction caveat:** the word-level text layer splits negatives and thousands on pp31–32 (`-6,` + `324`); char-level column assignment is required. A word-based pass silently shifts the Direct section by one row and drops signs — do not audit from `extract_words`.
-- **#564.** New row Bureau of Indian Affairs and Bureau of Indian Education prints (**)×5 + close-of-month 1 (p26); carried as r11, standalone (no arithmetic). CO-OP and CO-OP Contingency now print This-Month.
-- **#563.** EDA close-of-month now omitted; ATVM This-Month omitted; new This-Month cells EDA −220/−220, Fisheries −31, Family Housing −36, Teach −5, TSLPA −156.
-- **#566.** Spectrum Auction Loan Fund close-of-month now omitted (This-Month −3,080/−3,080 new); FFB Sovereign This-Month omitted; FFB p28 block: FHA −4/482/313/3,136/3,622/3,618, Maritime −3/−59/−16/301/245/242, CDFI −9/−26/158/1,482/1,466/1,456, Transitional (**) /4/4/4, Sovereign −110/20,000/20,000/19,890/19,890, FDIC Receiver 93,333×3, Postal 15,000×3, Total FFB 157/3,720/33,137/217,753/221,316/221,473.
-- **#567.** Commerce FYTD both years + close-of-month omitted (This-Month −2 new); HHS FYTD both years omitted; Agriculture This-Month omitted; Justice This-Month 38 new.
-- **#568.** Row order: Grand Total r41, Total Federal Funds re-anchored r42 (from #567 r30). RRB Agency Securities (r36) is excluded from Total Treasury Securities (r38) by hierarchy — it feeds only Total Agency Securities (r39, single-source, standalone).
-- **#569.** Net Activity col-3/col-4 roll-ups carry tol 3/4 (30/38 independently rounded sources; August carried 1/4). Print p31 misspells "Health Education Assitance Loans"; unit keeps corrected spelling. No Table 6 cross-tie claimed (Table 6 guaranteed row covers a wider scope; same as August).
-- **#570.** Direct section continues on p33 (#571): first p33 row is Homeland Security Disaster Assistance Loan Fund 27/−9/−62/−188/−225/−197.
+| Unit | Table 6 schedule section | Pages | Rows | Positions | Values | Omissions | Relations / floor | Standalones / waiver | Mismatches |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| #561 | `schedule-b` (Agency Securities) | 25 | 3 | 18 | 15 | 3 | 7 / 3 | 2 / 4 | 0 |
+| #562 | `schedule-c-agri` | 26 | 17 | 102 | 94 | 8 | 26 / 8 | 25 / 61 | 0 |
+| #563 | `schedule-c-comm-energy` | 26 | 14 | 84 | 72 | 12 | 18 / 5 | 26 / 44 | 0 |
+| #564 | `schedule-c-hhs-interior` | 26–27 | 13 | 78 | 61 | 17 | 14 / 1 | 26 / 40 | 0 |
+| #565 | `schedule-c-labor-vets` | 27 | 14 | 84 | 71 | 13 | 18 / 3 | 24 / 51 | 0 |
+| #566 | `schedule-c-epa-ind` (+ Totals & FFB) | 27–28 | 26 | 156 | 136 | 20 | 38 / 10 | 40 / 85 | 0 |
+| #567 | `schedule-d-federal-funds` | 29 | 30 | 180 | 160 | 20 | 54 / 20 | 1 / 3 | 0 |
+| #568 | `schedule-d-trust-funds` (+ Grand Total) | 29–30 | 42 | 252 | 235 | 17 | 88 / 20 | 2 / 116 | 0 |
+| #569 | `schedule-e-guaranteed` | 31–32 | 39 | 234 | 198 | 36 | 57 / 15 | 0 / 127 | 0 |
+| #570 | `schedule-e-direct-part1` (Agri–HHS) | 32 | 28 | 168 | 150 | 18 | 44 / 12 | 39 / 93 | 0 |
+| **Total** | | **25–32** | **226** | **1,356** | **1,192** | **164** | **364** | **185** | **0** |
 
-Cross-table ties: #561 Total Agency Securities −500/−1,370/1,810/22,075/21,205/20,705 byte-matches Table 6 Agency Securities (#558 r7, p24); #568 Grand Total −9,961/386,478/200,312/7,339,271/7,735,711/7,725,749 byte-matches Table 6 Federal Securities Held as Investments of Government Accounts (#558 r9); #568 r42 byte-matches #567 r30.
+### 2. Arithmetic relations, DESIGN §4a completeness, tolerances, and roles
 
-All ten strict unit checks passed with zero warnings. The full corpus sweep passed 570/570 and pytest passed 23/23. Both monthly and fiscal-year roll-forwards (DESIGN §4a) are declared wherever all three cells print. The next transcription after independent audit is #571, Schedule E Direct part 2.
+Independently recomputed all **364 declared relations** in exact `Decimal` from the units' leaf cells:
+- **Exactness and tolerances:** **256** close with residual `0`, and **108** carry nonzero tolerances: **103** at `tol="1"`, **3** at `tol="2"` (`#567` `r29c5`/`r29c6` over 28/26 sources; `#568` `r38c2` over 30 sources), **1** at `tol="3"` (`#569` `r39c3` over 30 sources), and **1** at `tol="4"` (`#569` `r39c4` over 38 sources). Every nonzero tolerance equals the exact observed `|delta|`, satisfies `tol <= len(sources)`, and quotes the schedule's printed rounding note (`Note: Details may not add to totals due to rounding.` on pp25, 28, 30, 33).
+- **Complete DESIGN §4a coverage:** Checked all 226 rows for the monthly balance roll-forward (`c5 + c1 = c6`) and the fiscal-year balance roll-forward (`c4 + c2 = c6`) wherever all three cells in the triple are present. **Zero computable §4a identities are missing** across all ten units.
+- **No duplicates and U1 role consistency:** Zero duplicate equations (checked by `(target, sorted(sources))`). Every `leaf` feeds at least one relation, every `total` is targeted by at least one relation, and all **185 `standalone` cells** sit completely outside the relation graph with a `why` note and within their manifest waivers.
+
+### 3. Handoff items and source-side quirks — all render-verified
+
+- **#561 (Schedule B, p25):** TVA prints `-500 / -1,370 / 1,810 / 22,057 / 21,187 / 20,687`; FHA prints `......` × 3 then `19 / 19 / 19`; `Total Agency Securities` prints `-500 / -1,370 / 1,810 / 22,075 / 21,205 / 20,705` (`tol="1"` on the three balance column sums `19 + 22,057 = 22,076` vs `22,075`, etc.).
+- **#562–#566 (Schedule C, pp26–28):**
+  - `#562`: Five This-Month cells print omissions (`Farm Storage Facility Loans`, `Rural Development Loan Fund`, `Rural Microenterprise Investment Loans`, and `Foreign Agricultural Service` print `......`; `Rural Economic Development Loan Fund` and `Biorefinery Assistance Loan Account` print `(**)`), leaving only the FY roll-forward on those rows.
+  - `#563`: `Economic Development Administration` (`r1`) prints `-220 / -220 / 220 / 220 / 220 / ......` (close-of-month omitted; `220 + (-220) = 0` represented as `......`, so all 5 cells are standalone). `ATVM` (`r13`) prints `(**)` for This-Month. Newly printed This-Month values verified on Fisheries Finance (`-31`), Family Housing (`-36`), Teach Grant (`-5`), and Temporary Student Loan Purchase Authority (`-156`).
+  - `#564`: Newly active row `Department of the Interior: Bureau of Indian Affairs and Bureau of Indian Education` (`r11`, bottom of p26) prints `(**)` in cols 1–5 and `1` in col 6 (standalone). HHS CO-OP (`-47`) and CO-OP Contingency (`7`) print This-Month.
+  - `#565`: `Black Lung Disability Trust Fund` (`r1`, p27) prints `227 / 227 / 243 / 5,213 / 5,213 / 5,440` (both roll-forwards exact). `Repatriation Loans` (`r2`) prints `-2 / (**) / 2 / 7 / 9 / 7` (monthly roll-forward `9 + (-2) = 7` declared; `r2c4` standalone).
+  - `#566`: `Spectrum Auction Loan Fund` (`r10`, p27) prints `-3,080 / -3,080 / 3,080 / 3,080 / 3,080 / ......` (close-of-month omitted; 5 standalones). The FFB continuation block on p28 (`r19..r26`) matches the render cell-for-cell, and all six vertical column sums of `r15..r25` close to `Total Borrowing from the Federal Financing Bank` (`r26`: `157 / 3,720 / 33,137 / 217,753 / 221,316 / 221,473`, exact on cols 1–4 and `tol="1"` on cols 5–6).
+- **#567–#568 (Schedule D, pp29–30):**
+  - `#567`: `Department of Commerce` (`r2`) prints `-2 / ...... / ...... / ...... / 2 / ......` and `Department of Health and Human Services` (`r5`) prints `-17,025 / ...... / ...... / ...... / 17,025 / ......` (close-of-month omitted where `open + this_month = 0`; both cells feed the `Total Treasury Securities (Federal Funds)` vertical column sums on cols 1 and 5). `Department of Homeland Security` (`r6`) prints only Prior-FYTD `-4,948` (`leaf` feeding `r29c3`).
+  - `#568`: `Railroad Retirement Board: Agency Securities` (`r36`, p30) prints `(**) / -4 / 4 / 8 / 3 / 3` and is the sole component of `Total Agency Securities (Trust Funds)` (`r39`, identical values), so it is excluded from `Total Treasury Securities (Trust Funds)` (`r38`) and summed via `r38 + r39 = r40` (`Total Trust Funds`).
+- **#569–#570 (Schedule E, pp31–32):**
+  - `#569`: Printed p31 line `Health Education Assitance Loans` (`r17`, `-70 / -70 / -70`) carries the source-side spelling typo `Assitance`, normalized in the unit row label and documented in `unit_note`. All six vertical column sums of `r1..r38` close to `Net Activity, Guaranteed Loan Financing` (`r39`: `3,990 / 127 / 34,093 / 18,056 / 14,193 / 18,183`).
+  - `#570`: Covers the 28 Direct Loan Financing rows on p32 (Agriculture through HHS). Visual inspection of the p33 render confirms the Direct section continues at `Department of Homeland Security: Disaster Assistance Loan Fund` (`27 / -9 / -62 / -188 / -225 / -197`) for `#571`.
+
+### 4. Cross-table and cross-unit ties
+
+All three declared cross-ties match byte-for-byte across all six columns:
+
+| Tie | Source unit & row | Target unit & row | Values (cols 1–6, $ millions) | Match |
+|---|---|---|---|---|
+| Schedule B ↔ Table 6 | `#561` r3 (`Total Agency Securities`) | `#558` r7 (`Agency Securities, Issued Under Special Financing Authorities`) | `-500 / -1,370 / 1,810 / 22,075 / 21,205 / 20,705` | exact (6/6) |
+| Schedule D ↔ Table 6 | `#568` r41 (`Grand Total`) | `#558` r9 (`Federal Securities Held as Investments of Government Accounts`) | `-9,961 / 386,478 / 200,312 / 7,339,271 / 7,735,711 / 7,725,749` | exact (6/6) |
+| Schedule D Trust ↔ Federal | `#568` r42 (`Total Federal Funds (re-anchored)`) | `#567` r30 (`Total Federal Funds`) | `-12,141 / 140,048 / 115,309 / 1,064,480 / 1,216,670 / 1,204,529` | exact (6/6) |
+
+### 5. Regression gates
+
+All ten units (`#561–#570`) pass strict UTF-8 / LF-only / zero-C0 checks and reconcile individually with **0 warnings**. Full corpus sweep (`uv run python reconcile.py --all`) passes **570/570 GREEN**, and `uv run pytest` passes **23/23**. **#571+ unblocked.** Next every-10th audit fires at **#580**.
 
 ---
