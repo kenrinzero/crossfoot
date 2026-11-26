@@ -3327,44 +3327,62 @@ All ten units (`#511–#520`) pass strict UTF-8 / LF-only / zero-C0-byte checks 
 
 ## Spot-Audit: Unit 530 — treasury-mts/2026-09-outlays-justice (and whole-batch #521–#530)
 
-- **Audit Date:** DUE
-- **Auditor:** (different agent from the transcriber — Antigravity / Gemini 4 Neon (XHigh) is ineligible)
-- **Transcriber:** Antigravity (Gemini 4 Neon (XHigh))
-- **Table ID:** [treasury-mts/2026-09-outlays-justice](tables/treasury-mts/2026-09-outlays-justice.cells.json) plus the nine preceding September units (`#521–#529`)
-- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 12–16 plus the rounding and omission notes on page 23; Table 3 on page 8 (`#505`) supplies the six department net-outlay cross-checks.
-- **Status:** **DUE.** **#531+ (`treasury-mts/2026-09-outlays-labor-bureaus`) is BLOCKED until this closes GREEN.**
+**Verdict: GREEN, 2026-11-26.** Cursor Grok 4.7 audited the ten-unit Table 5 batch independently of the transcriber, Antigravity (Gemini 4 Neon, XHigh), who shipped `2f404ac`. All 1,143 numeric values and 468 omissions across 1,611 unit positions match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with zero defects and zero repairs. **#531 (`treasury-mts/2026-09-outlays-labor-bureaus`) is unblocked. The next cadence audit is #540.**
 
-### Scope the auditor should cover
+### 1. Source and positional coverage
 
-Whole-batch positional check of the 10-unit September Table 5 batch `#521–#530`: **179 unit rows / 161 distinct numeric source rows / 1,611 unit positions (1,143 numeric values + 468 omissions) / 220 relations / 60 standalones**. Zero provisional floor misses across all ten units. Independent parse + render of `mts-202609.pdf` printed pages 12–16 (+ p23 rounding note). `......` and `(**)` are omitted, not 0; drop a row only when **every** cell on that row is omitted.
+The vendored PDF matches the SHA-256 in [sources/SOURCES.md](sources/SOURCES.md) (`fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`; 2,309,827 bytes), and `git status` started clean at `2f404ac` (`main == origin/main`). Independently extracted every word and right-edge column position on printed pages 12–16 and 23 via `pdfplumber`, and visually inspected 2.2× `pypdfium2` renders of those pages, including the page 23 legend. Every cell across all ten units was checked position-by-position for exact string equality (sign preserved, thousands commas stripped) and omission discipline (`......` and `(**)` omitted, never `0`).
 
-| Unit | Table 5 section | Pages | Unit rows | Positions | Values | Omissions | Relations | Standalones |
-|---|---|---:|---:|---:|---:|---:|---:|---:|
-| #521 | `energy` | 12–13 | 21 | 189 | 138 | 51 | 27 | 0 |
-| #522 | `hhs-cms` | 13 | 14 | 126 | 84 | 42 | 18 | 0 |
-| #523 | `hhs-acf` | 13–14 | 22 | 198 | 135 | 63 | 9 | 54 |
-| #524 | `hhs-departmental` | 13–14 | 17 | 153 | 108 | 45 | 15 | 0 |
-| #525 | `homeland-security` | 14 | 19 | 171 | 126 | 45 | 27 | 0 |
-| #526 | `hud-bureaus` | 14 | 15 | 135 | 82 | 53 | 12 | 0 |
-| #527 | `hud-departmental` | 14–15 | 23 | 207 | 147 | 60 | 35 | 0 |
-| #528 | `interior-bureaus` | 15 | 19 | 171 | 130 | 41 | 40 | 0 |
-| #529 | `interior-departmental` | 15 | 10 | 90 | 73 | 17 | 22 | 6 |
-| #530 | `justice` | 15–16 | 19 | 171 | 120 | 51 | 15 | 0 |
-| **Total** | **Batch #521–#530** | **12–16** | **179** | **1,611** | **1,143** | **468** | **220** | **60** |
+| Unit | Table 5 section | Pages | Rows | Positions | Values | Omissions | Relations | Standalones | Mismatches |
+|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| #521 | `energy` | 12–13 | 21 | 189 | 138 | 51 | 27 | 0 | 0 |
+| #522 | `hhs-cms` | 13 | 14 | 126 | 84 | 42 | 18 | 0 | 0 |
+| #523 | `hhs-acf` | 13–14 | 22 | 198 | 135 | 63 | 9 | 54 | 0 |
+| #524 | `hhs-departmental` | 13–14 | 17 | 153 | 108 | 45 | 15 | 0 | 0 |
+| #525 | `homeland-security` | 14 | 19 | 171 | 126 | 45 | 27 | 0 | 0 |
+| #526 | `hud-bureaus` | 14 | 15 | 135 | 82 | 53 | 12 | 0 | 0 |
+| #527 | `hud-departmental` | 14–15 | 23 | 207 | 147 | 60 | 35 | 0 | 0 |
+| #528 | `interior-bureaus` | 15 | 19 | 171 | 130 | 41 | 40 | 0 | 0 |
+| #529 | `interior-departmental` | 15 | 10 | 90 | 73 | 17 | 22 | 6 | 0 |
+| #530 | `justice` | 15–16 | 19 | 171 | 120 | 51 | 15 | 0 | 0 |
+| **Total** | | **12–16** | **179** | **1,611** | **1,143** | **468** | **220** | **60** | **0** |
 
-### What to re-derive, not sample
+### 2. Row accounting, labels, and source-side quirks
 
-- **Positional and row accounting (1,611 positions across 161 distinct numeric source rows):** verify all 162 printed data rows across Energy (22 printed: 21 numeric + 1 all-omission `Defense Nuclear Waste Disposal` on p12, dropped), HHS (41), Homeland Security (19), HUD (36), Interior (25), and Justice (19). Check zero superscripts on Energy–Justice (only Defense Air Force `⁴` appears earlier on p12).
-- **Notable September-specific rows and source-side quirks:**
-  - `#521` Energy: `Offsetting Governmental Receipts` prints numeric amounts (`4/-4`, `4/-4`, `68/-68`) on p13 (21 rows vs August's 20); `Proprietary Receipts from the Public` prints `-205` applicable / `205` net in September.
-  - `#523` HHS ACF: `Food and Drug Administration` prints negative September Gross Outlays (`-830` gross / `1` applicable / `-831` net). Check wrapped labels across HHS CMS (`Total--Federal Supplementary Medical Insurance Trust Fund`), HHS ACF (three `Payments to States for ...` rows), and HUD (Hope VI, FHA Liquidating Accounts).
-  - `#527` HUD Departmental: `Housing Programs: Other` prints `3` gross / `(**)` applicable / `2` net in September (sole source-side `(**)` Gross≠Net pair in the batch); `Home Ownership Preservation Equity Fund` prints numeric `7/7` in Current FYTD only (`......` September, `(**)` Prior FYTD).
-  - `#528` Interior Bureaus: `Bureau of Land Management: Other` and `Total--Land and Minerals Management` print `5` in September Applicable Receipts (restoring both September net identities and reaching floor 40 vs August's 38); `National Park Service` and `Total--Fish and Wildlife and Parks` print `(**)` in September Applicable Receipts; the three bureau `Other` labels are prefixed by parent heading for label uniqueness.
-- **Arithmetic, relation membership, and U1 roles (220 relations, 60 standalones):** recompute every relation in exact `Decimal` (**135** exact, **78** `tol="1"`, **7** `tol="2"`: `#521` `r21c9` [12 srcs], `#524` `r17c4`/`r17c6` [15/16 srcs], `#529` `r10c8` [5 numeric + 1 `(**)`], `#530` `r19c4`/`r19c6`/`r19c7` [16/18/16 srcs]). Confirm every nonzero `tol == delta <= len(sources)` quoting p23's rounding note, no missing identity classes, no bureau double-counting (Energy Programs, FHI/FSMI/CMS, ACF, FEMA, PIH/CPD/Housing Programs, Interior's four bureau totals + Indian Affairs), and U1 disjointness for all 60 standalones (`#523` 54 non-subtotaled HHS lines, `#529` 6 single-line Indian Affairs cells).
-- **Shared-row and Table 3 (`#505`) cross-checks:**
-  - Cross-unit shared rows (18 rows / 162 positions / 119 numeric values): HHS 12 rows (108 positions / 75 values), HUD 2 rows (18 positions / 12 values), Interior 4 rows (36 positions / 32 values).
-  - Table 5 ↔ Table 3 (`#505`) net outlays ($ millions, September / FY2026 / FY2025): Energy `4,534 / 52,001 / 52,292`, HHS `181,435 / 2,003,813 / 1,884,277`, Homeland Security `11,306 / 109,528 / 115,306`, HUD `6,576 / 68,263 / 50,533`, Interior `2,735 / 15,567 / 22,402`, Justice `4,030 / 45,336 / 44,948`.
+- **Complete source row coverage:** The six departments print 162 data rows: 161 with at least one numeric entry and 1 all-omission row (`Defense Nuclear Waste Disposal` on page 12, `(**)` or `......` in every column), which is properly dropped. Counts: Energy 21, HHS 41, Homeland Security 19, HUD 36, Interior 25, Justice 19. All 161 distinct numeric rows appear across the 179 unit rows (18 repeated on departmental capstones) with zero missing or fabricated rows.
+- **Labels and continuations:** Column headers match the corpus-wide Table 5 template (This Month, Current Fiscal Year to Date, Prior Fiscal Year to Date; Gross Outlays, Applicable Receipts, Outlays). Wrapped labels occupy one row each, including `Uranium Enrichment Decontamination and Decommissioning Fund`, `Total--Federal Supplementary Medical Insurance Trust Fund`, the three `Payments to States for ...` rows, `Revitalization of Severely Distressed Public Housing (Hope VI)`, and both FHA / Housing-for-the-Elderly liquidating accounts. The three Interior bureau `Other` labels are disambiguated by parent heading, and the department-level HHS `Other` is `Other` on `#523` and `HHS Departmental: Other` on `#524`.
+- **No superscripts on Energy through Justice.** The only sub-6.5pt glyph on pages 12–16 is the Air Force footnote `4` on page 12, above the Energy section (prior batch). Zero superscript digits leaked into these ten units.
+- **Render-confirmed September quirks:**
+  - `#521` `Offsetting Governmental Receipts` prints `4 / -4`, `4 / -4`, `68 / -68` (21 rows; August's twin had 20). `Proprietary Receipts from the Public` prints September applicable `-205` and net `205`.
+  - `#523` `Food and Drug Administration` prints September `-830 / 1 / -831`.
+  - `#527` `Housing Programs: Other` prints September `3 / (**) / 2` (the batch's only source-side gross-versus-net `(**)`). `Home Ownership Preservation Equity Fund` prints Current FYTD `7 / 7` only.
+  - `#528` `Bureau of Land Management: Other` and `Total--Land and Minerals Management` print September applicable `5` (both September net identities close, so the unit meets floor 40). `National Park Service` and `Total--Fish and Wildlife and Parks` print `(**)` for September applicable receipts.
+- **`#527` is one relation above its provisional floor (35 vs 34).** Every three-cell horizontal identity is declared, no component is summed twice, and every declared relation foots. The extra relation is a real identity, not padding. The other nine units sit on their floors.
 
-**#531+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-labor-bureaus` is the next unit after the audit.
+### 3. Arithmetic, relation membership, and role checks
+
+Independently recomputed all **220 declared relations** in exact `Decimal` from the units' leaf cells:
+
+- **Exactness and tolerance plausibility:** **135** close exactly, **78** carry `tol="1"`, and **7** carry `tol="2"`. Every nonzero tolerance equals the observed residual, satisfies `tol <= len(sources)`, and quotes page 23's printed note (`Note: Details may not add to totals due to rounding.`). The seven `tol="2"` identities are `#521` `r21c9` (12 sources), `#524` `r17c4` / `r17c6` (15 / 16), `#529` `r10c8` (5 numeric sources; Indian Affairs prior-year applicable receipts print `(**)` and are omitted, not forced in as zero), and `#530` `r19c4` / `r19c6` / `r19c7` (16 / 18 / 16).
+- **No missing classes or double-counting:** Every period with all three cells declares `applicable + net = gross`. Bureau subtotals (Energy Programs, FHI, FSMI, CMS, ACF, FEMA, Public and Indian Housing, Community Planning and Development, Housing Programs, and Interior's four bureau totals) are included once. No relation contains both a subtotal and that subtotal's own sources.
+- **U1 role consistency:** All **60 standalones** (`#523` 54 non-subtotaled HHS lines, `#529` 6 single-line Indian Affairs cells) sit outside the relation graph, inside their manifest waivers. Every `leaf` and `total` participates in at least one relation.
+
+### 4. Shared-position and Table 3 cross-checks
+
+- **Cross-unit shared rows (18 rows / 162 positions / 119 numeric values, 0 mismatches):** HHS 12 rows (75 values; `#524`'s department-level Other is labeled `HHS Departmental: Other` against `#523`'s `Other`), HUD 2 bureau totals (12 values), Interior 4 bureau totals (32 values).
+- **Table 5 department net outlays match Table 3 on page 8** (September / FY2026 / FY2025, $ millions), read from the PDF and from the department total rows:
+
+| Department | September 2026 | Current FYTD (FY2026) | Prior FYTD (FY2025) | Match vs Table 3 |
+|---|---:|---:|---:|---|
+| Department of Energy | 4,534 | 52,001 | 52,292 | exact |
+| Department of Health and Human Services | 181,435 | 2,003,813 | 1,884,277 | exact |
+| Department of Homeland Security | 11,306 | 109,528 | 115,306 | exact |
+| Department of Housing and Urban Development | 6,576 | 68,263 | 50,533 | exact |
+| Department of the Interior | 2,735 | 15,567 | 22,402 | exact |
+| Department of Justice | 4,030 | 45,336 | 44,948 | exact |
+
+### 5. Regression gates
+
+All ten units pass strict UTF-8 / LF-only / zero-C0 checks and reconcile individually with **0 warnings**. Full corpus sweep passes **530/530 GREEN**, and **23/23 pytest tests pass**. **#531+ unblocked.** Next every-10th audit fires at **#540**.
 
 ---
