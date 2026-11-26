@@ -47,7 +47,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — VENDORED + 80 READY (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August (same first-page table locations; closes FY2026 with all 12 months populated in Table 1 and Table 7), so the August decomposition ports 1:1: **#502–#581**. All PDF → vision. Floors provisional. Starter: `treasury-mts/2026-09-table1` (D2, vision, cross-table).
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 1/80 SHIPPED, 79 READY (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August (same first-page table locations; closes FY2026 with all 12 months populated in Table 1 and Table 7), so the August decomposition ports 1:1: **#502–#581** (`#502` `2026-09-table1` shipped). All PDF → vision. Floors provisional. Next up: `treasury-mts/2026-09-table2` (D2, vision, cross-table).
   - **Audit:** next every-10th is **#510** (9th unit of this family). Whole-batch positional checking remains the working practice when consecutive units share a transcriber. Write the AUDITS.md placeholder when #510 ships; #511+ blocked until a different agent closes it.
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
@@ -106,6 +106,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-26 · **treasury-mts/2026-09-table1** — #502, September MTS family opener (D2/PDF/vision; 78c/32r, strict-default GREEN 0 warnings; 26 rows closing FY2026; 10 tol-1 computed per-relation. FY2026 August Outlays restated 526,830 → 526,812 with footnote 1, text-layer `1526,812` render-resolved. Aug YTD + Sep − 18 = Sep YTD exact on all 3 cols; Table 1 ties Table 2 on all 9 Sept/FY2026/FY2025 figures). Sweep 502/502; pytest 23/23. 79 September-MTS units remain; next audit #510.
 
 - 2026-09-17 · **AUDIT-2026-09-16 harness unit** — U2 label uniqueness + membership, U3 reject self-target sums, U5/D6 `reconcile.py --all` nonempty aggregating sweep, D4 JSON-float `2.0` regression. pytest 23/23; sweep GREEN 501. No corpus values changed.
 

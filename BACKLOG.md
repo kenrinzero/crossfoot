@@ -596,25 +596,25 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 
 ## Treasury MTS September 2026 — READY (80 units, D-tiered)
 
-Source vendored 2026-11-26: sources/treasury-mts/mts-202609.pdf, 2,309,827 bytes,
-sha256 cabeccd…0585e7db (full hash in sources/SOURCES.md). Content-gate PASS —
-%PDF-1.6, 39pp, Tables 1–9 all present, cover *Final Monthly Treasury Statement
+Source vendored 2026-11-26: `sources/treasury-mts/mts-202609.pdf`, 2,309,827 bytes,
+sha256 `fcabeccd…0585e7db` (full hash in `sources/SOURCES.md`). Content-gate PASS —
+`%PDF-1.6`, 39pp, Tables 1–9 all present, cover *Final Monthly Treasury Statement
 For Fiscal Year 2026 Through September 30, 2026*. The September statement is
 **structurally identical to August** (same 39-page count and exact first-page table
 locations: T1/T2 p5, T3 p8, T4 p9, T5 pp10–23, T6 pp24–33, T7 pp34–35, T8 p36, T9 p37),
 so the August decomposition ports 1:1 and the unit list below mirrors it. Because
 September closes FY2026, Table 1 gains its 12th FY2026 month row (26 rows total) and
 Table 7 populates all 12 months (Oct–Sept + YTD + Prior = 14 columns); three dense
-Table 7 caps are bumped from ≤ 200 to ≤ 250 cells accordingly.
+Table 7 caps are bumped from `≤ 200` to `≤ 250 cells` accordingly.
 
 **Corpus numbering:** this family is #502–#581 against a corpus of 501. The next every-10th
 different-agent audit fires at **#510** — the 9th unit shipped from this family, whichever
 that turns out to be. Do not let the family run to completion unaudited.
 
-**Floors are PROVISIONAL.** min relations carry forward the August family's READY floors,
+**Floors are PROVISIONAL.** `min relations` carry forward the August family's READY floors,
 and every Table 6 unit inherits DESIGN § 4a (declare both monthly and fiscal-year
-roll-forwards wherever all three cells print). (Aug: N) cell-size hints are the August
-twins' shipped cell counts; standalone waivers (prov.) take the max of August's waiver
+roll-forwards wherever all three cells print). `(Aug: N)` cell-size hints are the August
+twins' shipped cell counts; `standalone waivers (prov.)` take the max of August's waiver
 and August's shipped standalone count. MTS line items are stable month to month but not
 guaranteed: a month can add or drop a program row. If your unit cannot reach its floor
 honestly, that is a **finding — stop and log it**, exactly as with a total that does not
@@ -624,24 +624,22 @@ ship the higher count and note it.
 
 **Every unit in this family is a PDF unit, so vision is mandatory** — the pypdfium2 render
 check is the discipline that catches what the text layer drops, and the text layer here
-emits (cid:NN) tokens that decode as chr(NN+29). Use uv run --with pdfplumber.
+emits `(cid:NN)` tokens that decode as `chr(NN+29)`. Use `uv run --with pdfplumber`.
 
 **How the D column was derived:** same three-signal rule as July/August (**D3** requires
 ≤ 60 cells, ≤ 15 relations, and no capstone/split/remainder structure — or zero declared
 relations; **D2** is everything else; **D2 ×64 / D3 ×16**).
 
-**
-eeds tags.** ision = mandatory render check (all units). 	ies-siblings = a
+**`needs` tags.** `vision` = mandatory render check (all units). `ties-siblings` = a
 capstone that re-anchors bureau totals from its sibling units, so those must ship first and
-their values must match byte-for-byte. cross-table = carries totals that must tie to
-another table's unit (T1↔T2↔T3, receipts). 
-ow-count-check = all-standalone block where
+their values must match byte-for-byte. `cross-table` = carries totals that must tie to
+another table's unit (T1↔T2↔T3, receipts). `row-count-check` = all-standalone block where
 strict coverage cannot see a missing row — cross-check row COUNTS against the print (the
 #129 and #160 defect class).
 
 | unit | table | D | needs | min relations (prov.) | types | size cap | standalone waivers (prov.) | status |
 |---|---|---|---|---|---|---|---|---|
-| treasury-mts/2026-09-table1 | Table 1 monthly receipts/outlays/deficit through September (Final FY2026) | D2 | vision, cross-table | 29 | sum | ≤ 150 cells (Aug: 75) | 0 | READY |
+| treasury-mts/2026-09-table1 | Table 1 monthly receipts/outlays/deficit through September (Final FY2026) | D2 | vision, cross-table | 29 | sum | ≤ 150 cells (Aug: 75) | 0 | SHIPPED 2026-11-26 (corpus #502; 78c/32r; strict-default GREEN, 0 warnings; 26 rows = FY2025 12+YTD and FY2026 12+YTD, closing FY2026. 26 row identities + 6 column sums; 10 carry tol-1 with the page's rounding note quoted, computed per relation. Cross-checks: all 69 FY2025 + FY2026 Oct–July values byte-identical to the August unit; FY2026 August receipts 360,033 unchanged; August Outlays restated 526,830 → **526,812** with footnote 1 ($18 million decrease, DoD - Air Force), deficit 166,797 → 166,779; text layer glued the marker as 1526,812, render-resolved; Aug YTD + Sep − 18 = Sep YTD exact (delta 0) on all 3 cols; Table 1 Sept/FY2026 YTD/FY2025 YTD byte-match Table 2 on p5 with opposite deficit sign) |
 | treasury-mts/2026-09-table2 | Table 2 budget/off-budget results and financing | D2 | vision, cross-table | 25 | sum | ≤ 150 cells (Aug: 51) | 0 | READY |
 | treasury-mts/2026-09-table3-receipts | Table 3 budget receipts block | D3 | vision, cross-table | 12 | sum | ≤ 150 cells (Aug: 52) | 4 | READY |
 | treasury-mts/2026-09-table3-outlays-departments | Table 3 department outlay lines | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (Aug: 112) | 112 | READY |
