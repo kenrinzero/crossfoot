@@ -47,8 +47,8 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 29/80 SHIPPED (#502–#530), 51 READY — #530 audit GREEN, #531 unblocked (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Next unit: `treasury-mts/2026-09-outlays-labor-bureaus` (#531, D2, vision). Next audit #540.
-  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#531+ is unblocked.** Next audit #540.
+- **Treasury MTS September 2026 (Final FY2026) — IN PROGRESS: 39/80 SHIPPED (#502–#540), 41 READY — #540 audit DUE, #541+ BLOCKED (2026-11-26).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. Next unit once `#540` closes GREEN: `treasury-mts/2026-09-outlays-other-defense-civil` (#541, D3, vision).
+  - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 every-10th audit is DUE** (whole-batch `#531–#540`: 162 unit rows / 144 distinct numeric source rows / 1,458 positions / 1,012 values / 253 relations / 72 standalones; placeholder in `AUDITS.md`; Cursor Grok 4.7 is ineligible). **#541+ is BLOCKED until a different agent closes #540 GREEN.**
   - **Probe note (2026-11-26):** October 2026 (`MonthlyTreasuryStatement_202610.pdf`, FY2027 Month 1, 38pp, `%PDF-1.6`) is already live but held back until FY2026 closes; November 2026 returns 503 + HTML. Corpus stays US-only; Japan-family is stopped.
 
 - **Historical follow-up from audit #510 (independent of #511).** Compare May–August Table 2 and Table 3 period headers with those months’ PDFs. Check June–August Table 3 remainder files for the six on/off-budget balances present in the May and repaired September units.
@@ -68,7 +68,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#530**; next audit **#540** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#530**; **#540 is DUE** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -108,6 +108,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-26 · **treasury-mts September 2026 batch #531–#540 (10 units; #540 audit DUE, #541+ BLOCKED)** — labor-bureaus (15r/90c/12r), labor-departmental (16r/102c/21r; Table 3 3,826/55,184/50,383), state (15r/93c/18r/3sa), transportation-bureaus (17r/102c/36r), transportation-departmental (14r/92c/29r/6sa; FRA Other equals its total), treasury-bureaus (18r/106c/14r/60sa; new Interest Paid 10,492 inside Fiscal Service), treasury-irs (12r/76c/14r), treasury-departmental (24r/155c/45r; Table 5 nets 60,646/1,580,964/1,458,910, Table 3 Interest+Other off by 1), veterans-affairs (22r/139c/52r; Joint DOD-VA 49/755/751), corps-engineers (9r/57c/12r/3sa; Table 3 -116/10,784/12,124). Totals: 162 unit rows / 144 distinct numeric rows, 1,012 values / 1,458 positions, 253 relations, 72 standalones. Strict per-unit reconcile 0 warnings. **#540 fires the every-10th audit — #541+ blocked, placeholder in `AUDITS.md` (Cursor Grok 4.7 ineligible).** 41 September-MTS units remain.
 
 - 2026-11-26 · **Audit #530 GREEN (Cursor Grok 4.7).** Whole-batch independent audit of September `#521–#530` (179 unit rows / 161 numeric source rows / 1,611 positions / 1,143 values / 220 relations / 60 standalones, 0 mismatches, 0 repairs). `Defense Nuclear Waste Disposal` all-omission drop upheld; Energy offsetting receipts, FDA `-830/1/-831`, HUD `3/(**)/2`, and Interior September applicable `5` render-confirmed; 18 shared rows (119 values) and 6 Table 3 department triples byte-match. Strict sweep 530/530, pytest 23/23. **#531+ unblocked (`outlays-labor-bureaus`), next audit #540.**
 

@@ -1,0 +1,1070 @@
+{
+  "table_id": "treasury-mts/2026-09-outlays-transportation-departmental",
+  "source": {
+    "path": "sources/treasury-mts/mts-202609.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, September 2026 and Other Periods",
+    "page": 17,
+    "title": "Outlays of the U.S. Government — Department of Transportation",
+    "period": "September FY2026 (Final)"
+  },
+  "unit_note": "USD millions. '......' (No Transactions) and '(**)' (less than $500,000 in absolute value) cells are omitted, not transcribed as 0. Federal Railroad Administration Other prints the same six numbers as Total--Federal Railroad Administration, so that Other row is standalone (waiver 6). Net outlays 14,676/124,271/127,583 match Table 3. Page 17.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total--Federal Aviation Administration"
+    },
+    {
+      "index": 2,
+      "label": "Total--Federal Highway Administration"
+    },
+    {
+      "index": 3,
+      "label": "Total--Federal Transit Administration"
+    },
+    {
+      "index": 4,
+      "label": "Office of the Secretary"
+    },
+    {
+      "index": 5,
+      "label": "Federal Motor Carrier Safety Administration"
+    },
+    {
+      "index": 6,
+      "label": "National Highway Traffic Safety Administration"
+    },
+    {
+      "index": 7,
+      "label": "Other"
+    },
+    {
+      "index": 8,
+      "label": "Total--Federal Railroad Administration"
+    },
+    {
+      "index": 9,
+      "label": "Maritime Administration"
+    },
+    {
+      "index": 10,
+      "label": "Other"
+    },
+    {
+      "index": 11,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 12,
+      "label": "Intrabudgetary Transactions / Other"
+    },
+    {
+      "index": 13,
+      "label": "Offsetting Governmental Receipts"
+    },
+    {
+      "index": 14,
+      "label": "Total--Department of Transportation"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "3112",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "3085",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "25722",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "105",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "25616",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "24963",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "157",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "24806",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "7628",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "7628",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "65951",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "65951",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "65033",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "65033",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "2519",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "2519",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "21068",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "21068",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "25347",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "25347",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "979",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "979",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "3103",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "3103",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "2742",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "2742",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "92",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "92",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "955",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "955",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "1006",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "1006",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "131",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "131",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "1491",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "1491",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "1486",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "1486",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "297",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "297",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "7089",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "7089",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "6491",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "6491",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "297",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "297",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "7089",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "7089",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "6491",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "6491",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "87",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "87",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-745",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "-754",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1003",
+      "role": "total"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "993",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "588",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "572",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "590",
+      "role": "total"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "545",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "173",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-173",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "640",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-640",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "675",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "-675",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "-9",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-9",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "184",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-184",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "183",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-183",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "14875",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "200",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "14676",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "125225",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "954",
+      "role": "total"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "124271",
+      "role": "total"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "128652",
+      "role": "total"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "1069",
+      "role": "total"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "127583",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r1c2"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r1c5"
+      ],
+      "target": "r1c4",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r1c8"
+      ],
+      "target": "r1c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c6",
+        "r9c5"
+      ],
+      "target": "r9c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c9",
+        "r9c8"
+      ],
+      "target": "r9c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c6",
+        "r10c5"
+      ],
+      "target": "r10c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c9",
+        "r10c8"
+      ],
+      "target": "r10c7",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r14c2"
+      ],
+      "target": "r14c1",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c6",
+        "r14c5"
+      ],
+      "target": "r14c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c9",
+        "r14c8"
+      ],
+      "target": "r14c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r12c1"
+      ],
+      "target": "r14c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r11c2"
+      ],
+      "target": "r14c2"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "target": "r14c3",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r12c4"
+      ],
+      "target": "r14c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r9c5",
+        "r10c5",
+        "r11c5",
+        "r13c5"
+      ],
+      "target": "r14c5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r12c7"
+      ],
+      "target": "r14c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r9c8",
+        "r10c8",
+        "r11c8",
+        "r13c8"
+      ],
+      "target": "r14c8"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9",
+        "r13c9"
+      ],
+      "target": "r14c9",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r1c3"
+      ],
+      "target": "r1c1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c6"
+      ],
+      "target": "r1c4",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c5",
+        "r9c6"
+      ],
+      "target": "r9c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c8",
+        "r9c9"
+      ],
+      "target": "r9c7"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c6"
+      ],
+      "target": "r10c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c8",
+        "r10c9"
+      ],
+      "target": "r10c7",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r14c3"
+      ],
+      "target": "r14c1",
+      "tol": "1",
+      "why": "Table 5, page 23: \"Note: Details may not add to totals due to rounding.\""
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c6"
+      ],
+      "target": "r14c4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c8",
+        "r14c9"
+      ],
+      "target": "r14c7"
+    }
+  ]
+}

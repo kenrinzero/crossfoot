@@ -3386,3 +3386,42 @@ Independently recomputed all **220 declared relations** in exact `Decimal` from 
 All ten units pass strict UTF-8 / LF-only / zero-C0 checks and reconcile individually with **0 warnings**. Full corpus sweep passes **530/530 GREEN**, and **23/23 pytest tests pass**. **#531+ unblocked.** Next every-10th audit fires at **#540**.
 
 ---
+
+## Spot-Audit: Unit 540 — treasury-mts/2026-09-outlays-corps-engineers (and whole-batch #531–#540)
+
+- **Audit Date:** DUE
+- **Auditor:** (different agent from the transcriber — Cursor Grok 4.7 is ineligible)
+- **Transcriber:** Cursor Grok 4.7
+- **Table ID:** [treasury-mts/2026-09-outlays-corps-engineers](tables/treasury-mts/2026-09-outlays-corps-engineers.cells.json) plus the nine preceding September units (`#531–#539`)
+- **Source Document:** [mts-202609.pdf](sources/treasury-mts/mts-202609.pdf), Table 5 on printed pages 16–19 plus the rounding and omission notes on page 23; Table 3 on page 8 supplies the department net-outlay cross-checks.
+- **Status:** **DUE.** **#541+ (`treasury-mts/2026-09-outlays-other-defense-civil`) is BLOCKED until this closes GREEN.**
+
+### Scope the auditor should cover
+
+Whole-batch positional check of September Table 5 units `#531–#540`: **162 unit rows / 144 distinct numeric source rows / 1,458 positions (1,012 values + 446 omissions) / 253 relations / 72 standalones**. Independent parse and render of printed pages 16–19. `......` and `(**)` are omitted, not 0. Drop a row only when every cell on that row is omitted.
+
+| Unit | Section | Pages | Rows | Positions | Values | Omissions | Relations | Standalones |
+|---|---|---:|---:|---:|---:|---:|---:|---:|
+| #531 | `labor-bureaus` | 16 | 15 | 135 | 90 | 45 | 12 | 0 |
+| #532 | `labor-departmental` | 16 | 16 | 144 | 102 | 42 | 21 | 0 |
+| #533 | `state` | 16 | 15 | 135 | 93 | 42 | 18 | 3 |
+| #534 | `transportation-bureaus` | 17 | 17 | 153 | 102 | 51 | 36 | 0 |
+| #535 | `transportation-departmental` | 17 | 14 | 126 | 92 | 34 | 29 | 6 |
+| #536 | `treasury-bureaus` | 17 | 18 | 162 | 106 | 56 | 14 | 60 |
+| #537 | `treasury-irs` | 17–18 | 12 | 108 | 76 | 32 | 14 | 0 |
+| #538 | `treasury-departmental` | 17–18 | 24 | 216 | 155 | 61 | 45 | 0 |
+| #539 | `veterans-affairs` | 18 | 22 | 198 | 139 | 59 | 52 | 0 |
+| #540 | `corps-engineers` | 18–19 | 9 | 81 | 57 | 24 | 12 | 3 |
+| **Total** | | **16–19** | **162** | **1,458** | **1,012** | **446** | **253** | **72** |
+
+### What to re-derive, not sample
+
+- **Positional coverage.** Confirm every numeric row on Labor, State, Transportation, Treasury, Veterans Affairs, and Corps of Engineers, including the new Fiscal Service line `Interest Paid to Credit Financing Accounts` (September `10,492`). Confirm the dropped all-omission rows: State `International Narcotics Control and Law Enforcement`, Treasury `Transportation Services`, and VA `Veterans Choice`.
+- **Known source quirks.** FRA `Other` prints the same six numbers as `Total--Federal Railroad Administration`. Labor this-month `Payments to the Unemployment Trust Fund` is `-219` and the following ETA `Other` is `+219`; both are in the ETA total. Joint DOD-VA prints `49 / 755 / 751`. Corps proprietary receipts are the three standalones.
+- **Treasury standalones.** `#536` has 60 standalones against an August waiver of 58. Check that the two extra cells are real printed amounts that do not enter a Fiscal Service sum, and that the departmental unit (`#538`) still rolls the same lines up once.
+- **Table 3.** Labor `3,826 / 55,184 / 50,383`, State `3,937 / 28,828 / 28,362`, Transportation `14,676 / 124,271 / 127,583`, VA `20,515 / 415,575 / 376,591`, Corps `-116 / 10,784 / 12,124`. Treasury Table 5 nets are `60,646 / 1,580,964 / 1,458,910`. Table 3 prints Treasury as Interest plus Other, which sum to `60,647 / 1,580,963 / 1,458,910`.
+- **Arithmetic.** Recompute all 253 relations. Nonzero tolerances must equal the residual, stay within the source count, and quote the page 23 rounding note. No bureau double-counting. The 72 standalones must sit outside the relation graph.
+
+**#541+ stays blocked until GREEN.** `treasury-mts/2026-09-outlays-other-defense-civil` is the next unit after the audit.
+
+---
