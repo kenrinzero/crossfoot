@@ -3525,3 +3525,40 @@ Handoff/BACKLOG counts were stale against the shipped files: #552 84→**81** st
 - **Follow-up queued in NEXT.md:** August #478/#479 lack the §4a FY class (their Schedule B–E siblings have it); declare and re-gate per the special-rollout precedent.
 
 ---
+
+## Spot-Audit: Unit 570 — treasury-mts/2026-09-table6-schedule-e-direct-part1 (and whole-batch #561–#570)
+
+**DUE. #571 awaits a GREEN verdict from a different agent.** Qwen 4 Max transcribed these units on 2026-11-26, porting the August twins 1:1 and re-anchoring every value to char-level positional grids of the September print (pp25–32), with 3.0× pypdfium2 renders of pp26–33 inspected. The following counts and source checks are the transcriber's handoff.
+
+The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints Schedule B on p25 (lower), Schedule C on pp26–28, Schedule D on pp29–30, and Schedule E on pp31–33 (Guaranteed pp31–32, Direct pp32–33; part 2 = #571). Rounding notes: p25 (B), p28 (C), p30 (D), p33 (E).
+
+| Unit | Section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
+|---|---|---:|---:|---:|---:|---:|
+| #561 | Schedule B Agency Securities | 25 | 3 | 15 | 7 / 3 | 2 / 4 |
+| #562 | Schedule C Agriculture | 26 | 17 | 94 | 26 / 8 | 25 / 61 |
+| #563 | Schedule C Commerce–Energy | 26 | 14 | 72 | 18 / 5 | 26 / 44 |
+| #564 | Schedule C HHS–Interior (+ new BIA row) | 26–27 | 13 | 61 | 14 / 1 | 26 / 40 |
+| #565 | Schedule C Labor–Veterans Affairs | 27 | 14 | 71 | 18 / 3 | 24 / 51 |
+| #566 | Schedule C EPA–Totals + FFB | 27–28 | 26 | 136 | 38 / 10 | 40 / 85 |
+| #567 | Schedule D Federal Funds | 29 | 30 | 160 | 54 / 20 | 1 / 3 |
+| #568 | Schedule D Trust Funds + Grand Total | 29–30 | 42 | 235 | 88 / 20 | 2 / 116 |
+| #569 | Schedule E Guaranteed | 31–32 | 39 | 198 | 57 / 15 | 0 / 127 |
+| #570 | Schedule E Direct part 1 (Agri–HHS) | 32 | 28 | 150 | 44 / 12 | 39 / 93 |
+| **Total** | | | **226** | **1,192** | **364** | **185** |
+
+**Items for the independent reviewer**
+
+- **Extraction caveat:** the word-level text layer splits negatives and thousands on pp31–32 (`-6,` + `324`); char-level column assignment is required. A word-based pass silently shifts the Direct section by one row and drops signs — do not audit from `extract_words`.
+- **#564.** New row Bureau of Indian Affairs and Bureau of Indian Education prints (**)×5 + close-of-month 1 (p26); carried as r11, standalone (no arithmetic). CO-OP and CO-OP Contingency now print This-Month.
+- **#563.** EDA close-of-month now omitted; ATVM This-Month omitted; new This-Month cells EDA −220/−220, Fisheries −31, Family Housing −36, Teach −5, TSLPA −156.
+- **#566.** Spectrum Auction Loan Fund close-of-month now omitted (This-Month −3,080/−3,080 new); FFB Sovereign This-Month omitted; FFB p28 block: FHA −4/482/313/3,136/3,622/3,618, Maritime −3/−59/−16/301/245/242, CDFI −9/−26/158/1,482/1,466/1,456, Transitional (**) /4/4/4, Sovereign −110/20,000/20,000/19,890/19,890, FDIC Receiver 93,333×3, Postal 15,000×3, Total FFB 157/3,720/33,137/217,753/221,316/221,473.
+- **#567.** Commerce FYTD both years + close-of-month omitted (This-Month −2 new); HHS FYTD both years omitted; Agriculture This-Month omitted; Justice This-Month 38 new.
+- **#568.** Row order: Grand Total r41, Total Federal Funds re-anchored r42 (from #567 r30). RRB Agency Securities (r36) is excluded from Total Treasury Securities (r38) by hierarchy — it feeds only Total Agency Securities (r39, single-source, standalone).
+- **#569.** Net Activity col-3/col-4 roll-ups carry tol 3/4 (30/38 independently rounded sources; August carried 1/4). Print p31 misspells "Health Education Assitance Loans"; unit keeps corrected spelling. No Table 6 cross-tie claimed (Table 6 guaranteed row covers a wider scope; same as August).
+- **#570.** Direct section continues on p33 (#571): first p33 row is Homeland Security Disaster Assistance Loan Fund 27/−9/−62/−188/−225/−197.
+
+Cross-table ties: #561 Total Agency Securities −500/−1,370/1,810/22,075/21,205/20,705 byte-matches Table 6 Agency Securities (#558 r7, p24); #568 Grand Total −9,961/386,478/200,312/7,339,271/7,735,711/7,725,749 byte-matches Table 6 Federal Securities Held as Investments of Government Accounts (#558 r9); #568 r42 byte-matches #567 r30.
+
+All ten strict unit checks passed with zero warnings. The full corpus sweep passed 570/570 and pytest passed 23/23. Both monthly and fiscal-year roll-forwards (DESIGN §4a) are declared wherever all three cells print. The next transcription after independent audit is #571, Schedule E Direct part 2.
+
+---
