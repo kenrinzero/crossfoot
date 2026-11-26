@@ -594,7 +594,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-08-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (July: 45) | 0 | SHIPPED 2026-09-17 (corpus #501; 45c/3r = floor; Black Lung and Military Advances all-`......` dropped; Total 6,274,791/6,492,831/6,519,041 byte-match Table 6-D Total Trust Funds; close-prior byte-matches July close-this-month; p36). **August MTS family 80/80 COMPLETE.** |
 
 
-## Treasury MTS September 2026 — 19 shipped, 61 READY (80 units, D-tiered)
+## Treasury MTS September 2026 — 49 shipped, 31 READY (80 units, D-tiered)
 
 Source vendored 2026-11-26: `sources/treasury-mts/mts-202609.pdf`, 2,309,827 bytes,
 sha256 `fcabeccd…0585e7db` (full hash in `sources/SOURCES.md`). Content-gate PASS —
@@ -607,7 +607,7 @@ September closes FY2026, Table 1 gains its 12th FY2026 month row (26 rows total)
 Table 7 populates all 12 months (Oct–Sept + YTD + Prior = 14 columns); three dense
 Table 7 caps are bumped from `≤ 200` to `≤ 250 cells` accordingly.
 
-**Corpus numbering:** this family is #502–#581 against a corpus of 501. September audits are GREEN through **#540**. Transcription resumes at **#541**, with the next independent audit at **#550**.
+**Corpus numbering:** this family is #502–#581 against a corpus of 501. September audits are GREEN through **#540**. **Audit #550 is DUE** for the shipped batch #541–#550. Transcription resumes at **#551** after an independent GREEN verdict.
 
 **Floors are PROVISIONAL.** `min relations` carry forward the August family's READY floors,
 and every Table 6 unit inherits DESIGN § 4a (declare both monthly and fiscal-year
@@ -676,16 +676,16 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-09-outlays-treasury-departmental | Table 5 Treasury departmental capstone (unit 3/3) | D2 | vision, ties-siblings | 30 | sum | ≤ 250 cells (Aug: 149) | 0 | SHIPPED 2026-11-26 (corpus #538; 24 rows / 155c / 30r; 0sa. Net outlays 60,646/1,580,964/1,458,910. Table 3 Interest+Other sums to 60,647/1,580,963/1,458,910, off by 1 on September and the current year. pp17-18) |
 | treasury-mts/2026-09-outlays-veterans-affairs | Table 5 Department of Veterans Affairs | D2 | vision | 36 | sum | ≤ 250 cells (Aug: 139) | 0 | SHIPPED 2026-11-26 (corpus #539; 22 rows / 139c / 35r vs provisional floor 36, accepted at audit #540 because Veterans Special Life September applicable receipts print (**); 0sa. Joint DOD-VA prints 49/755/751. All-omission Veterans Choice dropped. Net outlays 20,515/415,575/376,591 match Table 3. p18) |
 | treasury-mts/2026-09-outlays-corps-engineers | Table 5 Corps of Engineers | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 53) | 3 | SHIPPED 2026-11-26 (corpus #540; 9 rows / 57c / 9r; 3sa = waiver. Net outlays -116/10,784/12,124 match Table 3. pp18-19. **Audit #540 closed GREEN after repair. #541 unblocked. Next audit #550.**) |
-| treasury-mts/2026-09-outlays-other-defense-civil | Table 5 Other Defense Civil Programs | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 53) | 3 | READY |
-| treasury-mts/2026-09-outlays-epa | Table 5 Environmental Protection Agency | D2 | vision | 15 | sum | ≤ 250 cells (Aug: 62) | 0 | READY |
-| treasury-mts/2026-09-outlays-gsa | Table 5 General Services Administration | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 39) | 3 | READY |
-| treasury-mts/2026-09-outlays-international-assistance-bureaus | Table 5 International Assistance ISA/AID (unit 1/2) | D2 | vision | 21 | sum | ≤ 250 cells (Aug: 79) | 3 | READY |
-| treasury-mts/2026-09-outlays-international-assistance-departmental | Table 5 International Assistance capstone (unit 2/2) | D2 | vision, ties-siblings | 33 | sum | ≤ 250 cells (Aug: 103) | 6 | READY |
-| treasury-mts/2026-09-outlays-nasa | Table 5 NASA | D3 | vision | 8 | sum | ≤ 250 cells (Aug: 52) | 2 | READY |
-| treasury-mts/2026-09-outlays-nsf | Table 5 National Science Foundation | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 33) | 3 | READY |
-| treasury-mts/2026-09-outlays-opm | Table 5 Office of Personnel Management | D2 | vision | 18 | sum | ≤ 250 cells (Aug: 67) | 0 | READY |
-| treasury-mts/2026-09-outlays-sba | Table 5 Small Business Administration | D2 | vision | 16 | sum | ≤ 250 cells (Aug: 47) | 0 | READY |
-| treasury-mts/2026-09-outlays-social-security | Table 5 Social Security Administration | D2 | vision | 24 | sum | ≤ 250 cells (Aug: 89) | 0 | READY |
+| treasury-mts/2026-09-outlays-other-defense-civil | Table 5 Other Defense Civil Programs | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 53) | 3 | SHIPPED 2026-11-26 (corpus #541, 9 rows, 53 cells, 9 relations, 3 standalone). The military retirement and retiree health care payment lines have values in both fiscal-year periods. September net outlays are 8,027. |
+| treasury-mts/2026-09-outlays-epa | Table 5 Environmental Protection Agency | D2 | vision | 15 | sum | ≤ 250 cells (Aug: 62) | 0 | SHIPPED 2026-11-26 (corpus #542, 10 rows, 62 cells, 15 relations, 0 standalone). The prior year prints 111 for Payment to the Hazardous Substance Superfund. September and current-year gross and net entries on that line are omitted. |
+| treasury-mts/2026-09-outlays-gsa | Table 5 General Services Administration | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 39) | 3 | SHIPPED 2026-11-26 (corpus #543, 6 rows, 39 cells, 9 relations, 3 standalone). The September proprietary receipts line prints −29 applicable and +29 net. |
+| treasury-mts/2026-09-outlays-international-assistance-bureaus | Table 5 International Assistance ISA/AID (unit 1/2) | D2 | vision | 21 | sum | ≤ 250 cells (Aug: 79) | 3 | SHIPPED 2026-11-26 (corpus #544, 13 rows, 80 cells, 20 relations, 2 standalone). 20 relations against the provisional 21. Neither bureau subtotal prints numeric September applicable receipts. Pages 19–20. |
+| treasury-mts/2026-09-outlays-international-assistance-departmental | Table 5 International Assistance capstone (unit 2/2) | D2 | vision, ties-siblings | 33 | sum | ≤ 250 cells (Aug: 103) | 6 | SHIPPED 2026-11-26 (corpus #545, 17 rows, 103 cells, 30 relations, 6 standalone). 30 relations against the provisional 33. September Multilateral Assistance has one numeric detail line. Peace Corps shows (**) for applicable receipts in both fiscal-year periods. Both shared bureau totals agree in all 18 positions. Pages 19–20. |
+| treasury-mts/2026-09-outlays-nasa | Table 5 NASA | D3 | vision | 8 | sum | ≤ 250 cells (Aug: 52) | 2 | SHIPPED 2026-11-26 (corpus #546, 9 rows, 55 cells, 9 relations, 3 standalone). September proprietary applicable receipts of 1 give nine relations and three standalone receipt amounts against a provisional allowance of two. |
+| treasury-mts/2026-09-outlays-nsf | Table 5 National Science Foundation | D3 | vision | 9 | sum | ≤ 250 cells (Aug: 33) | 3 | SHIPPED 2026-11-26 (corpus #547, 5 rows, 33 cells, 9 relations, 3 standalone). Proprietary receipts supply the sole applicable-receipts component in each period. |
+| treasury-mts/2026-09-outlays-opm | Table 5 Office of Personnel Management | D2 | vision | 18 | sum | ≤ 250 cells (Aug: 67) | 0 | SHIPPED 2026-11-26 (corpus #548, 12 rows, 79 cells, 18 relations, 0 standalone). The retirement fund payment and its offsetting General Fund Contributions each print in all three periods. Both rows enter the total. |
+| treasury-mts/2026-09-outlays-sba | Table 5 Small Business Administration | D2 | vision | 16 | sum | ≤ 250 cells (Aug: 47) | 0 | SHIPPED 2026-11-26 (corpus #549, 7 rows, 49 cells, 16 relations, 0 standalone). Current-year Business Loans Program prints 1,378 gross, 1 applicable and 1,377 net. |
+| treasury-mts/2026-09-outlays-social-security | Table 5 Social Security Administration | D2 | vision | 24 | sum | ≤ 250 cells (Aug: 89) | 0 | SHIPPED 2026-11-26 (corpus #550, 15 rows, 89 cells, 24 relations, 0 standalone). Both trust fund subtotals enter the agency total. Footnote 5 qualifies off-budget intrabudgetary transactions. Pages 20–21. **Independent audit #550 DUE before #551.** |
 | treasury-mts/2026-09-outlays-grand-total-capstone | Table 5 grand-total On/Off/Total Outlays capstone | D2 | vision, ties-siblings, cross-table | 18 | sum | ≤ 250 cells (Aug: 27) | 0 | READY |
 | treasury-mts/2026-09-outlays-independent-a-n | Table 5 Independent Agencies Global Media through NRC (incl. nested FDIC total) | D2 | vision | 15 | sum | ≤ 250 cells (Aug: 164) | 88 | READY |
 | treasury-mts/2026-09-outlays-postal | Table 5 Postal Service (Off-Budget PEF + Other) | D3 | vision | 3 | sum | ≤ 250 cells (Aug: 17) | 10 | READY |

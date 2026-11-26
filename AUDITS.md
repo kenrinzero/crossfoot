@@ -3445,3 +3445,50 @@ Table 3 splits Treasury into interest and other outlays. The two printed lines s
 All ten repaired units reconcile individually with zero warnings. The full strict sweep passes **540/540** and **23/23 tests pass**. Next transcription is `treasury-mts/2026-09-outlays-other-defense-civil` (#541).
 
 ---
+
+## Spot-Audit: Unit 550 — treasury-mts/2026-09-outlays-social-security (and whole-batch #541–#550)
+
+**DUE. #551 awaits a GREEN verdict from a different agent.** OpenAI Codex transcribed these units on 2026-11-26. The following counts and source checks are the transcriber's handoff.
+
+The [September 2026 Monthly Treasury Statement](sources/treasury-mts/mts-202609.pdf) prints these Table 5 sections on pages 19–21. Page 8 gives the corresponding agency net outlays in Table 3. Page 23 gives the rounding and omission conventions and Social Security footnote 5.
+
+| Unit | Table 5 section | Pages | Rows | Numeric cells | Relations / provisional floor | Standalones / provisional allowance |
+|---|---|---:|---:|---:|---:|---:|
+| #541 | Other Defense Civil Programs | 19 | 9 | 53 | 9 / 9 | 3 / 3 |
+| #542 | Environmental Protection Agency | 19 | 10 | 62 | 15 / 15 | 0 / 0 |
+| #543 | General Services Administration | 19 | 6 | 39 | 9 / 9 | 3 / 3 |
+| #544 | International Assistance bureaus | 19–20 | 13 | 80 | 20 / 21 | 2 / 3 |
+| #545 | International Assistance departmental total | 19–20 | 17 | 103 | 30 / 33 | 6 / 6 |
+| #546 | NASA | 20 | 9 | 55 | 9 / 8 | 3 / 2 |
+| #547 | National Science Foundation | 20 | 5 | 33 | 9 / 9 | 3 / 3 |
+| #548 | Office of Personnel Management | 20 | 12 | 79 | 18 / 18 | 0 / 0 |
+| #549 | Small Business Administration | 20 | 7 | 49 | 16 / 16 | 0 / 0 |
+| #550 | Social Security Administration | 20–21 | 15 | 89 | 24 / 24 | 0 / 0 |
+| **Total** | | | **103** | **642** | **159** | **20** |
+
+The 103 unit rows cover 101 distinct printed rows. Two readings of the PDF agreed on all 927 positions, including 285 omissions. The International Security Assistance and Agency for International Development subtotals repeat in #544 and #545. All 18 shared positions agree, including the two omitted September applicable receipts. The 159 distinct equations comprise 60 gross/net identities and 99 column sums. Of these, 88 reconcile exactly and 71 differ by $1 million, within the rounding stated on page 23.
+
+**Items for the independent reviewer**
+
+- **#544 has 20 relations against a provisional 21.** Page 19 shows dots for September applicable receipts on International Security Assistance / Other and its bureau subtotal. Page 20 prints `(**)` for the September Agency for International Development subtotal's applicable receipts. Its two fiscal-year applicable-receipts subtotals each have just one numeric component. The available operands support six gross/net identities and 14 column sums.
+- **#545 has 30 relations against a provisional 33.** The only numeric September detail line under Multilateral Assistance is Other (−9 gross and −9 net). Peace Corps prints 44 / −1 / 45 in September and `(**)` for applicable receipts in both fiscal-year periods. Overseas Private Investment Corporation's only numeric detail repeats its prior-year subtotal (1 gross and 1 net). The inventory is 17 gross/net identities and 13 column sums, including all nine departmental columns.
+- **#546 has three standalones against a provisional allowance of two.** NASA prints proprietary applicable receipts of 1 / 2 / 2. Each is the sole numeric component of that period's applicable-receipts total. The September 1 also completes the agency row's 2,141 + 1 = 2,142 identity. The unit has nine relations against its provisional eight.
+- **#548 and #550.** OPM adds two printed rows relative to August. The retirement fund payment and General Fund Contributions have opposite gross/net values of 48,295 in September, 48,295 in FY2026 and 51,630 in FY2025. In Social Security, the superscript 5 on page 21 belongs to the Off-Budget row label. That line's net amounts are −36 / −57,389 / −60,007.
+
+The following Table 5 net totals match both the printed Table 3 and the September Table 3 corpus units, in millions of dollars.
+
+| Agency | September | FY2026 to date | FY2025 to date |
+|---|---:|---:|---:|
+| Other Defense Civil Programs | 8,027 | 65,484 | 76,488 |
+| Environmental Protection Agency | 1,382 | 17,365 | 36,976 |
+| General Services Administration | 89 | −975 | −376 |
+| International Assistance Programs | −807 | 20,388 | 17,294 |
+| NASA | 2,141 | 23,357 | 24,576 |
+| National Science Foundation | 925 | 8,877 | 9,949 |
+| Office of Personnel Management | 11,521 | 135,809 | 128,239 |
+| Small Business Administration | 147 | 11,827 | 837 |
+| Social Security Administration | 147,128 | 1,733,853 | 1,646,515 |
+
+All ten strict unit checks passed with zero warnings. The full corpus sweep passed 550/550 and pytest passed 23/23. The next transcription after independent audit is #551, the Table 5 grand-total capstone.
+
+---
