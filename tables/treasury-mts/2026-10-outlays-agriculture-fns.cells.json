@@ -7,7 +7,7 @@
     "title": "Department of Agriculture (FNS and Rural)",
     "period": "October FY2027"
   },
-  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The Food and Nutrition Service subtotal includes the four printed program lines, including the WIC label that wraps across two lines.",
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The Food and Nutrition Service subtotal includes the four printed program lines, including the WIC label that wraps across two lines. Audit #600 confirmed that the prior-year Rural Electrification and Telecommunications Fund gross outlay is marked (**), with -1 in applicable receipts and 1 in outlays. Both figures feed the department total in the companion unit.",
   "columns": [
     {
       "index": 1,
@@ -342,7 +342,7 @@
       "col": 8,
       "value": "-1",
       "role": "standalone",
-      "why": "This is the sole numeric component of the applicable-receipts total for this period. The gross cell on this line is omitted."
+      "why": "The companion departmental unit includes this line in its total. This slice prints no subtotal for the line. The prior-year gross outlay is marked (**), so only two values are available for the gross-to-net identity."
     },
     {
       "id": "r5c9",
@@ -350,7 +350,7 @@
       "col": 9,
       "value": "1",
       "role": "standalone",
-      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
+      "why": "The companion departmental unit includes this line in its total. This slice prints no subtotal for the line. The prior-year gross outlay is marked (**), so only two values are available for the gross-to-net identity."
     },
     {
       "id": "r6c1",

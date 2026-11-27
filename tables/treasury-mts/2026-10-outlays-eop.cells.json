@@ -7,7 +7,7 @@
     "title": "Outlays of the U.S. Government — Executive Office of the President",
     "period": "October FY2027"
   },
-  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. Every Proprietary Receipts cell prints (**), so that row carries no cells, and the total row's applicable-receipts cells also print (**), so no gross-to-net identity is available in either of them.",
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. Audit #600 confirmed dots under gross outlays and (**) under applicable receipts and outlays on the Proprietary Receipts from the Public row in all three periods. The total row also marks all three applicable-receipts amounts (**), leaving six vertical sums.",
   "columns": [
     {
       "index": 1,

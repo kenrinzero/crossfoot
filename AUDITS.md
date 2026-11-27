@@ -4389,14 +4389,58 @@ All nine units pass strict UTF-8 / LF-only / final-newline / zero-C0 checks (no 
 
 ## Spot-Audit: Unit 600 — `treasury-mts/2026-10-outlays-education-departmental` (whole batch #591–#600)
 
-**PENDING — different-agent audit.** DeepSeek Flash transcribed all ten October units below on 2026-11-27. The transcriber cannot audit its own work, so `#601` (`treasury-mts/2026-10-outlays-energy`) is blocked until a different agent records the result here.
+**Verdict: GREEN after metadata repairs, 2026-11-27.** Codex independently audited the ten October Table 5 units that DeepSeek Flash shipped at `5fae253`. All **956 values and 511 omissions** matched **1,467 positions** across **163 unit rows**, with **0 positional mismatches**. All **157 sums** and **five Table 3 ties** checked out. **#601 is unblocked. The next cadence audit is #610.**
 
-| Corpus units | Source and checks |
-|---|---|
-| #591 | EOP, p19. The row order is print order but the section sits mid-page. Every Proprietary Receipts cell prints `(**)`, so that row carries no cells, and the total row's applicable-receipts cells are `(**)` too, so no gross-to-net identity exists — six column totals only. Net totals must equal Table 3 (62 / 62 / 19). |
-| #592–#594 | Agriculture, pp10–11. #592 is the program block (19 rows; the 58 standalone lines enter no sum inside the unit), #593 is Rural Development through Total--Food and Nutrition Service (12 rows; the WIC label wraps across two lines), #594 is the capstone (31 rows, 205 cells) that re-presents the printed lines so the department total closes inside one file. Check the Forest Service subtotal, that FSA and FNS enter at their printed subtotals and not their detail, and the department net 31,143 / 31,143 / 17,334 against Table 3. |
-| #595 | Commerce, p11. Eleven rows; the prior-year proprietary line prints 2 applicable and -89 net, and NTIA prints no applicable receipts. Net 987 / 987 / 478 against Table 3. |
-| #596–#598 | Defense, pp11–12. #596 is Military Personnel / O&M / Procurement (15 rows; Defense Agencies Military Personnel prints **32,792** this month, a value September's print did not carry), #597 is RDT&E / Military Construction (14 rows; the four Family Housing lines are standalone), #598 is the departmental capstone (25 rows) whose `Offsetting Governmental Receipts` section **does not print in October** — that September row was dropped, so the row count is 25 not 26. Net 123,991 / 123,991 / 95,546 against Table 3. |
-| #599–#600 | Education, p12. #599 is the three bureau blocks (14 rows; the October print carries **no Federal Student Loan Reserve Fund row**, dropped from September's 15), #600 is the departmental capstone (15 rows, 87 cells, three standalone cells = the sole applicable-receipts amounts). Net 12,861 / 12,861 / 18,857 against Table 3. |
+### 1. Source, labels, and positional coverage
 
-Transcriber checks: 156 unit rows / 956 cells / 448 printed omissions, every cell on its printed line **in its printed column** (tracked source check over all 19 October units: 1,517 cells, 0 mismatches); all 157 relations re-derived in exact `Decimal`, every non-zero tolerance equal to its observed delta and quoting the p22 rounding note, none above the half-unit-per-source rounding bound; sweep **600/600 GREEN**, pytest 42/42. The independent reviewer should run the tracked source check over `#591–#600`, re-read pp10–12 and p19 on renders, verify the five Table 3 ties, and check the two dropped rows and the 32,792 cell above against the print.
+The SHA-256 matched the source ledger. I read 3× renders of pp10–12 and 19, p8 for the Table 3 ties, and p22 for the rounding and omission notes. A separate extraction assigned tokens to printed baselines and nine right-edge column positions. I compared the labels and subgroup hierarchy in each scope, joining the two-line WIC label on p10. The units follow the printed order of the three period groups, each with Gross Outlays, Applicable Receipts and Outlays in USD millions. The Agriculture capstone starts with p11 and appends its supporting p10 rows in print order. [Vendored October statement](sources/treasury-mts/mts-202610.pdf)
+
+The tracked source check matched all 156 rows that carry numeric cells, including their 448 omissions, with zero mismatches or stale exceptions. The independent pass also checked seven printed rows preserved as labels with nine omissions each. In total, 130 distinct source lines account for 163 unit rows because sibling units repeat 33 lines. The 511 omissions comprise 422 dot marks and 89 `(**)` marks.
+
+| Unit | Scope | Pages | Rows | Positions | Values | Omissions | Sums / floor | Standalone / waiver |
+|---|---|---|---:|---:|---:|---:|---:|---:|
+| #591 | Executive Office of the President | 19 | 7 | 63 | 32 | 31 | 6 / 6 | 0 / 0 |
+| #592 | Agriculture programs | 10 | 19 | 171 | 110 | 61 | 18 / 18 | 58 / 58 |
+| #593 | Agriculture rural programs and FNS | 10 | 12 | 108 | 78 | 30 | 12 / 12 | 30 / 30 |
+| #594 | Agriculture departmental | 10–11 | 31 | 279 | 205 | 74 | 36 / 36 | 0 / 0 |
+| #595 | Commerce | 11 | 11 | 99 | 59 | 40 | 16 / 16 | 0 / 0 |
+| #596 | Defense personnel, O&M and procurement | 11 | 15 | 135 | 90 | 45 | 18 / 18 | 0 / 0 |
+| #597 | Defense RDT&E, construction and housing | 11 | 14 | 126 | 84 | 42 | 12 / 12 | 24 / 24 |
+| #598 | Defense departmental | 11–12 | 25 | 225 | 133 | 92 | 12 / 12 | 0 / 0 |
+| #599 | Education bureaus | 12 | 14 | 126 | 78 | 48 | 18 / 18 | 0 / 0 |
+| #600 | Education departmental | 12 | 15 | 135 | 87 | 48 | 9 / 9 | 3 / 3 |
+| **Total** | | | **163** | **1,467** | **956** | **511** | **157** | **115** |
+
+### 2. Arithmetic and DESIGN §4a coverage
+
+I derived **105 vertical sums** from the printed subtotal and department boundaries and **52 gross = applicable receipts + outlays sums** from complete triples. Every declared target and operand set matched, with zero duplicate equations and zero missing computable identities. All relation operands and targets have the expected roles. The 115 standalone cells are outside the relation graph and within their manifest waivers.
+
+Exact `Decimal` recomputation found **81 exact sums, 69 with tolerance 1, and seven with tolerance 2**. Every tolerance equals its observed absolute delta, stays within half a printed unit per source, and quotes the rounding note on p22. All ten units meet their cell caps and relation floors.
+
+### 3. Handoff checks
+
+- **EOP.** The Proprietary Receipts from the Public line shows dots for gross outlays and `(**)` for applicable receipts and outlays in all three periods. The total's applicable-receipts columns show `(**)`. The six vertical sums cover the printed gross and net totals.
+- **Agriculture.** The departmental sum uses the printed Forest Service, Farm Service Agency and Food and Nutrition Service subtotals and the other component lines. The Forest Service subtotal is also checked against its five detail lines. The FSA gross-outlay sums differ from the printed subtotals by one in each period, and all three net-outlay sums close exactly. The FSA has a single numeric applicable-receipts component in each period, below the schema's two-source minimum for a vertical sum.
+- **Commerce.** The prior-year `Other` line prints gross −87, applicable receipts 2 and outlays −89. The corresponding proprietary line carries dots and `(**)`. NTIA has zero numeric applicable-receipts cells.
+- **Defense.** October p11 prints 32,792 in current-month and FYTD gross and net for Military Personnel / Defense Agencies. The September render shows dots in the current-month positions. The October department capstone has 25 rows. September p12's `Offsetting Governmental Receipts` block, with its Department of the Army line, is absent in October.
+- **Education.** The 14 bureau rows agree with October p12. September's `Federal Student Loan Reserve Fund` line is absent in October. In #600, the proprietary line supplies the sole numeric applicable-receipts component per period, and its gross outlay is omitted. Its three applicable-receipts cells have the expected standalone role. [Vendored September statement](sources/treasury-mts/mts-202609.pdf)
+
+### 4. Cross-table ties
+
+Each trio is in the printed order of month, current FYTD and prior FYTD. Each matches both p8 of the statement and the corresponding Table 3 line in #585.
+
+| Table 5 unit | Line | Net outlays, USD millions | Result |
+|---|---|---:|---|
+| #591 | Executive Office of the President | 62 / 62 / 19 | Exact |
+| #594 | Agriculture | 31,143 / 31,143 / 17,334 | Exact |
+| #595 | Commerce | 987 / 987 / 478 | Exact |
+| #598 | Defense Military Programs | 123,991 / 123,991 / 95,546 | Exact |
+| #600 | Education | 12,861 / 12,861 / 18,857 | Exact |
+
+### 5. Metadata repairs
+
+Applied the value-preserving audit repair rule used in #129, #160 and #340. Updated the unit notes in #591 and #595 to describe the printed omissions and identify the correct Commerce row. Rewrote #593 `r5c8` and `r5c9`'s standalone explanations and annotated its unit note. The prior-year Rural Electrification and Telecommunications Fund prints `(**)` for gross, −1 for applicable receipts and 1 for outlays. These two values feed the departmental unit's total. A structural comparison with `5fae253` confirmed that the unit edits consist of those three notes and two explanations. The backlog also now states the FSA gross-outlay rounding and the current October cadence.
+
+### 6. Regression gates
+
+All ten units reconciled separately with zero warnings and passed the UTF-8, LF and final-newline checks. The final tracked source check had zero mismatches. The strict corpus sweep passed **600/600** and pytest passed **42/42**. **#601 (`treasury-mts/2026-10-outlays-energy`) is unblocked. Next audit #610 covers #601–#610.**

@@ -7,7 +7,7 @@
     "title": "Department of Commerce",
     "period": "October FY2027"
   },
-  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The prior-year Proprietary Receipts line prints 2 in applicable receipts and -89 in net outlays. The National Telecommunications and Information Administration prints no numeric applicable receipts in either actual period.",
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. Audit #600 confirmed that the prior-year Other line prints 2 in applicable receipts and -89 in outlays. Proprietary Receipts from the Public prints (**) for both amounts in that period. The National Telecommunications and Information Administration has no numeric applicable receipts in any of the three periods.",
   "columns": [
     {
       "index": 1,
