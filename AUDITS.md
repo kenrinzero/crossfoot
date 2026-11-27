@@ -4987,7 +4987,7 @@ All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM c
 |---|---|
 | **Unit** | `#661` — `tables/treasury-mts/2026-10-table8-investments.cells.json` |
 | **Source** | `sources/treasury-mts/mts-202610.pdf` p35 (Securities Held as Investments, three columns only; activity columns are `#660` on the same page) |
-| **Transcriber** | Composer (Cursor), 2026-11-27 (commit pending push) |
+| **Transcriber** | Composer (Cursor), 2026-11-27, commit `e0cd6dd` |
 | **Auditor** | *Pending — must be a different agent from the transcriber* |
 | **Verdict** | *Pending* |
 
