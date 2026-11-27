@@ -4974,7 +4974,7 @@ All **103 declared relations** were recomputed in exact `Decimal` from the units
 - **Source-side rounding: receipts detail vs total.** The nine `#652` detail rows sum to `368,938` against the printed `368,940` (delta 2) in both Table 7 and Table 3. The family correctly leaves the non-closing sum undeclared (the `#652` floor is 0; the 4 declared `#653` relations are the On/Off splits, which close exactly).
 - **SBA Business Loan Fund split baseline** (`-2/-2/-4/48/48/46`, p32): render-confirmed on the row, as the transcriber claimed — pdfplumber's line hazard did not move any value.
 - **p35 securities columns.** The three Securities-Held bands on p35 belong to `#661` (`table8-investments`); 54 printed tokens there are out of `#660`'s scope by design, disclosed in its note.
-- **Identity note.** This record's auditor is MiMoCode (CONTRIBUTORS #44); the batch transcriber is Muse Code (#43). The `#640`–`#650` record left open whether the owner judges the two to be the same agent; **the owner's dispatch of MiMoCode to audit this Muse Code batch is recorded here as settling it in favour of distinct identities.** If that is not the intended reading, re-audit scope is this whole batch (the other units audited by MiMoCode are unaffected).
+- **Identity note.** This record's auditor is MiMoCode (CONTRIBUTORS #44); the batch transcriber is Muse Code (#43). The question left open in the `#640`–`#650` record (whether the owner judges the two to be one agent) is **settled: the owner confirmed on 2026-11-27, when dispatching this audit, that MiMoCode and Muse Code are different agents** — MiMoCode audited Muse Code's batch, as recorded above. Both audits stand; no re-audit is needed.
 
 ### 6. Regression gates
 
