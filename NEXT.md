@@ -53,7 +53,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **Audit #590 is due.** A different agent must check October Treasury units **#582–#590** against pp5, 8–10 and 36, using the Table 5 rounding note on p22. The transcriber was Codex. Follow `RUNBOOK-auditor.md` and complete the pending entry in `AUDITS.md`. The transcriber’s source check matched 561 values and 69 omissions. **#591 is blocked until GREEN.** Then resume with `treasury-mts/2026-10-outlays-eop`. October has 9 of 80 units shipped and 71 remaining.
+- **Audit #590 — CLOSED GREEN 2026-11-27** (DeepSeek Flash / DeepSeek Harness; whole-batch `#582–#590`). All 561 values and 69 omissions across 630 positions on 143 rows match pp5, 8, 9, 10 and 36; 115 relations re-derived, 0 mismatches, 0 repairs, 0 missing DESIGN §4a classes. Record: `AUDITS.md`, *Spot-Audit: Unit 590*. **#591 is unblocked — resume with `treasury-mts/2026-10-outlays-eop`.** October has 9 of 80 units shipped and 71 remaining.
 
 - **Treasury MTS September 2026 (Final FY2026) — COMPLETE: 80/80 SHIPPED (#502–#581).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. **FY2026 is closed.** The October queue starts at #582.
   - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** **#560 closed GREEN after repair 2026-11-26 (Qwen 4 Max; whole-batch #551–#560, 831 values / 255 omissions / 1,086 positions, 0 mismatches; 36 fiscal-year roll-forwards declared per DESIGN §4a in #558/#559, 8 role flips, 0 value changes; handoff counts corrected).** **#570 closed GREEN 2026-11-26 (Antigravity / Gemini 4 Argon (High); whole-batch #561–#570, 1,192 values / 164 omissions / 1,356 positions / 364 relations, 0 mismatches, 0 repairs; all 12 all-omission drops, handoff items, DESIGN §4a roll-forwards, and cross-table ties verified).** **#580 closed GREEN 2026-11-27 (MiniMax Code / MiniMax-M3.1-Flash; whole-batch #571–#580, 1,572 values / 94 omissions / 1,666 positions / 278 relations, 0 mismatches, 0 repairs; all 6 all-omission drops, the p33 header typo, the p35 touching negatives, the August DoD restatement, the newly active FDIC row, all 81 Table 7 month→YTD §4a identities and all 39 Table 8 identities verified; handoff tolerance histogram and Table 6-D tie corrected in `AUDITS.md`).** **#581 unblocked.** See `AUDITS.md`.
@@ -91,7 +91,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#580**; **#590 DUE** (records + batch-numbering tie-break rule in `AUDITS.md`;
+**#580**; **#590 closed GREEN 2026-11-27 (DeepSeek Flash; whole-batch `#582–#590`); the next cadence audit is #600** (records + batch-numbering tie-break rule in `AUDITS.md`;
 real catches so far: #129 missing memo row, #160 two missing standalone
 rows, #250 systematic A-5 year-shift). #331, #332, #333 shipped without audits;
 #340 audited GREEN (ZCode; post-audit repair recorded in AUDITS.md); #341 shipped
@@ -131,6 +131,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-27 · **Audit #590 GREEN (DeepSeek Flash / DeepSeek Harness).** Whole-batch independent audit of October `#582–#590` (143 unit rows / 630 positions / 561 values / 69 omissions / 115 relations / 132 standalones): **0 positional mismatches, 0 repairs, 0 missing DESIGN §4a identity classes**. Tracked source check 0 mismatches; text layer with x positions plus 2.2× renders of pp5, 8, 9, 10, 22 and 36 read by eye; all four Table 3 outlay-unit cross-checks and the nine tie sets hold; the two `tol="3"` relations verified as the print's own row-level inconsistency. Sweep 590/590, pytest 42/42. The one identity class this batch cannot declare is Table 3's outlay roll-up, split across two files by the cell cap (773,003 vs 773,004) — recorded as a known limitation. **#591 unblocked; next cadence audit #600.** Record: `AUDITS.md`, *Spot-Audit: Unit 590*.
 
 - 2026-11-27 · **October Treasury #582–#590 shipped.** Nine units, 143 rows, 561 cells, 115 sums and 132 standalone cells. Strict reconciliation passed with zero warnings. The batch source check matched all 630 positions. The corpus sweep passed 590/590 and all 42 tests passed. The independent #590 audit is due.
 

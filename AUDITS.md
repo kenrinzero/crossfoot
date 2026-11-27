@@ -4297,13 +4297,90 @@ A structured comparison with `7712d99` verified preservation of every cell ID, c
 
 ## Spot-Audit: Unit 590 — `treasury-mts/2026-10-outlays-judicial` (whole batch #582–#590)
 
-**PENDING — different-agent audit.** Codex transcribed all nine October units on 2026-11-27. September #581 already has a separate closing audit. Record the independent result here before #591.
+**Verdict: GREEN, 2026-11-27.** DeepSeek Flash (DeepSeek Harness) independently audited the nine-unit October FY2027 batch shipped by Codex at `04276ce` (different agent and model family, satisfying the cadence hard rule). All **561 numeric values and 69 omissions across 630 printed positions** on 143 unit rows match the [vendored October statement](sources/treasury-mts/mts-202610.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a identity classes**, and **0 repairs required**. **#591 (`treasury-mts/2026-10-outlays-eop`) is unblocked. The next cadence audit is #600.**
 
-| Corpus units | Source and checks |
+| Field | Value |
 |---|---|
-| #582–#583 | Tables 1 and 2, p5. Check both fiscal-year labels, the reprinted September figures, the deficit signs, and the order of the estimate and prior-period columns. |
-| #584–#586 | Table 3, p8. Count the 28 departmental lines. Check the three blank deficit estimates, the estimate-only Allowances entry, the on/off-budget balances, and the shared receipts and outlay totals. |
-| #587–#588 | Table 9, p36, and Table 4, p9. Check all three periods, including the net receipt columns in Table 4. |
-| #589–#590 | Table 5, p10. Check both branches, the single applicable-receipt component in Judicial, dots and (**) marks, and the net totals against Table 3. The rounding and omission notes are on p22. |
+| **Unit** | `tables/treasury-mts/2026-10-outlays-judicial.cells.json` (corpus #590) — whole-batch scope `#582–#590` |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` (38pp, sha256 `956fca41…075cb725`): Table 1 and 2 (p5), Table 3 (p8), Table 4 (p9), Table 5 (p10, notes p22), Table 9 (p36) |
+| **Transcriber** | Codex (session 2026-11-27, batch `#582–#590` at `04276ce`) |
+| **Auditor** | DeepSeek Flash (DeepSeek Harness) — different agent and model family from the transcriber, satisfying the cadence hard rule |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN** — `#591` (`treasury-mts/2026-10-outlays-eop`) is unblocked |
 
-Transcriber checks covered 561 values, 66 printed omission marks and three empty positions in 143 unit rows. All 115 sums passed strict reconciliation. The independent reviewer should run the tracked source check and compare the labels, row counts, periods, omissions and identities to the vendored PDF under `RUNBOOK-auditor.md`.
+### 1. Source and positional coverage
+
+Re-verified `sources/treasury-mts/mts-202610.pdf` against [sources/SOURCES.md](sources/SOURCES.md): **`956fca41af770139de490eff3f6d524367d28e7904761053cd8759ba075cb725`, 2,123,129 bytes**, matching the ledger byte for byte on a clean starting tree at `04276ce` (`main` ahead of `origin/main` by the two unpublished October commits, no other change).
+
+Method, run independently of the transcriber's own checks:
+
+- **Tracked source check** (`uv run --group sourcecheck python tools/sourcecheck.py --render scratchpad/audit-590 …`) over the nine units: **9 unit(s), 143 rows, 143 found on one printed line, 143 compared column by column, 143 with every cell in its printed column, 561 cells on their printed number, 66 missing cells on dots or `(**)`, 3 on empty paper, 0 mismatches, 0 stale exceptions.** The `--render` images of the printed lines were not needed (no mismatch). **No October unit was added to `tools/sourcecheck-exceptions.json`** — its six entries are the three pre-existing kinds (one Census `Z`, four FEC capstone units, one FEC free-standing figure).
+- **Independent extraction.** `pdfplumber` text layer of printed pages 5, 8, 9, 10, 22 and 36 read twice — once with per-word x positions (to confirm the column membership of every number) and once as plain lines (to compare labels character for character) — plus **`pypdfium2` 2.2× renders of those six pages, looked at** (vision, not text-only). Printed page = PDF page index + 1.
+- **Row counts, not just row names.** Counted on the renders: Table 1 **15** (12 months + YTD + 2 FY2027 rows), Table 2 **13**, Table 3 **13 receipts + 28 departments + 14 remainder**, Table 4 **10**, Table 5 **14 Legislative + 6 Judicial**, Table 9 **30** = **143**, matching the 143 unit rows 1:1 in print order. No printed row is missing from the corpus and no unit row lacks a printed line.
+- **Blank ≠ zero.** The 66 `......` / `(**)` positions are omitted from the cells, not carried as 0, and the **three Table 3 deficit-estimate cells are genuinely blank on the print** (no dots, no number — confirmed on the p8 render), which is why `#586` has no `c4` cells on rows 12–14. The Table 4 unit transcribes the net `Receipts` column of each period group only (`c3, c6, c9`), as its manifest row declares.
+
+| Unit | Slug | Page | Rows | Cols | Positions | Values | Omissions | Relations / floor | Standalones / waiver | Mismatches |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| #582 | `2026-10-table1` | 5 | 15 | 3 | 45 | 45 | 0 | 18 / 18 | 0 / 0 | 0 |
+| #583 | `2026-10-table2` | 5 | 13 | 5 | 65 | 51 | 14 | 25 / 25 | 0 / 0 | 0 |
+| #584 | `2026-10-table3-receipts` | 8 | 13 | 4 | 52 | 52 | 0 | 12 / 12 | 0 / 0 | 0 |
+| #585 | `2026-10-table3-outlays-departments` | 8 | 28 | 4 | 112 | 112 | 0 | 0 / 0 | 112 / 112 | 0 |
+| #586 | `2026-10-table3-outlays-remainder` | 8 | 14 | 4 | 56 | 50 | 6 | 20 / 20 | 17 / 17 | 0 |
+| #587 | `2026-10-table9` | 36 | 30 | 3 | 90 | 90 | 0 | 6 / 6 | 0 / 0 | 0 |
+| #588 | `2026-10-receipts-major` | 9 | 10 | 3 | 30 | 30 | 0 | 6 / 6 | 0 / 0 | 0 |
+| #589 | `2026-10-outlays-legislative` | 10 | 14 | 9 | 126 | 92 | 34 | 19 / 19 | 0 / 0 | 0 |
+| #590 | `2026-10-outlays-judicial` | 10 | 6 | 9 | 54 | 39 | 15 | 9 / 9 | 3 / 3 | 0 |
+| **Total** | | **5–36** | **143** | | **630** | **561** | **69** | **115** | **132** | **0** |
+
+### 2. Arithmetic relations, DESIGN §4a completeness, tolerances, and roles
+
+Independently recomputed all **115 declared relations** in exact `Decimal` from the units' own cells (the same figures `reconcile.py` reports, re-derived before reading them):
+
+- **Exactness and tolerances:** **82** close with residual `0`; **33** carry a non-zero tolerance — **24** at `tol="1"`, **7** at `tol="2"`, **2** at `tol="3"`. Every non-zero tolerance **equals the exact observed `|delta|`**, satisfies `tol ≤ len(sources)`, and quotes a rounding note printed on the page the `why` names (Table 1/2 p5, Table 3 p8, Table 4 p9, Table 9 p36, Table 5 p22 — all five checked on the text layer; p22's is `Note: Details may not add to totals due to rounding.`).
+- **The two `tol="3"` relations are source-side, not fitted slack.** `#589`'s net-outlay verticals (`r14c3` and `r14c6`, 13 sources) sum to **639** against a printed **636**. On the render the print itself is internally inconsistent by row: `House of Representatives` prints 167 / 1 / 167 and `Architect of the Capitol` 79 / 1 / 79, i.e. net equal to gross while an applicable-receipt amount is also printed; the Library row (77 / 1 / 76) behaves. The printed total row is self-consistent (641 = 636 + 5). Every value matches the print, so nothing is repairable — the 3 is the print's own inconsistency, and the declared tolerance is its exact magnitude.
+- **`#590`'s four `tol="1"` relations** are the same class in miniature: the Judicial components sum to 905 / 892 against printed totals 904 / 891, a one-unit rounding in the printed detail (the note covers it). Its three `standalone` cells (`r4c2`, `r4c5`, `r4c8` = 13 / 13 / 27) are the branch's sole applicable-receipt figures, and the only identity available to them is a **single-source** one (`r4c2 = r6c2`), which the corpus forbids — so the `why` is correct: the row prints no gross outlays for a net identity.
+- **Complete DESIGN §4a coverage.** Every identity class the print makes computable was enumerated, not merely the declared ones:
+  - **`#582` (Table 1):** the row identity `Receipts + Deficit = Outlays` on all 15 rows (15 declared) and the column identity `Σ 12 months = YTD` on all three columns (3 declared) — **18/18, 0 missing**. The FY2027 October and YTD rows print identical cells; that is an equality, not a sum.
+  - **`#583` (Table 2):** on+off = combined for receipts (5 columns), outlays (5) and the deficit (3 columns that print a number), plus `Outlays + Surplus/Deficit = Receipts` and its on/off-budget twins (9, three columns each) and the three-part means of financing (3) — **25/25**. Columns `c3` and `c5` print only receipts and outlays (every balance and financing cell is `......`), so no further identity is computable there.
+  - **`#584` (Table 3 receipts):** classification → total, on-budget classification → on-budget total, on+off → total, in all four columns — **12/12**. Table 3 prints no social-insurance subtotal, so none is missing.
+  - **`#585` + `#586` (Table 3 outlays):** all on/off-budget and `Outlays + Deficit = Receipts` identities are declared (**20/20** in the remainder unit). The one remaining identity class — the 28 department lines + SSA + Independent Agencies + Allowances + the two UOR lines = `Total Outlays` — **spans the two unit files** and so cannot be declared in either; see §5.
+  - **`#587` (Table 9):** 9 receipt sources → total (3 columns) and 19 outlay functions → total (3 columns), **6/6**. No subtotal is printed in this table.
+  - **`#588` (Table 4):** 7 classifications → total and on+off → total, both in each of the three period groups, **6/6**. The gross and refund columns are outside this unit's declared scope (net-columns slice).
+  - **`#589` / `#590` (Table 5):** `Gross = Net + Applicable Receipts` on every row and period where all three cells print (10 in Legislative, 3 in Judicial — rows whose applicable cell prints `(**)` have no number to add), plus one vertical sum for each of the nine columns — **19/19 and 9/9**.
+- **Roles and hygiene:** zero duplicate equations (checked by `(target, sorted(sources))`), every `total` targeted, every `leaf` a source, and all **132 `standalone` cells** outside the relation graph with a `why` (112 + 17 + 3, all within their manifest waivers). `#585`'s 112 cells share one sentence — *"This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."* — which is accurate and specific about the cause, not a `"From table"`-class empty justification.
+
+### 3. Handoff items and source-side quirks — all verified
+
+- **Both fiscal-year labels (p5) and the table titles** match: `Table 1 … Fiscal Years 2026 and 2027` (rows flattened as `FY 2026 / <month>` and `FY 2027 / <month>`), `Table 2 … October 2026 and Other Periods`.
+- **The reprinted September figures.** The October statement's Table 1 FY2026 block prints September as **557,876 / 584,872 / 26,996** (YTD **5,403,328 / 7,395,897 / 1,992,569**), all confirmed on the p5 render and transcribed as printed. The [September statement](sources/treasury-mts/mts-202609.pdf) printed the same month as **557,875 / 584,775 / 26,900** (YTD 5,403,327 / 7,395,800 / 1,992,473) — a real **+1 / +97 / +96** restatement, i.e. the October publication revises it. Both units correctly transcribe their own source, and `#582`'s `unit_note` names the restatement. Recorded here because it is the one place two shipped units legitimately disagree about the same printed month (§5).
+- **Deficit signs.** Table 1's `Deficit/Surplus (-)` column is positive for a deficit (`284,333`, `404,064`; April FY2026 prints `-215,024` for its surplus) while Table 2/3/5's `Surplus (+) or Deficit (-)` rows are negative (`-404,064`). The units follow each table's own sign, and the Table 1 ↔ Table 2 tie holds in magnitude.
+- **The column order the placeholder flags.** Table 2 prints `This Month | Current Fiscal Year to Date | Budget Estimates Full Fiscal Year | Comparable Prior Period Year to Date (2026) | Budget Estimates Next Fiscal Year (2028)` and Table 3 prints `This Month | Current FY to Date | Comparable Prior Period Year to Date | Budget Estimates Full Fiscal Year` — the estimate column sits *before* the comparable column in Table 2 and after it in Table 3. The units reproduce the printed order and the printed headers in both (the October instance of the header-template question queued in `NEXT.md`).
+- **The 28 departmental lines and the remainder block (p8).** Counted 28 on the render — the two Treasury lines (`Interest on Treasury Debt Securities (Gross)` 115,461 and `Other` 12,989) included — and all 28 × 4 values match. The **three blank deficit estimates** confirmed blank (not dots); the **estimate-only Allowances** confirmed as `...... ...... ...... -7,047`, so `#586` holds `r6c4` only; the six on/off-budget balances and the shared receipts and outlay totals match in all columns.
+- **Legislative and Judicial (p10).** Fourteen rows / six rows confirmed; the `......` (No Transactions) and `(**)` conventions respected; the single applicable-receipt component in Judicial confirmed as `Proprietary Receipts from the Public` (13 / 13 / 27, with the offsetting `-13 / -13 / -27` in the net column); the three net branch totals (636 / 636 / 311 and 891 / 891 / 653) match Table 3 exactly; the p22 continuation page's Table 5 grand totals (835,147 gross / 62,143 applicable / 773,004 net; on-budget 650,448; off-budget 122,556; deficit -404,064) print the net, on-budget, off-budget and deficit figures that `#582`/`#586` hold, cell for cell (the gross and applicable columns are Table 5 aggregates the corpus does not carry).
+- **Table 4 (p9) and Table 9 (p36)** confirmed as three period groups with gross/refund/net columns (net column taken) and as 9 receipt + 19 outlay lines with their totals, respectively.
+
+### 4. Cross-table and cross-unit ties
+
+| Tie | Source | Target | Result |
+|---|---|---|---|
+| October FY2027 column, all three tables | `#582` r14 (368,940 / 773,004 / 404,064) | `#583` c1–c2, `#584`/`#586` totals, `#587` totals | **exact** on receipts, outlays and the signed deficit |
+| Prior-period column | `#583` c4 (404,371 / 688,704 / -284,333) | `#582` r1 FY2026 October (404,371 / 688,704 / 284,333) | **exact in magnitude**, opposite sign per each table's convention |
+| Table 4 receipts → Table 3 receipts | `#588` r8 (368,940 / 368,940 / 404,371) | `#584` r11 | **exact** |
+| Table 4 social insurance total | `#588` r3 (131,474) | `#584` r3+r4+r5+r6 (94,975+33,651+2,150+697 = 131,473) | **+1** — the rounded Table 3 lines, already recorded in the `#588` manifest row |
+| Table 5 branches → Table 3 lines | `#589`/`#590` net totals (636 / 636 / 311; 891 / 891 / 653) | `#585` r1/r2 (Table 3 Legislative and Judicial lines) | **exact** in all three periods |
+| Table 3 outlay roll-up across the two files | `#585` 28 lines + `#586` SSA + Independent + 2 × UOR | `#586` r9 `Total Outlays` | **773,003 vs 773,004** (both actual columns, 1 over), **exact** in the estimate column — reproduced independently, and it is the transcriber's own batch check |
+| Table 5 UOR total | `#586` r7 + r8 (-11,152 + -55,197 = -66,349) | p22 `Total--Undistributed Offsetting Receipts` (-66,349) | **exact** |
+| Table 9 UOR line | `#587` r29 (-55,195) | `#586` r8 (-55,197) | **+2**, the rounded Table 9 line |
+| Table 5 grand totals (p22) | `#582`/`#586` (773,004 / 650,448 / 122,556 / -404,064) | p22 `Total Outlays`, `On-Budget`, `Off-Budget`, `Surplus (+) or Deficit (-)` | **exact** |
+
+### 5. Findings and observations (no repairs)
+
+1. **Table 3's outlay roll-up is deliberately split across two files and stays untested inside either unit** — the only identity class this batch cannot declare. `#585` (112 cells) and `#586` (17 cells) hold 129 of the batch's 132 standalone cells, and the roll-up closes at 773,003 against the printed 773,004 in both actual columns and exactly in the estimate. This is the September family's structure unchanged (its note says the same), forced by the ≤150-cell unit cap, and the transcriber's own batch check covers it — so it is recorded as a known limitation, not a defect. Any fix is a harness/unit-split decision, not a transcription repair.
+2. **The September FY2026 figures are genuinely restated by the October publication** (+1 receipts / +97 outlays / +96 deficit), so `2026-09-table1` and `2026-10-table1` print different values for September. Both are faithful to their own statement; a reader joining months by value should know the later publication supersedes. `#582`'s `unit_note` records it; the README's known-gaps list does not yet.
+3. **The two `tol="3"` relations are the largest tolerance in the batch** and are the print's own row-level inconsistency, confirmed on the 2.2× render (§2) — not fitted slack, and not the `#129`/`#160` class of a tolerance absorbing a typo, because no cell differs from the print and the total row is self-consistent.
+4. **Labels are the corpus's flattening, not the print's typography, in the established way** — group headings become `Group / Row` (`FY 2026 / October`, `Budget Outlays / Department of the Treasury / Other`), Table 3's `Surplus (+) or Deficit (-)` row gains the disambiguator `/ Total` (its siblings are `(On-Budget)` and `(Off-Budget)`), and `Department of Defense--Military Programs` / `Total--Legislative Branch` keep the print's double hyphen. Every row and column label was compared character by character against the text layer; the flattening is consistent with the September/October twins and is the documented corpus convention, not drift.
+5. **The batch-numbering rule held.** This audit starts at `#582`, the unit after the last audited one (`#581`), and ends on the multiple of ten, which is the tie-break rule `NEXT.md` adopted for families starting at a number ending in 2 — so the `#421`/`#501` gap pattern does not recur here.
+
+### 6. Regression gates
+
+All nine units pass strict UTF-8 / LF-only / final-newline / zero-C0 checks (no BOM) and reconcile individually with **0 warnings** (exit 0 each). The tracked source check reports **0 mismatches** over 630 positions. Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **590/590 GREEN**, and `uv run --locked pytest` passes **42/42**. The source check is an auditor's tool, not a gate, and was not added to `.github/workflows/check.yml`. **`#591` (`treasury-mts/2026-10-outlays-eop`) is unblocked. The next cadence audit is #600.**
