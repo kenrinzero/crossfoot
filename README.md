@@ -144,12 +144,14 @@ rounding of the printed digits:
   - **one at tolerance 182.** The column total over those closing
     balances inherits both gaps (182 = 90 + 90 + 2 of rounding).
   - **one at tolerance 2,724.** The prior-year column: its 24 printed
-    lines sum to 3,034 and the page prints the total as 310. The
-    statement's own Table 6 on page 24 agrees with the lines.
+    lines sum to 3,034 and the page prints the total as 310. Table 6 on
+    page 24 prints 3,248, which is 214 above the sum of the lines and
+    2,938 above the printed total. The smaller gap is consistent with
+    the differences between the two tables in neighboring months.
 
-  A sum that carries such a tolerance cannot catch an error smaller than
-  the tolerance. The cells under these six relations rest on the source
-  check and the audits, not on arithmetic.
+  Each of these six sums already sits at its tolerance. Even a one-unit
+  change that widens the gap fails. A change that narrows the gap can
+  pass. The source checks and audits establish the printed values.
 - **4 relations in `bls-cpi/relative-importance-2024-education-other`**
   (tolerance 0.008 to 0.009 on three or four three-decimal components).
   Recorded as rounding, but rounding of the printed digits allows at most

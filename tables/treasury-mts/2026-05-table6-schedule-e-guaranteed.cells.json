@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E — Guaranteed Loan Financing Activity (all agencies)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Guaranteed Loan Financing Activity. Blank and less-than-500k (**) cells omitted.",
+  "unit_note": "USD millions. Guaranteed Loan Financing Activity. Blank and less-than-500k (**) cells omitted. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p31. The International Assistance Programs heading at the foot of p31 governs row 28, Other, at the top of p32.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,
@@ -145,7 +145,7 @@
     },
     {
       "index": 28,
-      "label": "Guaranteed Loan Financing Activity: Department of Veterans Affairs: Veterans Benefits Administration: Other"
+      "label": "Guaranteed Loan Financing Activity: International Assistance Programs: Other"
     },
     {
       "index": 29,
@@ -1579,7 +1579,7 @@
         "r28c1"
       ],
       "target": "r28c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (Guaranteed Loan Financing Activity: Depa)"
+      "note": "balance roll-forward: begin-month + this-month = end-month (International Assistance Programs, Other)"
     },
     {
       "type": "sum",
@@ -1800,7 +1800,7 @@
         "r28c2"
       ],
       "target": "r28c6",
-      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Guaranteed Loan Financing Activity: Depa)",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs, Other)",
       "tol": "1",
       "why": "Page prints: \"Note: Details may not add to totals due to rounding.\""
     },

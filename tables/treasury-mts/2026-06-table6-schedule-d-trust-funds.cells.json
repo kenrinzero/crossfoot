@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D \u2014 Investments Trust Funds + Grand Total",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. Trust Funds section through Grand Total. Total Federal Funds re-anchored from #316. Crosses p29\u2013p30.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. Trust Funds section through Grand Total. Total Federal Funds re-anchored from #316. Crosses p29\u2013p30. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p29.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

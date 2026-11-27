@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E \u2014 Guaranteed Loan Financing Activity",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Repair 2026-11-27: Net Activity close r39c6 set to 12,562 as printed on p32 (was 12652, the value both roll-forwards compute and the July statement opens with); the source is off by 90 there, as at r37c6. Crosses p31\u2013p32. Declared 2026-11-27: the column totals r39 = rows 1 to 38. Two of them do not close in the source and carry the observed gap as a documented source discrepancy, not rounding: column 6 (tol=182) and, on the user's instruction, column 3 (printed 310 against 3,034 from its 24 lines, tol=2724). No cell value changed.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Repair 2026-11-27: Net Activity close r39c6 set to 12,562 as printed on p32 (was 12652, the value both roll-forwards compute and the July statement opens with); the source is off by 90 there, as at r37c6. Crosses p31\u2013p32. Declared 2026-11-27: the column totals r39 = rows 1 to 38. Two of them do not close in the source and carry the observed gap as a documented source discrepancy, not rounding: column 6 (tol=182) and, on the user's instruction, column 3 (printed 310 against 3,034 from its 24 lines, tol=2724). No cell value changed. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p31. The column 3 explanation distinguishes the measured discrepancy from a possible Business Loan Fund sign error.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,
@@ -2176,7 +2176,7 @@
       "target": "r39c3",
       "note": "Net Activity Guaranteed roll-up col 3",
       "tol": "2724",
-      "why": "Source does not close. The 24 printed lines of column 3 (Fiscal Year to Date, Prior Year; pp31-32) sum to 3,034 while p32 prints the total as 310, a gap of 2,724. All 25 cells match the print: text layer with column positions, and 3.0x renders of pp31-32 read on 2026-11-27. The statement's own Table 6 (p24) prints 3,248 on the line that refers to this total: 214 above the sum of the lines, in step with May (190 above the Schedule E total) and July (227), but 2,938 above the printed 310. So the printed total, not a line, is the figure out of step; it is what the lines give if Business Loan Fund (printed 1,361) is taken with the opposite sign (312). This is a source-side discrepancy, NOT rounding: the tolerance equals the observed delta, and the rounding the Schedule E footnote allows (p33: \"Note: Details may not add to totals due to rounding.\") is a few units at most."
+      "why": "Source does not close. The 24 printed lines of column 3 (Fiscal Year to Date, Prior Year; pp31-32) sum to 3,034 while p32 prints the total as 310, a gap of 2,724. All 25 cells match the print: text layer with column positions, and 3.0x renders of pp31-32 read on 2026-11-27. The statement's own Table 6 (p24) prints 3,248 on the line that refers to this total: 214 above the sum of the lines, in step with May (190 above the Schedule E total) and July (227), but 2,938 above the printed 310. This comparison favors the detail sum. Reversing the printed Business Loan Fund amount of 1,361 would give 312, still 2 above 310. The cause of the discrepancy is unconfirmed. The tolerance records the observed source-side discrepancy. The p33 Schedule E footnote reads \"Note: Details may not add to totals due to rounding.\" A gap of 2,724 exceeds the possible rounding across these lines in millions."
     }
   ]
 }

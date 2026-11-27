@@ -3900,7 +3900,7 @@ August's close also equals September's opening on all 15 rows, as the `#581` ent
 
 ## Directed pass: column totals, August roll-forwards and standalone reasons — 17 units (value-neutral; follow-up to AUDIT-2026-11-27 F3 and F5)
 
-**Applied 2026-11-27; all 17 units GREEN; not yet checked by a different agent.** Claude Fable 5.2 (Claude Code), on the user's instruction, declared identities the source prints and nobody had declared, and replaced 330 empty reasons. **No cell value, cell id, row, column, label or existing relation changed** (proved by script, section 7). 75 relations were added, 361 cells left `standalone`, and 330 `why` texts were rewritten. Two identities were found that could **not** be declared, and one misplaced cell was found; all three are reported in sections 4 and 6 and queued in `NEXT.md`. The agent that made these edits must not be their auditor: a different-agent check is queued in `NEXT.md`. This is not a cadence audit; **the next cadence audit stays #590**.
+**Applied 2026-11-27; all 17 units GREEN; awaiting independent review at handoff.** Claude Fable 5.2 (Claude Code), on the user's instruction, declared identities the source prints and nobody had declared, and replaced 330 empty reasons. **No cell value, cell id, row, column, label or existing relation changed** (proved by script, section 7). 75 relations were added, 361 cells left `standalone`, and 330 `why` texts were rewritten. Two identities were found that could **not** be declared, and one misplaced cell was found; all three are reported in sections 4 and 6 and queued in `NEXT.md`. The agent that made these edits must not be their auditor: a different-agent check is queued in `NEXT.md`. This is not a cadence audit; **the next cadence audit stays #590**.
 
 | Field | Value |
 |---|---|
@@ -3909,7 +3909,7 @@ August's close also equals September's opening on all 15 rows, as the `#581` ent
 | **Template** | The August and September twins of the same Schedule D and E tables, and the June and July twins of #478/#479 |
 | **By** | Claude Fable 5.2 (Claude Code), on the user's instruction |
 | **Date** | 2026-11-27 |
-| **Status** | **GREEN, awaiting a different-agent check** |
+| **Status** | Independently verified by Codex in the [joint audit](#directed-audit-2026-11-27-item-7). **GREEN after metadata repairs.** |
 
 ### 1. What changed
 
@@ -4054,7 +4054,7 @@ Cell count (56,817), unit count (581) and the 37 units with no relation are unch
 
 ## Directed follow-up: the three findings of the value-neutral pass — `#46`, `#157`, `#318` (two grid changes, on the user's instruction)
 
-**Applied 2026-11-27; all three units GREEN; not yet checked by a different agent.** The *Directed pass* entry above left three findings for the user. The user decided all three ("Yes, go ahead", relayed by the coordinating session), and Claude Fable 5.2 (Claude Code) made them as a second local commit on top of `5a29895`. **Two of the three change the grid, which the first pass was not allowed to do:**
+**Applied 2026-11-27; all three units GREEN; awaiting independent review at handoff.** The *Directed pass* entry above left three findings for the user. The user decided all three ("Yes, go ahead", relayed by the coordinating session), and Claude Fable 5.2 (Claude Code) made them as a second local commit on top of `5a29895`. **Two of the three change the grid, which the first pass was not allowed to do:**
 
 - **`#46`: one cell changes its id and column.** The value stays 1. Reason: the unit held it in a column the page does not print it in.
 - **`#157`: one row and six cells are added.** This is **new transcription**, not a re-typing of existing cells. Reason: the page prints a `Grand Total` that is the sum of two totals, and the unit held only one of them.
@@ -4068,7 +4068,7 @@ No other cell id, row, column or value changed anywhere in the corpus, and no ce
 | **Sources** | `sources/treasury-mts/mts-202605.pdf` pp22, 23, 29, 30; `mts-202606.pdf` pp24, 31, 32, 33 (sha256 re-verified earlier the same day) |
 | **By** | Claude Fable 5.2 (Claude Code), on the user's instruction |
 | **Date** | 2026-11-27 |
-| **Status** | **GREEN, awaiting a different-agent check** |
+| **Status** | Independently verified by Codex in the [joint audit](#directed-audit-2026-11-27-item-7). **GREEN after metadata repairs.** |
 
 ### 1. Every cell that changed
 
@@ -4162,5 +4162,50 @@ Script comparing the tree with `5a29895`, cell by cell in file order:
 
 - Check both commits (`5a29895` and this one) in one pass: the 85 relations, the roles, the seven cells of section 1 read from the page, and the claim in section 4 that the p24 line favours the lines.
 - The first pass's two leftovers and its misplaced cell are closed by this entry. A column-position check of the whole corpus is still only a candidate (`NEXT.md`).
+
+---
+
+<a id="directed-audit-2026-11-27-item-7"></a>
+
+## Directed audit of `5a29895` and `7712d99` (NEXT item 7)
+
+**GREEN after metadata repairs, 2026-11-27.** Codex independently audited the two commits by Claude Fable 5.2. All 85 added sums, the revised gross-outlays sum and the seven changed grid positions agree with the vendored statements, subject to the printed discrepancies below. The repairs concern explanations and labels.
+
+### 1. Source and coverage
+
+The three follow-up units are part of the original 17. `5a29895` added 75 equations and preserved the coordinates and amounts of all 2,898 existing cells. `7712d99` added ten equations, revised the May gross sum, moved one cell and added six. All four May–August MTS PDFs matched their recorded SHA-256 and byte size. I extracted characters by printed row and column, preserving signs, dotted entries and `(**)`, and inspected PDFium renders of the headings, changed cells, subtotals and rounding notes. The comparison covered all 3,798 positions in the final units at `7712d99`.
+
+| Units | Rows | Printed numbers | Omitted positions | Added sums |
+|---|---:|---:|---:|---:|
+| May Table 5 outlays (9) | 234 | 1,427 | 679 | 1 |
+| May–July Schedule D trust funds (3) | 126 | 693 | 63 | 31 |
+| May–July Schedule E guaranteed loans (3) | 117 | 557 | 145 | 18 |
+| August Table 6 liabilities and assets (2) | 39 | 227 | 7 | 35 |
+| **Total** | **516** | **2,904** | **894** | **85** |
+
+### 2. Seven grid positions and the added identities
+
+- **May #46, p22.** Sale of Major Assets prints dots in current-year gross outlays, **1** in applicable receipts (`r26c5`) and **−1** in net outlays. The three printed gross components sum to **−234,104** exactly. Receipts give 5,206 + 1 = 5,207 against the printed 5,208.
+- **May #157, pp29–30.** The bold Total Federal Funds row on p29 reads **5,287 / 88,226 / 84,403 / 1,064,480 / 1,147,419 / 1,152,706**. All six positions match row 42 and the federal-funds sibling. Both opening-balance equations give 1,152,706. Adding Federal Funds and Trust Funds matches five Grand Total columns exactly. In column 2, 88,226 + 242,292 gives 330,518 against the printed 330,517.
+- **Identity inventory.** Schedule D contributes 18 Treasury Securities totals excluding the Agency Securities detail, five May Treasury-plus-Agency totals, six May Grand Totals and both roll-forwards of the new row. Schedule E contributes all 18 guaranteed-loan column totals. August contributes 17 liability and 18 asset fiscal-year roll-forwards. The May receipts sum completes the 85. An inventory built from the printed sections and available operands matched all 763 declared equations in the 17 units. It includes all 187 monthly and 219 fiscal-year roll-forwards computable in the eight Table 6 units.
+- **Roles and tolerances.** The 85 sums touch 1,297 distinct cells, rising to 1,301 with the revised gross sum. Every new target is a total and every participating role agrees with its use. Exact Decimal arithmetic reproduced every tolerance across all 763 equations. Of the 85 additions, 43 close exactly, 24 differ by 1, eight by 2, five by 3, three by 4 and one each by 182 and 2,724. The 40 ordinary nonzero tolerances quote the rounding note on the applicable page (May Table 5 p23, Schedule D p30, Schedule E p33 or August Table 6 p24).
+
+### 3. June Schedule E adjudications
+
+- **Prior-year transactions, column 3.** Nineteen amounts on p31 sum to 1,821. Five on p32 sum to 1,213. Their total of **3,034** exceeds the printed **310** by **2,724**. The p24 figure of 3,248 is 214 above the detail sum and 2,938 above the printed total. The corresponding p24-to-Schedule-E differences in May, July and August are 190, 227 and 258. This supports the detail sum. Reversing the printed Business Loan Fund amount of 1,361 would give 312. Treasury's statement leaves the cause of the remaining difference and the original error unconfirmed.
+- **Closing balance, column 6.** The 38 printed amounts sum to **12,744** against **12,562**, a difference of **182**. Both roll-forwards give −53,982 for Business Loan Fund and 12,652 for the total. The June page prints −53,892 and 12,562. July opens at the two computed amounts. Its other 37 opening balances match the June closes. Using July's openings gives 12,654 against 12,652. The two differences of 90 explain 180, leaving 2 consistent with rounding.
+- **Verdict on the exceptions.** Retain both tolerances as documented source discrepancies and retain the printed figures. These checks can accept errors that narrow an existing gap. In scratch copies, changing `r37c3` from 1,361 to 1,000 passed while 1,371 failed. Changing the printed `r37c6` to −53,982 also passed while −53,891 failed. The README and the directed-audit memo now give the actual p24 comparison. The README also explains which errors the threshold can detect.
+
+### 4. Standalone reasons and repairs
+
+All **330** explanations introduced in `5a29895` were checked against May Table 5. The page prints gross and net with receipts omitted for 307 of the cells, and receipts and net with gross omitted for 23. For 220 cells the same printed amount reaches the departmental total in the matching column of the companion unit. This includes HHS row 22, printed as Other on p13 and indexed as HHS Departmental: Other in the companion. Ten cells are the only numeric receipts details of their agency and period, nine are sole contributors to FDIC or Railroad Retirement Board subtotals, and two are the sole numeric entries in the applicable-receipts column of the May Undistributed Offsetting Receipts total for their periods. The temporary explanation on `#46 r25c5` correctly described the position error at the first commit. That cell became a leaf in the second, leaving 329 standalone reasons.
+
+The remaining **88** explanations in `#61` attributed the missing sum to a single-source or sparse column. Each amount actually feeds the May p21 Total--Independent Agencies in `#62`, with **26** contributors in the monthly columns and **30** in the year-to-date columns. The total is outside `#61`, and the period's applicable-receipts amount is omitted on each affected row. The repaired explanations identify both facts. The six genuinely single-source FDIC cells in `#61` keep their reasons.
+
+Under the mechanical-repair precedent of #129, #160 and #340, I also corrected two inherited labeling defects. The eight Table 6 units now label column 5 **Beginning of This Month**, the heading over the opening balance. May `#158 r28`, **Other**, belongs to **International Assistance Programs**. That heading closes p31 and governs the first detail on p32. Its two roll-forward notes now identify the same account. The `#318 r39c3` explanation now describes the possible sign error as a hypothesis and gives its two-unit residual. Each repaired unit carries a dated `unit_note`.
+
+### 5. Gates and handoff
+
+A structured comparison with `7712d99` verified preservation of every cell ID, coordinate, amount, role, equation operand, target and tolerance. All 17 units reconciled with zero warnings, the full sweep returned **581 GREEN**, and **23 tests passed**. Item 7 is closed. The next cadence audit is **#590**. Publication requires the user's approval.
 
 ---

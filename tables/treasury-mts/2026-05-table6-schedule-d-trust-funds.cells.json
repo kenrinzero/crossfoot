@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D — Investments of Federal Government Accounts (Trust Funds: Legislative through Grand Total)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Investments of Trust Funds under Legislative through Grand Total. Blank and less-than-500k (**) cells omitted. Added 2026-11-27, on the user's instruction: row 42, Total Federal Funds, re-anchored from p29 as printed (5,287 / 88,226 / 84,403 / 1,064,480 / 1,147,419 / 1,152,706; the same six values as r20 of 2026-05-table6-schedule-d-federal-funds-labor-totals), so that Grand Total = Total Federal Funds + Total Trust Funds is declared, as in the June to September units.",
+  "unit_note": "USD millions. Investments of Trust Funds under Legislative through Grand Total. Blank and less-than-500k (**) cells omitted. Added 2026-11-27, on the user's instruction: row 42, Total Federal Funds, re-anchored from p29 as printed (5,287 / 88,226 / 84,403 / 1,064,480 / 1,147,419 / 1,152,706; the same six values as r20 of 2026-05-table6-schedule-d-federal-funds-labor-totals), so that Grand Total = Total Federal Funds + Total Trust Funds is declared, as in the June to September units. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p29.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

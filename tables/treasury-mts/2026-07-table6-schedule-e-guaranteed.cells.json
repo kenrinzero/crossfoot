@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E \u2014 Guaranteed Loan Financing Activity",
     "period": "July FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Crosses p31\u2013p32.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Crosses p31\u2013p32. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p31.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

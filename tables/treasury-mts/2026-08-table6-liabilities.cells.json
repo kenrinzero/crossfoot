@@ -7,7 +7,7 @@
     "title": "Table 6. Means of Financing — Liability Accounts",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6≈col5+col1. Cap-fit split of full Table 6.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Balance cols: Beginning of FY, Close of prior month, Close of this month. Roll-forward: col6≈col5+col1. Cap-fit split of full Table 6. Audit 2026-11-27 corrected the column 5 label to Beginning of This Month as printed on p24.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,
