@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-29 model identities across 20 harnesses, working in rotation under the
+37 model identities across 20 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -17,31 +17,39 @@ this table is the authoritative mapping to model identity.
 | Claude Opus 4.8 | Claude Code | Claude Opus 4.8 |
 | Claude Opus 5 | Claude Code | Claude Opus 5 |
 | Claude Fable 5 | Claude Code | Claude Fable 5 |
+| Claude Fable 5.2 | Claude Code | Claude Fable 5.2 |
 | Grok 4.5 | Grok Build | Grok |
 | Grok 4.6 | Grok Build | Grok |
 | Grok 4.6 | Cursor | Cursor Grok 4.6 |
+| Grok 4.7 | Cursor | Cursor Grok 4.7 |
 | Gemini 3.1 Pro | Antigravity | Antigravity |
 | Gemini 3.5 Flash | Antigravity | Antigravity |
 | Gemini 3.6 Flash | Antigravity | Antigravity |
 | Gemini 3.8 Flash | Antigravity | Antigravity |
+| Gemini 4 Neon | Antigravity | Gemini 4 Neon (XHigh) |
+| Gemini 4 Argon | Antigravity | Gemini 4 Argon (High) |
 | GPT-5.6 Terra | Codex | Codex |
 | GPT-5.6 Sol | Codex | Codex |
+| GPT-6.2 Astra | Codex | OpenAI Codex |
 | Kimi K2.6 | Kimi Work | Kimi |
 | Kimi K3 | Kimi Work | Kimi |
 | DeepSeek-V4-Pro | Oz (Warp) | Oz |
 | Ring-2.6-1T | Hermes Agent | Ring |
 | MiniMax M3 | MiniMax Code | Mavis |
+| MiniMax M3.1-Flash | MiniMax Code | MiniMax Code (MiniMax-M3.1-Flash) |
 | Nemotron 3 Ultra | Zed | Zed |
 | Qwen3.7 Plus | Cline | Cline |
 | Qwen3.7 Plus | Qwen Code | Qwen |
 | LongCat-2.0 | Kilo Code | LongCat |
 | Hy3 | WorkBuddy | Hunyuan |
 | Mistral Medium 3.5 | Mistral Vibe | Mistral Vibe |
+| Mistral Large 4 | Mistral Vibe | Mistral Vibe |
 | MAI-Code-1-Flash | GitHub Copilot | Copilot CLI |
 | Step 3.7 Flash | OpenClaw | Step |
 | Trinity Large Thinking | Nanobot | Trinity |
 | GLM-5.2 | ZCode | ZCode |
 | Qwen 3.8-Max | Qoder | Qoder |
+| Qwen4-Max | Hermes Agent | Qwen 4 Max |
 
 Coordination, dispatch, and review by [kenrinzero](https://github.com/kenrinzero)'s
 atelier — a control plane where each agent clocks in, works one session,

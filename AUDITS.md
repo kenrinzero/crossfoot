@@ -3681,3 +3681,71 @@ All ten units (`#571–#580`) pass strict UTF-8 / LF-only / zero-C0 checks (no B
 - **Table 1's deficit sign convention** (deficits positive, surpluses negative under the `Deficit/Surplus (-)` header) is worth remembering before quoting "byte-match" against `#502`: the figures match in magnitude, and only in sign-convention terms does Table 1 agree with Table 7/8's signed excess.
 
 ---
+
+## Directed audit: Unit 581 — `treasury-mts/2026-09-table8-investments` (off-cadence, single unit)
+
+**Verdict: GREEN, 2026-11-27.** Claude Fable 5.2 (Claude Code) independently audited the one unit shipped since audit #580, at the user's direction. This is not a cadence audit: #581 is not a multiple of 10, and **the next cadence audit stays #590**. All **45 values on 15 rows** match the [vendored September statement](sources/treasury-mts/mts-202609.pdf) with **0 mismatches**, **0 missing DESIGN §4a identity classes**, and **0 repairs**. The project-wide assessment made in the same session is in [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md).
+
+| Field | Value |
+|---|---|
+| **Unit** | `tables/treasury-mts/2026-09-table8-investments.cells.json` (corpus #581), shipped at `af068fe` |
+| **Source** | `sources/treasury-mts/mts-202609.pdf`, Table 8 Trust Fund Impact, printed p36, columns 7–9 (*Securities Held as Investments*) |
+| **Transcriber** | MiniMax Code (MiniMax-M3.1-Flash), session 2026-11-27 |
+| **Auditor** | Claude Fable 5.2 (Claude Code) — different agent and model family from the transcriber |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN** — no change to the unit |
+
+### 1. Source and positional coverage
+
+Re-verified `sources/treasury-mts/mts-202609.pdf` against [sources/SOURCES.md](sources/SOURCES.md) (`fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`; 2,309,827 bytes) on a clean tree at `af068fe`.
+
+The grid was rebuilt from `pdfplumber` **character** positions on printed p36 (2,831 characters), without reading the unit first: characters grouped into lines, split into tokens at gaps over 2.5pt, and each token assigned to a column by its right edge. The three investment columns share the right edges 510.9 / 551.3 / 591.8. Body text is 7.0pt throughout the table, so there is no superscript-glue hazard. A 3.0× `pypdfium2` render of p36 was then **read by eye** (header block and every row), and it agrees with the character layer.
+
+- **18 printed rows** carry the three investment columns. **15** print at least one number and map 1:1, in print order, to the 15 unit rows. **3** print `......` in all three columns and are correctly dropped: `Black Lung Disability`, `Military Advances`, and the trust-block `Less: Interfund Transactions`.
+- The five rows below them (`… on the Basis of Tables 4 & 5`, the Federal Fund rows, `Net Budget Receipts & Outlays`) print nothing in columns 7–9 (blank shaded area), so no cell is owed.
+- **45 of 45 positions match**: 0 printed numbers missing from the unit, 0 unit cells without a printed counterpart, 0 printed omissions carried as cells.
+
+### 2. Arithmetic relations, DESIGN §4a completeness, tolerances, and roles
+
+Recomputed all **3 declared relations** in exact `Decimal` from the unit's own leaf cells:
+
+| Target | Σ of 14 sources | Printed total | \|delta\| | `tol` |
+|---|---:|---:|---:|---:|
+| `r15c1` Beginning of This Year | 6,274,789 | 6,274,791 | 2 | `2` |
+| `r15c2` Beginning of This Month | 6,519,041 | 6,519,041 | 0 | exact |
+| `r15c3` Close of This Month | 6,521,220 | 6,521,221 | 1 | `1` |
+
+- Each non-zero tolerance equals the observed delta, sits well inside what 14 independently rounded components can produce, and quotes the note printed on p36 (`Note: Details may not add to totals due to rounding.`), which the render confirms.
+- **DESIGN §4a:** the unit holds three balance columns and no flow column, so the column roll-up is the only identity class available inside it. The roll-forward (opening balance + net purchases = closing balance) needs Table 6 Schedule D's transaction columns and is declared there (`#568`). **0 identity classes missing.**
+- Roles: 42 `leaf`, 3 `total`, 0 `standalone`; every leaf feeds a relation, every total is targeted, no duplicate equations. Relations 3 = manifest floor 3; standalones 0 = waiver 0.
+
+### 3. Labels, header geometry, and metadata
+
+- **Rows:** labels 1–14 are verbatim. `r15` shortens the printed two-line label `Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D` to `Total Trust Fund Investments Held from Table 6-D`, as the June, July and August twins do.
+- **Columns:** the render shows `Beginning of` spanning two sub-columns (`This Year`, `This Month`) and `Close of` over `This Month`, i.e. *Beginning of This Year | Beginning of This Month | Close of This Month*. The transcriber's reading of the header rules is correct. The unit labels column 2 `Close of Prior Month (This Month open)` — the wording the family has carried since June — and `unit_note` records the printed wording next to it. See §6.
+- **Metadata:** `page` 36, `period` September FY2026 (title prints `as of September 30, 2026`), and `USD millions` (`[$ millions]`) all agree with the print.
+
+### 4. Cross-table and cross-month ties
+
+| Tie | Result |
+|---|---|
+| `#581` r15 c1/c2/c3 ↔ `#568` r40 (`Total Trust Funds`) c4/c5/c6 | `6,274,791 / 6,519,041 / 6,521,221` — exact, as audit #580 predicted |
+| Seven funds printed 1:1 in both tables (Airport and Airway, Highways, Military Retirement, Unemployment, Supplementary Medical Insurance, Old-Age and Survivors Insurance, Disability Insurance) ↔ `#568` r16 / r17 / r24 / r12 / r8 / r31 / r32, c4/c5/c6 | 21 of 21 values byte-match |
+| September *Beginning of This Month* ↔ August *Close of This Month* (`2026-08-table8-investments` c3), all 15 rows | 15 of 15 byte-match |
+| *Beginning of This Year* unchanged from the August unit, all 15 rows | 15 of 15 byte-match |
+
+The same two month-to-month checks also hold for June→July and July→August (90 comparisons across the three pairs, 0 breaks). The May unit uses a different row-label scheme and was not joined.
+
+### 5. Session claims and regression gates
+
+- `af068fe` exists, is authored `kenrinzero <…@users.noreply.github.com>`, and touches exactly three files: the new unit, `BACKLOG.md` and `NEXT.md`. `git ls-remote origin main` returns `af068fece8ffe5ddbed7643b7d499346d3cbd6e8`, so "pushed" is true.
+- The `BACKLOG.md` row and the `NEXT.md` entry agree with the file (15 rows / 45 cells / 3 relations, tolerances 2 / exact / 1, both ties).
+- Unit reconcile **GREEN, 0 warnings**; `uv run python reconcile.py --all` **581/581 GREEN**; `uv run pytest` **23/23**. The unit file is strict UTF-8, LF-only, no BOM, no C0 control bytes, with a final newline.
+
+### 6. Observations (outside the defect taxonomy)
+
+- **Column 2 carries a corpus label, not the printed one.** The print says `Beginning of This Month`; the unit says `Close of Prior Month (This Month open)`. The two mean the same balance and the note discloses it, so nothing is wrong with the value. But `unit_note` calls this "the Table 6-D account-balance wording", and Table 6 Schedule D prints `Beginning of … This Month` too — the wording is a corpus convention, not a printed header anywhere. No change made here; a family-wide wording decision belongs to the label item in [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md).
+- **The transcriber reused its own audit-#580 extraction for this unit.** That is allowed (it was auditing a different agent's batch then, and this audit covers its unit now) and the values are right. It does mean #581 had no second extraction until this entry.
+- **Cadence.** #590's auditor may still take `#581–#590` as one batch if a single agent ships them; this entry does not move the cadence.
+
+---
