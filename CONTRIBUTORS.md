@@ -30,7 +30,7 @@ this table is the authoritative mapping to model identity.
 | Gemini 3.8 Flash | Antigravity | Antigravity |
 | Gemini 4 Neon | Antigravity | Gemini 4 Neon (XHigh), Gemini 4 Neon (High) |
 | Gemini 4 Argon | Antigravity | Gemini 4 Argon (High) |
-| Gemini 4 Carbon | Antigravity | Gemini 4 Carbon (Medium) |
+| Gemini 4 Carbon | Antigravity | Gemini 4 Carbon (Medium), Gemini 4 Carbon (High) |
 | Gemini 4 Hydrogen | Antigravity | Gemini 4 Hydrogen (High) |
 | GPT-5.6 Terra | Codex | Codex |
 | GPT-5.6 Sol | Codex | Codex |

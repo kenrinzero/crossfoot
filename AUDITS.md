@@ -5067,7 +5067,7 @@ GLM 5.3 Flash audited `#611`–`#620` and later transcribed `#621`–`#629`, whi
 
 ## Directed follow-up: May–August Table 2/3, the `#649` r21 source-check entry and final newlines
 
-**Done 2026-11-27 by Claude Opus 5.5 (Claude Code), on the user's instruction**, after the closing audit of `#661` recommended all three. No cell value changed anywhere. **A different-agent check of this pass is due** (`NEXT.md`); nothing is blocked on it.
+**Done 2026-11-27 by Claude Opus 5.5 (Claude Code), on the user's instruction**, after the closing audit of `#661` recommended all three. No cell value changed anywhere. **Independently verified GREEN 2026-11-27 by Antigravity (Gemini 4 Carbon (High))** — see [Directed audit of `1d5ff8f`](#directed-audit-2026-11-27-1d5ff8f) below.
 
 ### 1. Table 2 and Table 3 period headers, May–August
 
@@ -5105,5 +5105,62 @@ The cause, measured: pdfplumber puts `-2` (x 408.9–415.1) on the line whose to
 ### 5. Gates
 
 Sweep **661/661 GREEN**; pytest **43/43**. `tools/sourcecheck.py --all`: **0 mismatches, 0 stale exceptions in 661 units**, exit 0. The 80 October units have 1,216 of 1,216 rows on one printed line and clean column by column, with 6,383 cells on their printed number (one row counted under the new exception). Every touched file is strict UTF-8, LF only, no BOM, no C0 bytes, with a final newline. Nothing under `schema/`, `sources/` or `reconcile.py` changed. Scripts are in the local, gitignored `scratchpad/closing-audit-661-opus/`.
+
+---
+
+<a id="directed-audit-2026-11-27-1d5ff8f"></a>
+
+## Directed audit of `1d5ff8f`: May–August Table 2/3, the `#649` r21 source-check entry and final newlines
+
+**Verdict: GREEN, 2026-11-27.** Antigravity (Gemini 4 Carbon (High)) independently audited commit `1d5ff8f` (`b2d6221..1d5ff8f`, 76 files) by Claude Opus 5.5 (Claude Code) — a different agent and model family, satisfying the project's independence rule. Every change across the 16 May–August Table 2/3 units, `tools/sourcecheck.py` (`shifted_line`) and `tools/sourcecheck-exceptions.json` (`#649` `r21c3`), the 55 final-newline additions, `tests/`, and `README.md` holds with **0 defects and 0 repairs required**.
+
+| Field | Value |
+|---|---|
+| **Commit audited** | `1d5ff8f3bbc8e9a7f067ee7f768fe76d42759215` (diffed against parent `b2d6221`) |
+| **Scope** | 76 files: 16 May–August Table 2/3 `.cells.json` units, 51 newline-only `.cells.json` units (+ the 4 May Table 2/3 units = 55 final newlines), `tools/sourcecheck.py`, `tools/sourcecheck-exceptions.json`, `tests/test_reconcile.py`, `tests/test_sourcecheck.py`, and 5 docs |
+| **Sources** | `sources/treasury-mts/mts-202605.pdf`–`mts-202610.pdf` (all 6 SHA-256 hashes and byte sizes re-verified against [sources/SOURCES.md](sources/SOURCES.md)) |
+| **Author** | Claude Opus 5.5 (Claude Code), 2026-11-27 |
+| **Auditor** | Antigravity (Gemini 4 Carbon (High)) — different agent and model family |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN** — 0 defects, 0 repairs; nothing remains open in `NEXT.md` |
+
+### 1. The 16 May–August Table 2/3 units (headers, 18 added sums, role flips, value preservation)
+
+- **Independent header and page check.** Visually read 3.0× `pypdfium2` renders of printed pages 5 (Table 2) and 8 (Table 3) across **all four statements** (`mts-202605.pdf` through `mts-202608.pdf`), alongside `pdfplumber` layout extraction (decoding `(cid:NN) → chr(NN+29)` on May) and an independent `pypdfium2` text extraction (decoding the `+29` shifted glyph stream on May p8). All four months print the exact headers restored in September by Audit `#510`:
+  - **Table 2 (5 columns):** `This Month` · `Current Fiscal Year to Date` · `Budget Estimates Full Fiscal Year` · `Comparable Prior Period Year to Date (2025)` · `Budget Estimates Next Fiscal Year (2027)`.
+  - **Table 3 (4 columns):** `This Month` · `Current Fiscal Year to Date` · `Comparable Prior Period Year to Date` · `Budget Estimates Full Fiscal Year`.
+  - Across the 16 units, **34 column labels** changed (`4` per Table 2 unit × 4; `3` per May Table 3 unit × 3; `1` per June–August Table 3 unit × 9), bringing all 16 units into byte-for-byte column-header agreement with September (`#503`–`#506`).
+- **Positional and value preservation.** `tools/sourcecheck.py` over the 16 units reports **272 rows, 272 on one printed line, 272 clean column by column, 1,060 cells on their printed number, 80 missing cells on `......`, 0 mismatches**. A field-by-field structural diff against `b2d6221` across all 16 files proved `table_id`, `title`, `source`, `scale`, `rows`, cell count (`1,060`), cell order, `id`, `row`, `col`, `value`, `unit`, and all **213 pre-existing relations** (exact prefix) **100% unchanged** (`0` value or grid changes). Every `unit_note` preserves its prior text verbatim and appends one accurate dated sentence; the three `BACKLOG.md` annotations (`#255`, `#346`, `#426`) match their files.
+- **18 newly declared on/off-budget balance sums (`#255`, `#346`, `#426`).** Six `Outlays + Surplus/Deficit = Receipts` sums (`r10c{1..3} + r13c{1..3} = r2c{1..3}` and `r11c{1..3} + r14c{1..3} = r3c{1..3}`) were appended to each of the June, July, and August `table3-outlays-remainder` units (`14 → 20` relations each; column 4 `Budget Estimates Full Fiscal Year` prints `......` on all three surplus/deficit rows across all four p8 renders, so no column-4 balance exists). All six `table3-outlays-remainder` units across May–October now declare the identical 20-equation `(target, sorted(sources))` graph. Recomputing all **18** added sums (and all **231** relations across the 16 units) in exact `Decimal`:
+  - `2026-06-table3-outlays-remainder` (`#255`): **6 exact, 0 `tol="1"`**.
+  - `2026-07-table3-outlays-remainder` (`#346`): **3 exact, 3 `tol="1"`** (`r3c2`: `1,241,911 + (−116,122) = 1,125,789` vs `1,125,790`, `+1`; `r2c3`: `4,809,658 + (−1,547,760) = 3,261,898` vs `3,261,897`, `−1`; `r3c3`: `1,165,495 + (−80,755) = 1,084,740` vs `1,084,741`, `+1`).
+  - `2026-08-table3-outlays-remainder` (`#426`): **4 exact, 2 `tol="1"`** (`r2c2`: `5,430,219 + (−1,814,304) = 3,615,915` vs `3,615,916`, `+1`; `r2c3`: `5,365,229 + (−1,857,883) = 3,507,346` vs `3,507,347`, `+1`).
+  - Every non-zero `tol` equals the exact observed `|delta|`, is `< len(sources)` (`1 < 2`), and quotes the rounding note printed at the foot of p8 (`Note: Details may not add to totals due to rounding.`, verified on both renders and text layers). An offsetting `±5` mutation on `r2c1`/`r3c1` in scratch copies (invisible to the pre-`1d5ff8f` `On + Off = Total` sum) fails both new balance relations in all three units.
+- **Role count clarification (minor prose note, no defect).** The commit summary and `NEXT.md` queue line refer to *"six role changes"* (`r2c1..c3` and `r3c1..c3`: `leaf → total`); that is **6 cell positions per unit × 3 units (`#255`, `#346`, `#426`) = 18 cell role flips in total**, matching September (`#506`) and October (`#586`). (May's `2026-05-table3-outlays-remainder` already declared all 20 sums from July with `leaf` on those 6 intermediate cells, which also satisfies `DESIGN.md` §4 because they feed `r1c1..c3`; because `leaf + total` is unchanged under `leaf → total`, the corpus's arithmetic-covered cell count stays `51,457`.)
+
+### 2. `shifted_line` in `tools/sourcecheck.py` and the `#649` `r21c3` exception
+
+- **Physical measurement and visual verification on `mts-202610.pdf` p30.** Inspected raw `pdfplumber` character dicts on p30 (`y = 485..530`) and visually read both the full 3.0× p30 render and a zoomed crop of the HUD Housing Programs rows:
+  - On row 21 (`FHA-General and Special Risk Fund`), the page prints `-118 | -118 | -201 | 11,087 | 11,087 | 10,969`. On the render itself, the `01` of `-201` (and the third `(**)` on the next line, `Home Ownership Preservation Entity Fund`) sits visibly lower than the rest of its row.
+  - In `pdfplumber`, the row's label starts at `top = 502.55` pt (`size = 7.00`); `-` (`x = 408.92–411.25`) and `2` (`x = 411.25–415.15`) sit at `top = 503.94` pt (`+1.39` pt); `0` (`x = 415.15–419.04`) and `1` (`x = 419.04–422.93`, aligned to column 3's `~422.91` pt right edge) sit at `top = 504.76` pt — **`504.76 − 502.55 = 2.21` pt**, `0.01` pt past `LINE_PITCH = 2.2`, while neighboring rows sit `~9.80` pt apart (`492.75`, `502.55`, `512.35`).
+  - Diffing `page_lines` across all seven pages searched for `#649` (`pp28–34`) at `pitch = 2.2` vs `pitch = 2.5` confirmed that across `pp28–32`, `pitch = 2.5` changes **only that single line** on p30 (`72 → 71` lines, reuniting `01` with `FHA-General and Special Risk Fund -118 -118 -2 11,087 11,087 10,969`), with zero adjacent-row merges. Re-summing `#649` column 3's 11 numeric detail lines gives **`72` exact** (`r38c3 = 72`) with `-201`.
+- **Tool and test verification.** Reviewed `tools/sourcecheck.py`, `tools/sourcecheck-exceptions.json`, and `tests/test_sourcecheck.py`, and ran five adversarial checks against the real `#649` and `mts-202610.pdf`:
+  1. Default-pitch pages stay cached under `(str(path), two_columns)`; only the named row uses `pitch = 2.5`, and its `RowResult` still runs through reading-order chaining, frame construction, and full column-level comparison in `check_columns`.
+  2. With the shipped entry: `38/38` rows on one printed line and clean column by column (`156` cells present, `72` marker omissions, `known-shifted-line = 1`, `0` mismatches, `0` stale).
+  3. Without the entry: fails with `ROW` mismatch on `r21` (`lacks -201`).
+  4. Mutating `r21c3` (`-201 → -202`): fails with both `ROW` mismatch and `STALE` (`the unit no longer holds -201 there`).
+  5. Mutating `r21c4` (`11087 → 11088`) or swapping `r21c1`/`r21c3` (`-118` ↔ `-201`): fails at `ROW` level (`lacks 11088`) and at `COLUMN` level (`r21c1` and `r21c3` reported out of column), confirming the entry does not bypass either check.
+
+### 3. Final newlines, encoding gate, and `README.md` statistics
+
+- **Byte-exact check across all 661 units.** At `b2d6221`, exactly **55** `.cells.json` files lacked a trailing LF (`36` May `treasury-mts`, `7` `census-p60`, `5` `omb`, `5` `sec-10k`, `2` `bls-cpi`; together with `#661` repaired in `b2d6221`, 56 units on 2026-11-27 as noted in `tests/test_reconcile.py`). All **51** non-Table-2/3 files equal `git show b2d6221:<path> + b"\n"` byte for byte; the remaining **4** are the May Table 2/3 units. All **661** corpus `.cells.json` files now strictly decode as UTF-8, contain zero `\r`, zero UTF-8 BOM, and zero stray C0 control bytes, and end with `\n`, locked by `test_corpus_is_utf8_lf_without_bom`.
+- **`README.md` statistics re-derived from disk.** Independently recomputed across all 661 units: `661` units (`485 / 91 / 55 / 12 / 11 / 7`), `63,212` cells (`51,457` = `81.4%` by arithmetic; `11,755` = `18.6%` `standalone`), `44` zero-relation units (`3,231` cells: `22` Census, `7` OMB, `13` Treasury, `2` SEC), `12,438` relations (`11,849` sums, `589` percent closures), `7,865` exact sums and `3,984` with nonzero tolerance, `74` tolerances above 1 ULP per source (`64` Census, `6` `#318`, `4` BLS), and `299` non-default percent closures — every figure in `README.md` matches 1:1. Updated `CONTRIBUTORS.md` to map `Gemini 4 Carbon (High)` alongside `(Medium)` under `Gemini 4 Carbon` (`47` model identities across `23` harnesses unchanged).
+
+### 4. Regression gates
+
+- `uv run --locked pytest`: **43/43 passed**.
+- `uv run --locked python reconcile.py --all`: **661/661 GREEN** (0 warnings).
+- `uv run --group sourcecheck python tools/sourcecheck.py --all`: **0 mismatches, 0 stale exceptions in 661 units** (`treasury-mts` `7,782/7,782` rows, `46,384` cells; `census-p60` `1,291/1,291`; `omb` `1,491/1,491`; `fec` `347/347` + `52` combined; `bls-cpi` `329/329`; `sec-10k` `245/245`; exit 0).
+- Nothing under `tables/`, `schema/`, `sources/`, `tools/`, `tests/`, or `reconcile.py` changed in this audit. Verification scripts and 3.0× renders are in the local, gitignored `scratchpad/audit-1d5ff8f-carbon/`.
 
 ---
