@@ -7,7 +7,7 @@
     "title": "Budget Receipts block of Table 3",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Four period columns as printed on Table 3.",
+  "unit_note": "USD millions. Four period columns as printed on Table 3. Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,

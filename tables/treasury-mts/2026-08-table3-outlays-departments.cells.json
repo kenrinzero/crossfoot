@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (the sibling remainder unit holds the totals, and the department detail itself is Table 5's). Row COUNT is the check that matters here: strict coverage cannot see a missing standalone row. HUD FYTD prints 61,687 with footnote 1 (\"Amount increased by $14 million due to additional reporting for the month of July 2026.\"); State FYTD prints 24,892 with footnote 2 (\"Amount decreased by $36 million due to additional reporting for the month of July 2026.\"). The text layer glues those markers as 161,687 and 224,892; both resolved against the page-8 render.",
+  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (the sibling remainder unit holds the totals, and the department detail itself is Table 5's). Row COUNT is the check that matters here: strict coverage cannot see a missing standalone row. HUD FYTD prints 61,687 with footnote 1 (\"Amount increased by $14 million due to additional reporting for the month of July 2026.\"); State FYTD prints 24,892 with footnote 2 (\"Amount decreased by $36 million due to additional reporting for the month of July 2026.\"). The text layer glues those markers as 161,687 and 224,892; both resolved against the page-8 render. Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,

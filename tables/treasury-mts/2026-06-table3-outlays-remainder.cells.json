@@ -7,7 +7,7 @@
     "title": "Table 3 remainder block",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... cells omitted. SSA/Independent/UOR/Allowances standalone; On/Off decompositions as sums.",
+  "unit_note": "USD millions. ...... cells omitted. SSA/Independent/UOR/Allowances standalone; On/Off decompositions as sums. Column headers restored to the printed page-8 wording on 2026-11-27, and the on-budget and off-budget balances declared for each of the three actual periods, as in the May and September units.",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,
@@ -118,21 +118,21 @@
       "row": 2,
       "col": 1,
       "value": "374809",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c2",
       "row": 2,
       "col": 2,
       "value": "3128165",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c3",
       "row": 2,
       "col": 3,
       "value": "3019723",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r2c4",
@@ -146,21 +146,21 @@
       "row": 3,
       "col": 1,
       "value": "120952",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c2",
       "row": 3,
       "col": 2,
       "value": "1023245",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c3",
       "row": 3,
       "col": 3,
       "value": "988424",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r3c4",
@@ -587,6 +587,60 @@
       ],
       "target": "r9c4",
       "note": "On+Off Outlays=Total"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r13c1"
+      ],
+      "target": "r2c1",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "target": "r3c1",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r13c2"
+      ],
+      "target": "r2c2",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "target": "r3c2",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r13c3"
+      ],
+      "target": "r2c3",
+      "note": "On-budget outlays + surplus/deficit = on-budget receipts"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r14c3"
+      ],
+      "target": "r3c3",
+      "note": "Off-budget outlays + surplus/deficit = off-budget receipts"
     }
   ]
 }

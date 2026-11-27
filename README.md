@@ -60,8 +60,8 @@ Figures are for the 661 units as of 2026-11-27. GREEN means a unit passes
 `reconcile.py` with zero coverage warnings.
 
 **By arithmetic: 51,457 of 63,212 cells (81.4%).** These are the `leaf`
-and `total` cells. Each takes part in at least one of the 12,420 declared
-relations (11,831 sums, 589 percent closures), and `reconcile.py`
+and `total` cells. Each takes part in at least one of the 12,438 declared
+relations (11,849 sums, 589 percent closures), and `reconcile.py`
 re-derives every relation on every run.
 
 **Not by arithmetic: 11,755 cells (18.6%).** These are `standalone`:
@@ -120,7 +120,7 @@ Whole-corpus run through unit #581 on 2026-11-27:
 | `sec-10k` | 245 | 245 | 245 |
 | `fec` | 399 | 347 | 347 |
 
-Three documented exceptions are checked in their own way, not skipped.
+Four documented exceptions are checked in their own way, not skipped.
 One Census cell holds `0` where the page prints `Z` (rounds to zero): the
 tool looks for that `Z` on the row's line and in the cell's column. The 52
 rows of the four FEC summary units gather the columns of five printed
@@ -128,7 +128,11 @@ blocks, so no single line carries them: every one of their values must be
 printed somewhere in the document, and their columns are not compared.
 And the FEC results print `Total Electoral Votes Needed to Win = 270` as
 a sentence under the table: the tool checks that the figure is on that
-line and in none of the table's columns.
+line and in none of the table's columns. Finally, the October statement
+prints `-201` on one Table 6-E line, but its character layer sets the
+last two digits 2.21 points lower, just past the tool's 2.2-point line
+grouping. Only that row is read again with characters grouped up to 2.5
+points apart; it must then pass both levels like any other row.
 
 The first whole-corpus run flagged two rows, neither with a wrong value:
 that FEC figure, and a May Treasury total row that held three of the nine
@@ -159,7 +163,7 @@ and the first findings are in
 
 ### Tolerances
 
-7,852 of the 11,831 sums close exactly. The other 3,979 carry a nonzero
+7,865 of the 11,849 sums close exactly. The other 3,984 carry a nonzero
 tolerance equal to the observed difference, each with a `why`. In all but six of
 them the `why` is the source's own rounding note. 74 are larger than one
 unit of the last printed digit per source, so they are not ordinary
@@ -201,14 +205,14 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 - **Column positions.** Compared for the whole corpus through unit #581
   on 2026-11-27 ([above](#what-covers-the-cells-arithmetic-cannot-see)),
   with nothing left open. A unit shipped later is covered once an auditor
-  has run the tool on it. The 80 October units have been: 1,215 of 1,216
-  rows clean. The flagged row (`2026-10-table6-schedule-e-guaranteed`
-  r21) holds the printed −201, which sits on a shifted baseline; whether
-  to record it as an exception is the user's decision.
+  has run the tool on it. The 80 October units have been, and with the
+  documented `-201` exception above every one of their rows is clean.
 - **Labels.** Row and column labels sometimes use the corpus's wording
   rather than the printed header. The Treasury Table 6 units label
   column 5 with the printed "Beginning of This Month" (checked against
-  every page header on 2026-11-27), but the six Table 8 units still
+  every page header on 2026-11-27), and the May–September Table 2 and
+  Table 3 units carry their printed period headers (checked on renders
+  the same day), but the six Table 8 units still
   call the same printed heading "Close of Prior Month", and other
   column labels carry additions the page does not print (a qualifier
   in parentheses, or " — end"). Labels were never checked corpus-wide.

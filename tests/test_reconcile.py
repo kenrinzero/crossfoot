@@ -189,12 +189,14 @@ def test_corpus_is_utf8_lf_without_bom():
     # .gitattributes pins it going forward; this is what fails if it drifts.
     # Byte literals are built numerically so this file can never itself be
     # mangled by an escape-interpreting edit - the defect class it guards.
-    cr, bom = bytes([13]), bytes([239, 187, 191])
+    # The final newline (.editorconfig) is checked too: audit records list it
+    # among their gates, and 56 units lacked it until 2026-11-27.
+    cr, lf, bom = bytes([13]), bytes([10]), bytes([239, 187, 191])
     offenders = []
     for p in sorted((ROOT / "tables").glob("**/*.cells.json")):
         raw = p.read_bytes()
         raw.decode("utf-8")  # strict - mojibake or stray bytes raise here
-        if cr in raw or raw.startswith(bom):
+        if cr in raw or raw.startswith(bom) or not raw.endswith(lf):
             offenders.append(p.relative_to(ROOT).as_posix())
     assert offenders == []
 

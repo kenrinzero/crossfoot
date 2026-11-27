@@ -262,6 +262,44 @@ def test_combined_rows_exception_still_wants_every_value_printed():
     assert "999 is not printed anywhere" in mismatch.text
 
 
+def test_shifted_line_exception_reads_one_row_with_a_wider_pitch():
+    def chars_of(shift, middle="5"):
+        chars = []
+        for n, (label, entries) in enumerate(PRINTED):
+            top = 100.0 + 10.0 * n
+            chars += glyphs(label, 20.0 + 4.0 * len(label), top)
+            for right, entry in zip(COLUMNS, entries):
+                chars += glyphs(entry, right, top)
+        top = 140.0  # a fifth row whose first number prints -2 on the line and 01 `shift` points lower
+        chars += glyphs("Delta", 40.0, top) + glyphs("-2", 292.0, top) + glyphs("01", 300.0, top + shift)
+        return chars + glyphs(middle, 360.0, top) + glyphs("9", 420.0, top)
+
+    rows = copy.deepcopy(ROWS)
+    rows[5] = {1: "-201", 2: "5", 3: "9"}
+    u = unit(rows)
+    entry = {"unit": "synthetic/unit", "cell": "r5c1", "value": "-201", "pitch": 2.5, "reason": "test"}
+
+    def run(chars, known):
+        sources = sc.Sources()
+        sources._cache[(str(u.source), False)] = [sc.page_lines(chars, 1, 612.0, 792.0)]
+        sources._cache[(str(u.source), False, 2.5)] = [sc.page_lines(chars, 1, 612.0, 792.0, pitch=2.5)]
+        exceptions = sc.Exceptions(known)
+        mismatches, tally = sc.check_unit(u, sources, exceptions)
+        return mismatches, tally, exceptions.stale({"synthetic/unit"})
+
+    # 2.3 points low: the usual reading splits -201 into -2 and 01
+    assert [(m.level, m.row) for m in run(chars_of(2.3), NO_EXCEPTIONS)[0]] == [("row", 5)]
+    mismatches, tally, stale = run(chars_of(2.3), {"shifted_line": [entry]})
+    assert mismatches == [] and stale == [] and tally["known-shifted-line"] == 1
+    assert tally["column-rows-ok"] == 5
+    # the entry is a check, not a pass: a wrong value elsewhere in the row still fails
+    mismatches, _, _ = run(chars_of(2.3, middle="6"), {"shifted_line": [entry]})
+    assert [(m.level, m.row) for m in mismatches] == [("row", 5)]
+    # on its line after all: the row passes and the entry is reported as no longer needed
+    mismatches, _, stale = run(chars_of(1.0), {"shifted_line": [entry]})
+    assert mismatches == [] and len(stale) == 1 and "without the entry" in stale[0]
+
+
 def test_stale_exceptions_are_reported():
     known = sc.Exceptions({
         "printed_as": [{"unit": "synthetic/unit", "cell": "r1c1", "value": "0", "printed": "Z", "reason": "test"}],
@@ -281,7 +319,11 @@ def test_stale_exceptions_are_reported():
 
 def test_shipped_exceptions_file_is_well_formed():
     doc = json.loads(sc.EXCEPTIONS_FILE.read_text(encoding="utf-8"))
-    assert set(doc) == {"about", "printed_as", "combined_rows", "free_standing"}
+    assert set(doc) == {"about", "printed_as", "combined_rows", "free_standing", "shifted_line"}
+    for entry in doc["shifted_line"]:
+        assert set(entry) == {"unit", "cell", "value", "pitch", "reason"} and entry["reason"]
+        assert sc.LINE_PITCH < entry["pitch"] < 5  # a fraction of a point wider, far below a row's pitch
+        assert (ROOT / "tables" / (entry["unit"] + ".cells.json")).is_file()
     for entry in doc["printed_as"]:
         assert set(entry) == {"unit", "cell", "value", "printed", "reason"} and entry["reason"]
         assert (ROOT / "tables" / (entry["unit"] + ".cells.json")).is_file()

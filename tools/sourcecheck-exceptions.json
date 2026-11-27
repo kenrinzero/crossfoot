@@ -1,5 +1,5 @@
 {
-  "about": "Known exceptions of tools/sourcecheck.py. Each entry is checked, not skipped: a printed_as cell must sit on the marker it names, every value of a combined row must be printed somewhere in its source, and a free_standing figure must be printed on its line outside the unit's columns. An entry that no longer applies is reported as stale. A new entry is the user's decision and carries its reason.",
+  "about": "Known exceptions of tools/sourcecheck.py. Each entry is checked, not skipped: a printed_as cell must sit on the marker it names, every value of a combined row must be printed somewhere in its source, a free_standing figure must be printed on its line outside the unit's columns, and a shifted_line row, read again with characters grouped up to the entry's pitch apart, must be found on one printed line and pass the column check. An entry that no longer applies is reported as stale. A new entry is the user's decision and carries its reason.",
   "printed_as": [
     {
       "unit": "census-p60/2023-income-a6-ft-pct-workers",
@@ -37,6 +37,15 @@
       "cell": "r53c1",
       "value": "270",
       "reason": "Page 1 prints 'Total Electoral Votes Needed to Win = 270' as a sentence under the table, not in a column. The unit keeps the figure in column 1 and says so in the row label and the cell's why. Recorded on the user's decision, 2026-11-27."
+    }
+  ],
+  "shifted_line": [
+    {
+      "unit": "treasury-mts/2026-10-table6-schedule-e-guaranteed",
+      "cell": "r21c3",
+      "value": "-201",
+      "pitch": 2.5,
+      "reason": "Page 30 prints -201 on the FHA-General and Special Risk Fund line, but the character layer sets its last two digits 2.21 points below the top of the line, just past the 2.2-point line pitch, so the usual reading splits the number into -2 and 01. Read as -201 on the page render in the #640-#650 audit and again in the closing audit of #661; the prior-year column total (72) closes exactly over its 11 lines with -201. Recorded on the user's decision, 2026-11-27."
     }
   ]
 }

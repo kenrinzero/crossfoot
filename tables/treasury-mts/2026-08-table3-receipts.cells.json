@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Four period columns as printed on Table 3. This unit is the Budget Receipts block only (13 rows). Off-Budget total restates the single Employment and General Retirement (Off-Budget) line; those four cells are leaves of the On-Budget + Off-Budget = Total identity. U1 role repair 2026-09-17: values untouched.",
+  "unit_note": "USD millions. Four period columns as printed on Table 3. This unit is the Budget Receipts block only (13 rows). Off-Budget total restates the single Employment and General Retirement (Off-Budget) line; those four cells are leaves of the On-Budget + Off-Budget = Total identity. U1 role repair 2026-09-17: values untouched. Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,

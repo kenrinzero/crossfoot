@@ -5064,3 +5064,46 @@ GLM 5.3 Flash audited `#611`–`#620` and later transcribed `#621`–`#629`, whi
 **Outcome:** the October FY2027 MTS family (`#582`–`#661`) is shipped and audit-complete, 80 of 80. No cadence slot is open.
 
 ---
+
+## Directed follow-up: May–August Table 2/3, the `#649` r21 source-check entry and final newlines
+
+**Done 2026-11-27 by Claude Opus 5.5 (Claude Code), on the user's instruction**, after the closing audit of `#661` recommended all three. No cell value changed anywhere. **A different-agent check of this pass is due** (`NEXT.md`); nothing is blocked on it.
+
+### 1. Table 2 and Table 3 period headers, May–August
+
+The text layer of p5 (Table 2) and p8 (Table 3) was read for May–September, and the renders of both pages for May and August. May's text layer uses a font encoding shifted by 29 code points and was decoded for this. All five months print the same headers, the ones audit `#510` restored in September:
+
+- **Table 2:** This Month · Current Fiscal Year to Date · Budget Estimates Full Fiscal Year · Comparable Prior Period Year to Date (2025) · Budget Estimates Next Fiscal Year (2027).
+- **Table 3:** This Month · Current Fiscal Year to Date · Comparable Prior Period Year to Date · Budget Estimates Full Fiscal Year.
+
+The May–August Table 2 units carried the defect `#510` found in September: *Current* and *Comparable* attached to the estimate columns (*Current Budget Estimates Full Year*, *Comparable Budget Estimates Next Fiscal Year (2027)*), and *Fiscal Year to Date* / *Prior Fiscal Year to Date (2025)* without their qualifiers. The twelve Table 3 units lacked *Comparable*, and the three May ones also read *Fiscal Year to Date* and *Full Fiscal Year Budget Estimates*. The 16 units now carry the printed labels; column order and values are unchanged, and one sentence in each `unit_note` records the change.
+
+### 2. On/off-budget balances in the June–August Table 3 remainder units
+
+May, September and October declare that on-budget and off-budget receipts each equal the matching outlays plus the matching surplus or deficit, in the three actual periods. June, July and August declared only the combined balance (14 relations against 20). The cells were already there, so six sums per unit were added:
+
+| unit | sums added | exact | tol=1 |
+|---|---:|---:|---|
+| `2026-06-table3-outlays-remainder` (`#255`) | 6 | 6 | — |
+| `2026-07-table3-outlays-remainder` (`#346`) | 6 | 3 | `r3c2` +1, `r2c3` −1, `r3c3` +1 |
+| `2026-08-table3-outlays-remainder` (`#426`) | 6 | 4 | `r2c2` +1, `r2c3` +1 |
+
+Each tolerance equals the observed delta, is below the two sources, and quotes the p8 rounding note, which is on the July and August pages and already quoted by the units' other sums. `r2`/`r3` c1–c3 became `total`, as in September. A script compared every changed unit with `HEAD`: values, rows, sources and earlier relations identical. All 16 units reconcile GREEN with 0 warnings. The three `BACKLOG.md` rows are annotated.
+
+### 3. The `#649` r21 source-check entry
+
+The cause, measured: pdfplumber puts `-2` (x 408.9–415.1) on the line whose top is at 502.55 points, and `01` (x 415.1–422.9) on a line of its own at 504.76. That is 2.21 points apart, just past the tool's 2.2-point line pitch, so `-201` was split. On the user's decision:
+
+- **New exception kind `shifted_line`** in `tools/sourcecheck.py`. An entry names one cell, its value and a pitch. Only that row is read again with characters grouped up to that pitch apart (2.5 here, against about 10 points between printed rows), and it must then pass the row and the column level like any other row. The entry is reported stale when the row is found without it or the cell no longer holds the value. Pages at the usual pitch are cached and read exactly as before.
+- **Entry** in `tools/sourcecheck-exceptions.json`, with its reason: −201 was read on the render in the `#640`–`#650` audit and again in the closing audit of `#661`; the prior-year column total (72) closes exactly over its 11 lines with −201, and would miss by 199 with the split `-2`.
+- **Tests:** a new test covers the kind (passes with the entry, still fails a wrong value elsewhere in the row, stale when the row is on its line after all); the shipped-file test covers the new key. README and `RUNBOOK-auditor.md` list the fourth exception.
+
+### 4. Final newlines
+
+55 units gained the final newline `.editorconfig` asks for (36 May Treasury, 7 Census, 5 OMB, 5 SEC, 2 BLS). The 51 not otherwise changed equal their previous bytes plus one LF, checked byte for byte. `test_corpus_is_utf8_lf_without_bom` now also fails a unit without a final newline.
+
+### 5. Gates
+
+Sweep **661/661 GREEN**; pytest **43/43**. `tools/sourcecheck.py --all`: **0 mismatches, 0 stale exceptions in 661 units**, exit 0. The 80 October units have 1,216 of 1,216 rows on one printed line and clean column by column, with 6,383 cells on their printed number (one row counted under the new exception). Every touched file is strict UTF-8, LF only, no BOM, no C0 bytes, with a final newline. Nothing under `schema/`, `sources/` or `reconcile.py` changed. Scripts are in the local, gitignored `scratchpad/closing-audit-661-opus/`.
+
+---

@@ -221,7 +221,8 @@ def cluster(items, key, pitch=LINE_PITCH):
     return groups
 
 
-def page_lines(chars, page_no: int, width: float, height: float, two_columns: bool = False) -> list[Line]:
+def page_lines(chars, page_no: int, width: float, height: float, two_columns: bool = False,
+               pitch: float = LINE_PITCH) -> list[Line]:
     """The printed lines of one PDF page, from pdfplumber character dicts.
 
     Footnote superscripts are dropped by size. A page whose digits are mostly
@@ -258,7 +259,7 @@ def page_lines(chars, page_no: int, width: float, height: float, two_columns: bo
     lines = []
     if not rotated:
         middle = width / 2
-        for group in cluster(body, key=lambda g: g[1]["top"]):
+        for group in cluster(body, key=lambda g: g[1]["top"], pitch=pitch):
             parts = [(0, group)]
             split = two_columns and not any(g[1]["x0"] < middle < g[1]["x1"] for g in group)
             if split:
@@ -296,7 +297,7 @@ def page_lines(chars, page_no: int, width: float, height: float, two_columns: bo
 
         def across(c):
             return width - c["x1"]
-    for group in cluster(turned, key=lambda g: across(g[1])):
+    for group in cluster(turned, key=lambda g: across(g[1]), pitch=pitch):
         line = line_from_glyphs(
             [(g[0],) + along(g[1]) for g in group],
             page_no,
@@ -362,18 +363,19 @@ class Sources:
     def __init__(self):
         self._cache = {}
 
-    def pages(self, path: Path, two_columns: bool = False) -> list[list[Line]]:
-        key = (str(path), two_columns)
+    def pages(self, path: Path, two_columns: bool = False, pitch: float = LINE_PITCH) -> list[list[Line]]:
+        # a non-default pitch is asked for only by a shifted_line exception
+        key = (str(path), two_columns) if pitch == LINE_PITCH else (str(path), two_columns, pitch)
         if key not in self._cache:
             if path.suffix.lower() == ".pdf":
-                self._cache[key] = self._pdf(path, two_columns)
+                self._cache[key] = self._pdf(path, two_columns, pitch)
             else:
                 raw = path.read_text(encoding="utf-8", errors="replace")
                 self._cache[key] = [html_lines(raw)]
         return self._cache[key]
 
     @staticmethod
-    def _pdf(path: Path, two_columns: bool) -> list[list[Line]]:
+    def _pdf(path: Path, two_columns: bool, pitch: float = LINE_PITCH) -> list[list[Line]]:
         try:
             import pdfplumber
         except ImportError:
@@ -384,7 +386,7 @@ class Sources:
         pages = []
         with pdfplumber.open(str(path)) as pdf:
             for number, page in enumerate(pdf.pages, start=1):
-                pages.append(page_lines(page.chars, number, float(page.width), float(page.height), two_columns))
+                pages.append(page_lines(page.chars, number, float(page.width), float(page.height), two_columns, pitch))
                 page.flush_cache()
         if two_columns:
             align_text_columns(pages)
@@ -441,6 +443,13 @@ class Exceptions:
                    sentence of its own. The figure must be on the row's line
                    and outside every column of the unit, and the page must
                    print no number in the column the unit keeps it in.
+    shifted_line   a cell whose printed number the character layer sets a
+                   fraction of a point off the rest of its row, so that the
+                   usual grouping splits it from its line. Only that row is
+                   read again, with characters grouped up to the entry's pitch
+                   apart; it must then be found on one printed line and pass
+                   the column check like any other row. The entry is stale
+                   when the row is found without it.
     """
 
     def __init__(self, doc: dict | None = None):
@@ -448,7 +457,9 @@ class Exceptions:
         self.printed_as = {(e["unit"], e["cell"]): e for e in doc.get("printed_as", [])}
         self.combined = {e["unit"]: e for e in doc.get("combined_rows", [])}
         self.free_standing = {(e["unit"], e["cell"]): e for e in doc.get("free_standing", [])}
+        self.shifted = {(e["unit"], e["cell"]): e for e in doc.get("shifted_line", [])}
         self.used = set()
+        self.unneeded = set()
         self.rows_seen = {}
 
     @classmethod
@@ -475,12 +486,25 @@ class Exceptions:
         self.used.add((unit.name, cell["id"]))
         return True
 
+    def shifted_pitch(self, unit: Unit, cells: list[dict]):
+        """(entry key, pitch) when a cell of this row is listed as shifted_line."""
+        for cell in cells:
+            entry = self.shifted.get((unit.name, cell["id"]))
+            if entry is not None and entry["value"] == cell["value"]:
+                return (unit.name, cell["id"]), float(entry["pitch"])
+        return None
+
     def stale(self, checked_units: set) -> list[str]:
         """Entries that no longer describe the units that were checked."""
         out = []
-        for kind, entries in (("printed_as", self.printed_as), ("free_standing", self.free_standing)):
+        for kind, entries in (("printed_as", self.printed_as), ("free_standing", self.free_standing),
+                              ("shifted_line", self.shifted)):
             for (unit, cell), entry in entries.items():
-                if unit in checked_units and (unit, cell) not in self.used:
+                if unit not in checked_units:
+                    continue
+                if (unit, cell) in self.unneeded:
+                    out.append(f"{kind} {unit} {cell}: the row is found on one printed line without the entry")
+                elif (unit, cell) not in self.used:
                     out.append(f"{kind} {unit} {cell}: the unit no longer holds {entry['value']} there")
         for unit, entry in self.combined.items():
             if unit in checked_units and entry["rows"] != self.rows_seen.get(unit):
@@ -917,17 +941,21 @@ def check_columns(unit: Unit, results: dict, markers_by_row: dict, apart=frozens
 
 def check_unit(unit: Unit, sources: Sources, exceptions: Exceptions, levels=("row", "column")):
     """Check one unit against its source. Returns (mismatches, tally)."""
-    pages = sources.pages(unit.source, unit.family in TWO_COLUMN_FAMILIES)
-    doc = [line for page in pages for line in page]
-    if unit.source.suffix.lower() == ".pdf" and unit.page is not None:
-        near = [
-            line
-            for number, page in enumerate(pages, start=1)
-            if unit.page - NEAR_BEFORE <= number <= unit.page + NEAR_AFTER
-            for line in page
-        ]
-    else:
-        near = doc
+    def lines_at(pitch=LINE_PITCH):
+        pages = sources.pages(unit.source, unit.family in TWO_COLUMN_FAMILIES, pitch)
+        doc = [line for page in pages for line in page]
+        if unit.source.suffix.lower() == ".pdf" and unit.page is not None:
+            near = [
+                line
+                for number, page in enumerate(pages, start=1)
+                if unit.page - NEAR_BEFORE <= number <= unit.page + NEAR_AFTER
+                for line in page
+            ]
+        else:
+            near = doc
+        return near, doc
+
+    near, doc = lines_at()
     tally = Counter(units=1)
     mismatches: list[Mismatch] = []
     combined = exceptions.is_combined(unit)
@@ -961,6 +989,15 @@ def check_unit(unit: Unit, sources: Sources, exceptions: Exceptions, levels=("ro
             results[row] = RowResult("combined", [], [])
             continue
         result = check_row(values, list(markers.values()), near, doc)
+        shifted = exceptions.shifted_pitch(unit, cells)
+        if shifted is not None:
+            key, pitch = shifted
+            if result.scope is not None:
+                exceptions.unneeded.add(key)  # found without the entry: reported as stale
+            else:
+                exceptions.used.add(key)
+                tally["known-shifted-line"] += 1
+                result = check_row(values, list(markers.values()), *lines_at(pitch))
         results[row] = result
         if result.scope is None:
             tally["rows-not-found"] += 1
@@ -1021,6 +1058,7 @@ SUMMARY = [
     ("known-combined-rows", "known exception: rows that gather several printed blocks"),
     ("combined-rows-in-source", "of those, with every value printed in the source"),
     ("known-printed-as", "known exception: cells printed as a marker"),
+    ("known-shifted-line", "known exception: rows read again with a wider line pitch"),
     ("column-rows", "rows compared column by column"),
     ("column-rows-ok", "rows with every cell in its printed column"),
     ("column-rows-off", "rows with a cell OUT of its printed column"),

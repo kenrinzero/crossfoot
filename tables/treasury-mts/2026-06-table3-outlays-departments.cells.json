@@ -7,7 +7,7 @@
     "title": "Budget Outlays department lines (excluding totals/SSA/independent/UOR)",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (sibling remainder unit holds totals).",
+  "unit_note": "USD millions. Department-level outlay lines from Table 3; each is standalone because this unit does not re-declare the full outlay roll-up (sibling remainder unit holds totals). Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -19,7 +19,7 @@
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,

@@ -7,7 +7,7 @@
     "title": "Summary of Receipts and Outlays of the U.S. Government (Outlays Section: Legislative through SBA)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions ('[$ millions]' per table header). Values as printed, thousands separators stripped. Other Defense Civil Programs YTD adjusted to remove footnote superscript '3' (348223 -> 48223).",
+  "unit_note": "USD millions ('[$ millions]' per table header). Values as printed, thousands separators stripped. Other Defense Civil Programs YTD adjusted to remove footnote superscript '3' (348223 -> 48223). Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -15,15 +15,15 @@
     },
     {
       "index": 2,
-      "label": "Fiscal Year to Date"
+      "label": "Current Fiscal Year to Date"
     },
     {
       "index": 3,
-      "label": "Prior Period Year to Date"
+      "label": "Comparable Prior Period Year to Date"
     },
     {
       "index": 4,
-      "label": "Full Fiscal Year Budget Estimates"
+      "label": "Budget Estimates Full Fiscal Year"
     }
   ],
   "rows": [

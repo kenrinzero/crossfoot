@@ -7,7 +7,7 @@
     "title": "Summary of Budget and Off-Budget Results and Financing of the U.S. Government",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. '......' cells omitted, not transcribed as 0. Deficit values keep sign (negative = surplus for Surplus/Deficit rows).",
+  "unit_note": "USD millions. '......' cells omitted, not transcribed as 0. Deficit values keep sign (negative = surplus for Surplus/Deficit rows). Column headers restored to the printed wording on 2026-11-27 (labels only).",
   "columns": [
     {
       "index": 1,
@@ -15,19 +15,19 @@
     },
     {
       "index": 2,
-      "label": "Fiscal Year to Date"
+      "label": "Current Fiscal Year to Date"
     },
     {
       "index": 3,
-      "label": "Current Budget Estimates Full Year"
+      "label": "Budget Estimates Full Fiscal Year"
     },
     {
       "index": 4,
-      "label": "Prior Fiscal Year to Date (2025)"
+      "label": "Comparable Prior Period Year to Date (2025)"
     },
     {
       "index": 5,
-      "label": "Comparable Budget Estimates Next Fiscal Year (2027)"
+      "label": "Budget Estimates Next Fiscal Year (2027)"
     }
   ],
   "rows": [

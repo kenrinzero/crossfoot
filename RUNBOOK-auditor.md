@@ -44,7 +44,9 @@ read the rest of AUDITS.md or the log archives.
    - **Known exceptions** of the tool live in
      `tools/sourcecheck-exceptions.json` (the Census `Z` convention; the
      four FEC capstone units whose rows gather several printed blocks;
-     one FEC figure printed in a sentence under its table).
+     one FEC figure printed in a sentence under its table; one October
+     Treasury value whose last digits the character layer sets 2.21
+     points below its line).
      Each is still checked in its own way. Do not add an entry to make a
      run pass: a new entry is the user's decision, with the reason
      written into it.
