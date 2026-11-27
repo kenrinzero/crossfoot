@@ -1,0 +1,394 @@
+{
+  "table_id": "treasury-mts/2026-10-table6-schedule-a",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 6. Schedule A-Analysis of Change in Excess of Liabilities of the U.S. Government, October 2026 and Other Periods",
+    "page": 24,
+    "title": "Table 6. Schedule A",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Page 24, Table 6 Schedule A. Dots mark no transactions and are omitted. The Revisions by Federal Agencies line prints dots in both current columns. 10 sums (8 exact, 2 within 1; rounding note on p24): the prior-year current-basis opening, Total Surplus (-) or Deficit = On-Budget + Off-Budget, Total Transactions Not Applied, and the close of period in all three columns. The two that are off by 1 are the This Month and Fiscal Year to Date closes. The current-basis opening and the close (29,489,259 / 29,885,145) equal Table 6's Excess of Liabilities line on p23. The total deficit equals that table's financing line, and the total of transactions not applied is the negative of its line.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Excess of Liabilities Beginning of Period: Based on Composition of Unified Budget in Preceding Period"
+    },
+    {
+      "index": 2,
+      "label": "Adjustments During Current Fiscal Year for Changes in Composition of Unified Budget: Revisions by Federal Agencies to the Prior Budget Results"
+    },
+    {
+      "index": 3,
+      "label": "Excess of Liabilities Beginning of Period (Current Basis)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Surplus (-) or Deficit: Based on Composition of Unified Budget in Prior Fiscal Year"
+    },
+    {
+      "index": 5,
+      "label": "Total Surplus (-) or Deficit (Table 2)"
+    },
+    {
+      "index": 6,
+      "label": "Total-On-Budget (Table 2)"
+    },
+    {
+      "index": 7,
+      "label": "Total-Off-Budget (Table 2)"
+    },
+    {
+      "index": 8,
+      "label": "Transactions Not Applied: Premium/Discount on Buyback of U.S. Treasury Securities"
+    },
+    {
+      "index": 9,
+      "label": "Transactions Not Applied: Other"
+    },
+    {
+      "index": 10,
+      "label": "Total-Transactions Not Applied to Current Year's Surplus or Deficit"
+    },
+    {
+      "index": 11,
+      "label": "Excess of Liabilities Close of Period"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "29489259",
+      "role": "standalone",
+      "why": "The Revisions by Federal Agencies line prints dots in this column, so this figure is the only source of Excess of Liabilities Beginning of Period (Current Basis); a sum needs two sources (schema minItems: 2)."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "29489259",
+      "role": "standalone",
+      "why": "The Revisions by Federal Agencies line prints dots in this column, so this figure is the only source of Excess of Liabilities Beginning of Period (Current Basis); a sum needs two sources (schema minItems: 2)."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "27555955",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-39818",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "29489259",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "29489259",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "27516137",
+      "role": "total"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "404064",
+      "role": "standalone",
+      "why": "This is the only line printed under Budget Surplus (-) or Deficit, so it is the single source of Total Surplus (-) or Deficit (Table 2) (schema minItems: 2). That total is checked as On-Budget + Off-Budget instead."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "404064",
+      "role": "standalone",
+      "why": "This is the only line printed under Budget Surplus (-) or Deficit, so it is the single source of Total Surplus (-) or Deficit (Table 2) (schema minItems: 2). That total is checked as On-Budget + Off-Budget instead."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "284333",
+      "role": "standalone",
+      "why": "This is the only line printed under Budget Surplus (-) or Deficit, so it is the single source of Total Surplus (-) or Deficit (Table 2) (schema minItems: 2). That total is checked as On-Budget + Off-Budget instead."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "404064",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "404064",
+      "role": "total"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "284333",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "29471",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-8260",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-8260",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-1655",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "83",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "83",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "280",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-8177",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "-8177",
+      "role": "total"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-1375",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "29885145",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "29885145",
+      "role": "total"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "27799095",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3"
+      ],
+      "target": "r3c3",
+      "note": "Current-basis opening = preceding-period basis + revisions (Fiscal Year to Date Prior Year)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r5c1",
+      "note": "Total Surplus (-) or Deficit = On-Budget + Off-Budget (This Month)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r7c2"
+      ],
+      "target": "r5c2",
+      "note": "Total Surplus (-) or Deficit = On-Budget + Off-Budget (Fiscal Year to Date This Year)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r5c3",
+      "note": "Total Surplus (-) or Deficit = On-Budget + Off-Budget (Fiscal Year to Date Prior Year)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r10c1",
+      "note": "Total Transactions Not Applied = Premium/Discount on Buyback + Other (This Month)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r10c2",
+      "note": "Total Transactions Not Applied = Premium/Discount on Buyback + Other (Fiscal Year to Date This Year)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r9c3"
+      ],
+      "target": "r10c3",
+      "note": "Total Transactions Not Applied = Premium/Discount on Buyback + Other (Fiscal Year to Date Prior Year)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c1",
+        "r5c1",
+        "r10c1"
+      ],
+      "target": "r11c1",
+      "note": "Excess of Liabilities close = current-basis opening + total surplus or deficit + total transactions not applied (This Month).",
+      "tol": "1",
+      "why": "Table 6, page 24, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r5c2",
+        "r10c2"
+      ],
+      "target": "r11c2",
+      "note": "Excess of Liabilities close = current-basis opening + total surplus or deficit + total transactions not applied (Fiscal Year to Date This Year).",
+      "tol": "1",
+      "why": "Table 6, page 24, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c3",
+        "r5c3",
+        "r10c3"
+      ],
+      "target": "r11c3",
+      "note": "Excess of Liabilities close = current-basis opening + total surplus or deficit + total transactions not applied (Fiscal Year to Date Prior Year)."
+    }
+  ]
+}

@@ -1,0 +1,231 @@
+{
+  "table_id": "treasury-mts/2026-10-table6-schedule-b",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 6. Schedule B-Securities Issued by Federal Agencies Under Special Financing Authorities, October 2026 and Other Periods",
+    "page": 24,
+    "title": "Table 6. Schedule B",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Page 24, Table 6 Schedule B. Three lines print only dots and (**) and are left out, as in the earlier Table 6 units: Architect of the Capitol, Federal Communications Commission, and National Archives and Records Administration. Federal Housing Administration prints balances only. 7 sums (4 exact, 3 within 1; rounding note on p24). Total Agency Securities equals Table 6's Agency Securities line on p23 in all six columns.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Beginning of This Month (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Department of Housing and Urban Development: Federal Housing Administration"
+    },
+    {
+      "index": 2,
+      "label": "Tennessee Valley Authority"
+    },
+    {
+      "index": 3,
+      "label": "Total Agency Securities"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "19",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "500",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "500",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "500",
+      "role": "standalone",
+      "why": "Only the Tennessee Valley Authority line prints a prior-year transaction, so it is the single source of Total Agency Securities in this column (schema minItems: 2). The prior-year column has no roll-forward."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "20687",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "20687",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "21187",
+      "role": "total"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "500",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "500",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "500",
+      "role": "standalone",
+      "why": "Total Agency Securities has one numeric source in the prior-year column, the Tennessee Valley Authority line (schema minItems: 2), and this column has no roll-forward."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "20705",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "20705",
+      "role": "total"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "21205",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c1"
+      ],
+      "target": "r2c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Tennessee Valley Authority)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r2c2"
+      ],
+      "target": "r2c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Tennessee Valley Authority)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c1"
+      ],
+      "target": "r3c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Total Agency Securities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c4",
+        "r3c2"
+      ],
+      "target": "r3c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Agency Securities)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4"
+      ],
+      "target": "r3c4",
+      "note": "Total Agency Securities column 4 sum.",
+      "tol": "1",
+      "why": "Table 6, page 24, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5"
+      ],
+      "target": "r3c5",
+      "note": "Total Agency Securities column 5 sum.",
+      "tol": "1",
+      "why": "Table 6, page 24, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6"
+      ],
+      "target": "r3c6",
+      "note": "Total Agency Securities column 6 sum.",
+      "tol": "1",
+      "why": "Table 6, page 24, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

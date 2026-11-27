@@ -1,0 +1,501 @@
+{
+  "table_id": "treasury-mts/2026-10-table6-schedule-c-comm-energy",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 6. Schedule C (Memorandum)-Federal Agency Borrowing Financed Through the Issue of Treasury Securities, October 2026 and Other Periods",
+    "page": 25,
+    "title": "Table 6. Schedule C — Commerce through Energy",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Page 25, Table 6 Schedule C, Borrowing from the US Treasury: Commerce, Defense, Education and Energy. All 13 printed lines are kept. Economic Development Administration, listed in September, does not print in October. Only Federal Direct Student Loans and Teach Grant Loans print amounts for This Month, giving 4 roll-forwards (2 exact, 2 within 1; rounding note on p27). Dots and (**) are omitted.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Beginning of This Month (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Department of Commerce: National Oceanic and Atmospheric Administration: Fisheries Finance"
+    },
+    {
+      "index": 2,
+      "label": "Department of Defense--Military Programs: Family Housing Improvement Loans"
+    },
+    {
+      "index": 3,
+      "label": "Department of Defense--Military Programs: Defense Agencies"
+    },
+    {
+      "index": 4,
+      "label": "Department of Education: College Housing and Academic Facilities Loans"
+    },
+    {
+      "index": 5,
+      "label": "Department of Education: Historically Black College and University Capital Financing Fund"
+    },
+    {
+      "index": 6,
+      "label": "Department of Education: Federal Direct Student Loans"
+    },
+    {
+      "index": 7,
+      "label": "Department of Education: Teach Grant Loans"
+    },
+    {
+      "index": 8,
+      "label": "Department of Education: Temporary Student Loan Purchase Authority"
+    },
+    {
+      "index": 9,
+      "label": "Department of Education: Federal Family Education Loans"
+    },
+    {
+      "index": 10,
+      "label": "Department of Energy: Bonneville Power Administration Fund"
+    },
+    {
+      "index": 11,
+      "label": "Department of Energy: Western Area Power Administration - Recovery Act"
+    },
+    {
+      "index": 12,
+      "label": "Department of Energy: Advanced Technology Vehicles Manufacturing Loans"
+    },
+    {
+      "index": 13,
+      "label": "Department of Energy: Title 17 Innovative Technology Loans"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "567",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "567",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "567",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "1696",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "1696",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1696",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1451",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "1451",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1451",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "1",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "1",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "1",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "137",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "137",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "137",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "39524",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "39524",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "35800",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "1387140",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "1387140",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "1426663",
+      "role": "total"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "14",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "625",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "625",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "638",
+      "role": "total"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "20867",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "20867",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "20867",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "28355",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "28355",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "28355",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "-17",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "6946",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "6946",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "6946",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "76",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "76",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "76",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "176",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "176",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "176",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "3",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, spans five Schedule C unit files, so no vertical sum can be declared in this file."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r6c1"
+      ],
+      "target": "r6c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Department of Education: Federal Direct Student Loans)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r6c2"
+      ],
+      "target": "r6c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Education: Federal Direct Student Loans)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c5",
+        "r7c1"
+      ],
+      "target": "r7c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Department of Education: Teach Grant Loans)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c4",
+        "r7c2"
+      ],
+      "target": "r7c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Department of Education: Teach Grant Loans)"
+    }
+  ]
+}

@@ -1,0 +1,1303 @@
+{
+  "table_id": "treasury-mts/2026-10-table6-schedule-c-epa-ind",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 6. Schedule C (Memorandum)-Federal Agency Borrowing Financed Through the Issue of Treasury Securities, October 2026 and Other Periods",
+    "page": 26,
+    "title": "Table 6. Schedule C — EPA through Totals + FFB",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Pages 26-27, Table 6 Schedule C: EPA through Total Borrowing from the US Treasury, then Borrowing from the Federal Financing Bank. Two lines are all blank and left out: the HHS Health Maintenance Organization Loan and Loan Guarantee Fund (dots and (**)) and the Federal Deposit Insurance Corporation line above the Receiver line (all dots). September's Military Debt Reduction and FCC Spectrum Auction Loan Fund lines do not print. Page 27 repeats the header 'Borrowing from the US Treasury: - Continued' over Federal Financing Bank lines. 34 sums (25 exact, 9 within 1; rounding note on p27): 28 roll-forwards and all six Federal Financing Bank column totals. Total Borrowing from the US Treasury has no column sum here because its lines span five unit files; they foot to it within 3 in every column.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month (Net Transactions)"
+    },
+    {
+      "index": 2,
+      "label": "Fiscal Year to Date This Year (Net Transactions)"
+    },
+    {
+      "index": 3,
+      "label": "Fiscal Year to Date Prior Year (Net Transactions)"
+    },
+    {
+      "index": 4,
+      "label": "Beginning of This Year (Account Balance)"
+    },
+    {
+      "index": 5,
+      "label": "Beginning of This Month (Account Balance)"
+    },
+    {
+      "index": 6,
+      "label": "Close of This Month — end (Account Balance)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program"
+    },
+    {
+      "index": 2,
+      "label": "International Assistance Programs: International Security Assistance: Foreign Military Loan Program"
+    },
+    {
+      "index": 3,
+      "label": "International Assistance Programs: Agency for International Development: Development Credit Authority Loan Fund"
+    },
+    {
+      "index": 4,
+      "label": "International Assistance Programs: International Monetary Programs"
+    },
+    {
+      "index": 5,
+      "label": "International Assistance Programs: United States International Development Finance Corporation"
+    },
+    {
+      "index": 6,
+      "label": "Small Business Administration: Business Loan Fund"
+    },
+    {
+      "index": 7,
+      "label": "Small Business Administration: Disaster Loan Fund"
+    },
+    {
+      "index": 8,
+      "label": "Independent Agencies: Export-Import Bank of the United States"
+    },
+    {
+      "index": 9,
+      "label": "Independent Agencies: Presidio Trust"
+    },
+    {
+      "index": 10,
+      "label": "Independent Agencies: Railroad Retirement Board: Social Security Equivalent Benefit Account"
+    },
+    {
+      "index": 11,
+      "label": "Other: Borrowing from the US Treasury - Other"
+    },
+    {
+      "index": 12,
+      "label": "Total Borrowing from the US Treasury"
+    },
+    {
+      "index": 13,
+      "label": "FFB: Department of Agriculture: Rural Utilities Service: Rural Electrification and Telecommunications Fund"
+    },
+    {
+      "index": 14,
+      "label": "FFB: Department of Education: Historically Black College and University Capital Financing Fund"
+    },
+    {
+      "index": 15,
+      "label": "FFB: Department of Energy: Advanced Technology Vehicles Manufacturing Loans"
+    },
+    {
+      "index": 16,
+      "label": "FFB: Department of Energy: Title 17 Innovative Technology Loans"
+    },
+    {
+      "index": 17,
+      "label": "FFB: Department of Housing and Urban Development: Federal Housing Administration"
+    },
+    {
+      "index": 18,
+      "label": "FFB: Department of Transportation: Maritime Guaranteed Loan (Title XI) FFB Financing Account"
+    },
+    {
+      "index": 19,
+      "label": "FFB: Department of the Treasury: Community Development Financial Institutions Fund"
+    },
+    {
+      "index": 20,
+      "label": "FFB: Department of Veterans Affairs: Guaranteed Transitional Housing Loans for Homeless Veterans"
+    },
+    {
+      "index": 21,
+      "label": "FFB: International Assistance Programs: Agency for International Development: Sovereign Credit Direct Loan Financing Account"
+    },
+    {
+      "index": 22,
+      "label": "FFB: Independent Agencies: FDIC (acting in its capacity as Receiver)"
+    },
+    {
+      "index": 23,
+      "label": "FFB: Independent Agencies: Postal Service"
+    },
+    {
+      "index": 24,
+      "label": "Total Borrowing from the Federal Financing Bank"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "165",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "165",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "270",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "12284",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "12284",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "12449",
+      "role": "total"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "7852",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "7852",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "7852",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "612",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "100",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "100",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "13782",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "13782",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "13882",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "108",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "108",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "304",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "13177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "13177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "13286",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "4304",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "4304",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "4304",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "219992",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "219992",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "219992",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "101",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "10559",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "10559",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "10568",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "240",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "240",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "240",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "467",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "467",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "461",
+      "role": "standalone",
+      "why": "Prior-year column: the table has no roll-forward for it. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "4707",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "4707",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "5174",
+      "role": "total"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "2",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "2",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "2",
+      "role": "standalone",
+      "why": "Balances only: This Month and Fiscal Year to Date print dots or (**), so neither roll-forward applies. Total Borrowing from the US Treasury (p26), which adds this line, also adds the lines of the four earlier Schedule C unit files, so no vertical sum can be declared in this file."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "40982",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "40982",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "37288",
+      "role": "standalone",
+      "why": "Prior-year column: it has no roll-forward, and this total adds lines from five Schedule C unit files, so it cannot be re-derived in one file."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "2280357",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "2280357",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "2321339",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-81",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "54327",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "54327",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "54327",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "28",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "28",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "1193",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "1193",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "1221",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "595",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "595",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "451",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "12649",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "12649",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "13244",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "306",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "19760",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c5",
+      "row": 16,
+      "col": 5,
+      "value": "19760",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "20061",
+      "role": "total"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "3618",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "3618",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "3614",
+      "role": "total"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "242",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c5",
+      "row": 18,
+      "col": 5,
+      "value": "242",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "238",
+      "role": "total"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "-6",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "1456",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c5",
+      "row": 19,
+      "col": 5,
+      "value": "1456",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "1450",
+      "role": "total"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "19890",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "19890",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "19890",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "93333",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c5",
+      "row": 22,
+      "col": 5,
+      "value": "93333",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "93333",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "15000",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c5",
+      "row": 23,
+      "col": 5,
+      "value": "15000",
+      "role": "leaf"
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "15000",
+      "role": "leaf"
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "910",
+      "role": "total"
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "910",
+      "role": "total"
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "673",
+      "role": "total"
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "221473",
+      "role": "total"
+    },
+    {
+      "id": "r24c5",
+      "row": 24,
+      "col": 5,
+      "value": "221473",
+      "role": "total"
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "222383",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c1"
+      ],
+      "target": "r1c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r1c2"
+      ],
+      "target": "r1c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Environmental Protection Agency: Water Infrastructure Finance and Innovation Loan Program)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c1"
+      ],
+      "target": "r4c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (International Assistance Programs: International Monetary Programs)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r4c2"
+      ],
+      "target": "r4c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs: International Monetary Programs)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c1"
+      ],
+      "target": "r5c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (International Assistance Programs: United States International Development Finance Corporation)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r5c2"
+      ],
+      "target": "r5c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (International Assistance Programs: United States International Development Finance Corporation)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c5",
+        "r8c1"
+      ],
+      "target": "r8c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Independent Agencies: Export-Import Bank of the United States)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r8c2"
+      ],
+      "target": "r8c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Independent Agencies: Export-Import Bank of the United States)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c5",
+        "r10c1"
+      ],
+      "target": "r10c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Independent Agencies: Railroad Retirement Board: Social Security Equivalent Benefit Account)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r10c2"
+      ],
+      "target": "r10c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Independent Agencies: Railroad Retirement Board: Social Security Equivalent Benefit Account)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c5",
+        "r12c1"
+      ],
+      "target": "r12c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Total Borrowing from the US Treasury)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c4",
+        "r12c2"
+      ],
+      "target": "r12c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Borrowing from the US Treasury)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r13c1"
+      ],
+      "target": "r13c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Agriculture: Rural Utilities Service: Rural Electrification and Telecommunications Fund)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r13c2"
+      ],
+      "target": "r13c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Agriculture: Rural Utilities Service: Rural Electrification and Telecommunications Fund)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c1"
+      ],
+      "target": "r14c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Education: Historically Black College and University Capital Financing Fund)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c4",
+        "r14c2"
+      ],
+      "target": "r14c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Education: Historically Black College and University Capital Financing Fund)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c5",
+        "r15c1"
+      ],
+      "target": "r15c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Energy: Advanced Technology Vehicles Manufacturing Loans)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r15c4",
+        "r15c2"
+      ],
+      "target": "r15c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Energy: Advanced Technology Vehicles Manufacturing Loans)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c5",
+        "r16c1"
+      ],
+      "target": "r16c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Energy: Title 17 Innovative Technology Loans)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c4",
+        "r16c2"
+      ],
+      "target": "r16c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Energy: Title 17 Innovative Technology Loans)",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c1"
+      ],
+      "target": "r17c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Housing and Urban Development: Federal Housing Administration)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c4",
+        "r17c2"
+      ],
+      "target": "r17c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Housing and Urban Development: Federal Housing Administration)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c5",
+        "r18c1"
+      ],
+      "target": "r18c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of Transportation: Maritime Guaranteed Loan (Title XI) FFB Financing Account)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r18c4",
+        "r18c2"
+      ],
+      "target": "r18c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of Transportation: Maritime Guaranteed Loan (Title XI) FFB Financing Account)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c5",
+        "r19c1"
+      ],
+      "target": "r19c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (FFB: Department of the Treasury: Community Development Financial Institutions Fund)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r19c4",
+        "r19c2"
+      ],
+      "target": "r19c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (FFB: Department of the Treasury: Community Development Financial Institutions Fund)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c5",
+        "r24c1"
+      ],
+      "target": "r24c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Total Borrowing from the Federal Financing Bank)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r24c4",
+        "r24c2"
+      ],
+      "target": "r24c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Borrowing from the Federal Financing Bank)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1",
+        "r18c1",
+        "r19c1"
+      ],
+      "target": "r24c1",
+      "note": "Total Borrowing from the Federal Financing Bank column 1 sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r14c2",
+        "r15c2",
+        "r16c2",
+        "r17c2",
+        "r18c2",
+        "r19c2"
+      ],
+      "target": "r24c2",
+      "note": "Total Borrowing from the Federal Financing Bank column 2 sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3"
+      ],
+      "target": "r24c3",
+      "note": "Total Borrowing from the Federal Financing Bank column 3 sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4",
+        "r19c4",
+        "r20c4",
+        "r21c4",
+        "r22c4",
+        "r23c4"
+      ],
+      "target": "r24c4",
+      "note": "Total Borrowing from the Federal Financing Bank column 4 sum.",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c5",
+        "r14c5",
+        "r15c5",
+        "r16c5",
+        "r17c5",
+        "r18c5",
+        "r19c5",
+        "r20c5",
+        "r21c5",
+        "r22c5",
+        "r23c5"
+      ],
+      "target": "r24c5",
+      "note": "Total Borrowing from the Federal Financing Bank column 5 sum.",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6",
+        "r22c6",
+        "r23c6"
+      ],
+      "target": "r24c6",
+      "note": "Total Borrowing from the Federal Financing Bank column 6 sum.",
+      "tol": "1",
+      "why": "Table 6, page 27, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}
