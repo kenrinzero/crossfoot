@@ -4826,21 +4826,79 @@ All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM c
 
 ---
 
-## Unit 650 — treasury-mts/2026-10-table6-schedule-e-direct-part1 (PENDING different-agent audit)
+## Spot-Audit: Units 640–650 — October Table 6 Schedules A–E
 
-**Transcriber:** Muse Code (#650; #640–#649 in this batch by Claude Sonnet 5.5, Claude Code). **Auditor:** unassigned — must be a different agent; both batch transcribers are ineligible.
+**Verdict: GREEN, 2026-11-27.** MiMoCode audited the eleven October units (`#640`–`#650`) shipped by Claude Sonnet 5.5 (Claude Code) (`#640`–`#649`, `5d75863`) and Muse Code (`#650`, `1cc233c`) — a different agent from both batch transcribers (see the identity note below). All **231 unit rows / 1,353 printed positions** (`1,035` numeric values + `318` omissions) match the [vendored October statement](sources/treasury-mts/mts-202610.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a roll-forwards**, and **0 value, role, relation or label changes**. **No file under `tables/` changed; `#651` (`treasury-mts/2026-10-table6-schedule-e-direct-part2`, p32) is unblocked. The next cadence audit is `#660`, covering `#651`–`#660`** (placeholder to be added at `#660`).
 
-#650 is the 69th unit of the October 2026 MTS family. Eleven units since the #630–#639 audit closed, so the scope is the whole batch **#640–#650**: #640–#649 claim 204 unit rows / 901 cells / 245 sums (per their BACKLOG rows) and #650 adds 27 rows / 134 cells / 36 sums. Whole-batch positional checking is the family's working practice (the #340 / #350–#460 precedent). **#651+ is blocked** until this audit closes GREEN.
+| Field | Value |
+|---|---|
+| **Units** | `#640`–`#650`: `2026-10-table6-schedule-a` through `2026-10-table6-schedule-e-direct-part1` (whole-batch scope, 11 units) |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` (38pp, sha256 `956fca41…075cb725`, 2,123,129 bytes): Schedules A–B p24, C pp25–27, D pp28–29, E pp30–32; Table 6 p23; Table 3 p8; September twins `2026-09-table6-schedule-*`; `#638`/`#639` and `2026-10-table2` as tie anchors |
+| **Transcriber** | Claude Sonnet 5.5 (Claude Code) `#640`–`#649`, 2026-11-27, commit `5d75863`; Muse Code `#650`, 2026-11-27, commit `1cc233c` |
+| **Auditor** | MiMoCode (new identity; see the identity note in §5) |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN** — `#651` unblocked |
 
-**Requested scope** (replace this placeholder with the audit record):
+### 1. Source, labels, and positional coverage
 
-1. Independent char-level extraction of `sources/treasury-mts/mts-202610.pdf` pp24–32 plus a pypdfium2 render readback (`(cid:NN)` decoded `chr(NN+29)`). **Map tokens to columns by x-position, not by word order** — on Schedule E (pp30–32) `extract_words` splits negatives/thousands and can drop a whole row (NEXT.md harness note). Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
-2. Row COUNTs. #650 carries 27 of the 28 printed Direct lines on p31; the dropped line (Rural Business and Industry Loan Fund, `(**)` in all six columns) is named in its unit note. The HBCU label wraps two printed lines and is one row. #640–#649 row counts and all-blank-line handling are per their BACKLOG rows.
-3. Recompute every declared relation in exact Decimal (#650: 36 roll-forwards — 26 exact, 10 tol=1; every nonzero tol must equal its observed delta, be ≤ len(sources), and quote the p32 footnote verbatim (`Note: Details may not add to totals due to rounding.`)). October is FY2027 Month 1, so #650 claims c1==c2 and c4==c5 on every row — verify, don't assume. Plausibility scan: 0 relations with `tol > n_sources`.
-4. Roles / U1: a `standalone` must feed nothing and target nothing (#650 claims 44: 17 prior-year cells + 27 cells in nine transaction-less rows).
-5. Ties: #650 claims every c4/c5 ties to the September twin's c6 (27/27); the Schedule C Treasury total foots across five unit files within 3; Schedule A, B, D Grand Total and E transaction ties to #638/#639 hold per the #640–#649 BACKLOG rows — re-derive, don't trust.
-6. Known tool flag (not in #650): `tools/sourcecheck.py` reports one row-level mismatch on #649 r21 (FHA-General and Special Risk Fund, p30): `-201` sits on a shifted baseline; the render shows it on that line and the prior-year column total closes exactly with it. No exception added (the user's decision); until then `sourcecheck.py --all` exits 1 on that row.
+Re-verified the October PDF against [sources/SOURCES.md](sources/SOURCES.md): SHA-256 `956fca41af770139de490eff3f6d524367d28e7904761053cd8759ba075cb725`, `2,123,129` bytes, on a clean tree at `1cc233c` (`main == origin/main`).
 
-**Pages:** 24–31 (Schedules A–E per the #640–#649 BACKLOG rows; #650 is p31 only), 32 (rounding footnote; Direct part 2 = #651, out of scope), 8 (Table 3 ties), 23 (Table 6 main).
+Method, run independently of the transcribers' checks and of `tools/sourcecheck.py`:
 
+- **Tracked source check** over the eleven units: **231 rows, 230 found on one printed line and clean column by column, 1 flagged (`#649` r21 — see §4), 1,029 cells on their printed number, 318 missing cells on dots or `(**)`, 0 stale exceptions.** `tools/sourcecheck-exceptions.json` is untouched.
+- **Independent extractor.** A new char-level extractor on the `pypdfium2` text layer (both the tracked tool and the transcribers' builders parse with `pdfplumber`) rebuilt every printed line on pp24–32 and mapped each numeric token to its column by the **right edge** of its glyph run (six bands on Schedules B–E, three on Schedule A; observed scatter ≤ 4 pt within a band, ≥ 50 pt between bands). Three text-layer quirks are encoded explicitly and were each confirmed on raw chars: zero-width spaces inside tokens (`1` `9`), commas sitting ~2.5 pt below the digit baseline (they otherwise detach from their number), and 6-dot omissions printed as two glyph groups. Comparison covers presence *and* absence: every unit cell has its printed token and every printed token has its cell or is a documented omission.
+- **Renders.** 3.0× pypdfium2 renders of printed pages 8, 23–32 were read by eye, row by row, against the units.
+- **Row counts and drops.** The 231 unit rows are every numeric-bearing printed line on pp24–31 except **14 documented all-omission drops**, each named in its unit note: three for `#641` (Architect of the Capitol, FCC, NARA), one for `#645` (FRA `Other`), two for `#646` (HHS HMO Loan and Loan Guarantee Fund; the FDIC corporation line above the Receiver line), seven for `#649` (Agricultural Resource Conservation Demonstration Program, HUD Community Development Loans, TIFIA, Air Transportation Stabilization Fund, Troubled Assets Insurance Financing Fund, both Microenterprise lines), one for `#650` (Rural Business and Industry Loan Fund, `(**)` in all six columns). The HBCU label wraps two printed lines and is one row in `#643`, `#646`, `#650`. October drops September's Economic Development Administration (`#643`) and the Federal Funds Homeland Security line (`#647`); both disclosed. The `#650` boundary is clean: its 27 rows are the 27 numeric-bearing Direct lines on p31, and p32's rows are `#651`'s.
+- **Labels.** Every row label was read against its printed line and indented parents. Unit rows carry the family's hierarchy prefixes (`Guaranteed:`, `Direct:`, `FFB:`, `Federal Funds:`, `Trust Funds:`) and two disclosed normalizations: `Servicemen's` where the page prints `Servicemen'S` (`#647`) and `Assistance` where the page prints `Assitance` (`#649`, source typo carried since September). Column labels match the September twins.
+
+| Unit | Slug | Pages | Rows | Values | Omissions | Relations (`exact`/`tol=1`/`tol=2`/`tol=5`) | Standalones | Mismatches |
+|---|---|---|---:|---:|---:|---|---:|---:|
+| #640 | `2026-10-table6-schedule-a` | 24 | 11 | 31 | 2 | 10 (8 / 2 / 0 / 0) | 5 | 0 |
+| #641 | `2026-10-table6-schedule-b` | 24 | 3 | 15 | 3 | 7 (4 / 3 / 0 / 0) | 2 | 0 |
+| #642 | `2026-10-table6-schedule-c-agri` | 25 | 17 | 70 | 32 | 18 (12 / 6 / 0 / 0) | 25 | 0 |
+| #643 | `2026-10-table6-schedule-c-comm-energy` | 25 | 13 | 47 | 31 | 4 (2 / 2 / 0 / 0) | 37 | 0 |
+| #644 | `2026-10-table6-schedule-c-hhs-interior` | 25–26 | 13 | 39 | 39 | 0 (0 / 0 / 0 / 0) | 39 | 0 |
+| #645 | `2026-10-table6-schedule-c-labor-vets` | 26 | 14 | 51 | 33 | 6 (4 / 2 / 0 / 0) | 36 | 0 |
+| #646 | `2026-10-table6-schedule-c-epa-ind` | 26–27 | 24 | 111 | 33 | 34 (25 / 9 / 0 / 0) | 23 | 0 |
+| #647 | `2026-10-table6-schedule-d-federal-funds` | 28 | 29 | 155 | 19 | 48 (29 / 19 / 0 / 0) | 1 | 0 |
+| #648 | `2026-10-table6-schedule-d-trust-funds` | 28–29 | 42 | 226 | 26 | 82 (46 / 32 / 3 / 1) | 4 | 0 |
+| #649 | `2026-10-table6-schedule-e-guaranteed` | 30–31 | 38 | 156 | 72 | 36 (30 / 4 / 2 / 0) | 0 | 0 |
+| #650 | `2026-10-table6-schedule-e-direct-part1` | 31 | 27 | 134 | 28 | 36 (26 / 10 / 0 / 0) | 44 | 0 |
+| **Total** | | **24–31** | **231** | **1,035** | **318** | **281 (186 / 89 / 5 / 1)** | **216** | **0** |
+
+Every unit is at its BACKLOG size, relation floor, and standalone allowance.
+
+### 2. Arithmetic relations, DESIGN §4a coverage, tolerances, and roles
+
+All **281 declared relations** were recomputed in exact `Decimal` from the units' own cells.
+
+- **Exactness and tolerances.** 186 close exactly; 89 carry `tol="1"`, 5 `tol="2"`, and `#648` has one `tol="5"` (`r38c6`, the 36-component `Total Treasury Securities` close: target `6,484,398` against a component sum of `6,484,403`, delta `−5`, within the 36-source rounding budget — disclosed in its unit note). **Every non-zero tolerance equals the observed `|delta|`, is `≤ len(sources)`, and quotes the Table 6 footnote** (`Note: Details may not add to totals due to rounding.` — read verbatim on the p24, p27, p29 and p32 renders). Plausibility scan: **0 relations with `tol > n_sources`**.
+- **DESIGN §4a coverage.** The expected roll-forward set was derived mechanically from cell presence per six-column row (monthly `c5+c1=c6`, fiscal-year `c4+c2=c6`): **272 expected, 272 declared, 0 missing.** `#650`'s 36 = 27 rows × 2 − 9 transaction-less rows × 2, exactly as claimed (26 exact, 10 `tol=1`). Schedule A's ten relations are the printed identity set: the current-basis open (prior-year only), three `Total-Transactions` sums, three close identities (the two current-period ones carry the print's own ±1), and three On+Off=Total splits. Vertical totals: `#641` 3 (Total Agency = FHA + TVA), `#646` 6 (all FFB column totals), `#647` 6 (27 lines → Total Treasury Securities), `#648` 16 (component and Grand Total structure), `#649` 6 (37 lines → Net Activity) — all recompute. The single-source subtotals (`Total Federal Funds` = `Total Treasury Securities`, printed identically) are correctly left undeclared.
+- **FY2027 Month 1.** `c1 == c2` and `c4 == c5` hold on every row of every six-column unit and on Schedule A's This-Month/FYTD columns — verified, not assumed.
+- **Roles / U1.** 0 `standalone` in any relation graph, 0 `leaf` feeding nothing, 0 `total` untargeted. `#650`'s 44 standalones are exactly 17 printed prior-year (`c3`) cells + 27 balance cells in the nine transaction-less rows, as claimed.
+
+### 3. Ties (re-derived, not trusted)
+
+- **September closes → October opens.** All 231 rows matched their September twins line for line; **436/436 open cells (`c4`+`c5`) tie to the September twin closes (`c6`)** — the batch's "193 lines" claim (`#641`–`#649`) plus `#650`'s 27/27 hold. `#647` r2/r5 print dots on both the September close and the October open (tiny-balance print quirk; nothing to tie).
+- **Schedule A** (`#640`) ↔ `#639` r19 Excess of Liabilities: open `29,489,259` = `c4`/`c5`, close `29,885,145` = `c6` (render-confirmed p23); the change columns tie via `r4+r10` (`395,887` / `282,958`). The Table-2 rows tie `2026-10-table2` r7/r8/r9 in all nine cells under the family's sign-flip convention, and Table 3 p8 prints the same triple (render-confirmed).
+- **Schedule B** (`#641`) r3 ↔ `#638` r7 (Agency Securities) — six columns exact (p23 render: `500/500/500/20,705/20,705/21,205`).
+- **Schedule D** (`#648`) r41 Grand Total ↔ `#638` r9 (Federal Securities Held as Investments) — six columns exact (p23 render: `35,596/35,596/106,647/7,725,749/7,725,749/7,761,345`); Grand Total = Total Trust Funds + the re-anchored Total Federal Funds in every column.
+- **Schedule E** (`#649`) r38 Net Activity transactions ↔ `#639` r15 (`180/180/72`) exact; balance columns differ (`18,183` vs `147,081`), as they also do in May–September (September pattern re-checked against its audited twins: same transaction-tie/balance-difference shape). No note on p23 or pp30–32 explains the difference — unchanged owner-facing observation from the transcriber's note.
+- **Schedule C foot.** The five-unit sum (all `#642`–`#645` rows + `#646` r1–r11) against `#646` r12 `Total Borrowing from the US Treasury`: deltas `+1 / +1 / 0 / −2 / −2 / −3` across the six columns — **within 3**, as claimed.
+
+### 4. The `#649` r21 sourcecheck flag (owner's decision pending)
+
+`tools/sourcecheck.py` reports one row-level mismatch: on `#649` r21 (FHA-General and Special Risk Fund, p30) the prior-year figure **`-201` sits on a shifted baseline**, so pdfplumber's line reading does not carry it with the row. This audit resolves the value question in favour of the unit, on two independent grounds: the `pypdfium2` char layer reads `-201` **on** the r21 line, and the 3.0× render shows it there. The prior-year column closes **exactly** at the printed `72` only with the `-201` (without it the eleven data rows sum to `273`, missing the total by exactly `201`). The same print quirk puts the Home Ownership Preservation Entity Fund prior-year `(**)` on a shifted baseline (disclosed in the unit note). **The unit is correct as printed; no exception was added** (the owner's decision), and `sourcecheck.py --all` exits 1 on this row until one is.
+
+### 5. Observations (no change made)
+
+- **p27 banner quirk.** p27 prints `Borrowing from the US Treasury: - Continued` over Federal Financing Bank rows (text layer confirmed). Already disclosed in `#646`'s unit note.
+- **p32 banner quirk.** p32 prints `Guaranteed Loan Financing Activity: - Continued` over Direct rows (text layer confirmed) — the same class as the September p33 header quirk (audit `#580`). p32 is `#651`'s page; the next transcriber should carry the disclosure.
+- **Direct Net Activity shape.** p32's `Net Activity, Direct Loan Financing` (`−4,443/−4,443/−10,778/1,440,367/1,440,367/1,435,923`) differs from `#639` r16 in both transactions and balances — the Guaranteed-shape difference is a transactions tie in `#649`; the Direct case is `#651`'s tie to adjudicate, noted for its handoff.
+- **Identity note.** This record's auditor is MiMoCode, a new identity (CONTRIBUTORS #44). The batch's second transcriber is recorded as Muse Code (CONTRIBUTORS #43). If the owner judges the two to be the same agent, the `#650` scope of this audit should be re-audited by a third agent; the other ten units are unaffected either way. Recorded here because the question arose in never-ask mode and was decided in favour of distinct identities (the roster groups "Muse Spark / Muse Code" as one identity, and this session has no record of the `#650` work).
+- **`#647` r2/r5** (Commerce, HHS Federal Funds): September prints the close as dots and October prints the opens as dots; each side matches its own print.
+
+### 6. Regression gates
+
+All eleven units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **650/650 GREEN**, and `uv run --locked pytest` passes **42/42**. `tools/sourcecheck.py --all` exits 1 only on the known `#649` r21 row (§4). Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-640-650-mimo/`. **`#651` (`treasury-mts/2026-10-table6-schedule-e-direct-part2`, p32) is unblocked; the next cadence audit is `#660` (`#651`–`#660`), placeholder to be added at `#660` per the standing rule.**
 ---
