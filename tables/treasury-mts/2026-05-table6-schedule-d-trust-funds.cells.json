@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D — Investments of Federal Government Accounts (Trust Funds: Legislative through Grand Total)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Investments of Trust Funds under Legislative through Grand Total. Blank and less-than-500k (**) cells omitted.",
+  "unit_note": "USD millions. Investments of Trust Funds under Legislative through Grand Total. Blank and less-than-500k (**) cells omitted. Added 2026-11-27, on the user's instruction: row 42, Total Federal Funds, re-anchored from p29 as printed (5,287 / 88,226 / 84,403 / 1,064,480 / 1,147,419 / 1,152,706; the same six values as r20 of 2026-05-table6-schedule-d-federal-funds-labor-totals), so that Grand Total = Total Federal Funds + Total Trust Funds is declared, as in the June to September units.",
   "columns": [
     {
       "index": 1,
@@ -198,6 +198,10 @@
     {
       "index": 41,
       "label": "Grand Total"
+    },
+    {
+      "index": 42,
+      "label": "Total Federal Funds (re-anchored)"
     }
   ],
   "cells": [
@@ -1734,42 +1738,83 @@
       "row": 41,
       "col": 1,
       "value": "-1361",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r41c2",
       "row": 41,
       "col": 2,
       "value": "330517",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r41c3",
       "row": 41,
       "col": 3,
       "value": "102043",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)"
+      "role": "total"
     },
     {
       "id": "r41c4",
       "row": 41,
       "col": 4,
       "value": "7339271",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r41c5",
       "row": 41,
       "col": 5,
       "value": "7671150",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r41c6",
       "row": 41,
       "col": 6,
       "value": "7669789",
+      "role": "total"
+    },
+    {
+      "id": "r42c1",
+      "row": 42,
+      "col": 1,
+      "value": "5287",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c2",
+      "row": 42,
+      "col": 2,
+      "value": "88226",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c3",
+      "row": 42,
+      "col": 3,
+      "value": "84403",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c4",
+      "row": 42,
+      "col": 4,
+      "value": "1064480",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c5",
+      "row": 42,
+      "col": 5,
+      "value": "1147419",
+      "role": "leaf"
+    },
+    {
+      "id": "r42c6",
+      "row": 42,
+      "col": 6,
+      "value": "1152706",
       "role": "total"
     }
   ],
@@ -2691,6 +2736,80 @@
       "note": "Total Trust Funds = Total Treasury + Total Agency Securities col 6",
       "tol": "1",
       "why": "Table 6 Schedule D footnote, printed below the totals on p30, reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c5",
+        "r42c1"
+      ],
+      "target": "r42c6",
+      "note": "balance roll-forward: begin-month + this-month = end-month (Total Federal Funds (re-anchored))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c4",
+        "r42c2"
+      ],
+      "target": "r42c6",
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Total Federal Funds (re-anchored))"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c1",
+        "r40c1"
+      ],
+      "target": "r41c1",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 1"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c2",
+        "r40c2"
+      ],
+      "target": "r41c2",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 2",
+      "tol": "1",
+      "why": "Table 6 Schedule D footnote, printed below the totals on p30, reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c3",
+        "r40c3"
+      ],
+      "target": "r41c3",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 3"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c4",
+        "r40c4"
+      ],
+      "target": "r41c4",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 4"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c5",
+        "r40c5"
+      ],
+      "target": "r41c5",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 5"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r42c6",
+        "r40c6"
+      ],
+      "target": "r41c6",
+      "note": "Grand Total = Total Federal Funds + Total Trust Funds col 6"
     }
   ]
 }

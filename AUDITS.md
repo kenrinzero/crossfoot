@@ -4051,3 +4051,116 @@ Cell count (56,817), unit count (581) and the 37 units with no relation are unch
 - The two open items of section 4 and the cell of section 6 need a decision by the user before anyone edits them.
 
 ---
+
+## Directed follow-up: the three findings of the value-neutral pass — `#46`, `#157`, `#318` (two grid changes, on the user's instruction)
+
+**Applied 2026-11-27; all three units GREEN; not yet checked by a different agent.** The *Directed pass* entry above left three findings for the user. The user decided all three ("Yes, go ahead", relayed by the coordinating session), and Claude Fable 5.2 (Claude Code) made them as a second local commit on top of `5a29895`. **Two of the three change the grid, which the first pass was not allowed to do:**
+
+- **`#46`: one cell changes its id and column.** The value stays 1. Reason: the unit held it in a column the page does not print it in.
+- **`#157`: one row and six cells are added.** This is **new transcription**, not a re-typing of existing cells. Reason: the page prints a `Grand Total` that is the sum of two totals, and the unit held only one of them.
+- **`#318`: no cell changes.** One relation is declared with the observed gap as a documented source discrepancy.
+
+No other cell id, row, column or value changed anywhere in the corpus, and no cell *value* changed at all (proved by script, section 5). The agent that made these edits must not be their auditor; the different-agent check queued in `NEXT.md` now covers both commits. Not a cadence audit; **the next cadence audit stays #590**.
+
+| Field | Value |
+|---|---|
+| **Units** | `treasury-mts/2026-05-outlays-uor-departmental` (#46), `treasury-mts/2026-05-table6-schedule-d-trust-funds` (#157), `treasury-mts/2026-06-table6-schedule-e-guaranteed` (#318) |
+| **Sources** | `sources/treasury-mts/mts-202605.pdf` pp22, 23, 29, 30; `mts-202606.pdf` pp24, 31, 32, 33 (sha256 re-verified earlier the same day) |
+| **By** | Claude Fable 5.2 (Claude Code), on the user's instruction |
+| **Date** | 2026-11-27 |
+| **Status** | **GREEN, awaiting a different-agent check** |
+
+### 1. Every cell that changed
+
+| Unit | Cell | Before | After |
+|---|---|---|---|
+| `#46` | `r26c4` → **`r26c5`** | row 26, column 4 (gross outlays), value 1 | row 26, column 5 (applicable receipts), value 1 |
+| `#157` | **`r42c1`** | — | 5287 (new) |
+| `#157` | **`r42c2`** | — | 88226 (new) |
+| `#157` | **`r42c3`** | — | 84403 (new) |
+| `#157` | **`r42c4`** | — | 1064480 (new) |
+| `#157` | **`r42c5`** | — | 1147419 (new) |
+| `#157` | **`r42c6`** | — | 1152706 (new) |
+
+One row label was added: `#157` row 42, `Total Federal Funds (re-anchored)`. That is the complete list: 1 cell moved, 6 cells added, 0 values changed, 0 cells removed.
+
+Roles changed on 32 existing cells, each because a relation now reaches it: 25 `standalone` → `leaf` (`#318` column 3, rows 1 to 38: 24 cells; `#46` `r25c5`), 2 `standalone` → `total` (`#318` `r39c3`; `#157` `r41c3`), 5 `leaf` → `total` (`#157` `r41c1`, `r41c2`, `r41c4`, `r41c5`; `#46` `r28c5`). The 27 cells that left `standalone` lost their `why`.
+
+Relations: 10 added (1 in `#46`, 8 in `#157`, 1 in `#318`) and 1 existing relation changed (`#46` relation 8, below). Each `unit_note` carries a dated annotation.
+
+### 2. `#46`: the 1 of `Sale of Major Assets` is under applicable receipts
+
+- **Text layer, May p22.** The line reads `Sale of Major Assets  ......  ......  ......  ......  1  -1  ......  ......  ......`. Table 5 is right-aligned, and the 1 ends at x = 434.1, the right edge of the column that also holds 5,206 on the line above and 5,208 on the total below (434.0). The gross column of that group ends at 394.0 and prints `......` on this line.
+- **Render, 3.0×.** Read by eye: the 1 stands under 5,206 and over 5,208, in the `Applicable Receipts` column of `Current Fiscal Year to Date`; the `Gross Outlays` column is dotted.
+- **Repair.** The cell is now `r26c5`. Value unchanged.
+- **What the misplacement had hidden.** The gross total `r28c4` had been declared as four lines including the misplaced 1, and closed only with `tol="1"` quoted as rounding. With the cell where the page prints it, the three real gross lines sum to −234,104, exactly the printed total, so the tolerance and its `why` are removed. This was a fitted tolerance covering a position error, the class the OPM cell of 2026-08-18 belongs to.
+- **Newly declared.** `r28c5` = `r25c5` + `r26c5`: 5,206 + 1 = 5,207 against a printed 5,208, `tol="1"`. The Table 5 rounding note is printed on p23, not p22, and the `why` says so. `r25c5` is no longer `standalone`.
+- All 28 rows of the unit now match the print column by column (27 of 28 before).
+
+### 3. `#157`: the `Total Federal Funds` row, new transcription
+
+- **Text layer, May p29.** `Total Federal Funds  5,287  88,226  84,403  1,064,480  1,147,419  1,152,706`, the six values ending at the same six right edges as the `Total Trust Funds` and `Grand Total` lines of p30.
+- **Render, 3.0×.** The bold `Total Federal Funds` line and the page header read by eye; the six figures agree with the text layer.
+- **Second copy.** The same six values are row 20 of `2026-05-table6-schedule-d-federal-funds-labor-totals`, transcribed separately on 2026-07-18; the script asserts the match.
+- **Layout.** New row 42, `Total Federal Funds (re-anchored)`, after `Grand Total` (row 41), which is the layout of the September unit. No existing cell id moves.
+- **Relations (8).** `Grand Total` = `Total Federal Funds` + `Total Trust Funds` for each of the six columns: five exact, column 2 at `tol="1"` (88,226 + 242,292 = 330,518 against 330,517; the Schedule D note is printed on p30). And both roll-forwards of the new row, as DESIGN §4a asks of every Table 6 row and as the later units declare: 1,147,419 + 5,287 = 1,152,706 and 1,064,480 + 88,226 = 1,152,706, both exact.
+- **Stated plainly:** these six cells were typed by the same agent that declared their relations, in a session that was a repair, not a transcription unit with its own audit. They are verified by the print, by the sibling unit and by eight relations, and they still want a second agent's eye.
+- The unit now holds 230 cells, exactly its `BACKLOG.md` cap. `standalone` is 2 (`r36c3`, `r36c5`), as in the June to September units.
+
+### 4. `#318`: June Schedule E column 3, a source discrepancy of 2,724
+
+**The re-read found no difference between unit and print**, so the stop-condition set for this item did not apply.
+
+- **Text layer with positions.** All 39 rows of the unit match their printed lines in all six columns. The 24 numbers of column 3 above the total, and the total itself, end at x = 422.9 to 425.4, the right edge of the `Fiscal Year to Date / Prior Year` column (its header `Prior Year` ends at 412.1, the next column's numbers at 481.6). They lie between `Guaranteed Loan Financing Activity:` and `Direct Loan Financing Activity:`. Sum of the 24: **3,034**. Printed total: **310**.
+- **Renders, 3.0×.** pp31 and 32 read by eye, column 3 line by line: 19 numbers on p31, 5 on p32, and the bold total 310.
+- **Corroboration inside the June statement.** Table 6 proper (p24) has the line `Net Activity, Guaranteed Loan Financing (See Schedule E)`. Its figures are not the Schedule E total (the line includes something Schedule E does not list), but in the prior-year column the two move together:
+
+| Statement | p24 line, column 3 | Schedule E total, column 3 | Difference |
+|---|---:|---:|---:|
+| May | 6,257 | 6,067 | 190 |
+| **June** | **3,248** | printed **310** / lines **3,034** | **2,938** / **214** |
+| July | 28,259 | 28,032 | 227 |
+| August | 29,014 | 28,756 | 258 |
+
+  With the sum of the lines, June sits at 214, between May and July. With the printed total it sits at 2,938. **The statement's own Table 6 favours the 24 lines; the printed total 310 is the figure out of step.**
+- **What the 310 looks like.** 3,034 − 2 × 1,361 = 312: the printed total is what the lines give, within 2, if `Business Loan Fund` (printed 1,361) is taken with the opposite sign. May and July print that line positive (975 and 1,362). This describes the error; it is not needed for the adjudication.
+- **Recorded as.** Printed values kept, as the corpus rule requires. Relation `r39c3` = the 24 lines, `tol="2724"`, with a `why` that begins "Source does not close" and says it is a source discrepancy, NOT rounding. Same treatment as `r37c6`, `r39c6` and the column-6 total.
+- **What this relation can and cannot do.** A tolerance equal to a gap of 2,724 makes the sum nearly blind in one direction. Red tests on scratch copies: `r1c3` 27 → 37 fails (the gap grows), but `r37c3` 1,361 → 1,000 passes (the gap shrinks). So column 3 of this unit, like column 6 and the two cells at 90, is held by the source check and the audits, not by this sum. The unit is the only one in the corpus with such relations: six of them (four at 90, one at 182, one at 2,724).
+
+The unit now has no `standalone` cell.
+
+### 5. Proof of scope
+
+Script comparing the tree with `5a29895`, cell by cell in file order:
+
+- 3 files changed, all unit files; the set of 581 unit files is the same. **576 cells compared: 1 changed in id and column, 6 added, 0 changed in value, 0 removed.** These are the seven cells of section 1 and no others.
+- Outside those cells and the row label of section 1, the only differences are 32 roles with their dropped `why`, the relations of sections 2 to 4, and three appended `unit_note` sentences. Source blocks, column labels and all older row labels are identical.
+- No duplicate equation; every non-zero tolerance in the three files equals its recomputed difference.
+- Byte layout unchanged in each file (`#46`: ASCII escapes, no final newline, as before).
+
+### 6. Corpus statistics that move
+
+| | After the first pass (`5a29895`) | Now |
+|---|---:|---:|
+| Cells | 56,817 | **56,823** |
+| Rows | 10,320 | **10,321** |
+| Relations (sums / percent closures) | 11,039 (10,450 / 589) | **11,049 (10,460 / 589)** |
+| Cells verified by arithmetic | 46,006 (81.0%) | **46,039 (81.0%)** |
+| `standalone` cells | 10,811 (19.0%) | **10,784 (19.0%)** |
+| `treasury-mts` cells / `standalone` | 39,989 / 4,332 | **39,995 / 4,305** |
+| Sums closing exactly / with a tolerance | 6,999 / 3,451 | **7,007 / 3,453** |
+| Tolerances above one unit per source | 73 | **74** (the 2,724) |
+| Relations recorded as source discrepancies | 5 | **6**, all in `#318` |
+
+### 7. Gates
+
+- The three units: `uv run python reconcile.py <file>` **GREEN, 0 warnings**.
+- `uv run python reconcile.py --all`: **581/581 GREEN**. `uv run pytest`: **23/23**.
+- Column-position check of the three units against the text layer: 28/28, 42/42 and 39/39 rows.
+
+### 8. Notes for the checking agent
+
+- Check both commits (`5a29895` and this one) in one pass: the 85 relations, the roles, the seven cells of section 1 read from the page, and the claim in section 4 that the p24 line favours the lines.
+- The first pass's two leftovers and its misplaced cell are closed by this entry. A column-position check of the whole corpus is still only a candidate (`NEXT.md`).
+
+---

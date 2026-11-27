@@ -7,7 +7,7 @@
     "title": "Outlays of the U.S. Government",
     "period": "May 2026 and Other Periods"
   },
-  "unit_note": "Undistributed Offsetting Receipts (unit 2/2). Drops (**) per Table 5 rules.",
+  "unit_note": "Undistributed Offsetting Receipts (unit 2/2). Drops (**) per Table 5 rules. Repair 2026-11-27, on the user's instruction: the 1 of Sale of Major Assets moved from r26c4 (gross outlays) to r26c5, the Applicable Receipts column where p22 prints it; the value is unchanged. The gross total r28c4 now closes exactly (its tol=1 is gone) and the receipts total r28c5 = r25c5 + r26c5 is declared (5,207 against a printed 5,208).",
   "rows": [
     {
       "index": 1,
@@ -1270,8 +1270,7 @@
       "row": 25,
       "col": 5,
       "value": "5206",
-      "role": "standalone",
-      "why": "The page (p22) prints a second component in this applicable-receipts column: Sale of Major Assets, 1. This unit holds that 1 in the gross column (r26c4) instead, so no two-source sum to the printed total 5,208 can be declared here until that cell is moved. Reported 2026-11-27, see NEXT.md."
+      "role": "leaf"
     },
     {
       "id": "r25c6",
@@ -1298,9 +1297,9 @@
       "why": "From table"
     },
     {
-      "id": "r26c4",
+      "id": "r26c5",
       "row": 26,
-      "col": 4,
+      "col": 5,
       "value": "1",
       "role": "leaf",
       "why": "From table"
@@ -1398,7 +1397,7 @@
       "row": 28,
       "col": 5,
       "value": "5208",
-      "role": "leaf",
+      "role": "total",
       "why": "From table"
     },
     {
@@ -1634,11 +1633,8 @@
       "sources": [
         "r1c4",
         "r24c4",
-        "r26c4",
         "r27c4"
-      ],
-      "tol": "1",
-      "why": "Note: Details may not add to totals due to rounding."
+      ]
     },
     {
       "type": "sum",
@@ -1695,6 +1691,16 @@
         "r28c8",
         "r28c9"
       ]
+    },
+    {
+      "type": "sum",
+      "target": "r28c5",
+      "sources": [
+        "r25c5",
+        "r26c5"
+      ],
+      "tol": "1",
+      "why": "Table 5 note, printed on p23, reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
     }
   ]
 }
