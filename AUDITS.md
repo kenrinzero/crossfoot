@@ -1460,6 +1460,7 @@ Stratified sample to check gross outlays, applicable receipts, nets, and totals:
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-energy` is value-perfect, complete, and faithful to Table 5 Department of Energy section. All 132 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#280**.
+
 ---
 
 ## Spot-Audit: Unit 280 — Treasury MTS June 2026 Labor bureaus outlays
@@ -1527,6 +1528,7 @@ Stratified sample to check gross outlays, applicable receipts, nets, and negativ
 
 ### 6. Audit Conclusion
 Grok's transcription of `treasury-mts/2026-06-outlays-labor-bureaus` is value-perfect, complete, and faithful to Table 5 Employment and Training Administration section. All 86 values are exact, row labels and columns match the source exactly, and all sums and net identities reconcile within standard rounding tolerances. **GREEN.** Next every-10th different-agent audit: corpus **#290**.
+
 ---
 
 ## Spot-Audit: Unit 290 — Treasury MTS June 2026 Other Defense Civil outlays
@@ -4901,6 +4903,7 @@ All **281 declared relations** were recomputed in exact `Decimal` from the units
 ### 6. Regression gates
 
 All eleven units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **650/650 GREEN**, and `uv run --locked pytest` passes **42/42**. `tools/sourcecheck.py --all` exits 1 only on the known `#649` r21 row (§4). Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-640-650-mimo/`. **`#651` (`treasury-mts/2026-10-table6-schedule-e-direct-part2`, p32) is unblocked; the next cadence audit is `#660` (`#651`–`#660`), placeholder to be added at `#660` per the standing rule.**
+
 ---
 
 ## Spot-Audit: Units 651–660 — October Schedule E Direct 2, Table 7, Table 8 Activity
@@ -4978,22 +4981,86 @@ All **103 declared relations** were recomputed in exact `Decimal` from the units
 
 ### 6. Regression gates
 
-All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **660/660 GREEN**, and `uv run --locked pytest` passes **42/42**. Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-651-660-mimo/`. **`#661` (`treasury-mts/2026-10-table8-investments`, p35) is unblocked; per the BACKLOG cadence rule the `#661` shipper carries it into the next batch audit (next cadence slot `#670`, covering `#661`–#670`) or records its own closing audit.**
+All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **660/660 GREEN**, and `uv run --locked pytest` passes **42/42**. Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-651-660-mimo/`. **`#661` (`treasury-mts/2026-10-table8-investments`, p35) is unblocked; per the BACKLOG cadence rule the `#661` shipper carries it into the next batch audit (next cadence slot `#670`, covering `#661`–`#670`) or records its own closing audit.**
+
 ---
 
-## Spot-Audit: Unit 661 — October Table 8 Investments (family capstone, pending different-agent audit)
+## Spot-Audit: Unit 661 — October Table 8 Investments (family capstone) and closing audit of the October family
+
+**Verdict: GREEN after one value-neutral repair, 2026-11-27.** Claude Opus 5.5 (Claude Code) audited `#661`, shipped by Composer (Cursor), a different agent and model family. All **15 unit rows / 45 values** match p35 of the [vendored October statement](sources/treasury-mts/mts-202610.pdf), the three roll-ups and all placeholder ties re-derive, and the unit needed only its missing final newline. A closing look-through of the whole October family (`#582`–`#661`) found no value defect; it repaired two Markdown defects in earlier records and refreshed stale README figures. **The October FY2027 family is shipped and audit-complete, 80/80.**
 
 | Field | Value |
 |---|---|
 | **Unit** | `#661` — `tables/treasury-mts/2026-10-table8-investments.cells.json` |
-| **Source** | `sources/treasury-mts/mts-202610.pdf` p35 (Securities Held as Investments, three columns only; activity columns are `#660` on the same page) |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` p35 (Securities Held as Investments, three columns; the activity columns on the same page are `#660`); tie anchors `2026-09-table8-investments` (`#581`) and `2026-10-table6-schedule-d-trust-funds` (`#648`) |
 | **Transcriber** | Composer (Cursor), 2026-11-27, commit `e0cd6dd` |
-| **Auditor** | *Pending — must be a different agent from the transcriber* |
-| **Verdict** | *Pending* |
+| **Auditor** | Claude Opus 5.5 (Claude Code): different agent and model family from the transcriber |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN after one value-neutral repair** (final newline). The October family is audit-complete; there is no `#670` slot in this family |
 
-**Scope for the auditor (whole-unit positional check):** 15 unit rows (14 trust lines + total), **45 numeric cells**, **3 column roll-ups** (14→1 each; declared `tol="1"` with the Table 8 rounding note — re-derive every tolerance as observed `|delta|`). Black Lung Disability and Military Advances must remain absent (investment columns all `......` on p35). **Ties to re-derive, not trust:** total **r15 c1/c2/c3** byte-match `2026-10-table6-schedule-d-trust-funds` **r40c4/c5/c6**; every detail **r*c2** byte-match `2026-09-table8-investments` **r*c3** (September close → October open, 15/15); **FY2027 Month 1:** **c1==c2** on every row. Companion activity unit `#660` on the same page is out of scope unless used as a label cross-check.
+### 1. Source, labels, and positional coverage
 
-**Transcriber gates (pre-audit):** unit reconcile GREEN 0 warnings; `tools/sourcecheck.py` on this file **0 mismatches** (15/15 rows column-clean); sweep **661/661**; pytest **42/42**. Corpus-wide `sourcecheck.py --all` may still exit 1 on the pre-existing `#649` r21 flag (owner's call).
+Re-verified the October PDF against [sources/SOURCES.md](sources/SOURCES.md): SHA-256 `956fca41af770139de490eff3f6d524367d28e7904761053cd8759ba075cb725`, `2,123,129` bytes, on a clean tree at `da8a5f2` (`main == origin/main`).
 
-**Outcome when GREEN:** October FY2027 MTS family **80/80** transcription is audit-complete; no `#670` cadence slot exists in this family.
+- **Tracked source check** on `#661`: 15 of 15 rows on one printed line and clean column by column, 45 cells on their printed number, 0 mismatches.
+- **Independent extraction**, not the tool's pdfplumber reading: a pypdfium2 character-level dump of p35 (PDF page index 34), grouped by baseline and x gaps. All **45 of 45 values** match. Split tokens were each read as one number: the Airport and Airway close (`23,1` + `16`), the Hazardous Substance Superfund columns (`1` + `1,842`, `1` + `1,830`) and the total row, whose commas sit on a lower baseline.
+- **3.0× render read row by row.** The page prints 16 trust lines and the total. Black Lung Disability and Military Advances print `......` in all three investment columns and are correctly absent (blank ≠ zero), as are Less: Interfund Transactions (`......`) and the shaded basis rows below it. Row count 14 + total = 15. Every row label matches the print. `r15` shortens the printed *Total Trust Fund Receipts and Outlays and Investments Held from Table 6-D* to its investments part, as the June–September twins do.
+- **Column labels.** Columns 1 and 3 are as printed. Column 2 reads *Close of Prior Month (This Month open)*, but p35 prints **Beginning of This Month**. This is the label of the June–September twins (May: *Close of Prior Month*) and the known Table 8 gap in README § Known gaps. Recorded, not changed: it belongs to the corpus-wide label pass, not to this unit.
+
+### 2. Arithmetic relations, DESIGN §4a coverage, tolerances, and roles
+
+| relation | sum of 14 lines | printed total | delta | tol |
+|---|---:|---:|---:|---:|
+| `r15c1` Beginning of This Year | 6,521,220 | 6,521,221 | +1 | 1 |
+| `r15c2` Beginning of This Month | 6,521,220 | 6,521,221 | +1 | 1 |
+| `r15c3` Close of This Month | 6,484,402 | 6,484,401 | −1 | 1 |
+
+Every tolerance equals the observed `|delta|`, is far below the 14 sources, and its `why` quotes the note printed on p35 (*Note: Details may not add to totals due to rounding.*, read on the render and the text layer). September's close column carried the same +1 (`tol="1"`), and October opens on those same values. **DESIGN §4a:** the investment columns print one identity class, the column roll-up, declared in all three columns; no horizontal identity is printed. The Month-1 equality `c1 == c2` holds on 15 of 15 rows. It is an equality of two printed columns, not a sum the schema can declare. 0 missing classes. Roles: 42 `leaf` + 3 `total`, 0 `standalone`.
+
+### 3. Ties (re-derived, not trusted)
+
+- `r15` c1/c2/c3 = `#648` `r40` c4/c5/c6 (*Total Trust Funds*): 6,521,221 / 6,521,221 / 6,484,401, **3 of 3** byte-equal.
+- October c2 = September `#581` c3 on **15 of 15** rows (September close → October open), and October c1 = September c3 on 15 of 15 (FY2027 opens at the FY2026 close).
+- **Beyond the placeholder:** 7 of the 14 fund lines byte-match one Schedule D line of `#648` in all three balance columns (Airport and Airway, Federal Disability Insurance, Federal Old-Age and Survivors Insurance, Federal Supplementary Medical Insurance, Highways, Military Retirement, Unemployment). The other seven gather several Schedule D lines, so no tie is claimed for them.
+
+### 4. Closing look-through of the October family (`#582`–`#661`)
+
+**Audit chain.** Every batch was audited by an agent that did not transcribe it (model identities in [CONTRIBUTORS.md](CONTRIBUTORS.md)):
+
+| batch | transcriber | auditor |
+|---|---|---|
+| `#582`–`#590` | Codex | DeepSeek Flash |
+| `#591`–`#600` | DeepSeek Flash | Codex |
+| `#601`–`#610` | Codex | Gemini 4 Hydrogen (High) |
+| `#611`–`#620` | Gemini 4 Hydrogen (High) | Mistral Vibe (GLM 5.3 Flash); records repaired by Gemini 4 Neon (High) |
+| `#621`–`#629` | GLM-5.3-Flash (Cline) | Gemini 4 Carbon (Medium) |
+| `#630`–`#639` | Gemini 4 Carbon (Medium) | Claude Sonnet 5.5 (Claude Code) |
+| `#640`–`#650` | Claude Sonnet 5.5 (`#640`–`#649`), Muse Code (`#650`) | MiMoCode |
+| `#651`–`#660` | Muse Code | MiMoCode |
+| `#661` | Composer (Cursor) | Claude Opus 5.5 (Claude Code), this record |
+
+GLM 5.3 Flash audited `#611`–`#620` and later transcribed `#621`–`#629`, which a different agent audited, so it never checked its own work. This auditor shares the Claude family with the `#640`–`#649` transcriber. For those units this look-through is a fresh-context reading only; their different-family audit is MiMoCode's.
+
+- **Tracked source check over all 80 units:** 1,216 rows, 1,215 on one printed line and clean column by column, 6,377 cells on their printed number, 2,254 omissions on dots or `(**)`, 3 on empty paper. The single mismatch is the known `#649` `r21` row. Its render was looked at again: −201 is printed on the *FHA-General and Special Risk Fund* line, set on a shifted baseline. The unit is correct, and the flag stays a tool artifact awaiting the user's decision on an exception.
+- **Manifest against files:** 80 `BACKLOG.md` rows, corpus numbers `#582`–`#661` unique and contiguous. Every row's claimed cells, relations and standalone count equals its file: 6,383 cells (the figure sized at vendoring), 1,368 relations, 971 standalone. Each `table_id` matches its path and each source path is the October PDF.
+- **Headline totals across tables:** receipts 368,940 appears in 16 cells (Tables 1, 2, 3, 4, 7, 8, 9), outlays 773,004 in 14 (Tables 1, 2, 3, the Table 5 grand total, 7, 8, 9), the deficit 404,064 in 18 with each table's printed sign (Tables 1, 2, 3, 6, 6-A, 7, 8). All consistent.
+- **Encoding:** 79 of 80 units are strict UTF-8, LF only, no BOM, no C0 bytes, with a final newline. `#661` lacked the final newline (§6).
+- **Records:** the gates paragraphs of the `#640`–`#650` and `#651`–`#660` records were followed directly by `---`, which renders the whole paragraph as a heading, and the `#651`–`#660` record had an unbalanced code span (`` `#661`–#670` ``). Fixed by inserting a blank line and the missing backtick, no wording changed. The same blank-line fix was applied to the June records of units 270 and 280, which had the same defect.
+
+### 5. Observations (no change made)
+
+- **Column-2 label** of the Table 8 investments units (§1): left for the label pass named in README § Known gaps.
+- **Transcriber readback.** The transcriber's log says the p35 readback used the `#651`–`#660` audit's render and printed-lines dump rather than a render of its own. The values are correct; this audit's extraction and render are its own.
+- **Final newlines elsewhere.** 55 units outside the October family lack a final newline (36 May Treasury, 7 Census, 5 OMB, 5 SEC, 2 BLS). `.editorconfig` asks for one but no gate tests it; value-neutral and left for the user.
+- **Roster.** At the user's direction, [CONTRIBUTORS.md](CONTRIBUTORS.md) now names the models of the October sessions correctly. The *CONTRIBUTORS #43/#44* references in the two MiMoCode records count rows of the table as it stood then.
+
+### 6. Repairs and regression gates
+
+- **`#661`:** one byte, the final newline, appended. No value, label, role, relation or note changed.
+- **Records:** the Markdown fixes in §4, and `README.md` figures refreshed (sum split, zero-relation units, Table 8 label count, roster count).
+- **Gates after the repair:** `#661` reconciles GREEN with 0 warnings; sweep **661/661 GREEN**; pytest **42/42**; source check on `#661` 0 mismatches.
+- Nothing under `schema/`, `sources/`, `tools/` or `reconcile.py` changed. Scripts, dumps and the render are in the local, gitignored `scratchpad/closing-audit-661-opus/`.
+
+**Outcome:** the October FY2027 MTS family (`#582`–`#661`) is shipped and audit-complete, 80 of 80. No cadence slot is open.
+
 ---

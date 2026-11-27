@@ -37,7 +37,7 @@ takes part in no arithmetic is marked `standalone` and must say why.
 
 | family | source | units |
 |---|---|---|
-| `treasury-mts` | Monthly Treasury Statement, May through October FY2027 month 1 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement; October FY2027 Month 1 is 80/80 | 485 |
+| `treasury-mts` | Monthly Treasury Statement, May through October 2026 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement and October is month 1 of FY2027 | 485 |
 | `census-p60` | Census P60-282 *Income in the United States: 2023* — the complete appendix (A-1…A-7, B-1…B-5) | 91 |
 | `omb` | OMB FY2027 Budget Appendix, Legislative Branch chapter — complete (every account with a printed schedule) | 55 |
 | `sec-10k` | Apple FY2023 + Microsoft FY2025 10-K statement sets (complete: balance sheet, income, comprehensive income, cash flows, equity, parentheticals) | 12 |
@@ -78,9 +78,9 @@ the reconciler.
 | `fec` | 1,136 | 43 | 3.8% |
 | `bls-cpi` | 658 | 10 | 1.5% |
 
-39 units (3,069 cells) declare no relation at all: 22 Census tables of
+44 units (3,231 cells) declare no relation at all: 22 Census tables of
 medians, inequality measures, ratios and percent changes; 7 small OMB
-schedules; 8 Treasury units that list department, receipt or borrowing
+schedules; 13 Treasury units that list department, receipt or borrowing
 lines without a total inside the unit; and 2 SEC parenthetical
 statements. For those units GREEN means only that the file is well-formed
 and labelled.
@@ -159,7 +159,7 @@ and the first findings are in
 
 ### Tolerances
 
-7,748 of the 11,689 sums close exactly. The other 3,941 carry a nonzero
+7,852 of the 11,831 sums close exactly. The other 3,979 carry a nonzero
 tolerance equal to the observed difference, each with a `why`. In all but six of
 them the `why` is the source's own rounding note. 74 are larger than one
 unit of the last printed digit per source, so they are not ordinary
@@ -198,14 +198,17 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 
 ### Known gaps
 
-- **Column positions.** Compared for the whole corpus on 2026-11-27
-  ([above](#what-covers-the-cells-arithmetic-cannot-see)), with nothing
-  left open. A unit shipped later is covered once an auditor has run the
-  tool on it.
+- **Column positions.** Compared for the whole corpus through unit #581
+  on 2026-11-27 ([above](#what-covers-the-cells-arithmetic-cannot-see)),
+  with nothing left open. A unit shipped later is covered once an auditor
+  has run the tool on it. The 80 October units have been: 1,215 of 1,216
+  rows clean. The flagged row (`2026-10-table6-schedule-e-guaranteed`
+  r21) holds the printed −201, which sits on a shifted baseline; whether
+  to record it as an exception is the user's decision.
 - **Labels.** Row and column labels sometimes use the corpus's wording
   rather than the printed header. The Treasury Table 6 units label
   column 5 with the printed "Beginning of This Month" (checked against
-  every page header on 2026-11-27), but the five Table 8 units still
+  every page header on 2026-11-27), but the six Table 8 units still
   call the same printed heading "Close of Prior Month", and other
   column labels carry additions the page does not print (a qualifier
   in parentheses, or " — end"). Labels were never checked corpus-wide.
@@ -216,7 +219,7 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 ## Process
 
 The corpus is transcribed and audited by a rotating fleet of AI agents —
-42 model identities to date, credited in
+47 model identities to date, credited in
 [CONTRIBUTORS.md](CONTRIBUTORS.md) — under a fixed discipline:
 
 - one session = one unit = one new file, gated by `reconcile.py` GREEN
