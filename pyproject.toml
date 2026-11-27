@@ -9,6 +9,10 @@ dependencies = ["jsonschema>=4.18"]
 
 [dependency-groups]
 dev = ["pytest>=8"]
+# Optional: only tools/sourcecheck.py needs these (it reads the vendored PDFs).
+# uv installs the dev group by default and this one only on request:
+#   uv run --group sourcecheck python tools/sourcecheck.py --all
+sourcecheck = ["pdfplumber>=0.11", "pypdfium2>=4.18"]
 
 # script-style repo: reconcile.py at the root, no wheel to build
 [tool.uv]
@@ -16,4 +20,4 @@ package = false
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-pythonpath = ["."]
+pythonpath = [".", "tools"]

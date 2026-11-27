@@ -4225,3 +4225,45 @@ A structured comparison with `7712d99` verified preservation of every cell ID, c
 - **Proof and gates.** A field-by-field comparison with `1c28b17` over all 581 unit files: 59 differ, in the column 5 label (58) and `unit_note` (59) only. The 6,314 cells, 1,203 rows and 2,087 relations of those files are identical, and no relation note changed. Every file is strict UTF-8 and LF-only with its line count, final newline and escape style unchanged, two changed lines per relabelled file. Sweep **581 GREEN**, **23 tests passed**. The next cadence audit is still **#590**. Publication requires the user's approval.
 
 ---
+
+## Whole-corpus source check with `tools/sourcecheck.py`, row and column level (NEXT item 9)
+
+**Run 2026-11-27 over all 581 units (Claude Fable 5.2, on the user's instruction). No unit file changed.** The same agent built the tool and ran it, so this is a mechanical comparison, not an independent audit. The row-level one-off of this morning is now the tracked tool `tools/sourcecheck.py`, and it gained a column level. Two rows are flagged; both were looked at on a 3.0× render and are left for the user. No value is wrong in either.
+
+- **What is compared.** *Row level*, as in the one-off: the values of each unit row must all be on one printed line of the source (one line of the PDF character layer on the cited page, two pages before to four after, then the whole document; or one `<tr>` of an HTML source). *Column level*, new: each cell must sit in the column the page prints it in, and where the unit has no cell the page must not print a number. Values are compared as exact strings; there is no tolerance.
+- **How the columns are found.** Nothing is set up per table. A cell is placed by the horizontal position of its printed number. The rows of a unit must agree with each other about where each column is, and a row is only compared with positions that at least one other row shares. Rows are matched to printed lines in reading order, so a row of small values cannot borrow a line from elsewhere on the page. A column in which a unit never has a cell is located from the dots the page prints there. On the two-column pages of the OMB appendix each text column is read on its own and measured from its own margin.
+
+| family | units | rows | on one printed line | compared column by column | every cell in its column | cells on their printed number | missing cells on dots or `(**)` | on empty paper | not located |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| `treasury-mts` | 405 | 6,566 | 6,566 | 6,566 | **6,565** | 39,992 | 11,466 | 18 | 0 |
+| `census-p60` | 91 | 1,291 | 1,291 | 1,291 | 1,291 | 10,454 | 0 | 15 | 72 |
+| `omb` | 55 | 1,491 | 1,491 | 1,491 | 1,491 | 3,984 | 472 | 0 | 17 |
+| `bls-cpi` | 7 | 329 | 329 | 329 | 329 | 658 | 0 | 0 | 0 |
+| `sec-10k` | 12 | 245 | 245 | 245 | 245 | 596 | 0 | 124 | 0 |
+| `fec` | 11 | 399 | 347 | 347 | **346** | 634 | 0 | 851 | 0 |
+| all | 581 | 10,321 | 10,269 | 10,269 | 10,267 | 56,318 | 11,938 | 1,008 | 89 |
+
+- **Row level: unchanged from the morning.** Every row is found. 22 Treasury rows are found outside the pages around their cited page (rows taken from elsewhere in the statement, such as re-anchored totals). The 52 rows not on one line are the four FEC capstone units, below.
+- **Finding 1 — `treasury-mts/2026-05-receipts-tax-detail` r4, `Total -- Individual Income Taxes` (May p9).** The line prints nine numbers: 170,960, 18,982, 151,979, 2,220,900, 308,361, 1,912,539, 2,106,074, 282,903 and 1,823,171. The unit holds the three gross-receipts ones (`r4c1`, `r4c4`, `r4c7`) and has no cell for the six in the Refunds and Receipts columns. The unit's title says it takes the gross columns only, its three cells are the targets of the sums over rows 1 to 3, and the sibling unit `2026-05-receipts` r1 carries all nine. So this is a deliberate slice that leaves printed numbers of its own row out, not a wrong value. Six of the tool's seven lines are for this row.
+- **Finding 2 — `fec/2024-presidential-general-electoral` r53c1 = 270 (p1).** The page prints `Total Electoral Votes Needed to Win = 270` in italics as a sentence under the table, not in a column. The unit keeps the figure in column 1 (`ELECTORAL VOTES`) as `standalone`, and its row label and `why` say where it comes from. The value is right; it has no printed column to be compared with.
+- **Both are the user's decision** (queued in `NEXT.md`, item 9): add the six May cells or record the row as a documented slice; record the FEC figure as a documented exception or leave it flagged. Until then `sourcecheck.py --all` exits 1 with these seven lines.
+- **Known exceptions, two kinds, each checked in its own way** (`tools/sourcecheck-exceptions.json`). *Census `Z`:* `census-p60/2023-income-a6-ft-pct-workers` r1c1 holds `0` where p45 prints `Z` (rounds to zero), a convention the unit states. The tool looks for that `Z` on the row's line and in the cell's column, and finds it. *FEC capstones:* the 52 rows of `2024-presidential-general-popular-capstone-a` to `-d` gather the candidate columns of the five popular-vote blocks on pp2–6, so no single printed line carries a row. Every one of their 501 values is printed in the document; their columns are not compared. An entry that stops matching its unit is reported as stale and fails the run.
+- **Missing cells.** Where a unit has no cell, the page prints dots or `(**)` in 11,938 places and nothing at all in 1,008 (the FEC and SEC tables leave empty cells blank). In the Treasury statements all but 18 sit on dots or `(**)`. Those 18 are the three sub-lines under Individual Income Taxes in May Table 4 (Withheld, Presidential Election Campaign Fund, Other), which print gross receipts only and leave the other six columns blank; seen on the same render as finding 1. So empty paper is counted, not failed. 89 missing cells (72 Census, 17 OMB) lie in a column their unit never fills and that the tool could not locate on the page, so for those it cannot say what the page prints.
+- **What the tool catches: the four defects of this morning, replayed.** Put back in a copy held in memory, each is reported: the `1` of `2026-05-outlays-uor-departmental` in `r26c4` ("the page prints dots in this column; 1 is printed in the column of c5", and "the unit has no cell, the page prints 1" for `r26c5`), and the three June values 12652, 7632 and 120164 ("no printed line carries this row").
+- **What the tool catches: seeded errors.** In a copy of each of 577 units (the four capstones left out) one error at a time was planted at a random place: a value moved to an empty column of its row, two different values of a row swapped, a cell dropped, a cell added in an empty column, one digit changed.
+
+| family | moved | swapped | dropped | added | digit changed |
+|---|---:|---:|---:|---:|---:|
+| `treasury-mts` | 341 of 341 | 405 of 405 | 405 of 405 | 341 of 341 | 405 of 405 |
+| `census-p60` | 3 of 3 | 91 of 91 | 90 of 91 | 3 of 3 | 91 of 91 |
+| `omb` | 44 of 48 | 45 of 49 | 51 of 54 | 31 of 48 | 43 of 55 |
+| `fec` | 7 of 7 | 7 of 7 | 7 of 7 | 7 of 7 | 7 of 7 |
+| `sec-10k` | 2 of 2 | 12 of 12 | 12 of 12 | 2 of 2 | 12 of 12 |
+| `bls-cpi` | none possible | 7 of 7 | 7 of 7 | none possible | 7 of 7 |
+
+  All 1,897 planted errors in the Treasury units were reported, and 2,485 of 2,526 overall. 40 of the 41 misses are in the OMB tables: their rows often consist of 1s and 2s, and a changed row can then be read off a neighbouring printed line. The other miss is the dropped Census `Z` cell, which the page prints as a letter.
+- **Limits.** The tool does not read row or column labels and cannot see a printed row that a unit lacks. A row printed twice on nearby pages with the same values (Treasury Tables 3 and 4 share lines) is accepted on either. The weakness on very small numbers is stated above. It compares against the text layer of the vendored file, so a difference between that layer and the ink would not show; the cadence audits read renders.
+- **Not a gate.** The tool needs `pdfplumber` and `pypdfium2`, which sit in the optional `sourcecheck` dependency group of `pyproject.toml` and `uv.lock`, and takes about a minute and a half over the corpus. `.github/workflows/check.yml` is unchanged. The auditor's flow now starts with it (`RUNBOOK-auditor.md`, step 1).
+- **Gates.** `uv run --locked pytest`: **41 passed** (18 new tests of the tool on small fixtures; none needs a PDF library). `uv run --locked python reconcile.py --all`: **581 GREEN**. Both were run in an environment without the PDF libraries. No file under `tables/`, `schema/`, `sources/` or `reconcile.py` changed. The next cadence audit is still **#590**. Publication requires the user's approval.
+
+---

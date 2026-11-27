@@ -1,0 +1,34 @@
+{
+  "table_id": "fixtures/sourcecheck-mini-statement",
+  "source": { "path": "fixtures/sourcecheck/mini-statement.htm", "table": "synthetic harness fixture", "title": "Mini statement" },
+  "unit_note": "synthetic — self-test fixture for tools/sourcecheck.py, not corpus data. Inventory has no 2024 cell: the source prints none.",
+  "columns": [
+    { "index": 1, "label": "2025" },
+    { "index": 2, "label": "2024" },
+    { "index": 3, "label": "Change" }
+  ],
+  "rows": [
+    { "index": 1, "label": "Cash" },
+    { "index": 2, "label": "Receivables" },
+    { "index": 3, "label": "Inventory" },
+    { "index": 4, "label": "Total" }
+  ],
+  "cells": [
+    { "id": "r1c1", "row": 1, "col": 1, "value": "1200", "role": "leaf" },
+    { "id": "r1c2", "row": 1, "col": 2, "value": "900", "role": "leaf" },
+    { "id": "r1c3", "row": 1, "col": 3, "value": "300", "role": "leaf" },
+    { "id": "r2c1", "row": 2, "col": 1, "value": "450", "role": "leaf" },
+    { "id": "r2c2", "row": 2, "col": 2, "value": "500", "role": "leaf" },
+    { "id": "r2c3", "row": 2, "col": 3, "value": "-50", "role": "leaf" },
+    { "id": "r3c1", "row": 3, "col": 1, "value": "75", "role": "leaf" },
+    { "id": "r3c3", "row": 3, "col": 3, "value": "75", "role": "leaf" },
+    { "id": "r4c1", "row": 4, "col": 1, "value": "1725", "role": "total" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "1400", "role": "total" },
+    { "id": "r4c3", "row": 4, "col": 3, "value": "325", "role": "total" }
+  ],
+  "relations": [
+    { "type": "sum", "sources": ["r1c1", "r2c1", "r3c1"], "target": "r4c1" },
+    { "type": "sum", "sources": ["r1c2", "r2c2"], "target": "r4c2" },
+    { "type": "sum", "sources": ["r1c3", "r2c3", "r3c3"], "target": "r4c3" }
+  ]
+}

@@ -10,6 +10,7 @@
 *.toml        text eol=lf
 *.lock        text eol=lf
 *.yml         text eol=lf
+*.htm         text eol=lf
 
 # Vendored sources are byte-exact and sha256-ledgered in sources/SOURCES.md.
 # Two BLS .htm files are CRLF on purpose; normalising them would break the

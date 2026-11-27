@@ -95,33 +95,59 @@ statements) each audit compares every printed position of its whole
 batch, not a sample. The trail, including the defects the audits caught
 and the ones they missed, is in [AUDITS.md](AUDITS.md).
 
-**A row-level check of the whole corpus (2026-11-27).** For every row of
-every unit, the row's values were looked up on one printed line of the
-source: one line of the PDF text layer, or one HTML table row.
+**A check of every unit against its source (`tools/sourcecheck.py`).**
+The tool reads the vendored PDF or HTML and compares it with each unit at
+two levels.
 
-| family | rows | found on one printed line | not matched |
+- *Row level.* The values of a unit row must all be found on one printed
+  line of the source: one line of the PDF text layer, or one HTML table
+  row. This catches a wrong value, also in a `standalone` cell.
+- *Column level.* Each cell must sit in the column the page prints it in,
+  and where a unit has no cell the page must not print a number. This
+  catches a value in the wrong column, a kind of error the row level
+  cannot see. The printed columns are found from the positions of the
+  numbers on the page; nothing is set up per table.
+
+Whole-corpus run of 2026-11-27:
+
+| family | rows | found on one printed line | every cell in its printed column |
 |---|---:|---:|---|
-| `treasury-mts` | 6,566 | 6,566 | — |
-| `census-p60` | 1,291 | 1,290 | 1: a printed `Z` transcribed as `0`, a documented convention |
-| `omb` | 1,491 | 1,491 | — |
-| `bls-cpi` | 329 | 329 | — |
-| `sec-10k` | 245 | 245 | — |
-| `fec` | 399 | 347 | 52 summary rows that combine several printed blocks by design; every one of their values is printed in the document |
+| `treasury-mts` | 6,566 | 6,566 | 6,565; one row holds three of the nine numbers its line prints |
+| `census-p60` | 1,291 | 1,291 | 1,291 |
+| `omb` | 1,491 | 1,491 | 1,491 |
+| `bls-cpi` | 329 | 329 | 329 |
+| `sec-10k` | 245 | 245 | 245 |
+| `fec` | 399 | 347 | 346 of the 347; one figure is printed in a sentence under its table |
 
-The first run found three wrong values, all in the June Treasury statement
-and two of them in `standalone` cells. They were corrected the same day;
-the table shows the state after the correction, and it counts one Treasury
-row that was added later that day and checked against its printed line.
-The check compares values, not their order within a row or the label the
-row sits under, and it cannot see a printed number that is missing from a
-unit. It was a one-off: the script is not part of this repository or its
-gates. Method and findings are in
-[AUDIT-2026-11-27.md](AUDIT-2026-11-27.md). A later comparison of 17
-Treasury units column by column found one value in the wrong column, a
-kind of error the row-level check cannot see. It was moved to the column
-the page prints it in ([AUDITS.md](AUDITS.md), *Directed follow-up*). The
-rest of the corpus has not had a column-by-column comparison outside the
-audits.
+Two documented exceptions are checked in their own way, not skipped. One
+Census cell holds `0` where the page prints `Z` (rounds to zero): the tool
+looks for that `Z` on the row's line and in the cell's column. The 52 rows
+of the four FEC summary units gather the columns of five printed blocks,
+so no single line carries them: every one of their values must be printed
+somewhere in the document, and their columns are not compared. The two
+rows the table marks are open for a decision ([NEXT.md](NEXT.md)); the
+values in both are the printed ones.
+
+The check started on the same day as a one-off script. Its first run
+found three wrong values, all in the June Treasury statement and two of
+them in `standalone` cells. A column-by-column comparison of 17 Treasury
+units then found one value in the wrong column. All four were corrected,
+and the table shows the state after that. The script has since become the
+tool in this repository, and it reports each of the four when they are
+put back in a copy. As a broader test, one error at a time was planted in
+a copy of every unit: a value moved to an empty column, two values
+swapped, a cell dropped, a cell added, a digit changed. In the 405
+Treasury units the tool reported all 1,897. Over the whole corpus it
+reported 2,485 of 2,526; 40 of the 41 it missed are in the OMB tables,
+whose rows of 1s and 2s can also be read off a neighbouring line.
+
+The tool does not read labels, and it cannot see a printed row that is
+missing from a unit. It is not one of the gates: it needs PDF libraries
+the gates do not install and takes about a minute and a half, so an
+auditor runs it ([RUNBOOK-auditor.md](RUNBOOK-auditor.md)). The method
+and the first findings are in
+[AUDIT-2026-11-27.md](AUDIT-2026-11-27.md), the whole-corpus record in
+[AUDITS.md](AUDITS.md).
 
 ### Tolerances
 
@@ -164,10 +190,12 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 
 ### Known gaps
 
-- **Column positions.** One value was found in the wrong column on
-  2026-11-27 and moved. Only 17 Treasury units have been compared with
-  the page column by column outside the audits, so others may exist in
-  units audited by sample (up to #341).
+- **Column positions.** Compared for the whole corpus on 2026-11-27
+  ([above](#what-covers-the-cells-arithmetic-cannot-see)). Two rows are
+  open: a May Treasury total row that holds three of the nine numbers
+  printed on its line, and an FEC figure printed in a sentence under its
+  table. A unit shipped later is covered once an auditor has run the
+  tool on it.
 - **Labels.** Row and column labels sometimes use the corpus's wording
   rather than the printed header. The Treasury Table 6 units label
   column 5 with the printed "Beginning of This Month" (checked against
@@ -205,10 +233,11 @@ uv venv && uv sync                                     # once
 uv run python reconcile.py tables/<family>/<id>.cells.json
 uv run pytest                                          # oracle self-tests
 uv run python reconcile.py --all                       # full sweep (empty selection is red; any unit failure is red)
+uv run --group sourcecheck python tools/sourcecheck.py --all   # units against their sources; not a gate
 ```
 
-Every push to `main` and every pull request runs the last two commands
-on GitHub ([.github/workflows/check.yml](.github/workflows/check.yml)).
+Every push to `main` and every pull request runs `pytest` and the full
+sweep on GitHub ([.github/workflows/check.yml](.github/workflows/check.yml)).
 
 ## License
 

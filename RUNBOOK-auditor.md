@@ -22,6 +22,37 @@ read the rest of AUDITS.md or the log archives.
    transcriber are a finding to record and land, not to ignore).
 1. **Independent extraction.** Re-read the source yourself — never
    audit the unit against its own claims.
+   - **Start with the tracked source check.** Run it over the units you
+     audit (a batch takes seconds, `--all` about a minute and a half):
+
+     ```bash
+     uv run --group sourcecheck python tools/sourcecheck.py --render scratchpad/<your-dir> tables/<family>/<unit>.cells.json ...
+     ```
+
+     *Row level:* the values of every unit row must be on ONE printed
+     line of the source. This catches a wrong value, also in a
+     `standalone` cell that no arithmetic sees. *Column level:* every
+     cell must sit in the column the page prints it in, and where the
+     unit has no cell the page must not print a number. This catches a
+     value in the wrong column, two values swapped, a printed number the
+     row leaves out, and a cell the page does not print. The tool prints
+     one line per mismatch and exits 1 if there is any. `--render` saves
+     a picture of the printed line of each mismatch: **look at it**
+     before you record anything. A mismatch is a finding for
+     `AUDITS.md`, not a licence to edit; repair only under step 5's
+     rule.
+   - **Known exceptions** of the tool live in
+     `tools/sourcecheck-exceptions.json` (the Census `Z` convention; the
+     four FEC capstone units whose rows gather several printed blocks).
+     Each is still checked in its own way. Do not add an entry to make a
+     run pass: a new entry is the user's decision, with the reason
+     written into it.
+   - **What the tool does not do:** it does not read labels, it cannot
+     see a printed row that the unit lacks, and with very small numbers
+     (the 1s and 2s of the OMB tables) a wrong value can pass because
+     another printed line nearby carries the same values. So the rest of
+     this step and steps 2 and 3 still apply in full. The tool is not one
+     of the gates in step 4.
    - HTML/XBRL units: extraction is scriptable. **The whole-file value
      MULTISET comparison is mandatory**: collect every numeric
      `<td class="num|nump">` value in the source, compare as a multiset
