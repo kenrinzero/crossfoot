@@ -7,7 +7,7 @@
     "title": "Outlays of the U.S. Government — National Science Foundation",
     "period": "October FY2027"
   },
-  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. October prints no applicable receipts in the section; the Proprietary Receipts row is label-only and the total's receipts cells print (**).",
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. October prints no numeric applicable receipts in the section; the Proprietary Receipts row is label-only and the total's receipts cells print (**) in the two current periods and dots in the prior period (audit #621-#629 metadata note repair, 2026-11-27).",
   "columns": [
     {
       "index": 1,

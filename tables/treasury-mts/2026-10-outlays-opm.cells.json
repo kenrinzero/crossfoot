@@ -7,7 +7,7 @@
     "title": "Outlays of the U.S. Government — Office of Personnel Management",
     "period": "October FY2027"
   },
-  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. October drops September's Payment to Civil Service Retirement and Disability Fund row and the matching Intrabudgetary General Fund Contributions row; the Government Payment for Annuitants line prints no prior-year amounts. The Employees Life Insurance and Employees and Retired Employees Health Benefits Funds carry the only applicable receipts, and their gross identities close exactly in all three periods.",
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. October drops September's Payment to Civil Service Retirement and Disability Fund row and the matching Intrabudgetary General Fund Contributions row; the Government Payment for Annuitants line prints no prior-year amounts. The Employees Life Insurance and Employees and Retired Employees Health Benefits Funds carry the only applicable receipts; the Life Insurance Fund's gross identity closes exact in all three periods and the Health Benefits Fund's closes at tol=1 in all three periods (audit #621-#629 metadata note repair, 2026-11-27).",
   "columns": [
     {
       "index": 1,

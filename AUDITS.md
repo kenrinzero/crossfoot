@@ -4669,3 +4669,77 @@ last 24 lines of Audit `#610` at line 4498 and introduced four prose/Markdown er
 source range `12–25`→`7–14`, and an unclosed backtick on `#621`). Restored Audit `#610` verbatim
 from `1634a87`, corrected those four items, and confirmed the seven September-vs-October row
 omissions above after re-checking all ten units (`#611–#620`, 0 corpus changes).
+
+---
+
+## Spot-Audit: Units 621–629 — October Table 5 (other-defense-civil through sba)
+
+**Verdict: GREEN after metadata repairs, 2026-11-27.** Antigravity (Gemini 4 Carbon (Medium)) independently audited the nine October Table 5 units (`#621–#629`) shipped by GLM-5.3-Flash (Cline) across `87394f6`, `91cddc8`, and `78caae5` (different agent and model family, satisfying the hard rule; dispatched because the transcriber stopped at `#629` and gated `#630` on a batch audit). All **80 unit rows / 720 printed positions** (`465` numeric values + `255` omissions) across **78 distinct printed rows** match the [vendored October statement](sources/treasury-mts/mts-202610.pdf) with **0 positional mismatches** and **0 missing DESIGN §4a identity classes**. Corrected two pre-builder `unit_note` prose inaccuracies (`#627` NSF and `#628` OPM) and three `BACKLOG.md` status-note inaccuracies (`#625`, `#628`, `#629`), with **0 cell, label, role, or relation changes**. **`#630` (`treasury-mts/2026-10-outlays-social-security`, p20) is unblocked (32 October units remain, `#630–#661`); the next every-10th cadence audit is `#630`.**
+
+| Field | Value |
+|---|---|
+| **Units** | `#621–#629`: `2026-10-outlays-other-defense-civil` through `2026-10-outlays-sba` (whole-batch scope, 9 units) |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` (38pp, sha256 `956fca41…075cb725`): Table 5 pp18–20, rounding and omission notes p22, Table 3 p8; September comparison `sources/treasury-mts/mts-202609.pdf` pp19–20 |
+| **Transcriber** | GLM-5.3-Flash (Cline) (2026-11-27, commits `87394f6`, `91cddc8`, `78caae5`) |
+| **Auditor** | Antigravity (Gemini 4 Carbon (Medium)) — different agent and model family from the transcriber, satisfying the cadence hard rule |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN after metadata repairs** — `#630` (`treasury-mts/2026-10-outlays-social-security`) is unblocked |
+
+### 1. Source, labels, and positional coverage
+
+Re-verified `sources/treasury-mts/mts-202610.pdf` against [sources/SOURCES.md](sources/SOURCES.md): SHA-256 `956fca41af770139de490eff3f6d524367d28e7904761053cd8759ba075cb725`, `2,123,129` bytes (and `mts-202609.pdf` SHA-256 `fcabeccdc7052960ffe8ec2c8a539aed9c1f49d47aedc2cbee39d50f0585e7db`, `2,309,827` bytes), on a clean tree at `78caae5` (`main == origin/main`).
+
+Method, run independently of the transcriber's checks:
+
+- **Tracked source check** (`uv run --group sourcecheck python tools/sourcecheck.py --render scratchpad/audit-621-629 …`) over all nine units: **9 unit(s), 73 numeric-bearing rows, 73 found on one printed line, 73 compared column by column, 73 with every cell in its printed column, 465 cells on their printed number, 192 missing cells on dots or `(**)`, 0 mismatch(es), 0 stale exception(s).** `tools/sourcecheck-exceptions.json` remains untouched (no October entries).
+- **Independent extraction and renders.** Extracted `pdfplumber` character-level 9-column grids (`274.0…594.0` right-edge anchors at 40pt pitch) for printed pages 18, 19, and 20 of both `mts-202610.pdf` and `mts-202609.pdf`, checked for sub-6.2pt superscripts (none in `#621–#629`; the sole `4.0pt` superscript `1` on p20 sits at `y=543.6` on Social Security's `Off-Budget¹` line, `#630`'s scope), and visually inspected 3.0× `pypdfium2` renders of October printed pages 8, 18, 19, 20, and 22.
+- **Full positional and row-count check.** Across the eight agency sections on pp18–20 (`Other Defense Civil Programs` p18; `EPA`, `GSA`, `International Assistance Programs`, and `NASA` p19, skipping `EOP` already shipped as `#591` and audited at `#600`; `NSF`, `OPM`, and `SBA` p20 above `Social Security Administration`), the print carries **78 distinct data rows** (`702` slots = `453` numbers + `188` `......` + `61` `(**)`). Sibling units `#624` and `#625` share `Total--International Security Assistance` and `Total--Agency for International Development` (`2` rows / `12` values + `3` `......` + `3` `(**)`), giving **80 unit rows / 720 positions** (`465` values + `255` omissions = `191` `......` + `64` `(**)`: `192` omissions on the 73 numeric-bearing rows + `63` on the 7 marker-only rows), matching the print 1:1 with **0 mismatches**, **0 missed printed rows**, and **0 label errors** (including two-line wraps on `#621` r3/r4 and `#628` r1, and `Peace Corps / Proprietary Receipts` on `#625` r7).
+
+| Unit | Slug | Page | Rows | Marker-only | Values | Omissions (dots / `(**)`) | Relations / floor | Standalones / waiver | Mismatches |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| #621 | `2026-10-outlays-other-defense-civil` | 18 | 9 | 0 | 57 | 24 (24 / 0) | 9 / 9 | 3 / 3 | 0 |
+| #622 | `2026-10-outlays-epa` | 19 | 9 | 0 | 59 | 22 (21 / 1) | 14 / 14 | 0 / 0 | 0 |
+| #623 | `2026-10-outlays-gsa` | 19 | 6 | 0 | 35 | 19 (15 / 4) | 9 / 9 | 3 / 3 | 0 |
+| #624 | `2026-10-outlays-international-assistance-bureaus` | 19 | 12 | 1 | 66 | 42 (33 / 9) | 12 / 12 | 0 / 0 | 0 |
+| #625 | `2026-10-outlays-international-assistance-departmental` | 19 | 13 | 2 | 74 | 43 (26 / 17) | 17 / 17 | 6 / 6 | 0 |
+| #626 | `2026-10-outlays-nasa` | 19 | 9 | 2 | 42 | 39 (24 / 15) | 6 / 6 | 0 / 0 | 0 |
+| #627 | `2026-10-outlays-nsf` | 20 | 5 | 1 | 24 | 21 (15 / 6) | 6 / 6 | 0 / 0 | 0 |
+| #628 | `2026-10-outlays-opm` | 20 | 10 | 1 | 61 | 29 (23 / 6) | 18 / 18 | 0 / 0 | 0 |
+| #629 | `2026-10-outlays-sba` | 20 | 7 | 0 | 47 | 16 (10 / 6) | 13 / 13 | 1 / 1 | 0 |
+| **Total** | | **18–20** | **80** | **7** | **465** | **255 (191 / 64)** | **104** | **13** | **0** |
+
+### 2. Arithmetic relations, DESIGN §4a coverage, tolerances, and roles
+
+Independently recomputed all **104 declared relations** in exact `Decimal` from the units' own cells (**71 vertical sums + 33 horizontal `Gross = Applicable + Outlays` identities**):
+
+- **Exactness and tolerances:** **50** close with residual `0`; **50** carry `tol="1"`; **4** carry `tol="2"` (`#621` `r9c3`/`r9c6` [8 sources each: `13,051` vs printed `13,053`], `#626` `r9c7`/`r9c9` [6 sources each: `1,561` vs printed `1,559`, with `(**)` on `r7`/`r8`]). Per-batch splits match the transcriber's totals (`#621`: `1/6/2`; `#622–#625`: `24/28/0`; `#626–#629`: `25/16/2`). Every non-zero tolerance **equals the exact observed `|delta|`**, satisfies `tol ≤ len(sources)`, and quotes the p22 rounding note (`Note: Details may not add to totals due to rounding.`, verified on the p22 render).
+- **Complete DESIGN §4a coverage:** Enumerated every printed subtotal, agency total, and complete three-cell horizontal triple across all nine units: **33/33** computable horizontal identities and **71/71** multi-source vertical sums are declared (`0` missing, `0` duplicate equations). Single-source columns are properly omitted from vertical sums under `minItems: 2`: `#621` `c2/c5/c8`, `#623` `c2/c5/c8`, `#625` `Total--Multilateral Assistance` (`6` columns, single detail line `r3`), and `#629` `c8` (`Proprietary Receipts` `-51` sole numeric entry). On `#625` `r10` (`Military Sales Program / Other`), Prior FYTD prints `4 | 4 | (**)`, so `r10c9` is omitted and no prior horizontal triple exists while `r10c7` and `r10c8` feed `r13c7` and `r13c8`.
+- **Roles and hygiene:** Every `total` is targeted, every `leaf` feeds ≥ 1 relation, and all **13 `standalone` cells** (`3` in `#621`, `3` in `#623`, `6` in `#625`, `1` in `#629`) sit outside the relation graph with accurate `why` strings and within manifest waivers.
+
+### 3. October-vs-September deltas, sibling ties, and Table 3 cross-ties
+
+- **October-vs-September print differences (verified against `mts-202609.pdf` pp19–20):** `#621` prints both annual military/retiree payment lines in October (`28,473` and `27,752`, which were `......` in September's This-Month columns); `#622` omits September's prior-year-only `Payment to the Hazardous Substance Superfund` row (`9` rows vs `10`); `#624`/`#625` omit `ISA / Proprietary Receipts from the Public`, `Multilateral / Contribution to the International Development Association`, `Multilateral / Proprietary Receipts from the Public`, and both `Overseas Private Investment Corporation` rows (`Overseas Private Investment Corporation Accounts` and `Total--OPIC`); `#628` omits September's matched `Payment to Civil Service Retirement and Disability Fund` (`48,295`) and `Intrabudgetary / CSRDF / General Fund Contributions` (`-48,295`) pair, and `r1` prints dots in Prior FYTD.
+- **Sibling and Table 3 ties:** Both shared rows between `#624` and `#625` (`Total--International Security Assistance` `1,554 / 1,554 / 1,540` and `Total--Agency for International Development` `177 / 177 / 439`, 12 values + 6 omissions) match byte-for-byte, and all **8 agency net-outlay triples** byte-match printed Table 3 (p8) and `#585` (`2026-10-table3-outlays-departments`):
+
+| Tie | Agency | Month / Current FYTD / Prior FYTD | Result |
+|---|---|---|---|
+| `#621` r9 ↔ `#585` r20 (p8) | Other Defense Civil Programs | `13,053 / 13,053 / 10,519` | **Exact** |
+| `#622` r9 ↔ `#585` r21 (p8) | Environmental Protection Agency | `1,540 / 1,540 / 1,543` | **Exact** |
+| `#623` r6 ↔ `#585` r23 (p8) | General Services Administration | `-82 / -82 / 1,283` | **Exact** |
+| `#625` r13 ↔ `#585` r24 (p8) | International Assistance Programs | `1,770 / 1,770 / -20` | **Exact** |
+| `#626` r9 ↔ `#585` r25 (p8) | National Aeronautics and Space Administration | `1,689 / 1,689 / 1,559` | **Exact** |
+| `#627` r5 ↔ `#585` r26 (p8) | National Science Foundation | `677 / 677 / 723` | **Exact** |
+| `#628` r10 ↔ `#585` r27 (p8) | Office of Personnel Management | `12,757 / 12,757 / 12,704` | **Exact** |
+| `#629` r7 ↔ `#585` r28 (p8) | Small Business Administration | `123 / 123 / 125` | **Exact** |
+
+### 4. Metadata and manifest repairs (value-preserving)
+
+Under the mechanical, value-preserving repair precedent (`#129`, `#160`, `#340`, Audit `#600`), repaired two `unit_note` strings drafted before the transcriber's relation builder ran and three corresponding `BACKLOG.md` descriptions (zero cell, row, column, role, or relation changes):
+
+1. **`#628` (`2026-10-outlays-opm.cells.json` `unit_note` + `BACKLOG.md`):** `unit_note` stated that both `Employees Life Insurance Fund` and `Employees and Retired Employees Health Benefits Fund` close their gross identities *"exact in all three periods"*, and `BACKLOG.md` claimed the same plus *"five tol=1 relations"*. In fact (and in `#628`'s own `relations`), `Life Insurance` (`r4`) is exact in all three periods while `Health Benefits` (`r5`: `7,058` vs `6,746 + 311 = 7,057`; `6,753` vs `4,092 + 2,660 = 6,752`) carries `tol="1"` in all three periods, giving **10** `tol="1"` relations (`8` exact) in `#628`. Updated both notes to match the unit and the p20 print.
+2. **`#627` (`2026-10-outlays-nsf.cells.json` `unit_note`):** `unit_note` stated *"the total's receipts cells print (**)"*; on p20, `r5` prints `(**)` in `c2`/`c5` and dots (`......`) in `c8`. Updated `unit_note` accordingly.
+3. **`BACKLOG.md` status notes on `#625` and `#629` + queue pointer note:** Clarified `#625`'s `(net c3/c6/c9 and prior receipts c9 exact)` (`c8` prior receipts has `tol=1`; `c3/c6/c9` verticals and `r13c7` prior gross horizontal are exact) and `#629`'s `the receipts columns close at tol=1, gross/net columns exact` (current net verticals `r7c3`/`r7c6` also carry `tol=1`, giving `9` exact + `4` `tol=1`). Also noted for downstream routing that unit **`#630` is `treasury-mts/2026-10-outlays-social-security` (p20)**, whereas `grand-total-capstone` (p22) is `#631`.
+
+### 5. Regression gates
+
+All nine units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually with **0 warnings** (exit 0 each). `tools/sourcecheck.py` reports **0 mismatches** across all 73 numeric-bearing rows (`465` cells). Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **629/629 GREEN**, and `uv run --locked pytest` passes **42/42**. **`#630` (`treasury-mts/2026-10-outlays-social-security`) is unblocked; the next every-10th cadence audit is `#630`.**
