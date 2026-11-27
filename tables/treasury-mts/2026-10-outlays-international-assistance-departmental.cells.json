@@ -1,0 +1,835 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-international-assistance-departmental",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 19,
+    "title": "Outlays of the U.S. Government — International Assistance Programs (departmental capstone)",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. Page 19. The departmental total uses the International Security Assistance and Agency for International Development subtotals from the bureau unit. October Multilateral Assistance has a single numeric detail line, which is standalone. October drops September's Multilateral Contribution to the International Development Association and Proprietary Receipts rows and both Overseas Private Investment Corporation rows. Peace Corps Proprietary Receipts and International Monetary Programs print only dots and (**) and are preserved as label-only rows.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Millennium Challenge Corporation"
+    },
+    {
+      "index": 2,
+      "label": "Total--International Security Assistance"
+    },
+    {
+      "index": 3,
+      "label": "Multilateral Assistance / Other"
+    },
+    {
+      "index": 4,
+      "label": "Total--Multilateral Assistance"
+    },
+    {
+      "index": 5,
+      "label": "Total--Agency for International Development"
+    },
+    {
+      "index": 6,
+      "label": "Peace Corps"
+    },
+    {
+      "index": 7,
+      "label": "Peace Corps / Proprietary Receipts"
+    },
+    {
+      "index": 8,
+      "label": "International Monetary Programs"
+    },
+    {
+      "index": 9,
+      "label": "Military Sales Program / Foreign Military Sales Trust Fund"
+    },
+    {
+      "index": 10,
+      "label": "Military Sales Program / Other"
+    },
+    {
+      "index": 11,
+      "label": "Military Sales Program / Proprietary Receipts from the Public"
+    },
+    {
+      "index": 12,
+      "label": "Other"
+    },
+    {
+      "index": 13,
+      "label": "Total--International Assistance Programs"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "75",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "75",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1554",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "1554",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "1554",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1554",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "1540",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "1540",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "300",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "300",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "300",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "300",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "4",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "4",
+      "role": "standalone",
+      "why": "Multilateral Assistance prints this single numeric detail line this month; the printed Total--Multilateral Assistance equals it, below the schema two-source minimum for a vertical sum."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "300",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "177",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "439",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "439",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "23",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "23",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "9151",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "9151",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "9151",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "9151",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "3149",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "3149",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r10c5",
+      "row": 10,
+      "col": 5,
+      "value": "3",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c8",
+      "row": 10,
+      "col": 8,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "9564",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "-9564",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "9564",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "-9564",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "5284",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "-5284",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "73",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "73",
+      "role": "total"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "20",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "52",
+      "role": "total"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "18",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "34",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "11357",
+      "role": "total"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "9588",
+      "role": "total"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1770",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "11357",
+      "role": "total"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "9588",
+      "role": "total"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "1770",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "5285",
+      "role": "total"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "5305",
+      "role": "total"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-20",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r10c1",
+      "sources": [
+        "r10c2",
+        "r10c3"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r10c4",
+      "sources": [
+        "r10c5",
+        "r10c6"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r12c1",
+      "sources": [
+        "r12c2",
+        "r12c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r12c4",
+      "sources": [
+        "r12c5",
+        "r12c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r12c7",
+      "sources": [
+        "r12c8",
+        "r12c9"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r13c1",
+      "sources": [
+        "r13c2",
+        "r13c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c4",
+      "sources": [
+        "r13c5",
+        "r13c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c7",
+      "sources": [
+        "r13c8",
+        "r13c9"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r13c1",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r9c1",
+        "r10c1",
+        "r12c1"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c2",
+      "sources": [
+        "r10c2",
+        "r11c2",
+        "r12c2"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c3",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r13c4",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r9c4",
+        "r10c4",
+        "r12c4"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c5",
+      "sources": [
+        "r10c5",
+        "r11c5",
+        "r12c5"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c6",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r13c7",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r9c7",
+        "r10c7",
+        "r12c7"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c8",
+      "sources": [
+        "r10c8",
+        "r11c8",
+        "r12c8"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c9",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r9c9",
+        "r11c9",
+        "r12c9"
+      ],
+      "tol": "0"
+    }
+  ]
+}

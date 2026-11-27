@@ -1,0 +1,668 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-epa",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 19,
+    "title": "Environmental Protection Agency",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The entire section fits on p19. The Other row prints (**) for prior-year applicable receipts, so its gross identity is declared only for the two current periods. Proprietary Receipts from the Public and Offsetting Governmental Receipts print no gross outlays.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Science and Technology"
+    },
+    {
+      "index": 2,
+      "label": "Environmental Programs and Management"
+    },
+    {
+      "index": 3,
+      "label": "State and Tribal Assistance Grants"
+    },
+    {
+      "index": 4,
+      "label": "Hazardous Substance Superfund"
+    },
+    {
+      "index": 5,
+      "label": "Other"
+    },
+    {
+      "index": 6,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 7,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 8,
+      "label": "Offsetting Governmental Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Total--Environmental Protection Agency"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "46",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "46",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "46",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "46",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "298",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "298",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "298",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "298",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "319",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "319",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "1113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "1113",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1126",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1126",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "161",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "161",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "161",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "161",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "153",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "153",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-61",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-63",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-61",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-63",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-61",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-61",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-14",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "14",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-14",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "36",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "-36",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "16",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c5",
+      "row": 8,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c8",
+      "row": 8,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "1558",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "17",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "1540",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "1558",
+      "role": "total"
+    },
+    {
+      "id": "r9c5",
+      "row": 9,
+      "col": 5,
+      "value": "17",
+      "role": "total"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "1540",
+      "role": "total"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "1580",
+      "role": "total"
+    },
+    {
+      "id": "r9c8",
+      "row": 9,
+      "col": 8,
+      "value": "36",
+      "role": "total"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "1543",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r9c1",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r7c1"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c3",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r9c4",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r7c4"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c6",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r9c7",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r7c7"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c9",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c2",
+      "sources": [
+        "r5c2",
+        "r6c2",
+        "r8c2"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c5",
+      "sources": [
+        "r5c5",
+        "r6c5",
+        "r8c5"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r9c8",
+      "sources": [
+        "r6c8",
+        "r8c8"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r9c1",
+      "sources": [
+        "r9c2",
+        "r9c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r9c4",
+      "sources": [
+        "r9c5",
+        "r9c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r9c7",
+      "sources": [
+        "r9c8",
+        "r9c9"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r5c1",
+      "sources": [
+        "r5c2",
+        "r5c3"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r5c4",
+      "sources": [
+        "r5c5",
+        "r5c6"
+      ],
+      "tol": "0"
+    }
+  ]
+}

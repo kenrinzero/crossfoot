@@ -1,0 +1,423 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-gsa",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 19,
+    "title": "General Services Administration",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. The entire section fits on p19. Proprietary Receipts from the Public supplies the only numeric applicable-receipts component in each period, and the net total is negative in both current periods. Intrabudgetary Transactions prints (**) in both current periods and -3 of prior-year gross and net outlays.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Real Property Activities"
+    },
+    {
+      "index": 2,
+      "label": "Supply and Technology Activities"
+    },
+    {
+      "index": 3,
+      "label": "General Activities"
+    },
+    {
+      "index": 4,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 6,
+      "label": "Total--General Services Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "849",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "849",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-50",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "-50",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "-50",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "-50",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "481",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "481",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "101",
+      "role": "standalone",
+      "why": "Proprietary Receipts from the Public supplies the only numeric applicable-receipts component in this period, below the schema two-source minimum for a vertical sum, and its row omits gross outlays."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-101",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "101",
+      "role": "standalone",
+      "why": "Proprietary Receipts from the Public supplies the only numeric applicable-receipts component in this period, below the schema two-source minimum for a vertical sum, and its row omits gross outlays."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-101",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "66",
+      "role": "standalone",
+      "why": "Proprietary Receipts from the Public supplies the only numeric applicable-receipts component in this period, below the schema two-source minimum for a vertical sum, and its row omits gross outlays."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-66",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-3",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "18",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-82",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "18",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-82",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "1349",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "66",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "1283",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r6c1",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r6c3",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r6c4",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r6c6",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r6c7",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r5c7"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r6c9",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r6c1",
+      "sources": [
+        "r6c2",
+        "r6c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r6c4",
+      "sources": [
+        "r6c5",
+        "r6c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r6c7",
+      "sources": [
+        "r6c8",
+        "r6c9"
+      ],
+      "tol": "0"
+    }
+  ]
+}
