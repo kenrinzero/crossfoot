@@ -1,0 +1,1293 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-hhs-acf",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 13,
+    "title": "HHS Administration for Children and Families and small agencies",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. This scope includes the Administration for Children and Families and the smaller agency lines that feed the companion departmental total. FDA prints gross -94, applicable receipts 1 and outlays -94 in both October columns.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Food and Drug Administration"
+    },
+    {
+      "index": 2,
+      "label": "Health Resources and Services Administration"
+    },
+    {
+      "index": 3,
+      "label": "Indian Health Service"
+    },
+    {
+      "index": 4,
+      "label": "Centers for Disease Control and Prevention"
+    },
+    {
+      "index": 5,
+      "label": "National Institutes of Health"
+    },
+    {
+      "index": 6,
+      "label": "Substance Abuse and Mental Health Services Administration"
+    },
+    {
+      "index": 7,
+      "label": "Agency for Healthcare Research and Quality"
+    },
+    {
+      "index": 8,
+      "label": "Administration for Children and Families: Temporary Assistance for Needy Families"
+    },
+    {
+      "index": 9,
+      "label": "Administration for Children and Families: Contingency Fund"
+    },
+    {
+      "index": 10,
+      "label": "Administration for Children and Families: Payments to States for Child Support Enforcement and Family Support Programs"
+    },
+    {
+      "index": 11,
+      "label": "Administration for Children and Families: Low Income Home Energy Assistance"
+    },
+    {
+      "index": 12,
+      "label": "Administration for Children and Families: Refugee and Entrant Assistance"
+    },
+    {
+      "index": 13,
+      "label": "Administration for Children and Families: Child Care Entitlement to States"
+    },
+    {
+      "index": 14,
+      "label": "Administration for Children and Families: Payments to States for the Child Care and Development Block Grant"
+    },
+    {
+      "index": 15,
+      "label": "Administration for Children and Families: Social Services Block Grant"
+    },
+    {
+      "index": 16,
+      "label": "Administration for Children and Families: Children and Families Services Programs"
+    },
+    {
+      "index": 17,
+      "label": "Administration for Children and Families: Payments to States for Foster Care and Adoption Assistance"
+    },
+    {
+      "index": 18,
+      "label": "Administration for Children and Families: Other"
+    },
+    {
+      "index": 19,
+      "label": "Total--Administration for Children and Families"
+    },
+    {
+      "index": 20,
+      "label": "Administration for Community Living"
+    },
+    {
+      "index": 21,
+      "label": "Departmental Management"
+    },
+    {
+      "index": 22,
+      "label": "Other"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-94",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-94",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "-94",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-94",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "383",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "382",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "1022",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "1022",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "1022",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "1022",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "1156",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "1156",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "3422",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "3422",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "3422",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "3422",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "2783",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "2783",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "875",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "875",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "875",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "875",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "775",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "775",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "3655",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "3655",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "3655",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "3655",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "3314",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "3314",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "501",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "501",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "501",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "501",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "714",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "714",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "15",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "15",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "15",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "15",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "13",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "13",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "1195",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1195",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "1195",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1195",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "967",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "967",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "22",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "52",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "406",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "406",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "406",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "406",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "408",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "408",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "253",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "253",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "253",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "253",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "213",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "213",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "312",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "312",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "312",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "312",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "388",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "388",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "310",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "310",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "310",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "310",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "495",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "495",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "649",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "649",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "649",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "649",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "643",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "643",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "97",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "175",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "175",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "1214",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "1214",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1214",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "1214",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "1312",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "1312",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "942",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "942",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "942",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "942",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "901",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "901",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "71",
+      "role": "leaf"
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "5445",
+      "role": "total"
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "5445",
+      "role": "total"
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "5445",
+      "role": "total"
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "5445",
+      "role": "total"
+    },
+    {
+      "id": "r19c7",
+      "row": 19,
+      "col": 7,
+      "value": "5626",
+      "role": "total"
+    },
+    {
+      "id": "r19c9",
+      "row": 19,
+      "col": 9,
+      "value": "5626",
+      "role": "total"
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "146",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "146",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "146",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "146",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r20c7",
+      "row": 20,
+      "col": 7,
+      "value": "256",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "value": "256",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "376",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "376",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "376",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "376",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "value": "496",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "value": "496",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "415",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "415",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "415",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "415",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "value": "202",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "value": "202",
+      "role": "standalone",
+      "why": "The companion departmental unit includes this agency line in its total. This slice has no subtotal for the line, and the period has no numeric applicable receipts for a row identity."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r15c1",
+        "r16c1",
+        "r17c1",
+        "r18c1"
+      ],
+      "target": "r19c1",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3",
+        "r17c3",
+        "r18c3"
+      ],
+      "target": "r19c3",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4"
+      ],
+      "target": "r19c4",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6"
+      ],
+      "target": "r19c6",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r11c7",
+        "r12c7",
+        "r13c7",
+        "r14c7",
+        "r15c7",
+        "r16c7",
+        "r17c7",
+        "r18c7"
+      ],
+      "target": "r19c7",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9",
+        "r13c9",
+        "r14c9",
+        "r15c9",
+        "r16c9",
+        "r17c9",
+        "r18c9"
+      ],
+      "target": "r19c9",
+      "note": "Total--Administration for Children and Families sums the printed component rows.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r1c3"
+      ],
+      "target": "r1c1",
+      "note": "Net outlays plus applicable receipts equal gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c6"
+      ],
+      "target": "r1c4",
+      "note": "Net outlays plus applicable receipts equal gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c7",
+      "note": "Net outlays plus applicable receipts equal gross outlays."
+    }
+  ]
+}

@@ -53,7 +53,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **October Treasury. 19 of 80 shipped (`#582–#600`).** Audit #600 closed GREEN after metadata repairs. **#601 (`treasury-mts/2026-10-outlays-energy`) is unblocked.** Run the source check on each shipped batch. There are 61 October units left. The next cadence audit is #610 over `#601–#610`.
+- **October Treasury. 29 of 80 shipped (`#582–#610`). Audit #610 is due.** A different agent must audit `#601–#610` against October Table 5 pp12–15 and complete the pending entry in `AUDITS.md`. **#611 (`treasury-mts/2026-10-outlays-labor-bureaus`) is blocked until GREEN.** There are 51 October units left.
 
 - **Treasury MTS September 2026 (Final FY2026) — COMPLETE: 80/80 SHIPPED (#502–#581).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. **FY2026 is closed.** The October queue starts at #582.
   - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** **#560 closed GREEN after repair 2026-11-26 (Qwen 4 Max; whole-batch #551–#560, 831 values / 255 omissions / 1,086 positions, 0 mismatches; 36 fiscal-year roll-forwards declared per DESIGN §4a in #558/#559, 8 role flips, 0 value changes; handoff counts corrected).** **#570 closed GREEN 2026-11-26 (Antigravity / Gemini 4 Argon (High); whole-batch #561–#570, 1,192 values / 164 omissions / 1,356 positions / 364 relations, 0 mismatches, 0 repairs; all 12 all-omission drops, handoff items, DESIGN §4a roll-forwards, and cross-table ties verified).** **#580 closed GREEN 2026-11-27 (MiniMax Code / MiniMax-M3.1-Flash; whole-batch #571–#580, 1,572 values / 94 omissions / 1,666 positions / 278 relations, 0 mismatches, 0 repairs; all 6 all-omission drops, the p33 header typo, the p35 touching negatives, the August DoD restatement, the newly active FDIC row, all 81 Table 7 month→YTD §4a identities and all 39 Table 8 identities verified; handoff tolerance histogram and Table 6-D tie corrected in `AUDITS.md`).** **#581 unblocked.** See `AUDITS.md`.
@@ -91,7 +91,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#600**. **The next audit is #610** over `#601–#610`. See `AUDITS.md` for the
+**#600**. **#610 is due** over `#601–#610` (transcribed by Codex). See `AUDITS.md` for the
 records and batch-numbering tie-break rule. Past findings include #129's
 missing memo row, #160's two missing standalone rows, and #250's systematic
 A-5 year shift. #331, #332, #333 shipped without audits;
@@ -132,6 +132,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-27 · **October Treasury #601–#610 shipped (Codex).** Transcribed Energy, HHS ×3, Homeland Security, HUD ×2, Interior ×2 and Justice from Table 5 pp12–15. All 1,078 values and 515 omissions across 177 rows match the source. All 199 sums, 18 shared sibling rows and six Table 3 ties checked out. The corpus sweep passed 610/610 and pytest passed 42/42. **Independent audit #610 is due and #611 is blocked.** [Audit handoff](AUDITS.md)
 
 - 2026-11-27 · **Audit #600 GREEN after metadata repairs (Codex).** Independently checked October `#591–#600` against Table 5 on pp10–12 and 19. All 956 values and 511 omissions across 163 rows matched, all 157 sums and five Table 3 ties held, and the 600-unit sweep and 42 tests passed. Corrected three unit notes and two standalone explanations. **#601 unblocked. Next audit #610.** [Audit record](AUDITS.md#spot-audit-unit-600--treasury-mts2026-10-outlays-education-departmental-whole-batch-591600)
 

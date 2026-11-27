@@ -4444,3 +4444,22 @@ Applied the value-preserving audit repair rule used in #129, #160 and #340. Upda
 ### 6. Regression gates
 
 All ten units reconciled separately with zero warnings and passed the UTF-8, LF and final-newline checks. The final tracked source check had zero mismatches. The strict corpus sweep passed **600/600** and pytest passed **42/42**. **#601 (`treasury-mts/2026-10-outlays-energy`) is unblocked. Next audit #610 covers #601–#610.**
+
+---
+
+## Spot-Audit: Unit 610 — `treasury-mts/2026-10-outlays-justice` (whole batch #601–#610)
+
+**PENDING — different-agent audit.** Codex transcribed the ten units on 2026-11-27. **#611 (`treasury-mts/2026-10-outlays-labor-bureaus`) is blocked until an independent audit of the full batch is GREEN.** [Vendored October statement](sources/treasury-mts/mts-202610.pdf)
+
+| Units | Source and review points |
+|---|---|
+| #601 | Energy, pp12–13. Defense Nuclear Waste Disposal prints only omission marks and is preserved as a label. October omits the September Offsetting Governmental Receipts line. The Energy Programs subtotal enters the department total once. |
+| #602–#604 | HHS, pp13–14. Both trust-fund subtotals feed the CMS total. Its eight component lines sum to 334,369 against 334,367 printed for gross and net in both October columns (four tolerances of 2). FDA prints -94 / 1 / -94 in these columns. The prior-year intrabudgetary Other line has only omission marks. |
+| #605 | Homeland Security, p14. The three FEMA detail rows feed its subtotal, which then enters the department total. National Flood Insurance Fund supplies the sole numeric applicable-receipts component in each FEMA period. |
+| #606–#607 | HUD, pp14–15. The bureaus preserve three marker-only labels. The FHA-Mutual Mortgage and Cooperative Housing Insurance Fund liquidating account is also marker-only. The FHA-General and Special Risk Fund Program Account and Home Ownership Preservation Equity Fund appear in September and are absent in October. |
+| #608–#609 | Interior, p15. Central Utah Project is marker-only. Bureau of Land Management Other prints 26 / 9 / 18 in both October columns. The six Indian Affairs standalone cells are the sole component of the printed subtotal. Its values repeat on the subtotal that enters the department sum. |
+| #610 | Justice, p15. The department fits on one page. The Legal Activities and U.S. Marshals, Office of Justice Programs, and department-level Other lines are distinct. |
+
+Transcriber checks covered **177 rows and 1,593 positions**, with **1,078 numeric values and 515 omissions**. The tracked source check matched the 171 numeric-bearing rows, including 461 omissions, with zero mismatches. Six marker-only rows account for the other 54 omissions. The 199 sums comprise 135 vertical sums and 64 gross-to-net identities (94 exact, 101 with tolerance 1, four with tolerance 2). Each tolerance equals the observed residual, quotes the p22 rounding note and is within half a printed unit per source. All units meet their floors, cell caps and standalone waivers. The corpus sweep passed 610/610 and pytest passed 42/42.
+
+Verify the six net totals against Table 3 on p8 and #585 (month / current FYTD / prior FYTD). Energy 5,028 / 5,028 / 5,070. HHS 257,378 / 257,378 / 228,083. Homeland Security 9,144 / 9,144 / 5,513. HUD 5,552 / 5,552 / 5,850. Interior 1,563 / 1,563 / 771. Justice 3,182 / 3,182 / 2,085. Also check the 18 shared sibling rows (116 values) and the six marker-only rows on the renders. [Vendored September statement](sources/treasury-mts/mts-202609.pdf)
