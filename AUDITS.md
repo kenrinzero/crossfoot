@@ -4449,17 +4449,72 @@ All ten units reconciled separately with zero warnings and passed the UTF-8, LF 
 
 ## Spot-Audit: Unit 610 — `treasury-mts/2026-10-outlays-justice` (whole batch #601–#610)
 
-**PENDING — different-agent audit.** Codex transcribed the ten units on 2026-11-27. **#611 (`treasury-mts/2026-10-outlays-labor-bureaus`) is blocked until an independent audit of the full batch is GREEN.** [Vendored October statement](sources/treasury-mts/mts-202610.pdf)
+**Verdict: GREEN, 2026-11-27.** Antigravity (Gemini 4 Hydrogen (High)) independently audited the ten October Table 5 units (`#601–#610`) shipped by Codex at `6b067cc` (different agent and model family, satisfying the cadence hard rule). All **1,078 numeric values and 515 omissions across 1,593 printed positions** on 177 unit rows match the [vendored October statement](sources/treasury-mts/mts-202610.pdf) with **0 positional mismatches**, **0 missing DESIGN §4a identity classes**, and **0 repairs required**. **#611 (`treasury-mts/2026-10-outlays-labor-bureaus`) is unblocked. The next cadence audit is #620.**
 
-| Units | Source and review points |
+| Field | Value |
 |---|---|
-| #601 | Energy, pp12–13. Defense Nuclear Waste Disposal prints only omission marks and is preserved as a label. October omits the September Offsetting Governmental Receipts line. The Energy Programs subtotal enters the department total once. |
-| #602–#604 | HHS, pp13–14. Both trust-fund subtotals feed the CMS total. Its eight component lines sum to 334,369 against 334,367 printed for gross and net in both October columns (four tolerances of 2). FDA prints -94 / 1 / -94 in these columns. The prior-year intrabudgetary Other line has only omission marks. |
-| #605 | Homeland Security, p14. The three FEMA detail rows feed its subtotal, which then enters the department total. National Flood Insurance Fund supplies the sole numeric applicable-receipts component in each FEMA period. |
-| #606–#607 | HUD, pp14–15. The bureaus preserve three marker-only labels. The FHA-Mutual Mortgage and Cooperative Housing Insurance Fund liquidating account is also marker-only. The FHA-General and Special Risk Fund Program Account and Home Ownership Preservation Equity Fund appear in September and are absent in October. |
-| #608–#609 | Interior, p15. Central Utah Project is marker-only. Bureau of Land Management Other prints 26 / 9 / 18 in both October columns. The six Indian Affairs standalone cells are the sole component of the printed subtotal. Its values repeat on the subtotal that enters the department sum. |
-| #610 | Justice, p15. The department fits on one page. The Legal Activities and U.S. Marshals, Office of Justice Programs, and department-level Other lines are distinct. |
+| **Unit** | `tables/treasury-mts/2026-10-outlays-justice.cells.json` (corpus #610) — whole-batch scope `#601–#610` |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` (38pp, sha256 `956fca41…075cb725`): Table 5 pp12–15, rounding and omission notes p22, Table 3 p8; September comparison `sources/treasury-mts/mts-202609.pdf` pp12–15 |
+| **Transcriber** | Codex (session 2026-11-27, batch `#601–#610` at `6b067cc`) |
+| **Auditor** | Antigravity (Gemini 4 Hydrogen (High)) — different agent and model family from the transcriber, satisfying the cadence hard rule |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN** — `#611` (`treasury-mts/2026-10-outlays-labor-bureaus`) is unblocked |
 
-Transcriber checks covered **177 rows and 1,593 positions**, with **1,078 numeric values and 515 omissions**. The tracked source check matched the 171 numeric-bearing rows, including 461 omissions, with zero mismatches. Six marker-only rows account for the other 54 omissions. The 199 sums comprise 135 vertical sums and 64 gross-to-net identities (94 exact, 101 with tolerance 1, four with tolerance 2). Each tolerance equals the observed residual, quotes the p22 rounding note and is within half a printed unit per source. All units meet their floors, cell caps and standalone waivers. The corpus sweep passed 610/610 and pytest passed 42/42.
+### 1. Source, labels, and positional coverage
 
-Verify the six net totals against Table 3 on p8 and #585 (month / current FYTD / prior FYTD). Energy 5,028 / 5,028 / 5,070. HHS 257,378 / 257,378 / 228,083. Homeland Security 9,144 / 9,144 / 5,513. HUD 5,552 / 5,552 / 5,850. Interior 1,563 / 1,563 / 771. Justice 3,182 / 3,182 / 2,085. Also check the 18 shared sibling rows (116 values) and the six marker-only rows on the renders. [Vendored September statement](sources/treasury-mts/mts-202609.pdf)
+Re-verified `sources/treasury-mts/mts-202610.pdf` against [sources/SOURCES.md](sources/SOURCES.md): SHA-256 `956fca41af770139de490eff3f6d524367d28e7904761053cd8759ba075cb725`, 2,123,129 bytes, matching the ledger byte-for-byte on a clean tree at `6b067cc`.
+
+Method, run independently of the transcriber's own checks:
+
+- **Tracked source check** (`uv run --group sourcecheck python tools/sourcecheck.py --render scratchpad/audit-610 …`) over all ten units: **10 unit(s), 171 numeric-bearing rows, 171 found on one printed line, 171 compared column by column, 171 with every cell in its printed column, 1,078 cells on their printed number, 461 missing cells on dots or `(**)`, 0 mismatch(es), 0 stale exception(s).** `tools/sourcecheck-exceptions.json` remains unchanged (no October entries).
+- **Independent extraction and renders.** Extracted `pdfplumber` character positions (nine right-aligned columns at 40pt pitch: `274.0, 314.0, 354.0, 394.0, 434.0, 474.0, 514.0, 554.0, 594.0`) and plain layout text for printed pages 12–15, 8, and 22, verified zero sub-6.5pt superscripts on pp12–15, and visually inspected 3.0× `pypdfium2` renders of printed pages 8, 12, 13, 14, 15, and 22.
+- **Full positional and row-count check.** Across Energy through Justice on pp12–15, the print carries **159 distinct printed data rows** (1,431 slots = 962 numbers + 397 `......` + 72 `(**)`). Because sibling units share 18 rows (116 values + 42 `......` + 4 `(**)`), the ten units hold **177 rows / 1,593 positions** (`1,078` numeric values + `515` omissions = `439` `......` + `76` `(**)`), matching the print 1:1 with **0 mismatches**, **0 missed printed rows**, and **0 label errors**. Six marker-only rows are preserved as 0-cell row labels (`#601` r7, `#606` r2/r5/r12, `#607` r5, `#608` r8).
+
+| Unit | Slug | Pages | Rows | Marker-only | Values | Omissions (dots / `(**)`) | Relations / floor | Standalones / waiver | Mismatches |
+|---|---|---|---:|---:|---:|---:|---:|---:|---:|
+| #601 | `2026-10-outlays-energy` | 12–13 | 21 | 1 | 132 | 57 (51 / 6) | 27 / 27 | 0 / 0 | 0 |
+| #602 | `2026-10-outlays-hhs-cms` | 13 | 14 | 0 | 84 | 42 (42 / 0) | 18 / 18 | 0 / 0 | 0 |
+| #603 | `2026-10-outlays-hhs-acf` | 13 | 22 | 0 | 135 | 63 (63 / 0) | 9 / 9 | 54 / 54 | 0 |
+| #604 | `2026-10-outlays-hhs-departmental` | 13–14 | 17 | 0 | 106 | 47 (45 / 2) | 15 / 15 | 0 / 0 | 0 |
+| #605 | `2026-10-outlays-homeland-security` | 14 | 19 | 0 | 126 | 45 (45 / 0) | 27 / 27 | 0 / 0 | 0 |
+| #606 | `2026-10-outlays-hud-bureaus` | 14 | 15 | 3 | 72 | 63 (47 / 16) | 12 / 12 | 0 / 0 | 0 |
+| #607 | `2026-10-outlays-hud-departmental` | 14–15 | 21 | 1 | 119 | 70 (42 / 28) | 25 / 25 | 0 / 0 | 0 |
+| #608 | `2026-10-outlays-interior-bureaus` | 15 | 19 | 1 | 116 | 55 (39 / 16) | 34 / 34 | 0 / 0 | 0 |
+| #609 | `2026-10-outlays-interior-departmental` | 15 | 10 | 0 | 68 | 22 (14 / 8) | 17 / 17 | 6 / 6 | 0 |
+| #610 | `2026-10-outlays-justice` | 15 | 19 | 0 | 120 | 51 (51 / 0) | 15 / 15 | 0 / 0 | 0 |
+| **Total** | | **12–15** | **177** | **6** | **1,078** | **515 (439 / 76)** | **199** | **60** | **0** |
+
+### 2. Arithmetic relations, DESIGN §4a coverage, tolerances, and roles
+
+Independently recomputed all **199 declared relations** in exact `Decimal` from the units' own cells (**135 vertical sums + 64 horizontal gross = applicable + net identities**):
+
+- **Exactness and tolerances:** **94** close with residual `0`; **101** carry `tol="1"`; **4** carry `tol="2"` (`#602` CMS `r14c1`, `r14c3`, `r14c4`, `r14c6`: 8 components sum to `334,369` against printed `334,367` in both October columns). Every non-zero tolerance **equals the exact observed `|delta|`**, is within half a printed unit per source (`len(sources)`), and quotes the rounding note on p22 (`Note: Details may not add to totals due to rounding.`, verified on the p22 render).
+- **Complete DESIGN §4a coverage:** Checked every printed subtotal, department total, and complete three-cell horizontal triple across all ten units. Zero computable vertical sums or horizontal identities are missing. Single-source applicable receipts (Energy Programs `#601`, FEMA `#605`, BLM and BuRec `#608`, Indian Affairs `#609` subtotal) are properly left without a vertical sum (schema `minItems: 2`) and covered by horizontal identities or standalone waivers as applicable.
+- **Roles and hygiene:** Zero duplicate equations; every `total` is targeted, every `leaf` feeds a relation, and all **60 `standalone` cells** (`54` in `#603` non-subtotaled HHS lines that feed `#604`; `6` in `#609` `Bureau of Indian Affairs and Bureau of Indian Education`, sole component of `Total--Indian Affairs`) sit outside the relation graph with accurate `why` strings and within manifest waivers.
+
+### 3. Handoff items and September-vs-October deltas — all verified on renders
+
+- **Six marker-only rows:** Verified on the pp12–15 renders: `Defense Nuclear Waste Disposal` (`#601` r7), `Housing Certificate Fund` (`#606` r2), `Hope VI` (`#606` r5), `Neighborhood Stabilization Program` (`#606` r12), `FHA-Mutual Mortgage and Cooperative Housing Insurance Fund, Liquidating Account` (`#607` r5), and `Central Utah Project` (`#608` r8) print only `(**)`/`......` across all nine columns. `#604` r16 (`Intrabudgetary Transactions: Other`) prints `(**) ...... (**)` in the prior-year columns.
+- **Three lines absent in October vs September (checked against `mts-202609.pdf` pp12–15):** `#601` omits `Offsetting Governmental Receipts` (printed in September on p13); `#607` omits `FHA-General and Special Risk Fund, Program Account` and `Home Ownership Preservation Equity Fund` (printed in September on p14).
+- **Unit-specific details:** `#603`/`#604` FDA prints `-94 / 1 / -94` in both October columns (`tol="1"` on horizontal identity); `#605` FEMA trust/flood structure confirmed (`NFIF` sole applicable-receipt source); `#607` `FHA-General and Special Risk Fund, Liquidating Account` prints `(**) / 1 / (**)` in October/FYTD and `5 / 12 / -7` in prior year; `#608` BLM `Other` prints `26 / 9 / 18` in both October columns (`tol="1"`); `#610` Justice preserves the three distinct `Other` lines under `Legal Activities and U.S. Marshals`, `Office of Justice Programs`, and department level.
+
+### 4. Cross-table and sibling ties
+
+All **18 shared sibling rows (116 values)** and all **6 departmental net-outlay triples** (vs p8 render and `#585` `2026-10-table3-outlays-departments`) byte-match:
+
+| Sibling / Cross-table tie | Scope | Count / Net outlays (Month / Current FYTD / Prior FYTD) | Result |
+|---|---|---|---|
+| `#602` ↔ `#604` | `Total--Centers for Medicare and Medicaid Services` | 1 row / 6 values | **Exact** |
+| `#603` ↔ `#604` | 11 shared HHS rows (`FDA`, 6 PHS agencies, `Total--ACF`, `ACL`, `Dept Mgmt`, `Other`) | 11 rows / 69 values | **Exact** |
+| `#606` ↔ `#607` | `Total--Public and Indian Housing Programs`, `Total--Community Planning and Development` | 2 rows / 12 values | **Exact** |
+| `#608` ↔ `#609` | 4 Interior bureau subtotals (`Land & Minerals`, `Water & Science`, `Fish & Wildlife`, `Dept Offices`) | 4 rows / 29 values | **Exact** |
+| `#601` ↔ `#585` r7 (p8) | Department of Energy | `5,028 / 5,028 / 5,070` | **Exact** |
+| `#604` ↔ `#585` r8 (p8) | Department of Health and Human Services | `257,378 / 257,378 / 228,083` | **Exact** |
+| `#605` ↔ `#585` r9 (p8) | Department of Homeland Security | `9,144 / 9,144 / 5,513` | **Exact** |
+| `#607` ↔ `#585` r10 (p8) | Department of Housing and Urban Development | `5,552 / 5,552 / 5,850` | **Exact** |
+| `#609` ↔ `#585` r11 (p8) | Department of the Interior | `1,563 / 1,563 / 771` | **Exact** |
+| `#610` ↔ `#585` r12 (p8) | Department of Justice | `3,182 / 3,182 / 2,085` | **Exact** |
+
+### 5. Regression gates
+
+All ten units pass strict UTF-8 / LF-only / final-newline / zero-BOM checks and reconcile individually with **0 warnings**. The tracked source check reports **0 mismatches** across all 171 numeric-bearing rows. Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **610/610 GREEN**, and `uv run --locked pytest` passes **42/42**. **`#611` (`treasury-mts/2026-10-outlays-labor-bureaus`) is unblocked. Next cadence audit is #620.**

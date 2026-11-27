@@ -725,7 +725,7 @@ The source ledger records the official URL, 2,123,129 bytes and SHA-256. The 38-
 PDF contains Tables 1–9 and all five Table 6 schedules. The October page references
 below follow the printed pages.
 
-**Units #582–#610 shipped on 2026-11-27. Audits #590 and #600 are GREEN. Audit #610 is due. Resume at #611 (Labor ETA bureaus) after GREEN.** The 80 September scopes all have October
+**Units #582–#610 shipped on 2026-11-27. Audits #590, #600 and #610 are GREEN. Resume at #611 (Labor ETA bureaus). Next audit #620.** The 80 September scopes all have October
 figures. Retaining them keeps the department, schedule and monthly slices comparable.
 Table 5 accounts for 49 units, Table 6 for 14, Table 7 for eight and Table 8 for two.
 The other seven cover Tables 1–4 and 9, including the established Table 4 net
@@ -808,7 +808,7 @@ tables. A `row-count-check` also requires counting the printed rows.
 | treasury-mts/2026-10-outlays-hud-departmental | Table 5 HUD departmental capstone (unit 2/2) (pp14–15) | D2 | vision, ties-siblings | 25 | sum | ≤ 150 cells (119 sized) | 0 | SHIPPED 2026-11-27 (#607, 119 cells, 25 relations, 0 standalone, zero warnings). 21 rows. Both bureau subtotals match #606. Net 5,552 / 5,552 / 5,850 matches Table 3. |
 | treasury-mts/2026-10-outlays-interior-bureaus | Table 5 Interior bureaus (unit 1/2) (p15) | D2 | vision | 34 | sum | ≤ 150 cells (116 sized) | 0 | SHIPPED 2026-11-27 (#608, 116 cells, 34 relations, 0 standalone, zero warnings). 19 rows. The Central Utah Project row contains only omission marks. Bureau of Land Management Other prints 26 gross, 9 applicable and 18 outlays in both October columns. |
 | treasury-mts/2026-10-outlays-interior-departmental | Table 5 Interior departmental capstone (unit 2/2) (p15) | D2 | vision, ties-siblings | 17 | sum | ≤ 100 cells (68 sized) | 6 | SHIPPED 2026-11-27 (#609, 68 cells, 17 relations, 6 standalone, zero warnings). 10 rows. All four shared bureau subtotals match #608. Net 1,563 / 1,563 / 771 matches Table 3. |
-| treasury-mts/2026-10-outlays-justice | Table 5 Department of Justice (p15) | D2 | vision | 15 | sum | ≤ 150 cells (120 sized) | 0 | SHIPPED 2026-11-27 (#610, 120 cells, 15 relations, 0 standalone, zero warnings). 19 rows. Net 3,182 / 3,182 / 2,085 matches Table 3. Independent audit #610 is due. |
+| treasury-mts/2026-10-outlays-justice | Table 5 Department of Justice (p15) | D2 | vision | 15 | sum | ≤ 150 cells (120 sized) | 0 | SHIPPED 2026-11-27 (#610, 120 cells, 15 relations, 0 standalone, zero warnings). 19 rows. Net 3,182 / 3,182 / 2,085 matches Table 3. **Independent audit #610 GREEN (Antigravity / Gemini 4 Hydrogen (High), 2026-11-27, AUDITS.md). #611 unblocked. Next audit #620.** |
 | treasury-mts/2026-10-outlays-labor-bureaus | Table 5 Labor ETA bureaus (unit 1/2) (p16) | D2 | vision | 12 | sum | ≤ 100 cells (80 sized) | 0 | READY |
 | treasury-mts/2026-10-outlays-labor-departmental | Table 5 Labor departmental capstone (unit 2/2) (p16) | D2 | vision, ties-siblings | 12 | sum | ≤ 100 cells (96 sized) | 0 | READY |
 | treasury-mts/2026-10-outlays-state | Table 5 Department of State (p16) | D2 | vision | 15 | sum | ≤ 100 cells (87 sized) | 3 | READY |
