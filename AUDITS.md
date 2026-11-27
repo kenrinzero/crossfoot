@@ -4518,3 +4518,22 @@ All **18 shared sibling rows (116 values)** and all **6 departmental net-outlay 
 ### 5. Regression gates
 
 All ten units pass strict UTF-8 / LF-only / final-newline / zero-BOM checks and reconcile individually with **0 warnings**. The tracked source check reports **0 mismatches** across all 171 numeric-bearing rows. Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **610/610 GREEN**, and `uv run --locked pytest` passes **42/42**. **`#611` (`treasury-mts/2026-10-outlays-labor-bureaus`) is unblocked. Next cadence audit is #620.**
+
+---
+
+## Spot-Audit: Unit 620 — `treasury-mts/2026-10-outlays-corps-engineers` (whole batch #611–#620)
+
+**PENDING — different-agent audit.** Antigravity (Gemini 4 Hydrogen (High)) transcribed the ten units on 2026-11-27. **#621 (`treasury-mts/2026-10-outlays-other-defense-civil`) is blocked until an independent audit of the full batch is GREEN.** [Vendored October statement](sources/treasury-mts/mts-202610.pdf)
+
+| Units | Source and review points |
+|---|---|
+| #611–#612 | Labor, p16. October omits the post-subtotal ETA Other row printed in September (#611 has 14 rows). In #612, Proprietary Receipts from the Public prints only dots/`(**)` in all periods and is preserved as a label; PBGC supplies the sole numeric applicable-receipts cells. |
+| #613 | State, p16. October omits September's Payment to Foreign Service Retirement and Disability Fund row (and Andean Counterdrug Programs). Proprietary Receipts supplies the 3 standalone applicable-receipts cells. |
+| #614–#615 | Transportation, pp16–17. #614 has 16 rows (FHWA / HTF / Other is marker-only; October omits FTA Formula Grants). #615 has 14 rows (Offsetting Governmental Receipts marker-only); Maritime Administration prints applicable receipts in all 3 periods; FRA Other stays standalone (6 cells). |
+| #616–#618 | Treasury, pp17–18. #616 has 17 rows (Housing & Economic Recovery and Transportation Services marker-only; October omits ESF - Economic Stabilization Program and Interest Paid to Credit Financing Accounts; 46 standalones). #617 IRS has 12 rows with all applicable receipts omitted. #618 places pp17–18 rows in print order (24 rows, 2 marker-only), matching all 14 shared rows (67 values) with #616/#617. |
+| #619 | Veterans Affairs, p18. 23 rows including 3 marker-only labels (Veterans Choice Fund, Housing Accounts, General Operating Expenses). |
+| #620 | Corps of Engineers, p18. Fits on p18 (8 rows); October omits Harbor Maintenance Trust Fund. Proprietary Receipts supplies the 3 standalone applicable-receipts cells. |
+
+Transcriber checks covered **158 rows and 1,422 positions**, with **911 numeric values and 511 omissions**. The tracked source check matched all 148 numeric-bearing rows (`911` cells, `421` omissions on dots or `(**)`) with zero mismatches. Ten marker-only rows account for the remaining `90` omissions. The **171 sums** comprise `114` vertical sums and `57` gross-to-net identities (`89` exact, `77` with `tol="1"`, `5` with `tol="2"`). Every tolerance equals the exact observed residual, quotes the p22 rounding note, and is within half a printed unit per source. All units meet their floors, cell caps, and standalone waivers. Corpus sweep **620/620 GREEN** and pytest **42/42**.
+
+Verify the six departmental net-outlay triples against Table 3 on p8 and `#585` (Month / Current FYTD / Prior FYTD): Labor `-88 / -88 / 2,606`; State `2,682 / 2,682 / 2,179`; Transportation `10,986 / 10,986 / 9,865`; Treasury `128,450 / 128,450 / 121,718` (sum of Table 3 Gross Interest `115,461 / 115,461 / 104,404` + Other `12,989 / 12,989 / 17,314`, matching `#618` r19 and r24); Veterans Affairs `54,342 / 54,342 / 49,436`; Corps of Engineers `1,343 / 1,343 / 1,343`. Also check the 18 shared sibling rows (94 values) and the 10 marker-only rows on the renders. [Vendored September statement](sources/treasury-mts/mts-202609.pdf)

@@ -53,7 +53,7 @@ in this repo always means a stage, never difficulty.
 
 ## Queue
 
-- **October Treasury. 29 of 80 shipped (`#582–#610`). Audit #610 closed GREEN; `#611` (`treasury-mts/2026-10-outlays-labor-bureaus`) is unblocked.** Next cadence audit fires at **#620**. There are 51 October units left.
+- **October Treasury. 39 of 80 shipped (`#582–#620`). Audit #620 is due.** A different agent must audit `#611–#620` against October Table 5 pp16–18 and complete the pending entry in `AUDITS.md`. **#621 (`treasury-mts/2026-10-outlays-other-defense-civil`) is blocked until GREEN.** There are 41 October units left.
 
 - **Treasury MTS September 2026 (Final FY2026) — COMPLETE: 80/80 SHIPPED (#502–#581).** Published 2026-10-17 (`MonthlyTreasuryStatement_202609.pdf`, `%PDF-1.6`, 39pp, 2,309,827 bytes, sha256 `fcabeccd…0585e7db`). Structurally identical to August, porting 1:1: **#502–#581**. All PDF → vision. Floors provisional. **FY2026 is closed.** The October queue starts at #582.
   - **Audit:** #510 closed GREEN after repair (Codex) and #520 closed GREEN (Antigravity) on 2026-11-26. **#530 closed GREEN 2026-11-26 (Cursor Grok 4.7; whole-batch `#521–#530`, 1,611 positions / 220 relations, 0 mismatches, 0 repairs).** **#540 closed GREEN after repair (Codex).** Verified 1,012 values and 446 omissions, removed 68 duplicate equations, and accepted the #535/#539 floor exceptions and #536 standalone count. **#550 closed GREEN 2026-11-26 (Mistral Vibe; whole-batch `#541–#550`, 927 positions / 642 values / 285 omissions, 0 mismatches, 0 repairs; #544 20/21, #545 30/33, #546 3-standalone exceptions upheld).** **#560 closed GREEN after repair 2026-11-26 (Qwen 4 Max; whole-batch #551–#560, 831 values / 255 omissions / 1,086 positions, 0 mismatches; 36 fiscal-year roll-forwards declared per DESIGN §4a in #558/#559, 8 role flips, 0 value changes; handoff counts corrected).** **#570 closed GREEN 2026-11-26 (Antigravity / Gemini 4 Argon (High); whole-batch #561–#570, 1,192 values / 164 omissions / 1,356 positions / 364 relations, 0 mismatches, 0 repairs; all 12 all-omission drops, handoff items, DESIGN §4a roll-forwards, and cross-table ties verified).** **#580 closed GREEN 2026-11-27 (MiniMax Code / MiniMax-M3.1-Flash; whole-batch #571–#580, 1,572 values / 94 omissions / 1,666 positions / 278 relations, 0 mismatches, 0 repairs; all 6 all-omission drops, the p33 header typo, the p35 touching negatives, the August DoD restatement, the newly active FDIC row, all 81 Table 7 month→YTD §4a identities and all 39 Table 8 identities verified; handoff tolerance histogram and Table 6-D tie corrected in `AUDITS.md`).** **#581 unblocked.** See `AUDITS.md`.
@@ -91,7 +91,7 @@ in this repo always means a stage, never difficulty.
   `.atelier/plans/archive/crossfoot-japan-family.md`.
 
 **Audit cadence:** every-10th different-agent spot-audits GREEN through
-**#610** (`#601–#610`, Antigravity / Gemini 4 Hydrogen (High)); next cadence audit **#620**. See `AUDITS.md` for the
+**#610** (`#601–#610`, Antigravity / Gemini 4 Hydrogen (High)); **#620 is due** over `#611–#620` (transcribed by Antigravity / Gemini 4 Hydrogen (High)). See `AUDITS.md` for the
 records and batch-numbering tie-break rule. Past findings include #129's
 missing memo row, #160's two missing standalone rows, and #250's systematic
 A-5 year shift. #331, #332, #333 shipped without audits;
@@ -132,6 +132,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-27 · **October Treasury #611–#620 shipped (Antigravity / Gemini 4 Hydrogen (High)).** Transcribed Labor ×2, State, Transportation ×2, Treasury ×3, Veterans Affairs, and Corps of Engineers from Table 5 pp16–18: **158 unit rows, 911 numeric values, 511 omissions, 171 sums (89 exact / 77 tol=1 / 5 tol=2), 58 standalones**. Tracked source check 0 mismatches over 148 numeric-bearing rows; 10 marker-only rows preserved as labels; all 18 shared sibling rows (94 values) and 6 Table 3 net ties (+ Treasury Gross Interest) byte-match. Sweep **620/620 GREEN**, pytest **42/42**. **Independent audit #620 is due and #621 is blocked.** [Audit handoff](AUDITS.md#spot-audit-unit-620--treasury-mts2026-10-outlays-corps-engineers-whole-batch-611620)
 
 - 2026-11-27 · **Audit #610 GREEN (Antigravity / Gemini 4 Hydrogen (High)).** Whole-batch independent audit of October `#601–#610` against Table 5 pp12–15 (177 unit rows / 159 distinct printed rows / 1,593 positions / 1,078 values / 515 omissions / 199 relations / 60 standalones): **0 mismatches, 0 repairs, 0 missing DESIGN §4a identities**. Tracked source check 0 mismatches over 171 numeric-bearing rows; 3.0× renders of pp8, 12–15, 22 inspected; 6 marker-only rows, 3 September-omitted rows, 18 shared sibling rows (116 values), and 6 Table 3 net ties verified. Sweep 610/610, pytest 42/42. **#611 unblocked; next audit #620.** [Audit record](AUDITS.md#spot-audit-unit-610--treasury-mts2026-10-outlays-justice-whole-batch-601610)
 

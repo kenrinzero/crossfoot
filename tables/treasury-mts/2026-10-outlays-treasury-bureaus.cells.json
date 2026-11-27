@@ -1,0 +1,845 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-treasury-bureaus",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 17,
+    "title": "Department of the Treasury (bureaus excluding IRS)",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Table 5 uses dots for no transactions and (**) for amounts below $500,000 in absolute value. Both marks are omitted from the numeric cells. Covers Departmental Offices, Bureau of the Fiscal Service, Alcohol and Tobacco Tax and Trade Bureau, Bureau of Engraving and Printing, and United States Mint on p17. Housing and Economic Recovery Programs and Transportation Services print only omission marks and are preserved as labels. October omits September's ESF - Economic Stabilization Program and Interest Paid to Credit Financing Accounts rows. The 46 standalone cells enter Total--Department of the Treasury in the companion departmental unit.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Departmental Offices: Exchange Stabilization Fund"
+    },
+    {
+      "index": 2,
+      "label": "Departmental Offices: Housing and Economic Recovery Programs"
+    },
+    {
+      "index": 3,
+      "label": "Departmental Offices: Air Carrier Worker Support"
+    },
+    {
+      "index": 4,
+      "label": "Departmental Offices: Coronavirus Relief Fund"
+    },
+    {
+      "index": 5,
+      "label": "Departmental Offices: Emergency Capital Investment Program"
+    },
+    {
+      "index": 6,
+      "label": "Departmental Offices: Emergency Rental Assistance"
+    },
+    {
+      "index": 7,
+      "label": "Departmental Offices: Transportation Services"
+    },
+    {
+      "index": 8,
+      "label": "Departmental Offices: Other"
+    },
+    {
+      "index": 9,
+      "label": "Bureau of the Fiscal Service: Payment to the Resolution Funding Corporation"
+    },
+    {
+      "index": 10,
+      "label": "Bureau of the Fiscal Service: Financial Agent Services"
+    },
+    {
+      "index": 11,
+      "label": "Bureau of the Fiscal Service: Claims, Judgements, and Relief Acts"
+    },
+    {
+      "index": 12,
+      "label": "Bureau of the Fiscal Service: Other"
+    },
+    {
+      "index": 13,
+      "label": "Total--Bureau of the Fiscal Service"
+    },
+    {
+      "index": 14,
+      "label": "Alcohol and Tobacco Tax and Trade Bureau: Salaries and Expenses"
+    },
+    {
+      "index": 15,
+      "label": "Alcohol and Tobacco Tax and Trade Bureau: Internal Revenue Collections for Puerto Rico"
+    },
+    {
+      "index": 16,
+      "label": "Bureau of Engraving and Printing"
+    },
+    {
+      "index": 17,
+      "label": "United States Mint"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "165",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "-165",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "165",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "-165",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "157",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "-157",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "-5",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "-5",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "176",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "176",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "176",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "176",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "162",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "162",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-22",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-22",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-22",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-22",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "1",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "1",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "-73",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "-73",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-73",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "-73",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "656",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "656",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "656",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "656",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "336",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "336",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "244",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "204",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "204",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "204",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "204",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "154",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "154",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "1441",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "68",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "44",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "1958",
+      "role": "total"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "1958",
+      "role": "total"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "1958",
+      "role": "total"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "1958",
+      "role": "total"
+    },
+    {
+      "id": "r13c7",
+      "row": 13,
+      "col": 7,
+      "value": "442",
+      "role": "total"
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "442",
+      "role": "total"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "11",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "11",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "11",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "11",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "10",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "10",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "30",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "30",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "30",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "30",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-46",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-46",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "-46",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "-46",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "13",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "13",
+      "role": "standalone",
+      "why": "This line enters Total--Department of the Treasury in the companion departmental unit. It has no bureau subtotal in this unit and omits applicable receipts or gross outlays needed for a complete row identity."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "328",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "412",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "-84",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "328",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "412",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "-84",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "695",
+      "role": "total"
+    },
+    {
+      "id": "r17c8",
+      "row": 17,
+      "col": 8,
+      "value": "669",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "26",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "target": "r13c1",
+      "sources": [
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c3",
+      "sources": [
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c4",
+      "sources": [
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c6",
+      "sources": [
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6"
+      ],
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "target": "r13c7",
+      "sources": [
+        "r9c7",
+        "r10c7",
+        "r12c7"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r13c9",
+      "sources": [
+        "r9c9",
+        "r10c9",
+        "r12c9"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r17c1",
+      "sources": [
+        "r17c2",
+        "r17c3"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r17c4",
+      "sources": [
+        "r17c5",
+        "r17c6"
+      ],
+      "tol": "0"
+    },
+    {
+      "type": "sum",
+      "target": "r17c7",
+      "sources": [
+        "r17c8",
+        "r17c9"
+      ],
+      "tol": "0"
+    }
+  ]
+}
