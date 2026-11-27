@@ -4902,3 +4902,22 @@ All **281 declared relations** were recomputed in exact `Decimal` from the units
 
 All eleven units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **650/650 GREEN**, and `uv run --locked pytest` passes **42/42**. `tools/sourcecheck.py --all` exits 1 only on the known `#649` r21 row (§4). Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-640-650-mimo/`. **`#651` (`treasury-mts/2026-10-table6-schedule-e-direct-part2`, p32) is unblocked; the next cadence audit is `#660` (`#651`–`#660`), placeholder to be added at `#660` per the standing rule.**
 ---
+
+## Unit 660 — treasury-mts/2026-10-table8-activity (PENDING different-agent audit)
+
+**Transcriber:** Muse Code (#651–#660, one transcriber for all ten). **Auditor:** unassigned — must be a different agent; Muse Code is ineligible.
+
+#660 is the 79th unit of the October 2026 MTS family. Ten units since the #640–#650 audit closed, so the scope is the whole batch **#651–#660**: 146 unit rows / 526 cells / 103 sums (#651: 32/143/34; Table 7 #652–#659: 92 rows / 257 cells / 15 sums; #660: 22/126/54). Whole-batch positional checking is the family's working practice (the #340 / #350–#460 precedent). **#661+ is blocked** until this audit closes GREEN.
+
+**Requested scope** (replace this placeholder with the audit record):
+
+1. Independent char-level extraction of `sources/treasury-mts/mts-202610.pdf` pp32–35 plus a pypdfium2 render readback (`(cid:NN)` decoded `chr(NN+29)`). **Map tokens to columns by x-position, not by word order** — on Schedule E (p32) `extract_words` splits negatives/thousands and can drop a whole row (NEXT.md harness note); Table 7/8 share the hazard on touching negatives. Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
+2. Row COUNTs. #651 carries 32 of 37 printed p32 lines (5 all-marker drops named in its unit note; no TARP line prints in October; p32 misprints a Guaranteed banner over Direct rows). SBA Business Loan Fund (-2/-2/-4/48/48/46) sits on a split baseline — render-confirm. Table 7: #656 spans pp33–34 (5 + 8 rows); wrapped labels are one row each (HBCU n/a here; SMI, both #658 trust funds, Rents); #658 drops the absent OIG line and the all-(**) Postal Off-Budget Other; #659 drops the absent Sale of Major Assets line. #660 drops the all-(**) Federal Interfund line (gross == basis byte-equal, so no Federal gross tie is declared).
+3. Recompute every declared relation in exact Decimal. #651: 34 roll-forwards (20 exact, 14 tol=1, p32 note). Table 7: #653 4 exact On+Off; #654 DoD 8-way (2 exact, 1 tol=1); #659 8 exact On+Off (p34 note). #660: 38 row identities + 4 Trust gross + 6 Net + 6 Total-Trust component sums — 44 exact, 8 tol=1, 2 tol=2 (p35 note). **New shape vs September: the 6 component sums** (14 sources in c1/c4 where r4/r15 omit, 16 elsewhere) exist because the 54-floor cannot be met without them — September declared none. Every nonzero tol must equal its observed delta and be ≤ len(sources). Plausibility scan: 0 relations with `tol > n_sources`.
+4. Roles / U1: a `standalone` must feed nothing and target nothing (#651: 58; Table 7: 194 across #652/#654–#659; #653/#660: 0).
+5. Ties claimed by the transcriber — re-derive, don't trust. Every #651 open ties to the September twin close (32/32); #651 Net c1 foots to #650+#651 detail within 2; #651 Net differs from #639 r16 in all six columns, as in September. Every Table 7 c1==c13 and every c14 ties to the September twin's October column; prior-year total rows tie cross-row to the September this-year October column (Oct 2025). #659 surplus == #653 receipts minus outlays in all 12 splits; #660 Net == #653/#659 This-Year totals in all six columns.
+6. Known tool flag (pre-existing, not in this batch): `tools/sourcecheck.py --all` exits 1 on #649 r21 (adjudicated tool artifact, no exception per owner's call). All ten batch units are individually sourcecheck-clean.
+
+**Pages:** 32 (Schedule E Direct remainder + Net; rounding footnote), 33–34 (Table 7; rounding footnote p34), 35 (Table 8 activity; rounding footnote; investment columns = #661, out of scope), 8 (Table 3 ties), 23 (Table 6 main).
+
+---

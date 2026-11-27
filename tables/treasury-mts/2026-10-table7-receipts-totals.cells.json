@@ -1,0 +1,219 @@
+{
+  "table_id": "treasury-mts/2026-10-table7-receipts-totals",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 7. Receipts totals On/Off-Budget (Oct + YTD + Prior)",
+    "page": 33,
+    "title": "Table 7 Receipts totals",
+    "period": "October FY2027 (Month 1)"
+  },
+  "unit_note": "USD millions. ...... omitted not as 0. Ported from the September twin, re-anchored to the October print p33. FY2027 Month 1: this-year rows print October + YTD (Prior dots); prior-year rows print October + Comparable Period (YTD dots). Four exact On+Off sums. Prior-year Oct and Comparable cells tie to the September twin's this-year October column (Oct 2025).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "June"
+    },
+    {
+      "index": 10,
+      "label": "July"
+    },
+    {
+      "index": 11,
+      "label": "August"
+    },
+    {
+      "index": 12,
+      "label": "September"
+    },
+    {
+      "index": 13,
+      "label": "Year to Date"
+    },
+    {
+      "index": 14,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Receipts / Total--Receipts This Year"
+    },
+    {
+      "index": 2,
+      "label": "Receipts / Total--Receipts This Year (On-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Receipts / Total--Receipts This Year (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Receipts / Total--Receipts Prior Year"
+    },
+    {
+      "index": 5,
+      "label": "Receipts / Total--Receipts Prior Year (On-Budget)"
+    },
+    {
+      "index": 6,
+      "label": "Receipts / Total--Receipts Prior Year (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "273965",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "273965",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "94975",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "94975",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r4c14",
+      "row": 4,
+      "col": 14,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "312826",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c14",
+      "row": 5,
+      "col": 14,
+      "value": "312826",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "91545",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c14",
+      "row": 6,
+      "col": 14,
+      "value": "91545",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "this-year total = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c13",
+        "r3c13"
+      ],
+      "target": "r1c13",
+      "note": "this-year total = on + off (YTD)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r6c1"
+      ],
+      "target": "r4c1",
+      "note": "prior-year total = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c14",
+        "r6c14"
+      ],
+      "target": "r4c14",
+      "note": "prior-year total = on + off (comparable period)"
+    }
+  ]
+}

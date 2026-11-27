@@ -1,0 +1,515 @@
+{
+  "table_id": "treasury-mts/2026-10-table7-outlays-leg-def",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 7. Outlays Legislative through Defense Military (Oct + YTD + Prior)",
+    "page": 33,
+    "title": "Table 7 Outlays Legislative through Defense",
+    "period": "October FY2027 (Month 1)"
+  },
+  "unit_note": "USD millions. ...... omitted not as 0. Ported from the September twin, re-anchored to the October print p33. FY2027 Month 1: only October, Year-to-Date and Comparable-Period print; c1==c13 on every row and every c14 ties to the September twin's October column. DoD total over its 8 components in all three columns.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "June"
+    },
+    {
+      "index": 10,
+      "label": "July"
+    },
+    {
+      "index": 11,
+      "label": "August"
+    },
+    {
+      "index": 12,
+      "label": "September"
+    },
+    {
+      "index": 13,
+      "label": "Year to Date"
+    },
+    {
+      "index": 14,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Outlays / Legislative Branch"
+    },
+    {
+      "index": 2,
+      "label": "Outlays / Judicial Branch"
+    },
+    {
+      "index": 3,
+      "label": "Outlays / Department of Agriculture: Commodity Credit Corporation"
+    },
+    {
+      "index": 4,
+      "label": "Outlays / Department of Agriculture: Foreign Agricultural Service"
+    },
+    {
+      "index": 5,
+      "label": "Outlays / Department of Agriculture: Other"
+    },
+    {
+      "index": 6,
+      "label": "Outlays / Department of Commerce"
+    },
+    {
+      "index": 7,
+      "label": "Outlays / Department of Defense--Military Programs: Military Personnel"
+    },
+    {
+      "index": 8,
+      "label": "Outlays / Department of Defense--Military Programs: Operation and Maintenance"
+    },
+    {
+      "index": 9,
+      "label": "Outlays / Department of Defense--Military Programs: Procurement"
+    },
+    {
+      "index": 10,
+      "label": "Outlays / Department of Defense--Military Programs: Research, Development, Test, and Evaluation"
+    },
+    {
+      "index": 11,
+      "label": "Outlays / Department of Defense--Military Programs: Military Construction"
+    },
+    {
+      "index": 12,
+      "label": "Outlays / Department of Defense--Military Programs: Family Housing"
+    },
+    {
+      "index": 13,
+      "label": "Outlays / Department of Defense--Military Programs: Revolving and Management Funds"
+    },
+    {
+      "index": 14,
+      "label": "Outlays / Department of Defense--Military Programs: Other"
+    },
+    {
+      "index": 15,
+      "label": "Outlays / Total Department of Defense--Military Programs"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "636",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "636",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c14",
+      "row": 1,
+      "col": 14,
+      "value": "311",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "891",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "891",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c14",
+      "row": 2,
+      "col": 14,
+      "value": "653",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "12563",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "12563",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c14",
+      "row": 3,
+      "col": 14,
+      "value": "960",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "141",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "141",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c14",
+      "row": 4,
+      "col": 14,
+      "value": "74",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "18439",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "18439",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c14",
+      "row": 5,
+      "col": 14,
+      "value": "16300",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "987",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "987",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r6c14",
+      "row": 6,
+      "col": 14,
+      "value": "478",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "67441",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "67441",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c14",
+      "row": 7,
+      "col": 14,
+      "value": "48020",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "26064",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "26064",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c14",
+      "row": 8,
+      "col": 14,
+      "value": "18235",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "16563",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "16563",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c14",
+      "row": 9,
+      "col": 14,
+      "value": "12372",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "11456",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "11456",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c14",
+      "row": 10,
+      "col": 14,
+      "value": "13176",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1385",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c13",
+      "row": 11,
+      "col": 13,
+      "value": "1385",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c14",
+      "row": 11,
+      "col": 14,
+      "value": "1378",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "148",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c13",
+      "row": 12,
+      "col": 13,
+      "value": "148",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c14",
+      "row": 12,
+      "col": 14,
+      "value": "119",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "783",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c13",
+      "row": 13,
+      "col": 13,
+      "value": "783",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c14",
+      "row": 13,
+      "col": 14,
+      "value": "2140",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "151",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c13",
+      "row": 14,
+      "col": 13,
+      "value": "151",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c14",
+      "row": 14,
+      "col": 14,
+      "value": "105",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "123991",
+      "role": "total"
+    },
+    {
+      "id": "r15c13",
+      "row": 15,
+      "col": 13,
+      "value": "123991",
+      "role": "total"
+    },
+    {
+      "id": "r15c14",
+      "row": 15,
+      "col": 14,
+      "value": "95546",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r15c1",
+      "note": "DoD total = 8 components (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c13",
+        "r8c13",
+        "r9c13",
+        "r10c13",
+        "r11c13",
+        "r12c13",
+        "r13c13",
+        "r14c13"
+      ],
+      "target": "r15c13",
+      "note": "DoD total = 8 components (YTD)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c14",
+        "r8c14",
+        "r9c14",
+        "r10c14",
+        "r11c14",
+        "r12c14",
+        "r13c14",
+        "r14c14"
+      ],
+      "target": "r15c14",
+      "note": "DoD total = 8 components (comparable period)",
+      "tol": "1",
+      "why": "Table 7 footnote prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

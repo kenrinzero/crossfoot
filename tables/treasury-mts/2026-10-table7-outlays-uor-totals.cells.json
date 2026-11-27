@@ -1,0 +1,495 @@
+{
+  "table_id": "treasury-mts/2026-10-table7-outlays-uor-totals",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 7. UOR, borrowing, current/prior totals (Oct + YTD + Prior)",
+    "page": 34,
+    "title": "Table 7 UOR borrowing and totals",
+    "period": "October FY2027 (Month 1)"
+  },
+  "unit_note": "USD millions. ...... omitted not as 0. Ported from the September twin, re-anchored to the October print p34. Sale of Major Assets prints no line in October (values in September) and is left out. This-year rows print October + YTD (Prior dots); prior-year rows print October + Comparable Period (YTD dots). Eight exact On+Off sums; surplus rows equal receipts (#653) minus outlays in all six current/prior splits; prior-year Oct and Comparable cells tie to the September twin's this-year October column (Oct 2025).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "October"
+    },
+    {
+      "index": 2,
+      "label": "November"
+    },
+    {
+      "index": 3,
+      "label": "December"
+    },
+    {
+      "index": 4,
+      "label": "January"
+    },
+    {
+      "index": 5,
+      "label": "February"
+    },
+    {
+      "index": 6,
+      "label": "March"
+    },
+    {
+      "index": 7,
+      "label": "April"
+    },
+    {
+      "index": 8,
+      "label": "May"
+    },
+    {
+      "index": 9,
+      "label": "June"
+    },
+    {
+      "index": 10,
+      "label": "July"
+    },
+    {
+      "index": 11,
+      "label": "August"
+    },
+    {
+      "index": 12,
+      "label": "September"
+    },
+    {
+      "index": 13,
+      "label": "Year to Date"
+    },
+    {
+      "index": 14,
+      "label": "Comparable Period Prior F.Y."
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Outlays / Undistributed Offsetting Receipts: Employer Share, Employee Retirement"
+    },
+    {
+      "index": 2,
+      "label": "Outlays / Undistributed Offsetting Receipts: Interest Received by Trust Funds"
+    },
+    {
+      "index": 3,
+      "label": "Outlays / Undistributed Offsetting Receipts: Rents and Royalties on the Outer Continental Shelf Lands"
+    },
+    {
+      "index": 4,
+      "label": "Outlays / Undistributed Offsetting Receipts: Other"
+    },
+    {
+      "index": 5,
+      "label": "Outlays / Totals This Year: Total Outlays"
+    },
+    {
+      "index": 6,
+      "label": "Outlays / Totals This Year: Total Outlays (On-Budget)"
+    },
+    {
+      "index": 7,
+      "label": "Outlays / Totals This Year: Total Outlays (Off-Budget)"
+    },
+    {
+      "index": 8,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 9,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-) (On-Budget)"
+    },
+    {
+      "index": 10,
+      "label": "Outlays / Totals This Year: Total-Surplus (+) or Deficit (-) (Off-Budget)"
+    },
+    {
+      "index": 11,
+      "label": "Outlays / Total Borrowing from the Public"
+    },
+    {
+      "index": 12,
+      "label": "Outlays / Total-Outlays Prior Year"
+    },
+    {
+      "index": 13,
+      "label": "Outlays / Total-Outlays Prior Year (On-Budget)"
+    },
+    {
+      "index": 14,
+      "label": "Outlays / Total-Outlays Prior Year (Off-Budget)"
+    },
+    {
+      "index": 15,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year"
+    },
+    {
+      "index": 16,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year (On-Budget)"
+    },
+    {
+      "index": 17,
+      "label": "Outlays / Total-Surplus (+) or Deficit (-) Prior Year (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "-54967",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c13",
+      "row": 1,
+      "col": 13,
+      "value": "-54967",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r1c14",
+      "row": 1,
+      "col": 14,
+      "value": "-45488",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "-11152",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c13",
+      "row": 2,
+      "col": 13,
+      "value": "-11152",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r2c14",
+      "row": 2,
+      "col": 14,
+      "value": "-9923",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "-228",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c13",
+      "row": 3,
+      "col": 13,
+      "value": "-228",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r3c14",
+      "row": 3,
+      "col": 14,
+      "value": "-407",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "-2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r4c13",
+      "row": 4,
+      "col": 13,
+      "value": "-2",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r5c13",
+      "row": 5,
+      "col": 13,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c13",
+      "row": 6,
+      "col": 13,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c13",
+      "row": 7,
+      "col": 13,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r8c13",
+      "row": 8,
+      "col": 13,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c13",
+      "row": 9,
+      "col": 13,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c13",
+      "row": 10,
+      "col": 13,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "307696",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c13",
+      "row": 11,
+      "col": 13,
+      "value": "307696",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r11c14",
+      "row": 11,
+      "col": 14,
+      "value": "295826",
+      "role": "standalone",
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r12c14",
+      "row": 12,
+      "col": 14,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c14",
+      "row": 13,
+      "col": 14,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "121016",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c14",
+      "row": 14,
+      "col": 14,
+      "value": "121016",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "-284333",
+      "role": "total"
+    },
+    {
+      "id": "r15c14",
+      "row": 15,
+      "col": 14,
+      "value": "-284333",
+      "role": "total"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c14",
+      "row": 16,
+      "col": 14,
+      "value": "-254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "-29471",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c14",
+      "row": 17,
+      "col": 14,
+      "value": "-29471",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r5c1",
+      "note": "total outlays = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c13",
+        "r7c13"
+      ],
+      "target": "r5c13",
+      "note": "total outlays = on + off (YTD)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r8c1",
+      "note": "surplus = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c13",
+        "r10c13"
+      ],
+      "target": "r8c13",
+      "note": "surplus = on + off (YTD)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r12c1",
+      "note": "prior total outlays = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c14",
+        "r14c14"
+      ],
+      "target": "r12c14",
+      "note": "prior total outlays = on + off (comparable period)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c1",
+        "r17c1"
+      ],
+      "target": "r15c1",
+      "note": "prior surplus = on + off (October)"
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r16c14",
+        "r17c14"
+      ],
+      "target": "r15c14",
+      "note": "prior surplus = on + off (comparable period)"
+    }
+  ]
+}
