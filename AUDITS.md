@@ -4384,3 +4384,19 @@ Independently recomputed all **115 declared relations** in exact `Decimal` from 
 ### 6. Regression gates
 
 All nine units pass strict UTF-8 / LF-only / final-newline / zero-C0 checks (no BOM) and reconcile individually with **0 warnings** (exit 0 each). The tracked source check reports **0 mismatches** over 630 positions. Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **590/590 GREEN**, and `uv run --locked pytest` passes **42/42**. The source check is an auditor's tool, not a gate, and was not added to `.github/workflows/check.yml`. **`#591` (`treasury-mts/2026-10-outlays-eop`) is unblocked. The next cadence audit is #600.**
+
+---
+
+## Spot-Audit: Unit 600 — `treasury-mts/2026-10-outlays-education-departmental` (whole batch #591–#600)
+
+**PENDING — different-agent audit.** DeepSeek Flash transcribed all ten October units below on 2026-11-27. The transcriber cannot audit its own work, so `#601` (`treasury-mts/2026-10-outlays-energy`) is blocked until a different agent records the result here.
+
+| Corpus units | Source and checks |
+|---|---|
+| #591 | EOP, p19. The row order is print order but the section sits mid-page. Every Proprietary Receipts cell prints `(**)`, so that row carries no cells, and the total row's applicable-receipts cells are `(**)` too, so no gross-to-net identity exists — six column totals only. Net totals must equal Table 3 (62 / 62 / 19). |
+| #592–#594 | Agriculture, pp10–11. #592 is the program block (19 rows; the 58 standalone lines enter no sum inside the unit), #593 is Rural Development through Total--Food and Nutrition Service (12 rows; the WIC label wraps across two lines), #594 is the capstone (31 rows, 205 cells) that re-presents the printed lines so the department total closes inside one file. Check the Forest Service subtotal, that FSA and FNS enter at their printed subtotals and not their detail, and the department net 31,143 / 31,143 / 17,334 against Table 3. |
+| #595 | Commerce, p11. Eleven rows; the prior-year proprietary line prints 2 applicable and -89 net, and NTIA prints no applicable receipts. Net 987 / 987 / 478 against Table 3. |
+| #596–#598 | Defense, pp11–12. #596 is Military Personnel / O&M / Procurement (15 rows; Defense Agencies Military Personnel prints **32,792** this month, a value September's print did not carry), #597 is RDT&E / Military Construction (14 rows; the four Family Housing lines are standalone), #598 is the departmental capstone (25 rows) whose `Offsetting Governmental Receipts` section **does not print in October** — that September row was dropped, so the row count is 25 not 26. Net 123,991 / 123,991 / 95,546 against Table 3. |
+| #599–#600 | Education, p12. #599 is the three bureau blocks (14 rows; the October print carries **no Federal Student Loan Reserve Fund row**, dropped from September's 15), #600 is the departmental capstone (15 rows, 87 cells, three standalone cells = the sole applicable-receipts amounts). Net 12,861 / 12,861 / 18,857 against Table 3. |
+
+Transcriber checks: 156 unit rows / 956 cells / 448 printed omissions, every cell on its printed line **in its printed column** (tracked source check over all 19 October units: 1,517 cells, 0 mismatches); all 157 relations re-derived in exact `Decimal`, every non-zero tolerance equal to its observed delta and quoting the p22 rounding note, none above the half-unit-per-source rounding bound; sweep **600/600 GREEN**, pytest 42/42. The independent reviewer should run the tracked source check over `#591–#600`, re-read pp10–12 and p19 on renders, verify the five Table 3 ties, and check the two dropped rows and the 32,792 cell above against the print.

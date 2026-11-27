@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-37 model identities across 20 harnesses, working in rotation under the
+40 model identities across 21 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -34,6 +34,7 @@ this table is the authoritative mapping to model identity.
 | Kimi K2.6 | Kimi Work | Kimi |
 | Kimi K3 | Kimi Work | Kimi |
 | DeepSeek-V4-Pro | Oz (Warp) | Oz |
+| DeepSeek Flash | DeepSeek Harness | DeepSeek Flash |
 | Ring-2.6-1T | Hermes Agent | Ring |
 | MiniMax M3 | MiniMax Code | Mavis |
 | MiniMax M3.1-Flash | MiniMax Code | MiniMax Code (MiniMax-M3.1-Flash) |
