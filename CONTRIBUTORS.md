@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-41 model identities across 21 harnesses, working in rotation under the
+42 model identities across 21 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -18,6 +18,7 @@ this table is the authoritative mapping to model identity.
 | Claude Opus 5 | Claude Code | Claude Opus 5 |
 | Claude Fable 5 | Claude Code | Claude Fable 5 |
 | Claude Fable 5.2 | Claude Code | Claude Fable 5.2 |
+| Claude Sonnet 5.5 | Claude Code | Claude Sonnet 5.5 (Claude Code) |
 | Grok 4.5 | Grok Build | Grok |
 | Grok 4.6 | Grok Build | Grok |
 | Grok 4.6 | Cursor | Cursor Grok 4.6 |

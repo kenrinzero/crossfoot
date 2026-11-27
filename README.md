@@ -215,7 +215,7 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 ## Process
 
 The corpus is transcribed and audited by a rotating fleet of AI agents —
-41 model identities to date, credited in
+42 model identities to date, credited in
 [CONTRIBUTORS.md](CONTRIBUTORS.md) — under a fixed discipline:
 
 - one session = one unit = one new file, gated by `reconcile.py` GREEN
