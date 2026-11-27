@@ -61,8 +61,9 @@ in this repo always means a stage, never difficulty.
   1. **F1 — DONE 2026-11-27.** The three June cells (`#318` `r39c6`, `#323` `r2c11`, `#327` `r2c11`) now hold the printed values; record in `AUDITS.md` (*Directed repair*).
   2. **F3 — back-port vertical totals.** May–July `table6-schedule-e-guaranteed` and `table6-schedule-d-trust-funds` leave about 380 cells `standalone` that the August/September twins verify with column totals. Declare them, flip roles, re-gate (value-neutral). **Watch June Schedule E column 6:** its 38 printed lines sum to 12,744 against a printed 12,562, a gap of 182 (two source errors of 90, `r37c6` and `r39c6`, plus 2 of rounding). That total needs the source-discrepancy adjudication already on those two cells, not a rounding tolerance.
   3. **F5 —** replace the 330 `why: "From table"` texts in nine May outlay units with real reasons.
-  4. **F6 —** untrack `scratchpad/` (193 files still tracked despite `.gitignore`).
-  5. **F2 / F4 / F7 —** README claims, CI, version and changelog: owner decisions, see the memo.
+  4. **F6 — DONE 2026-11-27.** `scratchpad/` is untracked: 193 files left the repository tree and stay on local disk and in the git history (history was not purged).
+  5. **F2 / F4 — DONE 2026-11-27.** The README now states the coverage split, the tolerance exceptions and the known gaps (section *What is verified, and how*). Its figures are dated; refresh them when units ship. **F7** (CI, version, changelog, tag) is still an owner decision, see the memo.
+  6. **Cadence gap, found 2026-11-27.** `#421` and `#501` (the July and August `table8-investments` units, 45 cells each) fell between audit batches (`#411–#420` then `#422–#430`; `#491–#500` then `#502–#510`) and have no positional audit. Low risk: their values passed the row-level check and all 45 cells of each feed a column total. A positional pass over the two units would close it.
 
 - **Historical follow-up from audit #560 (independent of #561).** August `table6-liabilities` (#478) and `table6-assets-financing` (#479) declare no fiscal-year roll-forwards (DESIGN §4a) while their Schedule B–E siblings do; audit #480 verified the identities hold but not that they are declared. Declare c4+c2=c6 per row where all three print (special-FY-audit precedent 2026-08-18), flip roles, re-gate. September #558/#559 were repaired at #560.
 
@@ -123,6 +124,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-27 · **Publishability clean-up, F2/F4/F6 (Claude Fable 5.2, on the user's instruction).** `scratchpad/` untracked: 193 files (about 51 MB of page renders, text dumps and one-off scripts) left the repository tree; they stay on local disk and in the git history. `README.md` gained the section *What is verified, and how*: 45,645 of 56,817 cells (80.3%) are verified by arithmetic and 11,172 (19.7%) are `standalone`; 37 units declare no relation; the audits and the 2026-11-27 row-level check cover the rest; 72 tolerances exceed one unit per source (64 Census, 4 in `#318`, 4 BLS); known gaps listed. Two figures in `AUDIT-2026-11-27.md` corrected (the 37 no-relation units span four families, 22 of them Census; the Census tolerances run 5 to 70). `AUDITS.md` header notes that cited `scratchpad/` paths are local working files. No file under `tables/`, `schema/`, `sources/` or `reconcile.py` changed.
 
 - 2026-11-27 · **Directed repair of three June cells (Claude Fable 5.2, on the user's instruction).** `#318` `r39c6` 12652 → 12562, `#323` `r2c11` 7632 → 7134, `#327` `r2c11` 120164 → 120134, each as printed on June pp32/34/35 (text layer and 3.0× render). `#318`'s two `r39c6` roll-forwards now carry `tol="90"` as a documented source discrepancy, like `r37`: the July statement opens both lines at the computed values. No row, role or relation added or removed. Sweep 581/581, pytest 23/23. Record in `AUDITS.md`. Cadence unchanged: **#590**.
 

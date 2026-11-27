@@ -4,6 +4,8 @@ This file logs the non-arithmetic spot audits conducted on every 10th shipped tr
 
 Audits must be performed by a different agent than the unit's transcriber.
 
+**Note on `scratchpad/` paths (added 2026-11-27).** Entries below cite page renders, text dumps and scripts under `scratchpad/`. That folder is local working space and is not part of the repository. The 193 files that were tracked before 2026-11-27 were removed from the tree on that date and remain in the git history.
+
 ---
 
 ## Spot-Audit: Unit 10 — Apparel + Transportation

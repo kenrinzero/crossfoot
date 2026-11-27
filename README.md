@@ -1,11 +1,18 @@
 # Crossfoot
 
 An arithmetic-reconciled corpus of public statistical tables: each messy
-PDF/HTML table is transcribed into a typed `.cells.json` whose own internal
-arithmetic — row totals, subtotals, percent closures, balance identities —
-must **reconcile exactly** under `reconcile.py`. The source's redundancy is
-the proof: a transcription typo almost always breaks a cross-foot, so
-correctness is derived, not trusted.
+PDF/HTML table is transcribed into a typed `.cells.json` that declares the
+table's own internal arithmetic — row totals, subtotals, percent closures,
+balance identities — and `reconcile.py` re-derives every declared relation
+from the transcribed cells. The source's redundancy is the proof: a typo in
+a cell that feeds a printed total almost always breaks a cross-foot, so for
+those cells correctness is derived, not trusted.
+
+The arithmetic reaches four cells in five. The rest are printed numbers
+that nothing in their table adds up to (medians, margins of error, ratios,
+comparison columns); they are checked against the source by audit instead.
+[What is verified, and how](#what-is-verified-and-how) gives the split in
+numbers and the known gaps.
 
 ```jsonc
 // a cell, and a relation the reconciler re-derives from leaf cells
@@ -15,9 +22,12 @@ correctness is derived, not trusted.
 ```
 
 All arithmetic runs in exact `Decimal` — never floats. Values are decimal
-strings exactly as printed. A tolerance is only legal when the source's own
-rounding note is quoted in `why`; strict coverage (every total targeted,
-every leaf feeding a relation) is the default gate.
+strings exactly as printed. A sum must close exactly unless its relation
+carries a tolerance, and a tolerance needs a `why`: by rule the source's
+own rounding note, quoted (the few other cases are listed
+[below](#what-is-verified-and-how)). Strict coverage (every `total`
+targeted, every `leaf` feeding a relation) is the default gate; a cell that
+takes part in no arithmetic is marked `standalone` and must say why.
 
 ## The corpus
 
@@ -42,6 +52,111 @@ Every vendored source in `sources/` is sha256-ledgered with provenance in
 [sources/SOURCES.md](sources/SOURCES.md) — transcribed verbatim, never
 edited.
 
+## What is verified, and how
+
+Figures are for the 581 units as of 2026-11-27. GREEN means a unit passes
+`reconcile.py` with zero coverage warnings.
+
+**By arithmetic: 45,645 of 56,817 cells (80.3%).** These are the `leaf`
+and `total` cells. Each takes part in at least one of the 10,964 declared
+relations (10,375 sums, 589 percent closures), and `reconcile.py`
+re-derives every relation on every run.
+
+**Not by arithmetic: 11,172 cells (19.7%).** These are `standalone`:
+printed numbers that no declared relation touches, each with a stated
+reason. For them GREEN says nothing about the value; a typo there passes
+the reconciler.
+
+| family | cells | standalone | share |
+|---|---:|---:|---:|
+| `census-p60` | 10,454 | 4,962 | 47.5% |
+| `omb` | 3,984 | 1,393 | 35.0% |
+| `sec-10k` | 596 | 71 | 11.9% |
+| `treasury-mts` | 39,989 | 4,693 | 11.7% |
+| `fec` | 1,136 | 43 | 3.8% |
+| `bls-cpi` | 658 | 10 | 1.5% |
+
+37 units (2,918 cells) declare no relation at all: 22 Census tables of
+medians, inequality measures, ratios and percent changes; 7 small OMB
+schedules; 6 Treasury units that list department or receipt lines without
+a total inside the unit; and 2 SEC parenthetical statements. For those
+units GREEN means only that the file is well-formed and labelled.
+
+### What covers the cells arithmetic cannot see
+
+**Different-agent audits against the source.** Every tenth unit is audited
+by an agent that did not transcribe it
+([RUNBOOK-auditor.md](RUNBOOK-auditor.md)). Up to unit #341 the audit
+covered the tenth unit of each batch — a sample of its cells, often the
+whole unit. From #342 on (the July, August and September Treasury
+statements) each audit compares every printed position of its whole
+batch, not a sample. The trail, including the defects the audits caught
+and the ones they missed, is in [AUDITS.md](AUDITS.md).
+
+**A row-level check of the whole corpus (2026-11-27).** For every row of
+every unit, the row's values were looked up on one printed line of the
+source: one line of the PDF text layer, or one HTML table row.
+
+| family | rows | found on one printed line | not matched |
+|---|---:|---:|---|
+| `treasury-mts` | 6,565 | 6,565 | — |
+| `census-p60` | 1,291 | 1,290 | 1: a printed `Z` transcribed as `0`, a documented convention |
+| `omb` | 1,491 | 1,491 | — |
+| `bls-cpi` | 329 | 329 | — |
+| `sec-10k` | 245 | 245 | — |
+| `fec` | 399 | 347 | 52 summary rows that combine several printed blocks by design; every one of their values is printed in the document |
+
+The first run found three wrong values, all in the June Treasury statement
+and two of them in `standalone` cells. They were corrected the same day;
+the table shows the state after the correction. The check compares values,
+not their order within a row or the label the row sits under, and it cannot
+see a printed number that is missing from a unit. It was a one-off: the
+script is not part of this repository or its gates. Method and findings are
+in [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md).
+
+### Tolerances
+
+6,963 of the 10,375 sums close exactly. The other 3,412 carry a tolerance
+equal to the observed difference, each with a `why`. In all but four of
+them the `why` is the source's own rounding note. 72 are larger than one
+unit of the last printed digit per source, so they are not ordinary
+rounding of the printed digits:
+
+- **64 Census relations** (tolerance 5 to 70). The source prints these
+  household and worker counts rounded to four significant digits, so sums
+  of them drift by tens. The `why` cites the Census footnote on rounded
+  components.
+- **4 relations in `treasury-mts/2026-06-table6-schedule-e-guaranteed`**
+  (tolerance 90). Two closing balances printed on page 32 of the June
+  statement do not agree with the page's own roll-forwards, and the July
+  statement opens both lines at the computed values. The corpus keeps the
+  printed figures and records the gap as a source discrepancy, not as
+  rounding.
+- **4 relations in `bls-cpi/relative-importance-2024-education-other`**
+  (tolerance 0.008 to 0.009 on three or four three-decimal components).
+  Recorded as rounding, but rounding of the printed digits allows at most
+  0.0025. Unresolved.
+
+Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
+0.2, each with a `why`.
+
+### Known gaps
+
+- **Undeclared column totals.** The May, June and July units of Treasury
+  Table 6 Schedule D (trust funds) and Schedule E (guaranteed loans)
+  declare fewer column totals than the same tables in August and
+  September. About 380 cells are `standalone` there that the later months
+  verify by arithmetic.
+- **Thin reasons.** 330 `standalone` cells in nine May outlay units give
+  only "From table" as their reason.
+- **Labels.** Row and column labels sometimes use the corpus's wording
+  rather than the printed header: the printed "Beginning of This Month"
+  appears as "Close of Prior Month" in some units. Unit notes say so, but
+  labels were never checked corpus-wide. Join months by position, not by
+  label alone.
+- **Source errors stay in.** Cells hold what the source prints, including
+  the two June figures above.
+
 ## Process
 
 The corpus is transcribed and audited by a rotating fleet of AI agents —
@@ -51,12 +166,15 @@ The corpus is transcribed and audited by a rotating fleet of AI agents —
 - one session = one unit = one new file, gated by `reconcile.py` GREEN
   with zero coverage warnings ([AGENTS.md](AGENTS.md) has the rules;
   [RUNBOOK-transcriber.md](RUNBOOK-transcriber.md) the session flow);
-- every 10th unit gets a **different-agent spot-audit** against the
-  source ([RUNBOOK-auditor.md](RUNBOOK-auditor.md)); the full audit
-  trail, including the defects the cadence caught, is in
-  [AUDITS.md](AUDITS.md);
+- every 10th unit triggers a **different-agent audit** against the
+  source, as described [above](#what-covers-the-cells-arithmetic-cannot-see);
 - PDF units are render-anchored (a vision model must look at the page,
   not just the text layer); HTML units run text-only.
+
+Older audit records cite files under `scratchpad/` (page renders, text
+dumps, one-off scripts). That folder is local working space and is not
+part of the repository; the copies that were tracked before 2026-11-27
+remain in the git history.
 
 ## Running it
 
