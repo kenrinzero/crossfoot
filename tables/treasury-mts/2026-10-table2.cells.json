@@ -1,0 +1,680 @@
+{
+  "table_id": "treasury-mts/2026-10-table2",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 2. Summary of Budget and Off-Budget Results and Financing of the U.S. Government, October 2026 and Other Periods",
+    "page": 5,
+    "title": "Summary of Budget and Off-Budget Results and Financing of the U.S. Government",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. The current and comparable actuals are October FY2027 and October FY2026. The two budget estimates cover the full FY2027 and FY2028 respectively. Dots mark no transactions.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Budget Estimates Full Fiscal Year"
+    },
+    {
+      "index": 4,
+      "label": "Comparable Prior Period Year to Date (2026)"
+    },
+    {
+      "index": 5,
+      "label": "Budget Estimates Next Fiscal Year (2028)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total On-Budget and Off-Budget Results / Total Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Total On-Budget and Off-Budget Results / On-Budget Receipts"
+    },
+    {
+      "index": 3,
+      "label": "Total On-Budget and Off-Budget Results / Off-Budget Receipts"
+    },
+    {
+      "index": 4,
+      "label": "Total On-Budget and Off-Budget Results / Total Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Total On-Budget and Off-Budget Results / On-Budget Outlays"
+    },
+    {
+      "index": 6,
+      "label": "Total On-Budget and Off-Budget Results / Off-Budget Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Total On-Budget and Off-Budget Results / Total Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 8,
+      "label": "Total On-Budget and Off-Budget Results / On-Budget Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 9,
+      "label": "Total On-Budget and Off-Budget Results / Off-Budget Surplus (+) or Deficit (-)"
+    },
+    {
+      "index": 10,
+      "label": "Total On-Budget and Off-Budget Results / Total On-Budget and Off-Budget Financing"
+    },
+    {
+      "index": 11,
+      "label": "Means of Financing / Borrowing from the Public"
+    },
+    {
+      "index": 12,
+      "label": "Means of Financing / Reduction of Operating Cash, Increase (-)"
+    },
+    {
+      "index": 13,
+      "label": "Means of Financing / By Other Means"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "5920951",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "6288407",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "273965",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "273965",
+      "role": "total"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "4496664",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "312826",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "4776844",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "94975",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "94975",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "1424287",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "91545",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "1511563",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "8092860",
+      "role": "total"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "8445361",
+      "role": "total"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "6477989",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "6743168",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "1614871",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "121016",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "1702193",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "-284333",
+      "role": "total"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "-29471",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "404064",
+      "role": "total"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "404064",
+      "role": "total"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "284333",
+      "role": "total"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "307696",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "307696",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "295826",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "32453",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "32453",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "-35503",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "63914",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "63914",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "24010",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r3c5"
+      ],
+      "target": "r1c5",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r6c1"
+      ],
+      "target": "r4c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r6c2"
+      ],
+      "target": "r4c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c3",
+        "r6c3"
+      ],
+      "target": "r4c3",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r6c4"
+      ],
+      "target": "r4c4",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r6c5"
+      ],
+      "target": "r4c5",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c1",
+        "r9c1"
+      ],
+      "target": "r7c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c2",
+        "r9c2"
+      ],
+      "target": "r7c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r8c4",
+        "r9c4"
+      ],
+      "target": "r7c4",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c1",
+        "r7c1"
+      ],
+      "target": "r1c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r7c2"
+      ],
+      "target": "r1c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c4",
+        "r7c4"
+      ],
+      "target": "r1c4",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c1",
+        "r8c1"
+      ],
+      "target": "r2c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r8c2"
+      ],
+      "target": "r2c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c4",
+        "r8c4"
+      ],
+      "target": "r2c4",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c1",
+        "r9c1"
+      ],
+      "target": "r3c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r9c2"
+      ],
+      "target": "r3c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c4",
+        "r9c4"
+      ],
+      "target": "r3c4",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r12c1",
+        "r13c1"
+      ],
+      "target": "r10c1",
+      "note": "The three means of financing sum to total financing.",
+      "tol": "1",
+      "why": "Table 2, page 5, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r12c2",
+        "r13c2"
+      ],
+      "target": "r10c2",
+      "note": "The three means of financing sum to total financing.",
+      "tol": "1",
+      "why": "Table 2, page 5, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c4",
+        "r12c4",
+        "r13c4"
+      ],
+      "target": "r10c4",
+      "note": "The three means of financing sum to total financing."
+    }
+  ]
+}

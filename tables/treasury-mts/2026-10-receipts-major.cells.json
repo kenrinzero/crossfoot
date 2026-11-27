@@ -1,0 +1,356 @@
+{
+  "table_id": "treasury-mts/2026-10-receipts-major",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 4. Receipts of the U.S. Government, October 2026 and Other Periods",
+    "page": 9,
+    "title": "Receipts of the U.S. Government",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Major receipts classifications use the Receipts column of each period group, after refunds (printed columns 3, 6 and 9).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date / Receipts"
+    },
+    {
+      "index": 3,
+      "label": "Prior Fiscal Year to Date / Receipts"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total -- Individual Income Taxes"
+    },
+    {
+      "index": 2,
+      "label": "Corporation Income Taxes"
+    },
+    {
+      "index": 3,
+      "label": "Total -- Social Insurance and Retirement Receipts"
+    },
+    {
+      "index": 4,
+      "label": "Total -- Excise Taxes"
+    },
+    {
+      "index": 5,
+      "label": "Estate and Gift Taxes"
+    },
+    {
+      "index": 6,
+      "label": "Customs Duties"
+    },
+    {
+      "index": 7,
+      "label": "Total -- Miscellaneous Receipts"
+    },
+    {
+      "index": 8,
+      "label": "Total -- Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Total -- On-Budget"
+    },
+    {
+      "index": 10,
+      "label": "Total -- Off-Budget"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "186376",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "186376",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "216953",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "18042",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "18042",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "15068",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "131474",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "131474",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "127792",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "5929",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "5929",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "5983",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "3766",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "3766",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "3721",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "19217",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "19217",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "31354",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "4135",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "4135",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "3501",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "273965",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "273965",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "312826",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "94975",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "94975",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "91545",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1"
+      ],
+      "target": "r8c1",
+      "note": "Major net receipt classifications sum to total receipts.",
+      "tol": "1",
+      "why": "Table 4, page 9, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2"
+      ],
+      "target": "r8c2",
+      "note": "Major net receipt classifications sum to total receipts.",
+      "tol": "1",
+      "why": "Table 4, page 9, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3"
+      ],
+      "target": "r8c3",
+      "note": "Major net receipt classifications sum to total receipts.",
+      "tol": "1",
+      "why": "Table 4, page 9, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r10c1"
+      ],
+      "target": "r8c1",
+      "note": "On-budget and off-budget receipts sum to total receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r10c2"
+      ],
+      "target": "r8c2",
+      "note": "On-budget and off-budget receipts sum to total receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r10c3"
+      ],
+      "target": "r8c3",
+      "note": "On-budget and off-budget receipts sum to total receipts."
+    }
+  ]
+}

@@ -1,0 +1,638 @@
+{
+  "table_id": "treasury-mts/2026-10-table3-outlays-remainder",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 8,
+    "title": "Summary of Receipts and Outlays of the U.S. Government",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. The three receipt totals are repeated from the receipts block to check the overall, on-budget and off-budget balances. Only the estimate column prints an Allowances amount. The three balance rows have blank estimate cells.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Comparable Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Receipts / Total Receipts"
+    },
+    {
+      "index": 2,
+      "label": "Budget Receipts / Total Receipts (On-Budget)"
+    },
+    {
+      "index": 3,
+      "label": "Budget Receipts / Total Receipts (Off-Budget)"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Social Security Administration"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Independent Agencies"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Allowances"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts / Interest"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Undistributed Offsetting Receipts / Other"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Total Outlays"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Total Outlays (On-Budget)"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Total Outlays (Off-Budget)"
+    },
+    {
+      "index": 12,
+      "label": "Surplus (+) or Deficit (-) / Total"
+    },
+    {
+      "index": 13,
+      "label": "Surplus (+) or Deficit (-) / (On-Budget)"
+    },
+    {
+      "index": 14,
+      "label": "Surplus (+) or Deficit (-) / (Off-Budget)"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "368940",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "404371",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "5920951",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "273965",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "273965",
+      "role": "total"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "312826",
+      "role": "total"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "4496664",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "94975",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "94975",
+      "role": "total"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "91545",
+      "role": "total"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "1424287",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "153703",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "153703",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "144539",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "1842413",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "3989",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "3989",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "3829",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "3259",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "-7047",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "-11152",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "-11152",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "-9923",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "-193592",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "-55197",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "-55197",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "-45895",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "-160544",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "8092860",
+      "role": "total"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "6477989",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "121016",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "1614871",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "-404064",
+      "role": "total"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-284333",
+      "role": "total"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-376483",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-254862",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "-27581",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-29471",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r11c1"
+      ],
+      "target": "r9c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r11c2"
+      ],
+      "target": "r9c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r11c3"
+      ],
+      "target": "r9c3",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c4",
+        "r11c4"
+      ],
+      "target": "r9c4",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c1",
+        "r14c1"
+      ],
+      "target": "r12c1",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c2",
+        "r14c2"
+      ],
+      "target": "r12c2",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r13c3",
+        "r14c3"
+      ],
+      "target": "r12c3",
+      "note": "On-budget and off-budget amounts sum to the combined result."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c1",
+        "r12c1"
+      ],
+      "target": "r1c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c2",
+        "r12c2"
+      ],
+      "target": "r1c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r9c3",
+        "r12c3"
+      ],
+      "target": "r1c3",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c1",
+        "r13c1"
+      ],
+      "target": "r2c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c2",
+        "r13c2"
+      ],
+      "target": "r2c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r10c3",
+        "r13c3"
+      ],
+      "target": "r2c3",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c1",
+        "r14c1"
+      ],
+      "target": "r3c1",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r14c2"
+      ],
+      "target": "r3c2",
+      "note": "Outlays plus the signed balance equals receipts."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c3",
+        "r14c3"
+      ],
+      "target": "r3c3",
+      "note": "Outlays plus the signed balance equals receipts."
+    }
+  ]
+}

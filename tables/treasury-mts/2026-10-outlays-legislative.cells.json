@@ -1,0 +1,1011 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-legislative",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 10,
+    "title": "Outlays of the U.S. Government — Legislative Branch",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. The Legislative Branch spans fourteen numeric rows. Dots mark no transactions and (**) marks an absolute amount below $500,000. The section rounding note is on page 22.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Senate"
+    },
+    {
+      "index": 2,
+      "label": "House of Representatives"
+    },
+    {
+      "index": 3,
+      "label": "Joint Items"
+    },
+    {
+      "index": 4,
+      "label": "Capitol Police"
+    },
+    {
+      "index": 5,
+      "label": "Congressional Budget Office"
+    },
+    {
+      "index": 6,
+      "label": "Architect of the Capitol"
+    },
+    {
+      "index": 7,
+      "label": "Library of Congress"
+    },
+    {
+      "index": 8,
+      "label": "Government Publishing Office"
+    },
+    {
+      "index": 9,
+      "label": "Government Accountability Office"
+    },
+    {
+      "index": 10,
+      "label": "United States Tax Court"
+    },
+    {
+      "index": 11,
+      "label": "Other Legislative Branch Agencies"
+    },
+    {
+      "index": 12,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 13,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 14,
+      "label": "Total--Legislative Branch"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "139",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "117",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "117",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "167",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "167",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "167",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "167",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "26",
+      "role": "total"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "26",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "79",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "79",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "79",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "79",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "49",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "49",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "77",
+      "role": "total"
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "77",
+      "role": "total"
+    },
+    {
+      "id": "r7c5",
+      "row": 7,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "76",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "24",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "31",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "63",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "21",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c7",
+      "row": 10,
+      "col": 7,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c9",
+      "row": 10,
+      "col": 9,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "6",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c5",
+      "row": 12,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c8",
+      "row": 12,
+      "col": 8,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-2",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "641",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "5",
+      "role": "total"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "636",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "641",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "5",
+      "role": "total"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "636",
+      "role": "total"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "314",
+      "role": "total"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "3",
+      "role": "total"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "311",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r2c2"
+      ],
+      "target": "r2c1",
+      "note": "Net outlays plus applicable receipts equals gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r2c5"
+      ],
+      "target": "r2c4",
+      "note": "Net outlays plus applicable receipts equals gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r2c8"
+      ],
+      "target": "r2c7",
+      "note": "Net outlays plus applicable receipts equals gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "Net outlays plus applicable receipts equals gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "Net outlays plus applicable receipts equals gross outlays.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c3",
+        "r7c2"
+      ],
+      "target": "r7c1",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r7c6",
+        "r7c5"
+      ],
+      "target": "r7c4",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c3",
+        "r14c2"
+      ],
+      "target": "r14c1",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c6",
+        "r14c5"
+      ],
+      "target": "r14c4",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c9",
+        "r14c8"
+      ],
+      "target": "r14c7",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r13c1"
+      ],
+      "target": "r14c1",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r6c2",
+        "r7c2",
+        "r12c2"
+      ],
+      "target": "r14c2",
+      "note": "The printed components sum to the branch total for this column."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3",
+        "r6c3",
+        "r7c3",
+        "r8c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3"
+      ],
+      "target": "r14c3",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "3",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r13c4"
+      ],
+      "target": "r14c4",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r6c5",
+        "r7c5",
+        "r12c5"
+      ],
+      "target": "r14c5",
+      "note": "The printed components sum to the branch total for this column."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "3",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r5c7",
+        "r6c7",
+        "r7c7",
+        "r8c7",
+        "r9c7",
+        "r10c7",
+        "r11c7"
+      ],
+      "target": "r14c7",
+      "note": "The printed components sum to the branch total for this column."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r12c8"
+      ],
+      "target": "r14c8",
+      "note": "The printed components sum to the branch total for this column."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9",
+        "r6c9",
+        "r7c9",
+        "r8c9",
+        "r9c9",
+        "r10c9",
+        "r11c9",
+        "r12c9"
+      ],
+      "target": "r14c9",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    }
+  ]
+}

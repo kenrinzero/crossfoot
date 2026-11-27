@@ -1,0 +1,1042 @@
+{
+  "table_id": "treasury-mts/2026-10-table3-outlays-departments",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 3. Summary of Receipts and Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 8,
+    "title": "Summary of Receipts and Outlays of the U.S. Government",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. The 28 outlay lines run from the Legislative Branch through the Small Business Administration. Treasury has separate lines for gross interest and other outlays. The totals are in the companion remainder unit.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month"
+    },
+    {
+      "index": 2,
+      "label": "Current Fiscal Year to Date"
+    },
+    {
+      "index": 3,
+      "label": "Comparable Prior Period Year to Date"
+    },
+    {
+      "index": 4,
+      "label": "Budget Estimates Full Fiscal Year"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Budget Outlays / Legislative Branch"
+    },
+    {
+      "index": 2,
+      "label": "Budget Outlays / Judicial Branch"
+    },
+    {
+      "index": 3,
+      "label": "Budget Outlays / Department of Agriculture"
+    },
+    {
+      "index": 4,
+      "label": "Budget Outlays / Department of Commerce"
+    },
+    {
+      "index": 5,
+      "label": "Budget Outlays / Department of Defense--Military Programs"
+    },
+    {
+      "index": 6,
+      "label": "Budget Outlays / Department of Education"
+    },
+    {
+      "index": 7,
+      "label": "Budget Outlays / Department of Energy"
+    },
+    {
+      "index": 8,
+      "label": "Budget Outlays / Department of Health and Human Services"
+    },
+    {
+      "index": 9,
+      "label": "Budget Outlays / Department of Homeland Security"
+    },
+    {
+      "index": 10,
+      "label": "Budget Outlays / Department of Housing and Urban Development"
+    },
+    {
+      "index": 11,
+      "label": "Budget Outlays / Department of the Interior"
+    },
+    {
+      "index": 12,
+      "label": "Budget Outlays / Department of Justice"
+    },
+    {
+      "index": 13,
+      "label": "Budget Outlays / Department of Labor"
+    },
+    {
+      "index": 14,
+      "label": "Budget Outlays / Department of State"
+    },
+    {
+      "index": 15,
+      "label": "Budget Outlays / Department of Transportation"
+    },
+    {
+      "index": 16,
+      "label": "Budget Outlays / Department of the Treasury / Interest on Treasury Debt Securities (Gross)"
+    },
+    {
+      "index": 17,
+      "label": "Budget Outlays / Department of the Treasury / Other"
+    },
+    {
+      "index": 18,
+      "label": "Budget Outlays / Department of Veterans Affairs"
+    },
+    {
+      "index": 19,
+      "label": "Budget Outlays / Corps of Engineers"
+    },
+    {
+      "index": 20,
+      "label": "Budget Outlays / Other Defense Civil Programs"
+    },
+    {
+      "index": 21,
+      "label": "Budget Outlays / Environmental Protection Agency"
+    },
+    {
+      "index": 22,
+      "label": "Budget Outlays / Executive Office of the President"
+    },
+    {
+      "index": 23,
+      "label": "Budget Outlays / General Services Administration"
+    },
+    {
+      "index": 24,
+      "label": "Budget Outlays / International Assistance Programs"
+    },
+    {
+      "index": 25,
+      "label": "Budget Outlays / National Aeronautics and Space Administration"
+    },
+    {
+      "index": 26,
+      "label": "Budget Outlays / National Science Foundation"
+    },
+    {
+      "index": 27,
+      "label": "Budget Outlays / Office of Personnel Management"
+    },
+    {
+      "index": 28,
+      "label": "Budget Outlays / Small Business Administration"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "636",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "636",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "311",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "7908",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "891",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "891",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "653",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "10842",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "31143",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "31143",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "17334",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "223754",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "987",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "987",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "478",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "23568",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "123991",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "123991",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "95546",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "1147538",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "12861",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "12861",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "18857",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "119336",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "5028",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c2",
+      "row": 7,
+      "col": 2,
+      "value": "5028",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "5070",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "64782",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "257378",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c2",
+      "row": 8,
+      "col": 2,
+      "value": "257378",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "228083",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "2153600",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "9144",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r9c2",
+      "row": 9,
+      "col": 2,
+      "value": "9144",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "5513",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "146292",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "5552",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r10c2",
+      "row": 10,
+      "col": 2,
+      "value": "5552",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "5850",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "75767",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "1563",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "1563",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "771",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "22880",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "3182",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r12c2",
+      "row": 12,
+      "col": 2,
+      "value": "3182",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "2085",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "53343",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "-88",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "-88",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "2606",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "56497",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "2682",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "2682",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "2179",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "32391",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "10986",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "10986",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "9865",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "140188",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "115461",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r16c2",
+      "row": 16,
+      "col": 2,
+      "value": "115461",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "104404",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "1345953",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "12989",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "12989",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "17314",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "184323",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "54342",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r18c2",
+      "row": 18,
+      "col": 2,
+      "value": "54342",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "49436",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "475118",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "1343",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r19c2",
+      "row": 19,
+      "col": 2,
+      "value": "1343",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "1343",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "7570",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "13053",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "13053",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "10519",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "84149",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "1540",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "1540",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "1543",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "27327",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "62",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r22c2",
+      "row": 22,
+      "col": 2,
+      "value": "62",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "19",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "962",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "-82",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r23c2",
+      "row": 23,
+      "col": 2,
+      "value": "-82",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "1283",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "-500",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "1770",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r24c2",
+      "row": 24,
+      "col": 2,
+      "value": "1770",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "-20",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "31896",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "1689",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "1689",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "1559",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "24434",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r26c1",
+      "row": 26,
+      "col": 1,
+      "value": "677",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r26c2",
+      "row": 26,
+      "col": 2,
+      "value": "677",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r26c3",
+      "row": 26,
+      "col": 3,
+      "value": "723",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r26c4",
+      "row": 26,
+      "col": 4,
+      "value": "8881",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r27c1",
+      "row": 27,
+      "col": 1,
+      "value": "12757",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r27c2",
+      "row": 27,
+      "col": 2,
+      "value": "12757",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r27c3",
+      "row": 27,
+      "col": 3,
+      "value": "12704",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r27c4",
+      "row": 27,
+      "col": 4,
+      "value": "138126",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r28c1",
+      "row": 28,
+      "col": 1,
+      "value": "123",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r28c2",
+      "row": 28,
+      "col": 2,
+      "value": "123",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r28c3",
+      "row": 28,
+      "col": 3,
+      "value": "125",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    },
+    {
+      "id": "r28c4",
+      "row": 28,
+      "col": 4,
+      "value": "1446",
+      "role": "standalone",
+      "why": "This outlay line contributes to Total Outlays across the two Table 3 outlay units. The component rows needed for that sum are split between the units."
+    }
+  ],
+  "relations": []
+}

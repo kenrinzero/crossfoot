@@ -1,0 +1,459 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-judicial",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 10,
+    "title": "Outlays of the U.S. Government — Judicial Branch",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. The Judicial Branch spans six numeric rows. Only proprietary receipts contribute to applicable receipts in each period. The section rounding and omission notes are on page 22.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current Fiscal Year to Date / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior Fiscal Year to Date / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior Fiscal Year to Date / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior Fiscal Year to Date / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Supreme Court of the United States"
+    },
+    {
+      "index": 2,
+      "label": "Courts of Appeals, District Courts, and Other Judicial Services"
+    },
+    {
+      "index": 3,
+      "label": "Other"
+    },
+    {
+      "index": 4,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 5,
+      "label": "Intrabudgetary Transactions"
+    },
+    {
+      "index": 6,
+      "label": "Total--Judicial Branch"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "17",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "840",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "840",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "840",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "840",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "638",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "638",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "104",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "55",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "55",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "13",
+      "role": "standalone",
+      "why": "Proprietary receipts supply the only numeric component of branch applicable receipts for this period. The row has no printed gross outlays for a net identity."
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "13",
+      "role": "standalone",
+      "why": "Proprietary receipts supply the only numeric component of branch applicable receipts for this period. The row has no printed gross outlays for a net identity."
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "-13",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "27",
+      "role": "standalone",
+      "why": "Proprietary receipts supply the only numeric component of branch applicable receipts for this period. The row has no printed gross outlays for a net identity."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "-27",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "-56",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "-56",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "-56",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "-56",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "-15",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "-15",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "904",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "891",
+      "role": "total"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "904",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "13",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "891",
+      "role": "total"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "680",
+      "role": "total"
+    },
+    {
+      "id": "r6c8",
+      "row": 6,
+      "col": 8,
+      "value": "27",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "653",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r6c3",
+        "r6c2"
+      ],
+      "target": "r6c1",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c6",
+        "r6c5"
+      ],
+      "target": "r6c4",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c9",
+        "r6c8"
+      ],
+      "target": "r6c7",
+      "note": "Net outlays plus applicable receipts equals gross outlays."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c1",
+        "r2c1",
+        "r3c1",
+        "r5c1"
+      ],
+      "target": "r6c1",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c3",
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r5c3"
+      ],
+      "target": "r6c3",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r5c4"
+      ],
+      "target": "r6c4",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6"
+      ],
+      "target": "r6c6",
+      "note": "The printed components sum to the branch total for this column.",
+      "tol": "1",
+      "why": "Table 5, page 22, states “Note: Details may not add to totals due to rounding.” The amounts are printed in millions of dollars."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c7",
+        "r2c7",
+        "r3c7",
+        "r5c7"
+      ],
+      "target": "r6c7",
+      "note": "The printed components sum to the branch total for this column."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c9",
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r5c9"
+      ],
+      "target": "r6c9",
+      "note": "The printed components sum to the branch total for this column."
+    }
+  ]
+}

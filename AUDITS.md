@@ -4294,3 +4294,16 @@ A structured comparison with `7712d99` verified preservation of every cell ID, c
 - **Gates.** The unit reconciles GREEN with 0 warnings. `uv run --locked pytest`: **42 passed** (one new test, for the new kind of exception). `uv run --locked python reconcile.py --all`: **581 GREEN**. The next cadence audit is still **#590**. Publication requires the user's approval.
 
 ---
+
+## Spot-Audit: Unit 590 — `treasury-mts/2026-10-outlays-judicial` (whole batch #582–#590)
+
+**PENDING — different-agent audit.** Codex transcribed all nine October units on 2026-11-27. September #581 already has a separate closing audit. Record the independent result here before #591.
+
+| Corpus units | Source and checks |
+|---|---|
+| #582–#583 | Tables 1 and 2, p5. Check both fiscal-year labels, the reprinted September figures, the deficit signs, and the order of the estimate and prior-period columns. |
+| #584–#586 | Table 3, p8. Count the 28 departmental lines. Check the three blank deficit estimates, the estimate-only Allowances entry, the on/off-budget balances, and the shared receipts and outlay totals. |
+| #587–#588 | Table 9, p36, and Table 4, p9. Check all three periods, including the net receipt columns in Table 4. |
+| #589–#590 | Table 5, p10. Check both branches, the single applicable-receipt component in Judicial, dots and (**) marks, and the net totals against Table 3. The rounding and omission notes are on p22. |
+
+Transcriber checks covered 561 values, 66 printed omission marks and three empty positions in 143 unit rows. All 115 sums passed strict reconciliation. The independent reviewer should run the tracked source check and compare the labels, row counts, periods, omissions and identities to the vendored PDF under `RUNBOOK-auditor.md`.

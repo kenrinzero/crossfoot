@@ -718,18 +718,18 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-09-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) | D2 | vision | 40 | sum | ≤ 150 cells (Aug: 131) | 6 | SHIPPED 2026-11-26 (corpus #580; 23 rows / 6 cols / 131c / 53r vs floor 40; 6 standalones = waiver; strict-default GREEN, 0 warnings; Total Trust Excess 14,444 / 113,070 is the internal r18+r19=r17 identity (audit #580: these values occur nowhere in #568; the Table 6-D tie runs via the companion unit #581's cols 7–9 = #568 r40 c4/c5/c6); Net Budget 557,875/584,775/-26,900 / 5,403,327/7,395,800/-1,992,473 byte-matches Tables 1–3 and Table 7; p36. **Every-10th audit #580 closed GREEN 2026-11-27 by MiniMax Code / MiniMax-M3.1-Flash (whole-batch #571–#580, 1,572 values / 94 omissions / 1,666 positions / 278 relations, 0 mismatches, 0 repairs, 0 missing DESIGN §4a identity classes); #581 unblocked. Next audit #590.**) |
 | treasury-mts/2026-09-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (Aug: 45) | 0 | SHIPPED 2026-11-27 (corpus #581; 15 rows / 45c / 3r = floor; 0 standalones; strict-default GREEN, 0 warnings; Black Lung Disability and Military Advances all-`......` dropped, same 15-row shape as Jun/Jul/Aug; roll-ups begin-year 6,274,789 vs 6,274,791 tol-2, close-prior 6,519,041 exact, close-this-month 6,521,220 vs 6,521,221 tol-1, each tol = observed delta with the printed rounding note quoted; r15 c1/c2/c3 byte-match #568 r40 c4/c5/c6 = 6,274,791 / 6,519,041 / 6,521,221, and close-prior byte-matches Aug close-this-month; p36. **September family COMPLETE 80/80 (#502–#581); next cadence audit #590.**) |
 
-## Treasury MTS October 2026 — 80 READY (FY2027 month 1)
+## Treasury MTS October 2026 — 9 shipped, 71 READY (FY2027 month 1)
 
 Treasury’s October 31 statement is vendored at `sources/treasury-mts/mts-202610.pdf`.
 The source ledger records the official URL, 2,123,129 bytes and SHA-256. The 38-page
 PDF contains Tables 1–9 and all five Table 6 schedules. The October page references
 below follow the printed pages.
 
-**Dispatch #582–#661 in the order below.** The 80 September scopes all have October
+**Units #582–#590 shipped on 2026-11-27. The independent #590 batch audit is pending. Resume at #591 after GREEN.** The 80 September scopes all have October
 figures. Retaining them keeps the department, schedule and monthly slices comparable.
 Table 5 accounts for 49 units, Table 6 for 14, Table 7 for eight and Table 8 for two.
 The other seven cover Tables 1–4 and 9, including the established Table 4 net
-major-classification slice. The first batch is #582–#590, as September #581 already
+major-classification slice. The first batch covers #582–#590, as September #581 already
 has its own audit. Run the source check on each shipped batch and the different-agent
 audit at each multiple of ten. After #660, carry #661 into the next audit or record
 its own closing audit.
@@ -780,15 +780,15 @@ tables. A `row-count-check` also requires counting the printed rows.
 
 | unit | table | D | needs | min relations (prov.) | types | size cap | standalone waivers (prov.) | status |
 |---|---|---|---|---|---|---|---|---|
-| treasury-mts/2026-10-table1 | Table 1 monthly receipts, outlays and deficit for FY2026 and October FY2027 (p5) | D2 | vision, cross-table | 18 | sum | ≤ 60 cells (45 sized) | 0 | READY |
-| treasury-mts/2026-10-table2 | Table 2 budget/off-budget results and financing (p5) | D2 | vision, cross-table | 25 | sum | ≤ 60 cells (51 sized) | 0 | READY |
-| treasury-mts/2026-10-table3-receipts | Table 3 budget receipts block (p8) | D3 | vision, cross-table | 12 | sum | ≤ 60 cells (52 sized) | 0 | READY |
-| treasury-mts/2026-10-table3-outlays-departments | Table 3 department outlay lines (p8) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (112 sized) | 112 | READY |
-| treasury-mts/2026-10-table3-outlays-remainder | Table 3 totals/SSA/UOR/deficit remainder (p8) | D2 | vision, cross-table | 20 | sum | ≤ 60 cells (50 sized) | 17 | READY |
-| treasury-mts/2026-10-table9 | Table 9 receipts by source / outlays by function (p36) | D2 | vision, cross-table | 6 | sum | ≤ 100 cells (90 sized) | 0 | READY |
-| treasury-mts/2026-10-receipts-major | Table 4 major receipts classifications, net columns (p9) | D3 | vision, cross-table | 6 | sum | ≤ 60 cells (30 sized) | 0 | READY |
-| treasury-mts/2026-10-outlays-legislative | Table 5 Legislative Branch (p10) | D2 | vision | 19 | sum | ≤ 100 cells (92 sized) | 0 | READY |
-| treasury-mts/2026-10-outlays-judicial | Table 5 Judicial Branch (p10) | D3 | vision | 9 | sum | ≤ 60 cells (39 sized) | 3 | READY |
+| treasury-mts/2026-10-table1 | Table 1 monthly receipts, outlays and deficit for FY2026 and October FY2027 (p5) | D2 | vision, cross-table | 18 | sum | ≤ 60 cells (45 sized) | 0 | SHIPPED 2026-11-27 (#582, 45 cells, 18 relations, 0 standalone, zero warnings). 15 printed rows. FY2026 has 12 monthly amounts in each annual sum. The FY2027 October and YTD balances tie to Table 2 with the deficit sign reversed. |
+| treasury-mts/2026-10-table2 | Table 2 budget/off-budget results and financing (p5) | D2 | vision, cross-table | 25 | sum | ≤ 60 cells (51 sized) | 0 | SHIPPED 2026-11-27 (#583, 51 cells, 25 relations, 0 standalone, zero warnings). The five printed columns distinguish the comparable October of FY2026 from the FY2027 and FY2028 budget estimates. |
+| treasury-mts/2026-10-table3-receipts | Table 3 budget receipts block (p8) | D3 | vision, cross-table | 12 | sum | ≤ 60 cells (52 sized) | 0 | SHIPPED 2026-11-27 (#584, 52 cells, 12 relations, 0 standalone, zero warnings). All 12 receipt totals and budget splits match Table 2 after mapping its estimate and prior-period columns. |
+| treasury-mts/2026-10-table3-outlays-departments | Table 3 department outlay lines (p8) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (112 sized) | 112 | SHIPPED 2026-11-27 (#585, 112 cells, 0 relations, 112 standalone, zero warnings). 28 department lines checked against p8, including the two Treasury lines. Their components are combined with the remainder at the batch check. |
+| treasury-mts/2026-10-table3-outlays-remainder | Table 3 totals/SSA/UOR/deficit remainder (p8) | D2 | vision, cross-table | 20 | sum | ≤ 60 cells (50 sized) | 17 | SHIPPED 2026-11-27 (#586, 50 cells, 20 relations, 17 standalone, zero warnings). Includes all six on/off-budget balances for the three actual periods. The two outlay units together sum to within $1 million of the printed total in each actual period and exactly in the estimate. |
+| treasury-mts/2026-10-table9 | Table 9 receipts by source / outlays by function (p36) | D2 | vision, cross-table | 6 | sum | ≤ 100 cells (90 sized) | 0 | SHIPPED 2026-11-27 (#587, 90 cells, 6 relations, 0 standalone, zero warnings). The receipts and outlays totals agree with Tables 1–3 in all three actual periods. |
+| treasury-mts/2026-10-receipts-major | Table 4 major receipts classifications, net columns (p9) | D3 | vision, cross-table | 6 | sum | ≤ 60 cells (30 sized) | 0 | SHIPPED 2026-11-27 (#588, 30 cells, 6 relations, 0 standalone, zero warnings). The net-column total and both budget splits match Table 3 in all three periods. The printed social insurance total is $1 million above the sum of the rounded Table 3 lines for both October and current YTD. |
+| treasury-mts/2026-10-outlays-legislative | Table 5 Legislative Branch (p10) | D2 | vision | 19 | sum | ≤ 100 cells (92 sized) | 0 | SHIPPED 2026-11-27 (#589, 92 cells, 19 relations, 0 standalone, zero warnings). 14 rows. The three net branch totals of 636, 636 and 311 match Table 3. |
+| treasury-mts/2026-10-outlays-judicial | Table 5 Judicial Branch (p10) | D3 | vision | 9 | sum | ≤ 60 cells (39 sized) | 3 | SHIPPED 2026-11-27 (#590, 39 cells, 9 relations, 3 standalone, zero warnings). Six rows. The three net branch totals of 891, 891 and 653 match Table 3. The three standalone cells are the sole items contributing to applicable receipts. Independent batch audit due. |
 | treasury-mts/2026-10-outlays-eop | Table 5 Executive Office of the President (p19) | D3 | vision | 6 | sum | ≤ 60 cells (32 sized) | 0 | READY |
 | treasury-mts/2026-10-outlays-agriculture-programs | Table 5 Agriculture programs (unit 1/3) (p10) | D2 | vision | 18 | sum | ≤ 150 cells (110 sized) | 58 | READY |
 | treasury-mts/2026-10-outlays-agriculture-fns | Table 5 Agriculture FNS and Rural (unit 2/3) (p10) | D2 | vision | 12 | sum | ≤ 100 cells (78 sized) | 30 | READY |
