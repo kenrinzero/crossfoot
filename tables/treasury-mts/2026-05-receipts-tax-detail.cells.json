@@ -7,7 +7,7 @@
     "title": "Tax-detail slice: Individual Income Taxes subrows (gross columns only) plus Excise Taxes and Miscellaneous Receipts subrows, with parent totals re-anchored from the source.",
     "period": "May FY2026 (This Month = May 2026; FYTD = Oct 2025 - May 2026; Prior FYTD = Oct 2024 - May 2025)"
   },
-  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells (legend: '... No Transactions') are omitted, not transcribed as 0. The Individual Income Taxes subrows publish gross receipts only. Superscript footnote marker 2 is visually attached to All Other current-FYTD gross receipts; the printed numeric value is 10,155, transcribed as 10155. Values otherwise appear exactly as printed, with thousands separators stripped.",
+  "unit_note": "USD millions ('[$ millions]' per table header). '......' cells (legend: '... No Transactions') are omitted, not transcribed as 0. The Individual Income Taxes subrows publish gross receipts only. Superscript footnote marker 2 is visually attached to All Other current-FYTD gross receipts; the printed numeric value is 10,155, transcribed as 10155. Values otherwise appear exactly as printed, with thousands separators stripped. Added 2026-11-27 on the user's instruction: the six Refunds (Deduct) and Receipts cells of r4, Total -- Individual Income Taxes, as printed on p9 (18,982 and 151,979; 308,361 and 1,912,539; 282,903 and 1,823,171), with the row identity Receipts + Refunds = Gross Receipts in each period. The three gross cells of r4 did not change. Until then the row held only its gross cells, while the page prints all nine.",
   "columns": [
     { "index": 1, "label": "This Month / Gross Receipts" },
     { "index": 2, "label": "This Month / Refunds (Deduct)" },
@@ -45,8 +45,14 @@
     { "id": "r3c4", "row": 3, "col": 4, "value": "843991", "role": "leaf" },
     { "id": "r3c7", "row": 3, "col": 7, "value": "766461", "role": "leaf" },
     { "id": "r4c1", "row": 4, "col": 1, "value": "170960", "role": "total" },
+    { "id": "r4c2", "row": 4, "col": 2, "value": "18982", "role": "leaf" },
+    { "id": "r4c3", "row": 4, "col": 3, "value": "151979", "role": "leaf" },
     { "id": "r4c4", "row": 4, "col": 4, "value": "2220900", "role": "total" },
+    { "id": "r4c5", "row": 4, "col": 5, "value": "308361", "role": "leaf" },
+    { "id": "r4c6", "row": 4, "col": 6, "value": "1912539", "role": "leaf" },
     { "id": "r4c7", "row": 4, "col": 7, "value": "2106074", "role": "total" },
+    { "id": "r4c8", "row": 4, "col": 8, "value": "282903", "role": "leaf" },
+    { "id": "r4c9", "row": 4, "col": 9, "value": "1823171", "role": "leaf" },
 
     { "id": "r5c1", "row": 5, "col": 1, "value": "-885", "role": "total" },
     { "id": "r5c2", "row": 5, "col": 2, "value": "275", "role": "leaf" },
@@ -124,6 +130,9 @@
     { "type": "sum", "sources": ["r1c1", "r2c1", "r3c1"], "target": "r4c1", "note": "Individual Income Taxes roll-up: Withheld + Presidential Election Campaign Fund + Other = Total" },
     { "type": "sum", "sources": ["r1c4", "r2c4", "r3c4"], "target": "r4c4", "note": "Individual Income Taxes roll-up: Withheld + Presidential Election Campaign Fund + Other = Total" },
     { "type": "sum", "sources": ["r1c7", "r2c7", "r3c7"], "target": "r4c7", "note": "Individual Income Taxes roll-up: Withheld + Presidential Election Campaign Fund + Other = Total" },
+    { "type": "sum", "sources": ["r4c3", "r4c2"], "target": "r4c1", "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts", "tol": "1", "why": "Page 9 prints: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions; this printed value differs from the exact sum of its components by 1." },
+    { "type": "sum", "sources": ["r4c6", "r4c5"], "target": "r4c4", "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts" },
+    { "type": "sum", "sources": ["r4c9", "r4c8"], "target": "r4c7", "note": "row identity: Receipts + Refunds (Deduct) = Gross Receipts" },
 
     { "type": "sum", "sources": ["r5c1", "r6c1", "r7c1", "r8c1"], "target": "r9c1", "note": "Excise Taxes column roll-up: four subrows sum to Total -- Excise Taxes" },
     { "type": "sum", "sources": ["r5c2", "r7c2"], "target": "r9c2", "note": "Excise Taxes column roll-up: printed refund subrows sum to Total -- Excise Taxes" },

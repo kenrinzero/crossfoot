@@ -59,9 +59,9 @@ edited.
 Figures are for the 581 units as of 2026-11-27. GREEN means a unit passes
 `reconcile.py` with zero coverage warnings.
 
-**By arithmetic: 46,039 of 56,823 cells (81.0%).** These are the `leaf`
-and `total` cells. Each takes part in at least one of the 11,049 declared
-relations (10,460 sums, 589 percent closures), and `reconcile.py`
+**By arithmetic: 46,045 of 56,829 cells (81.0%).** These are the `leaf`
+and `total` cells. Each takes part in at least one of the 11,052 declared
+relations (10,463 sums, 589 percent closures), and `reconcile.py`
 re-derives every relation on every run.
 
 **Not by arithmetic: 10,784 cells (19.0%).** These are `standalone`:
@@ -74,7 +74,7 @@ the reconciler.
 | `census-p60` | 10,454 | 4,962 | 47.5% |
 | `omb` | 3,984 | 1,393 | 35.0% |
 | `sec-10k` | 596 | 71 | 11.9% |
-| `treasury-mts` | 39,995 | 4,305 | 10.8% |
+| `treasury-mts` | 40,001 | 4,305 | 10.8% |
 | `fec` | 1,136 | 43 | 3.8% |
 | `bls-cpi` | 658 | 10 | 1.5% |
 
@@ -112,21 +112,28 @@ Whole-corpus run of 2026-11-27:
 
 | family | rows | found on one printed line | every cell in its printed column |
 |---|---:|---:|---|
-| `treasury-mts` | 6,566 | 6,566 | 6,565; one row holds three of the nine numbers its line prints |
+| `treasury-mts` | 6,566 | 6,566 | 6,566 |
 | `census-p60` | 1,291 | 1,291 | 1,291 |
 | `omb` | 1,491 | 1,491 | 1,491 |
 | `bls-cpi` | 329 | 329 | 329 |
 | `sec-10k` | 245 | 245 | 245 |
-| `fec` | 399 | 347 | 346 of the 347; one figure is printed in a sentence under its table |
+| `fec` | 399 | 347 | 347 |
 
-Two documented exceptions are checked in their own way, not skipped. One
-Census cell holds `0` where the page prints `Z` (rounds to zero): the tool
-looks for that `Z` on the row's line and in the cell's column. The 52 rows
-of the four FEC summary units gather the columns of five printed blocks,
-so no single line carries them: every one of their values must be printed
-somewhere in the document, and their columns are not compared. The two
-rows the table marks are open for a decision ([NEXT.md](NEXT.md)); the
-values in both are the printed ones.
+Three documented exceptions are checked in their own way, not skipped.
+One Census cell holds `0` where the page prints `Z` (rounds to zero): the
+tool looks for that `Z` on the row's line and in the cell's column. The 52
+rows of the four FEC summary units gather the columns of five printed
+blocks, so no single line carries them: every one of their values must be
+printed somewhere in the document, and their columns are not compared.
+And the FEC results print `Total Electoral Votes Needed to Win = 270` as
+a sentence under the table: the tool checks that the figure is on that
+line and in none of the table's columns.
+
+The first whole-corpus run flagged two rows, neither with a wrong value:
+that FEC figure, and a May Treasury total row that held three of the nine
+numbers its line prints. The six missing cells were added the same day
+and the figure was recorded as an exception, so the table shows the state
+after that.
 
 The check started on the same day as a one-off script. Its first run
 found three wrong values, all in the June Treasury statement and two of
@@ -151,7 +158,7 @@ and the first findings are in
 
 ### Tolerances
 
-7,007 of the 10,460 sums close exactly. The other 3,453 carry a tolerance
+7,009 of the 10,463 sums close exactly. The other 3,454 carry a tolerance
 equal to the observed difference, each with a `why`. In all but six of
 them the `why` is the source's own rounding note. 74 are larger than one
 unit of the last printed digit per source, so they are not ordinary
@@ -191,10 +198,8 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 ### Known gaps
 
 - **Column positions.** Compared for the whole corpus on 2026-11-27
-  ([above](#what-covers-the-cells-arithmetic-cannot-see)). Two rows are
-  open: a May Treasury total row that holds three of the nine numbers
-  printed on its line, and an FEC figure printed in a sentence under its
-  table. A unit shipped later is covered once an auditor has run the
+  ([above](#what-covers-the-cells-arithmetic-cannot-see)), with nothing
+  left open. A unit shipped later is covered once an auditor has run the
   tool on it.
 - **Labels.** Row and column labels sometimes use the corpus's wording
   rather than the printed header. The Treasury Table 6 units label

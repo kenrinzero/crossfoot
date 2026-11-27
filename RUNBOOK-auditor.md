@@ -43,7 +43,8 @@ read the rest of AUDITS.md or the log archives.
      rule.
    - **Known exceptions** of the tool live in
      `tools/sourcecheck-exceptions.json` (the Census `Z` convention; the
-     four FEC capstone units whose rows gather several printed blocks).
+     four FEC capstone units whose rows gather several printed blocks;
+     one FEC figure printed in a sentence under its table).
      Each is still checked in its own way. Do not add an entry to make a
      run pass: a new entry is the user's decision, with the reason
      written into it.

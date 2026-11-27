@@ -437,12 +437,17 @@ class Exceptions:
     combined_rows  units whose rows gather several printed blocks by design, so
                    no single printed line carries a row. Every value must still
                    be printed in the source. Their columns are not compared.
+    free_standing  a cell whose figure the page prints outside the table, in a
+                   sentence of its own. The figure must be on the row's line
+                   and outside every column of the unit, and the page must
+                   print no number in the column the unit keeps it in.
     """
 
     def __init__(self, doc: dict | None = None):
         doc = doc or {}
         self.printed_as = {(e["unit"], e["cell"]): e for e in doc.get("printed_as", [])}
         self.combined = {e["unit"]: e for e in doc.get("combined_rows", [])}
+        self.free_standing = {(e["unit"], e["cell"]): e for e in doc.get("free_standing", [])}
         self.used = set()
         self.rows_seen = {}
 
@@ -463,12 +468,20 @@ class Exceptions:
         self.rows_seen[unit.name] = len(unit.rows)
         return True
 
+    def is_free_standing(self, unit: Unit, cell: dict) -> bool:
+        entry = self.free_standing.get((unit.name, cell["id"]))
+        if entry is None or entry["value"] != cell["value"]:
+            return False
+        self.used.add((unit.name, cell["id"]))
+        return True
+
     def stale(self, checked_units: set) -> list[str]:
         """Entries that no longer describe the units that were checked."""
         out = []
-        for (unit, cell), entry in self.printed_as.items():
-            if unit in checked_units and (unit, cell) not in self.used:
-                out.append(f"printed_as {unit} {cell}: the unit no longer holds {entry['value']} there")
+        for kind, entries in (("printed_as", self.printed_as), ("free_standing", self.free_standing)):
+            for (unit, cell), entry in entries.items():
+                if unit in checked_units and (unit, cell) not in self.used:
+                    out.append(f"{kind} {unit} {cell}: the unit no longer holds {entry['value']} there")
         for unit, entry in self.combined.items():
             if unit in checked_units and entry["rows"] != self.rows_seen.get(unit):
                 out.append(f"combined_rows {unit}: lists {entry['rows']} rows, the unit has {self.rows_seen.get(unit)}")
@@ -729,8 +742,9 @@ def describe(tokens) -> str:
     return "prints nothing"
 
 
-def compare(unit: Unit, cells, line: Line, frame: Frame, markers):
-    """Compare one row with one printed line under one frame.
+def compare(unit: Unit, cells, line: Line, frame: Frame, markers, apart=frozenset()):
+    """Compare one row with one printed line under one frame. apart holds the
+    ids of cells listed as free-standing figures.
     Returns (problems, tally); problems is a list of (cell id, text)."""
     problems = []
     tally = Counter()
@@ -756,6 +770,19 @@ def compare(unit: Unit, cells, line: Line, frame: Frame, markers):
     for col in unit.columns:
         cell = by_col.get(col)
         cid = cell["id"] if cell else f"r{row}c{col}"
+        if cid in apart:
+            # a figure printed in a sentence of its own: on this line, in no
+            # column of the unit, and nothing in the column the unit keeps it in
+            in_its_column = [t for t in in_column(col) if t.kind == "num"] if col in frame.cores else []
+            if in_its_column:
+                text = f"listed as a free-standing figure, but the page {describe(in_its_column)} in this column"
+                problems.append((cid, text))
+            elif any(is_cell(t, cell) and column_of(t) is None for t in line.tokens):
+                tally["free-standing"] += 1
+            else:
+                text = f"listed as a free-standing figure, but {cell['value']} is not printed outside the unit's columns"
+                problems.append((cid, text))
+            continue
         if col not in frame.cores:
             if cell is None:
                 tally["missing-unplaced"] += 1
@@ -813,8 +840,9 @@ class Mismatch:
         return f"{self.level.upper():6} {self.unit} {target}{where}: {self.text}{label}"
 
 
-def check_columns(unit: Unit, results: dict, markers_by_row: dict):
-    """Column level for the rows the row level found. Returns (mismatches, tally)."""
+def check_columns(unit: Unit, results: dict, markers_by_row: dict, apart=frozenset()):
+    """Column level for the rows the row level found. apart holds the ids of
+    cells listed as free-standing figures. Returns (mismatches, tally)."""
     tally = Counter()
     mismatches: list[Mismatch] = []
     rows = [r for r in unit.rows if results[r].scope in ("near", "doc")]
@@ -841,7 +869,9 @@ def check_columns(unit: Unit, results: dict, markers_by_row: dict):
         for key in allowed[row]:
             line, placed = spots[row][key]
             placements[(row, key)] = {
-                cell["col"]: tokens[0] for cell, tokens in zip(unit.rows[row], placed) if len(tokens) == 1
+                cell["col"]: tokens[0]
+                for cell, tokens in zip(unit.rows[row], placed)
+                if len(tokens) == 1 and cell["id"] not in apart
             }
     frames = [f for f in build_frames(placements) if len({r for r, _ in f.rows}) > 1]
     for frame in frames:
@@ -861,7 +891,7 @@ def check_columns(unit: Unit, results: dict, markers_by_row: dict):
             for frame in frames:
                 if not frame.has_other_row(row):
                     continue
-                problems, row_tally = compare(unit, cells, line, frame, markers_by_row[row])
+                problems, row_tally = compare(unit, cells, line, frame, markers_by_row[row], apart)
                 if best is None or len(problems) < len(best[0]):
                     best = (problems, row_tally, line)
                 if not problems:
@@ -941,10 +971,13 @@ def check_unit(unit: Unit, sources: Sources, exceptions: Exceptions, levels=("ro
             tally["rows-on-one-line"] += 1
             tally["rows-" + result.scope] += 1
 
+    apart = frozenset(
+        cell["id"] for cells in unit.rows.values() for cell in cells if exceptions.is_free_standing(unit, cell)
+    )
     if "row" not in levels:
         mismatches = []
     if "column" in levels:
-        found, column_tally = check_columns(unit, results, markers_by_row)
+        found, column_tally = check_columns(unit, results, markers_by_row, apart)
         mismatches += found
         tally.update(column_tally)
     return mismatches, tally
@@ -994,6 +1027,7 @@ SUMMARY = [
     ("column-rows-alone", "rows whose columns could NOT be compared"),
     ("column-present", "cells on their printed number"),
     ("column-present-between", "cells placed between their neighbours only"),
+    ("column-free-standing", "known exception: figures printed outside the table's columns"),
     ("column-missing-on-marker", "missing cells on dots or (**)"),
     ("column-missing-on-empty", "missing cells on empty paper"),
     ("column-missing-unplaced", "missing cells in a column the unit never fills (not located)"),

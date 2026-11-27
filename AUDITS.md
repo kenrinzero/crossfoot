@@ -4267,3 +4267,30 @@ A structured comparison with `7712d99` verified preservation of every cell ID, c
 - **Gates.** `uv run --locked pytest`: **41 passed** (18 new tests of the tool on small fixtures; none needs a PDF library). `uv run --locked python reconcile.py --all`: **581 GREEN**. Both were run in an environment without the PDF libraries. No file under `tables/`, `schema/`, `sources/` or `reconcile.py` changed. The next cadence audit is still **#590**. Publication requires the user's approval.
 
 ---
+
+## Directed follow-up: the two rows flagged by the source check (NEXT item 9)
+
+**Done 2026-11-27 on the user's decisions (Claude Fable 5.2). Six cells were added to one unit; no existing value, role, label or relation changed.** The whole-corpus source check above left two rows for the user. The user chose to add the missing cells of the May row and to record the FEC figure as a documented exception. The six cells are new transcription by the agent that ran the check; what stands behind them is listed below.
+
+- **`treasury-mts/2026-05-receipts-tax-detail` r4, `Total -- Individual Income Taxes`: six cells added.** May p9 prints nine numbers on the line; the unit held the three gross-receipts ones. Added as printed: `r4c2` 18982 and `r4c3` 151979 (This Month, Refunds and Receipts), `r4c5` 308361 and `r4c6` 1912539 (Current Fiscal Year to Date), `r4c8` 282903 and `r4c9` 1823171 (Prior Fiscal Year to Date). The three gross cells (`r4c1` 170960, `r4c4` 2220900, `r4c7` 2106074) did not change.
+- **Roles and relations.** The six are `leaf`: each feeds the row identity `Receipts + Refunds (Deduct) = Gross Receipts`, which the unit already declares for rows 5, 6, 7, 9, 12 and 13 and which the sibling unit `2026-05-receipts` declares for this same line. Three relations added: `r4c3 + r4c2 = r4c1` (151,979 + 18,982 = 170,961 against a printed 170,960, so `tol="1"`, equal to the observed difference, with the rounding note of p9 quoted in the words of the unit's other tolerance-1 identities), `r4c6 + r4c5 = r4c4` and `r4c9 + r4c8 = r4c7` (both exact). The gross cells stay `total` and are now each the target of two sums: the roll-up of rows 1 to 3 and the row identity.
+- **What the six values were checked against.** The text layer of p9: the nine numbers of the line end at the nine column positions the rest of the table uses (274, 314, 354, 394, 434, 474, 514, 554 and 594 points). A 3.0× render of the line, read by eye. The sibling unit `2026-05-receipts`, transcribed separately in July: its row 1 holds the same nine values, byte for byte. And `tools/sourcecheck.py`, which now finds all 88 cells of the unit on their printed numbers.
+- **Scope of the edit.** Compared with the file before the edit: 6 cells added, 0 removed, 0 changed; 3 relations added, the 34 earlier ones unchanged and in order; rows, columns and source block identical; one dated sentence appended to `unit_note`. The unit has 88 cells (cap 120) and 37 relations (minimum 25). `BACKLOG.md` carries the new counts. No other file under `tables/` changed.
+- **`fec/2024-presidential-general-electoral` r53c1 = 270: a documented exception; the unit did not change.** Page 1 prints `Total Electoral Votes Needed to Win = 270` in italics as a sentence under the table. `tools/sourcecheck-exceptions.json` has a third kind of entry for this, `free_standing`. It is a check, not a pass: the figure must be on the row's printed line, it must sit in none of the unit's columns, and the page must print no number in the column the unit keeps it in. All three hold. The entry goes stale, and fails the run, if the unit stops holding 270 in that cell.
+- **Whole-corpus run after both changes: 0 mismatches, exit 0.** 10,269 of 10,269 rows have every cell in its printed column (Treasury 6,566 of 6,566, FEC 347 of 347; the other families as before). 56,327 cells sit on their printed number, one is the free-standing figure, and the 501 values of the FEC capstone rows are all printed in the document. Missing cells: 11,938 on dots or `(**)`, 1,010 on empty paper, 89 not located.
+- **Seeded errors, run again on this state** (one planted error at a time in a copy of each of 577 units):
+
+| family | moved | swapped | dropped | added | digit changed |
+|---|---:|---:|---:|---:|---:|
+| `treasury-mts` | 341 of 341 | 405 of 405 | 405 of 405 | 341 of 341 | 405 of 405 |
+| `census-p60` | 3 of 3 | 91 of 91 | 90 of 91 | 3 of 3 | 91 of 91 |
+| `omb` | 44 of 48 | 45 of 49 | 51 of 54 | 31 of 48 | 43 of 55 |
+| `fec` | 7 of 7 | 7 of 7 | 7 of 7 | 7 of 7 | 7 of 7 |
+| `sec-10k` | 2 of 2 | 12 of 12 | 12 of 12 | 2 of 2 | 12 of 12 |
+| `bls-cpi` | none possible | 7 of 7 | 7 of 7 | none possible | 7 of 7 |
+
+  All 1,897 planted errors in the Treasury units were reported, and 2,485 of 2,526 overall. 40 of the 41 misses are in the OMB tables, the other is the dropped Census `Z` cell.
+- **Corpus figures after the edit.** 56,829 cells; 46,045 (81.0%) are `leaf` or `total` and 10,784 `standalone`; 11,052 relations (10,463 sums, 589 percent closures); 7,009 sums close exactly and 3,454 carry a tolerance. The README figures were brought in line.
+- **Gates.** The unit reconciles GREEN with 0 warnings. `uv run --locked pytest`: **42 passed** (one new test, for the new kind of exception). `uv run --locked python reconcile.py --all`: **581 GREEN**. The next cadence audit is still **#590**. Publication requires the user's approval.
+
+---

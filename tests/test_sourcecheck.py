@@ -217,6 +217,22 @@ def test_row_printed_apart_from_the_grid_cannot_be_compared():
     assert "printed outside the unit's columns" in mismatches[0].text
 
 
+def test_free_standing_exception_wants_the_figure_outside_the_columns():
+    entry = {"unit": "synthetic/unit", "cell": "r5c1", "value": "270", "reason": "test"}
+    known = {"free_standing": [entry]}
+    rows = copy.deepcopy(ROWS)
+    rows[5] = {1: "270"}
+    # printed in a sentence under the table: accepted, and counted as a known exception
+    mismatches, tally = check(unit(rows), page(PRINTED + [("Needed to win = 270", ["", "", ""])]), known)
+    assert mismatches == [] and tally["column-free-standing"] == 1
+    # printed in the grid after all: the entry does not excuse a figure in another column
+    found = check(unit(rows), page(PRINTED + [("Needed", ["", "270", ""])]), known)[0]
+    assert any(m.cell == "r5c1" and "not printed outside the unit's columns" in m.text for m in found)
+    # the page prints something else in the column the unit keeps the figure in
+    (mismatch,) = check(unit(rows), page(PRINTED + [("Needed to win = 270", ["9", "", ""])]), known)[0]
+    assert "the page prints 9 in this column" in mismatch.text
+
+
 # ---- known exceptions ------------------------------------------------------
 
 
@@ -257,14 +273,20 @@ def test_stale_exceptions_are_reported():
     sc.check_unit(u, sources, known)
     assert len(known.stale({"synthetic/unit"})) == 1  # r1c1 holds 1234, not 0
     assert len(known.stale({"synthetic/unit", "synthetic/other"})) == 2
+    gone = sc.Exceptions({"free_standing": [{"unit": "synthetic/unit", "cell": "r9c1", "value": "270", "reason": "test"}]})
+    sc.check_unit(u, sources, gone, levels=("row",))
+    assert len(gone.stale({"synthetic/unit"})) == 1  # the unit has no r9c1
     assert known.stale(set()) == []
 
 
 def test_shipped_exceptions_file_is_well_formed():
     doc = json.loads(sc.EXCEPTIONS_FILE.read_text(encoding="utf-8"))
-    assert set(doc) == {"about", "printed_as", "combined_rows"}
+    assert set(doc) == {"about", "printed_as", "combined_rows", "free_standing"}
     for entry in doc["printed_as"]:
         assert set(entry) == {"unit", "cell", "value", "printed", "reason"} and entry["reason"]
+        assert (ROOT / "tables" / (entry["unit"] + ".cells.json")).is_file()
+    for entry in doc["free_standing"]:
+        assert set(entry) == {"unit", "cell", "value", "reason"} and entry["reason"]
         assert (ROOT / "tables" / (entry["unit"] + ".cells.json")).is_file()
     for entry in doc["combined_rows"]:
         assert set(entry) == {"unit", "rows", "reason"} and entry["reason"]
