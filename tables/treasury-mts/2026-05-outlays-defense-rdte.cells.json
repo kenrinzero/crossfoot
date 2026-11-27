@@ -591,7 +591,7 @@
       "col": 1,
       "value": "41",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r11c3",
@@ -599,7 +599,7 @@
       "col": 3,
       "value": "41",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r11c4",
@@ -607,7 +607,7 @@
       "col": 4,
       "value": "387",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r11c6",
@@ -615,7 +615,7 @@
       "col": 6,
       "value": "387",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r11c7",
@@ -623,7 +623,7 @@
       "col": 7,
       "value": "398",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r11c9",
@@ -631,7 +631,7 @@
       "col": 9,
       "value": "398",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c1",
@@ -639,7 +639,7 @@
       "col": 1,
       "value": "37",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c3",
@@ -647,7 +647,7 @@
       "col": 3,
       "value": "37",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c4",
@@ -655,7 +655,7 @@
       "col": 4,
       "value": "400",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c6",
@@ -663,7 +663,7 @@
       "col": 6,
       "value": "400",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c7",
@@ -671,7 +671,7 @@
       "col": 7,
       "value": "264",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r12c9",
@@ -679,7 +679,7 @@
       "col": 9,
       "value": "264",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c1",
@@ -687,7 +687,7 @@
       "col": 1,
       "value": "29",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c3",
@@ -695,7 +695,7 @@
       "col": 3,
       "value": "29",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c4",
@@ -703,7 +703,7 @@
       "col": 4,
       "value": "248",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c6",
@@ -711,7 +711,7 @@
       "col": 6,
       "value": "248",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c7",
@@ -719,7 +719,7 @@
       "col": 7,
       "value": "266",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r13c9",
@@ -727,7 +727,7 @@
       "col": 9,
       "value": "266",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c1",
@@ -735,7 +735,7 @@
       "col": 1,
       "value": "6",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c3",
@@ -743,7 +743,7 @@
       "col": 3,
       "value": "6",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c4",
@@ -751,7 +751,7 @@
       "col": 4,
       "value": "41",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c6",
@@ -759,7 +759,7 @@
       "col": 6,
       "value": "41",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c7",
@@ -767,7 +767,7 @@
       "col": 7,
       "value": "91",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     },
     {
       "id": "r14c9",
@@ -775,7 +775,7 @@
       "col": 9,
       "value": "91",
       "role": "standalone",
-      "why": "From table"
+      "why": "The corresponding departmental unit includes this line in its total. Within this unit the line has no printed subtotal and the period lacks a numeric applicable-receipts amount for a row identity."
     }
   ],
   "relations": [

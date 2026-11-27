@@ -220,8 +220,7 @@
       "row": 1,
       "col": 5,
       "value": "7",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r1c6",
@@ -536,24 +535,21 @@
       "row": 9,
       "col": 4,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r9c5",
       "row": 9,
       "col": 5,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r9c6",
       "row": 9,
       "col": 6,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r10c1",
@@ -603,48 +599,42 @@
       "row": 11,
       "col": 4,
       "value": "5",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c5",
       "row": 11,
       "col": 5,
       "value": "5",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r11c6",
       "row": 11,
       "col": 6,
       "value": "5",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c4",
       "row": 12,
       "col": 4,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c5",
       "row": 12,
       "col": 5,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r12c6",
       "row": 12,
       "col": 6,
       "value": "-25",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r13c1",
@@ -716,8 +706,7 @@
       "row": 14,
       "col": 5,
       "value": "-70",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r14c6",
@@ -739,72 +728,63 @@
       "row": 15,
       "col": 4,
       "value": "-3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r15c5",
       "row": 15,
       "col": 5,
       "value": "-2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r15c6",
       "row": 15,
       "col": 6,
       "value": "-2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r16c4",
       "row": 16,
       "col": 4,
       "value": "-3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r16c5",
       "row": 16,
       "col": 5,
       "value": "-3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r16c6",
       "row": 16,
       "col": 6,
       "value": "-3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r17c4",
       "row": 17,
       "col": 4,
       "value": "-70",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r17c5",
       "row": 17,
       "col": 5,
       "value": "-70",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r17c6",
       "row": 17,
       "col": 6,
       "value": "-70",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r18c1",
@@ -862,24 +842,21 @@
       "row": 19,
       "col": 4,
       "value": "-1",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r19c5",
       "row": 19,
       "col": 5,
       "value": "-1",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r19c6",
       "row": 19,
       "col": 6,
       "value": "-1",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r20c2",
@@ -900,8 +877,7 @@
       "row": 20,
       "col": 5,
       "value": "-2",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r20c6",
@@ -1001,24 +977,21 @@
       "row": 23,
       "col": 4,
       "value": "3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r23c5",
       "row": 23,
       "col": 5,
       "value": "3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r23c6",
       "row": 23,
       "col": 6,
       "value": "3",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r24c1",
@@ -1125,8 +1098,7 @@
       "row": 26,
       "col": 5,
       "value": "-215",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r26c6",
@@ -1205,8 +1177,7 @@
       "row": 28,
       "col": 5,
       "value": "-13",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r28c6",
@@ -1220,144 +1191,126 @@
       "row": 29,
       "col": 4,
       "value": "-267",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r29c5",
       "row": 29,
       "col": 5,
       "value": "-267",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r29c6",
       "row": 29,
       "col": 6,
       "value": "-267",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r30c4",
       "row": 30,
       "col": 4,
       "value": "-612",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r30c5",
       "row": 30,
       "col": 5,
       "value": "-612",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r30c6",
       "row": 30,
       "col": 6,
       "value": "-612",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r31c4",
       "row": 31,
       "col": 4,
       "value": "-38",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r31c5",
       "row": 31,
       "col": 5,
       "value": "-38",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r31c6",
       "row": 31,
       "col": 6,
       "value": "-38",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r32c4",
       "row": 32,
       "col": 4,
       "value": "-99",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r32c5",
       "row": 32,
       "col": 5,
       "value": "-99",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r32c6",
       "row": 32,
       "col": 6,
       "value": "-99",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r33c4",
       "row": 33,
       "col": 4,
       "value": "-595",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r33c5",
       "row": 33,
       "col": 5,
       "value": "-595",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r33c6",
       "row": 33,
       "col": 6,
       "value": "-595",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r34c4",
       "row": 34,
       "col": 4,
       "value": "278",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r34c5",
       "row": 34,
       "col": 5,
       "value": "278",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r34c6",
       "row": 34,
       "col": 6,
       "value": "278",
-      "role": "standalone",
-      "why": "No multi-source arithmetic partner in this unit (schema minItems:2)."
+      "role": "leaf"
     },
     {
       "id": "r35c1",
@@ -1536,14 +1489,14 @@
       "row": 39,
       "col": 1,
       "value": "-2242",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r39c2",
       "row": 39,
       "col": 2,
       "value": "-5404",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r39c3",
@@ -1558,14 +1511,14 @@
       "row": 39,
       "col": 4,
       "value": "18056",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r39c5",
       "row": 39,
       "col": 5,
       "value": "14894",
-      "role": "leaf"
+      "role": "total"
     },
     {
       "id": "r39c6",
@@ -2014,6 +1967,208 @@
       "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Guaranteed Loan Financing)",
       "tol": "90",
       "why": "Source does not close. p32 prints 12,562 while BOTH independent identities compute 12,652: monthly (begin-month 14,894 + this-month -2,242) and fiscal-year (begin-year 18,056 + FYTD -5,404). The July statement (p32) opens this line at 12,652. Transcription verified against the p32 text layer and a 3.0x page render on 2026-11-27; all six printed cells match the source exactly. This is a source-side discrepancy of 90, NOT rounding: a two-component sum in $ millions cannot round past 1. Same column and same size as r37 (Business Loan Fund), where p32 prints -53,892 against a computed -53,982."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r5c1",
+        "r6c1",
+        "r7c1",
+        "r8c1",
+        "r10c1",
+        "r13c1",
+        "r18c1",
+        "r21c1",
+        "r22c1",
+        "r24c1",
+        "r25c1",
+        "r27c1",
+        "r35c1",
+        "r36c1",
+        "r37c1",
+        "r38c1"
+      ],
+      "target": "r39c1",
+      "note": "Net Activity Guaranteed roll-up col 1",
+      "tol": "2",
+      "why": "Table 6 Schedule E footnote, printed once at the end of the schedule (p33), reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r2c2",
+        "r3c2",
+        "r4c2",
+        "r5c2",
+        "r6c2",
+        "r7c2",
+        "r8c2",
+        "r10c2",
+        "r13c2",
+        "r14c2",
+        "r18c2",
+        "r20c2",
+        "r21c2",
+        "r22c2",
+        "r24c2",
+        "r25c2",
+        "r26c2",
+        "r27c2",
+        "r28c2",
+        "r35c2",
+        "r36c2",
+        "r37c2",
+        "r38c2"
+      ],
+      "target": "r39c2",
+      "note": "Net Activity Guaranteed roll-up col 2",
+      "tol": "1",
+      "why": "Table 6 Schedule E footnote, printed once at the end of the schedule (p33), reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c4",
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r5c4",
+        "r6c4",
+        "r7c4",
+        "r8c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r15c4",
+        "r16c4",
+        "r17c4",
+        "r18c4",
+        "r19c4",
+        "r20c4",
+        "r21c4",
+        "r22c4",
+        "r23c4",
+        "r24c4",
+        "r25c4",
+        "r26c4",
+        "r27c4",
+        "r28c4",
+        "r29c4",
+        "r30c4",
+        "r31c4",
+        "r32c4",
+        "r33c4",
+        "r34c4",
+        "r35c4",
+        "r36c4",
+        "r37c4",
+        "r38c4"
+      ],
+      "target": "r39c4",
+      "note": "Net Activity Guaranteed roll-up col 4",
+      "tol": "4",
+      "why": "Table 6 Schedule E footnote, printed once at the end of the schedule (p33), reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r2c5",
+        "r3c5",
+        "r4c5",
+        "r5c5",
+        "r6c5",
+        "r7c5",
+        "r8c5",
+        "r9c5",
+        "r10c5",
+        "r11c5",
+        "r12c5",
+        "r13c5",
+        "r14c5",
+        "r15c5",
+        "r16c5",
+        "r17c5",
+        "r18c5",
+        "r19c5",
+        "r20c5",
+        "r21c5",
+        "r22c5",
+        "r23c5",
+        "r24c5",
+        "r25c5",
+        "r26c5",
+        "r27c5",
+        "r28c5",
+        "r29c5",
+        "r30c5",
+        "r31c5",
+        "r32c5",
+        "r33c5",
+        "r34c5",
+        "r35c5",
+        "r36c5",
+        "r37c5",
+        "r38c5"
+      ],
+      "target": "r39c5",
+      "note": "Net Activity Guaranteed roll-up col 5",
+      "tol": "1",
+      "why": "Table 6 Schedule E footnote, printed once at the end of the schedule (p33), reads: \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c6",
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r5c6",
+        "r6c6",
+        "r7c6",
+        "r8c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6",
+        "r17c6",
+        "r18c6",
+        "r19c6",
+        "r20c6",
+        "r21c6",
+        "r22c6",
+        "r23c6",
+        "r24c6",
+        "r25c6",
+        "r26c6",
+        "r27c6",
+        "r28c6",
+        "r29c6",
+        "r30c6",
+        "r31c6",
+        "r32c6",
+        "r33c6",
+        "r34c6",
+        "r35c6",
+        "r36c6",
+        "r37c6",
+        "r38c6"
+      ],
+      "target": "r39c6",
+      "note": "Net Activity Guaranteed roll-up col 6",
+      "tol": "182",
+      "why": "Source does not close. The 38 printed lines of column 6 (pp31-32) sum to 12,744 while p32 prints the total as 12,562, a gap of 182. That gap is two source-side discrepancies of 90 plus 2 of rounding: r37c6 (Business Loan Fund) prints -53,892 where both of its roll-forwards compute -53,982, and this total prints 12,562 where both of its roll-forwards compute 12,652; with both cells at the computed values the lines sum to 12,654 against 12,652. The July statement (p32) opens both lines at the computed values. The tolerance equals the observed delta and is NOT a rounding tolerance: rounding (Table 6 Schedule E footnote, p33: \"Note: Details may not add to totals due to rounding.\") accounts for 2 of the 182. All 39 printed cells of the column were verified against the text layer and a page render on 2026-11-27."
     }
   ]
 }

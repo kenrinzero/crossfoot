@@ -1255,7 +1255,7 @@
       "col": 2,
       "value": "988",
       "role": "standalone",
-      "why": "From table"
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
     },
     {
       "id": "r25c3",
@@ -1271,7 +1271,7 @@
       "col": 5,
       "value": "5206",
       "role": "standalone",
-      "why": "From table"
+      "why": "The page (p22) prints a second component in this applicable-receipts column: Sale of Major Assets, 1. This unit holds that 1 in the gross column (r26c4) instead, so no two-source sum to the printed total 5,208 can be declared here until that cell is moved. Reported 2026-11-27, see NEXT.md."
     },
     {
       "id": "r25c6",
@@ -1287,7 +1287,7 @@
       "col": 8,
       "value": "3658",
       "role": "standalone",
-      "why": "From table"
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
     },
     {
       "id": "r25c9",

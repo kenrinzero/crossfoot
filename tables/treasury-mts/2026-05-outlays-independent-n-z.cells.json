@@ -2111,7 +2111,7 @@
       "col": 2,
       "value": "1520",
       "role": "standalone",
-      "why": "From table"
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
     },
     {
       "id": "r41c3",
@@ -2127,7 +2127,7 @@
       "col": 5,
       "value": "2204",
       "role": "standalone",
-      "why": "From table"
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
     },
     {
       "id": "r41c6",
@@ -2143,7 +2143,7 @@
       "col": 8,
       "value": "403",
       "role": "standalone",
-      "why": "From table"
+      "why": "Single-source or omission-sparse column; not multi-source sum eligible under schema minItems:2."
     },
     {
       "id": "r41c9",

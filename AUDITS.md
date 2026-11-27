@@ -3897,3 +3897,157 @@ August's close also equals September's opening on all 15 rows, as the `#581` ent
 - **`#421`'s `unit_note` is shorter than its twins'.** It does not state the Table 6-D tie or the month-to-month tie that the August and September notes state. Both ties hold (§4). No change made.
 
 ---
+
+## Directed pass: column totals, August roll-forwards and standalone reasons — 17 units (value-neutral; follow-up to AUDIT-2026-11-27 F3 and F5)
+
+**Applied 2026-11-27; all 17 units GREEN; not yet checked by a different agent.** Claude Fable 5.2 (Claude Code), on the user's instruction, declared identities the source prints and nobody had declared, and replaced 330 empty reasons. **No cell value, cell id, row, column, label or existing relation changed** (proved by script, section 7). 75 relations were added, 361 cells left `standalone`, and 330 `why` texts were rewritten. Two identities were found that could **not** be declared, and one misplaced cell was found; all three are reported in sections 4 and 6 and queued in `NEXT.md`. The agent that made these edits must not be their auditor: a different-agent check is queued in `NEXT.md`. This is not a cadence audit; **the next cadence audit stays #590**.
+
+| Field | Value |
+|---|---|
+| **Units** | F3: `treasury-mts/2026-0{5,6,7}-table6-schedule-e-guaranteed` (#158, #318, #409) and `2026-0{5,6,7}-table6-schedule-d-trust-funds` (#157, #317, #408). Roll-forwards: `2026-08-table6-liabilities` (#478), `2026-08-table6-assets-financing` (#479). F5: nine May outlay units (#46, #47, #51, #53, #54, #57, #59, #61, #62) |
+| **Sources** | `sources/treasury-mts/mts-202605.pdf`, `mts-202606.pdf`, `mts-202607.pdf`, `mts-202608.pdf`; sha256 and size re-verified against [sources/SOURCES.md](sources/SOURCES.md) in this session |
+| **Template** | The August and September twins of the same Schedule D and E tables, and the June and July twins of #478/#479 |
+| **By** | Claude Fable 5.2 (Claude Code), on the user's instruction |
+| **Date** | 2026-11-27 |
+| **Status** | **GREEN, awaiting a different-agent check** |
+
+### 1. What changed
+
+| Unit | # | Relations | Added | `standalone` cells |
+|---|---|---:|---:|---:|
+| `2026-05-table6-schedule-e-guaranteed` | #158 | 41 → 47 | 6 | 75 → 0 |
+| `2026-06-table6-schedule-e-guaranteed` | #318 | 45 → 50 | 5 | 72 → 25 |
+| `2026-07-table6-schedule-e-guaranteed` | #409 | 44 → 50 | 6 | 74 → 0 |
+| `2026-05-table6-schedule-d-trust-funds` | #157 | 65 → 76 | 11 | 59 → 3 |
+| `2026-06-table6-schedule-d-trust-funds` | #317 | 80 → 86 | 6 | 52 → 2 |
+| `2026-07-table6-schedule-d-trust-funds` | #408 | 79 → 85 | 6 | 53 → 2 |
+| `2026-08-table6-liabilities` | #478 | 47 → 64 | 17 | 6 → 2 |
+| `2026-08-table6-assets-financing` | #479 | 53 → 71 | 18 | 5 → 1 |
+| **Total** | | | **75** | **396 → 35** |
+
+- **Role changes: 390.** 357 `standalone` → `leaf`, 4 `standalone` → `total`, and 29 `leaf` → `total`. The 29 are total-line cells that already fed a roll-forward and are now also the target of a column total; they are typed `total`, as in the August and September twins. Every cell that left `standalone` lost its `why` (361).
+- **Schedule E (17 relations).** One relation per column: `Net Activity, Guaranteed Loan Financing` (`r39`) = the printed lines of rows 1 to 38. Column 3 of June is not declared (section 4).
+- **Schedule D (23 relations).** One relation per column in each month: `Total Treasury Securities` (`r38`) = the printed trust-fund lines of rows 1 to 37 except the one Agency Securities line (`r36`), 18 in all. In May also `Total Trust Funds` (`r40`) = `r38` + `r39` for columns 2 to 6, which June and July already declared (5). The May Grand Total is not declared (section 4).
+- **August #478 and #479 (35 relations).** The fiscal-year roll-forward of DESIGN §4a, column 4 + column 2 = column 6, on every row where all three cells print: 17 rows in #478 and 18 in #479. Both units now carry 64 and 71 relations, the same as their July twins.
+- **Nine May outlay units.** 330 `why` texts replaced (section 5). No role or relation changed there.
+
+Tolerances of the 75 new relations: 36 exact, 22 at 1, 8 at 2, 5 at 3, 3 at 4, and one at 182 (section 3). Every tolerance equals the observed difference. The eight two-source relations that carry one (seven August roll-forwards and May `r40c6`) are all at 1.
+
+Observed differences of the column totals, as *number of printed lines / difference*:
+
+| Schedule E, `r39` | c1 | c2 | c3 | c4 | c5 | c6 |
+|---|---:|---:|---:|---:|---:|---:|
+| May | 16 / 1 | 23 / 1 | 22 / 1 | 38 / 4 | 38 / 3 | 38 / 1 |
+| June | 19 / 2 | 24 / 1 | 24 / **2,724 — not declared** | 38 / 4 | 38 / 1 | 38 / **182** |
+| July | 17 / 1 | 27 / 0 | 26 / 3 | 38 / 4 | 38 / 2 | 37 / 1 |
+
+| Schedule D, `r38` | c1 | c2 | c3 | c4 | c5 | c6 |
+|---|---:|---:|---:|---:|---:|---:|
+| May | 27 / 0 | 30 / 2 | 31 / 2 | 36 / 1 | 36 / 1 | 36 / 3 |
+| June | 29 / 1 | 30 / 3 | 31 / 0 | 36 / 1 | 36 / 3 | 36 / 2 |
+| July | 28 / 2 | 30 / 0 | 31 / 2 | 36 / 1 | 36 / 2 | 36 / 1 |
+
+Column 4 (Beginning of This Year) holds the same opening balances all year, and it shows the same difference in every month: 4 in Schedule E (18,052 against 18,056) and 1 in Schedule D, which is also what the August and September twins carry.
+
+### 2. Evidence that the page prints each total
+
+Checked before anything was declared, for May, June and July alike.
+
+- **Text layer.** `Net Activity, Guaranteed Loan Financing` is printed on p32 with six figures; `Total Treasury Securities`, `Total Agency Securities`, `Total Trust Funds` and `Grand Total` are printed on p30 with six figures each (`Total Agency Securities` prints `(**)` or `......` in column 1). The unit rows match these lines.
+- **Renders.** Read by eye at 2.4× to 2.6× (`pypdfium2`): p31 in full, the top of p32, the Trust Funds part of p29, p30 in full and the foot of p33, for each of the three months; and p24 of the August statement.
+- **Position, not only value.** Every row of the eight Table 6 units was compared with the character layer column by column: a cell must sit on its printed number and a missing cell on `......` or `(**)`. 281 of 281 rows match. No printed line with a number lies inside the two sections without a row in the unit: 38 lines above the Schedule E total, 37 above the Schedule D totals.
+- **A parsing trap worth recording.** On Schedule E some glyphs of one printed line sit a point or two off the others, and the bold total lines are double-struck. A fixed line grid splits such a line in two (one May, five June and four July rows failed to match that way at first). Clustering characters by baseline with a tolerance of 3 points, after removing duplicate glyphs, reads every line whole.
+- **Where the rounding note is printed.** Schedule D: on p30, below the totals. Schedule E: once, at the end of the schedule on **p33**; pp31 and 32, where the guaranteed lines and their total are, carry no note. The new `why` texts name the page. The August Table 6 note is on p24 itself.
+
+### 3. June Schedule E, column 6: tolerance 182 as a source discrepancy
+
+`2026-06-table6-schedule-e-guaranteed`, relation `r39c6` = rows 1 to 38 of column 6. The 38 printed lines sum to **12,744**; p32 prints **12,562**; the difference is **182**.
+
+- 90 of it is `r37c6` (Business Loan Fund), printed −53,892 where both roll-forwards compute −53,982.
+- 90 of it is the total itself, printed 12,562 where both roll-forwards compute 12,652.
+- 2 is rounding: with both cells at their computed values the lines sum to 12,654 against 12,652. July, whose column 5 holds those computed values, shows the same 2.
+
+Both 90s were adjudicated source-side earlier (2026-08-18 and the *Directed repair* entry above). The relation carries `tol="182"` and a `why` that says the source does not close and that this is not a rounding tolerance. Consequence: with a tolerance of 182 this one relation pins nothing tightly; column 6 of June is held by the two roll-forwards per row and by the source check.
+
+### 4. Two identities that were not declared
+
+**June Schedule E, column 3 (Fiscal Year to Date, Prior Year) — a new finding.** The 24 printed lines sum to **3,034**. p32 prints the total as **310**. The difference is **2,724**. Every one of the 25 cells matches the print (text layer and render). This is not rounding, and no earlier record mentions it. One observation, not an adjudication: the Business Loan Fund line prints 1,361 in this column, and 3,034 − 2 × 1,361 = 312, which is 2 from 310; so the printed total is what the lines give if that one line is taken with the opposite sign. The May and July statements print the same line positive (975 and 1,362) and their column 3 totals foot. It is the same line that carries the 90 in column 6. Under `AGENTS.md` rule 4 a total that does not foot is a finding, not a tolerance, so the relation was **not** declared and the 25 cells stay `standalone` with their old reason. Whether to declare it with a documented tolerance of 2,724, as was done for column 6, is the owner's decision.
+
+**May Schedule D, Grand Total.** June and July declare `Grand Total` = `Total Federal Funds` + `Total Trust Funds`, using a `Total Federal Funds` row re-anchored from p29. The May unit has no such row; the line lives in `2026-05-table6-schedule-d-federal-funds-labor-totals`. The identity does hold on the May pages (for example 5,287 + −6,648 = −1,361, and 88,226 + 242,292 = 330,518 against a printed 330,517), but declaring it needs six cells that the unit does not have, and adding cells is outside a value-neutral pass. Left as it was: `r41c3` stays `standalone`, and the Grand Total row is covered by its two roll-forwards only.
+
+After this pass the gap that F3 described is closed except for these 26 cells.
+
+### 5. The 330 "From table" reasons
+
+Each reason now says why the number takes part in no sum, in the words the same table carries in a later month. Where the September twin carries a more specific sentence than June to August, that sentence was used after checking that what it claims is true of May.
+
+| Unit | # | Cells | New reason taken from |
+|---|---|---:|---|
+| `2026-05-outlays-agriculture-programs` | #53 | 60 | September twin: the departmental unit includes the line in its total |
+| `2026-05-outlays-agriculture-fns` | #54 | 26 | September twin, same sentence |
+| `2026-05-outlays-defense-rdte` | #57 | 24 | September twin, same sentence |
+| `2026-05-outlays-hhs-acf` | #51 | 54 | September twin: rolls up into the HHS total in the departmental unit |
+| `2026-05-outlays-treasury-bureaus` | #47 | 56 | September twin: enters the Treasury total in the departmental unit |
+| `2026-05-outlays-independent-a-m` | #61 | 94 | `independent-a-n`, June to September: single-source column |
+| `2026-05-outlays-independent-epa-opm` | #59 | 10 | September `eop` (2) and `gsa`/`nasa`/`nsf` (8): the only receipts line of the agency |
+| `2026-05-outlays-independent-n-z` | #62 | 3 | `railroad-retirement`, June to September: single-source column |
+| `2026-05-outlays-uor-departmental` | #46 | 3 | 2 as in the June to August twin; 1 written for the cell (section 6) |
+
+What was checked before a sentence was reused:
+
+- **Structure.** None of the 330 cells has a complete gross / applicable receipts / net triple in its period: 307 sit in a gross-and-net pair with the receipts cell omitted, 23 in a receipts-and-net pair with the gross cell omitted. So no row identity is available to any of them.
+- **"The departmental unit includes this line in its total."** For all 220 cells of the five bureau units, the May departmental sibling holds the same label, column and value as a `leaf` that reaches the department total row through declared relations.
+- **"The only receipts line."** For the 10 `epa-opm` cells the script asserts that no other detail line of the agency prints a number in that receipts column and that the gross cell of the row is omitted.
+- **Position.** Every row of the nine units was compared with the May text layer column by column: 233 of 234 rows match. The one that does not is the finding in section 6.
+
+Not touched: 2,359 `leaf` and `total` cells in twenty May outlay units also carry `why: "From table"`. The schema asks a reason only of `standalone` cells, so those texts argue nothing and harm nothing; removing them is a separate clean-up.
+
+### 6. A misplaced cell found on the way: `2026-05-outlays-uor-departmental` `r26c4`
+
+May p22 prints `Sale of Major Assets  ......  ......  ......  ......  1  -1  ......  ......  ......`: the 1 stands in the **Applicable Receipts** column of the current fiscal year (column 5), and the gross column is empty. The unit holds it as `r26c4`, the **gross** column. Text layer and a 2.6× render agree.
+
+- The value is right and the line is right, which is why the row-level check of this morning passed it: that check compares the values of a row, not their columns.
+- The unit's relation for the gross total (`r28c4`) includes the misplaced 1 and closes only with `tol="1"` quoted as rounding. Without it the three real gross lines sum to −234,104, exactly the printed total.
+- In the receipts column the page gives 5,206 + 1 = 5,207 against a printed 5,208, a two-source sum that the unit cannot declare while the 1 is in the wrong column.
+
+Not repaired: moving the cell changes a cell id, which is outside a value-neutral pass and, on the #318 precedent, is made only on the user's instruction. The reason on `r25c5` says exactly this instead of claiming a single-source column. Queued in `NEXT.md`.
+
+### 7. Proof that no value moved
+
+`verify` script, comparing each changed file with its committed version (`23cbd40`):
+
+- 17 files changed, all of them unit files; **2,898 cells compared, 0 differences in id, row, column or value**, in the same order.
+- Outside the cells' `role` and `why` and the `relations` list, nothing differs. The old relations are an unchanged prefix of each new list.
+- No duplicate equation in any touched unit (same target and same set of sources). Every non-zero tolerance of every relation in the 17 files equals its recomputed difference.
+- Byte layout unchanged: each file is reproduced by the same `json.dumps` call as before (2-space indent; ASCII escapes in 13 files, raw UTF-8 in the four that already had it), LF only. The nine May outlay files had no final newline and still have none; 55 of the 581 unit files are like that, an older condition this pass did not touch.
+
+Red tests on scratch copies: May Schedule E `r9c4` −25 → −35 (a cell no relation touched before) fails the new column total; August #478 `r4c2` −5,641 → −5,651 fails its new roll-forward.
+
+### 8. Corpus statistics that move
+
+| | Before | After |
+|---|---:|---:|
+| Relations | 10,964 | **11,039** |
+| Sums / percent closures | 10,375 / 589 | **10,450** / 589 |
+| Cells verified by arithmetic (`leaf` + `total`) | 45,645 (80.3%) | **46,006 (81.0%)** |
+| `standalone` cells | 11,172 (19.7%) | **10,811 (19.0%)** |
+| `standalone` in `treasury-mts` | 4,693 (11.7%) | **4,332 (10.8%)** |
+| Sums closing exactly / with a tolerance | 6,963 / 3,412 | **6,999 / 3,451** |
+| Tolerances above one unit per source | 72 | **73** (the 182) |
+| `standalone` cells whose reason is "From table" | 330 | **0** |
+
+Cell count (56,817), unit count (581) and the 37 units with no relation are unchanged.
+
+### 9. Gates
+
+- Each of the 17 units: `uv run python reconcile.py <file>` **GREEN, 0 warnings**.
+- `uv run python reconcile.py --all`: **581/581 GREEN**. `uv run pytest`: **23/23**.
+- All 17 files strict UTF-8 and LF-only.
+
+### 10. Notes for the checking agent
+
+- Re-derive, do not trust this entry: the 75 relations, the role of every cell they touch, and whether any identity of the same class is still undeclared in the eight Table 6 units.
+- Older relations in the May and June units give their rounding reason as `Page prints: "Note: …"`. For Schedule E that is loose: the note is on p33, not on the pages the unit cites. Not changed here.
+- The two open items of section 4 and the cell of section 6 need a decision by the user before anyone edits them.
+
+---

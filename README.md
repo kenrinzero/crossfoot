@@ -57,12 +57,12 @@ edited.
 Figures are for the 581 units as of 2026-11-27. GREEN means a unit passes
 `reconcile.py` with zero coverage warnings.
 
-**By arithmetic: 45,645 of 56,817 cells (80.3%).** These are the `leaf`
-and `total` cells. Each takes part in at least one of the 10,964 declared
-relations (10,375 sums, 589 percent closures), and `reconcile.py`
+**By arithmetic: 46,006 of 56,817 cells (81.0%).** These are the `leaf`
+and `total` cells. Each takes part in at least one of the 11,039 declared
+relations (10,450 sums, 589 percent closures), and `reconcile.py`
 re-derives every relation on every run.
 
-**Not by arithmetic: 11,172 cells (19.7%).** These are `standalone`:
+**Not by arithmetic: 10,811 cells (19.0%).** These are `standalone`:
 printed numbers that no declared relation touches, each with a stated
 reason. For them GREEN says nothing about the value; a typo there passes
 the reconciler.
@@ -72,7 +72,7 @@ the reconciler.
 | `census-p60` | 10,454 | 4,962 | 47.5% |
 | `omb` | 3,984 | 1,393 | 35.0% |
 | `sec-10k` | 596 | 71 | 11.9% |
-| `treasury-mts` | 39,989 | 4,693 | 11.7% |
+| `treasury-mts` | 39,989 | 4,332 | 10.8% |
 | `fec` | 1,136 | 43 | 3.8% |
 | `bls-cpi` | 658 | 10 | 1.5% |
 
@@ -112,13 +112,15 @@ the table shows the state after the correction. The check compares values,
 not their order within a row or the label the row sits under, and it cannot
 see a printed number that is missing from a unit. It was a one-off: the
 script is not part of this repository or its gates. Method and findings are
-in [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md).
+in [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md). A later comparison of 17
+Treasury units column by column found one value in the wrong column (see
+[Known gaps](#known-gaps)).
 
 ### Tolerances
 
-6,963 of the 10,375 sums close exactly. The other 3,412 carry a tolerance
-equal to the observed difference, each with a `why`. In all but four of
-them the `why` is the source's own rounding note. 72 are larger than one
+6,999 of the 10,450 sums close exactly. The other 3,451 carry a tolerance
+equal to the observed difference, each with a `why`. In all but five of
+them the `why` is the source's own rounding note. 73 are larger than one
 unit of the last printed digit per source, so they are not ordinary
 rounding of the printed digits:
 
@@ -126,12 +128,13 @@ rounding of the printed digits:
   household and worker counts rounded to four significant digits, so sums
   of them drift by tens. The `why` cites the Census footnote on rounded
   components.
-- **4 relations in `treasury-mts/2026-06-table6-schedule-e-guaranteed`**
-  (tolerance 90). Two closing balances printed on page 32 of the June
-  statement do not agree with the page's own roll-forwards, and the July
-  statement opens both lines at the computed values. The corpus keeps the
-  printed figures and records the gap as a source discrepancy, not as
-  rounding.
+- **5 relations in `treasury-mts/2026-06-table6-schedule-e-guaranteed`**
+  (four at tolerance 90, one at 182). Two closing balances printed on
+  page 32 of the June statement do not agree with the page's own
+  roll-forwards, and the July statement opens both lines at the computed
+  values. The column total over the same lines inherits both gaps
+  (182 = 90 + 90 + 2 of rounding). The corpus keeps the printed figures
+  and records the gaps as source discrepancies, not as rounding.
 - **4 relations in `bls-cpi/relative-importance-2024-education-other`**
   (tolerance 0.008 to 0.009 on three or four three-decimal components).
   Recorded as rounding, but rounding of the printed digits allows at most
@@ -142,20 +145,25 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
 
 ### Known gaps
 
-- **Undeclared column totals.** The May, June and July units of Treasury
-  Table 6 Schedule D (trust funds) and Schedule E (guaranteed loans)
-  declare fewer column totals than the same tables in August and
-  September. About 380 cells are `standalone` there that the later months
-  verify by arithmetic.
-- **Thin reasons.** 330 `standalone` cells in nine May outlay units give
-  only "From table" as their reason.
+- **Two undeclared column totals.** In the June Treasury statement the
+  prior-year column of Table 6 Schedule E (guaranteed loans) does not
+  foot: its 24 printed lines sum to 3,034 and the page prints the total as
+  310. That sum is left undeclared, so 25 cells are `standalone` there. In
+  the May statement the Schedule D grand total is not declared, because
+  the unit does not hold the federal-funds total it adds to. The other
+  months declare both.
+- **One value in the wrong column.**
+  `treasury-mts/2026-05-outlays-uor-departmental` holds the 1 of
+  `Sale of Major Assets` in the gross-outlays column; page 22 of the May
+  statement prints it under applicable receipts. Found 2026-11-27, not yet
+  repaired.
 - **Labels.** Row and column labels sometimes use the corpus's wording
   rather than the printed header: the printed "Beginning of This Month"
   appears as "Close of Prior Month" in some units. Unit notes say so, but
   labels were never checked corpus-wide. Join months by position, not by
   label alone.
 - **Source errors stay in.** Cells hold what the source prints, including
-  the two June figures above.
+  the June figures above.
 
 ## Process
 

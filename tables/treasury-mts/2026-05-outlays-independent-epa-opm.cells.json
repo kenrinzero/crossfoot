@@ -931,7 +931,7 @@
       "col": 5,
       "value": "1000",
       "role": "standalone",
-      "why": "From table"
+      "why": "This is the sole numeric component of the applicable-receipts total for this period. The gross cell on this line is omitted."
     },
     {
       "id": "r15c6",
@@ -947,7 +947,7 @@
       "col": 8,
       "value": "500",
       "role": "standalone",
-      "why": "From table"
+      "why": "This is the sole numeric component of the applicable-receipts total for this period. The gross cell on this line is omitted."
     },
     {
       "id": "r15c9",
@@ -1203,7 +1203,7 @@
       "col": 2,
       "value": "33",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r21c3",
@@ -1219,7 +1219,7 @@
       "col": 5,
       "value": "76",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r21c6",
@@ -1235,7 +1235,7 @@
       "col": 8,
       "value": "51",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r21c9",
@@ -1659,7 +1659,7 @@
       "col": 5,
       "value": "1",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r30c6",
@@ -1675,7 +1675,7 @@
       "col": 8,
       "value": "1",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r30c9",
@@ -1947,7 +1947,7 @@
       "col": 2,
       "value": "2",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r36c3",
@@ -1963,7 +1963,7 @@
       "col": 5,
       "value": "13",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r36c6",
@@ -1979,7 +1979,7 @@
       "col": 8,
       "value": "10",
       "role": "standalone",
-      "why": "From table"
+      "why": "Proprietary receipts are the only numeric detail in this applicable-receipts column. The gross entry on this row is omitted."
     },
     {
       "id": "r36c9",
