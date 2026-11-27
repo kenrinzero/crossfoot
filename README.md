@@ -33,11 +33,11 @@ takes part in no arithmetic is marked `standalone` and must say why.
 
 ## The corpus
 
-**649 units, all GREEN** (2026-11-27):
+**650 units, all GREEN** (2026-11-27):
 
 | family | source | units |
 |---|---|---|
-| `treasury-mts` | Monthly Treasury Statement, May through September FY2026 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement. The October 2026 statement (FY2027, month 1) is in progress: 68 of its 80 units are shipped | 473 |
+| `treasury-mts` | Monthly Treasury Statement, May through September FY2026 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement. The October 2026 statement (FY2027, month 1) is in progress: 69 of its 80 units are shipped | 474 |
 | `census-p60` | Census P60-282 *Income in the United States: 2023* — the complete appendix (A-1…A-7, B-1…B-5) | 91 |
 | `omb` | OMB FY2027 Budget Appendix, Legislative Branch chapter — complete (every account with a printed schedule) | 55 |
 | `sec-10k` | Apple FY2023 + Microsoft FY2025 10-K statement sets (complete: balance sheet, income, comprehensive income, cash flows, equity, parentheticals) | 12 |
@@ -56,15 +56,15 @@ edited.
 
 ## What is verified, and how
 
-Figures are for the 649 units as of 2026-11-27. GREEN means a unit passes
+Figures are for the 650 units as of 2026-11-27. GREEN means a unit passes
 `reconcile.py` with zero coverage warnings.
 
-**By arithmetic: 51,048 of 62,507 cells (81.7%).** These are the `leaf`
-and `total` cells. Each takes part in at least one of the 12,278 declared
-relations (11,689 sums, 589 percent closures), and `reconcile.py`
+**By arithmetic: 51,138 of 62,641 cells (81.6%).** These are the `leaf`
+and `total` cells. Each takes part in at least one of the 12,314 declared
+relations (11,725 sums, 589 percent closures), and `reconcile.py`
 re-derives every relation on every run.
 
-**Not by arithmetic: 11,459 cells (18.3%).** These are `standalone`:
+**Not by arithmetic: 11,503 cells (18.4%).** These are `standalone`:
 printed numbers that no declared relation touches, each with a stated
 reason. For them GREEN says nothing about the value; a typo there passes
 the reconciler.
@@ -74,7 +74,7 @@ the reconciler.
 | `census-p60` | 10,454 | 4,962 | 47.5% |
 | `omb` | 3,984 | 1,393 | 35.0% |
 | `sec-10k` | 596 | 71 | 11.9% |
-| `treasury-mts` | 45,679 | 4,980 | 10.9% |
+| `treasury-mts` | 45,813 | 5,024 | 11.0% |
 | `fec` | 1,136 | 43 | 3.8% |
 | `bls-cpi` | 658 | 10 | 1.5% |
 

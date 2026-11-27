@@ -4823,3 +4823,24 @@ Left as written, not counted as defects: `#636`'s `unit_note` calls the DoD Medi
 ### 6. Regression gates
 
 All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually with **0 warnings** (exit 0 each). The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **639/639 GREEN**, and `uv run --locked pytest` passes **42/42**. Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, their text outputs and the page renders are in the local, gitignored `scratchpad/audit-630-639-claude/`. **`#640` (`treasury-mts/2026-10-table6-schedule-a`) is unblocked; the next cadence audit is `#650` (`#640–#650`).**
+
+---
+
+## Unit 650 — treasury-mts/2026-10-table6-schedule-e-direct-part1 (PENDING different-agent audit)
+
+**Transcriber:** Muse Code (#650; #640–#649 in this batch by Claude Sonnet 5.5, Claude Code). **Auditor:** unassigned — must be a different agent; both batch transcribers are ineligible.
+
+#650 is the 69th unit of the October 2026 MTS family. Eleven units since the #630–#639 audit closed, so the scope is the whole batch **#640–#650**: #640–#649 claim 204 unit rows / 901 cells / 245 sums (per their BACKLOG rows) and #650 adds 27 rows / 134 cells / 36 sums. Whole-batch positional checking is the family's working practice (the #340 / #350–#460 precedent). **#651+ is blocked** until this audit closes GREEN.
+
+**Requested scope** (replace this placeholder with the audit record):
+
+1. Independent char-level extraction of `sources/treasury-mts/mts-202610.pdf` pp24–32 plus a pypdfium2 render readback (`(cid:NN)` decoded `chr(NN+29)`). **Map tokens to columns by x-position, not by word order** — on Schedule E (pp30–32) `extract_words` splits negatives/thousands and can drop a whole row (NEXT.md harness note). Compare presence *and* absence; `......` / `(**)` = omitted, not 0. Do not audit units against their own claims.
+2. Row COUNTs. #650 carries 27 of the 28 printed Direct lines on p31; the dropped line (Rural Business and Industry Loan Fund, `(**)` in all six columns) is named in its unit note. The HBCU label wraps two printed lines and is one row. #640–#649 row counts and all-blank-line handling are per their BACKLOG rows.
+3. Recompute every declared relation in exact Decimal (#650: 36 roll-forwards — 26 exact, 10 tol=1; every nonzero tol must equal its observed delta, be ≤ len(sources), and quote the p32 footnote verbatim (`Note: Details may not add to totals due to rounding.`)). October is FY2027 Month 1, so #650 claims c1==c2 and c4==c5 on every row — verify, don't assume. Plausibility scan: 0 relations with `tol > n_sources`.
+4. Roles / U1: a `standalone` must feed nothing and target nothing (#650 claims 44: 17 prior-year cells + 27 cells in nine transaction-less rows).
+5. Ties: #650 claims every c4/c5 ties to the September twin's c6 (27/27); the Schedule C Treasury total foots across five unit files within 3; Schedule A, B, D Grand Total and E transaction ties to #638/#639 hold per the #640–#649 BACKLOG rows — re-derive, don't trust.
+6. Known tool flag (not in #650): `tools/sourcecheck.py` reports one row-level mismatch on #649 r21 (FHA-General and Special Risk Fund, p30): `-201` sits on a shifted baseline; the render shows it on that line and the prior-year column total closes exactly with it. No exception added (the user's decision); until then `sourcecheck.py --all` exits 1 on that row.
+
+**Pages:** 24–31 (Schedules A–E per the #640–#649 BACKLOG rows; #650 is p31 only), 32 (rounding footnote; Direct part 2 = #651, out of scope), 8 (Table 3 ties), 23 (Table 6 main).
+
+---
