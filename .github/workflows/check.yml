@@ -1,0 +1,33 @@
+name: check
+
+# Runs the two gates every unit must pass: the reconciler's self-tests and
+# the full sweep of the corpus. Any failing unit, or an empty sweep, is red.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v5
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@1db35dd8eee11c5894872e0b383ae6c406cf738d # v10.4.0
+        with:
+          enable-cache: true
+          python-version: "3.13"
+
+      - name: Reconciler self-tests
+        run: uv run --locked pytest
+
+      - name: Full sweep of the corpus
+        run: uv run --locked python reconcile.py --all

@@ -1,5 +1,7 @@
 # Crossfoot
 
+[![check](https://github.com/kenrinzero/crossfoot/actions/workflows/check.yml/badge.svg)](https://github.com/kenrinzero/crossfoot/actions/workflows/check.yml)
+
 An arithmetic-reconciled corpus of public statistical tables: each messy
 PDF/HTML table is transcribed into a typed `.cells.json` that declares the
 table's own internal arithmetic — row totals, subtotals, percent closures,
@@ -204,6 +206,9 @@ uv run python reconcile.py tables/<family>/<id>.cells.json
 uv run pytest                                          # oracle self-tests
 uv run python reconcile.py --all                       # full sweep (empty selection is red; any unit failure is red)
 ```
+
+Every push to `main` and every pull request runs the last two commands
+on GitHub ([.github/workflows/check.yml](.github/workflows/check.yml)).
 
 ## License
 
