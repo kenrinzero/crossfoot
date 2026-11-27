@@ -1,0 +1,459 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-independent-remainder",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 21,
+    "title": "Outlays of the U.S. Government — Independent Agencies Remainder and Total",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value; both marks are omitted from the numeric cells. Page 21 Independent Agencies remainder (SEC, Smithsonian, TVA, Other) and Total--Independent Agencies. SEC prints Prior FYTD Applicable Receipts of 1 (54 = 1 + 53 exact) and (**) in current periods; TVA current periods close at tol=1 (6,297 + 493 = 6,790 vs 6,791). Net outlays 3,989 / 3,989 / 3,829 match Table 3 (page 8).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Securities and Exchange Commission"
+    },
+    {
+      "index": 2,
+      "label": "Smithsonian Institution"
+    },
+    {
+      "index": 3,
+      "label": "Tennessee Valley Authority"
+    },
+    {
+      "index": 4,
+      "label": "Other"
+    },
+    {
+      "index": 5,
+      "label": "Total--Independent Agencies"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "182",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "182",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "182",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "182",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "54",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "53",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "111",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "111",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "111",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "111",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "92",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "92",
+      "role": "standalone",
+      "why": "Applicable Receipts prints (**) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and the vertical roll-up into Total--Independent Agencies spans earlier Independent Agencies units (#632-#634) outside this file."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "6791",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "6297",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "493",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "6791",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "6297",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "493",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "6153",
+      "role": "total"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "5659",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "494",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "547",
+      "role": "total"
+    },
+    {
+      "id": "r4c2",
+      "row": 4,
+      "col": 2,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "506",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "547",
+      "role": "total"
+    },
+    {
+      "id": "r4c5",
+      "row": 4,
+      "col": 5,
+      "value": "41",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "506",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "411",
+      "role": "total"
+    },
+    {
+      "id": "r4c8",
+      "row": 4,
+      "col": 8,
+      "value": "45",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "366",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "18781",
+      "role": "total"
+    },
+    {
+      "id": "r5c2",
+      "row": 5,
+      "col": 2,
+      "value": "14792",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "3989",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "18781",
+      "role": "total"
+    },
+    {
+      "id": "r5c5",
+      "row": 5,
+      "col": 5,
+      "value": "14792",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "3989",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "18083",
+      "role": "total"
+    },
+    {
+      "id": "r5c8",
+      "row": 5,
+      "col": 8,
+      "value": "14254",
+      "role": "leaf"
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "3829",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Securities and Exchange Commission)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r3c3"
+      ],
+      "target": "r3c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Tennessee Valley Authority).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c6"
+      ],
+      "target": "r3c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Tennessee Valley Authority).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c8",
+        "r3c9"
+      ],
+      "target": "r3c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Tennessee Valley Authority)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c2",
+        "r4c3"
+      ],
+      "target": "r4c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Other)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c5",
+        "r4c6"
+      ],
+      "target": "r4c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Other)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r4c8",
+        "r4c9"
+      ],
+      "target": "r4c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Other)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c2",
+        "r5c3"
+      ],
+      "target": "r5c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total--Independent Agencies)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c5",
+        "r5c6"
+      ],
+      "target": "r5c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Independent Agencies)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r5c8",
+        "r5c9"
+      ],
+      "target": "r5c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Independent Agencies)."
+    }
+  ]
+}

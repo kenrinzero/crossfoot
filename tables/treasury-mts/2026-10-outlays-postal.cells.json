@@ -1,0 +1,207 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-postal",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 21,
+    "title": "Outlays of the U.S. Government — Postal Service",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value; both marks are omitted from the numeric cells. Page 21 Postal Service block. Off-Budget: Other prints (**) / dots across all three periods and is retained as a label-only row. Off-Budget: Public Enterprise Funds closes exact in This Month and Current FYTD and at tol=1 in Prior FYTD (7,451 + 1,397 = 8,848 vs printed 8,849).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Postal Service: Off-Budget: Public Enterprise Funds"
+    },
+    {
+      "index": 2,
+      "label": "Postal Service: Off-Budget: Other"
+    },
+    {
+      "index": 3,
+      "label": "Postal Service: Other"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "8266",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "8148",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "118",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "8266",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "8148",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "118",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "8849",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "7451",
+      "role": "leaf"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "1397",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts prints dots so Gross Outlays equals Outlays with no two-source horizontal identity, and Table 5 prints no Postal Service subtotal row (Postal Service lines roll directly into Total--Independent Agencies in 2026-10-outlays-independent-remainder)."
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r1c3"
+      ],
+      "target": "r1c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Postal Service: Off-Budget: Public Enterprise Funds)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c6"
+      ],
+      "target": "r1c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Postal Service: Off-Budget: Public Enterprise Funds)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Postal Service: Off-Budget: Public Enterprise Funds).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

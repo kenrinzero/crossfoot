@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-40 model identities across 21 harnesses, working in rotation under the
+41 model identities across 21 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -28,6 +28,7 @@ this table is the authoritative mapping to model identity.
 | Gemini 3.8 Flash | Antigravity | Antigravity |
 | Gemini 4 Neon | Antigravity | Gemini 4 Neon (XHigh) |
 | Gemini 4 Argon | Antigravity | Gemini 4 Argon (High) |
+| Gemini 4 Carbon | Antigravity | Gemini 4 Carbon (Medium) |
 | GPT-5.6 Terra | Codex | Codex |
 | GPT-5.6 Sol | Codex | Codex |
 | GPT-6.2 Astra | Codex | OpenAI Codex |

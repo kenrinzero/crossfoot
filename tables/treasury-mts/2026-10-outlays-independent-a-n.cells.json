@@ -1,0 +1,1522 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-independent-a-n",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 21,
+    "title": "Outlays of the U.S. Government — Independent Agencies A–N (Global Media through NRC)",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value; both marks are omitted from the numeric cells. Pages 20-21 (United States Agency for Global Media through Nuclear Regulatory Commission). FCC Spectrum Auction Program Account prints (**) / dots across all three periods and is retained as a label-only row. October omits September's FDIC Office of Inspector General line, leaving Deposit Insurance Fund as the sole numeric Gross Outlays component and FSLIC Resolution Fund as the sole numeric Applicable Receipts component of Total--FDIC, while both lines sum into Total--FDIC net outlays (columns 3, 6, 9 at tol=1).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "United States Agency for Global Media"
+    },
+    {
+      "index": 2,
+      "label": "Bureau of Consumer Financial Protection"
+    },
+    {
+      "index": 3,
+      "label": "Corporation for National and Community Service"
+    },
+    {
+      "index": 4,
+      "label": "Corporation for Public Broadcasting"
+    },
+    {
+      "index": 5,
+      "label": "District of Columbia: Courts"
+    },
+    {
+      "index": 6,
+      "label": "District of Columbia: General and Special Payments"
+    },
+    {
+      "index": 7,
+      "label": "Equal Employment Opportunity Commission"
+    },
+    {
+      "index": 8,
+      "label": "Export-Import Bank of the United States"
+    },
+    {
+      "index": 9,
+      "label": "Federal Communications Commission: Universal Service Fund"
+    },
+    {
+      "index": 10,
+      "label": "Federal Communications Commission: Spectrum Auction Program Account"
+    },
+    {
+      "index": 11,
+      "label": "Federal Communications Commission: Other"
+    },
+    {
+      "index": 12,
+      "label": "Federal Deposit Insurance Corporation: Deposit Insurance Fund"
+    },
+    {
+      "index": 13,
+      "label": "Federal Deposit Insurance Corporation: FSLIC Resolution Fund"
+    },
+    {
+      "index": 14,
+      "label": "Total--Federal Deposit Insurance Corporation"
+    },
+    {
+      "index": 15,
+      "label": "Federal Drug Control Programs"
+    },
+    {
+      "index": 16,
+      "label": "Federal Housing Finance Agency"
+    },
+    {
+      "index": 17,
+      "label": "Institute of Museum and Library Services"
+    },
+    {
+      "index": 18,
+      "label": "Intelligence Community Management Account"
+    },
+    {
+      "index": 19,
+      "label": "Legal Services Corporation"
+    },
+    {
+      "index": 20,
+      "label": "National Archives and Records Administration"
+    },
+    {
+      "index": 21,
+      "label": "National Credit Union Administration"
+    },
+    {
+      "index": 22,
+      "label": "National Endowment for the Arts"
+    },
+    {
+      "index": 23,
+      "label": "National Endowment for the Humanities"
+    },
+    {
+      "index": 24,
+      "label": "National Labor Relations Board"
+    },
+    {
+      "index": 25,
+      "label": "Nuclear Regulatory Commission"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "50",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "50",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "50",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "50",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "20",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "20",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "31",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "31",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "31",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "31",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "41",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "41",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "115",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "115",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "115",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "115",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "83",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "83",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "8",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "8",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c1",
+      "row": 5,
+      "col": 1,
+      "value": "28",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c3",
+      "row": 5,
+      "col": 3,
+      "value": "28",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c4",
+      "row": 5,
+      "col": 4,
+      "value": "28",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c6",
+      "row": 5,
+      "col": 6,
+      "value": "28",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c7",
+      "row": 5,
+      "col": 7,
+      "value": "15",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r5c9",
+      "row": 5,
+      "col": 9,
+      "value": "15",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "105",
+      "role": "total"
+    },
+    {
+      "id": "r6c2",
+      "row": 6,
+      "col": 2,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "105",
+      "role": "total"
+    },
+    {
+      "id": "r6c5",
+      "row": 6,
+      "col": 5,
+      "value": "30",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "74",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "46",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "46",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c1",
+      "row": 7,
+      "col": 1,
+      "value": "38",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c3",
+      "row": 7,
+      "col": 3,
+      "value": "38",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c4",
+      "row": 7,
+      "col": 4,
+      "value": "38",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c6",
+      "row": 7,
+      "col": 6,
+      "value": "38",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c7",
+      "row": 7,
+      "col": 7,
+      "value": "15",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r7c9",
+      "row": 7,
+      "col": 9,
+      "value": "15",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c1",
+      "row": 8,
+      "col": 1,
+      "value": "1",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c3",
+      "row": 8,
+      "col": 3,
+      "value": "1",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c4",
+      "row": 8,
+      "col": 4,
+      "value": "1",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c6",
+      "row": 8,
+      "col": 6,
+      "value": "1",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "-34",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-34",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "740",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "740",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "740",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "740",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c7",
+      "row": 9,
+      "col": 7,
+      "value": "788",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r9c9",
+      "row": 9,
+      "col": 9,
+      "value": "788",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "83",
+      "role": "total"
+    },
+    {
+      "id": "r11c2",
+      "row": 11,
+      "col": 2,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "80",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "83",
+      "role": "total"
+    },
+    {
+      "id": "r11c5",
+      "row": 11,
+      "col": 5,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "80",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "175",
+      "role": "total"
+    },
+    {
+      "id": "r11c8",
+      "row": 11,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "174",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "-144",
+      "role": "standalone",
+      "why": "FSLIC Resolution Fund prints (**) in Gross Outlays and Applicable Receipts prints dots on Deposit Insurance Fund, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Gross Outlays column (schema minItems: 2)."
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "-144",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "-144",
+      "role": "standalone",
+      "why": "FSLIC Resolution Fund prints (**) in Gross Outlays and Applicable Receipts prints dots on Deposit Insurance Fund, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Gross Outlays column (schema minItems: 2)."
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "-144",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "-171",
+      "role": "standalone",
+      "why": "FSLIC Resolution Fund prints (**) in Gross Outlays and Applicable Receipts prints dots on Deposit Insurance Fund, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Gross Outlays column (schema minItems: 2)."
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "-171",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c2",
+      "row": 13,
+      "col": 2,
+      "value": "4",
+      "role": "standalone",
+      "why": "Gross Outlays prints (**) on FSLIC Resolution Fund and Deposit Insurance Fund prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c5",
+      "row": 13,
+      "col": 5,
+      "value": "4",
+      "role": "standalone",
+      "why": "Gross Outlays prints (**) on FSLIC Resolution Fund and Deposit Insurance Fund prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c8",
+      "row": 13,
+      "col": 8,
+      "value": "4",
+      "role": "standalone",
+      "why": "Gross Outlays prints (**) on FSLIC Resolution Fund and Deposit Insurance Fund prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Federal Deposit Insurance Corporation in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r13c9",
+      "row": 13,
+      "col": 9,
+      "value": "-4",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-144",
+      "role": "total"
+    },
+    {
+      "id": "r14c2",
+      "row": 14,
+      "col": 2,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-147",
+      "role": "total"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "-144",
+      "role": "total"
+    },
+    {
+      "id": "r14c5",
+      "row": 14,
+      "col": 5,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "-147",
+      "role": "total"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "-171",
+      "role": "total"
+    },
+    {
+      "id": "r14c8",
+      "row": 14,
+      "col": 8,
+      "value": "4",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "-174",
+      "role": "total"
+    },
+    {
+      "id": "r15c1",
+      "row": 15,
+      "col": 1,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r15c4",
+      "row": 15,
+      "col": 4,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r15c7",
+      "row": 15,
+      "col": 7,
+      "value": "26",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "26",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "24",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "29",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "23",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "23",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "23",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "23",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c1",
+      "row": 18,
+      "col": 1,
+      "value": "37",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c3",
+      "row": 18,
+      "col": 3,
+      "value": "37",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c4",
+      "row": 18,
+      "col": 4,
+      "value": "37",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c6",
+      "row": 18,
+      "col": 6,
+      "value": "37",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c7",
+      "row": 18,
+      "col": 7,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r18c9",
+      "row": 18,
+      "col": 9,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r19c1",
+      "row": 19,
+      "col": 1,
+      "value": "107",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r19c3",
+      "row": 19,
+      "col": 3,
+      "value": "107",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r19c4",
+      "row": 19,
+      "col": 4,
+      "value": "107",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r19c6",
+      "row": 19,
+      "col": 6,
+      "value": "107",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r20c1",
+      "row": 20,
+      "col": 1,
+      "value": "55",
+      "role": "total"
+    },
+    {
+      "id": "r20c2",
+      "row": 20,
+      "col": 2,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c3",
+      "row": 20,
+      "col": 3,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c4",
+      "row": 20,
+      "col": 4,
+      "value": "55",
+      "role": "total"
+    },
+    {
+      "id": "r20c5",
+      "row": 20,
+      "col": 5,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c6",
+      "row": 20,
+      "col": 6,
+      "value": "54",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c7",
+      "row": 20,
+      "col": 7,
+      "value": "16",
+      "role": "total"
+    },
+    {
+      "id": "r20c8",
+      "row": 20,
+      "col": 8,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r20c9",
+      "row": 20,
+      "col": 9,
+      "value": "15",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c1",
+      "row": 21,
+      "col": 1,
+      "value": "150",
+      "role": "total"
+    },
+    {
+      "id": "r21c2",
+      "row": 21,
+      "col": 2,
+      "value": "541",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c3",
+      "row": 21,
+      "col": 3,
+      "value": "-391",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c4",
+      "row": 21,
+      "col": 4,
+      "value": "150",
+      "role": "total"
+    },
+    {
+      "id": "r21c5",
+      "row": 21,
+      "col": 5,
+      "value": "541",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c6",
+      "row": 21,
+      "col": 6,
+      "value": "-391",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c7",
+      "row": 21,
+      "col": 7,
+      "value": "106",
+      "role": "total"
+    },
+    {
+      "id": "r21c8",
+      "row": 21,
+      "col": 8,
+      "value": "619",
+      "role": "leaf"
+    },
+    {
+      "id": "r21c9",
+      "row": 21,
+      "col": 9,
+      "value": "-513",
+      "role": "leaf"
+    },
+    {
+      "id": "r22c1",
+      "row": 22,
+      "col": 1,
+      "value": "14",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r22c3",
+      "row": 22,
+      "col": 3,
+      "value": "14",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r22c4",
+      "row": 22,
+      "col": 4,
+      "value": "14",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r22c6",
+      "row": 22,
+      "col": 6,
+      "value": "14",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r22c7",
+      "row": 22,
+      "col": 7,
+      "value": "19",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r22c9",
+      "row": 22,
+      "col": 9,
+      "value": "19",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c1",
+      "row": 23,
+      "col": 1,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c3",
+      "row": 23,
+      "col": 3,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c4",
+      "row": 23,
+      "col": 4,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c6",
+      "row": 23,
+      "col": 6,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c7",
+      "row": 23,
+      "col": 7,
+      "value": "3",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r23c9",
+      "row": 23,
+      "col": 9,
+      "value": "3",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c1",
+      "row": 24,
+      "col": 1,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c3",
+      "row": 24,
+      "col": 3,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c4",
+      "row": 24,
+      "col": 4,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c6",
+      "row": 24,
+      "col": 6,
+      "value": "32",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c7",
+      "row": 24,
+      "col": 7,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r24c9",
+      "row": 24,
+      "col": 9,
+      "value": "10",
+      "role": "standalone",
+      "why": "Applicable Receipts is omitted (dots or (**)) in this period so Gross Outlays equals Outlays with no two-source horizontal identity, and Total--Independent Agencies is printed outside this unit in 2026-10-outlays-independent-remainder."
+    },
+    {
+      "id": "r25c1",
+      "row": 25,
+      "col": 1,
+      "value": "78",
+      "role": "total"
+    },
+    {
+      "id": "r25c2",
+      "row": 25,
+      "col": 2,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c3",
+      "row": 25,
+      "col": 3,
+      "value": "-23",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c4",
+      "row": 25,
+      "col": 4,
+      "value": "78",
+      "role": "total"
+    },
+    {
+      "id": "r25c5",
+      "row": 25,
+      "col": 5,
+      "value": "101",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c6",
+      "row": 25,
+      "col": 6,
+      "value": "-23",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c7",
+      "row": 25,
+      "col": 7,
+      "value": "30",
+      "role": "total"
+    },
+    {
+      "id": "r25c8",
+      "row": 25,
+      "col": 8,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r25c9",
+      "row": 25,
+      "col": 9,
+      "value": "28",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r6c2",
+        "r6c3"
+      ],
+      "target": "r6c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (District of Columbia: General and Special Payments).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r6c5",
+        "r6c6"
+      ],
+      "target": "r6c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (District of Columbia: General and Special Payments).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c2",
+        "r11c3"
+      ],
+      "target": "r11c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Federal Communications Commission: Other).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c5",
+        "r11c6"
+      ],
+      "target": "r11c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Federal Communications Commission: Other).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r11c8",
+        "r11c9"
+      ],
+      "target": "r11c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Federal Communications Commission: Other)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c2",
+        "r14c3"
+      ],
+      "target": "r14c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total--Federal Deposit Insurance Corporation).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c5",
+        "r14c6"
+      ],
+      "target": "r14c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Federal Deposit Insurance Corporation).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r14c8",
+        "r14c9"
+      ],
+      "target": "r14c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Federal Deposit Insurance Corporation).",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c2",
+        "r20c3"
+      ],
+      "target": "r20c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (National Archives and Records Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c5",
+        "r20c6"
+      ],
+      "target": "r20c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (National Archives and Records Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r20c8",
+        "r20c9"
+      ],
+      "target": "r20c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (National Archives and Records Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c2",
+        "r21c3"
+      ],
+      "target": "r21c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (National Credit Union Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c5",
+        "r21c6"
+      ],
+      "target": "r21c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (National Credit Union Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r21c8",
+        "r21c9"
+      ],
+      "target": "r21c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (National Credit Union Administration)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c2",
+        "r25c3"
+      ],
+      "target": "r25c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Nuclear Regulatory Commission)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c5",
+        "r25c6"
+      ],
+      "target": "r25c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Nuclear Regulatory Commission)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r25c8",
+        "r25c9"
+      ],
+      "target": "r25c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Nuclear Regulatory Commission)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c3",
+        "r13c3"
+      ],
+      "target": "r14c3",
+      "note": "Total--Federal Deposit Insurance Corporation net outlays column 3 sum.",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c6",
+        "r13c6"
+      ],
+      "target": "r14c6",
+      "note": "Total--Federal Deposit Insurance Corporation net outlays column 6 sum.",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r12c9",
+        "r13c9"
+      ],
+      "target": "r14c9",
+      "note": "Total--Federal Deposit Insurance Corporation net outlays column 9 sum.",
+      "tol": "1",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    }
+  ]
+}

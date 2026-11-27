@@ -1,0 +1,418 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-grand-total-capstone",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 22,
+    "title": "Outlays of the U.S. Government — Grand Total Capstone (Total Outlays, On-Budget, Off-Budget)",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Page 22 grand-total capstone of Table 5: Total Outlays = Total On-Budget + Total Off-Budget across all nine columns, plus Applicable Receipts + Outlays = Gross Outlays on each row in all three periods. All 18 sums close exact. Net outlays 773,004 / 773,004 / 688,704, On-Budget 650,448 / 650,448 / 567,688, and Off-Budget 122,556 / 122,556 / 121,016 match Table 3 (page 8).",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Total Outlays"
+    },
+    {
+      "index": 2,
+      "label": "Total On-Budget"
+    },
+    {
+      "index": 3,
+      "label": "Total Off-Budget"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r1c1",
+      "row": 1,
+      "col": 1,
+      "value": "835147",
+      "role": "total"
+    },
+    {
+      "id": "r1c2",
+      "row": 1,
+      "col": 2,
+      "value": "62143",
+      "role": "total"
+    },
+    {
+      "id": "r1c3",
+      "row": 1,
+      "col": 3,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r1c4",
+      "row": 1,
+      "col": 4,
+      "value": "835147",
+      "role": "total"
+    },
+    {
+      "id": "r1c5",
+      "row": 1,
+      "col": 5,
+      "value": "62143",
+      "role": "total"
+    },
+    {
+      "id": "r1c6",
+      "row": 1,
+      "col": 6,
+      "value": "773004",
+      "role": "total"
+    },
+    {
+      "id": "r1c7",
+      "row": 1,
+      "col": 7,
+      "value": "734512",
+      "role": "total"
+    },
+    {
+      "id": "r1c8",
+      "row": 1,
+      "col": 8,
+      "value": "45808",
+      "role": "total"
+    },
+    {
+      "id": "r1c9",
+      "row": 1,
+      "col": 9,
+      "value": "688704",
+      "role": "total"
+    },
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "704437",
+      "role": "total"
+    },
+    {
+      "id": "r2c2",
+      "row": 2,
+      "col": 2,
+      "value": "53989",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "704437",
+      "role": "total"
+    },
+    {
+      "id": "r2c5",
+      "row": 2,
+      "col": 5,
+      "value": "53989",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "650448",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "606043",
+      "role": "total"
+    },
+    {
+      "id": "r2c8",
+      "row": 2,
+      "col": 8,
+      "value": "38355",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "567688",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "130710",
+      "role": "total"
+    },
+    {
+      "id": "r3c2",
+      "row": 3,
+      "col": 2,
+      "value": "8154",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "130710",
+      "role": "total"
+    },
+    {
+      "id": "r3c5",
+      "row": 3,
+      "col": 5,
+      "value": "8154",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "122556",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "128469",
+      "role": "total"
+    },
+    {
+      "id": "r3c8",
+      "row": 3,
+      "col": 8,
+      "value": "7453",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "121016",
+      "role": "leaf"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r1c2",
+        "r1c3"
+      ],
+      "target": "r1c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total Outlays)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c5",
+        "r1c6"
+      ],
+      "target": "r1c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total Outlays)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r1c8",
+        "r1c9"
+      ],
+      "target": "r1c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total Outlays)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r2c3"
+      ],
+      "target": "r2c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total On-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r2c6"
+      ],
+      "target": "r2c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total On-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r2c9"
+      ],
+      "target": "r2c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total On-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c2",
+        "r3c3"
+      ],
+      "target": "r3c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total Off-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c5",
+        "r3c6"
+      ],
+      "target": "r3c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total Off-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r3c8",
+        "r3c9"
+      ],
+      "target": "r3c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total Off-Budget)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1"
+      ],
+      "target": "r1c1",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 1)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c2",
+        "r3c2"
+      ],
+      "target": "r1c2",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 2)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3"
+      ],
+      "target": "r1c3",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 3)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4"
+      ],
+      "target": "r1c4",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 4)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c5",
+        "r3c5"
+      ],
+      "target": "r1c5",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 5)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6"
+      ],
+      "target": "r1c6",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 6)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7"
+      ],
+      "target": "r1c7",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 7)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c8",
+        "r3c8"
+      ],
+      "target": "r1c8",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 8)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9"
+      ],
+      "target": "r1c9",
+      "note": "Total Outlays = Total On-Budget + Total Off-Budget (column 9)."
+    }
+  ]
+}

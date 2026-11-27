@@ -4743,3 +4743,45 @@ Under the mechanical, value-preserving repair precedent (`#129`, `#160`, `#340`,
 ### 5. Regression gates
 
 All nine units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually with **0 warnings** (exit 0 each). `tools/sourcecheck.py` reports **0 mismatches** across all 73 numeric-bearing rows (`465` cells). Full corpus sweep (`uv run --locked python reconcile.py --all`) passes **629/629 GREEN**, and `uv run --locked pytest` passes **42/42**. **`#630` (`treasury-mts/2026-10-outlays-social-security`) is unblocked; the next every-10th cadence audit is `#630`.**
+
+---
+
+## Spot-Audit Handoff: Units 630–639 — October Table 5 remainder and Table 6 main (PENDING DIFFERENT-AGENT AUDIT)
+
+- **Units:** `#630–#639` (`2026-10-outlays-social-security`, `2026-10-outlays-grand-total-capstone`, `2026-10-outlays-independent-a-n`, `2026-10-outlays-postal`, `2026-10-outlays-railroad-retirement`, `2026-10-outlays-independent-remainder`, `2026-10-outlays-uor-employer-share`, `2026-10-outlays-uor-departmental`, `2026-10-table6-liabilities`, `2026-10-table6-assets-financing`)
+- **Source:** `sources/treasury-mts/mts-202610.pdf` (38pp, sha256 `956fca41…075cb725`): Table 5 pp20–22 (footnote 1 and rounding note p22), Table 6 p23 (footnote 1 and rounding note p23), Table 3 p8, Schedule A p24; September comparison `sources/treasury-mts/mts-202609.pdf` pp21–24
+- **Transcriber:** Antigravity (`Gemini 4 Carbon (Medium)`, 2026-11-27) — **ineligible to audit this batch**
+- **Scope request for the different-agent auditor:** Whole-batch positional, label, relation, DESIGN §4a, and cross-tie check of `#630–#639` per `RUNBOOK-auditor.md` (`#640` `treasury-mts/2026-10-table6-schedule-a` is **BLOCKED** until `#630–#639` closes GREEN).
+
+### Summary table (transcriber claims to verify independently)
+
+| Unit | Slug | Pages | Rows | Marker-only | Values | Relations / floor (`exact` / `tol=1` / `tol=2`) | Standalones / waiver |
+|---|---|---|---:|---:|---:|---|---:|
+| #630 | `2026-10-outlays-social-security` | 20 | 13 | 0 | 75 | `21 / 21` (`21 / 0 / 0`) | `3 / 3` |
+| #631 | `2026-10-outlays-grand-total-capstone` | 22 | 3 | 0 | 27 | `18 / 18` (`18 / 0 / 0`) | `0 / 0` |
+| #632 | `2026-10-outlays-independent-a-n` | 20–21 | 25 | 1 | 153 | `20 / 20` (`10 / 10 / 0`) | `96 / 96` |
+| #633 | `2026-10-outlays-postal` | 21 | 3 | 1 | 15 | `3 / 3` (`2 / 1 / 0`) | `6 / 6` |
+| #634 | `2026-10-outlays-railroad-retirement` | 21 | 17 | 3 | 77 | `9 / 9` (`5 / 0 / 4`) | `3 / 3` |
+| #635 | `2026-10-outlays-independent-remainder` | 21 | 5 | 0 | 40 | `10 / 10` (`8 / 2 / 0`) | `10 / 10` |
+| #636 | `2026-10-outlays-uor-employer-share` | 21–22 | 10 | 1 | 54 | `6 / 6` (`6 / 0 / 0`) | `0 / 0` |
+| #637 | `2026-10-outlays-uor-departmental` | 21–22 | 27 | 3 | 139 | `15 / 15` (`13 / 2 / 0`) | `3 / 3` |
+| #638 | `2026-10-table6-liabilities` | 23 | 17 | 0 | 102 | `64 / 64` (`47 / 17 / 0`) | `2 / 2` |
+| #639 | `2026-10-table6-assets-financing` | 23 | 22 | 0 | 124 | `69 / 69` (`53 / 16 / 0`) | `2 / 2` |
+| **Total** | | **20–23** | **142** | **9** | **806** | **235** (`183 / 48 / 4`) | **125** |
+
+### Notable source & structural items for the auditor to verify
+
+1. **Superscript footnotes (label column only, 0 glued digits):**
+   - `#630` `r12` (`Intrabudgetary Transactions / Off-Budget`, p20 `y=544.0`) carries `4.0pt` superscript `1` (footnote 1 on p22); stripped from the row label.
+   - `#639` `r1` (`U.S. Treasury Operating Cash: Federal Reserve Account`, p23 `y=369.5`) carries `4.0pt` superscript `1` (footnote 1 on p23); stripped from the row label.
+2. **Marker-only rows & October-vs-September row deltas:**
+   - **Table 5 marker-only rows preserved as 0-cell labels (`9` total):** `#632` `r10` (`FCC: Spectrum Auction Program Account`); `#633` `r2` (`Postal Service: Off-Budget: Other`); `#634` `r1` (`Federal Windfall Subsidy`), `r5` (`RUITF: Other`), `r7` (`RIPF: Advances from FOASDI Fund`); `#636` `r9` (`Employer Share: Other`); `#637` `r8` (`State: FSRDF`), `r11` (`VA: NSLIF`), `r12` (`VA: USGLIF`).
+   - **Lines absent from the October print (dropped):** `#630` omits September's two `Payment to Railroad Retirement Account` lines under FOASI and FDI; `#632` omits September's `FDIC: Office of Inspector General` line (leaving `Deposit Insurance Fund` as the sole numeric Gross Outlays component and `FSLIC Resolution Fund` as the sole numeric Applicable Receipts component of `Total--FDIC`, while both feed `Total--FDIC` net outlays in `c3/c6/c9`); `#634` omits `NRRIT: Transfers to the Railroad Retirement Trust Funds...` and `Intrabudgetary: Payments from Other Funds...`; `#637` omits `Sale of Major Assets` and `Spectrum Auction Proceeds` (leaving `Rents and Royalties` `228 / 228 / 407` as the sole numeric Applicable Receipts entry).
+   - **Table 6 `Loans to International Monetary Fund` (p23 `y=522.5`):** prints `......` in `c1–c3` and `(**)` in `c4–c6` and is omitted in `#639` per the 5-month May–September `table6-assets-financing` 22-row template so `r1..r22` stay position-aligned across all six months.
+3. **Table 6 DESIGN §4a roll-forwards & September-close restatement:**
+   - Both `#638` and `#639` label column 5 `"Beginning of This Month (Account Balance)"` and declare **both** DESIGN §4a roll-forward classes (`c5 + c1 = c6` and `c4 + c2 = c6`: `17 + 17 = 34` in `#638`; `19 + 19 = 38` in `#639`, as `Transactions Not Applied` `r20` omits both `c4` and `c5` in Month 1 of FY2027).
+   - Opening balances (`c4 == c5`) match September `#558`/`#559` closing balances (`c6`) except `#638` `r15` `Uninvested Balances, Deposit Funds` (`33,437` vs `33,436`, `+$1M` inside `Total Liability Accounts` `32,718,280`) and `#639` `r12` `Other Cash and Monetary Assets` (`101,073` vs `101,169`, `-$96M`), which propagates into `Total Cash` (`1,273,027` vs `1,273,123`), `Total Asset Accounts` (`3,229,021` vs `3,229,117`), and `Excess of Liabilities` (`29,489,259` vs `29,489,163`, `+$96M`, matching the `$96M` FY2026 agency deficit restatement and Schedule A p24 opening `29,489,259` / closing `29,885,145`).
+4. **Cross-ties verified at ship time:**
+   - `#630` SSA net (`153,703 / 153,703 / 144,539`), `#631` Total/On/Off Outlays (`773,004 / 650,448 / 122,556`, prior `688,704 / 567,688 / 121,016`), `#635` Independent Agencies net (`3,989 / 3,989 / 3,829`), and `#637` UOR Interest (`-11,152 / -11,152 / -9,923`) + UOR Other components (`-55,197 / -55,197 / -45,895`) all match Table 3 (`#586`, p8) exact.
+   - Cross-unit Independent Agencies sum (`#632 + #633 + #634 r17 + #635 r1..r4`) vs `#635 r5`: `18,783` vs `18,781` (`delta=2` in `c1/c4`), exact in `c2/c3/c5/c6/c8`, `18,082` vs `18,083` (`delta=1` in `c7`), `3,828` vs `3,829` (`delta=1` in `c9`).
+   - `#636 r10 == #637 r26` (`Employer Share` `-54,967 / -54,967 / -45,488`), `#638 r17 == #639 r22` (`Total Liability Accounts`), and `#639 r21 c1..c3` (`404,064 / 404,064 / 284,333`) == `-Surplus/Deficit` in Tables 2, 3, and 5.

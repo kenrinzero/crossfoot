@@ -1,0 +1,807 @@
+{
+  "table_id": "treasury-mts/2026-10-outlays-railroad-retirement",
+  "source": {
+    "path": "sources/treasury-mts/mts-202610.pdf",
+    "table": "Table 5. Outlays of the U.S. Government, October 2026 and Other Periods",
+    "page": 21,
+    "title": "Outlays of the U.S. Government — Railroad Retirement Board",
+    "period": "October FY2027"
+  },
+  "unit_note": "USD millions. Dots mark no transactions and (**) marks amounts below $500,000 in absolute value; both marks are omitted from the numeric cells. Page 21 Railroad Retirement Board block. October omits September's Transfers to the Railroad Retirement Trust Funds from the NRRIT and Intrabudgetary Payments from Other Funds lines, while printing RUITF Other and RIPF Advances from FOASDI Fund as (**) / dots (retained alongside Federal Windfall Subsidy as three label-only rows). Current-period gross and net column sums close at tol=2 over 11-12 components (1,250 vs 1,248; 1,623 vs 1,621); Prior FYTD column sums and all three Total--RRB horizontal identities close exact.",
+  "columns": [
+    {
+      "index": 1,
+      "label": "This Month / Gross Outlays"
+    },
+    {
+      "index": 2,
+      "label": "This Month / Applicable Receipts"
+    },
+    {
+      "index": 3,
+      "label": "This Month / Outlays"
+    },
+    {
+      "index": 4,
+      "label": "Current FYTD / Gross Outlays"
+    },
+    {
+      "index": 5,
+      "label": "Current FYTD / Applicable Receipts"
+    },
+    {
+      "index": 6,
+      "label": "Current FYTD / Outlays"
+    },
+    {
+      "index": 7,
+      "label": "Prior FYTD / Gross Outlays"
+    },
+    {
+      "index": 8,
+      "label": "Prior FYTD / Applicable Receipts"
+    },
+    {
+      "index": 9,
+      "label": "Prior FYTD / Outlays"
+    }
+  ],
+  "rows": [
+    {
+      "index": 1,
+      "label": "Federal Windfall Subsidy"
+    },
+    {
+      "index": 2,
+      "label": "Federal Payments to the Railroad Retirement Accounts"
+    },
+    {
+      "index": 3,
+      "label": "Railroad Unemployment Insurance Trust Fund: Benefit Payments"
+    },
+    {
+      "index": 4,
+      "label": "Railroad Unemployment Insurance Trust Fund: Transfer To Administrative Funds"
+    },
+    {
+      "index": 5,
+      "label": "Railroad Unemployment Insurance Trust Fund: Other"
+    },
+    {
+      "index": 6,
+      "label": "Rail Industry Pension Fund: Benefit Payments"
+    },
+    {
+      "index": 7,
+      "label": "Rail Industry Pension Fund: Advances from FOASDI Fund"
+    },
+    {
+      "index": 8,
+      "label": "Rail Industry Pension Fund: OASDI Certifications"
+    },
+    {
+      "index": 9,
+      "label": "Rail Industry Pension Fund: Transfer to Administrative Funds"
+    },
+    {
+      "index": 10,
+      "label": "Rail Industry Pension Fund: Other"
+    },
+    {
+      "index": 11,
+      "label": "National Railroad Retirement Investment Trust: Administrative Expenses"
+    },
+    {
+      "index": 12,
+      "label": "Railroad Social Security Equivalent Benefit Account: Benefit Payments"
+    },
+    {
+      "index": 13,
+      "label": "Railroad Social Security Equivalent Benefit Account: Transfer To Administrative Funds"
+    },
+    {
+      "index": 14,
+      "label": "Railroad Social Security Equivalent Benefit Account: Other"
+    },
+    {
+      "index": 15,
+      "label": "Proprietary Receipts from the Public"
+    },
+    {
+      "index": 16,
+      "label": "Intrabudgetary Transactions: Other"
+    },
+    {
+      "index": 17,
+      "label": "Total--Railroad Retirement Board"
+    }
+  ],
+  "cells": [
+    {
+      "id": "r2c1",
+      "row": 2,
+      "col": 1,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c3",
+      "row": 2,
+      "col": 3,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c4",
+      "row": 2,
+      "col": 4,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c6",
+      "row": 2,
+      "col": 6,
+      "value": "208",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c7",
+      "row": 2,
+      "col": 7,
+      "value": "184",
+      "role": "leaf"
+    },
+    {
+      "id": "r2c9",
+      "row": 2,
+      "col": 9,
+      "value": "184",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c1",
+      "row": 3,
+      "col": 1,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c3",
+      "row": 3,
+      "col": 3,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c4",
+      "row": 3,
+      "col": 4,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c6",
+      "row": 3,
+      "col": 6,
+      "value": "10",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c7",
+      "row": 3,
+      "col": 7,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r3c9",
+      "row": 3,
+      "col": 9,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c1",
+      "row": 4,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c3",
+      "row": 4,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c4",
+      "row": 4,
+      "col": 4,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c6",
+      "row": 4,
+      "col": 6,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c7",
+      "row": 4,
+      "col": 7,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r4c9",
+      "row": 4,
+      "col": 9,
+      "value": "5",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c1",
+      "row": 6,
+      "col": 1,
+      "value": "487",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c3",
+      "row": 6,
+      "col": 3,
+      "value": "487",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c4",
+      "row": 6,
+      "col": 4,
+      "value": "487",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c6",
+      "row": 6,
+      "col": 6,
+      "value": "487",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c7",
+      "row": 6,
+      "col": 7,
+      "value": "486",
+      "role": "leaf"
+    },
+    {
+      "id": "r6c9",
+      "row": 6,
+      "col": 9,
+      "value": "486",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c7",
+      "row": 8,
+      "col": 7,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r8c9",
+      "row": 8,
+      "col": 9,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c1",
+      "row": 9,
+      "col": 1,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c3",
+      "row": 9,
+      "col": 3,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c4",
+      "row": 9,
+      "col": 4,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r9c6",
+      "row": 9,
+      "col": 6,
+      "value": "9",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c1",
+      "row": 10,
+      "col": 1,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c3",
+      "row": 10,
+      "col": 3,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c4",
+      "row": 10,
+      "col": 4,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r10c6",
+      "row": 10,
+      "col": 6,
+      "value": "1",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c1",
+      "row": 11,
+      "col": 1,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c3",
+      "row": 11,
+      "col": 3,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c4",
+      "row": 11,
+      "col": 4,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c6",
+      "row": 11,
+      "col": 6,
+      "value": "7",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c7",
+      "row": 11,
+      "col": 7,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r11c9",
+      "row": 11,
+      "col": 9,
+      "value": "8",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c1",
+      "row": 12,
+      "col": 1,
+      "value": "733",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c3",
+      "row": 12,
+      "col": 3,
+      "value": "733",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c4",
+      "row": 12,
+      "col": 4,
+      "value": "733",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c6",
+      "row": 12,
+      "col": 6,
+      "value": "733",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c7",
+      "row": 12,
+      "col": 7,
+      "value": "725",
+      "role": "leaf"
+    },
+    {
+      "id": "r12c9",
+      "row": 12,
+      "col": 9,
+      "value": "725",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c1",
+      "row": 13,
+      "col": 1,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c3",
+      "row": 13,
+      "col": 3,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c4",
+      "row": 13,
+      "col": 4,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r13c6",
+      "row": 13,
+      "col": 6,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c1",
+      "row": 14,
+      "col": 1,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c3",
+      "row": 14,
+      "col": 3,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c4",
+      "row": 14,
+      "col": 4,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c6",
+      "row": 14,
+      "col": 6,
+      "value": "-1",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c7",
+      "row": 14,
+      "col": 7,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r14c9",
+      "row": 14,
+      "col": 9,
+      "value": "2",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c2",
+      "row": 15,
+      "col": 2,
+      "value": "-373",
+      "role": "standalone",
+      "why": "Gross Outlays prints dots on Proprietary Receipts from the Public and every other Railroad Retirement Board line prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Railroad Retirement Board in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r15c3",
+      "row": 15,
+      "col": 3,
+      "value": "373",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c5",
+      "row": 15,
+      "col": 5,
+      "value": "-373",
+      "role": "standalone",
+      "why": "Gross Outlays prints dots on Proprietary Receipts from the Public and every other Railroad Retirement Board line prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Railroad Retirement Board in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r15c6",
+      "row": 15,
+      "col": 6,
+      "value": "373",
+      "role": "leaf"
+    },
+    {
+      "id": "r15c8",
+      "row": 15,
+      "col": 8,
+      "value": "471",
+      "role": "standalone",
+      "why": "Gross Outlays prints dots on Proprietary Receipts from the Public and every other Railroad Retirement Board line prints dots in Applicable Receipts, leaving this cell with no two-source horizontal identity and as the sole numeric component of Total--Railroad Retirement Board in this Applicable Receipts column (schema minItems: 2)."
+    },
+    {
+      "id": "r15c9",
+      "row": 15,
+      "col": 9,
+      "value": "-471",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c1",
+      "row": 16,
+      "col": 1,
+      "value": "-208",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c3",
+      "row": 16,
+      "col": 3,
+      "value": "-208",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c4",
+      "row": 16,
+      "col": 4,
+      "value": "-208",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c6",
+      "row": 16,
+      "col": 6,
+      "value": "-208",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c7",
+      "row": 16,
+      "col": 7,
+      "value": "-184",
+      "role": "leaf"
+    },
+    {
+      "id": "r16c9",
+      "row": 16,
+      "col": 9,
+      "value": "-184",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c1",
+      "row": 17,
+      "col": 1,
+      "value": "1248",
+      "role": "total"
+    },
+    {
+      "id": "r17c2",
+      "row": 17,
+      "col": 2,
+      "value": "-373",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c3",
+      "row": 17,
+      "col": 3,
+      "value": "1621",
+      "role": "total"
+    },
+    {
+      "id": "r17c4",
+      "row": 17,
+      "col": 4,
+      "value": "1248",
+      "role": "total"
+    },
+    {
+      "id": "r17c5",
+      "row": 17,
+      "col": 5,
+      "value": "-373",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c6",
+      "row": 17,
+      "col": 6,
+      "value": "1621",
+      "role": "total"
+    },
+    {
+      "id": "r17c7",
+      "row": 17,
+      "col": 7,
+      "value": "1234",
+      "role": "total"
+    },
+    {
+      "id": "r17c8",
+      "row": 17,
+      "col": 8,
+      "value": "471",
+      "role": "leaf"
+    },
+    {
+      "id": "r17c9",
+      "row": 17,
+      "col": 9,
+      "value": "763",
+      "role": "total"
+    }
+  ],
+  "relations": [
+    {
+      "type": "sum",
+      "sources": [
+        "r17c2",
+        "r17c3"
+      ],
+      "target": "r17c1",
+      "note": "Horizontal gross identity (This Month): Applicable Receipts + Outlays = Gross Outlays (Total--Railroad Retirement Board)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c5",
+        "r17c6"
+      ],
+      "target": "r17c4",
+      "note": "Horizontal gross identity (Current FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Railroad Retirement Board)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r17c8",
+        "r17c9"
+      ],
+      "target": "r17c7",
+      "note": "Horizontal gross identity (Prior FYTD): Applicable Receipts + Outlays = Gross Outlays (Total--Railroad Retirement Board)."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c1",
+        "r3c1",
+        "r4c1",
+        "r6c1",
+        "r9c1",
+        "r10c1",
+        "r11c1",
+        "r12c1",
+        "r13c1",
+        "r14c1",
+        "r16c1"
+      ],
+      "target": "r17c1",
+      "note": "Total--Railroad Retirement Board column 1 sum.",
+      "tol": "2",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c3",
+        "r3c3",
+        "r4c3",
+        "r6c3",
+        "r9c3",
+        "r10c3",
+        "r11c3",
+        "r12c3",
+        "r13c3",
+        "r14c3",
+        "r15c3",
+        "r16c3"
+      ],
+      "target": "r17c3",
+      "note": "Total--Railroad Retirement Board column 3 sum.",
+      "tol": "2",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c4",
+        "r3c4",
+        "r4c4",
+        "r6c4",
+        "r9c4",
+        "r10c4",
+        "r11c4",
+        "r12c4",
+        "r13c4",
+        "r14c4",
+        "r16c4"
+      ],
+      "target": "r17c4",
+      "note": "Total--Railroad Retirement Board column 4 sum.",
+      "tol": "2",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c6",
+        "r3c6",
+        "r4c6",
+        "r6c6",
+        "r9c6",
+        "r10c6",
+        "r11c6",
+        "r12c6",
+        "r13c6",
+        "r14c6",
+        "r15c6",
+        "r16c6"
+      ],
+      "target": "r17c6",
+      "note": "Total--Railroad Retirement Board column 6 sum.",
+      "tol": "2",
+      "why": "Table 5, page 22, states \"Note: Details may not add to totals due to rounding.\" Components are independently rounded to $ millions."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c7",
+        "r3c7",
+        "r4c7",
+        "r6c7",
+        "r8c7",
+        "r11c7",
+        "r12c7",
+        "r14c7",
+        "r16c7"
+      ],
+      "target": "r17c7",
+      "note": "Total--Railroad Retirement Board column 7 sum."
+    },
+    {
+      "type": "sum",
+      "sources": [
+        "r2c9",
+        "r3c9",
+        "r4c9",
+        "r6c9",
+        "r8c9",
+        "r11c9",
+        "r12c9",
+        "r14c9",
+        "r15c9",
+        "r16c9"
+      ],
+      "target": "r17c9",
+      "note": "Total--Railroad Retirement Board column 9 sum."
+    }
+  ]
+}
