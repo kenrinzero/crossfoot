@@ -7,7 +7,7 @@
     "title": "Table 7. Receipts and Outlays by Month \u2014 Outlays SSA + Independent Agencies",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June + Year to Date + Comparable Period Prior F.Y. SSA + Independent Agencies (Postal PEF/Other, TVA, Other).",
+  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June + Year to Date + Comparable Period Prior F.Y. SSA + Independent Agencies (Postal PEF/Other, TVA, Other). Repair 2026-11-27: Federal Disability Insurance Trust Fund Comparable Period Prior F.Y. r2c11 set to 120,134 as printed on p35 (was 120164, a misread); it equals the fund's prior-year total in June Table 5.",
   "columns": [
     {
       "index": 1,
@@ -249,7 +249,7 @@
       "id": "r2c11",
       "row": 2,
       "col": 11,
-      "value": "120164",
+      "value": "120134",
       "role": "standalone",
       "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
     },

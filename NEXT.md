@@ -58,8 +58,8 @@ in this repo always means a stage, never difficulty.
   - **October 2026 MTS (FY2027 Month 1) — HOLD LIFTED, READY TO OPEN.** The deferral condition ("until FY2026 closes") fired on 2026-11-27 when the September Final FY2026 family completed 80/80, so this graduates from a standing condition to a dispatchable item. `MonthlyTreasuryStatement_202610.pdf` (38pp, `%PDF-1.6`, SHA-256 `956fca41…075cb725`) is already live. Next up: **vendor + size the FY2027 Month 1 family** — one D1/web unit (fetch, magic-byte + page-count check, sha256-ledger it in `sources/SOURCES.md`, then size the READY transcription units). November 2026 still returns 503 + HTML as of 2026-11-26. Corpus stays US-only; Japan-family is stopped.
 
 - **Follow-ups from the 2026-11-27 directed audit (`AUDIT-2026-11-27.md`; independent of the October family).**
-  1. **F1 — three June cells differ from the print (value repairs, not yet made).** `#318` `2026-06-table6-schedule-e-guaranteed` `r39c6` has 12652, p32 prints 12,562 — its two roll-forwards then miss by 90, so it needs the same source-discrepancy adjudication as `r37` in that unit. `#323` `2026-06-table7-outlays-leg-def` `r2c11` has 7632, p34 prints 7,134. `#327` `2026-06-table7-outlays-ssa-independents` `r2c11` has 120164, p35 prints 120,134. Record the repair in `AUDITS.md`.
-  2. **F3 — back-port vertical totals.** May–July `table6-schedule-e-guaranteed` and `table6-schedule-d-trust-funds` leave about 380 cells `standalone` that the August/September twins verify with column totals. Declare them, flip roles, re-gate (value-neutral).
+  1. **F1 — DONE 2026-11-27.** The three June cells (`#318` `r39c6`, `#323` `r2c11`, `#327` `r2c11`) now hold the printed values; record in `AUDITS.md` (*Directed repair*).
+  2. **F3 — back-port vertical totals.** May–July `table6-schedule-e-guaranteed` and `table6-schedule-d-trust-funds` leave about 380 cells `standalone` that the August/September twins verify with column totals. Declare them, flip roles, re-gate (value-neutral). **Watch June Schedule E column 6:** its 38 printed lines sum to 12,744 against a printed 12,562, a gap of 182 (two source errors of 90, `r37c6` and `r39c6`, plus 2 of rounding). That total needs the source-discrepancy adjudication already on those two cells, not a rounding tolerance.
   3. **F5 —** replace the 330 `why: "From table"` texts in nine May outlay units with real reasons.
   4. **F6 —** untrack `scratchpad/` (193 files still tracked despite `.gitignore`).
   5. **F2 / F4 / F7 —** README claims, CI, version and changelog: owner decisions, see the memo.
@@ -123,6 +123,8 @@ auditor can compare presence *and* absence for every cell rather than sample.
 Family/batch granularity, newest first. Per-unit specs and shipped
 status live in `BACKLOG.md`; session narrative in the project log
 (pre-2026-07-19 detail in its `log-archive/`).
+
+- 2026-11-27 · **Directed repair of three June cells (Claude Fable 5.2, on the user's instruction).** `#318` `r39c6` 12652 → 12562, `#323` `r2c11` 7632 → 7134, `#327` `r2c11` 120164 → 120134, each as printed on June pp32/34/35 (text layer and 3.0× render). `#318`'s two `r39c6` roll-forwards now carry `tol="90"` as a documented source discrepancy, like `r37`: the July statement opens both lines at the computed values. No row, role or relation added or removed. Sweep 581/581, pytest 23/23. Record in `AUDITS.md`. Cadence unchanged: **#590**.
 
 - 2026-11-27 · **Directed audit of #581 GREEN + project assessment (Claude Fable 5.2).** Single-unit, off-cadence, at the user's direction: 45/45 values, 3/3 relations, the Table 6-D tie and the month-to-month ties hold; no change to the unit (record in `AUDITS.md`). A row-level source check of all 56,817 corpus cells found 3 wrong June values (`#318`, `#323`, `#327`) — queued above, not repaired. Memo: `AUDIT-2026-11-27.md`. Contributor roster 29 → 37; README snapshot refreshed to 581 / 405. Cadence unchanged: **#590**.
 

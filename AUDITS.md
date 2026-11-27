@@ -3749,3 +3749,80 @@ The same two month-to-month checks also hold for June→July and July→August (
 - **Cadence.** #590's auditor may still take `#581–#590` as one batch if a single agent ships them; this entry does not move the cadence.
 
 ---
+
+## Directed repair: three June cells — `#318`, `#323`, `#327` (follow-up to the #581 directed audit)
+
+**Verdict: repaired, all three units GREEN, 2026-11-27.** Claude Fable 5.2 (Claude Code) set three June cells to their printed values, at the user's direction. These are finding F1 of [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md): the three Treasury rows that the project-wide row-level source check (all 56,817 cells) could not find on one printed line. **Three cell values changed, and two relations in `#318` gained a documented `tol`.** No row, cell id, role, label or relation was added or removed. This is not a cadence audit; **the next cadence audit stays #590**.
+
+| Field | Value |
+|---|---|
+| **Units** | `treasury-mts/2026-06-table6-schedule-e-guaranteed` (#318), `treasury-mts/2026-06-table7-outlays-leg-def` (#323), `treasury-mts/2026-06-table7-outlays-ssa-independents` (#327) |
+| **Source** | `sources/treasury-mts/mts-202606.pdf`, printed pp32, 34 and 35 |
+| **Shipped** | 2026-07-19, in batches `#311–#320` and `#321–#330`, under the tenth-unit sample audits of that time |
+| **Repair by** | Claude Fable 5.2 (Claude Code), on the user's instruction after the findings were reported in `26e4f71` |
+| **Date** | 2026-11-27 |
+| **Verdict** | **GREEN after repair** |
+
+### 1. What changed
+
+| Unit | Cell | Was | Now, as printed | Role |
+|---|---|---:|---:|---|
+| `#318` | `r39c6` Net Activity, Guaranteed Loan Financing — close of month (p32) | 12652 | **12562** | `total` |
+| `#323` | `r2c11` Judicial Branch — Comparable Period Prior F.Y. (p34) | 7632 | **7134** | `standalone` |
+| `#327` | `r2c11` Federal Disability Insurance Trust Fund (Off-Budget) — Comparable Period Prior F.Y. (p35) | 120164 | **120134** | `standalone` |
+
+In `#318` the two relations that target `r39c6` (the monthly and the fiscal-year roll-forward) now carry `tol="90"` with a `why` that says the source does not close. Each of the three `unit_note`s carries a dated repair annotation. Diff: 3 files, 12 insertions, 8 deletions.
+
+### 2. Evidence for the printed values
+
+The vendored June statement was re-verified against [sources/SOURCES.md](sources/SOURCES.md) in the same session. Each value was read twice: as a whole printed line from the `pdfplumber` text layer, and by eye on a 3.0× `pypdfium2` render.
+
+| Page | Printed line |
+|---|---|
+| p32 | `Net Activity, Guaranteed Loan Financing  -2,242  -5,404  310  18,056  14,894  12,562` |
+| p34 | `Judicial Branch  653  676  1,024  955  794  874  636  960  802  7,374  7,134` |
+| p35 | `Federal Disability Insurance Trust Fund (Off-Budget)  13,096  13,716  13,348  13,689  13,714  13,867  13,532  13,561  13,484  122,006  120,134` |
+
+Every other cell of the three rows already matched its line.
+
+Cross-table ties inside the June statement, all exact:
+
+- **7,134** = Table 3 Judicial Branch, prior period year to date (`2026-06-table3-outlays-departments` `r2c3`) = Table 5 `Total--Judicial Branch`, prior fiscal year to date outlays (`2026-06-outlays-judicial` `r6c9`).
+- **120,134** = Table 5 `Total--Federal Disability Insurance Trust Fund (Off-Budget)`, prior fiscal year to date, gross and net (`2026-06-outlays-social-security` `r10c7`, `r10c9`).
+- The old values 7632 and 120164 occur in no other May–September Treasury unit.
+
+So `#323` and `#327` were plain misreads in cells no relation touches.
+
+### 3. `#318`: a source discrepancy, adjudicated like `r37`
+
+- p32 prints **12,562**. Both identities the unit declares compute **12,652**: monthly (14,894 + −2,242) and fiscal-year (18,056 + −5,404).
+- The **July** statement (p32) opens the same line at **12,652**, the computed value (`2026-07-table6-schedule-e-guaranteed` `r39c5`, as printed there).
+- Two rows up, `r37c6` (Small Business Administration, Business Loan Fund) shows the same pattern: June prints −53,892, both identities compute −53,982, and July opens at −53,982. That cell was adjudicated on 2026-08-18: printed value kept, `tol="90"` on both relations, with a `why` that says it is not rounding.
+- So column 6 of June p32 has two cells that each sit exactly 90 from the value that the statement's own arithmetic and the next month's opening balance agree on. Each printed value is the computed one with two adjacent digits swapped (−53,982 → −53,892; 12,652 → 12,562), and the two are off in opposite directions (+90 and −90).
+
+The unit held the computed value, which is why it reconciled exactly with a number the page does not print. The corpus rule is that a cell holds what the source prints, and a total that does not foot is a finding. `r39c6` now reads `12562`, and its two relations carry the same documented `tol="90"` as `r37`. Each tolerance equals its observed delta. Neither `why` claims rounding: a two-source sum in $ millions cannot round past 1.
+
+**Consequences worth knowing.**
+
+- With `tol="90"`, arithmetic no longer pins `r39c6` or `r37c6`: any value within 90 of the computed one passes. These two cells are held by the source check, like a `standalone` cell.
+- The month-to-month tie June close = July opening now breaks by 90 on these two lines (12,562 vs 12,652; −53,892 vs −53,982). Neither is a declared relation, and both units match their own print.
+- For the F3 back-port (declare the June column totals): the 38 printed lines of column 6 sum to 12,744, which is **182** from the printed 12,562 (90 + 90 + 2 of rounding). With both cells at their computed values the same sum is 12,654, 2 from 12,652. The June column-6 total will need this adjudication rather than a rounding tolerance.
+
+### 4. Corpus statistics that move
+
+- Non-zero `sum` tolerances: 3,410 → **3,412**.
+- Relations whose tolerance exceeds one unit per source: 70 → **72**. The Treasury share is now four relations, all in `#318` (`r37c6` and `r39c6`, two each), all marked source-side.
+- Cell, relation, role and standalone counts are unchanged.
+
+### 5. Gates
+
+- All three units reconcile **GREEN, 0 warnings**; `uv run python reconcile.py --all` **581/581 GREEN**; `uv run pytest` **23/23**.
+- The three files are strict UTF-8 (pure ASCII bytes), LF-only, with a final newline.
+- The row-level source check of [AUDIT-2026-11-27.md](AUDIT-2026-11-27.md) was run again over the whole corpus after the repair: treasury-mts **6,565 of 6,565** rows are now found on one printed line (6,562 before). The other families are unchanged; none of their files was touched.
+
+### 6. Notes
+
+- **This is outside the auditor's mechanical-repair rule.** `RUNBOOK-auditor.md` step 5 lets an auditor repair only what is mechanical and value-preserving. These are value changes, so they were reported first and made only on the user's instruction. An earlier corrected cell value in the same statement is `2026-06-table7-outlays-intl-sba` `r7c2` (2026-08-18; 10,826 → 10,775).
+- **Why the gates never saw them.** Two cells were `standalone`. The third had been set to the value that makes the sums close. Both are blind spots of arithmetic by construction; only a check against the print finds them.
+
+---

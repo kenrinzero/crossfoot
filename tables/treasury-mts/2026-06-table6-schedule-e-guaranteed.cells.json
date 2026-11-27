@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E \u2014 Guaranteed Loan Financing Activity",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Crosses p31\u2013p32.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. All guaranteed loan financing lines + Net Activity. All-(**) rows dropped. Repair 2026-11-27: Net Activity close r39c6 set to 12,562 as printed on p32 (was 12652, the value both roll-forwards compute and the July statement opens with); the source is off by 90 there, as at r37c6. Crosses p31\u2013p32.",
   "columns": [
     {
       "index": 1,
@@ -1571,7 +1571,7 @@
       "id": "r39c6",
       "row": 39,
       "col": 6,
-      "value": "12652",
+      "value": "12562",
       "role": "total"
     }
   ],
@@ -1766,7 +1766,9 @@
         "r39c1"
       ],
       "target": "r39c6",
-      "note": "balance roll-forward: begin-month + this-month = end-month (r39)"
+      "note": "balance roll-forward: begin-month + this-month = end-month (r39)",
+      "tol": "90",
+      "why": "Source does not close. p32 prints 12,562 while BOTH independent identities compute 12,652: monthly (begin-month 14,894 + this-month -2,242) and fiscal-year (begin-year 18,056 + FYTD -5,404). The July statement (p32) opens this line at 12,652. Transcription verified against the p32 text layer and a 3.0x page render on 2026-11-27; all six printed cells match the source exactly. This is a source-side discrepancy of 90, NOT rounding: a two-component sum in $ millions cannot round past 1. Same column and same size as r37 (Business Loan Fund), where p32 prints -53,892 against a computed -53,982."
     },
     {
       "type": "sum",
@@ -2009,7 +2011,9 @@
         "r39c2"
       ],
       "target": "r39c6",
-      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Guaranteed Loan Financing)"
+      "note": "fiscal-year roll-forward: begin-year + FYTD-this-year = end-month (Net Activity, Guaranteed Loan Financing)",
+      "tol": "90",
+      "why": "Source does not close. p32 prints 12,562 while BOTH independent identities compute 12,652: monthly (begin-month 14,894 + this-month -2,242) and fiscal-year (begin-year 18,056 + FYTD -5,404). The July statement (p32) opens this line at 12,652. Transcription verified against the p32 text layer and a 3.0x page render on 2026-11-27; all six printed cells match the source exactly. This is a source-side discrepancy of 90, NOT rounding: a two-component sum in $ millions cannot round past 1. Same column and same size as r37 (Business Loan Fund), where p32 prints -53,892 against a computed -53,982."
     }
   ]
 }

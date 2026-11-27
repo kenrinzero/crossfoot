@@ -7,7 +7,7 @@
     "title": "Table 7. Receipts and Outlays by Month \u2014 Outlays Legislative through Defense",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June (printed) + Year to Date + Comparable Period Prior F.Y. (July\u2013Sept headers empty). Legislative, Judicial, Agriculture, Commerce, Defense Military (with Total).",
+  "unit_note": "USD millions. ...... and (**) omitted not as 0. Columns: Oct\u2013June (printed) + Year to Date + Comparable Period Prior F.Y. (July\u2013Sept headers empty). Legislative, Judicial, Agriculture, Commerce, Defense Military (with Total). Repair 2026-11-27: Judicial Branch Comparable Period Prior F.Y. r2c11 set to 7,134 as printed on p34 (was 7632, a misread); it equals the Judicial Branch prior-year totals in June Table 3 and Table 5.",
   "columns": [
     {
       "index": 1,
@@ -269,7 +269,7 @@
       "id": "r2c11",
       "row": 2,
       "col": 11,
-      "value": "7632",
+      "value": "7134",
       "role": "standalone",
       "why": "Comparable Period Prior F.Y. is a single-column reference; schema minItems:2 prevents a one-source equality."
     },
