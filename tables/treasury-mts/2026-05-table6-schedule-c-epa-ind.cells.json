@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C — Federal Agency Borrowing (EPA, International, SBA, Independent Agencies, Other)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Borrowing from the US Treasury under EPA, International Assistance, SBA, Independent Agencies, and Other, plus the total borrowing lines for US Treasury and Federal Financing Bank (FFB) section totals. Blank and less-than-500k (**) cells omitted. Ships 19 relations (8 monthly + 11 fiscal-year) against a sizing floor of 12, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p27 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented.",
+  "unit_note": "USD millions. Borrowing from the US Treasury under EPA, International Assistance, SBA, Independent Agencies, and Other, plus the total borrowing lines for US Treasury and Federal Financing Bank (FFB) section totals. Blank and less-than-500k (**) cells omitted. Ships 19 relations (8 monthly + 11 fiscal-year) against a sizing floor of 12, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p27 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p27; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

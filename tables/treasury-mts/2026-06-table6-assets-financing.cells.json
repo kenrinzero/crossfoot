@@ -7,7 +7,7 @@
     "title": "Table 6. Means of Financing \u2014 Asset Accounts + Financing totals",
     "period": "June FY2026"
   },
-  "unit_note": "USD millions. ...... and (**) omitted. Loans to IMF all-(**) dropped. Total Liability Accounts re-anchored from #307 for Excess identity. Roll-forward col6\u2248col5+col1.",
+  "unit_note": "USD millions. ...... and (**) omitted. Loans to IMF all-(**) dropped. Total Liability Accounts re-anchored from #307 for Excess identity. Roll-forward col6\u2248col5+col1. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p24; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C — Federal Agency Borrowing (HHS, DHS, HUD, Interior, Labor, State, Transportation)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Borrowing from the US Treasury under HHS, DHS, HUD, Interior, Labor, State, and Transportation. Blank (dotted-leader) and less-than-500k (**) cells omitted per project convention. Ships 8 relations (3 monthly + 5 fiscal-year) against a sizing floor of 12 and remains under it: 13 of 18 rows print account balances with no transaction cell in either the This-Month or the Fiscal-Year-to-Date column, so neither roll-forward identity is computable there. Adjudicated 2026-08-18 against p26 - the floor was optimistic at sizing; nothing padded and no cell invented.",
+  "unit_note": "USD millions. Borrowing from the US Treasury under HHS, DHS, HUD, Interior, Labor, State, and Transportation. Blank (dotted-leader) and less-than-500k (**) cells omitted per project convention. Ships 8 relations (3 monthly + 5 fiscal-year) against a sizing floor of 12 and remains under it: 13 of 18 rows print account balances with no transaction cell in either the This-Month or the Fiscal-Year-to-Date column, so neither roll-forward identity is computable there. Adjudicated 2026-08-18 against p26 - the floor was optimistic at sizing; nothing padded and no cell invented. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p26; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

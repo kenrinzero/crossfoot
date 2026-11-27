@@ -167,10 +167,13 @@ Percent closures allow ±0.05 by default; 299 of the 589 declare 0.1 or
   the page column by column outside the audits, so others may exist in
   units audited by sample (up to #341).
 - **Labels.** Row and column labels sometimes use the corpus's wording
-  rather than the printed header: the printed "Beginning of This Month"
-  appears as "Close of Prior Month" in some units. Unit notes say so, but
-  labels were never checked corpus-wide. Join months by position, not by
-  label alone.
+  rather than the printed header. The Treasury Table 6 units label
+  column 5 with the printed "Beginning of This Month" (checked against
+  every page header on 2026-11-27), but the five Table 8 units still
+  call the same printed heading "Close of Prior Month", and other
+  column labels carry additions the page does not print (a qualifier
+  in parentheses, or " — end"). Labels were never checked corpus-wide.
+  Join months by position, not by label alone.
 - **Source errors stay in.** Cells hold what the source prints, including
   the three June figures listed under [Tolerances](#tolerances).
 

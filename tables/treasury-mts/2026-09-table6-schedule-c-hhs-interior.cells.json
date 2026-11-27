@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C \u2014 HHS through Interior",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp26-27. New row: Bureau of Indian Affairs and Bureau of Indian Education prints close-of-month 1 (all other columns (**)); CO-OP and CO-OP Contingency now print This-Month; FHA -4,218/6,553/16,671. Rounding note p28. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp26-27. New row: Bureau of Indian Affairs and Bureau of Indian Education prints close-of-month 1 (all other columns (**)); CO-OP and CO-OP Contingency now print This-Month; FHA -4,218/6,553/16,671. Rounding note p28. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p26; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

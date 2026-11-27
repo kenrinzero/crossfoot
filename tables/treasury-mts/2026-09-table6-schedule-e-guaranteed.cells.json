@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E \u2014 Guaranteed Loan Financing",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp31-32. Newly printed This-Month: FSA Agricultural Credit Insurance Fund -1, Biorefinery 1, Title 17 -2, Maritime -1, International Assistance Other -1; National Forest System FYTD-this-year -3; Renewable Energy and HOPE This-Month omitted. Net Activity 3,990/127/34,093/18,056/14,193/18,183; the Table 6 guaranteed row covers a wider scope, so no cross-tie is claimed (same as August). The col-3/col-4 roll-ups carry tol 3/4 over 30/38 independently rounded sources. Print p31 misspells the label 'Health Education Assitance Loans'; the unit keeps the corrected spelling (source-side typo). Rounding note p33. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp31-32. Newly printed This-Month: FSA Agricultural Credit Insurance Fund -1, Biorefinery 1, Title 17 -2, Maritime -1, International Assistance Other -1; National Forest System FYTD-this-year -3; Renewable Energy and HOPE This-Month omitted. Net Activity 3,990/127/34,093/18,056/14,193/18,183; the Table 6 guaranteed row covers a wider scope, so no cross-tie is claimed (same as August). The col-3/col-4 roll-ups carry tol 3/4 over 30/38 independently rounded sources. Print p31 misspells the label 'Health Education Assitance Loans'; the unit keeps the corrected spelling (source-side typo). Rounding note p33. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p31; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

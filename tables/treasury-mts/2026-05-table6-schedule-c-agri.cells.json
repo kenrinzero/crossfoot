@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C \u2014 Federal Agency Borrowing (Agriculture)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Values as printed, thousands separators stripped. '......' and '(**)' omitted not as 0. Agriculture lines under Borrowing from the US Treasury only (no FFB Rural Electrification here \u2014 FFB is separate section).",
+  "unit_note": "USD millions. Values as printed, thousands separators stripped. '......' and '(**)' omitted not as 0. Agriculture lines under Borrowing from the US Treasury only (no FFB Rural Electrification here \u2014 FFB is separate section). Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p26; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

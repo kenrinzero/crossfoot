@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C — EPA through Totals + FFB",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. HMO all-(**) and FDIC-as-Receiver all-omitted dropped. NEW Military Debt Reduction Prior-FYTD -41. Total Treasury 11,362/99,818/132,468/2,201,239/2,289,695/2,301,057; Total FFB 258/3,562/32,669/217,753/221,058/221,316.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. HMO all-(**) and FDIC-as-Receiver all-omitted dropped. NEW Military Debt Reduction Prior-FYTD -41. Total Treasury 11,362/99,818/132,468/2,201,239/2,289,695/2,301,057; Total FFB 258/3,562/32,669/217,753/221,058/221,316. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p27; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

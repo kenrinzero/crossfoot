@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D \u2014 Trust Funds + Grand Total",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp29-30. Library of Congress FYTD-this-year -3 newly printed; Tax Court and Legislative Other This-Month omitted; Agriculture This-Month/FYTD 17 newly printed; Defense Other This-Month -262; State Other This-Month/FYTD -2; Truman and Japan-US This-Month omitted. Grand Total -9,961/386,478/200,312/7,339,271/7,735,711/7,725,749 byte-matches Table 6 Federal Securities Held as Investments of Government Accounts (#558 r9); Total Federal Funds re-anchored from #567. Rounding note p30. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp29-30. Library of Congress FYTD-this-year -3 newly printed; Tax Court and Legislative Other This-Month omitted; Agriculture This-Month/FYTD 17 newly printed; Defense Other This-Month -262; State Other This-Month/FYTD -2; Truman and Japan-US This-Month omitted. Grand Total -9,961/386,478/200,312/7,339,271/7,735,711/7,725,749 byte-matches Table 6 Federal Securities Held as Investments of Government Accounts (#558 r9); Total Federal Funds re-anchored from #567. Rounding note p30. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p29; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

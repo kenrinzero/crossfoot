@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C \u2014 EPA through Totals + FFB",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp27-28. Spectrum Auction Loan Fund close-of-month now omitted (This-Month -3,080/-3,080 newly printed); FFB Sovereign This-Month omitted; newly printed This-Month: DCA 20, International Monetary Programs 136, SBA Disaster -15,046, Presidio -5. Total Borrowing from the US Treasury -20,701/79,118/276,268/2,201,239/2,301,057/2,280,357. Rounding note p28. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print pp27-28. Spectrum Auction Loan Fund close-of-month now omitted (This-Month -3,080/-3,080 newly printed); FFB Sovereign This-Month omitted; newly printed This-Month: DCA 20, International Monetary Programs 136, SBA Disaster -15,046, Presidio -5. Total Borrowing from the US Treasury -20,701/79,118/276,268/2,201,239/2,301,057/2,280,357. Rounding note p28. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p27; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

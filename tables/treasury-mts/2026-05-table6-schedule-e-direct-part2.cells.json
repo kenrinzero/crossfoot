@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E \u2014 Direct Loan Financing Activity (HHS through Independent Agencies & Totals)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Direct Loan Financing Activity under HHS through Independent Agencies & Totals. Blank and less-than-500k (**) cells omitted. AUDIT REPAIR 2026-07-18 (Grok, unit-160 spot-audit): inserted two printed rows that were missing from the original transcription \u2014 (1) Transitional Housing Loans (Beginning-of-This-Year -1 only; other cols (**) omitted); (2) Agency for International Development / International Debt Reduction (balance cols -172/-172/-172; transactions blank). Values taken from the page-33 render; no existing values changed; row/cell ids renumbered. Same completeness class as the unit-129 Botanic Garden missing-memo finding (invisible to strict coverage).",
+  "unit_note": "USD millions. Direct Loan Financing Activity under HHS through Independent Agencies & Totals. Blank and less-than-500k (**) cells omitted. AUDIT REPAIR 2026-07-18 (Grok, unit-160 spot-audit): inserted two printed rows that were missing from the original transcription \u2014 (1) Transitional Housing Loans (Beginning-of-This-Year -1 only; other cols (**) omitted); (2) Agency for International Development / International Debt Reduction (balance cols -172/-172/-172; transactions blank). Values taken from the page-33 render; no existing values changed; row/cell ids renumbered. Same completeness class as the unit-129 Botanic Garden missing-memo finding (invisible to strict coverage). Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p32; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

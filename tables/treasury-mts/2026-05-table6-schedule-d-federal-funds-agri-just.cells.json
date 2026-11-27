@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D — Investments of Federal Government Accounts (Federal Funds: Agriculture through Justice)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Investments of Federal Funds under Agriculture through Justice. Blank and less-than-500k (**) cells omitted. Ships 12 relations (6 monthly + 6 fiscal-year) against a sizing floor of 10, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p29 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented.",
+  "unit_note": "USD millions. Investments of Federal Funds under Agriculture through Justice. Blank and less-than-500k (**) cells omitted. Ships 12 relations (6 monthly + 6 fiscal-year) against a sizing floor of 10, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p29 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p29; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

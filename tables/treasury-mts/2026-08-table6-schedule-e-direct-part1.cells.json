@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E — Direct Loan Financing (Agri–HHS)",
     "period": "August FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. Direct Agri–HHS. CHIPS This-Month -4 / FYTD -30; closes -26/-30; begin and Prior omitted. Rural Business This-Month and closes (**). Remainder of Direct is the next unit.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6≈col5+col1 and col6≈col4+col2 where present. Table 6 footnote: details may not add to totals due to rounding. Direct Agri–HHS. CHIPS This-Month -4 / FYTD -30; closes -26/-30; begin and Prior omitted. Rural Business This-Month and closes (**). Remainder of Direct is the next unit. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p32; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

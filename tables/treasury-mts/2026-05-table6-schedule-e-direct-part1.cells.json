@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule E — Direct Loan Financing Activity (Agriculture through Energy)",
     "period": "May FY2026"
   },
-  "unit_note": "USD millions. Direct Loan Financing Activity under Agriculture through Energy. Blank and less-than-500k (**) cells omitted. Ships 39 relations (18 monthly + 21 fiscal-year) against a sizing floor of 20, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p32 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented.",
+  "unit_note": "USD millions. Direct Loan Financing Activity under Agriculture through Energy. Blank and less-than-500k (**) cells omitted. Ships 39 relations (18 monthly + 21 fiscal-year) against a sizing floor of 20, which it now clears. It was below floor while only the monthly roll-forward was declared; adjudicated 2026-08-18 against p32 and resolved the same day by declaring the fiscal-year roll-forward family-wide. Nothing was padded and no cell invented. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p32; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month — open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

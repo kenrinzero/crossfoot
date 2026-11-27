@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule D \u2014 Federal Funds",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print p29. Commerce FYTD both years and close-of-month now omitted, This-Month -2 newly printed; HHS FYTD both years omitted; Agriculture This-Month omitted; Justice This-Month 38 newly printed. Total Federal Funds -12,141/140,048/115,309/1,064,480/1,216,670/1,204,529. Rounding note p30. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). Ported from the August twin, re-anchored to the September print p29. Commerce FYTD both years and close-of-month now omitted, This-Month -2 newly printed; HHS FYTD both years omitted; Agriculture This-Month omitted; Justice This-Month 38 newly printed. Total Federal Funds -12,141/140,048/115,309/1,064,480/1,216,670/1,204,529. Rounding note p30. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p29; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

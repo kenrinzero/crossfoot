@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule B",
     "period": "July FY2026"
   },
-  "unit_note": "USD millions. Architect of the Capitol / FCC / NARA all-(**) rows dropped. FHA stationary balances; TVA drives Total Agency Securities.",
+  "unit_note": "USD millions. Architect of the Capitol / FCC / NARA all-(**) rows dropped. FHA stationary balances; TVA drives Total Agency Securities. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p25; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

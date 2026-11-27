@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule C \u2014 Federal Agency Borrowing (Agriculture)",
     "period": "July FY2026"
   },
-  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. Agriculture lines under Borrowing from the US Treasury only. July omits This-Month on 10 lines that printed in June (only CCC This-Month is present), so only one roll-forward is declarable.",
+  "unit_note": "USD millions. Values as printed. '......' and '(**)' omitted not as 0. Roll-forward: col6\u2248col5+col1 where present. Agriculture lines under Borrowing from the US Treasury only. July omits This-Month on 10 lines that printed in June (only CCC This-Month is present), so only one roll-forward is declarable. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p26; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,

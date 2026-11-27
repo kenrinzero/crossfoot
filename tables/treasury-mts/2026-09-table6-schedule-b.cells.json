@@ -7,7 +7,7 @@
     "title": "Table 6. Schedule B",
     "period": "September FY2026 (Final)"
   },
-  "unit_note": "USD millions. ...... and (**) omitted (not zero). September TVA prints -500/-1,370/1,810 (August +250/-870/2,060); Total Agency Securities -500/-1,370/1,810/22,075/21,205/20,705 byte-matches the Table 6 Agency Securities row (#558 r7, p24). Architect of the Capitol, FCC and NARA rows remain all-omission and are not carried. p25; rounding note p25. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print.",
+  "unit_note": "USD millions. ...... and (**) omitted (not zero). September TVA prints -500/-1,370/1,810 (August +250/-870/2,060); Total Agency Securities -500/-1,370/1,810/22,075/21,205/20,705 byte-matches the Table 6 Agency Securities row (#558 r7, p24). Architect of the Capitol, FCC and NARA rows remain all-omission and are not carried. p25; rounding note p25. Both monthly and fiscal-year roll-forwards declared per DESIGN 4a where all three cells print. Relabel 2026-11-27: column 5 label corrected to Beginning of This Month as printed on p25; labels only, no cell changed.",
   "columns": [
     {
       "index": 1,
@@ -27,7 +27,7 @@
     },
     {
       "index": 5,
-      "label": "Close of This Month \u2014 open/prior (Account Balance)"
+      "label": "Beginning of This Month (Account Balance)"
     },
     {
       "index": 6,
