@@ -594,7 +594,7 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-08-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (July: 45) | 0 | SHIPPED 2026-09-17 (corpus #501; 45c/3r = floor; Black Lung and Military Advances all-`......` dropped; Total 6,274,791/6,492,831/6,519,041 byte-match Table 6-D Total Trust Funds; close-prior byte-matches July close-this-month; p36). **August MTS family 80/80 COMPLETE.** |
 
 
-## Treasury MTS September 2026 — 79 shipped, 1 READY (80 units, D-tiered)
+## Treasury MTS September 2026 — 80/80 shipped (Final FY2026)
 
 Source vendored 2026-11-26: `sources/treasury-mts/mts-202609.pdf`, 2,309,827 bytes,
 sha256 `fcabeccd…0585e7db` (full hash in `sources/SOURCES.md`). Content-gate PASS —
@@ -607,7 +607,7 @@ September closes FY2026, Table 1 gains its 12th FY2026 month row (26 rows total)
 Table 7 populates all 12 months (Oct–Sept + YTD + Prior = 14 columns); three dense
 Table 7 caps are bumped from `≤ 200` to `≤ 250 cells` accordingly.
 
-**Corpus numbering:** this family is #502–#581 against a corpus of 580. September audits are GREEN through **#570** (closed 2026-11-26, Antigravity / Gemini 4 Argon (High); 0 mismatches, 0 repairs). Units **#571–#580** shipped 2026-11-26 (Antigravity / Gemini 4 Argon (High)); **#580 every-10th audit is DUE** (different agent required) and **#581** (`table8-investments`, the final unit of the 80-unit September family) is **blocked** awaiting the `#580` audit.
+**Corpus numbering.** All 80 September units shipped as #502–#581. The cadence audits through #580 and the separate closing audit of #581 are GREEN in `AUDITS.md`.
 
 **Floors are PROVISIONAL.** `min relations` carry forward the August family's READY floors,
 and every Table 6 unit inherits DESIGN § 4a (declare both monthly and fiscal-year
@@ -717,6 +717,149 @@ strict coverage cannot see a missing row — cross-check row COUNTS against the 
 | treasury-mts/2026-09-table7-outlays-uor-totals | Table 7 UOR + monthly Totals this/prior year | D2 | vision | 30 | sum | ≤ 250 cells (Aug: 209) | 8 | SHIPPED 2026-11-26 (corpus #579; 18 rows / 14 cols / 227c / 64r vs floor 30; 6 standalones ≤ waiver 8 — Sale of Major Assets r4 newly prints -1 in Sept col 12 in addition to -1 in March col 6 -> YTD -3 tol-1, converting 2 cells from standalone; strict-default GREEN, 0 warnings; Aug col 11 Outlays 526,812 / Deficit -166,779 reflect -$18M Air Force restatement; Sept Outlays 584,775 / YTD 7,395,800 and Deficit -26,900 / -1,992,473 byte-match Tables 1–3 and Table 8; p35) |
 | treasury-mts/2026-09-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) | D2 | vision | 40 | sum | ≤ 150 cells (Aug: 131) | 6 | SHIPPED 2026-11-26 (corpus #580; 23 rows / 6 cols / 131c / 53r vs floor 40; 6 standalones = waiver; strict-default GREEN, 0 warnings; Total Trust Excess 14,444 / 113,070 is the internal r18+r19=r17 identity (audit #580: these values occur nowhere in #568; the Table 6-D tie runs via the companion unit #581's cols 7–9 = #568 r40 c4/c5/c6); Net Budget 557,875/584,775/-26,900 / 5,403,327/7,395,800/-1,992,473 byte-matches Tables 1–3 and Table 7; p36. **Every-10th audit #580 closed GREEN 2026-11-27 by MiniMax Code / MiniMax-M3.1-Flash (whole-batch #571–#580, 1,572 values / 94 omissions / 1,666 positions / 278 relations, 0 mismatches, 0 repairs, 0 missing DESIGN §4a identity classes); #581 unblocked. Next audit #590.**) |
 | treasury-mts/2026-09-table8-investments | Table 8 Securities Held as Investments | D3 | vision | 3 | sum | ≤ 60 cells (Aug: 45) | 0 | SHIPPED 2026-11-27 (corpus #581; 15 rows / 45c / 3r = floor; 0 standalones; strict-default GREEN, 0 warnings; Black Lung Disability and Military Advances all-`......` dropped, same 15-row shape as Jun/Jul/Aug; roll-ups begin-year 6,274,789 vs 6,274,791 tol-2, close-prior 6,519,041 exact, close-this-month 6,521,220 vs 6,521,221 tol-1, each tol = observed delta with the printed rounding note quoted; r15 c1/c2/c3 byte-match #568 r40 c4/c5/c6 = 6,274,791 / 6,519,041 / 6,521,221, and close-prior byte-matches Aug close-this-month; p36. **September family COMPLETE 80/80 (#502–#581); next cadence audit #590.**) |
+
+## Treasury MTS October 2026 — 80 READY (FY2027 month 1)
+
+Treasury’s October 31 statement is vendored at `sources/treasury-mts/mts-202610.pdf`.
+The source ledger records the official URL, 2,123,129 bytes and SHA-256. The 38-page
+PDF contains Tables 1–9 and all five Table 6 schedules. The October page references
+below follow the printed pages.
+
+**Dispatch #582–#661 in the order below.** The 80 September scopes all have October
+figures. Retaining them keeps the department, schedule and monthly slices comparable.
+Table 5 accounts for 49 units, Table 6 for 14, Table 7 for eight and Table 8 for two.
+The other seven cover Tables 1–4 and 9, including the established Table 4 net
+major-classification slice. The first batch is #582–#590, as September #581 already
+has its own audit. Run the source check on each shipped batch and the different-agent
+audit at each multiple of ten. After #660, carry #661 into the next audit or record
+its own closing audit.
+
+**Sizing.** Counts in parentheses are October numeric cells, including printed totals
+repeated in sibling units. The 80 scopes size to 6,383 cells, compared with 8,072
+shipped for September. Relation floors and standalone allowances are provisional.
+They use October’s printed components and subtotals. Verify every row on a render,
+keep a printed zero, and omit dots, `(**)` and empty slots. Record any variance against
+the page. Each nonzero rounding tolerance needs the source’s own rounding note.
+There are 53 D2 units and 27 D3 units. D3 covers relation-free slices and simple
+units with at most 60 cells and 15 relations. Capstones and units that reconcile
+departmental remainders are D2. `ties-siblings` requires agreement with the sibling
+units named by the scope. `cross-table` calls for comparing shared figures across
+tables. A `row-count-check` also requires counting the printed rows.
+
+- **Tables 1–3.** Table 1 has 15 rows and 18 sums, including three annual sums
+  for FY2026. The FY2027 October and YTD lines each have their own row balance.
+  The prior-period comparison in Tables 2–3 ties to October of FY2026. Table 1
+  reprints September receipts, outlays and deficit as 557,876 / 584,872 / 26,996
+  ($ millions). Use those values in the October unit. Table 2 puts the full-year
+  estimate before the prior comparison and the FY2028 estimate last. Table 3
+  puts the prior comparison before the full-year estimate.
+- **Tables 5–6.** Table 5 ends on p22, where the rounding and omission notes appear.
+  Table 6 begins on p23. For each six-column balance row, check both
+  `begin-month + monthly change = close` and `begin-year + FYTD change = close`
+  whenever the three respective amounts print (DESIGN §4a). In Schedule C the
+  HHS–Interior slice has 13 rows with balances only. The EPA–Independent Agencies
+  slice contains all six Federal Financing Bank column totals on pp26–27.
+  In Schedule E, verify all six guaranteed-loan totals. On p30 the FHA-General
+  and Special Risk Fund prior-year transaction prints **−201**. The PDF text
+  changes baseline inside that number. The direct-loan block starts on p31 and
+  ends at the direct-loan total on p32 despite the repeated guaranteed-loan
+  continuation heading on p32.
+- **Table 7.** Retain the printed 14-column order. Only October (c1), fiscal YTD
+  (c13) and the comparable prior period (c14) carry amounts. November through
+  September are shaded. The eight slices have 257 numeric cells in total. A
+  single month supplies no multi-source YTD sum. The four receipt-total splits,
+  three Defense subtotals and eight outlay/deficit splits still have two or more
+  operands. The standalone slices have nine numeric receipt
+  classifications, 15 from Education through Labor, 13 from State through GSA,
+  eight from International Assistance through SBA, and nine for SSA and
+  Independent Agencies. Check their amounts against the corresponding tables.
+- **Table 8.** Count the six activity column sums over the individual funds, as
+  well as the row identities and budget totals. The three investment totals tie
+  to Schedule D on p29. Both opening columns print 6,521,221 and close prints
+  6,484,401 ($ millions).
+
+| unit | table | D | needs | min relations (prov.) | types | size cap | standalone waivers (prov.) | status |
+|---|---|---|---|---|---|---|---|---|
+| treasury-mts/2026-10-table1 | Table 1 monthly receipts, outlays and deficit for FY2026 and October FY2027 (p5) | D2 | vision, cross-table | 18 | sum | ≤ 60 cells (45 sized) | 0 | READY |
+| treasury-mts/2026-10-table2 | Table 2 budget/off-budget results and financing (p5) | D2 | vision, cross-table | 25 | sum | ≤ 60 cells (51 sized) | 0 | READY |
+| treasury-mts/2026-10-table3-receipts | Table 3 budget receipts block (p8) | D3 | vision, cross-table | 12 | sum | ≤ 60 cells (52 sized) | 0 | READY |
+| treasury-mts/2026-10-table3-outlays-departments | Table 3 department outlay lines (p8) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 150 cells (112 sized) | 112 | READY |
+| treasury-mts/2026-10-table3-outlays-remainder | Table 3 totals/SSA/UOR/deficit remainder (p8) | D2 | vision, cross-table | 20 | sum | ≤ 60 cells (50 sized) | 17 | READY |
+| treasury-mts/2026-10-table9 | Table 9 receipts by source / outlays by function (p36) | D2 | vision, cross-table | 6 | sum | ≤ 100 cells (90 sized) | 0 | READY |
+| treasury-mts/2026-10-receipts-major | Table 4 major receipts classifications, net columns (p9) | D3 | vision, cross-table | 6 | sum | ≤ 60 cells (30 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-legislative | Table 5 Legislative Branch (p10) | D2 | vision | 19 | sum | ≤ 100 cells (92 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-judicial | Table 5 Judicial Branch (p10) | D3 | vision | 9 | sum | ≤ 60 cells (39 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-eop | Table 5 Executive Office of the President (p19) | D3 | vision | 6 | sum | ≤ 60 cells (32 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-agriculture-programs | Table 5 Agriculture programs (unit 1/3) (p10) | D2 | vision | 18 | sum | ≤ 150 cells (110 sized) | 58 | READY |
+| treasury-mts/2026-10-outlays-agriculture-fns | Table 5 Agriculture FNS and Rural (unit 2/3) (p10) | D2 | vision | 12 | sum | ≤ 100 cells (78 sized) | 30 | READY |
+| treasury-mts/2026-10-outlays-agriculture-departmental | Table 5 Agriculture departmental capstone (unit 3/3) (pp10–11) | D2 | vision, ties-siblings | 36 | sum | ≤ 250 cells (205 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-commerce | Table 5 Department of Commerce (p11) | D2 | vision | 16 | sum | ≤ 60 cells (59 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-defense-programs | Table 5 DoD Military Personnel/O&M/Procurement (unit 1/3) (p11) | D2 | vision | 18 | sum | ≤ 100 cells (90 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-defense-rdte | Table 5 DoD RDT&E/MilCon/Family Housing (unit 2/3) (p11) | D2 | vision | 12 | sum | ≤ 100 cells (84 sized) | 24 | READY |
+| treasury-mts/2026-10-outlays-defense-departmental | Table 5 DoD Military departmental capstone (unit 3/3) (pp11–12) | D2 | vision, ties-siblings | 12 | sum | ≤ 150 cells (133 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-education-bureaus | Table 5 Education bureaus (unit 1/2) (p12) | D2 | vision | 18 | sum | ≤ 100 cells (78 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-education-departmental | Table 5 Education departmental capstone (unit 2/2) (p12) | D2 | vision, ties-siblings | 9 | sum | ≤ 100 cells (87 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-energy | Table 5 Department of Energy (pp12–13) | D2 | vision | 27 | sum | ≤ 150 cells (132 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-hhs-cms | Table 5 HHS CMS (unit 1/3) (p13) | D2 | vision | 18 | sum | ≤ 100 cells (84 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-hhs-acf | Table 5 HHS ACF and small agencies (unit 2/3) (p13) | D2 | vision | 9 | sum | ≤ 150 cells (135 sized) | 54 | READY |
+| treasury-mts/2026-10-outlays-hhs-departmental | Table 5 HHS departmental capstone (unit 3/3) (pp13–14) | D2 | vision, ties-siblings | 15 | sum | ≤ 150 cells (106 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-homeland-security | Table 5 Department of Homeland Security (p14) | D2 | vision | 27 | sum | ≤ 150 cells (126 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-hud-bureaus | Table 5 HUD bureaus (unit 1/2) (p14) | D2 | vision | 12 | sum | ≤ 100 cells (72 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-hud-departmental | Table 5 HUD departmental capstone (unit 2/2) (pp14–15) | D2 | vision, ties-siblings | 25 | sum | ≤ 150 cells (119 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-interior-bureaus | Table 5 Interior bureaus (unit 1/2) (p15) | D2 | vision | 34 | sum | ≤ 150 cells (116 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-interior-departmental | Table 5 Interior departmental capstone (unit 2/2) (p15) | D2 | vision, ties-siblings | 17 | sum | ≤ 100 cells (68 sized) | 6 | READY |
+| treasury-mts/2026-10-outlays-justice | Table 5 Department of Justice (p15) | D2 | vision | 15 | sum | ≤ 150 cells (120 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-labor-bureaus | Table 5 Labor ETA bureaus (unit 1/2) (p16) | D2 | vision | 12 | sum | ≤ 100 cells (80 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-labor-departmental | Table 5 Labor departmental capstone (unit 2/2) (p16) | D2 | vision, ties-siblings | 12 | sum | ≤ 100 cells (96 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-state | Table 5 Department of State (p16) | D2 | vision | 15 | sum | ≤ 100 cells (87 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-transportation-bureaus | Table 5 Transportation FAA/FHA/FTA (unit 1/2) (pp16–17) | D2 | vision | 30 | sum | ≤ 100 cells (94 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-transportation-departmental | Table 5 Transportation departmental capstone (unit 2/2) (pp16–17) | D2 | vision, ties-siblings | 18 | sum | ≤ 100 cells (85 sized) | 6 | READY |
+| treasury-mts/2026-10-outlays-treasury-bureaus | Table 5 Treasury bureaus excl. IRS (unit 1/3) (p17) | D2 | vision | 9 | sum | ≤ 100 cells (83 sized) | 46 | READY |
+| treasury-mts/2026-10-outlays-treasury-irs | Table 5 Treasury IRS (unit 2/3) (p17) | D2 | vision | 6 | sum | ≤ 100 cells (72 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-treasury-departmental | Table 5 Treasury departmental capstone (unit 3/3) (pp17–18) | D2 | vision, ties-siblings | 27 | sum | ≤ 150 cells (136 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-veterans-affairs | Table 5 Department of Veterans Affairs (p18) | D2 | vision | 33 | sum | ≤ 150 cells (127 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-corps-engineers | Table 5 Corps of Engineers (p18) | D3 | vision | 9 | sum | ≤ 60 cells (51 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-other-defense-civil | Table 5 Other Defense Civil Programs (p18) | D3 | vision | 9 | sum | ≤ 60 cells (57 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-epa | Table 5 Environmental Protection Agency (p19) | D3 | vision | 14 | sum | ≤ 60 cells (59 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-gsa | Table 5 General Services Administration (p19) | D3 | vision | 9 | sum | ≤ 60 cells (35 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-international-assistance-bureaus | Table 5 International Assistance, ISA and AID (unit 1/2) (p19) | D2 | vision | 12 | sum | ≤ 100 cells (66 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-international-assistance-departmental | Table 5 International Assistance capstone (unit 2/2) (p19) | D2 | vision, ties-siblings | 17 | sum | ≤ 100 cells (74 sized) | 6 | READY |
+| treasury-mts/2026-10-outlays-nasa | Table 5 NASA (p19) | D3 | vision | 6 | sum | ≤ 60 cells (42 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-nsf | Table 5 National Science Foundation (p20) | D3 | vision | 6 | sum | ≤ 60 cells (24 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-opm | Table 5 Office of Personnel Management (p20) | D2 | vision | 18 | sum | ≤ 100 cells (61 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-sba | Table 5 Small Business Administration (p20) | D3 | vision | 13 | sum | ≤ 60 cells (47 sized) | 1 | READY |
+| treasury-mts/2026-10-outlays-social-security | Table 5 Social Security Administration (p20) | D2 | vision | 21 | sum | ≤ 100 cells (75 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-grand-total-capstone | Table 5 grand-total On/Off/Total Outlays capstone (p22) | D2 | vision, cross-table | 18 | sum | ≤ 60 cells (27 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-independent-a-n | Table 5 Independent Agencies Global Media through NRC (incl. nested FDIC total) (pp20–21) | D2 | vision | 20 | sum | ≤ 200 cells (153 sized) | 96 | READY |
+| treasury-mts/2026-10-outlays-postal | Table 5 Postal Service (Off-Budget PEF + Other) (p21) | D3 | vision | 3 | sum | ≤ 60 cells (15 sized) | 6 | READY |
+| treasury-mts/2026-10-outlays-railroad-retirement | Table 5 Railroad Retirement Board (full nested trust funds + Total) (p21) | D2 | vision | 9 | sum | ≤ 100 cells (77 sized) | 3 | READY |
+| treasury-mts/2026-10-outlays-independent-remainder | Table 5 Independent Agencies remainder and Total (p21) | D2 | vision | 10 | sum | ≤ 60 cells (40 sized) | 10 | READY |
+| treasury-mts/2026-10-outlays-uor-employer-share | Table 5 UOR Employer Share, Employee Retirement (pp21–22) | D3 | vision | 6 | sum | ≤ 60 cells (54 sized) | 0 | READY |
+| treasury-mts/2026-10-outlays-uor-departmental | Table 5 UOR interest, rents and royalties, Employer Share and department total (pp21–22) | D2 | vision, ties-siblings | 15 | sum | ≤ 150 cells (139 sized) | 3 | READY |
+| treasury-mts/2026-10-table6-liabilities | Table 6 Means of Financing — Liability Accounts (p23) | D2 | vision | 64 | sum | ≤ 150 cells (102 sized) | 2 | READY |
+| treasury-mts/2026-10-table6-assets-financing | Table 6 Means of Financing — Asset Accounts + Financing totals (p23) | D2 | vision | 69 | sum | ≤ 150 cells (124 sized) | 2 | READY |
+| treasury-mts/2026-10-table6-schedule-a | Table 6 Schedule A — Change in Excess of Liabilities (p24) | D3 | vision | 10 | sum | ≤ 60 cells (31 sized) | 5 | READY |
+| treasury-mts/2026-10-table6-schedule-b | Table 6 Schedule B — Agency Securities Under Special Financing Authorities (p24) | D3 | vision | 7 | sum | ≤ 60 cells (15 sized) | 2 | READY |
+| treasury-mts/2026-10-table6-schedule-c-agri | Table 6 Schedule C Agriculture borrowing (p25) | D2 | vision | 18 | sum | ≤ 100 cells (70 sized) | 25 | READY |
+| treasury-mts/2026-10-table6-schedule-c-comm-energy | Table 6 Schedule C Commerce through Energy (p25) | D3 | vision | 4 | sum | ≤ 60 cells (47 sized) | 37 | READY |
+| treasury-mts/2026-10-table6-schedule-c-hhs-interior | Table 6 Schedule C HHS through Interior (pp25–26) | D3 | vision, row-count-check | 0 | — | ≤ 60 cells (39 sized) | 39 | READY |
+| treasury-mts/2026-10-table6-schedule-c-labor-vets | Table 6 Schedule C Labor through Veterans Affairs (p26) | D3 | vision | 6 | sum | ≤ 60 cells (51 sized) | 36 | READY |
+| treasury-mts/2026-10-table6-schedule-c-epa-ind | Table 6 Schedule C EPA through Totals + FFB (pp26–27) | D2 | vision, ties-siblings | 34 | sum | ≤ 150 cells (111 sized) | 23 | READY |
+| treasury-mts/2026-10-table6-schedule-d-federal-funds | Table 6 Schedule D Federal Funds investments (p28) | D2 | vision | 48 | sum | ≤ 200 cells (155 sized) | 1 | READY |
+| treasury-mts/2026-10-table6-schedule-d-trust-funds | Table 6 Schedule D Trust Funds + Grand Total (pp28–29) | D2 | vision | 82 | sum | ≤ 250 cells (226 sized) | 4 | READY |
+| treasury-mts/2026-10-table6-schedule-e-guaranteed | Table 6 Schedule E Guaranteed Loan Financing (pp30–31) | D2 | vision | 36 | sum | ≤ 200 cells (156 sized) | 0 | READY |
+| treasury-mts/2026-10-table6-schedule-e-direct-part1 | Table 6 Schedule E Direct Loan Financing (Agri–HHS) (p31) | D2 | vision | 36 | sum | ≤ 150 cells (134 sized) | 44 | READY |
+| treasury-mts/2026-10-table6-schedule-e-direct-part2 | Table 6 Schedule E Direct Loan Financing remainder + Net (p32) | D2 | vision, ties-siblings | 34 | sum | ≤ 150 cells (143 sized) | 58 | READY |
+| treasury-mts/2026-10-table7-receipts-detail | Table 7 receipts by classification (p33) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 60 cells (27 sized) | 27 | READY |
+| treasury-mts/2026-10-table7-receipts-totals | Table 7 receipts totals On/Off-Budget (p33) | D3 | vision, cross-table | 4 | sum | ≤ 60 cells (12 sized) | 0 | READY |
+| treasury-mts/2026-10-table7-outlays-leg-def | Table 7 outlays Legislative through Defense Military (p33) | D3 | vision, cross-table | 3 | sum | ≤ 60 cells (45 sized) | 18 | READY |
+| treasury-mts/2026-10-table7-outlays-edu-labor | Table 7 outlays Education through Labor (p33) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 60 cells (45 sized) | 45 | READY |
+| treasury-mts/2026-10-table7-outlays-state-gsa | Table 7 outlays State through GSA (incl. VA) (pp33–34) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 60 cells (39 sized) | 39 | READY |
+| treasury-mts/2026-10-table7-outlays-intl-sba | Table 7 outlays International Assistance through SBA (p34) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 60 cells (24 sized) | 24 | READY |
+| treasury-mts/2026-10-table7-outlays-ssa-independents | Table 7 outlays SSA + Independent Agencies (p34) | D3 | vision, cross-table, row-count-check | 0 | — | ≤ 60 cells (27 sized) | 27 | READY |
+| treasury-mts/2026-10-table7-outlays-uor-totals | Table 7 UOR, borrowing and current/prior-year totals (p34) | D2 | vision, cross-table | 8 | sum | ≤ 60 cells (38 sized) | 14 | READY |
+| treasury-mts/2026-10-table8-activity | Table 8 Trust Fund Impact activity (Receipts/Outlays/Excess) (p35) | D2 | vision, cross-table | 54 | sum | ≤ 150 cells (126 sized) | 0 | READY |
+| treasury-mts/2026-10-table8-investments | Table 8 Securities Held as Investments (p35) | D3 | vision, cross-table | 3 | sum | ≤ 60 cells (45 sized) | 0 | READY |
 
 ## PENDING AUDIT - fiscal-year roll-forward rollout (2026-08-18)
 

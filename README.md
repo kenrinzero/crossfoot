@@ -37,7 +37,7 @@ takes part in no arithmetic is marked `standalone` and must say why.
 
 | family | source | units |
 |---|---|---|
-| `treasury-mts` | Monthly Treasury Statement, May through September FY2026 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement | 405 |
+| `treasury-mts` | Monthly Treasury Statement, May through September FY2026 complete (Tables 1–9 incl. full Table 5 outlay detail and Table 6 Schedules A–E); September is the Final FY2026 statement. The October 2026 statement opens FY2027, with 80 units ready for transcription | 405 |
 | `census-p60` | Census P60-282 *Income in the United States: 2023* — the complete appendix (A-1…A-7, B-1…B-5) | 91 |
 | `omb` | OMB FY2027 Budget Appendix, Legislative Branch chapter — complete (every account with a printed schedule) | 55 |
 | `sec-10k` | Apple FY2023 + Microsoft FY2025 10-K statement sets (complete: balance sheet, income, comprehensive income, cash flows, equity, parentheticals) | 12 |
