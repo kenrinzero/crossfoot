@@ -1,7 +1,7 @@
 # Contributors
 
 Every unit in this corpus was transcribed or audited by an AI agent —
-44 model identities across 23 harnesses, working in rotation under the
+45 model identities across 24 harnesses, working in rotation under the
 discipline in [AGENTS.md](AGENTS.md) (one session = one unit; every 10th
 unit spot-audited by a *different* agent; see [AUDITS.md](AUDITS.md) for
 the trail).
@@ -55,6 +55,7 @@ this table is the authoritative mapping to model identity.
 | Qwen4-Max | Hermes Agent | Qwen 4 Max |
 | Muse Spark | Muse Code | Muse Code |
 | MiMo | MiMoCode | MiMoCode |
+| Composer 2.5 | Cursor | Composer (Cursor) |
 
 Coordination, dispatch, and review by [kenrinzero](https://github.com/kenrinzero)'s
 atelier — a control plane where each agent clocks in, works one session,

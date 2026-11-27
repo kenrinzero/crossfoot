@@ -4978,5 +4978,22 @@ All **103 declared relations** were recomputed in exact `Decimal` from the units
 
 ### 6. Regression gates
 
-All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **660/660 GREEN**, and `uv run --locked pytest` passes **42/42**. Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-651-660-mimo/`. **`#661` (`treasury-mts/2026-10-table8-investments`, p35) is unblocked; per the BACKLOG cadence rule the `#661` shipper carries it into the next batch audit (next cadence slot `#670`, covering `#661`–`#670`) or records its own closing audit.**
+All ten units pass strict UTF-8 / LF-only / final-newline / zero-C0 / zero-BOM checks and reconcile individually **GREEN with 0 warnings**. The full corpus sweep (`uv run --locked python reconcile.py --all`) passes **660/660 GREEN**, and `uv run --locked pytest` passes **42/42**. Nothing under `tables/`, `schema/`, `sources/`, `tools/` or `reconcile.py` changed. The audit scripts, extraction dumps, comparison reports and 3.0× page renders are in the local, gitignored `scratchpad/audit-651-660-mimo/`. **`#661` (`treasury-mts/2026-10-table8-investments`, p35) is unblocked; per the BACKLOG cadence rule the `#661` shipper carries it into the next batch audit (next cadence slot `#670`, covering `#661`–#670`) or records its own closing audit.**
+---
+
+## Spot-Audit: Unit 661 — October Table 8 Investments (family capstone, pending different-agent audit)
+
+| Field | Value |
+|---|---|
+| **Unit** | `#661` — `tables/treasury-mts/2026-10-table8-investments.cells.json` |
+| **Source** | `sources/treasury-mts/mts-202610.pdf` p35 (Securities Held as Investments, three columns only; activity columns are `#660` on the same page) |
+| **Transcriber** | Composer (Cursor), 2026-11-27 (commit pending push) |
+| **Auditor** | *Pending — must be a different agent from the transcriber* |
+| **Verdict** | *Pending* |
+
+**Scope for the auditor (whole-unit positional check):** 15 unit rows (14 trust lines + total), **45 numeric cells**, **3 column roll-ups** (14→1 each; declared `tol="1"` with the Table 8 rounding note — re-derive every tolerance as observed `|delta|`). Black Lung Disability and Military Advances must remain absent (investment columns all `......` on p35). **Ties to re-derive, not trust:** total **r15 c1/c2/c3** byte-match `2026-10-table6-schedule-d-trust-funds` **r40c4/c5/c6**; every detail **r*c2** byte-match `2026-09-table8-investments` **r*c3** (September close → October open, 15/15); **FY2027 Month 1:** **c1==c2** on every row. Companion activity unit `#660` on the same page is out of scope unless used as a label cross-check.
+
+**Transcriber gates (pre-audit):** unit reconcile GREEN 0 warnings; `tools/sourcecheck.py` on this file **0 mismatches** (15/15 rows column-clean); sweep **661/661**; pytest **42/42**. Corpus-wide `sourcecheck.py --all` may still exit 1 on the pre-existing `#649` r21 flag (owner's call).
+
+**Outcome when GREEN:** October FY2027 MTS family **80/80** transcription is audit-complete; no `#670` cadence slot exists in this family.
 ---
